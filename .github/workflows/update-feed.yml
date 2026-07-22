@@ -1,0 +1,52 @@
+name: Update literature RSS
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "config.json"
+      - "literature_rss.py"
+      - ".github/workflows/update-feed.yml"
+  schedule:
+    # GitHub Actions uses UTC. 00:30 UTC = 08:30 China Standard Time.
+    - cron: "30 0 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Build feed
+        run: python literature_rss.py --output public
+      - name: Commit updated feed state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/feed.xml public/papers.json public/candidate-review.json public/last-run.json
+          git diff --cached --quiet || git commit -m "chore: update literature feed"
+          git push
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload RSS site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

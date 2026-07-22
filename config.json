@@ -1,0 +1,68 @@
+{
+  "feed": {
+    "title": "Mesoporous Conductive Frameworks & Electrochemical Assembly",
+    "description": "介孔导电/共轭 MOF、COF、晶态多孔框架组装及电化学合成文献监测",
+    "language": "zh-CN",
+    "link": "https://maxwelldemon8023.github.io/mesoporous-framework-rss/feed.xml",
+    "max_items": 100
+  },
+  "search": {
+    "lookback_days": 7,
+    "bootstrap_lookback_days": 180,
+    "candidate_pool_size": 60,
+    "final_selection_count": 5,
+    "minimum_score": 34,
+    "timeout_seconds": 25,
+    "sources": ["openalex", "crossref", "arxiv"],
+    "mailto": ""
+  },
+  "queries": [
+    "mesoporous conductive metal organic framework",
+    "mesoporous conjugated MOF COF",
+    "hierarchical porous conductive MOF",
+    "electrochemical synthesis metal organic framework",
+    "electrodeposition electrocrystallization MOF COF",
+    "micelle directed crystalline porous framework",
+    "surfactant templated MOF COF",
+    "interfacial assembly conjugated framework"
+  ],
+  "keywords": {
+    "framework": [
+      "metal-organic framework", "metal organic framework", "mof", "mofs",
+      "covalent organic framework", "cof", "cofs", "coordination polymer",
+      "crystalline porous framework"
+    ],
+    "conductive": [
+      "conductive", "electrically conductive", "conjugated", "pi-conjugated",
+      "π-conjugated", "semiconducting", "charge transport"
+    ],
+    "mesoporous": [
+      "mesoporous", "mesostructured", "hierarchical porosity", "hierarchically porous",
+      "pore engineering", "pore expansion", "large pore"
+    ],
+    "assembly": [
+      "self-assembly", "self assembly", "cooperative assembly", "interfacial assembly",
+      "confined crystallization", "oriented growth", "nucleation", "crystal growth",
+      "micelle", "surfactant", "templating", "block copolymer"
+    ],
+    "electrochemical": [
+      "electrochemical synthesis", "electrosynthesis", "electrocrystallization",
+      "electrodeposition", "anodic dissolution", "cathodic deposition",
+      "potential-controlled", "pulse electrodeposition", "electrochemical self-assembly"
+    ]
+  },
+  "tracked_people_and_orgs": [
+    "Dongyuan Zhao", "Zhao Dongyuan", "Xiaomin Li", "Li Xiaomin",
+    "Fudan University"
+  ],
+  "exclude_phrases": [
+    "metal-organic framework derived",
+    "hydrogen organic framework templated",
+    "mof-derived",
+    "mof derived",
+    "metal-organic framework derived carbon",
+    "mof-derived carbon",
+    "mof derived carbon",
+    "amorphous porous carbon"
+  ]
+}
