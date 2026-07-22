@@ -1,6 +1,8 @@
 # 介孔导电框架文献 RSS
 
-这是一个面向介孔导电/共轭 MOF、COF、晶态多孔框架组装与电化学合成的个人学术 RSS。它每天从 OpenAlex、Crossref 和 arXiv 获取候选论文，跨来源去重、按研究相关性评分，再生成标准 RSS 2.0 文件。首次运行回看 180 天建立种子库，后续每天回看 7 天；没有合格新论文时保留历史条目，不用低质量结果凑数。
+这是一个面向介孔导电/共轭 MOF、COF、晶态多孔框架组装与电化学合成的个人学术 RSS。它每天从 OpenAlex、Crossref 和 arXiv 检索北京时间昨日 00:00–23:59 发表的候选论文，跨来源去重、按研究相关性评分，再生成标准 RSS 2.0 日报。
+
+RSS 每天只新增一个日报条目，日报内部汇总全部达标论文，不设置必须凑够 5 篇的要求。若昨日没有带 DOI 且达到门槛的论文，也会发布一条 0 篇日报。每篇收录论文均显示 DOI，并通过 GitHub Models 生成基于题目和摘要的中文题目、内容介绍、方法概述和课题相关性说明。
 
 ## 当前研究画像
 
@@ -27,6 +29,7 @@ Set-Location D:\Codexlocal\mesoporous-framework-rss
 
 - `public/feed.xml`：RSS 阅读器订阅文件；
 - `public/papers.json`：历史论文和评分记录；
+- `public/digests.json`：每日汇总条目及其论文内容；
 - `public/candidate-review.json`：最高分候选及逐维得分，包括被淘汰记录，用于校准；
 - `public/last-run.json`：本次运行统计及数据库错误。
 
@@ -51,11 +54,15 @@ Set-Location D:\Codexlocal\mesoporous-framework-rss
 | 实验可借鉴性 | 10 |
 | 归档价值 | 5 |
 
-主题匹配低于 10 分会被淘汰。`MOF-derived carbon`、非晶多孔碳等常见偏题内容会受到额外扣分。首轮建议保持较宽的召回范围，人工检查约一周后再调整 `minimum_score` 和关键词。
+主题匹配低于 10 分会被淘汰。`MOF-derived carbon`、非晶多孔碳等常见偏题内容会受到额外扣分。缺少 DOI 的记录不会进入日报。建议人工检查约一周后再调整 `minimum_score` 和关键词。
+
+## 中文介绍
+
+云端工作流使用 GitHub Models，并只向模型发送论文题目、摘要、期刊、DOI、命中主题和相关性评分。提示词要求模型不得虚构实验条件、数值或结论。工作流权限限定为 `models: read`；无需在仓库保存单独的模型 API 密钥。如果模型服务临时不可用，程序会使用证据受限的中文回退介绍并在 `last-run.json` 中记录错误。
 
 ## 自动更新与公开订阅
 
-`.github/workflows/update-feed.yml` 已提供北京时间每天 08:30 更新的 GitHub Actions 模板。部署步骤是：
+`.github/workflows/update-feed.yml` 已提供北京时间每天 08:30 更新的 GitHub Actions 模板。
 
 1. 将本目录作为 GitHub 仓库推送；
 2. 在仓库 Settings → Pages 中确认 Source 为 `GitHub Actions`；本项目的工作流会直接发布 `public/`；
@@ -76,8 +83,9 @@ python -m unittest discover -s tests -v
 
 ## 已知边界
 
-- 当前“推荐理由”来自透明的关键词命中规则，不是大模型生成的中文摘要；
+- 中文介绍只依据数据库提供的题目和摘要，不等同于全文精读；
 - Crossref 有些记录只有元数据，没有摘要；
 - 预印本和正式论文优先通过 DOI、arXiv ID、OpenAlex ID及标准化标题去重，但标题变化较大时仍可能重复；
 - 免费 API 偶尔会限流，失败会记录在 `last-run.json`，其他来源仍会继续运行；
+- GitHub Models 属于公开预览并有调用限额；本流程每篇论文只生成一次中文介绍，并提供失败回退；
 - GitHub Pages 是公开地址。如果研究画像或历史记录需要保密，应改用私有服务器或只在本地订阅。

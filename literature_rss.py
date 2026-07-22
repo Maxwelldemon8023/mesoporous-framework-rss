@@ -68,6 +68,15 @@ def http_get_json(url, timeout):
         return json.loads(response.read().decode("utf-8"))
 
 
+def http_post_json(url, payload, headers, timeout):
+    body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    request_headers = {"User-Agent": USER_AGENT, "Content-Type": "application/json"}
+    request_headers.update(headers)
+    req = urllib.request.Request(url, data=body, headers=request_headers, method="POST")
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
 def http_get_xml(url, timeout):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=timeout) as response:
@@ -84,10 +93,10 @@ def reconstruct_abstract(inverted):
     return " ".join(word for _, word in sorted(positioned))
 
 
-def search_openalex(query, since, limit, config):
+def search_openalex(query, date_from, date_to, limit, config):
     params = {
         "search": query,
-        "filter": "from_publication_date:" + since,
+        "filter": "from_publication_date:%s,to_publication_date:%s" % (date_from, date_to),
         "per-page": min(limit, 100),
         "select": "id,doi,title,publication_date,primary_location,authorships,abstract_inverted_index"
     }
@@ -123,10 +132,10 @@ def search_openalex(query, since, limit, config):
     return papers
 
 
-def search_crossref(query, since, limit, config):
+def search_crossref(query, date_from, date_to, limit, config):
     params = {
         "query.title": query,
-        "filter": "from-pub-date:" + since,
+        "filter": "from-pub-date:%s,until-pub-date:%s" % (date_from, date_to),
         "rows": min(limit, 100),
         "select": "DOI,title,abstract,author,published-online,published-print,container-title,URL"
     }
@@ -157,7 +166,7 @@ def search_crossref(query, since, limit, config):
     return papers
 
 
-def search_arxiv(query, since, limit, config):
+def search_arxiv(query, date_from, date_to, limit, config):
     params = {
         "search_query": "all:" + ' AND all:'.join('"%s"' % part for part in query.split()),
         "start": 0,
@@ -168,11 +177,12 @@ def search_arxiv(query, since, limit, config):
     url = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode(params)
     root = http_get_xml(url, config["search"]["timeout_seconds"])
     atom = {"a": "http://www.w3.org/2005/Atom"}
-    cutoff = parse_date(since)
+    cutoff = parse_date(date_from)
+    upper = parse_date(date_to)
     papers = []
     for entry in root.findall("a:entry", atom):
         published = (entry.findtext("a:published", default="", namespaces=atom) or "")[:10]
-        if parse_date(published) < cutoff:
+        if parse_date(published) < cutoff or parse_date(published) > upper:
             continue
         entry_url = entry.findtext("a:id", default="", namespaces=atom)
         arxiv_id = entry_url.rsplit("/", 1)[-1]
@@ -274,26 +284,118 @@ def rfc2822(date_value):
     return email.utils.formatdate(stamp, usegmt=True)
 
 
-def make_description(paper):
-    authors = ", ".join(paper.get("authors", [])[:8]) or "作者信息暂缺"
-    abstract = paper.get("abstract") or "当前来源未提供摘要。"
-    if len(abstract) > 1200:
-        abstract = abstract[:1197] + "..."
-    hit_terms = []
-    for values in paper.get("hits", {}).values():
-        hit_terms.extend(values)
+def fallback_chinese_content(paper):
+    hit_labels = []
+    labels = {"conductive": "导电与共轭特性", "mesoporous": "介孔或分级孔结构", "assembly": "组装与结晶过程", "electrochemical": "电化学合成"}
+    for key, label in labels.items():
+        if paper.get("hits", {}).get(key):
+            hit_labels.append(label)
+    focus = "、".join(hit_labels) if hit_labels else "晶态多孔框架材料"
+    return {
+        "title_zh": paper.get("title", ""),
+        "introduction_zh": "该文围绕%s展开。当前自动化来源提供的信息有限，建议结合原始摘要和全文核查具体合成条件、孔结构表征与性能结论。" % focus,
+        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
+        "relevance_zh": paper.get("recommendation", "与本课题方向相关。")
+    }
+
+
+def parse_model_json(content):
+    content = (content or "").strip()
+    if content.startswith("```"):
+        content = re.sub(r"^```(?:json)?\s*|\s*```$", "", content, flags=re.I | re.S)
+    start = content.find("[")
+    end = content.rfind("]")
+    if start < 0 or end < start:
+        raise ValueError("Model response did not contain a JSON array")
+    return json.loads(content[start:end + 1])
+
+
+def enrich_chinese(papers, config, errors):
+    if not papers:
+        return papers
+    ai_config = config.get("ai", {})
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    if not ai_config.get("enabled", True) or not token:
+        for paper in papers:
+            paper.update(fallback_chinese_content(paper))
+        if ai_config.get("enabled", True):
+            errors.append("GITHUB_TOKEN unavailable; used evidence-limited Chinese fallback")
+        return papers
+
+    batch_size = max(1, int(ai_config.get("batch_size", 5)))
+    max_chars = int(ai_config.get("max_abstract_chars", 3500))
+    for offset in range(0, len(papers), batch_size):
+        batch = papers[offset:offset + batch_size]
+        records = [{
+            "doi": paper.get("doi", ""),
+            "title": paper.get("title", ""),
+            "abstract": (paper.get("abstract") or "")[:max_chars],
+            "journal": paper.get("journal", ""),
+            "relevance_score": paper.get("score", 0),
+            "matched_topics": {key: values for key, values in paper.get("hits", {}).items() if values}
+        } for paper in batch]
+        prompt = (
+            "你是材料化学文献编辑。研究主线是介孔导电MOF、共轭MOF/COF、晶态多孔框架的组装与电化学合成。"
+            "仅依据提供的题目和摘要，为每篇文献生成中文介绍，不得虚构实验条件、数值或结论。"
+            "返回严格JSON数组，每项包含doi、title_zh、introduction_zh、methods_zh、relevance_zh。"
+            "introduction_zh用120至220字说明研究问题、材料、策略和主要结论；methods_zh概述有证据的方法，证据不足时明确说明；"
+            "relevance_zh说明对上述研究主线的价值与局限。不要使用Markdown。输入：" + json.dumps(records, ensure_ascii=False)
+        )
+        payload = {
+            "model": ai_config.get("model", "openai/gpt-4o"),
+            "temperature": 0.2,
+            "messages": [{"role": "user", "content": prompt}]
+        }
+        try:
+            response = http_post_json(
+                ai_config.get("api_url", "https://models.github.ai/inference/chat/completions"),
+                payload,
+                {"Authorization": "Bearer " + token, "Accept": "application/vnd.github+json"},
+                config["search"]["timeout_seconds"]
+            )
+            items = parse_model_json(response["choices"][0]["message"]["content"])
+            by_doi = {str(item.get("doi", "")).lower(): item for item in items}
+            for paper in batch:
+                generated = by_doi.get(paper.get("doi", "").lower())
+                if generated:
+                    paper.update({key: str(generated.get(key, "")).strip() for key in ("title_zh", "introduction_zh", "methods_zh", "relevance_zh")})
+                if not paper.get("introduction_zh"):
+                    paper.update(fallback_chinese_content(paper))
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ValueError, KeyError, IndexError, json.JSONDecodeError) as exc:
+            errors.append("GitHub Models Chinese introduction failed: %s" % exc)
+            for paper in batch:
+                paper.update(fallback_chinese_content(paper))
+    return papers
+
+
+def make_daily_description(digest):
+    papers = digest.get("papers", [])
     parts = [
-        "<p><strong>相关性评分：</strong>%s/100；<strong>阅读深度：</strong>%s</p>" % (paper.get("score", 0), html.escape(paper.get("reading_depth", ""))),
-        "<p><strong>推荐理由：</strong>%s</p>" % html.escape(paper.get("recommendation", "")),
-        "<p><strong>作者：</strong>%s</p>" % html.escape(authors),
-        "<p><strong>命中词：</strong>%s</p>" % html.escape(", ".join(sorted(set(hit_terms))) or "无"),
-        "<p><strong>摘要：</strong>%s</p>" % html.escape(abstract),
-        "<p><strong>来源：</strong>%s</p>" % html.escape(", ".join(paper.get("sources", [])))
+        "<h2>%s 文献日报</h2>" % html.escape(digest["date"]),
+        "<p>检索范围：北京时间昨日 00:00–23:59；经多源去重和相关性筛选，共收录 <strong>%d</strong> 篇带 DOI 的论文。</p>" % len(papers)
     ]
+    if not papers:
+        parts.append("<p>昨日没有发现达到当前相关性门槛且具有 DOI 的新论文。本日报不以低相关结果凑数。</p>")
+        return "".join(parts)
+    for index, paper in enumerate(papers, 1):
+        authors = ", ".join(paper.get("authors", [])[:10]) or "作者信息暂缺"
+        doi = paper.get("doi", "")
+        doi_url = "https://doi.org/" + doi
+        parts.extend([
+            "<hr><h3>#%d %s</h3>" % (index, html.escape(paper.get("title_zh") or paper.get("title", ""))),
+            "<p><strong>原始题目：</strong>%s</p>" % html.escape(paper.get("title", "")),
+            "<p><strong>作者：</strong>%s</p>" % html.escape(authors),
+            "<p><strong>期刊与日期：</strong>%s；%s</p>" % (html.escape(paper.get("journal", "")), html.escape(paper.get("published", ""))),
+            "<p><strong>DOI：</strong><a href=\"%s\">%s</a></p>" % (html.escape(doi_url), html.escape(doi)),
+            "<p><strong>中文内容介绍：</strong>%s</p>" % html.escape(paper.get("introduction_zh", "")),
+            "<p><strong>方法概述：</strong>%s</p>" % html.escape(paper.get("methods_zh", "")),
+            "<p><strong>与你研究方向的关系：</strong>%s</p>" % html.escape(paper.get("relevance_zh", "")),
+            "<p><strong>相关性评分：</strong>%s/100；<strong>阅读深度：</strong>%s</p>" % (paper.get("score", 0), html.escape(paper.get("reading_depth", "")))
+        ])
     return "".join(parts)
 
 
-def build_feed(papers, config, generated_at):
+def build_feed(digests, config, generated_at):
     feed_cfg = config["feed"]
     ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
     rss = ET.Element("rss", {"version": "2.0"})
@@ -303,14 +405,15 @@ def build_feed(papers, config, generated_at):
     ET.SubElement(channel, "lastBuildDate").text = email.utils.format_datetime(generated_at.replace(tzinfo=dt.timezone.utc), usegmt=True)
     ET.SubElement(channel, "generator").text = "Mesoporous Framework Literature RSS"
     ET.SubElement(channel, "{http://www.w3.org/2005/Atom}link", {"href": feed_cfg["link"], "rel": "self", "type": "application/rss+xml"})
-    for paper in papers:
+    for digest in digests:
         item = ET.SubElement(channel, "item")
-        ET.SubElement(item, "title").text = "[%s] %s" % (paper.get("score", 0), paper.get("title", "Untitled"))
-        ET.SubElement(item, "link").text = paper.get("url") or feed_cfg["link"]
-        ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = stable_id(paper)
-        ET.SubElement(item, "pubDate").text = rfc2822(paper.get("published"))
-        ET.SubElement(item, "description").text = make_description(paper)
-        ET.SubElement(item, "category").text = paper.get("journal") or "Literature"
+        count = len(digest.get("papers", []))
+        ET.SubElement(item, "title").text = "%s 文献日报｜%d篇" % (digest["date"], count)
+        ET.SubElement(item, "link").text = feed_cfg["link"]
+        ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = "daily:" + digest["date"]
+        ET.SubElement(item, "pubDate").text = rfc2822(digest["date"])
+        ET.SubElement(item, "description").text = make_daily_description(digest)
+        ET.SubElement(item, "category").text = "每日文献日报"
     try:
         ET.indent(rss, space="  ")
     except AttributeError:
@@ -336,13 +439,14 @@ def atomic_write(path, content, binary=False):
     os.replace(tmp, path)
 
 
-def run(config_path, output_dir, fixture_path=None):
+def run(config_path, output_dir, fixture_path=None, target_date=None):
     config = load_json(config_path, {})
     now = utcnow()
+    china_tz = dt.timezone(dt.timedelta(hours=8))
+    china_now = dt.datetime.now(china_tz)
+    target_date = target_date or (china_now.date() - dt.timedelta(days=1)).strftime("%Y-%m-%d")
     state_path = os.path.join(output_dir, "papers.json")
-    is_bootstrap = not os.path.exists(state_path)
-    lookback_days = config["search"].get("bootstrap_lookback_days", config["search"]["lookback_days"]) if is_bootstrap else config["search"]["lookback_days"]
-    since = (now - dt.timedelta(days=lookback_days)).strftime("%Y-%m-%d")
+    digests_path = os.path.join(output_dir, "digests.json")
     errors = []
     all_papers = []
     if fixture_path:
@@ -353,7 +457,7 @@ def run(config_path, output_dir, fixture_path=None):
         for query in config["queries"]:
             for source in config["search"]["sources"]:
                 try:
-                    found = source_functions[source](query, since, per_query, config)
+                    found = source_functions[source](query, target_date, target_date, per_query, config)
                     all_papers.extend(found)
                     print("%-10s | %2d | %s" % (source, len(found), query))
                 except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ET.ParseError, ValueError, KeyError) as exc:
@@ -369,31 +473,46 @@ def run(config_path, output_dir, fixture_path=None):
     # and score calibration does not become a black box.
     review_path = os.path.join(output_dir, "candidate-review.json")
     atomic_write(review_path, json.dumps(scored[:50], ensure_ascii=False, indent=2))
-    eligible = [p for p in scored if p["hits"].get("framework") and p["scores"]["topic"] >= 10 and p["score"] >= config["search"]["minimum_score"]]
+    eligible = [
+        p for p in scored
+        if iso_date(p.get("published")) == target_date
+        and p["hits"].get("framework")
+        and p["scores"]["topic"] >= 10
+        and p["score"] >= config["search"]["minimum_score"]
+        and (p.get("doi") or not config["search"].get("require_doi", True))
+    ]
     eligible.sort(key=lambda p: (p["score"], parse_date(p.get("published"))), reverse=True)
-    selected = eligible[:config["search"]["final_selection_count"]]
+    daily_max = int(config["search"].get("daily_max_count", 0))
+    selected = eligible[:daily_max] if daily_max > 0 else eligible
+    enrich_chinese(selected, config, errors)
 
     previous = load_json(state_path, [])
     combined = merge_papers(selected + previous)
     for paper in combined:
         score_paper(paper, config)
-    future_cutoff = now + dt.timedelta(days=2)
     combined = [
         p for p in combined
         if p["hits"].get("framework")
         and p["scores"]["topic"] >= 10
         and p["score"] >= config["search"]["minimum_score"]
-        and parse_date(p.get("published")) <= future_cutoff
+        and (p.get("doi") or not config["search"].get("require_doi", True))
     ]
     combined.sort(key=lambda p: (parse_date(p.get("published")), p.get("score", 0)), reverse=True)
-    combined = combined[:config["feed"].get("max_items", 100)]
+    combined = combined[:500]
+
+    digest = {"date": target_date, "generated_at": now.isoformat() + "Z", "papers": selected}
+    digests = [d for d in load_json(digests_path, []) if d.get("date") != target_date]
+    digests.append(digest)
+    digests.sort(key=lambda d: d.get("date", ""), reverse=True)
+    digests = digests[:config["feed"].get("max_items", 100)]
 
     atomic_write(state_path, json.dumps(combined, ensure_ascii=False, indent=2))
-    atomic_write(os.path.join(output_dir, "feed.xml"), build_feed(combined, config, now), binary=True)
-    report = {"generated_at": now.isoformat() + "Z", "bootstrap": is_bootstrap, "since": since, "raw_candidates": len(all_papers), "unique_candidates": len(merged), "eligible": len(eligible), "selected": len(selected), "feed_items": len(combined), "errors": errors}
+    atomic_write(digests_path, json.dumps(digests, ensure_ascii=False, indent=2))
+    atomic_write(os.path.join(output_dir, "feed.xml"), build_feed(digests, config, now), binary=True)
+    report = {"generated_at": now.isoformat() + "Z", "target_date": target_date, "raw_candidates": len(all_papers), "unique_candidates": len(merged), "eligible": len(eligible), "selected": len(selected), "daily_digest_items": len(digests), "errors": errors}
     atomic_write(os.path.join(output_dir, "last-run.json"), json.dumps(report, ensure_ascii=False, indent=2))
     print(json.dumps(report, ensure_ascii=False, indent=2))
-    return 0 if combined or all_papers else 2
+    return 0
 
 
 def main():
@@ -401,8 +520,9 @@ def main():
     parser.add_argument("--config", default=os.path.join(os.path.dirname(__file__), "config.json"))
     parser.add_argument("--output", default=os.path.join(os.path.dirname(__file__), "public"))
     parser.add_argument("--fixture", help="Read candidate papers from JSON instead of network APIs")
+    parser.add_argument("--date", help="Digest date in YYYY-MM-DD; defaults to yesterday in Asia/Shanghai")
     args = parser.parse_args()
-    return run(os.path.abspath(args.config), os.path.abspath(args.output), args.fixture)
+    return run(os.path.abspath(args.config), os.path.abspath(args.output), args.fixture, args.date)
 
 
 if __name__ == "__main__":

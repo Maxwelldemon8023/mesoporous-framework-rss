@@ -27,12 +27,23 @@ class PipelineTests(unittest.TestCase):
 
     def test_fixture_run_writes_valid_rss(self):
         with tempfile.TemporaryDirectory() as output:
-            code = MODULE.run(os.path.join(ROOT, "config.json"), output, os.path.join(ROOT, "tests", "fixture.json"))
+            code = MODULE.run(os.path.join(ROOT, "config.json"), output, os.path.join(ROOT, "tests", "fixture.json"), "2026-07-20")
             self.assertEqual(code, 0)
             tree = ET.parse(os.path.join(output, "feed.xml"))
             items = tree.findall("./channel/item")
             self.assertEqual(len(items), 1)
-            self.assertIn("Electrochemical assembly", items[0].findtext("title"))
+            self.assertEqual(items[0].findtext("title"), "2026-07-20 文献日报｜1篇")
+            description = items[0].findtext("description")
+            self.assertIn("中文内容介绍", description)
+            self.assertIn("10.0000/example.1", description)
+
+    def test_empty_day_still_writes_one_digest(self):
+        with tempfile.TemporaryDirectory() as output:
+            MODULE.run(os.path.join(ROOT, "config.json"), output, os.path.join(ROOT, "tests", "fixture.json"), "2026-07-19")
+            tree = ET.parse(os.path.join(output, "feed.xml"))
+            items = tree.findall("./channel/item")
+            self.assertEqual(len(items), 1)
+            self.assertEqual(items[0].findtext("title"), "2026-07-19 文献日报｜0篇")
 
 
 if __name__ == "__main__":

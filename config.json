@@ -7,14 +7,20 @@
     "max_items": 100
   },
   "search": {
-    "lookback_days": 7,
-    "bootstrap_lookback_days": 180,
     "candidate_pool_size": 60,
-    "final_selection_count": 5,
+    "daily_max_count": 0,
+    "require_doi": true,
     "minimum_score": 34,
     "timeout_seconds": 25,
     "sources": ["openalex", "crossref", "arxiv"],
     "mailto": ""
+  },
+  "ai": {
+    "enabled": true,
+    "model": "openai/gpt-4o",
+    "api_url": "https://models.github.ai/inference/chat/completions",
+    "max_abstract_chars": 3500,
+    "batch_size": 5
   },
   "queries": [
     "mesoporous conductive metal organic framework",
