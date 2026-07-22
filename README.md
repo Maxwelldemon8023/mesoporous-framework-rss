@@ -4,6 +4,10 @@
 
 RSS 每天只新增一个日报条目，日报内部汇总全部达标论文，不设置必须凑够 5 篇的要求。若昨日没有带 DOI 且达到门槛的论文，也会发布一条 0 篇日报。每篇收录论文均显示 DOI，并通过 GitHub Models 生成基于题目和摘要的中文题目、内容介绍、方法概述和课题相关性说明。
 
+## [逐期日报归档](issues/README.md)
+
+每次生成 RSS 时，同步在 `issues/<年份>/` 下保存一份独立 Markdown 日报，例如 `issues/2026/2026-07-21.md`。`issues/README.md` 是按年份、月份排列的总目录，结构参考 `ruanyf/weekly`。Markdown 归档永久保留，不受 RSS 最近 100 期显示上限影响。
+
 ## 当前研究画像
 
 - 材料：导电 MOF、共轭 MOF、二维 MOF、导电 COF/共轭 COF；
@@ -32,6 +36,8 @@ Set-Location D:\Codexlocal\mesoporous-framework-rss
 - `public/digests.json`：每日汇总条目及其论文内容；
 - `public/candidate-review.json`：最高分候选及逐维得分，包括被淘汰记录，用于校准；
 - `public/last-run.json`：本次运行统计及数据库错误。
+- `issues/README.md`：可在 GitHub 中浏览的逐期日报总目录；
+- `issues/<年份>/<日期>.md`：每期完整中文日报。
 
 本地预览：
 

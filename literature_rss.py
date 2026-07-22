@@ -395,6 +395,101 @@ def make_daily_description(digest):
     return "".join(parts)
 
 
+def markdown_escape(value):
+    return str(value or "").replace("|", "\\|").strip()
+
+
+def write_markdown_archive(digest, archive_root):
+    year = digest["date"][:4]
+    issue_dir = os.path.join(archive_root, year)
+    issue_path = os.path.join(issue_dir, digest["date"] + ".md")
+    papers = digest.get("papers", [])
+    lines = [
+        "# %s 介孔导电框架文献日报" % digest["date"],
+        "",
+        "> 检索范围：北京时间昨日 00:00–23:59；多源检索、去重和相关性筛选；仅收录具有 DOI 的论文。",
+        "",
+        "本期收录 **%d 篇**论文。" % len(papers),
+        ""
+    ]
+    if not papers:
+        lines.extend(["昨日没有发现达到当前相关性门槛且具有 DOI 的新论文。本期不以低相关结果凑数。", ""])
+    for index, paper in enumerate(papers, 1):
+        doi = paper.get("doi", "")
+        authors = ", ".join(paper.get("authors", [])[:20]) or "作者信息暂缺"
+        lines.extend([
+            "## %d. %s" % (index, markdown_escape(paper.get("title_zh") or paper.get("title"))),
+            "",
+            "- **原始题目：** %s" % markdown_escape(paper.get("title")),
+            "- **作者：** %s" % markdown_escape(authors),
+            "- **期刊：** %s" % markdown_escape(paper.get("journal")),
+            "- **发表日期：** %s" % markdown_escape(paper.get("published")),
+            "- **DOI：** [%s](https://doi.org/%s)" % (markdown_escape(doi), markdown_escape(doi)),
+            "- **相关性评分：** %s/100" % paper.get("score", 0),
+            "- **阅读深度：** %s" % markdown_escape(paper.get("reading_depth")),
+            "",
+            "### 中文内容介绍",
+            "",
+            markdown_escape(paper.get("introduction_zh")),
+            "",
+            "### 方法概述",
+            "",
+            markdown_escape(paper.get("methods_zh")),
+            "",
+            "### 与研究方向的关系",
+            "",
+            markdown_escape(paper.get("relevance_zh")),
+            ""
+        ])
+    atomic_write(issue_path, "\n".join(lines).rstrip() + "\n")
+    return issue_path
+
+
+def update_archive_index(archive_root):
+    entries = []
+    if os.path.isdir(archive_root):
+        for year in os.listdir(archive_root):
+            year_path = os.path.join(archive_root, year)
+            if not re.match(r"^\d{4}$", year) or not os.path.isdir(year_path):
+                continue
+            for filename in os.listdir(year_path):
+                match = re.match(r"^(\d{4}-\d{2}-\d{2})\.md$", filename)
+                if not match:
+                    continue
+                issue_date = match.group(1)
+                issue_path = os.path.join(year_path, filename)
+                try:
+                    with open(issue_path, "r", encoding="utf-8") as handle:
+                        body = handle.read(500)
+                    count_match = re.search(r"本期收录 \*\*(\d+) 篇\*\*", body)
+                    count = int(count_match.group(1)) if count_match else 0
+                except (OSError, ValueError):
+                    count = 0
+                entries.append((issue_date, year, filename, count))
+    entries.sort(reverse=True)
+    lines = [
+        "# 介孔导电框架文献日报归档",
+        "",
+        "每天北京时间 08:30 自动更新。每期保存为独立 Markdown 文件，并与 RSS 同步生成。",
+        ""
+    ]
+    current_year = None
+    current_month = None
+    for issue_date, year, filename, count in entries:
+        month = issue_date[5:7]
+        if year != current_year:
+            lines.extend(["## %s 年" % year, ""])
+            current_year = year
+            current_month = None
+        if month != current_month:
+            lines.extend(["### %s 月" % month, ""])
+            current_month = month
+        lines.append("- [%s 文献日报（%d篇）](%s/%s)" % (issue_date, count, year, filename))
+    if not entries:
+        lines.append("归档将在下一次日报运行后自动创建。")
+    atomic_write(os.path.join(archive_root, "README.md"), "\n".join(lines).rstrip() + "\n")
+
+
 def build_feed(digests, config, generated_at):
     feed_cfg = config["feed"]
     ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
@@ -409,7 +504,9 @@ def build_feed(digests, config, generated_at):
         item = ET.SubElement(channel, "item")
         count = len(digest.get("papers", []))
         ET.SubElement(item, "title").text = "%s 文献日报｜%d篇" % (digest["date"], count)
-        ET.SubElement(item, "link").text = feed_cfg["link"]
+        archive_base = config.get("archive", {}).get("github_base_url", "").rstrip("/")
+        issue_link = "%s/%s/%s.md" % (archive_base, digest["date"][:4], digest["date"]) if archive_base else feed_cfg["link"]
+        ET.SubElement(item, "link").text = issue_link
         ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = "daily:" + digest["date"]
         ET.SubElement(item, "pubDate").text = rfc2822(digest["date"])
         ET.SubElement(item, "description").text = make_daily_description(digest)
@@ -439,7 +536,7 @@ def atomic_write(path, content, binary=False):
     os.replace(tmp, path)
 
 
-def run(config_path, output_dir, fixture_path=None, target_date=None):
+def run(config_path, output_dir, fixture_path=None, target_date=None, archive_root_override=None):
     config = load_json(config_path, {})
     now = utcnow()
     china_tz = dt.timezone(dt.timedelta(hours=8))
@@ -506,10 +603,20 @@ def run(config_path, output_dir, fixture_path=None, target_date=None):
     digests.sort(key=lambda d: d.get("date", ""), reverse=True)
     digests = digests[:config["feed"].get("max_items", 100)]
 
+    archive_root = archive_root_override or config.get("archive", {}).get("root", "issues")
+    if not archive_root_override and not os.path.isabs(archive_root):
+        archive_root = os.path.join(os.path.dirname(config_path), archive_root)
+    issue_path = write_markdown_archive(digest, archive_root)
+    update_archive_index(archive_root)
+
     atomic_write(state_path, json.dumps(combined, ensure_ascii=False, indent=2))
     atomic_write(digests_path, json.dumps(digests, ensure_ascii=False, indent=2))
     atomic_write(os.path.join(output_dir, "feed.xml"), build_feed(digests, config, now), binary=True)
-    report = {"generated_at": now.isoformat() + "Z", "target_date": target_date, "raw_candidates": len(all_papers), "unique_candidates": len(merged), "eligible": len(eligible), "selected": len(selected), "daily_digest_items": len(digests), "errors": errors}
+    try:
+        archive_report_path = os.path.relpath(issue_path, os.path.dirname(config_path)).replace("\\", "/")
+    except ValueError:
+        archive_report_path = os.path.abspath(issue_path).replace("\\", "/")
+    report = {"generated_at": now.isoformat() + "Z", "target_date": target_date, "raw_candidates": len(all_papers), "unique_candidates": len(merged), "eligible": len(eligible), "selected": len(selected), "daily_digest_items": len(digests), "archive_file": archive_report_path, "errors": errors}
     atomic_write(os.path.join(output_dir, "last-run.json"), json.dumps(report, ensure_ascii=False, indent=2))
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return 0
@@ -521,8 +628,10 @@ def main():
     parser.add_argument("--output", default=os.path.join(os.path.dirname(__file__), "public"))
     parser.add_argument("--fixture", help="Read candidate papers from JSON instead of network APIs")
     parser.add_argument("--date", help="Digest date in YYYY-MM-DD; defaults to yesterday in Asia/Shanghai")
+    parser.add_argument("--archive", help="Override Markdown archive directory")
     args = parser.parse_args()
-    return run(os.path.abspath(args.config), os.path.abspath(args.output), args.fixture, args.date)
+    archive_override = os.path.abspath(args.archive) if args.archive else None
+    return run(os.path.abspath(args.config), os.path.abspath(args.output), args.fixture, args.date, archive_override)
 
 
 if __name__ == "__main__":

@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/feed.xml public/papers.json public/digests.json public/candidate-review.json public/last-run.json
+          git add public/feed.xml public/papers.json public/digests.json public/candidate-review.json public/last-run.json issues
           git diff --cached --quiet || git commit -m "chore: update literature feed"
           git push
       - name: Configure GitHub Pages
