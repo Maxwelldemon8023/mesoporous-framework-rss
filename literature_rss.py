@@ -336,11 +336,15 @@ def fallback_chinese_content(paper):
         if paper.get("hits", {}).get(key):
             hit_labels.append(label)
     focus = "、".join(hit_labels) if hit_labels else "晶态多孔框架材料"
+    evidence_limit = "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
     return {
         "title_zh": paper.get("title", ""),
-        "introduction_zh": "该文围绕%s展开。当前自动化来源提供的信息有限，建议结合原始摘要和全文核查具体合成条件、孔结构表征与性能结论。" % focus,
+        "summary_zh": "该文围绕%s展开，值得结合原文进一步判断其方法和结论。" % focus,
+        "research_details_zh": "该研究涉及%s。%s" % (focus, evidence_limit),
+        "key_findings_zh": [evidence_limit],
         "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": paper.get("recommendation", "与本课题方向相关。")
+        "relevance_zh": paper.get("recommendation", "与本课题方向相关。"),
+        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
     }
 
 
@@ -381,15 +385,23 @@ def enrich_chinese(papers, config, errors):
             "matched_topics": {key: values for key, values in paper.get("hits", {}).items() if values}
         } for paper in batch]
         prompt = (
-            "你是材料化学文献编辑。研究主线是介孔导电MOF、共轭MOF/COF、晶态多孔框架的组装与电化学合成。"
-            "仅依据提供的题目和摘要，为每篇文献生成中文介绍，不得虚构实验条件、数值或结论。"
-            "返回严格JSON数组，每项包含doi、title_zh、introduction_zh、methods_zh、relevance_zh。"
-            "introduction_zh用120至220字说明研究问题、材料、策略和主要结论；methods_zh概述有证据的方法，证据不足时明确说明；"
-            "relevance_zh说明对上述研究主线的价值与局限。不要使用Markdown。输入：" + json.dumps(records, ensure_ascii=False)
+            "你是严谨的材料化学文献编辑。关注介孔导电MOF、共轭MOF/COF/HOF、其他框架材料、介孔材料、"
+            "自组装技术以及框架材料的组装和电化学合成。仅依据提供的题目和摘要解读，不得利用常识补造该论文"
+            "没有明确报告的实验条件、表征、数值、机制或结论；缺失信息必须写“摘要未报告”。"
+            "返回严格JSON数组，每项包含doi、title_zh、summary_zh、research_details_zh、key_findings_zh、"
+            "methods_zh、relevance_zh、evidence_note_zh。summary_zh用60至100字给出可快速浏览的核心贡献；"
+            "research_details_zh用180至320字说明研究问题、材料体系、设计策略、研究过程及意义；"
+            "key_findings_zh必须是2至4项字符串数组，优先保留摘要明确报告的定量结果、结构—性能关系、机制证据"
+            "和边界条件，没有数值时写明确的定性结论，信息不足时写“摘要未报告相应数据”；"
+            "methods_zh用100至200字概述摘要明确出现的合成、组装、表征和性能测试方法；"
+            "relevance_zh用80至160字说明对研究主线的实际价值、局限及是否值得全文精读；"
+            "evidence_note_zh固定说明这是摘要级解读，哪些关键细节仍需全文核查。所有内容使用中文且不要使用Markdown。输入："
+            + json.dumps(records, ensure_ascii=False)
         )
         payload = {
             "model": ai_config.get("model", "openai/gpt-4o"),
             "temperature": 0.2,
+            "max_tokens": int(ai_config.get("max_output_tokens", 3500)),
             "messages": [{"role": "user", "content": prompt}]
         }
         try:
@@ -404,8 +416,11 @@ def enrich_chinese(papers, config, errors):
             for paper in batch:
                 generated = by_doi.get(paper.get("doi", "").lower())
                 if generated:
-                    paper.update({key: str(generated.get(key, "")).strip() for key in ("title_zh", "introduction_zh", "methods_zh", "relevance_zh")})
-                if not paper.get("introduction_zh"):
+                    for key in ("title_zh", "summary_zh", "research_details_zh", "methods_zh", "relevance_zh", "evidence_note_zh"):
+                        paper[key] = str(generated.get(key, "")).strip()
+                    findings = generated.get("key_findings_zh", [])
+                    paper["key_findings_zh"] = [str(item).strip() for item in findings if str(item).strip()] if isinstance(findings, list) else []
+                if not paper.get("summary_zh") or not paper.get("research_details_zh"):
                     paper.update(fallback_chinese_content(paper))
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ValueError, KeyError, IndexError, json.JSONDecodeError) as exc:
             errors.append("GitHub Models Chinese introduction failed: %s" % exc)
@@ -427,6 +442,10 @@ def make_daily_description(digest):
         authors = ", ".join(paper.get("authors", [])[:10]) or "作者信息暂缺"
         doi = paper.get("doi", "")
         doi_url = "https://doi.org/" + doi
+        summary = paper.get("summary_zh") or paper.get("introduction_zh", "")
+        research_details = paper.get("research_details_zh") or paper.get("introduction_zh", "")
+        findings = paper.get("key_findings_zh") or []
+        findings_html = "".join("<li>%s</li>" % html.escape(str(item)) for item in findings)
         parts.extend([
             "<hr><h3>#%d %s</h3>" % (index, html.escape(paper.get("title_zh") or paper.get("title", ""))),
             "<p><strong>原始题目：</strong>%s</p>" % html.escape(paper.get("title", "")),
@@ -434,9 +453,12 @@ def make_daily_description(digest):
             "<p><strong>期刊与日期：</strong>%s；%s</p>" % (html.escape(paper.get("journal", "")), html.escape(paper.get("published", ""))),
             "<p><strong>DOI：</strong><a href=\"%s\">%s</a></p>" % (html.escape(doi_url), html.escape(doi)),
             "<p><strong>推荐层级：</strong>%s；<strong>期刊质量信号：</strong>%s</p>" % (html.escape(paper.get("selection_tier", "")), html.escape(paper.get("quality_tier", "standard"))),
-            "<p><strong>中文内容介绍：</strong>%s</p>" % html.escape(paper.get("introduction_zh", "")),
+            "<p><strong>精简速览：</strong>%s</p>" % html.escape(summary),
+            "<p><strong>重要研究内容：</strong>%s</p>" % html.escape(research_details),
+            "<p><strong>关键发现：</strong></p><ul>%s</ul>" % findings_html if findings_html else "<p><strong>关键发现：</strong>当前记录未提供结构化关键发现，请结合原文核查。</p>",
             "<p><strong>方法概述：</strong>%s</p>" % html.escape(paper.get("methods_zh", "")),
             "<p><strong>与你研究方向的关系：</strong>%s</p>" % html.escape(paper.get("relevance_zh", "")),
+            "<p><strong>证据边界：</strong>%s</p>" % html.escape(paper.get("evidence_note_zh", "摘要级解读；关键细节需查阅全文核实。")),
             "<p><strong>相关性评分：</strong>%s/100；<strong>阅读深度：</strong>%s</p>" % (paper.get("score", 0), html.escape(paper.get("reading_depth", "")))
         ])
     return "".join(parts)
@@ -464,6 +486,9 @@ def write_markdown_archive(digest, archive_root):
     for index, paper in enumerate(papers, 1):
         doi = paper.get("doi", "")
         authors = ", ".join(paper.get("authors", [])[:20]) or "作者信息暂缺"
+        summary = paper.get("summary_zh") or paper.get("introduction_zh", "")
+        research_details = paper.get("research_details_zh") or paper.get("introduction_zh", "")
+        findings = paper.get("key_findings_zh") or []
         lines.extend([
             "## %d. %s" % (index, markdown_escape(paper.get("title_zh") or paper.get("title"))),
             "",
@@ -477,9 +502,22 @@ def write_markdown_archive(digest, archive_root):
             "- **相关性评分：** %s/100" % paper.get("score", 0),
             "- **阅读深度：** %s" % markdown_escape(paper.get("reading_depth")),
             "",
-            "### 中文内容介绍",
+            "### 精简速览",
             "",
-            markdown_escape(paper.get("introduction_zh")),
+            markdown_escape(summary),
+            "",
+            "### 重要研究内容",
+            "",
+            markdown_escape(research_details),
+            "",
+            "### 关键发现",
+            "",
+        ])
+        if findings:
+            lines.extend(["- %s" % markdown_escape(item) for item in findings])
+        else:
+            lines.append("- 当前记录未提供结构化关键发现，请结合原文核查。")
+        lines.extend([
             "",
             "### 方法概述",
             "",
@@ -488,6 +526,10 @@ def write_markdown_archive(digest, archive_root):
             "### 与研究方向的关系",
             "",
             markdown_escape(paper.get("relevance_zh")),
+            "",
+            "### 证据边界",
+            "",
+            markdown_escape(paper.get("evidence_note_zh", "摘要级解读；关键细节需查阅全文核实。")),
             ""
         ])
     atomic_write(issue_path, "\n".join(lines).rstrip() + "\n")

@@ -28,7 +28,8 @@
     "model": "openai/gpt-4o",
     "api_url": "https://models.github.ai/inference/chat/completions",
     "max_abstract_chars": 3500,
-    "batch_size": 5
+    "batch_size": 3,
+    "max_output_tokens": 3500
   },
   "archive": {
     "root": "issues",

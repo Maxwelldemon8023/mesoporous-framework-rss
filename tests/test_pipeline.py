@@ -35,14 +35,20 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(len(items), 1)
             self.assertEqual(items[0].findtext("title"), "2026-07-20 文献日报｜1篇")
             description = items[0].findtext("description")
-            self.assertIn("中文内容介绍", description)
+            self.assertIn("精简速览", description)
+            self.assertIn("重要研究内容", description)
+            self.assertIn("关键发现", description)
+            self.assertIn("证据边界", description)
             self.assertIn("10.0000/example.1", description)
             issue_path = os.path.join(archive, "2026", "2026-07-20.md")
             self.assertTrue(os.path.exists(issue_path))
             with open(issue_path, encoding="utf-8") as handle:
                 issue = handle.read()
             self.assertIn("10.0000/example.1", issue)
-            self.assertIn("中文内容介绍", issue)
+            self.assertIn("### 精简速览", issue)
+            self.assertIn("### 重要研究内容", issue)
+            self.assertIn("### 关键发现", issue)
+            self.assertIn("### 证据边界", issue)
             with open(os.path.join(archive, "README.md"), encoding="utf-8") as handle:
                 index = handle.read()
             self.assertIn("2026-07-20 文献日报（1篇）", index)
@@ -82,6 +88,23 @@ class PipelineTests(unittest.TestCase):
                 digest = json.load(handle)[0]
             self.assertEqual(len(digest["papers"]), 3)
             self.assertTrue(all(p["selection_tier"] == "拓展推荐" for p in digest["papers"]))
+
+    def test_evidence_limited_fallback_has_detailed_delivery_fields(self):
+        paper = MODULE.score_paper({
+            "title": "Mesoporous MOF Assembly",
+            "abstract": "",
+            "authors": [],
+            "institutions": [],
+            "published": "2026-07-26",
+            "journal": "Example Journal",
+            "doi": "10.0000/fallback.1",
+            "sources": ["fixture"]
+        }, self.config)
+        content = MODULE.fallback_chinese_content(paper)
+        self.assertTrue(content["summary_zh"])
+        self.assertTrue(content["research_details_zh"])
+        self.assertIsInstance(content["key_findings_zh"], list)
+        self.assertIn("摘要级解读", content["evidence_note_zh"])
 
 
 if __name__ == "__main__":
