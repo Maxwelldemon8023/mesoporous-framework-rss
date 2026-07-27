@@ -55,6 +55,34 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(len(items), 1)
             self.assertEqual(items[0].findtext("title"), "2026-07-19 文献日报｜0篇")
 
+    def test_expanded_topics_require_quality_or_method_signal(self):
+        with open(os.path.join(ROOT, "tests", "expanded_fixture.json"), encoding="utf-8") as handle:
+            papers = json.load(handle)
+        classified = {}
+        for paper in papers:
+            scored = MODULE.score_paper(paper, self.config)
+            classified[paper["doi"]] = MODULE.classify_paper(scored, self.config)
+        self.assertEqual(classified["10.0000/hof.1"], "拓展推荐")
+        self.assertEqual(classified["10.0000/meso.1"], "拓展推荐")
+        self.assertEqual(classified["10.0000/assembly.1"], "拓展推荐")
+        self.assertEqual(classified["10.0000/cof.1"], "拓展推荐")
+        self.assertEqual(classified["10.0000/noise.2"], "")
+
+    def test_expanded_daily_digest_caps_adjacent_papers(self):
+        with tempfile.TemporaryDirectory() as output:
+            archive = os.path.join(output, "issues")
+            MODULE.run(
+                os.path.join(ROOT, "config.json"),
+                output,
+                os.path.join(ROOT, "tests", "expanded_fixture.json"),
+                "2026-07-26",
+                archive
+            )
+            with open(os.path.join(output, "digests.json"), encoding="utf-8") as handle:
+                digest = json.load(handle)[0]
+            self.assertEqual(len(digest["papers"]), 3)
+            self.assertTrue(all(p["selection_tier"] == "拓展推荐" for p in digest["papers"]))
+
 
 if __name__ == "__main__":
     unittest.main()

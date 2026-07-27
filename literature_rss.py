@@ -235,6 +235,22 @@ def keyword_hits(text, terms):
     return sorted(set(matched))
 
 
+def source_quality_score(journal, config):
+    normalized = re.sub(r"\s+", " ", html.unescape(strip_tags(journal or "")).lower()).strip()
+
+    def matches(name):
+        candidate = re.sub(r"\s+", " ", html.unescape(name).lower()).strip()
+        return normalized == candidate or normalized.startswith(candidate + ":")
+
+    premium = [name for name in config.get("quality_journals", {}).get("premium", []) if matches(name)]
+    strong = [name for name in config.get("quality_journals", {}).get("strong", []) if matches(name)]
+    if premium:
+        return 15, "premium", premium
+    if strong:
+        return 8, "strong", strong
+    return 0, "standard", []
+
+
 def score_paper(paper, config):
     paper["title"] = strip_tags(paper.get("title", ""))
     text = " ".join([paper.get("title", ""), paper.get("abstract", "")])
@@ -245,24 +261,53 @@ def score_paper(paper, config):
     topical_groups = sum(bool(hits.get(name)) for name in ("conductive", "mesoporous", "assembly", "electrochemical"))
 
     topic = min(35, (12 if framework else 0) + topical_groups * 6 + (5 if framework and topical_groups >= 2 else 0))
-    method = min(25, len(hits.get("mesoporous", [])) * 4 + len(hits.get("assembly", [])) * 2 + len(hits.get("electrochemical", [])) * 5)
-    novelty = min(15, 4 + topical_groups * 2 + (3 if topical_groups >= 3 else 0))
+    method = min(20, len(hits.get("mesoporous", [])) * 4 + len(hits.get("assembly", [])) * 2 + len(hits.get("electrochemical", [])) * 5)
+    novelty = min(10, 4 + topical_groups * 2 + (2 if topical_groups >= 3 else 0))
+    quality, quality_tier, quality_hits = source_quality_score(paper.get("journal", ""), config)
     network_text = " ".join(paper.get("authors", []) + paper.get("institutions", [])).lower()
     network_hits = [x for x in config.get("tracked_people_and_orgs", []) if x.lower() in network_text]
     network = min(10, len(network_hits) * 5)
-    applied = min(10, (4 if hits.get("electrochemical") else 0) + (3 if hits.get("mesoporous") else 0) + (3 if hits.get("assembly") else 0))
+    applied = min(5, (3 if hits.get("electrochemical") else 0) + (2 if hits.get("mesoporous") else 0) + (2 if hits.get("assembly") else 0))
     archive = min(5, 1 + topical_groups)
     penalty = min(25, len(excluded) * 15)
-    total = max(0, topic + method + novelty + network + applied + archive - penalty)
+    total = max(0, min(100, topic + method + quality + novelty + network + applied + archive - penalty))
 
     paper["score"] = total
-    paper["scores"] = {"topic": topic, "method": method, "novelty": novelty, "network": network, "applied": applied, "archive": archive, "penalty": penalty}
+    paper["scores"] = {"topic": topic, "method": method, "quality": quality, "novelty": novelty, "network": network, "applied": applied, "archive": archive, "penalty": penalty}
+    paper["quality_tier"] = quality_tier
+    paper["quality_hits"] = quality_hits
     paper["hits"] = hits
     paper["network_hits"] = network_hits
     paper["excluded_hits"] = excluded
     paper["reading_depth"] = "摘要" if paper.get("abstract") else "仅元数据"
     paper["recommendation"] = recommendation(paper)
     return paper
+
+
+def classify_paper(paper, config):
+    selection = config.get("selection", {})
+    framework = bool(paper.get("hits", {}).get("framework"))
+    mesoporous = bool(paper.get("hits", {}).get("mesoporous"))
+    assembly = bool(paper.get("hits", {}).get("assembly"))
+    electrochemical = bool(paper.get("hits", {}).get("electrochemical"))
+    conductive = bool(paper.get("hits", {}).get("conductive"))
+    materials = bool(paper.get("hits", {}).get("materials"))
+    topical = conductive or mesoporous or assembly or electrochemical
+    score = paper.get("score", 0)
+    scores = paper.get("scores", {})
+
+    if framework and topical and score >= selection.get("core_min_score", config["search"].get("minimum_score", 34)):
+        return "核心推荐"
+
+    adjacent_topic = framework or (mesoporous and materials) or (assembly and materials)
+    quality_signal = (
+        scores.get("quality", 0) >= selection.get("adjacent_quality_min", 8)
+        or scores.get("method", 0) >= selection.get("adjacent_method_min", 8)
+        or scores.get("network", 0) > 0
+    )
+    if adjacent_topic and quality_signal and score >= selection.get("adjacent_min_score", 24):
+        return "拓展推荐"
+    return ""
 
 
 def recommendation(paper):
@@ -332,6 +377,7 @@ def enrich_chinese(papers, config, errors):
             "abstract": (paper.get("abstract") or "")[:max_chars],
             "journal": paper.get("journal", ""),
             "relevance_score": paper.get("score", 0),
+            "recommendation_tier": paper.get("selection_tier", ""),
             "matched_topics": {key: values for key, values in paper.get("hits", {}).items() if values}
         } for paper in batch]
         prompt = (
@@ -387,6 +433,7 @@ def make_daily_description(digest):
             "<p><strong>作者：</strong>%s</p>" % html.escape(authors),
             "<p><strong>期刊与日期：</strong>%s；%s</p>" % (html.escape(paper.get("journal", "")), html.escape(paper.get("published", ""))),
             "<p><strong>DOI：</strong><a href=\"%s\">%s</a></p>" % (html.escape(doi_url), html.escape(doi)),
+            "<p><strong>推荐层级：</strong>%s；<strong>期刊质量信号：</strong>%s</p>" % (html.escape(paper.get("selection_tier", "")), html.escape(paper.get("quality_tier", "standard"))),
             "<p><strong>中文内容介绍：</strong>%s</p>" % html.escape(paper.get("introduction_zh", "")),
             "<p><strong>方法概述：</strong>%s</p>" % html.escape(paper.get("methods_zh", "")),
             "<p><strong>与你研究方向的关系：</strong>%s</p>" % html.escape(paper.get("relevance_zh", "")),
@@ -425,6 +472,8 @@ def write_markdown_archive(digest, archive_root):
             "- **期刊：** %s" % markdown_escape(paper.get("journal")),
             "- **发表日期：** %s" % markdown_escape(paper.get("published")),
             "- **DOI：** [%s](https://doi.org/%s)" % (markdown_escape(doi), markdown_escape(doi)),
+            "- **推荐层级：** %s" % markdown_escape(paper.get("selection_tier")),
+            "- **期刊质量信号：** %s" % markdown_escape(paper.get("quality_tier", "standard")),
             "- **相关性评分：** %s/100" % paper.get("score", 0),
             "- **阅读深度：** %s" % markdown_escape(paper.get("reading_depth")),
             "",
@@ -561,7 +610,7 @@ def run(config_path, output_dir, fixture_path=None, target_date=None, archive_ro
                     message = "%s / %s: %s" % (source, query, exc)
                     errors.append(message)
                     print("WARNING " + message, file=sys.stderr)
-                time.sleep(0.15)
+                time.sleep(float(config["search"].get("request_delay_seconds", 0.6)))
 
     merged = merge_papers(all_papers)
     scored = [score_paper(p, config) for p in merged]
@@ -570,30 +619,32 @@ def run(config_path, output_dir, fixture_path=None, target_date=None, archive_ro
     # and score calibration does not become a black box.
     review_path = os.path.join(output_dir, "candidate-review.json")
     atomic_write(review_path, json.dumps(scored[:50], ensure_ascii=False, indent=2))
-    eligible = [
-        p for p in scored
-        if iso_date(p.get("published")) == target_date
-        and p["hits"].get("framework")
-        and p["scores"]["topic"] >= 10
-        and p["score"] >= config["search"]["minimum_score"]
-        and (p.get("doi") or not config["search"].get("require_doi", True))
-    ]
+    eligible = []
+    for paper in scored:
+        selection_tier = classify_paper(paper, config)
+        if (
+            iso_date(paper.get("published")) == target_date
+            and selection_tier
+            and (paper.get("doi") or not config["search"].get("require_doi", True))
+        ):
+            paper["selection_tier"] = selection_tier
+            eligible.append(paper)
     eligible.sort(key=lambda p: (p["score"], parse_date(p.get("published"))), reverse=True)
+    core = [paper for paper in eligible if paper["selection_tier"] == "核心推荐"]
+    adjacent = [paper for paper in eligible if paper["selection_tier"] == "拓展推荐"]
+    adjacent = adjacent[:int(config.get("selection", {}).get("adjacent_max_count", 3))]
+    selected = sorted(core + adjacent, key=lambda p: p["score"], reverse=True)
     daily_max = int(config["search"].get("daily_max_count", 0))
-    selected = eligible[:daily_max] if daily_max > 0 else eligible
+    if daily_max > 0:
+        selected = selected[:daily_max]
     enrich_chinese(selected, config, errors)
 
     previous = load_json(state_path, [])
     combined = merge_papers(selected + previous)
     for paper in combined:
         score_paper(paper, config)
-    combined = [
-        p for p in combined
-        if p["hits"].get("framework")
-        and p["scores"]["topic"] >= 10
-        and p["score"] >= config["search"]["minimum_score"]
-        and (p.get("doi") or not config["search"].get("require_doi", True))
-    ]
+        paper["selection_tier"] = classify_paper(paper, config)
+    combined = [p for p in combined if p.get("selection_tier") and (p.get("doi") or not config["search"].get("require_doi", True))]
     combined.sort(key=lambda p: (parse_date(p.get("published")), p.get("score", 0)), reverse=True)
     combined = combined[:500]
 
@@ -616,7 +667,7 @@ def run(config_path, output_dir, fixture_path=None, target_date=None, archive_ro
         archive_report_path = os.path.relpath(issue_path, os.path.dirname(config_path)).replace("\\", "/")
     except ValueError:
         archive_report_path = os.path.abspath(issue_path).replace("\\", "/")
-    report = {"generated_at": now.isoformat() + "Z", "target_date": target_date, "raw_candidates": len(all_papers), "unique_candidates": len(merged), "eligible": len(eligible), "selected": len(selected), "daily_digest_items": len(digests), "archive_file": archive_report_path, "errors": errors}
+    report = {"generated_at": now.isoformat() + "Z", "target_date": target_date, "raw_candidates": len(all_papers), "unique_candidates": len(merged), "eligible": len(eligible), "core_selected": len(core), "adjacent_selected": len(adjacent), "selected": len(selected), "daily_digest_items": len(digests), "archive_file": archive_report_path, "errors": errors}
     atomic_write(os.path.join(output_dir, "last-run.json"), json.dumps(report, ensure_ascii=False, indent=2))
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return 0
