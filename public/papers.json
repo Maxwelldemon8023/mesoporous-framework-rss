@@ -1,5 +1,271 @@
 [
   {
+    "title": "Conjugated Metal‐Organic Frameworks on Laser‐Induced‐Graphene Scaffold Enable Picomolar Sensitivity in Electrical Biosensors",
+    "abstract": "ABSTRACT Conjugated metal–organic frameworks (c‐MOFs) are a promising class of materials thanks to their high surface area, abundant active sites, and intrinsic electrical conductivity. However, their integration into electronic devices remains challenging, especially in forming uniform 3D thin films. Here, we present a versatile strategy for the layer‐by‐layer (LbL) growth of a conductive MOF film, copper hexaiminotriphenylene (CuHITP), onto a 3D laser‐induced graphene (LIG) scaffold. The LIG template, prepared by femtosecond laser irradiation of polyimide, provides a hierarchical macroporous structure that increases the accessible surface area for MOF nucleation and bioreceptor immobilization. The resulting CuHITP layer conformally replicates the LIG structure while maintaining extended π‐conjugation and high conductivity. When integrated into an extended‐gate field‐effect transistor (EG‐FET), the CuHITP/LIG hybrid enables sensitive cortisol detection. By exploiting both the amine functionalities and unsaturated metal sites of the MOF framework, we achieve stable covalent and coordination‐based immobilization of thiolated aptamers. The sensor exhibits a wide detection range from 1 pM to 10 µM in diluted buffer and retains sub‐picomolar sensitivity in artificial sweat. This work highlights a robust approach for integrating c‐MOFs into electronic biosensors and advances the development of non‐invasive health‐monitoring platforms.",
+    "authors": [
+      "Khanh T. M. Le",
+      "Tuan‐Khoa Nguyen",
+      "Nam‐Trung Nguyen"
+    ],
+    "institutions": [],
+    "published": "2026-07-28",
+    "journal": "Advanced Materials Interfaces",
+    "doi": "10.1002/admi.70620",
+    "url": "https://doi.org/10.1002/admi.70620",
+    "sources": [
+      "Crossref"
+    ],
+    "score": 44,
+    "scores": {
+      "topic": 29,
+      "method": 2,
+      "quality": 0,
+      "novelty": 8,
+      "network": 0,
+      "applied": 2,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "standard",
+    "quality_hits": [],
+    "hits": {
+      "framework": [
+        "mof",
+        "mofs"
+      ],
+      "conductive": [
+        "conductive",
+        "conjugated"
+      ],
+      "mesoporous": [],
+      "assembly": [
+        "nucleation"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "coordination",
+        "materials"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "核心推荐",
+    "title_zh": "基于激光诱导石墨烯支架的共轭金属有机框架实现皮摩尔灵敏度的电气生物传感器",
+    "summary_zh": "研究提出了一种在激光诱导石墨烯(LIG)支架上逐层生长共轭金属有机框架(CuHITP)薄膜的新策略，并将其集成到场效应晶体管中，用于高灵敏度皮摩尔级皮质醇检测。",
+    "research_details_zh": "本研究旨在解决共轭金属有机框架(c-MOFs)在电子器件中难以形成均匀3D薄膜的问题。通过飞秒激光辐照聚酰亚胺制备的LIG模板，提供了分级宏孔结构以促进MOF的成核和生物受体的固定。随后，CuHITP薄膜在LIG表面逐层生长，保持了π-共轭和高导电性。该复合材料被集成到扩展栅极场效应晶体管(EG-FET)中，利用MOF框架中的胺功能和未饱和金属位点，实现了硫醇化适配体的稳定固定。传感器在稀释缓冲液中显示出1 pM到10 µM的宽检测范围，并在人工汗液中保持亚皮摩尔灵敏度。",
+    "methods_zh": "采用飞秒激光辐照聚酰亚胺制备LIG模板，通过逐层生长法在其上沉积CuHITP薄膜。性能测试包括扩展栅极场效应晶体管(EG-FET)的集成与皮质醇检测。",
+    "relevance_zh": "该研究展示了c-MOFs在电子生物传感器中的应用潜力，特别是在非侵入性健康监测领域。其逐层生长策略和高灵敏度检测性能值得全文精读。",
+    "evidence_note_zh": "这是摘要级解读，需核查薄膜厚度、具体生长条件、传感器稳定性及长期性能等关键细节。",
+    "key_findings_zh": [
+      "CuHITP薄膜在LIG支架上实现了均匀生长并保持高导电性。",
+      "传感器在人工汗液中实现了亚皮摩尔灵敏度。",
+      "摘要未报告相应数据。"
+    ]
+  },
+  {
+    "title": "Siloxane Molecular Glue for Ultrarobust Interface Engineering in High‐Performance Colloidal Quantum Dot Infrared Image Sensors",
+    "abstract": "ABSTRACT Interfacial defects and poor mechanical robustness critically limit the performance of colloidal quantum dot (CQD) photodiodes for infrared imaging. Here, we introduce a bifunctional organosilane, (3‐mercaptopropyl) methyldimethoxysilane (MDMS), as an interfacial layer to simultaneously address these challenges in inverted PbS CQD photodiodes. MDMS molecules form robust covalent bridging at the CQDs/electron transport layer (ETL) interface through thiol‐based coordination and hydrolysis‐condensation into a cross‐linked siloxane network. This interface engineering not only reinforces mechanical adhesion (achieving 5B rating in ASTM D3359 tests vs. 0B/1B for C 60 controls) but also provides an ideal nucleation surface for ALD‐grown SnO 2 ETL, suppressing island‐like growth and interfacial defects. The optimized devices deliver a specific detectivity of 2.37×10 12 Jones at 1550 nm under 0 V while maintaining 79% EQE under −0.1 V, with dark current reduced by &gt;50% compared to C 60 ‐based controls. Monolithic integration with a silicon ROIC yields a SWIR imager with outstanding photoresponse non‐uniformity (2.8%) and spatial resolution (26 lp/mm at 50% MTF), demonstrating silicon wafer perspectivity and material discrimination. This work provides an efficient strategy for addressing interfacial issues in CQD optoelectronics.",
+    "authors": [
+      "Haipeng Su",
+      "Jingjing Wang",
+      "Chengjie Deng",
+      "Shuai Zou",
+      "Hao Luo",
+      "Jing Liu",
+      "Hao Li",
+      "Xing Zhou",
+      "Jianbing Zhang",
+      "Daoli Zhang",
+      "Jiang Tang",
+      "Liang Gao"
+    ],
+    "institutions": [],
+    "published": "2026-07-28",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.74386",
+    "url": "https://doi.org/10.1002/adma.74386",
+    "sources": [
+      "Crossref"
+    ],
+    "score": 33,
+    "scores": {
+      "topic": 6,
+      "method": 2,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "nucleation"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "colloidal",
+        "coordination",
+        "material"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "title_zh": "硅氧烷分子胶用于高性能胶体量子点红外图像传感器的超强界面工程",
+    "summary_zh": "研究开发了一种基于(3-巯基丙基)甲基二甲氧基硅烷(MDMS)的界面层，显著提高了PbS胶体量子点光电二极管的机械稳定性和光电性能。",
+    "research_details_zh": "该研究针对胶体量子点(CQD)光电二极管在红外成像中的界面缺陷和机械稳定性问题，提出了MDMS分子作为界面层的解决方案。MDMS通过硫醇基配位和水解-缩合反应形成交联硅氧烷网络，在CQD/电子传输层(ETL)界面上提供了强大的机械粘附性，并优化了原子层沉积(ALD)生长的SnO2 ETL的形貌，抑制了岛状生长和界面缺陷。优化后的器件在1550 nm波长下实现了2.37×10^12 Jones的特定探测率，暗电流相比C60对照组降低了50%以上，并成功集成到硅ROIC中，展示了优异的成像性能。",
+    "methods_zh": "通过MDMS分子在CQD/ETL界面形成硅氧烷网络，并采用原子层沉积(ALD)生长SnO2 ETL。性能测试包括光电二极管的探测率、暗电流和成像性能。",
+    "relevance_zh": "该研究为解决CQD光电器件的界面问题提供了新思路，尤其在红外成像领域具有重要意义。其界面工程策略和性能提升值得关注，但需进一步评估其长期稳定性。",
+    "evidence_note_zh": "这是摘要级解读，需核查MDMS层厚度、ALD条件及器件长期稳定性等关键细节。",
+    "key_findings_zh": [
+      "MDMS界面层显著提高了机械粘附性，达到5B评级。",
+      "优化后的器件在1550 nm下实现了2.37×10^12 Jones的探测率。",
+      "暗电流相比C60对照组降低了50%以上。"
+    ]
+  },
+  {
+    "title": "Polymorphism in Covalent Organic Frameworks Regulates Excited Dynamics for H 2 O 2 Photosynthesis Coupled With Biomass Valorization",
+    "abstract": "ABSTRACT Polymorphism in covalent organic frameworks (COFs) offers a unique platform to decipher structure–property relationships, yet its impact on excited‐state dynamics remains unexplored. Herein, we construct two chemically identical but topologically distinct 1D and 2D COF polymorphs to correlate framework architecture with photocatalytic performance. Impressively, in H 2 O 2 photosynthesis coupled with furfuryl alcohol valorization, the 1D‐TBPP‐COF showed an exceptional H 2 O 2 generation rate (18.75 mmol g −1 h −1 ) and selective oxidation of furfuryl alcohol to high‐value 6‐hydroxy‐2H‐pyran‐3(6H)‐one (PN) with PN formation rate of 28.14 mmol·g −1 ·h −1 , substantially outperforming the 2D‐TBPP‐COF counterpart. Mechanistic investigations revealed that the intercalated dual‐chain edges in 1D‐TBPP‐COF impose steric constraints on aromatic ring rotation, effectively suppressing vibrational relaxation losses and prolonging the charge‐transfer state lifetime. In contrast, the conformationally flexible 2D‐TBPP‐COF permits greater rotational freedom, leading to non‐radiative energy dissipation. This work establishes polymorphism engineering as a powerful strategy to manipulate excited‐state dynamics in COFs for photocatalysis.",
+    "authors": [
+      "Yu‐Ou He",
+      "Wen‐Yi Zheng",
+      "Meng‐Na Yue",
+      "Yong Liu",
+      "Jiayu Li",
+      "Ming‐De Li",
+      "Wang‐Kang Han",
+      "Zhi‐Guo Gu"
+    ],
+    "institutions": [],
+    "published": "2026-07-28",
+    "journal": "Angewandte Chemie",
+    "doi": "10.1002/ange.3123120",
+    "url": "https://doi.org/10.1002/ange.3123120",
+    "sources": [
+      "Crossref"
+    ],
+    "score": 32,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 15,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie"
+    ],
+    "hits": {
+      "framework": [
+        "cof",
+        "cofs"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "拓展推荐",
+    "title_zh": "共价有机框架的多晶型调控激发态动力学以实现H2O2光合成与生物质增值",
+    "summary_zh": "研究通过多晶型共价有机框架(COFs)的设计，揭示了框架结构对激发态动力学的影响，并实现了高效H2O2光合成和生物质增值。",
+    "research_details_zh": "本研究探讨了COFs多晶型对激发态动力学的调控作用，设计了化学组成相同但拓扑结构不同的1D和2D COF多晶型。实验表明，1D-TBPP-COF在H2O2光合成和糠醇氧化中表现出优异性能，其H2O2生成速率为18.75 mmol g^-1 h^-1，PN生成速率为28.14 mmol g^-1 h^-1，显著优于2D-TBPP-COF。机制研究表明，1D结构中双链边的空间限制抑制了芳环旋转，延长了电荷转移态寿命，而2D结构的柔性导致了非辐射能量耗散。该研究为通过多晶型工程优化COFs的光催化性能提供了新思路。",
+    "methods_zh": "通过设计1D和2D COF多晶型，结合光催化实验和激发态动力学研究，分析了框架结构对光催化性能的影响。",
+    "relevance_zh": "该研究揭示了COFs多晶型与激发态动力学的关系，为光催化剂设计提供了重要指导。其在H2O2光合成和生物质增值中的应用潜力值得深入研究。",
+    "evidence_note_zh": "这是摘要级解读，需核查多晶型合成条件、动力学测试细节及长期催化稳定性等关键信息。",
+    "key_findings_zh": [
+      "1D-TBPP-COF的H2O2生成速率为18.75 mmol g^-1 h^-1。",
+      "1D结构通过抑制芳环旋转延长了电荷转移态寿命。",
+      "2D结构的柔性导致了非辐射能量耗散。"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null
+  },
+  {
+    "title": "Bio‐Inspired Mesoporous Solar Evaporator Enabled by Upcycled PET",
+    "abstract": "ABSTRACT Solar‐driven interfacial steam generation (ISSG) has emerged as a promising strategy for decentralized freshwater production. However, developing scalable solar evaporators that combine high evaporation performance, environmental compatibility, and stable operation under varying solar angles remains challenging. Here, we report a compound‐eye‐inspired three‐dimensional solar evaporator based on graphite‐containing PET nanofoam (GPF). The GPF was produced by upcycling polyethylene terephthalate (PET) waste. The nonsolvent‐induced phase separation process produces a mesoporous and moldable structure with tunable water transport properties, enabling the construction of hemispherical multi‐surface evaporators. This architecture provides angle‐insensitive solar exposure and an enlarged water‐wetted evaporative interface within a fixed projected footprint. As a result, the optimized evaporator achieved a projected‐area‐normalized evaporation rate of 3.44 kg m − 2 h − 1 under 1‐sun illumination. In outdoor operation, the integrated evaporation‐condensation module produced a freshwater yield of up to 24.4 kg m − 2 over 14 h under natural sunlight. The enhanced performance arises from the combined effects of expanded evaporation‐active area, capillary‐sustained water transport, side‐surface evaporation, and internal heat redistribution. This result indicates that the 3D‐CE improves evaporation through coupled transport and thermal effects, rather than through surface‐area enlargement alone. This work presents a potential route for converting waste PET into functional solar evaporators for decentralized freshwater production.",
+    "authors": [
+      "Sungdo Kim",
+      "Sourav Chaule",
+      "YuJi Han",
+      "Yong Soo Kim",
+      "Ji‐Hyun Jang"
+    ],
+    "institutions": [],
+    "published": "2026-07-28",
+    "journal": "Small",
+    "doi": "10.1002/smll.74735",
+    "url": "https://doi.org/10.1002/smll.74735",
+    "sources": [
+      "Crossref"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 28,
+    "scores": {
+      "topic": 6,
+      "method": 4,
+      "quality": 8,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Small"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [
+        "mesoporous"
+      ],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "mesoporous"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "title_zh": "基于回收PET的仿生介孔太阳能蒸发器",
+    "summary_zh": "该研究开发了一种基于石墨含量PET纳米泡沫的仿复眼三维太阳能蒸发器，通过回收PET废料制备，展现了高效蒸发性能和环境兼容性，适用于分散式淡水生产。",
+    "research_details_zh": "研究旨在解决太阳能界面蒸汽生成（ISSG）中高效、可扩展且环境友好的蒸发器开发难题。通过非溶剂诱导相分离法，将回收的PET废料制备成具有介孔和可塑性的石墨含量PET纳米泡沫（GPF）。该材料用于构建具有多表面蒸发功能的半球形蒸发器，提供角度不敏感的太阳能暴露和扩展的水润湿蒸发界面。优化后的蒸发器在1倍太阳光照下实现了3.44 kg m⁻² h⁻¹的蒸发速率，并在自然阳光下的户外操作中，集成的蒸发-冷凝模块在14小时内产生了24.4 kg m⁻²的淡水产量。研究表明，性能提升源于扩展的蒸发活性区域、毛细管驱动的水传输、侧表面蒸发以及内部热量再分配的协同作用。",
+    "methods_zh": "采用非溶剂诱导相分离法将回收PET废料制备成介孔石墨含量PET纳米泡沫，并通过调控其水传输性能构建半球形多表面蒸发器。性能测试包括1倍太阳光照下的蒸发速率测量和户外自然光下的蒸发-冷凝模块淡水产量评估。",
+    "relevance_zh": "该研究展示了通过回收PET废料制备高效太阳能蒸发器的潜力，为分散式淡水生产提供了可持续解决方案。其在材料设计和性能优化方面的创新值得全文精读，但对长期稳定性和大规模应用的适用性仍需进一步探讨。",
+    "evidence_note_zh": "这是基于摘要的解读，实验条件、具体表征方法及长期性能等关键细节需通过全文核查。",
+    "key_findings_zh": [
+      "优化蒸发器在1倍太阳光照下实现了3.44 kg m⁻² h⁻¹的蒸发速率。",
+      "集成模块在14小时内产生了24.4 kg m⁻²的淡水产量。",
+      "性能提升源于扩展蒸发区域、毛细管水传输和热量再分配的协同作用。"
+    ]
+  },
+  {
     "title": "Interfacial-energy-directed synthesis of mesoporous COF architectures",
     "abstract": "",
     "authors": [
@@ -195,71 +461,6 @@
     "evidence_note_zh": "这是摘要级解读，需核查全文以获取实验条件、金属离子种类、构型切换机制及性能数据。",
     "key_findings_zh": [
       "摘要未报告相应数据"
-    ]
-  },
-  {
-    "title": "Polymorphism in Covalent Organic Frameworks Regulates Excited Dynamics for H 2 O 2 Photosynthesis Coupled With Biomass Valorization",
-    "abstract": "ABSTRACT Polymorphism in covalent organic frameworks (COFs) offers a unique platform to decipher structure–property relationships, yet its impact on excited‐state dynamics remains unexplored. Herein, we construct two chemically identical but topologically distinct 1D and 2D COF polymorphs to correlate framework architecture with photocatalytic performance. Impressively, in H 2 O 2 photosynthesis coupled with furfuryl alcohol valorization, the 1D‐TBPP‐COF showed an exceptional H 2 O 2 generation rate (18.75 mmol g −1 h −1 ) and selective oxidation of furfuryl alcohol to high‐value 6‐hydroxy‐2H‐pyran‐3(6H)‐one (PN) with PN formation rate of 28.14 mmol·g −1 ·h −1 , substantially outperforming the 2D‐TBPP‐COF counterpart. Mechanistic investigations revealed that the intercalated dual‐chain edges in 1D‐TBPP‐COF impose steric constraints on aromatic ring rotation, effectively suppressing vibrational relaxation losses and prolonging the charge‐transfer state lifetime. In contrast, the conformationally flexible 2D‐TBPP‐COF permits greater rotational freedom, leading to non‐radiative energy dissipation. This work establishes polymorphism engineering as a powerful strategy to manipulate excited‐state dynamics in COFs for photocatalysis.",
-    "authors": [
-      "Yu‐Ou He",
-      "Wen‐Yi Zheng",
-      "Meng‐Na Yue",
-      "Yong Liu",
-      "Jiayu Li",
-      "Ming‐De Li",
-      "Wang‐Kang Han",
-      "Zhi‐Guo Gu"
-    ],
-    "institutions": [],
-    "published": "2026-07-27",
-    "journal": "Angewandte Chemie International Edition",
-    "doi": "10.1002/anie.3123120",
-    "url": "https://doi.org/10.1002/anie.3123120",
-    "sources": [
-      "Crossref"
-    ],
-    "score": 32,
-    "scores": {
-      "topic": 12,
-      "method": 0,
-      "quality": 15,
-      "novelty": 4,
-      "network": 0,
-      "applied": 0,
-      "archive": 1,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Angewandte Chemie International Edition"
-    ],
-    "hits": {
-      "framework": [
-        "cof",
-        "cofs"
-      ],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": []
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-    "selection_tier": "拓展推荐",
-    "title_zh": "共价有机框架中的多晶型调控激发态动力学以实现与生物质增值耦合的H2O2光合成",
-    "summary_zh": "研究通过构建1D和2D COF多晶型材料，揭示框架结构对光催化性能的影响。1D COF表现出优异的H2O2生成速率和选择性氧化性能，显著优于2D COF。",
-    "research_details_zh": "本研究探讨了共价有机框架（COFs）多晶型对激发态动力学的影响。通过设计化学组成相同但拓扑结构不同的1D和2D COF多晶型材料，研究其在H2O2光合成及糠醇氧化为高附加值产物6-羟基-2H-吡喃-3(6H)-酮（PN）中的性能差异。结果表明，1D-TBPP-COF由于其双链边缘的空间位阻效应，抑制了芳环旋转和振动弛豫损失，从而延长了电荷转移态寿命，表现出更高的光催化效率。相比之下，2D-TBPP-COF因其更大的构象自由度导致非辐射能量耗散增加。研究表明，多晶型工程是调控COFs激发态动力学以优化光催化性能的有效策略。",
-    "methods_zh": "研究通过设计1D和2D COF多晶型材料，结合光催化性能测试、动力学分析和机理研究，探讨框架结构与性能的关系。具体方法包括H2O2生成速率和PN生成速率的测定，以及对激发态动力学的深入分析。",
-    "relevance_zh": "该研究通过多晶型工程调控COFs的激发态动力学，为优化光催化性能提供了新思路，特别是在H2O2光合成和生物质增值领域具有重要意义。研究结果对设计高效光催化材料具有指导价值，值得全文精读。",
-    "evidence_note_zh": "这是基于摘要的解读，实验条件、具体表征方法和完整机理分析需通过全文核查以获取更详细信息。",
-    "key_findings_zh": [
-      "1D-TBPP-COF的H2O2生成速率为18.75 mmol g−1 h−1，显著高于2D-TBPP-COF。",
-      "1D-TBPP-COF的PN生成速率为28.14 mmol g−1 h−1，表现出优异的选择性氧化性能。",
-      "1D-TBPP-COF通过空间位阻效应抑制芳环旋转，延长了电荷转移态寿命。",
-      "2D-TBPP-COF因构象自由度增加导致非辐射能量耗散增强。"
     ]
   },
   {
