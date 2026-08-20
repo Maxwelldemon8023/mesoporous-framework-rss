@@ -336,15 +336,34 @@ def fallback_chinese_content(paper):
         if paper.get("hits", {}).get(key):
             hit_labels.append(label)
     focus = "、".join(hit_labels) if hit_labels else "晶态多孔框架材料"
-    evidence_limit = "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
+    abstract = strip_tags(paper.get("abstract", ""))
+    sentences = [part.strip() for part in re.split(r"(?<=[.!?])\s+", abstract) if part.strip()]
+    summary_source = " ".join(sentences[:2])[:700]
+    method_terms = re.compile(r"\b(method|synthesi[sz]|fabricat|assembl|prepar|characteri[sz]|measure|microscop|spectroscop|electrochem|diffraction|simulation)\w*\b", re.I)
+    result_terms = re.compile(r"\b(result|show|demonstrat|reveal|find|found|achiev|exhibit|increase|decrease|enhanc|enable|performance|mechanism)\w*\b|\d", re.I)
+    method_sentences = [sentence for sentence in sentences if method_terms.search(sentence)][:2]
+    result_sentences = [sentence for sentence in sentences if result_terms.search(sentence)][:3]
+    if abstract:
+        research_details = "模型服务暂不可用；以下保留原始英文摘要中的核心句，避免用统一套话代替证据：%s" % (summary_source or abstract[:700])
+        findings = result_sentences or sentences[-2:] or ["摘要存在，但自动提取未识别出独立结果句。"]
+        methods = "模型服务暂不可用；摘要中的方法相关原句：%s" % (" ".join(method_sentences) if method_sentences else "摘要未明确分列方法，需查看原文。")
+        summary = "模型服务暂不可用；原始摘要核心内容：%s" % (summary_source[:350] or abstract[:350])
+        evidence_note = "摘要级自动摘录（非模型概括）；英文原句来自公开摘要，关键细节仍需全文核查。"
+    else:
+        evidence_limit = "自动化来源未提供摘要，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
+        summary = "该记录仅有题目和元数据，当前无法形成有证据支持的内容概括。"
+        research_details = evidence_limit
+        findings = [evidence_limit]
+        methods = "摘要缺失，无法从现有来源提取方法。"
+        evidence_note = "仅元数据级记录；未使用题目之外的信息推断研究结论。"
     return {
         "title_zh": paper.get("title", ""),
-        "summary_zh": "该文围绕%s展开，值得结合原文进一步判断其方法和结论。" % focus,
-        "research_details_zh": "该研究涉及%s。%s" % (focus, evidence_limit),
-        "key_findings_zh": [evidence_limit],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
+        "summary_zh": summary,
+        "research_details_zh": research_details,
+        "key_findings_zh": findings,
+        "methods_zh": methods,
         "relevance_zh": paper.get("recommendation", "与本课题方向相关。"),
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
+        "evidence_note_zh": evidence_note
     }
 
 
@@ -359,16 +378,27 @@ def parse_model_json(content):
     return json.loads(content[start:end + 1])
 
 
+def model_response_text(response):
+    try:
+        content = response["choices"][0]["message"]["content"]
+    except (KeyError, IndexError, TypeError):
+        content = ""
+    if not content:
+        raise ValueError("Model response did not contain assistant text")
+    return content
+
+
 def enrich_chinese(papers, config, errors):
     if not papers:
         return papers
     ai_config = config.get("ai", {})
-    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    key_env = ai_config.get("api_key_env", "DEEPSEEK_API_KEY")
+    token = os.environ.get(key_env, "").strip()
     if not ai_config.get("enabled", True) or not token:
         for paper in papers:
             paper.update(fallback_chinese_content(paper))
         if ai_config.get("enabled", True):
-            errors.append("GITHUB_TOKEN unavailable; used evidence-limited Chinese fallback")
+            errors.append("%s unavailable; used abstract-extractive fallback" % key_env)
         return papers
 
     batch_size = max(1, int(ai_config.get("batch_size", 5)))
@@ -399,19 +429,21 @@ def enrich_chinese(papers, config, errors):
             + json.dumps(records, ensure_ascii=False)
         )
         payload = {
-            "model": ai_config.get("model", "openai/gpt-4o"),
+            "model": ai_config.get("model", "deepseek-v4-flash"),
+            "messages": [{"role": "user", "content": prompt}],
+            "thinking": {"type": "disabled"},
             "temperature": 0.2,
             "max_tokens": int(ai_config.get("max_output_tokens", 3500)),
-            "messages": [{"role": "user", "content": prompt}]
+            "stream": False
         }
         try:
             response = http_post_json(
-                ai_config.get("api_url", "https://models.github.ai/inference/chat/completions"),
+                ai_config.get("api_url", "https://api.deepseek.com/chat/completions"),
                 payload,
-                {"Authorization": "Bearer " + token, "Accept": "application/vnd.github+json"},
+                {"Authorization": "Bearer " + token, "Accept": "application/json"},
                 config["search"]["timeout_seconds"]
             )
-            items = parse_model_json(response["choices"][0]["message"]["content"])
+            items = parse_model_json(model_response_text(response))
             by_doi = {str(item.get("doi", "")).lower(): item for item in items}
             for paper in batch:
                 generated = by_doi.get(paper.get("doi", "").lower())
@@ -423,7 +455,7 @@ def enrich_chinese(papers, config, errors):
                 if not paper.get("summary_zh") or not paper.get("research_details_zh"):
                     paper.update(fallback_chinese_content(paper))
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ValueError, KeyError, IndexError, json.JSONDecodeError) as exc:
-            errors.append("GitHub Models Chinese introduction failed: %s" % exc)
+            errors.append("DeepSeek Chinese introduction failed: %s" % exc)
             for paper in batch:
                 paper.update(fallback_chinese_content(paper))
     return papers

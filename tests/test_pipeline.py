@@ -104,7 +104,24 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(content["summary_zh"])
         self.assertTrue(content["research_details_zh"])
         self.assertIsInstance(content["key_findings_zh"], list)
-        self.assertIn("摘要级解读", content["evidence_note_zh"])
+        self.assertIn("仅元数据级记录", content["evidence_note_zh"])
+
+    def test_fallback_extracts_available_abstract_instead_of_generic_template(self):
+        paper = MODULE.score_paper({
+            "title": "Mesoporous MOF Assembly",
+            "abstract": "We synthesized a mesoporous MOF by surfactant-directed assembly. The material exhibited a 35% increase in conductivity and retained crystallinity.",
+            "authors": [], "institutions": [], "published": "2026-08-19",
+            "journal": "Example Journal", "doi": "10.0000/fallback.2", "sources": ["fixture"]
+        }, self.config)
+        content = MODULE.fallback_chinese_content(paper)
+        self.assertIn("surfactant-directed assembly", content["research_details_zh"])
+        self.assertTrue(any("35%" in item for item in content["key_findings_zh"]))
+        self.assertIn("自动摘录", content["evidence_note_zh"])
+
+    def test_deepseek_chat_output_text_parser(self):
+        response = {"choices": [{"message": {"content": '[{"doi":"10.1/test"}]'}}]}
+        parsed = MODULE.parse_model_json(MODULE.model_response_text(response))
+        self.assertEqual(parsed[0]["doi"], "10.1/test")
 
 
 if __name__ == "__main__":

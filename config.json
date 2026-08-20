@@ -25,8 +25,10 @@
   },
   "ai": {
     "enabled": true,
-    "model": "openai/gpt-4o",
-    "api_url": "https://models.github.ai/inference/chat/completions",
+    "provider": "deepseek",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model": "deepseek-v4-flash",
+    "api_url": "https://api.deepseek.com/chat/completions",
     "max_abstract_chars": 3500,
     "batch_size": 3,
     "max_output_tokens": 3500
