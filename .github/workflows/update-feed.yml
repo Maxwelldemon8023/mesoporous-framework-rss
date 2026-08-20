@@ -9,8 +9,8 @@ on:
       - "literature_rss.py"
       - ".github/workflows/update-feed.yml"
   schedule:
-    # GitHub Actions uses UTC. 00:30 UTC = 08:30 China Standard Time.
-    - cron: "30 0 * * *"
+    # GitHub Actions uses UTC. 23:00 UTC = 07:00 China Standard Time on the next day.
+    - cron: "0 23 * * *"
 
 permissions:
   contents: write
