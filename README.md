@@ -75,7 +75,7 @@ Set-Location D:\Codexlocal\mesoporous-framework-rss
 
 ## 自动更新与公开订阅
 
-`.github/workflows/update-feed.yml` 已配置为北京时间每天约 07:00 更新；GitHub Actions 在繁忙时可能延迟几分钟启动。
+`.github/workflows/update-feed.yml` 已配置为北京时间每天约 07:10 更新；该时间避开 GitHub Actions 的整点高负载时段，但在繁忙时仍可能延迟几分钟启动。
 
 1. 将本目录作为 GitHub 仓库推送；
 2. 在仓库 Settings → Pages 中确认 Source 为 `GitHub Actions`；本项目的工作流会直接发布 `public/`；
