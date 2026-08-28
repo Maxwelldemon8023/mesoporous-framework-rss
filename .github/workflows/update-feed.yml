@@ -9,9 +9,11 @@ on:
       - "literature_rss.py"
       - ".github/workflows/update-feed.yml"
   schedule:
-    # GitHub Actions uses UTC. 23:10 UTC = 07:10 China Standard Time on the next day.
-    # Avoid the top of the hour, when scheduled Actions are more likely to be delayed or dropped.
+    # GitHub Actions uses UTC. These are 07:10, 07:40 and 08:10 China Standard Time.
+    # Redundant checks reduce the impact of a delayed or dropped scheduled run.
     - cron: "10 23 * * *"
+    - cron: "40 23 * * *"
+    - cron: "10 0 * * *"
 
 permissions:
   contents: write
@@ -33,11 +35,43 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Check whether the daily digest already exists
+        id: guard
+        shell: bash
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          import json
+          import os
+
+          china_tz = dt.timezone(dt.timedelta(hours=8))
+          target_date = (dt.datetime.now(china_tz).date() - dt.timedelta(days=1)).isoformat()
+          digest_exists = False
+          try:
+              with open("public/digests.json", encoding="utf-8") as handle:
+                  digests = json.load(handle)
+              digest_exists = any(item.get("date") == target_date for item in digests)
+          except (FileNotFoundError, json.JSONDecodeError):
+              pass
+
+          # Manual runs and relevant code/config pushes intentionally rebuild the feed.
+          # Only redundant scheduled runs are skipped after the first one succeeds.
+          should_run = os.environ.get("GITHUB_EVENT_NAME") != "schedule" or not digest_exists
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"should_run={'true' if should_run else 'false'}\n")
+              output.write(f"target_date={target_date}\n")
+          print(
+              f"Target date: {target_date}; digest exists: {digest_exists}; "
+              f"build feed: {should_run}"
+          )
+          PY
       - name: Build feed
+        if: steps.guard.outputs.should_run == 'true'
         run: python literature_rss.py --output public
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       - name: Commit updated feed state
+        if: steps.guard.outputs.should_run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -45,13 +79,16 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update literature feed"
           git push
       - name: Configure GitHub Pages
+        if: steps.guard.outputs.should_run == 'true'
         uses: actions/configure-pages@v5
         with:
           enablement: true
       - name: Upload RSS site
+        if: steps.guard.outputs.should_run == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
       - name: Deploy GitHub Pages
+        if: steps.guard.outputs.should_run == 'true'
         id: deployment
         uses: actions/deploy-pages@v4

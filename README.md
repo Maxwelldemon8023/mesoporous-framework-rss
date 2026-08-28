@@ -75,7 +75,7 @@ Set-Location D:\Codexlocal\mesoporous-framework-rss
 
 ## 自动更新与公开订阅
 
-`.github/workflows/update-feed.yml` 已配置为北京时间每天约 07:10 更新；该时间避开 GitHub Actions 的整点高负载时段，但在繁忙时仍可能延迟几分钟启动。
+`.github/workflows/update-feed.yml` 已配置为北京时间每天 07:10、07:40 和 08:10 进行三次冗余检查。第一次成功生成昨日的日报后，后续调度会检测到该日期已经归档并自动跳过，不会重复检索、调用 DeepSeek 或产生重复日报。GitHub Actions 在繁忙时仍可能延迟启动，因此这里的时间是计划触发时间，而不是严格的送达时刻。
 
 1. 将本目录作为 GitHub 仓库推送；
 2. 在仓库 Settings → Pages 中确认 Source 为 `GitHub Actions`；本项目的工作流会直接发布 `public/`；
