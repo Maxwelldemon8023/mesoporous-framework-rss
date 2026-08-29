@@ -1,5 +1,146 @@
 [
   {
+    "title": "Metal-free redox active covalent organic frameworks for electrocatalytic oxygen reduction reaction",
+    "abstract": "Designing efficient, metal-free covalent organic framework (COF) electrocatalysts is a promising strategy for the oxygen reduction reaction (ORR) due to their structural tunability and stability. Herein, we report two redox-active donor–acceptor COFs, TAPA-DHTD and TTT-DHTD, incorporating a thiophene-based dithiophenedione (DHTD) unit. Among them, TTT-DHTD exhibits superior ORR performance with a half-wave potential (E 1/2 ) of 0.82 V vs RHE, approaching that of 20% Pt/C (0.85 V) and surpassing most reported metal-free COFs. It also demonstrates excellent methanol tolerance and long-term durability, maintaining activity over 120 hours. Density functional theory (DFT) calculations reveal that the donor–acceptor framework optimizes the p -band center, enhances charge separation, and improves adsorption of oxygenated intermediates, thereby accelerating ORR kinetics. This work provides a rational strategy for designing durable, high-performance metal-free electrocatalysts for sustainable energy applications.",
+    "authors": [
+      "Bikash Mishra",
+      "Surajit Samui",
+      "Sourav Ghosh",
+      "Supriti Dutta",
+      "Chowdhury Ismat Nurani",
+      "Monojit Roy",
+      "Debashis Adhikari",
+      "Ranjit Thapa",
+      "Ramendra Sundar Dey",
+      "Pradip Pachfule"
+    ],
+    "institutions": [],
+    "published": "2026-08-28",
+    "journal": "Science Advances",
+    "doi": "10.1126/sciadv.aee3092",
+    "url": "https://doi.org/10.1126/sciadv.aee3092",
+    "sources": [
+      "Crossref"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 25,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 8,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Science Advances"
+    ],
+    "hits": {
+      "framework": [
+        "cof",
+        "cofs",
+        "covalent organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "拓展推荐",
+    "title_zh": "无金属氧化还原活性共价有机框架用于电催化氧还原反应",
+    "summary_zh": "报道两种含噻吩基二噻吩二酮单元的氧化还原活性供体-受体COF（TAPA-DHTD和TTT-DHTD）。其中TTT-DHTD表现出优异ORR性能，半波电位0.82 V vs RHE，接近20% Pt/C（0.85 V），并具有优异甲醇耐受性和超过120小时的长期稳定性。DFT计算揭示供体-受体框架优化p带中心、增强电荷分离并改善含氧中间体吸附，加速ORR动力学。",
+    "research_details_zh": "研究问题聚焦于设计高效无金属COF电催化剂用于氧还原反应（ORR），利用COF的结构可调性和稳定性。材料体系为两种氧化还原活性供体-受体COF，即TAPA-DHTD和TTT-DHTD，均引入噻吩基二噻吩二酮（DHTD）单元。设计策略是通过供体-受体框架结构调控电子性质，以优化ORR催化性能。研究过程包括合成两种COF、评估其ORR电催化性能（半波电位、甲醇耐受性、长期耐久性），并结合DFT计算揭示催化机制。该研究的意义在于提供了一种合理设计耐用、高性能无金属电催化剂的策略，对可持续能源应用具有潜在价值。摘要未报告COF的比表面积、孔径分布、结晶度等结构表征数据，也未报告电化学测试的具体电解液、催化剂负载量等实验条件。",
+    "methods_zh": "摘要明确提及合成了两种COF（TAPA-DHTD和TTT-DHTD），但未报告具体合成条件。性能测试方面，进行了ORR电催化性能评估，包括半波电位测定、甲醇耐受性测试和长期耐久性测试（120小时）。机制研究采用密度泛函理论（DFT）计算，分析p带中心、电荷分离和含氧中间体吸附行为。摘要未报告X射线衍射、氮气吸附等结构表征方法，也未报告电化学测试的具体实验参数。",
+    "relevance_zh": "该研究为无金属COF电催化剂在ORR中的应用提供了直接证据，展示了供体-受体设计策略对催化性能的显著提升，与框架材料电化学合成及功能化研究方向高度相关。其半波电位接近Pt/C且稳定性优异，具有实际应用潜力。但摘要未报告结构表征和详细电化学条件，需全文核查以评估其可重复性和普适性。值得精读以获取完整实验细节和机制证据。",
+    "evidence_note_zh": "这是摘要级解读。摘要未报告COF的合成条件、结构表征数据（如比表面积、孔径、结晶度）、电化学测试的具体电解液和负载量、DFT计算的具体方法和参数等关键细节，需全文核查。",
+    "key_findings_zh": [
+      "TTT-DHTD的半波电位为0.82 V vs RHE，接近20% Pt/C（0.85 V），优于大多数已报道的无金属COF",
+      "TTT-DHTD表现出优异的甲醇耐受性和长期耐久性，活性维持超过120小时",
+      "DFT计算表明供体-受体框架优化p带中心、增强电荷分离并改善含氧中间体吸附，从而加速ORR动力学"
+    ]
+  },
+  {
+    "title": "Lignin-degrading-inspired dehydrogenative photocatalysis via reductive quenching of donor-acceptor covalent organic framework",
+    "abstract": "Achieving a photocatalytic reductive quenching cycle that enables direct oxidation of the photocatalyst radical anion by H(I) species, without requiring stoichiometric oxidants or cocatalysts, remains a long-standing challenge in artificial photoredox catalysis. Here we report a bioinspired approach based on the lignin-degrading-mediated proton-coupled electron transfer (PCET) process, implemented through a perylene-based covalent organic framework (NPy-Per-COF) with precisely engineered donor-acceptor characteristics. This heterogeneous photocatalyst sustains a reductive quenching cycle in which controlled radical generation, catalyst regeneration and hydrogen evolution are intrinsically coupled. The system enables dehydrogenative radical cascade reactions between lignin-inspired precursors and structurally diverse unsaturated partners, providing access to a broad range of functionalized aromatic architectures. Further synthetic modifications and in silico analyses confirm the biological relevance and medicinal potential of the synthesized scaffolds. Beyond model substrates, the photocatalytic system can be extended to lignin-derived motifs, highlighting its potential relevance to complex biomass-related chemical space. Mechanistic investigations support the view that donor-acceptor polarization within the COF promotes efficient charge separation, stabilizes the photocatalyst radical anion and facilitates a PCET-initiated reductive quenching cycle. By abstracting and translating key elements of enzymatic redox control into a fully artificial, heterogeneous photocatalytic framework, this work establishes mechanistically informed design guideline for photocatalytic reductive quenching cycle and advances the development of bioinspired systems for controlled dehydrogenative transformations.",
+    "authors": [
+      "Xiangfeng Lin",
+      "Abdullahi Bello Umar",
+      "Jiaxian Zheng",
+      "Hankun Zheng",
+      "Wenjing Sang",
+      "Zhanhua Huang",
+      "Jie Wang",
+      "Yunqing Kang",
+      "Dong Jiang",
+      "Yusuke Yamauchi",
+      "Chaoqun Zhang",
+      "Guofeng Guan",
+      "Zhanhui Yuan"
+    ],
+    "institutions": [],
+    "published": "2026-08-28",
+    "journal": "Science Advances",
+    "doi": "10.1126/sciadv.aef6109",
+    "url": "https://doi.org/10.1126/sciadv.aef6109",
+    "sources": [
+      "Crossref"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 25,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 8,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Science Advances"
+    ],
+    "hits": {
+      "framework": [
+        "cof",
+        "covalent organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "拓展推荐",
+    "title_zh": "受木质素降解启发的脱氢光催化：供体-受体共价有机框架的还原猝灭机制",
+    "summary_zh": "报道一种基于苝的供体-受体COF（NPy-Per-COF），模拟木质素降解中的质子耦合电子转移（PCET）过程，实现无需化学计量氧化剂或助催化剂的光催化还原猝灭循环。该体系将自由基生成、催化剂再生和析氢内在耦合，实现木质素启发前体与不饱和底物的脱氢自由基级联反应，并拓展至木质素衍生基元。",
+    "research_details_zh": "研究问题聚焦于实现光催化还原猝灭循环，使光催化剂自由基阴离子能被H(I)物种直接氧化，无需化学计量氧化剂或助催化剂，这是人工光氧化还原催化的长期挑战。材料体系为基于苝的供体-受体COF（NPy-Per-COF），通过精确设计供体-受体特性实现仿生功能。设计策略借鉴木质素降解介导的PCET过程，将酶促氧化还原控制的关键要素抽象并转化为全人工异相光催化框架。研究过程包括合成该COF、验证其维持还原猝灭循环的能力（自由基生成、催化剂再生和析氢内在耦合）、实现脱氢自由基级联反应、进行合成修饰和计算分析验证生物相关性及药用潜力，并将体系拓展至木质素衍生基元。机制研究支持供体-受体极化促进电荷分离、稳定光催化剂自由基阴离子并促进PCET引发的还原猝灭循环。该研究为光催化还原猝灭循环提供了机制指导的设计准则，推进了仿生系统在受控脱氢转化中的发展。",
+    "methods_zh": "摘要明确提及合成了基于苝的供体-受体COF（NPy-Per-COF），但未报告具体合成条件。性能测试包括光催化脱氢自由基级联反应评估，涉及木质素启发前体与不饱和底物的反应。机制研究采用实验和计算相结合的方法，包括合成修饰、in silico分析以及机制研究以验证电荷分离和PCET过程。摘要未报告COF的结构表征方法（如X射线衍射、氮气吸附）、光催化反应的具体条件（光源、溶剂、温度）以及析氢的定量数据。",
+    "relevance_zh": "该研究展示了供体-受体COF在仿生光催化中的创新应用，将木质素降解的酶促PCET机制转化为人工异相光催化体系，为框架材料的光催化功能化提供了新范式。其还原猝灭循环设计对理解COF中电荷分离和自由基稳定化具有重要价值。但摘要未报告COF结构表征和光催化定量数据，需全文核查以评估其催化效率和可重复性。值得精读以获取完整的机制证据和实验细节。",
+    "evidence_note_zh": "这是摘要级解读。摘要未报告NPy-Per-COF的合成条件、结构表征数据（如比表面积、孔径、结晶度）、光催化反应的具体条件（光源、溶剂、温度、时间）、析氢的定量数据、in silico分析的具体方法以及机制研究的实验细节，需全文核查。",
+    "key_findings_zh": [
+      "NPy-Per-COF作为异相光催化剂，能维持还原猝灭循环，其中自由基生成、催化剂再生和析氢内在耦合",
+      "该体系实现木质素启发前体与结构多样的不饱和伙伴之间的脱氢自由基级联反应，获得多种功能化芳香骨架",
+      "机制研究支持供体-受体极化促进高效电荷分离、稳定光催化剂自由基阴离子并促进PCET引发的还原猝灭循环",
+      "光催化体系可拓展至木质素衍生基元，表明其与复杂生物质相关化学空间的潜在相关性"
+    ]
+  },
+  {
     "title": "A 3D conductive amorphous unsaturated-ligand MIL-68(Fe) MOF as room-temperature H2S chemiresistive sensor",
     "abstract": "",
     "authors": [
