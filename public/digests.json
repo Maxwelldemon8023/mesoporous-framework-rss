@@ -1,5 +1,371 @@
 [
   {
+    "date": "2026-08-29",
+    "generated_at": "2026-08-30T01:13:07Z",
+    "papers": [
+      {
+        "title": "Programmable mesoporous carbon architectures from liquefied wood via reactive-emulsion-mediated self-assembly",
+        "abstract": "Abstract Developing biomass-derived programmable self-assembly systems for precise control of carbon morphology and architecture remains challenging, primarily because of the intrinsic heterogeneity that hinders controllable assembly. Here, we report a biomass-enabled reactive-emulsion-mediated strategy for converting liquefied wood into various mesoporous carbon nanomaterials. This synthesis features the introduction of trioctyl phosphate (TOP) as a hydrophobic swelling agent for composite micelles and an interfacial modifier, shifting the preferred micelle curvature/packing tendency and biasing the assembly pathway from homogeneous aqueous self-assembly toward interface-associated anisotropic organization. This coupled regulation progressively reduces the density of ordered mesochannels within the fibrous framework and promotes the evolution from ordered mesoporous nanofibers to hollow nanofibers and bowl-like architectures. The fabricated hollow carbon nanofiber-based mixed ion-electron thermoelectric generator (MTEG) exhibits a high thermopower of 12.33 mV K –1 (across 40 kΩ). This strategy provides a versatile route for constructing biomass-derived mesoporous carbon materials with tunable morphologies and pore architectures.",
+        "authors": [
+          "Yang Li",
+          "Kun Zhang",
+          "Shenghui Jiao",
+          "Guangying Li",
+          "Yanhong Liu",
+          "Shirui Zou",
+          "Rui Teng",
+          "Hongjian Fu",
+          "Chunhui Ma",
+          "Sha Luo",
+          "Wei Li",
+          "Zaiwang Zhao",
+          "Shouxin Liu"
+        ],
+        "institutions": [],
+        "published": "2026-08-29",
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-026-77269-7",
+        "url": "https://doi.org/10.1038/s41467-026-77269-7",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 45,
+        "scores": {
+          "topic": 12,
+          "method": 10,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 4,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Nature Communications"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [
+            "micelle",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "materials",
+            "mesoporous",
+            "micelle",
+            "nanomaterials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "title_zh": "液化木材经反应性乳液介导自组装制备可编程介孔碳结构",
+        "summary_zh": "本研究提出一种生物质驱动的反应性乳液介导策略，将液化木材转化为多种介孔碳纳米材料。通过引入磷酸三辛酯调控胶束曲率与堆积倾向，实现从有序介孔纳米纤维到空心纳米纤维及碗状结构的形貌演化，所得空心碳纳米纤维基混合离子电子热电器件具有高热电势。",
+        "research_details_zh": "研究针对生物质衍生可编程自组装体系难以精确控制碳形貌与架构的问题，提出以液化木材为碳源的反应性乳液介导合成策略。材料体系涉及复合胶束、磷酸三辛酯疏水溶胀剂及界面改性剂，设计策略是通过调控胶束曲率与堆积倾向，使组装路径从均相水相自组装转向界面相关的各向异性组织。研究过程表明，这种耦合调控逐步降低纤维骨架内有序介孔通道密度，促进形貌从有序介孔纳米纤维向空心纳米纤维和碗状结构演化。该策略为构建形貌和孔结构可调的生物质基介孔碳材料提供了通用途径，对可持续纳米碳材料合成具有方法学意义。",
+        "methods_zh": "摘要明确提及的合成方法为反应性乳液介导自组装，以液化木材为前驱体，引入磷酸三辛酯作为疏水溶胀剂和界面改性剂。表征与性能测试方面，摘要报告了所得碳纳米材料的形貌演化观察，以及基于空心碳纳米纤维的混合离子电子热电器件的热电势测试。具体表征手段如电子显微镜、氮气吸附等细节摘要未报告。",
+        "relevance_zh": "该研究为介孔碳材料的形貌与孔结构可控制备提供了生物质基新路线，与介孔材料及自组装技术主线高度契合。其反应性乳液介导策略可能对框架材料的组装设计有借鉴价值，但材料体系为碳而非MOF/COF，相关性为拓展层面。建议精读以获取组装机制细节，但需注意摘要未报告孔径分布、比表面积等定量孔结构数据。",
+        "evidence_note_zh": "这是摘要级解读，仅依据摘要内容整理。热电势数值和形貌演化结论来自摘要明确报告，但具体合成条件、表征手段、孔径参数、器件结构细节及稳定性数据均需全文核查。",
+        "key_findings_zh": [
+          "引入磷酸三辛酯作为疏水溶胀剂和界面改性剂，可改变胶束曲率与堆积倾向，使组装从均相水相自组装转向界面相关各向异性组织。",
+          "耦合调控逐步降低纤维骨架内有序介孔通道密度，驱动形貌从有序介孔纳米纤维演化为空心纳米纤维和碗状结构。",
+          "基于空心碳纳米纤维的混合离子电子热电器件在40 kΩ下表现出12.33 mV K⁻¹的高热电势。"
+        ]
+      },
+      {
+        "title": "Conformation‐Locking in Thiazole‐Rich Mixed‐Linkage Covalent Organic Frameworks for Spontaneous Exciton Dissociation and Efficient Photocatalysis",
+        "abstract": "ABSTRACT The formidable exciton effect inherent in organic semiconductors fundamentally restricts free charge carrier generation, thereby impeding photocatalytic redox efficiency. Facilitating spontaneous exciton dissociation and lowering exciton binding energy are essential for maximizing charge utilization. Herein, we report a conformation‐locking strategy to engineer a thiazole‐rich mixed‐linkage donor–acceptor conjugated covalent organic framework (SBt‐Tapt) via post‐synthetic cyclization. The seamless integration of sulfur heteroatoms into a rigid, thiazole‐bridged framework significantly enhances π‐conjugated and electronic polarizability. Crucially, this structural reinforcement lowers the exciton activation energy below to 25 meV, triggering spontaneous exciton dissociation, extending carrier lifetimes, and yielding a proliferation of free charge carriers at room temperature. Mechanistic insights elucidate that the thiazole moieties synergistically activate adjacent phenyl units for O 2 reduction while simultaneously lowering the energy barrier for H 2 O oxidation at benzothiophene sites. This dual‐pathway mechanism drives efficient H 2 O 2 photosynthesis with robust operational stability exceeding 100 h. Notably, utilizing phenolic pollutants as proton donors, SBt‐Tapt delivers an exceptional H 2 O 2 evolution rate of 8.99 mmol g cat −1 h −1 alongside effective pollutant mineralization. This study elucidates a profound structure–activity relationship (SAR) and establishes conformation locking as a potent excitonic engineering paradigm for developing high performance organic photocatalysts.",
+        "authors": [
+          "Liujun Yang",
+          "Xu Zhang",
+          "Chenfan Xie",
+          "Long Zhang",
+          "Jiangyue Wang",
+          "Qiang Cao",
+          "Junwei Yuan",
+          "Chen Yu",
+          "Liren Gu",
+          "Zhigang Ren",
+          "Hua Li",
+          "Jianmei Lu"
+        ],
+        "institutions": [],
+        "published": "2026-08-29",
+        "journal": "Angewandte Chemie",
+        "doi": "10.1002/ange.4914496",
+        "url": "https://doi.org/10.1002/ange.4914496",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 41,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie"
+        ],
+        "hits": {
+          "framework": [
+            "covalent organic framework"
+          ],
+          "conductive": [
+            "conjugated",
+            "π-conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "title_zh": "噻唑丰富混合连接共价有机框架中的构象锁定用于自发激子解离和高效光催化",
+        "summary_zh": "本研究提出构象锁定策略，通过后合成环化构建富含噻唑的混合连接供体-受体共轭共价有机框架SBt-Tapt。该策略将硫杂原子整合入刚性噻唑桥连框架，增强π共轭和电子极化率，将激子活化能降至25 meV以下，实现自发激子解离和高效H₂O₂光合作用。",
+        "research_details_zh": "研究针对有机半导体中强激子效应限制自由载流子生成、阻碍光催化氧化还原效率的问题，提出构象锁定策略。材料体系为噻唑丰富的混合连接供体-受体共轭共价有机框架SBt-Tapt，通过后合成环化制备。设计策略是将硫杂原子无缝整合入刚性噻唑桥连框架，以增强π共轭和电子极化率。研究过程表明，这种结构强化将激子活化能降至25 meV以下，触发自发激子解离，延长载流子寿命，在室温下产生大量自由载流子。机制研究阐明噻唑部分协同激活相邻苯基单元用于O₂还原，同时降低苯并噻吩位点H₂O氧化的能垒，双路径机制驱动高效H₂O₂光合作用，运行稳定性超过100小时。",
+        "methods_zh": "摘要明确提及的合成方法为后合成环化策略，用于构建噻唑丰富的混合连接供体-受体共价有机框架SBt-Tapt。表征与测试方面，摘要报告了激子活化能测量、载流子寿命测试、光催化H₂O₂生成性能测试、污染物矿化测试以及运行稳定性测试。具体光谱表征、电化学测试等细节摘要未报告。",
+        "relevance_zh": "该研究与共轭COF及导电框架材料主线高度契合，构象锁定策略为激子工程提供了新范式，对光催化应用有重要价值。摘要明确报告了激子活化能、H₂O₂生成速率和稳定性等关键定量数据，结构-性能关系清晰，值得全文精读。但需注意摘要未报告材料电导率、比表面积、孔径等框架材料常规表征数据。",
+        "evidence_note_zh": "这是摘要级解读，仅依据摘要内容整理。激子活化能、H₂O₂生成速率和稳定性数据来自摘要明确报告，但具体合成条件、环化效率、光谱表征、能带结构、活性位点定量分析等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "构象锁定策略将激子活化能降至25 meV以下，触发自发激子解离并延长载流子寿命，室温下产生大量自由载流子。",
+          "噻唑部分协同激活相邻苯基单元用于O₂还原，同时降低苯并噻吩位点H₂O氧化能垒，形成双路径H₂O₂光合作用机制。",
+          "以酚类污染物为质子供体时，SBt-Tapt实现8.99 mmol g_cat⁻¹ h⁻¹的H₂O₂生成速率，同时有效矿化污染物。",
+          "SBt-Tapt在H₂O₂光合作用中表现出超过100小时的稳健运行稳定性。"
+        ]
+      },
+      {
+        "title": "Solar‐Powered Water Depollution Through a Bioinspired Device Based on ZIF‐8 Loaded Macroporous Hydrogels Prepared via Ice‐Templating",
+        "abstract": "ABSTRACT Water pollution poses a constant threat to the environment and is one of the central causes for global shortage of clean water. Metal–Organic Frameworks (MOFs) have emerged as highly efficient adsorbents; however, their application is limited by their common production as fine powders, which hinders recovery and reuse. Here, we report a bioinspired strategy to overcome this limitation by embedding high loadings of ZIF‐8 microparticles (up to 90 wt%) within macroporous polysaccharide hydrogels prepared via ice‐templating and topotactic Ca 2 + crosslinking. The resulting monoliths exhibit highly aligned microporous channels and homogeneously distributed ZIF‐8 particles whose crystallinity and microporosity are preserved. The polysaccharide/ZIF‐8 hydrogel showed superior adsorption for methylene blue (MB) and methyl orange (MO) compared to bare polysaccharide hydrogel, while being easier to recover and recycle than ZIF‐8 powder offering recyclability and structural integrity over multiple cycles. Under simulated solar irradiation, the hydrogels achieve up to 76% degradation of MB within 2 h. Finally, integration of a carbon‐based paper on top of the hydrogel, working as a highly efficient vapor generator, drives the water transport through the device, enabling the design of a solar‐powered depollution device that simultaneously purifies contaminated water and generates clean condensed water. This scalable, eco‐compatible approach opens new perspectives for multifunctional MOF–biopolymer architectures in sustainable water treatment technologies.",
+        "authors": [
+          "Katsuya Komiyama",
+          "Jonathan Bachir",
+          "Francisco M. Fernandes",
+          "Clémence Sicard"
+        ],
+        "institutions": [],
+        "published": "2026-08-29",
+        "journal": "Small",
+        "doi": "10.1002/smll.202600041",
+        "url": "https://doi.org/10.1002/smll.202600041",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 38,
+        "scores": {
+          "topic": 18,
+          "method": 2,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Small"
+        ],
+        "hits": {
+          "framework": [
+            "mof",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "templating"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "carbon"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "title_zh": "基于冰模板法制备的ZIF-8负载大孔水凝胶的生物启发太阳能水净化器件",
+        "summary_zh": "本研究通过冰模板法和拓扑Ca²⁺交联制备负载高达90 wt% ZIF-8微粒的大孔多糖水凝胶整体材料。所得材料保持ZIF-8结晶性和微孔性，对亚甲基蓝和甲基橙的吸附性能优于纯多糖水凝胶，在模拟太阳光照射下2小时内实现76%的亚甲基蓝降解，并集成碳基纸实现太阳能驱动水净化。",
+        "research_details_zh": "研究针对MOF粉末形态限制其回收和再利用的问题，提出生物启发策略，将高负载量ZIF-8微粒嵌入大孔多糖水凝胶中。材料体系为ZIF-8/多糖复合水凝胶，通过冰模板法和拓扑Ca²⁺交联制备。设计策略是利用冰模板形成高度取向的微孔通道，并通过Ca²⁺交联维持结构完整性，实现ZIF-8颗粒的均匀分布。研究过程表明，所得整体材料中ZIF-8的结晶性和微孔性得到保持，对亚甲基蓝和甲基橙的吸附性能优于纯多糖水凝胶，且比ZIF-8粉末更易回收和循环使用。在模拟太阳光照射下，水凝胶在2小时内实现76%的亚甲基蓝降解。进一步集成碳基纸作为蒸汽发生器，驱动水传输，实现同时净化污染水和产生清洁冷凝水的太阳能驱动净化器件。",
+        "methods_zh": "摘要明确提及的制备方法为冰模板法和拓扑Ca²⁺交联，用于构建负载ZIF-8的大孔多糖水凝胶。表征方面，摘要报告了ZIF-8结晶性和微孔性的保持、颗粒分布均匀性以及高度取向微孔通道的形成。性能测试包括亚甲基蓝和甲基橙吸附测试、模拟太阳光下降解测试、循环使用测试以及太阳能驱动水净化器件性能测试。具体吸附容量数值、孔径分布等细节摘要未报告。",
+        "relevance_zh": "该研究将MOF与生物聚合物水凝胶结合，解决了MOF粉末回收难题，对框架材料的宏观组装和实际应用有重要参考价值。冰模板法作为自组装技术的一种，与本研究主线相关。摘要报告了负载量、降解效率等关键数据，但缺乏吸附容量、循环次数等定量细节，建议精读以评估其实际应用潜力。",
+        "evidence_note_zh": "这是摘要级解读，仅依据摘要内容整理。ZIF-8负载量、降解效率等数据来自摘要明确报告，但具体吸附容量、循环次数、孔径分布、机械强度、水蒸发速率等关键参数均需全文核查。",
+        "key_findings_zh": [
+          "冰模板法和拓扑Ca²⁺交联可制备负载高达90 wt% ZIF-8微粒的大孔多糖水凝胶，ZIF-8结晶性和微孔性得到保持。",
+          "多糖/ZIF-8水凝胶对亚甲基蓝和甲基橙的吸附性能优于纯多糖水凝胶，且比ZIF-8粉末更易回收和循环使用。",
+          "在模拟太阳光照射下，水凝胶在2小时内实现76%的亚甲基蓝降解。",
+          "集成碳基纸作为蒸汽发生器，可实现同时净化污染水和产生清洁冷凝水的太阳能驱动净化功能。"
+        ]
+      },
+      {
+        "title": "Active Learning‐Accelerated Discovery of Antifungal Polymers With Self‐Assembly Capacity for Tackling Invasive Fungal Diseases",
+        "abstract": "ABSTRACT Invasive fungal diseases (IFD) are life‐threatening infections with limited clinical management. Antifungal peptide (AFP)‐mimicking polymers are promising candidates for tackling IFD. However, due to the structural diversity of polymers, it remains a great challenge to discover new polymers with potent antifungal activity and biocompatibility. Herein, we propose a novel active learning‐guided framework PolyCAML for accelerated discovery of antifungal polymers. Inspired by AFPs, we construct a quaternary copolymer library comprising 516,114 combinations with different side chains. By integrating automated synthesis platform, Graph Transformer machine learning model, and greedy algorithm, 11 top‐performing candidates are screened via the Design‐Build‐Test‐Learn (DBTL) intelligent iterative workflow within merely 18 days. Through further data mining, key factors that influence antifungal potency and biocompatibility of polymers are identified. By more rigorous biological evaluation, four target polymers are screened, exhibiting a minimum fungicidal concentration ≤ 8 µg/mL and a 50% inhibitory concentration of L929 cells ≥ 512 µg/mL. These polymers are self‐assembled into positively charged nanoparticles for delivering fluconazole, which exhibit synergistic anti‐biofilm activity by enhanced biofilm penetration. The in vivo therapeutic efficacy is confirmed by a fungemia model and a fungal keratitis model. Overall, we establish a multi‐task intelligent prediction platform PolyCAML to discover antifungal polymers for tackling IFD.",
+        "authors": [
+          "Tianyi Zhang",
+          "Zhizhao Zhang",
+          "Haojie Chen",
+          "Yuhui Wu",
+          "Ye Tian",
+          "Qiannuan Shi",
+          "Qun Fang",
+          "Jianzhang Pan",
+          "Jian Ji",
+          "Youxiang Wang",
+          "Qiao Ji"
+        ],
+        "institutions": [],
+        "published": "2026-08-29",
+        "journal": "Angewandte Chemie",
+        "doi": "10.1002/ange.3008697",
+        "url": "https://doi.org/10.1002/ange.3008697",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 35,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "copolymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "title_zh": "主动学习加速发现具有自组装能力的抗真菌聚合物以应对侵袭性真菌疾病",
+        "summary_zh": "该研究提出主动学习框架PolyCAML，结合自动化合成、图Transformer模型和贪心算法，在18天内从516114种四元共聚物组合中筛选出高效抗真菌聚合物。四种目标聚合物具有低杀菌浓度和高生物相容性，可自组装为纳米颗粒递送氟康唑，并在体内模型中验证了协同抗生物膜疗效。",
+        "research_details_zh": "研究针对侵袭性真菌疾病临床管理有限的问题，聚焦抗真菌肽模拟聚合物的发现。由于聚合物结构多样性，传统方法难以高效筛选兼具抗真菌活性和生物相容性的候选物。作者受天然抗真菌肽启发，构建了包含516114种不同侧链组合的四元共聚物库。通过集成自动化合成平台、图Transformer机器学习模型和贪心算法，采用设计-构建-测试-学习智能迭代工作流，仅用18天筛选出11个高性能候选物。进一步数据挖掘识别出影响抗真菌效力和生物相容性的关键因素。经更严格的生物学评估，筛出四种目标聚合物，其最低杀菌浓度不超过8微克/毫升，对L929细胞的半数抑制浓度不低于512微克/毫升。这些聚合物自组装成带正电荷的纳米颗粒用于递送氟康唑，通过增强生物膜穿透表现出协同抗生物膜活性。体内疗效通过真菌血症模型和真菌性角膜炎模型得到确认。该工作建立了多任务智能预测平台PolyCAML，为应对侵袭性真菌疾病提供新策略。",
+        "methods_zh": "研究采用主动学习框架PolyCAML，构建四元共聚物库，集成自动化合成平台进行聚合物制备，使用图Transformer机器学习模型进行性能预测，结合贪心算法进行候选筛选。通过设计-构建-测试-学习智能迭代工作流加速发现过程。对筛选出的聚合物进行生物学评估，包括最低杀菌浓度和细胞毒性测试。自组装纳米颗粒的制备及氟康唑递送实验，以及抗生物膜活性评价。体内疗效通过真菌血症模型和真菌性角膜炎模型验证。",
+        "relevance_zh": "该研究与自组装技术主题直接相关，展示了聚合物自组装纳米颗粒在药物递送中的应用价值。主动学习加速材料发现的方法论对框架材料的智能筛选具有借鉴意义。虽然研究对象是共聚物而非导电MOF或共轭框架，但其设计-构建-测试-学习工作流和自组装策略值得关注。建议精读以获取主动学习框架和自组装递送体系的详细设计思路。",
+        "evidence_note_zh": "这是摘要级解读。摘要未报告聚合物的具体化学结构、自组装纳米颗粒的尺寸和形貌表征数据、氟康唑载药量和释放行为、体内实验的具体给药方案和统计细节，以及关键影响因素的具体化学含义。这些细节需全文核查。",
+        "key_findings_zh": [
+          "四种目标聚合物表现出最低杀菌浓度不超过8微克/毫升，对L929细胞半数抑制浓度不低于512微克/毫升",
+          "聚合物自组装为带正电荷纳米颗粒递送氟康唑，通过增强生物膜穿透实现协同抗生物膜活性",
+          "体内疗效在真菌血症模型和真菌性角膜炎模型中得到确认",
+          "数据挖掘识别出影响抗真菌效力和生物相容性的关键因素，但具体因素内容摘要未报告"
+        ]
+      },
+      {
+        "title": "Bimetallic Conductive Co/Fe‐HITP for Sensitive H 2 S Detection at Low Temperature",
+        "abstract": "ABSTRACT The metal nodes in conductive metal‐organic (c‐MOFs) play a crucial role in determining surface chemical activity. Tuning the metal sites of Co 3 (HITP) 2 is expected to enhance its low‐temperature gas sensing performance. Here, a series of bimetallic Co/Fe‐HITP materials are synthesized by partially substituting Co with Fe ions at varying Fe/Co ratios. Gas sensing tests reveal that the Fe incorporation not only improves the response of H 2 S at low temperature but also reduces the fluctuations caused by low temperatures. The optimal Co 1.5 Fe 1.5 ‐HITP 9.5 sensor delivers a response of 10.05 toward 20 ppm H 2 S at room temperature (25°C) and 9.69 at a refrigerating temperature (0°C), with corresponding LODs of 18.9 ppb and 16.8 ppb, respectively. Density functional theory (DFT) calculations on Co‐HITP, Co 2 Fe 1 ‐HITP 9.5 , and Co 1 Fe 2 ‐HITP 9.5 show that increasing the Fe content leads to a larger absolute adsorption energy, rationalizing the enhanced low‐temperature sensing performance. Furthermore, band structure analysis elucidates the origin of the higher surface catalytic activity upon Fe substitution. This work establishes bimetallic Co/Fe‐HITP as a promising platform for sensitive, low‐temperature H 2 S detection.",
+        "authors": [
+          "Yongjiao Sun",
+          "Jing Yang",
+          "Bingliang Wang",
+          "Bowen Xiang",
+          "Zhenting Zhao",
+          "Wenda Wang",
+          "Wendong Zhang",
+          "Koichi Suematsu",
+          "Kengo Shimanoe",
+          "Jie Hu"
+        ],
+        "institutions": [],
+        "published": "2026-08-29",
+        "journal": "Small",
+        "doi": "10.1002/smll.75135",
+        "url": "https://doi.org/10.1002/smll.75135",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Small"
+        ],
+        "hits": {
+          "framework": [
+            "mofs"
+          ],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "title_zh": "双金属导电Co/Fe-HITP用于低温下灵敏检测H2S",
+        "summary_zh": "该研究通过部分取代Co离子合成系列双金属Co/Fe-HITP导电MOF材料。Fe掺入改善了低温H2S传感性能，最优Co1.5Fe1.5-HITP在室温和0摄氏度下对20 ppm H2S分别响应10.05和9.69，检测限达18.9 ppb和16.8 ppb。DFT计算揭示Fe含量增加导致更大吸附能，解释了低温传感性能增强机制。",
+        "research_details_zh": "研究聚焦导电金属有机框架中金属节点对表面化学活性的决定性作用。以Co3(HITP)2为基础，通过部分取代Co离子合成不同Fe/Co比例的双金属Co/Fe-HITP材料系列。研究问题是Fe取代能否增强低温柔性气体传感性能。气敏测试表明Fe掺入不仅提高了低温下对H2S的响应，还减少了低温引起的信号波动。最优Co1.5Fe1.5-HITP传感器在室温25摄氏度下对20 ppm H2S响应为10.05，在0摄氏度下响应为9.69，对应检测限分别为18.9 ppb和16.8 ppb。密度泛函理论计算对Co-HITP、Co2Fe1-HITP和Co1Fe2-HITP进行分析，显示Fe含量增加导致绝对吸附能增大，从理论上解释了低温传感性能增强的原因。能带结构分析阐明了Fe取代后表面催化活性提高的起源。该工作确立了双金属Co/Fe-HITP作为低温灵敏H2S检测的可行平台。",
+        "methods_zh": "研究通过部分取代Co离子合成不同Fe/Co比例的双金属Co/Fe-HITP材料系列。采用气敏测试评估材料对H2S的响应性能，测试条件包括室温25摄氏度和低温0摄氏度。使用密度泛函理论计算对Co-HITP、Co2Fe1-HITP和Co1Fe2-HITP进行吸附能分析，并通过能带结构分析研究电子结构变化。检测限通过气敏响应数据计算获得。",
+        "relevance_zh": "该研究与介孔导电MOF和导电框架材料主题高度相关，直接涉及导电MOF金属节点调控与气敏性能优化。双金属策略为导电MOF功能化提供了可行路径，低温传感性能对实际应用具有价值。DFT计算与实验结合的研究范式值得借鉴。建议精读以获取详细的合成条件、传感测试方法和DFT计算细节。",
+        "evidence_note_zh": "这是摘要级解读。摘要未报告Co/Fe-HITP的晶体结构表征数据、比表面积和孔径分布、H2S传感的选择性测试结果、响应恢复时间、湿度影响、DFT计算的具体泛函和模型细节，以及不同Fe/Co比例样品的完整性能对比数据。这些关键细节需全文核查。",
+        "key_findings_zh": [
+          "最优Co1.5Fe1.5-HITP传感器在25摄氏度下对20 ppm H2S响应为10.05，在0摄氏度下响应为9.69",
+          "Co1.5Fe1.5-HITP在室温和0摄氏度下对H2S的检测限分别为18.9 ppb和16.8 ppb",
+          "DFT计算显示Fe含量增加导致绝对吸附能增大，从理论上解释了低温传感性能增强",
+          "能带结构分析阐明了Fe取代后表面催化活性提高的起源，但具体能带特征摘要未报告"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-08-28",
     "generated_at": "2026-08-29T04:07:40Z",
     "papers": [
