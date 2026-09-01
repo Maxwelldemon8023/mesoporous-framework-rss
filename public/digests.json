@@ -1,5 +1,225 @@
 [
   {
+    "date": "2026-08-31",
+    "generated_at": "2026-09-01T01:47:48Z",
+    "papers": [
+      {
+        "title": "Pseudocapacitive Charge‐Transfer Interface via Polyoxometalate‐Functionalized Mesoporous MOF for Highly Reliable and High‐Fidelity Bioelectronic Hydrogels",
+        "abstract": "ABSTRACT Soft bioelectronics require conductive hydrogels with balanced mechanical–electrical performance for high‐fidelity electrophysiological recording, yet conventional ones lack a balance between stretchability and electrochemical stability due to poor interfacial charge transfer. We present a molecularly engineered polyoxometalate‐functionalized mesoporous metal–organic framework (meso‐MOF@POM) nanoarchitecture that simultaneously reinforces the hydrogel network and enhances interfacial charge kinetics. The meso‐MOF serves as a hierarchical scaffold with multiscale channels for polymer anchoring, while the sub‐nanometer Keggin‐type POM layer creates abundant redox‐mediated electron transfer pathways. Upon integration of meso‐MOF@POM into a dual‐network poly(acrylic acid)/polyacrylamide hydrogel, the composite hydrogel enables high stretchability (&gt;1000% strain), minimal electrical creep (&lt;0.13% s −1 @100% strain), and good cyclic durability (&gt;3000 cycles). Crucially, the engineered organic–inorganic interface endows the hydrogel with excellent pseudocapacitive charge‐transfer kinetics, which achieves low skin–electrode impedance (64 kΩ at 1 Hz vs. 287 kΩ at 1 Hz for Ag/AgCl gel). As a result, the skin‐interfacing electrode enables high‐fidelity recording of on‐skin electrophysiological signals, including electrocardiogram, electromyogram, and electrooculogram, with an enhanced signal‐to‐noise ratio (e.g., 23.8 dB for ECG vs. 21.3 dB for Ag/AgCl gel). This work provides a novel fabrication strategy for highly conductive interfaces, enabling long‐term applications in wearable health monitors and human–machine interfaces.",
+        "authors": [
+          "Wenjie Dong",
+          "Chen Luan",
+          "Yao Dai",
+          "Jin Yang",
+          "Jiaqi Wang",
+          "Zhanqiang Liu",
+          "Huanqian Zhang",
+          "Ruijuan Qi",
+          "Dayong Ren",
+          "Ya Yan"
+        ],
+        "institutions": [],
+        "published": "2026-08-31",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.74792",
+        "url": "https://doi.org/10.1002/adma.74792",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 61,
+        "scores": {
+          "topic": 29,
+          "method": 4,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "mesoporous",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "title_zh": "多金属氧酸盐功能化介孔MOF构建赝电容电荷转移界面用于高可靠、高保真生物电子水凝胶",
+        "summary_zh": "本研究通过将多金属氧酸盐功能化介孔金属有机框架（meso-MOF@POM）集成到双网络水凝胶中，同时增强网络力学性能和界面电荷转移动力学。所得复合水凝胶兼具高拉伸性、低电蠕变和优异循环稳定性，并实现低皮肤-电极阻抗和高信噪比电生理信号记录，为软生物电子学提供新策略。",
+        "research_details_zh": "研究针对软生物电子学中导电水凝胶在拉伸性与电化学稳定性之间难以平衡的问题，提出分子工程化meso-MOF@POM纳米结构。介孔MOF作为具有多尺度通道的分级支架用于聚合物锚定，亚纳米Keggin型POM层提供丰富的氧化还原介导电子转移路径。将meso-MOF@POM集成到聚丙烯酸/聚丙烯酰胺双网络水凝胶中，形成有机-无机界面，赋予水凝胶赝电容电荷转移动力学。该设计旨在同时强化水凝胶网络并提升界面电荷动力学，实现高保真表皮电生理记录。研究过程涵盖材料合成、复合水凝胶制备、力学与电化学性能测试以及皮肤界面电生理信号记录，展示了该策略在可穿戴健康监测和人机接口中的长期应用潜力。",
+        "methods_zh": "摘要明确提及的方法包括：meso-MOF@POM纳米结构的分子工程化合成；将meso-MOF@POM集成到聚丙烯酸/聚丙烯酰胺双网络水凝胶中；力学性能测试（拉伸应变、电蠕变、循环耐久性）；电化学阻抗谱测量皮肤-电极阻抗；电生理信号记录（心电、肌电、眼电）及信噪比分析。",
+        "relevance_zh": "该研究直接契合介孔导电MOF及框架材料组装主线，展示了介孔MOF与POM协同构建导电界面的策略，对开发高性能生物电子水凝胶具有实际价值。摘要提供了明确的定量性能数据，但缺乏合成细节和长期稳定性数据，值得全文精读以获取完整实验条件与机制验证。",
+        "evidence_note_zh": "这是摘要级解读，关键细节如meso-MOF@POM的具体合成条件、POM负载量、水凝胶组分比例、阻抗测试条件及长期使用稳定性仍需全文核查。",
+        "key_findings_zh": [
+          "复合水凝胶实现高拉伸性（>1000%应变）、低电蠕变（<0.13% s⁻¹ @100%应变）和良好循环耐久性（>3000次循环）",
+          "皮肤-电极阻抗显著降低，1 Hz下为64 kΩ，而Ag/AgCl凝胶为287 kΩ",
+          "心电信号信噪比增强至23.8 dB，优于Ag/AgCl凝胶的21.3 dB",
+          "meso-MOF@POM的介孔支架与POM氧化还原层协同增强界面电荷转移动力学"
+        ]
+      },
+      {
+        "title": "Chiral Supramolecular Electrolyte Engineering Enables Ultra‐Long‐Cycling Aqueous Zinc‐Ion Batteries",
+        "abstract": "ABSTRACT The practical application of aqueous zinc‐ion batteries (AZIBs) is severely hampered by unregulated dendrite growth and parasitic hydrogen evolution reaction at Zn anodes. Electrolyte additive engineering affords a promising strategy. Herein, a bio‐derived composite additive is fabricated via intermolecular proton transfer between chitosan and L‐ascorbic acid, yielding chiral supramolecular associations supported by a rigid macromolecular backbone. Simulations and experiments verify a dual‐regulation mechanism: the chiral configuration enables stereoselective adsorption on Zn anodes, forming a protective interphase with ultralow lattice mismatch ( δ &lt; 20%) with the Zn (101) facet, which thermodynamically favors selective nucleation and simultaneously suppresses interfacial side reactions. Meanwhile, the chiral supramolecular associations form continuous polar channels, facilitating Zn 2+ desolvation by partially displacing coordinated water and reconstructing the hydrogen‐bonding network of the electrolyte, thereby inhibiting dendrite growth. Furthermore, the strong binding affinity between Zn 2+ and chiral polar groups further facilitates uniform Zn deposition kinetics. Consequently, Zn//Zn symmetric cells achieve an ultralong cycling lifespan exceeding 4900 h at 1.0 mA cm −2 , along with the Zn//Cu asymmetric cells showing exceptional reversibility, and both Zn//NH 4 V 4 O 10 and Zn//I 2 full cells deliver exceptional cycling stability. This chirality‐driven crystal facet engineering strategy provides valuable insights for constructing advanced AZIBs.",
+        "authors": [
+          "Geng Liu",
+          "Li Li",
+          "Haochang Li",
+          "Jinmei Tian",
+          "Xiaopeng Yang",
+          "Cuihua An",
+          "Linrui Hou",
+          "Changzhou Yuan"
+        ],
+        "institutions": [],
+        "published": "2026-08-31",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.78089",
+        "url": "https://doi.org/10.1002/adfm.78089",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 26,
+        "scores": {
+          "topic": 6,
+          "method": 2,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal",
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "title_zh": "手性超分子电解质工程实现超长循环水系锌离子电池",
+        "summary_zh": "本研究利用壳聚糖与L-抗坏血酸之间的分子间质子转移制备生物衍生复合添加剂，形成手性超分子缔合物。该添加剂通过立体选择性吸附在锌负极上构建低晶格失配保护界面，并形成连续极性通道促进Zn²⁺去溶剂化，从而抑制枝晶生长和副反应，实现超长循环寿命。",
+        "research_details_zh": "研究针对水系锌离子电池中锌负极枝晶生长和析氢反应问题，提出电解质添加剂工程策略。通过壳聚糖与L-抗坏血酸之间的分子间质子转移制备生物衍生复合添加剂，形成由刚性大分子骨架支撑的手性超分子缔合物。模拟和实验验证了双重调控机制：手性构型使添加剂在锌负极上发生立体选择性吸附，形成与Zn(101)晶面超低晶格失配（δ<20%）的保护界面，热力学上有利于选择性成核并抑制界面副反应；同时手性超分子缔合物形成连续极性通道，通过部分置换配位水并重构电解质氢键网络促进Zn²⁺去溶剂化，抑制枝晶生长。Zn²⁺与手性极性基团的强结合亲和力进一步促进均匀沉积动力学。该策略为先进水系锌离子电池提供手性驱动的晶面工程新思路。",
+        "methods_zh": "摘要明确提及的方法包括：通过壳聚糖与L-抗坏血酸间分子间质子转移制备复合添加剂；模拟计算验证手性吸附和去溶剂化机制；Zn//Zn对称电池和Zn//Cu非对称电池循环测试；Zn//NH₄V₄O₁₀和Zn//I₂全电池性能测试；晶格失配度分析及氢键网络重构表征。",
+        "relevance_zh": "该研究涉及超分子组装和晶体成核调控，与框架材料组装主线存在间接关联，但核心对象并非框架材料。其手性电解质工程策略对电池领域有参考价值，但对介孔导电MOF等主线方向参考有限，可作为拓展阅读，不必精读。",
+        "evidence_note_zh": "这是摘要级解读，关键细节如添加剂具体浓度、电解液组成、循环测试条件、晶格失配度计算方法及模拟细节仍需全文核查。",
+        "key_findings_zh": [
+          "Zn//Zn对称电池在1.0 mA cm⁻²下实现超过4900小时的超长循环寿命",
+          "手性超分子添加剂与Zn(101)晶面晶格失配度δ<20%，热力学上有利于选择性成核",
+          "手性构型实现立体选择性吸附，同时抑制界面副反应和枝晶生长",
+          "Zn//Cu非对称电池及Zn//NH₄V₄O₁₀和Zn//I₂全电池均展现优异循环稳定性"
+        ]
+      },
+      {
+        "title": "Covalent Organic Framework Polyamide Nanocomposite Membranes: From Chemical and Structural Regulation to Efficient Water Separation",
+        "abstract": "ABSTRACT Membrane‐based desalination and wastewater reclamation play an important role in addressing the global freshwater crisis. However, state‐of‐the‐art polyamide (PA) composite membranes still suffer from inherent limitations, including the trade‐off between permeability and selectivity, insufficient retention of small neutral solutes, susceptibility to fouling, and poor chemical stability. Covalent organic frameworks (COFs), with their ordered crystalline structure, tunable pore function, and chemical stability, offer unprecedented opportunities for molecular‐level regulation of PA membranes. Introducing COF nanomaterials into PA layers enables the construction of ordered transport channels for rapid water permeation and selective solute sieving. COF fillers also act as interfacial modifiers to regulate monomer diffusion and PA crosslinking during interfacial polymerization, reshaping membrane physicochemical properties. These synergistic effects simultaneously improve water permeance, solute rejection, fouling resistance, and structural stability. Given the rapid advancement of COF nanomaterials, this review summarizes progress in COF‐based PA nanocomposite membranes for water separation, focusing on COF structural design, incorporation strategies, regulatory mechanisms, and the relationship between membrane structure and separation performance. Critical challenges in interfacial chemistry, scalable fabrication, and long‐term stability are discussed, and future research directions toward practical applications are proposed. This review underscores the potential of COF‐based PA nanocomposite membranes for efficient and sustainable water purification.",
+        "authors": [
+          "Zhenxiang Pan",
+          "Adhithya Patabendige",
+          "Jian Sun",
+          "Jiang Zhan",
+          "Bizhen Zeng",
+          "Gang Han"
+        ],
+        "institutions": [],
+        "published": "2026-08-31",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.78012",
+        "url": "https://doi.org/10.1002/adfm.78012",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 25,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 8,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs",
+            "covalent organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "crystalline",
+            "membrane",
+            "nanomaterials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "拓展推荐",
+        "title_zh": "共价有机框架聚酰胺纳米复合膜：从化学与结构调控到高效水分离",
+        "summary_zh": "本文综述了COF基聚酰胺纳米复合膜在水分离领域的研究进展，聚焦COF结构设计、掺入策略、调控机制及膜结构-分离性能关系。COF的有序晶体结构和可调孔道功能为聚酰胺膜提供分子级调控机会，协同提升水渗透性、溶质截留、抗污染性和结构稳定性。",
+        "research_details_zh": "研究针对聚酰胺复合膜在脱盐和废水回收中存在的渗透性与选择性权衡、小分子中性溶质截留不足、易污染和化学稳定性差等固有局限，系统综述COF基聚酰胺纳米复合膜的研究进展。COF具有有序晶体结构、可调孔道功能和化学稳定性，为聚酰胺膜的分子级调控提供机遇。将COF纳米材料引入聚酰胺层可构建有序传输通道，实现快速水渗透和选择性溶质筛分；COF填料还作为界面改性剂，在界面聚合过程中调控单体扩散和聚酰胺交联，重塑膜物理化学性质。这些协同效应同时改善水渗透通量、溶质截留率、抗污染性和结构稳定性。综述重点讨论COF结构设计、掺入策略、调控机制以及膜结构与分离性能之间的关系，并指出界面化学、规模化制备和长期稳定性方面的关键挑战及未来研究方向。",
+        "methods_zh": "摘要明确提及的方法包括：COF纳米材料的合成与结构设计；将COF掺入聚酰胺层的方法；界面聚合过程中COF对单体扩散和交联的调控；膜结构表征与分离性能测试；水渗透性、溶质截留、抗污染性和稳定性评价。",
+        "relevance_zh": "该综述聚焦COF在聚酰胺膜中的应用，与共轭COF框架材料主线直接相关，系统总结了COF结构设计与膜性能关系，对理解COF在实际分离应用中的价值有参考意义。但作为综述，缺乏原始实验数据，适合作为背景阅读而非精读对象。",
+        "evidence_note_zh": "这是摘要级解读，关键细节如具体COF种类、掺入量、膜制备条件、性能数值及长期稳定性数据均需查阅原文综述内容。",
+        "key_findings_zh": [
+          "COF的有序晶体结构和可调孔道功能可实现聚酰胺膜的分子级调控，构建有序传输通道",
+          "COF填料作为界面改性剂可调控单体扩散和聚酰胺交联，重塑膜物理化学性质",
+          "COF引入协同提升水渗透性、溶质截留、抗污染性和结构稳定性",
+          "界面化学、规模化制备和长期稳定性仍是实际应用的关键挑战"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-08-30",
     "generated_at": "2026-08-31T01:20:59Z",
     "papers": []
