@@ -1,5 +1,371 @@
 [
   {
+    "title": "2D Covalent Organic Frameworks as Robust n‐Type Organic Mixed Ionic‐Electronic Conductors for Electrochemical Transistors",
+    "abstract": "ABSTRACT Organic mixed ionic‐electronic conductors (OMIECs) with exclusive electrochemical modulation and coupling between ions and electrons have exhibited intriguing efficiencies in bioelectronics, logic circuits, and wearable devices. However, OMIECs are typically linear polymers whose excessive structural swelling and morphological disorder during electrochemical doping led to low performance and instability. Here, we report n‐type 2D covalent organic frameworks (2D COFs) as novel OMIECs (BTID‐BFDO COF and BTDD‐BFDO COF). The rigid π‐conjugated scaffold functions as both a charge transport pathway and an ion‐electron coupling plane, whilst the nanochannels serve as directional conduits for rapid ion transport. 2D OMIECs‐based OECTs exhibit favorable threshold voltages (&lt; 0.5 V), I on /I off ratios (10 3 ) and high stability (modulation current retention rate of 91.3% during continuous operation) compared with the linear counterpart (&lt; 10%). More importantly, we elucidate the mechanism underlying in situ ion transport and doping within the rigid porous architectures of 2D OMIECs, establishing a novel design paradigm for robust n‐type organic semiconductors.",
+    "authors": [
+      "Wenkai Zhao",
+      "Junyi Han",
+      "Guangen Fu",
+      "Yiming Wang",
+      "Quanxing Yao",
+      "Ling Yin",
+      "Yuxiang Zhao",
+      "Shengxu Li",
+      "Qiang Ma",
+      "Guohui Gao",
+      "Wan Yue",
+      "Xiaojian Zhu",
+      "Paolo Samorì",
+      "Tao Zhang"
+    ],
+    "institutions": [],
+    "published": "2026-09-02",
+    "journal": "Angewandte Chemie International Edition",
+    "doi": "10.1002/anie.5032409",
+    "url": "https://doi.org/10.1002/anie.5032409",
+    "sources": [
+      "Crossref"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 41,
+    "scores": {
+      "topic": 18,
+      "method": 0,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 0,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie International Edition"
+    ],
+    "hits": {
+      "framework": [
+        "cof",
+        "cofs"
+      ],
+      "conductive": [
+        "charge transport",
+        "conjugated",
+        "π-conjugated"
+      ],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "porous"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "核心推荐",
+    "title_zh": "二维共价有机框架作为用于电化学晶体管的稳健n型有机混合离子-电子导体",
+    "summary_zh": "该研究报道了两种n型二维共价有机框架（BTID-BFDO COF和BTDD-BFDO COF）作为新型有机混合离子-电子导体。刚性π共轭骨架同时提供电荷传输路径和离子-电子耦合平面，纳米通道实现快速离子传输。基于该材料的有机电化学晶体管表现出低阈值电压、高开关比和优异稳定性，为稳健n型有机半导体确立了新设计范式。",
+    "research_details_zh": "研究问题聚焦于传统线性聚合物OMIEC在电化学掺杂过程中因过度结构溶胀和形态无序导致的性能低下与不稳定性。材料体系为两种n型二维COF（BTID-BFDO COF和BTDD-BFDO COF），其设计策略是利用刚性π共轭骨架作为电荷传输路径和离子-电子耦合平面，同时利用纳米通道作为离子快速传输的定向导管。研究过程涉及合成上述COF并组装成OECT器件，系统评估其电化学晶体管性能，并与线性聚合物对应物进行对比。该研究的意义在于阐明刚性多孔架构内原位离子传输和掺杂机制，为设计稳健n型有机半导体提供全新范式，突破线性聚合物在电化学掺杂中的固有局限。",
+    "methods_zh": "摘要明确提及合成了两种n型二维COF（BTID-BFDO COF和BTDD-BFDO COF），并基于这些材料组装了有机电化学晶体管（OECT）。性能测试包括阈值电压、开关比和调制电流保持率的测量，并与线性聚合物对应物进行对比。机制研究涉及对原位离子传输和掺杂过程的分析。",
+    "relevance_zh": "该工作直接关联共轭COF在电化学离子-电子耦合器件中的应用，为框架材料在生物电子学和逻辑电路中的功能化提供新思路。其刚性骨架设计策略对解决导电框架材料在电化学掺杂中的稳定性问题具有重要参考价值。摘要提供了明确的性能数据和机制阐述，值得全文精读以获取合成细节和更深入的机制证据。",
+    "evidence_note_zh": "这是摘要级解读。具体合成条件、表征手段（如PXRD、氮气吸附等）、器件制备工艺细节、离子传输机制的详细光谱或电化学证据、稳定性测试的具体条件等均需全文核查。",
+    "key_findings_zh": [
+      "基于2D COF的OECT器件展现出有利的阈值电压（<0.5 V）和开关比（10³）",
+      "连续运行期间调制电流保持率达91.3%，而线性对应物低于10%",
+      "刚性π共轭骨架同时充当电荷传输路径和离子-电子耦合平面，纳米通道作为离子快速传输的定向导管",
+      "阐明了刚性多孔架构内原位离子传输和掺杂机制"
+    ]
+  },
+  {
+    "title": "Electrocatalytic CO 2 Reduction in Acidic Media via Host‐Guest Synergy Engineered Ionic Liquid@Metal‐Covalent Organic Framework",
+    "abstract": "ABSTRACT Although acidic CO 2 electroreduction to multicarbon products offers superior carbon utilization compared to alkaline/neutral routes, its performance is severely hampered by proton‐enrichment‐induced hydrogen evolution (HER). To address this issue, we propose a host‐guest cooperative catalysis strategy by constructing a structurally well‐defined Ionic Liquid functionalized Metal‐covalent organic framework (IL@MCOF). Within this architecture, the confined ionic liquid creates a localized high‐concentration CO 2 microenvironment and induces interfacial water restructuring, thereby effectively suppressing HER caused by proton enrichment. Meanwhile, non‐covalent interactions between the π‐conjugated framework of MCOF and the IL cations promote directional transport of adsorbed CO 2 toward copper active sites. Mechanistic studies further reveal that the MCOF catalytic sites synergize with the guest IL to lower the formation energy barriers of the key C 2+ intermediates *COCO and *OCCOH. Consequently, IL@MCOF achieves a record 56.5% Faradaic efficiency with −162 mA cm −2 for C 2+ products at −1.8 V versus RHE in acidic media, surpassing all reported MOF‐based acidic catalysts. This work provides a host‐guest molecular engineering approach for highly selective acidic CO 2 electroreduction.",
+    "authors": [
+      "Chenqi Shi",
+      "Yixuan Wang",
+      "Lin Xia",
+      "Qiuyu Zhang",
+      "Ying Guo"
+    ],
+    "institutions": [],
+    "published": "2026-09-02",
+    "journal": "Advanced Functional Materials",
+    "doi": "10.1002/adfm.78153",
+    "url": "https://doi.org/10.1002/adfm.78153",
+    "sources": [
+      "Crossref"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 34,
+    "scores": {
+      "topic": 18,
+      "method": 0,
+      "quality": 8,
+      "novelty": 6,
+      "network": 0,
+      "applied": 0,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Advanced Functional Materials"
+    ],
+    "hits": {
+      "framework": [
+        "covalent organic framework",
+        "mof"
+      ],
+      "conductive": [
+        "conjugated",
+        "π-conjugated"
+      ],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "carbon"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "核心推荐",
+    "title_zh": "通过主客体协同工程构筑离子液体@金属-共价有机框架用于酸性介质中电催化CO₂还原",
+    "summary_zh": "该研究提出主客体协同催化策略，构建离子液体功能化金属-共价有机框架用于酸性CO₂电还原。限域离子液体营造局部高浓度CO₂微环境并诱导界面水重构，抑制析氢反应；MCOF与IL阳离子间的非共价相互作用促进CO₂向铜活性位点定向传输。该催化剂在酸性介质中实现创纪录的C₂+产物法拉第效率56.5%和-162 mA cm⁻²电流密度。",
+    "research_details_zh": "研究问题针对酸性CO₂电还原制多碳产物中质子富集诱导析氢反应严重制约性能的挑战。材料体系为离子液体功能化的金属-共价有机框架（IL@MCOF），设计策略为通过主客体协同催化实现高效C₂+产物选择性。研究过程涉及构建结构明确的IL@MCOF，利用限域离子液体营造局部高浓度CO₂微环境并诱导界面水重构以抑制HER，同时通过MCOFπ共轭骨架与IL阳离子间的非共价相互作用促进CO₂向铜活性位点定向传输。机制研究表明MCOF催化位点与客体IL协同降低关键C₂+中间体*COCO和*OCCOH的形成能垒。该工作提供了一种用于高选择性酸性CO₂电还原的主客体分子工程方法。",
+    "methods_zh": "摘要明确提及构建了结构明确的离子液体功能化金属-共价有机框架（IL@MCOF）。性能测试为酸性介质中的电催化CO₂还原，测定了C₂+产物的法拉第效率和电流密度。机制研究涉及对HER抑制机制、CO₂传输路径以及关键中间体形成能垒的分析。",
+    "relevance_zh": "该工作展示了主客体工程在框架材料电催化中的应用潜力，将COF/MOF的限域效应与离子液体功能结合，为酸性条件下高选择性CO₂还原提供新策略。对研究主线中框架材料的功能化组装和电化学应用具有直接参考价值。摘要报告了明确的性能数据和机制认识，值得全文精读以获取详细的合成和表征信息。",
+    "evidence_note_zh": "这是摘要级解读。IL@MCOF的具体合成步骤、IL负载量和分布、MCOF结构表征、CO₂还原产物的详细分析、原位机制研究的具体手段（如原位光谱）等均需全文核查。",
+    "key_findings_zh": [
+      "IL@MCOF在-1.8 V（vs RHE）酸性介质中实现C₂+产物法拉第效率56.5%，电流密度-162 mA cm⁻²",
+      "该性能超越所有已报道的MOF基酸性催化剂",
+      "限域离子液体营造局部高浓度CO₂微环境并诱导界面水重构，有效抑制质子富集引发的HER",
+      "MCOF催化位点与客体IL协同降低关键C₂+中间体*COCO和*OCCOH的形成能垒"
+    ]
+  },
+  {
+    "title": "Intrinsic Large‐Unit‐Cell Systems for Advanced Thermoelectrics and Thermal Management",
+    "abstract": "ABSTRACT The urgent demand for efficient thermoelectric conversion and precise heat management technologies drives the search for materials capable of simultaneously optimizing often‐conflicting electronic and thermal transport properties. Intrinsic large‐unit‐cell (LUC) systems, such as high‐entropy alloys, sub‐nanometer clusters, porous frameworks, and amorphous materials, demonstrate hierarchically scaled structural complexity and are classified as “structural complexity‐driven transport‐modulating materials.” Characterized by severe lattice distortions, configurational entropy, nanoconfinement, hierarchical porosity, and inherent disorder, these materials intrinsically restrict phonon transport across multiple scales, enabling ultralow lattice thermal conductivity essential for high thermoelectric performance and thermal insulation. Concurrently, their vast compositional flexibility and complex electronic structures provide unique avenues for enhancing electrical conductivity and Seebeck coefficients via mechanisms like band convergence, resonant levels, and energy filtering. This review critically examines the fundamental mechanisms linking the intricate atomic architectures of LUC systems to their exceptional performance in thermoelectrics and thermal management. Furthermore, it highlights the indispensable role of machine learning in navigating their immense design complexity for accelerated discovery, inverse design, and decoding of intricate structure–property relationships, paving the way for next‐generation thermoelectrics and thermal management.",
+    "authors": [
+      "Pengfei Xu",
+      "Yu‐Ting Li",
+      "Cheng‐Xin Liu",
+      "Chang‐Le Liu",
+      "Jinyang Xi",
+      "Chunyuan Song",
+      "Biao Xu",
+      "Linghua Tan"
+    ],
+    "institutions": [
+      "Nanjing University of Posts and Telecommunications",
+      "Shanghai University",
+      "Chinese National Human Genome Center at Shanghai",
+      "Shanghai University",
+      "Nanjing University of Posts and Telecommunications",
+      "Chinese National Human Genome Center at Shanghai",
+      "Shanghai University",
+      "Nanjing University of Posts and Telecommunications",
+      "Chinese National Human Genome Center at Shanghai",
+      "Shanghai University",
+      "Chinese National Human Genome Center at Shanghai",
+      "Nanjing University of Posts and Telecommunications",
+      "Nanjing University of Posts and Telecommunications",
+      "Nanjing University of Science and Technology"
+    ],
+    "published": "2026-09-02",
+    "journal": "Advanced Functional Materials",
+    "doi": "10.1002/adfm.78071",
+    "openalex_id": "https://openalex.org/W7204991008",
+    "url": "https://doi.org/10.1002/adfm.78071",
+    "sources": [
+      "OpenAlex"
+    ],
+    "score": 28,
+    "scores": {
+      "topic": 6,
+      "method": 4,
+      "quality": 8,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Advanced Functional Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [
+        "hierarchical porosity"
+      ],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "materials",
+        "porous"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "title_zh": "本征大晶胞体系用于先进热电与热管理",
+    "summary_zh": "该综述系统评述了本征大晶胞体系（包括高熵合金、亚纳米团簇、多孔框架和非晶材料）在热电转换和热管理中的应用。这些材料通过层级结构复杂性在多尺度上限制声子传输，实现超低晶格热导率，同时其组分灵活性和复杂电子结构为提升电导率和塞贝克系数提供独特途径。",
+    "research_details_zh": "研究问题聚焦于寻找能同时优化相互冲突的电子和热传输性能的材料，以满足高效热电转换和精确热管理的需求。材料体系涵盖本征大晶胞系统，包括高熵合金、亚纳米团簇、多孔框架和非晶材料，这些材料被归类为“结构复杂性驱动的传输调控材料”。设计策略利用其严重的晶格畸变、构型熵、纳米限域、层级孔隙和固有无序性，在多尺度上限制声子传输，实现超低晶格热导率。综述还探讨了通过能带收敛、共振能级和能量过滤等机制增强电导率和塞贝克系数的途径，并强调了机器学习在加速材料发现、逆向设计和解码复杂结构-性能关系中的关键作用。该综述对理解大晶胞体系中的传输机制和指导下一代热电材料设计具有重要意义。",
+    "methods_zh": "摘要未报告具体的实验合成或表征方法。作为综述性文章，其方法主要涉及对现有文献中关于大晶胞体系热电和热管理性能的机制进行批判性评述，并讨论机器学习在该领域中的应用。",
+    "relevance_zh": "该综述将多孔框架材料纳入本征大晶胞体系范畴，从结构复杂性角度统一理解声子和电子传输调控，为框架材料在热电领域的应用提供了更广阔的理论视角。对研究主线中多孔和框架材料的功能拓展具有参考价值，但作为综述，其具体实验细节有限，可根据需要选择性精读相关章节。",
+    "evidence_note_zh": "这是摘要级解读。综述中涉及的具体材料体系、性能数据、机制证据和机器学习应用案例均需查阅全文获取。摘要未报告任何具体数值或实验条件。",
+    "key_findings_zh": [
+      "本征大晶胞体系通过严重的晶格畸变、构型熵、纳米限域、层级孔隙和固有无序性，在多尺度上限制声子传输，实现超低晶格热导率",
+      "组分灵活性和复杂电子结构可通过能带收敛、共振能级和能量过滤等机制增强电导率和塞贝克系数",
+      "机器学习在导航大晶胞体系巨大设计复杂性中发挥不可或缺的作用，用于加速发现、逆向设计和解码结构-性能关系"
+    ]
+  },
+  {
+    "title": "Self‐Assembled Hybrid Cell‐Enzyme Materials for Gas‐Powered Biocatalysis",
+    "abstract": "ABSTRACT The integration of biological energy conversion into functional materials represents a key challenge in the development of advanced catalytic systems. Here, we introduce self‐assembled cell‐enzyme hybrid materials that integrate cellular metabolism with programmable enzyme networks for gas‐powered biocatalysis. By harnessing the native formate hydrogenlyase machinery of Escherichia coli , H 2 and CO 2 are converted into formate, which serves as a transient electron carrier for enzymatic NADH regeneration by a highly stable formate dehydrogenase. Integration of a transhydrogenase further provides access to NADPH‐dependent pathways, establishing a modular redox platform that can be coupled to diverse downstream biocatalysts. The catalytic system is translated into ready‐to‐use material formats through cryogenic fabrication of lyophilized carrier‐free hybrid beads and their subsequent encapsulation into alginate composites, enabling simple “count‐and‐add” operation, catalyst recycling, and robust performance under challenging reaction conditions. By exploiting H 2 as the reducing substrate while recycling CO 2 within the formate‐mediated regeneration cycle, the system avoids sacrificial organic reduction equivalents and associated by‐products, resulting in high atom economy. The integration of metabolic energy conversion, programmable self‐assembly, and materials engineering thus provides a general strategy for gas‐powered redox biocatalysis.",
+    "authors": [
+      "Christof M. Niemeyer",
+      "Kersten S. Rabe",
+      "Christof M. Niemeyer"
+    ],
+    "institutions": [
+      "Karlsruhe Institute of Technology",
+      "Karlsruhe Institute of Technology",
+      "Karlsruhe Institute of Technology"
+    ],
+    "published": "2026-09-02",
+    "journal": "Advanced Functional Materials",
+    "doi": "10.1002/adfm.78174",
+    "openalex_id": "https://openalex.org/W7205002716",
+    "url": "https://doi.org/10.1002/adfm.78174",
+    "sources": [
+      "Crossref",
+      "OpenAlex"
+    ],
+    "arxiv_id": null,
+    "score": 28,
+    "scores": {
+      "topic": 6,
+      "method": 4,
+      "quality": 8,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Advanced Functional Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "material",
+        "materials"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "title_zh": "自组装杂化细胞-酶材料用于气体驱动的生物催化",
+    "summary_zh": "本研究开发了自组装细胞-酶杂化材料，将大肠杆菌的甲酸氢裂解酶机制与甲酸脱氢酶及转氢酶整合，实现H₂和CO₂驱动的模块化氧化还原平台，并通过冷冻干燥和藻酸盐封装制成可回收的即用型催化材料，避免牺牲性有机还原剂，具有高原子经济性。",
+    "research_details_zh": "研究问题聚焦于将生物能量转换整合到功能材料中，以开发先进催化系统。材料体系基于大肠杆菌天然的甲酸氢裂解酶机制，将H₂和CO₂转化为甲酸，甲酸作为瞬时电子载体，由高稳定性甲酸脱氢酶催化NADH再生；进一步整合转氢酶可提供NADPH依赖途径，形成模块化氧化还原平台，可偶联多种下游生物催化剂。设计策略强调可编程自组装与代谢能量转换的集成。研究过程包括利用冷冻干燥技术制备无载体杂化珠粒，随后封装入藻酸盐复合材料，实现简单的“计数-添加”操作、催化剂回收及在挑战性反应条件下的稳健性能。该系统的意义在于通过利用H₂作为还原底物并在甲酸介导的再生循环中回收CO₂，避免了牺牲性有机还原当量及相关副产物，实现高原子经济性，为气体驱动的氧化还原生物催化提供了通用策略。",
+    "methods_zh": "摘要明确出现的合成与组装方法包括：利用大肠杆菌的甲酸氢裂解酶机制进行生物转化；通过冷冻干燥制备无载体杂化珠粒；将珠粒封装入藻酸盐复合材料。表征与性能测试方法包括：催化活性评估（H₂和CO₂转化、NADH/NADPH再生）、催化剂回收测试及在挑战性反应条件下的性能测试。摘要未报告具体表征仪器或定量性能数值。",
+    "relevance_zh": "该研究属于自组装技术与框架材料交叉领域，展示了生物组分（细胞与酶）通过自组装和材料工程集成实现气体驱动催化，对研究主线的价值在于提供了一种非传统框架材料的杂化组装策略，拓展了自组装材料的功能边界。局限性在于其不涉及介孔导电MOF或共轭框架材料，且摘要未报告详细结构表征。鉴于其创新性和通用策略潜力，值得全文精读以获取组装机制和材料工程细节。",
+    "evidence_note_zh": "这是摘要级解读，仅基于摘要文本。关键细节如具体自组装条件、冷冻干燥参数、藻酸盐封装比例、催化效率定量数据、材料稳定性数值及结构表征结果均需全文核查，摘要未报告相应数据。",
+    "key_findings_zh": [
+      "摘要报告该系统利用H₂和CO₂经大肠杆菌甲酸氢裂解酶机制转化为甲酸，甲酸作为瞬时电子载体用于酶促NADH再生。",
+      "摘要报告整合转氢酶可提供NADPH依赖途径，建立模块化氧化还原平台。",
+      "摘要报告通过冷冻干燥和藻酸盐封装实现即用型材料格式，支持催化剂回收和挑战性条件下的稳健性能。",
+      "摘要报告系统避免牺牲性有机还原当量及相关副产物，实现高原子经济性。"
+    ]
+  },
+  {
+    "title": "Ultra‐Tough Hybrid Supramolecular Gelatin Hydrogels",
+    "abstract": "ABSTRACT Natural load‐bearing tissues derive mechanical performance from sequential self‐assembly, in which collagen fibrils first compact and are then stabilized by enzymatic covalent crosslinking. Replicating this design in synthetic hydrogels while limiting swelling and preserving toughness and viscoelasticity remains challenging. Here, we report a gelatin‐based hybrid hydrogel in which tannic acid‐mediated coacervation creates a compact acidic microenvironment that triggers in situ covalent crosslinking. Tannic acid induces rapid phase separation, lowers the local pH to ∼2.7, and promotes proton‐catalyzed ring opening of the preloaded bis‐oxazoline crosslinker, resulting in diester‐linked covalent stabilization of the compacted gelatin network. This decouples physical compaction from covalent stabilization and avoids the metastability of supramolecular tannic acid‐gelatin networks. The optimized formulation showed a ∼60‐fold increase in storage modulus (G′ ∼54 kPa) relative to acid‐swollen controls and combined high extensibility (elongation at break ∼900%), tensile strength (∼2.0 MPa), and toughness (5.46 MJ m −3 ). It also retained cyclic dissipation (4.21 MJ m −3 in the first cycle) and long‐term structural stability in water. In vitro, the hydrogels supported adhesion, spreading, and proliferation of human dermal fibroblasts over 3 days. Together, these results show that tannic acid‐mediated compaction coupled with acid‐triggered covalent crosslinking provides an effective route to strong, extensible, and dissipative gelatin hydrogels.",
+    "authors": [
+      "Patrick Shakari",
+      "Christos Leliopoulos",
+      "Hamidreza Mokhtari",
+      "Rohith Pavan Parvathaneni",
+      "Afroditi Kontse",
+      "Jöns Hilborn",
+      "Oommen P. Varghese"
+    ],
+    "institutions": [],
+    "published": "2026-09-02",
+    "journal": "Small",
+    "doi": "10.1002/smll.75441",
+    "url": "https://doi.org/10.1002/smll.75441",
+    "sources": [
+      "Crossref"
+    ],
+    "score": 28,
+    "scores": {
+      "topic": 6,
+      "method": 4,
+      "quality": 8,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Small"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "supramolecular"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "title_zh": "超韧杂化超分子明胶水凝胶",
+    "summary_zh": "本研究受天然组织顺序自组装启发，开发了明胶基杂化水凝胶，利用单宁酸介导的凝聚形成酸性微环境（pH约2.7），触发双恶唑啉交联剂的质子催化开环，实现物理压实与共价稳定的解耦，获得超高韧性（5.46 MJ m⁻³）和优异力学性能的水凝胶。",
+    "research_details_zh": "研究问题聚焦于在合成水凝胶中复制天然承重组织的顺序自组装机制（胶原纤维先压实再酶促共价交联），同时限制溶胀并保持韧性和粘弹性。材料体系为明胶基杂化水凝胶，其中单宁酸介导的凝聚创造紧凑的酸性微环境，触发原位共价交联。设计策略是单宁酸诱导快速相分离，将局部pH降至约2.7，促进预载双恶唑啉交联剂的质子催化开环，形成二酯连接的共价稳定化明胶网络，从而将物理压实与共价稳定解耦，避免超分子单宁酸-明胶网络的亚稳定性。研究过程包括优化配方并评估力学性能、循环耗散、水中的长期结构稳定性及体外细胞相容性。该研究的意义在于提供了一种通过单宁酸介导压实结合酸触发共价交联来制备强韧、可伸展且具耗散性的明胶水凝胶的有效途径。",
+    "methods_zh": "摘要明确出现的合成与组装方法包括：单宁酸介导的凝聚（诱导相分离并降低局部pH至约2.7）；预载双恶唑啉交联剂的质子催化开环实现共价交联。表征与性能测试方法包括：储能模量测定（G′）、断裂伸长率测试、拉伸强度测试、韧性计算、循环耗散测试、水中结构稳定性评估，以及人真皮成纤维细胞的体外培养（粘附、铺展、增殖评估）。摘要未报告具体仪器型号或测试标准。",
+    "relevance_zh": "该研究属于自组装技术领域，展示了超分子凝聚与共价交联的顺序自组装策略，对研究主线的价值在于提供了仿生顺序自组装的设计范式，可启发框架材料或介孔材料的分级组装设计。局限性在于其材料体系为明胶水凝胶，不涉及导电MOF或共轭框架材料，且未报告微观结构表征。鉴于其力学性能突出且机制清晰，值得全文精读以获取凝聚与交联的详细条件。",
+    "evidence_note_zh": "这是摘要级解读，仅基于摘要文本。关键细节如单宁酸与明胶的具体配比、双恶唑啉交联剂的结构与用量、pH调节机制、力学测试条件、细胞实验的具体方法及长期稳定性数据均需全文核查，摘要未报告相应数据。",
+    "key_findings_zh": [
+      "摘要报告优化配方相对于酸溶胀对照的储能模量（G′约54 kPa）增加约60倍。",
+      "摘要报告水凝胶兼具高伸展性（断裂伸长率约900%）、拉伸强度（约2.0 MPa）和韧性（5.46 MJ m⁻³）。",
+      "摘要报告水凝胶保留循环耗散（第一循环4.21 MJ m⁻³）和在水中的长期结构稳定性。",
+      "摘要报告体外实验中水凝胶支持人真皮成纤维细胞在3天内的粘附、铺展和增殖。"
+    ]
+  },
+  {
     "title": "Hybrid Single‐Crystalline Mesoporous Frameworks Merging Metal–Organic and Hydrogen‐Bonded Organic Networks",
     "abstract": "ABSTRACT Mesoporous materials represent an important class of porous materials; however, it remains a great challenge to systematically synthesize hybrid single‐crystalline mesoporous frameworks merging metal–organic and hydrogen‐bonded organic networks. Herein, we report a hybrid merged‐net strategy that integrates a supramolecular hydrogen‐bonded organic network with a single‐crystalline mesoporous metal–organic framework (MOF), significantly enhancing structural robustness without sacrificing intrinsic mesoporosity. The assembly of pyridine‐containing carboxylate linkers and iron‐containing trinuclear clusters affords M‐PPB featuring the (6,6)‐connected 6 2 T44 net, in which directional O─H⋯N hydrogen bonds between adjacent linkers form a one‐dimensional hydrogen‐bonded network. In contrast to the unstable parent (4,6)‐connected stp ‐MOF, M‐PPB—merging metal–organic and hydrogen‐bonded organic networks—exhibits enhanced robustness and achieves full porosity, displaying a pore volume of 1.58 cm 3 g − 1 . We further apply an isoreticular expansion strategy to synthesize extended MOFs—M‐PPPB—containing mesopores of about 4.2 nm and exhibiting a pore volume of up to 2.77 cm 3 g − 1 . On account of its ultrahigh porosity, M‐PPPB exhibits a methane uptake of 1.047 g g − 1 at 159 K and 10 bar, nearly twice that of M‐PPB, while its hydrogen uptake at 77 K and 100 bar increases by about 50%.",
     "authors": [
