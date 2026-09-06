@@ -1,5 +1,81 @@
 [
   {
+    "date": "2026-09-05",
+    "generated_at": "2026-09-06T00:52:11Z",
+    "papers": [
+      {
+        "title": "Mesoporous PU/PEDOT:PSS Electrodes Reveal Population‐Level Stochastic Bioelectrical Dynamics in Marine Diatoms",
+        "abstract": "ABSTRACT Understanding how microbial populations generate and modulate electrical signals remains a major technical challenge because extracellular ionic processes are inherently weak, spatially distributed and stochastic. Here, we introduce a mesoporous ultra‐low‐impedance PEDOT:PSS electrode that exploits volumetric ionic‐electronic coupling to probe stochastic electrochemical dynamics in axenic populations of the marine model diatom Phaeodactylum tricornutum . The three‐dimensional porous architecture provides a large electrochemically accessible surface area with high capacitance and low impedance, enabling sensitive detection of non‐equilibrium current fluctuations under applied bias. Applied bias systematically amplifies stochastic electrical fluctuations, while living diatoms significantly modify their amplitude and temporal statistics. Noise analysis reveals enhanced low‐frequency fluctuations, increased power‐law exponents and higher transient‐event rates, indicating biologically driven perturbations of the local electrochemical environment. Pharmacological inhibition with tetraethylammonium suppresses spontaneous electrical activity, providing independent functional evidence that membrane‐associated potassium‐dependent processes contribute to the measured signals. Increasing diatom cell density further produces progressively larger spectral exponents and distinct changes in stochastic‐event dynamics, demonstrating that these electrical signatures encode microbial population density. These findings establish stochastic electrochemical noise as a sensitive, label‐free probe of microbial bioelectrochemical activity and a bioelectronic strategy for monitoring living microbial systems through their intrinsic non‐equilibrium electrical fluctuations.",
+        "authors": [
+          "David M. S. Silva",
+          "Felipe L. Bacellar",
+          "Raquel Amaral",
+          "Louis‐Josselin Lavier‐Aydat",
+          "Luísa Cortes",
+          "Kamal Asadi",
+          "Leïla Tirichine",
+          "Paulo R. F. Rocha"
+        ],
+        "institutions": [],
+        "published": "2026-09-05",
+        "journal": "Advanced Science",
+        "doi": "10.1002/advs.77341",
+        "url": "https://doi.org/10.1002/advs.77341",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 28,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Science"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "membrane",
+            "mesoporous",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "title_zh": "介孔PU/PEDOT:PSS电极揭示海洋硅藻种群水平随机生物电动力学",
+        "summary_zh": "本研究开发了一种介孔超低阻抗PEDOT:PSS电极，利用体积离子-电子耦合效应探测海洋硅藻Phaeodactylum tricornutum的随机电化学动力学。三维多孔结构提供高电容和低阻抗，实现非平衡电流波动的灵敏检测。噪声分析显示生物驱动的低频波动增强和功率谱指数增加，并证明信号编码微生物种群密度。",
+        "research_details_zh": "研究问题聚焦于理解微生物种群如何产生和调节电信号，这是技术挑战，因为细胞外离子过程本质微弱、空间分布且随机。材料体系为介孔超低阻抗PEDOT:PSS电极，其三维多孔架构提供大的电化学可及表面积、高电容和低阻抗。设计策略是利用体积离子-电子耦合来探测无菌培养的海洋模式硅藻Phaeodactylum tricornutum的随机电化学动力学。研究过程包括在施加偏压下检测非平衡电流波动，通过噪声分析评估低频波动、功率谱指数和瞬态事件率；使用四乙铵进行药理学抑制以验证膜相关钾依赖过程的贡献；并通过改变硅藻细胞密度观察光谱指数和随机事件动力学的变化。研究意义在于建立随机电化学噪声作为微生物电化学活性的灵敏无标记探针，提供监测活体微生物系统的生物电子策略。",
+        "methods_zh": "摘要明确报告的方法包括：制备介孔超低阻抗PEDOT:PSS电极，利用三维多孔结构实现体积离子-电子耦合；在施加偏压下进行电化学测量以检测非平衡电流波动；采用噪声分析评估低频波动、功率谱指数和瞬态事件率；使用四乙铵进行药理学抑制实验；通过改变硅藻细胞密度进行种群密度效应研究。摘要未报告具体合成条件、电极制备参数、噪声分析算法细节及表征仪器的具体信息。",
+        "relevance_zh": "该研究将介孔导电聚合物电极应用于微生物电信号探测，展示了介孔结构在增强电化学传感性能中的关键作用，与介孔导电MOF框架材料的研究主线在孔道结构-电学性能关系方面具有方法论借鉴价值。但研究对象为硅藻而非框架材料，且未涉及MOF/COF体系，属于拓展性参考。建议精读以获取介孔电极设计策略和电化学噪声分析方法，但需注意其材料体系与框架材料主线的差异。",
+        "evidence_note_zh": "这是基于摘要的解读，未核查全文。摘要未报告电极的具体孔径分布、比表面积数值、阻抗谱定量参数、噪声分析的详细统计方法、四乙铵浓度及处理时间、硅藻细胞密度的具体数值范围等关键实验细节，这些信息需查阅全文确认。",
+        "key_findings_zh": [
+          "施加偏压系统性放大随机电波动，而活体硅藻显著改变其振幅和时间统计特性",
+          "噪声分析显示低频波动增强、功率谱指数增加和瞬态事件率提高，表明生物驱动的局部电化学环境扰动",
+          "四乙铵药理学抑制抑制自发电话动，提供膜相关钾依赖过程贡献信号的独立功能证据",
+          "增加硅藻细胞密度产生逐渐增大的光谱指数和随机事件动力学的显著变化，证明电信号编码微生物种群密度"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-04",
     "generated_at": "2026-09-05T00:53:28Z",
     "papers": [
