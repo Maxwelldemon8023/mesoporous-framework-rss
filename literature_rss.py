@@ -166,6 +166,45 @@ def search_crossref(query, date_from, date_to, limit, config):
     return papers
 
 
+def search_crossref_journal(journal, date_from, date_to, limit, config):
+    """Scan a watched journal by date so important papers need not match a title query."""
+    params = {
+        "query.container-title": journal,
+        "filter": "from-pub-date:%s,until-pub-date:%s" % (date_from, date_to),
+        "rows": min(limit, 100),
+        "select": "DOI,title,abstract,author,published-online,published-print,container-title,URL"
+    }
+    mailto = config["search"].get("mailto", "").strip()
+    if mailto:
+        params["mailto"] = mailto
+    url = "https://api.crossref.org/works?" + urllib.parse.urlencode(params)
+    data = http_get_json(url, config["search"]["timeout_seconds"])
+    papers = []
+    requested_journal = re.sub(r"\s+", " ", journal).lower().strip()
+    for item in data.get("message", {}).get("items", []):
+        date_parts = ((item.get("published-online") or item.get("published-print") or {}).get("date-parts") or [[]])[0]
+        published = "-".join(str(x).zfill(2) for x in date_parts) if date_parts else ""
+        authors = [" ".join([a.get("given", ""), a.get("family", "")]).strip() for a in item.get("author") or []]
+        title = (item.get("title") or ["Untitled"])[0]
+        container = (item.get("container-title") or ["Crossref"])[0]
+        normalized_container = re.sub(r"\s+", " ", html.unescape(container)).lower().strip()
+        if normalized_container != requested_journal and not normalized_container.startswith(requested_journal + ":"):
+            continue
+        doi = item.get("DOI") or ""
+        papers.append({
+            "title": title,
+            "abstract": strip_tags(item.get("abstract") or ""),
+            "authors": [x for x in authors if x],
+            "institutions": [],
+            "published": published,
+            "journal": container,
+            "doi": doi,
+            "url": item.get("URL") or (("https://doi.org/" + doi) if doi else ""),
+            "sources": ["Crossref journal watch"]
+        })
+    return papers
+
+
 def search_arxiv(query, date_from, date_to, limit, config):
     params = {
         "search_query": "all:" + ' AND all:'.join('"%s"' % part for part in query.split()),
@@ -298,6 +337,15 @@ def classify_paper(paper, config):
 
     if framework and topical and score >= selection.get("core_min_score", config["search"].get("minimum_score", 34)):
         return "核心推荐"
+
+    # A framework paper in a premium journal is valuable even when it introduces
+    # unfamiliar terminology that has not yet accumulated method-keyword hits.
+    if (
+        framework
+        and scores.get("quality", 0) >= 15
+        and score >= selection.get("premium_framework_min_score", 24)
+    ):
+        return "高质量框架推荐"
 
     adjacent_topic = framework or (mesoporous and materials) or (assembly and materials)
     quality_signal = (
@@ -463,12 +511,14 @@ def enrich_chinese(papers, config, errors):
 
 def make_daily_description(digest):
     papers = digest.get("papers", [])
+    search_start = digest.get("search_start", digest["date"])
+    late_count = sum(bool(paper.get("late_arrival")) for paper in papers)
     parts = [
         "<h2>%s 文献日报</h2>" % html.escape(digest["date"]),
-        "<p>检索范围：北京时间昨日 00:00–23:59；经多源去重和相关性筛选，共收录 <strong>%d</strong> 篇带 DOI 的论文。</p>" % len(papers)
+        "<p>检索范围：北京时间 %s 至 %s；包含昨日新论文及数据库迟收录补偿。经多源去重和相关性筛选，共收录 <strong>%d</strong> 篇带 DOI 的论文，其中迟收录 <strong>%d</strong> 篇。</p>" % (html.escape(search_start), html.escape(digest["date"]), len(papers), late_count)
     ]
     if not papers:
-        parts.append("<p>昨日没有发现达到当前相关性门槛且具有 DOI 的新论文。本日报不以低相关结果凑数。</p>")
+        parts.append("<p>本次检索窗口内没有发现尚未推送、达到当前相关性门槛且具有 DOI 的论文。本日报不以低相关结果凑数。</p>")
         return "".join(parts)
     for index, paper in enumerate(papers, 1):
         authors = ", ".join(paper.get("authors", [])[:10]) or "作者信息暂缺"
@@ -483,6 +533,7 @@ def make_daily_description(digest):
             "<p><strong>原始题目：</strong>%s</p>" % html.escape(paper.get("title", "")),
             "<p><strong>作者：</strong>%s</p>" % html.escape(authors),
             "<p><strong>期刊与日期：</strong>%s；%s</p>" % (html.escape(paper.get("journal", "")), html.escape(paper.get("published", ""))),
+            "<p><strong>收录说明：</strong>%s</p>" % ("数据库迟收录补入" if paper.get("late_arrival") else "昨日新发表"),
             "<p><strong>DOI：</strong><a href=\"%s\">%s</a></p>" % (html.escape(doi_url), html.escape(doi)),
             "<p><strong>推荐层级：</strong>%s；<strong>期刊质量信号：</strong>%s</p>" % (html.escape(paper.get("selection_tier", "")), html.escape(paper.get("quality_tier", "standard"))),
             "<p><strong>精简速览：</strong>%s</p>" % html.escape(summary),
@@ -505,12 +556,14 @@ def write_markdown_archive(digest, archive_root):
     issue_dir = os.path.join(archive_root, year)
     issue_path = os.path.join(issue_dir, digest["date"] + ".md")
     papers = digest.get("papers", [])
+    search_start = digest.get("search_start", digest["date"])
+    late_count = sum(bool(paper.get("late_arrival")) for paper in papers)
     lines = [
         "# %s 介孔导电框架文献日报" % digest["date"],
         "",
-        "> 检索范围：北京时间昨日 00:00–23:59；多源检索、去重和相关性筛选；仅收录具有 DOI 的论文。",
+        "> 检索范围：北京时间 %s 至 %s；覆盖昨日新论文并回看数据库迟收录记录；多源检索、去重和相关性筛选；仅收录具有 DOI 的论文。" % (search_start, digest["date"]),
         "",
-        "本期收录 **%d 篇**论文。" % len(papers),
+        "本期收录 **%d 篇**论文，其中迟收录补入 **%d 篇**。" % (len(papers), late_count),
         ""
     ]
     if not papers:
@@ -528,6 +581,7 @@ def write_markdown_archive(digest, archive_root):
             "- **作者：** %s" % markdown_escape(authors),
             "- **期刊：** %s" % markdown_escape(paper.get("journal")),
             "- **发表日期：** %s" % markdown_escape(paper.get("published")),
+            "- **收录说明：** %s" % ("数据库迟收录补入" if paper.get("late_arrival") else "昨日新发表"),
             "- **DOI：** [%s](https://doi.org/%s)" % (markdown_escape(doi), markdown_escape(doi)),
             "- **推荐层级：** %s" % markdown_escape(paper.get("selection_tier")),
             "- **期刊质量信号：** %s" % markdown_escape(paper.get("quality_tier", "standard")),
@@ -665,6 +719,8 @@ def run(config_path, output_dir, fixture_path=None, target_date=None, archive_ro
     china_tz = dt.timezone(dt.timedelta(hours=8))
     china_now = dt.datetime.now(china_tz)
     target_date = target_date or (china_now.date() - dt.timedelta(days=1)).strftime("%Y-%m-%d")
+    lookback_days = max(0, int(config["search"].get("late_arrival_lookback_days", 0)))
+    search_start = (parse_date(target_date) - dt.timedelta(days=lookback_days)).strftime("%Y-%m-%d")
     state_path = os.path.join(output_dir, "papers.json")
     digests_path = os.path.join(output_dir, "digests.json")
     errors = []
@@ -677,7 +733,7 @@ def run(config_path, output_dir, fixture_path=None, target_date=None, archive_ro
         for query in config["queries"]:
             for source in config["search"]["sources"]:
                 try:
-                    found = source_functions[source](query, target_date, target_date, per_query, config)
+                    found = source_functions[source](query, search_start, target_date, per_query, config)
                     all_papers.extend(found)
                     print("%-10s | %2d | %s" % (source, len(found), query))
                 except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ET.ParseError, ValueError, KeyError) as exc:
@@ -685,6 +741,17 @@ def run(config_path, output_dir, fixture_path=None, target_date=None, archive_ro
                     errors.append(message)
                     print("WARNING " + message, file=sys.stderr)
                 time.sleep(float(config["search"].get("request_delay_seconds", 0.6)))
+        journal_limit = int(config["search"].get("journal_candidate_pool_size", 40))
+        for journal in config.get("watch_journals", []):
+            try:
+                found = search_crossref_journal(journal, search_start, target_date, journal_limit, config)
+                all_papers.extend(found)
+                print("%-10s | %2d | %s" % ("journal", len(found), journal))
+            except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ValueError, KeyError) as exc:
+                message = "Crossref journal watch / %s: %s" % (journal, exc)
+                errors.append(message)
+                print("WARNING " + message, file=sys.stderr)
+            time.sleep(float(config["search"].get("request_delay_seconds", 0.6)))
 
     merged = merge_papers(all_papers)
     scored = [score_paper(p, config) for p in merged]
@@ -693,21 +760,32 @@ def run(config_path, output_dir, fixture_path=None, target_date=None, archive_ro
     # and score calibration does not become a black box.
     review_path = os.path.join(output_dir, "candidate-review.json")
     atomic_write(review_path, json.dumps(scored[:50], ensure_ascii=False, indent=2))
+    existing_digests = load_json(digests_path, [])
+    previously_delivered = {
+        stable_id(paper)
+        for digest in existing_digests
+        if digest.get("date") != target_date
+        for paper in digest.get("papers", [])
+    }
     eligible = []
     for paper in scored:
         selection_tier = classify_paper(paper, config)
+        published = iso_date(paper.get("published"))
         if (
-            iso_date(paper.get("published")) == target_date
+            search_start <= published <= target_date
             and selection_tier
             and (paper.get("doi") or not config["search"].get("require_doi", True))
+            and stable_id(paper) not in previously_delivered
         ):
             paper["selection_tier"] = selection_tier
+            paper["late_arrival"] = published != target_date
             eligible.append(paper)
     eligible.sort(key=lambda p: (p["score"], parse_date(p.get("published"))), reverse=True)
     core = [paper for paper in eligible if paper["selection_tier"] == "核心推荐"]
+    premium = [paper for paper in eligible if paper["selection_tier"] == "高质量框架推荐"]
     adjacent = [paper for paper in eligible if paper["selection_tier"] == "拓展推荐"]
     adjacent = adjacent[:int(config.get("selection", {}).get("adjacent_max_count", 3))]
-    selected = sorted(core + adjacent, key=lambda p: p["score"], reverse=True)
+    selected = sorted(premium + core + adjacent, key=lambda p: p["score"], reverse=True)
     daily_max = int(config["search"].get("daily_max_count", 0))
     if daily_max > 0:
         selected = selected[:daily_max]
@@ -722,8 +800,8 @@ def run(config_path, output_dir, fixture_path=None, target_date=None, archive_ro
     combined.sort(key=lambda p: (parse_date(p.get("published")), p.get("score", 0)), reverse=True)
     combined = combined[:500]
 
-    digest = {"date": target_date, "generated_at": now.isoformat() + "Z", "papers": selected}
-    digests = [d for d in load_json(digests_path, []) if d.get("date") != target_date]
+    digest = {"date": target_date, "search_start": search_start, "generated_at": now.isoformat() + "Z", "papers": selected}
+    digests = [d for d in existing_digests if d.get("date") != target_date]
     digests.append(digest)
     digests.sort(key=lambda d: d.get("date", ""), reverse=True)
     digests = digests[:config["feed"].get("max_items", 100)]
@@ -741,7 +819,7 @@ def run(config_path, output_dir, fixture_path=None, target_date=None, archive_ro
         archive_report_path = os.path.relpath(issue_path, os.path.dirname(config_path)).replace("\\", "/")
     except ValueError:
         archive_report_path = os.path.abspath(issue_path).replace("\\", "/")
-    report = {"generated_at": now.isoformat() + "Z", "target_date": target_date, "raw_candidates": len(all_papers), "unique_candidates": len(merged), "eligible": len(eligible), "core_selected": len(core), "adjacent_selected": len(adjacent), "selected": len(selected), "daily_digest_items": len(digests), "archive_file": archive_report_path, "errors": errors}
+    report = {"generated_at": now.isoformat() + "Z", "target_date": target_date, "search_start": search_start, "raw_candidates": len(all_papers), "unique_candidates": len(merged), "eligible": len(eligible), "premium_framework_selected": len(premium), "core_selected": len(core), "adjacent_selected": len(adjacent), "late_arrivals_selected": sum(bool(p.get("late_arrival")) for p in selected), "selected": len(selected), "daily_digest_items": len(digests), "archive_file": archive_report_path, "errors": errors}
     atomic_write(os.path.join(output_dir, "last-run.json"), json.dumps(report, ensure_ascii=False, indent=2))
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return 0

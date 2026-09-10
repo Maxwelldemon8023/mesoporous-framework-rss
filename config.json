@@ -8,6 +8,8 @@
   },
   "search": {
     "candidate_pool_size": 120,
+    "journal_candidate_pool_size": 40,
+    "late_arrival_lookback_days": 2,
     "daily_max_count": 0,
     "require_doi": true,
     "minimum_score": 34,
@@ -21,7 +23,8 @@
     "adjacent_min_score": 24,
     "adjacent_max_count": 3,
     "adjacent_quality_min": 8,
-    "adjacent_method_min": 8
+    "adjacent_method_min": 8,
+    "premium_framework_min_score": 24
   },
   "ai": {
     "enabled": true,
@@ -49,7 +52,10 @@
     "soft templating mesoporous materials",
     "self assembly functional materials",
     "supramolecular self assembly materials",
-    "block copolymer colloidal interfacial assembly"
+    "block copolymer colloidal interfacial assembly",
+    "porous organic salt ionic framework",
+    "nonmetal organic framework reticular chemistry",
+    "ionic cluster secondary building unit porous"
   ],
   "keywords": {
     "framework": [
@@ -57,7 +63,9 @@
       "covalent organic framework", "cof", "cofs", "coordination polymer",
       "crystalline porous framework", "hydrogen-bonded organic framework",
       "hydrogen bonded organic framework", "hof", "hofs", "porous organic framework",
-      "supramolecular organic framework"
+      "supramolecular organic framework", "porous organic salt", "porous organic salts", "nonmetal organic framework",
+      "nonmetal organic frameworks", "non-metal organic framework", "non-metal organic frameworks",
+      "ionic organic framework", "ionic framework", "reticular chemistry"
     ],
     "conductive": [
       "conductive", "electrically conductive", "conjugated", "pi-conjugated",
@@ -70,7 +78,8 @@
     "assembly": [
       "self-assembly", "self assembly", "cooperative assembly", "interfacial assembly",
       "confined crystallization", "oriented growth", "nucleation", "crystal growth",
-      "micelle", "surfactant", "templating", "block copolymer"
+      "solid-state assembly", "solid state assembly", "assembly", "coulombic aggregation",
+      "ionic cluster", "secondary building unit", "micelle", "surfactant", "templating", "block copolymer"
     ],
     "electrochemical": [
       "electrochemical synthesis", "electrosynthesis", "electrocrystallization",
@@ -101,6 +110,11 @@
       "Carbon", "Nano Research", "Research"
     ]
   },
+  "watch_journals": [
+    "Nature", "Science", "Nature Chemistry", "Nature Materials", "Nature Synthesis", "Nature Communications",
+    "Journal of the American Chemical Society", "Angewandte Chemie International Edition",
+    "Advanced Materials", "Chemical Science", "Chem", "Matter", "National Science Review"
+  ],
   "tracked_people_and_orgs": [
     "Dongyuan Zhao", "Zhao Dongyuan", "Xiaomin Li", "Li Xiaomin",
     "Fudan University"

@@ -4,6 +4,7 @@ import os
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
+from unittest import mock
 
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -68,7 +69,7 @@ class PipelineTests(unittest.TestCase):
         for paper in papers:
             scored = MODULE.score_paper(paper, self.config)
             classified[paper["doi"]] = MODULE.classify_paper(scored, self.config)
-        self.assertEqual(classified["10.0000/hof.1"], "拓展推荐")
+        self.assertEqual(classified["10.0000/hof.1"], "高质量框架推荐")
         self.assertEqual(classified["10.0000/meso.1"], "拓展推荐")
         self.assertEqual(classified["10.0000/assembly.1"], "拓展推荐")
         self.assertEqual(classified["10.0000/cof.1"], "拓展推荐")
@@ -86,8 +87,67 @@ class PipelineTests(unittest.TestCase):
             )
             with open(os.path.join(output, "digests.json"), encoding="utf-8") as handle:
                 digest = json.load(handle)[0]
-            self.assertEqual(len(digest["papers"]), 3)
-            self.assertTrue(all(p["selection_tier"] == "拓展推荐" for p in digest["papers"]))
+            self.assertEqual(len(digest["papers"]), 4)
+            tiers = [p["selection_tier"] for p in digest["papers"]]
+            self.assertEqual(tiers.count("高质量框架推荐"), 1)
+            self.assertEqual(tiers.count("拓展推荐"), 3)
+
+    def test_premium_ionic_framework_paper_is_not_missed(self):
+        paper = MODULE.score_paper({
+            "title": "Ionic clusters as high-connectivity secondary building units for crystalline porous organic salts",
+            "abstract": (
+                "The solid-state assembly of crystalline porous materials is dictated by node-linker interactions. "
+                "Ammonium halide ion pairs undergo Coulombic aggregation into ionic clusters that function as "
+                "secondary building units for non-metal organic frameworks with large voids and polar channels."
+            ),
+            "authors": [],
+            "institutions": [],
+            "published": "2026-09-08",
+            "journal": "Nature Chemistry",
+            "doi": "10.1038/s41557-026-02248-w",
+            "sources": ["Fixture"]
+        }, self.config)
+        self.assertIn("porous organic salts", paper["hits"]["framework"])
+        self.assertIn("solid-state assembly", paper["hits"]["assembly"])
+        self.assertEqual(MODULE.classify_paper(paper, self.config), "核心推荐")
+
+    def test_crossref_journal_watch_does_not_require_title_keywords(self):
+        response = {"message": {"items": [{
+            "DOI": "10.1038/s41557-026-02248-w",
+            "title": ["Ionic clusters as high-connectivity secondary building units"],
+            "container-title": ["Nature Chemistry"],
+            "published-online": {"date-parts": [[2026, 9, 8]]},
+            "author": [],
+            "URL": "https://doi.org/10.1038/s41557-026-02248-w"
+        }]}}
+        with mock.patch.object(MODULE, "http_get_json", return_value=response) as getter:
+            papers = MODULE.search_crossref_journal("Nature Chemistry", "2026-09-06", "2026-09-08", 40, self.config)
+        self.assertEqual(papers[0]["doi"], "10.1038/s41557-026-02248-w")
+        requested_url = getter.call_args[0][0]
+        self.assertIn("query.container-title=Nature+Chemistry", requested_url)
+        self.assertNotIn("query.title", requested_url)
+
+    def test_late_arrival_is_added_once(self):
+        paper = [{
+            "title": "Late indexed porous organic salt assembly",
+            "abstract": "A crystalline porous organic salt forms through solid-state assembly.",
+            "authors": [], "institutions": [], "published": "2026-07-25",
+            "journal": "Nature Chemistry", "doi": "10.0000/late.1", "sources": ["Fixture"]
+        }]
+        with tempfile.TemporaryDirectory() as output:
+            fixture = os.path.join(output, "late.json")
+            with open(fixture, "w", encoding="utf-8") as handle:
+                json.dump(paper, handle)
+            archive = os.path.join(output, "issues")
+            MODULE.run(os.path.join(ROOT, "config.json"), output, fixture, "2026-07-26", archive)
+            with open(os.path.join(output, "digests.json"), encoding="utf-8") as handle:
+                first = json.load(handle)[0]
+            self.assertEqual(len(first["papers"]), 1)
+            self.assertTrue(first["papers"][0]["late_arrival"])
+            MODULE.run(os.path.join(ROOT, "config.json"), output, fixture, "2026-07-27", archive)
+            with open(os.path.join(output, "digests.json"), encoding="utf-8") as handle:
+                second = json.load(handle)[0]
+            self.assertEqual(len(second["papers"]), 0)
 
     def test_evidence_limited_fallback_has_detailed_delivery_fields(self):
         paper = MODULE.score_paper({
