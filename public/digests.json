@@ -1,5 +1,317 @@
 [
   {
+    "date": "2026-09-13",
+    "search_start": "2026-09-11",
+    "generated_at": "2026-09-14T00:59:39Z",
+    "papers": [
+      {
+        "title": "Decoupled Temperature‐Pressure Sensing via Hierarchical Porous Sponge for Thermo‐Tactile Perception",
+        "abstract": "ABSTRACT Precise and crosstalk‐free discrimination of pressure and temperature remains a fundamental challenge in artificial sensory systems due to the intrinsic coupling of mechanical and thermal transduction. Herein, we present a flexible, high‐fidelity dual‐modal sensor based on an ultralight hierarchically porous conductive sponge. The engineered porous architecture synergistically integrates piezoresistive and thermoelectric effects within a single carbon nanomaterial, achieving physical decoupling between resistance‐type pressure signals and voltage‐type temperature outputs, effectively suppressing dual‐modal interference. Owing to its compressibility, conductive network, and thermal insulation, the sensor delivers a pressure sensitivity of 4.43 kPa −1 , a detection limit of 25 Pa, a response time of 91 ms, and durability over 20 000 cycles, alongside a Seebeck coefficient of 9.96 µV K −1 and a temperature resolution of 0.5 K. As a proof of concept, it enables real‐time Morse code communication and physiological monitoring. Moreover, a 3 × 3 sensor array integrated with machine learning demonstrates robust tactile‐thermal fusion perception, highlighting its potential as a multifunctional sensing platform. This work presents a material‐driven strategy to overcome multimodal signal interference, significantly promoting sensory perception in complex environments.",
+        "authors": [
+          "Jiachen Dong",
+          "Bo Xu",
+          "Hongyu Mi",
+          "Xin Zhao",
+          "Yuqing Zhai",
+          "Yongqi Zhu",
+          "Zhiyu Wang",
+          "Yue Zhang"
+        ],
+        "institutions": [
+          "Xinjiang University",
+          "Xinjiang University",
+          "Xinjiang University",
+          "Xinjiang University",
+          "Xinjiang University",
+          "Xinjiang University",
+          "Xinjiang University",
+          "Xiamen University",
+          "Xiamen University of Technology"
+        ],
+        "published": "2026-09-12",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.78367",
+        "openalex_id": "https://openalex.org/W7212380987",
+        "url": "https://doi.org/10.1002/adfm.78367",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 37,
+        "scores": {
+          "topic": 12,
+          "method": 4,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [
+            "hierarchically porous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "material",
+            "nanomaterial",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "基于分级多孔海绵的解耦温度-压力传感用于热-触觉感知",
+        "summary_zh": "该工作利用超轻分级多孔导电海绵，在同一碳纳米材料中协同集成压阻与热电效应，实现电阻型压力信号与电压型温度输出的物理解耦，有效抑制双模态干扰，并展示摩尔斯码通信、生理监测及机器学习辅助的热-触觉融合感知。",
+        "research_details_zh": "针对人工感知系统中压力与温度因机械-热转导内在耦合而难以无串扰区分的问题，作者设计了一种基于超轻分级多孔导电海绵的柔性高保真双模态传感器。其工程化多孔结构在单一碳纳米材料中协同整合压阻效应与热电效应，使电阻型压力信号与电压型温度输出在物理上解耦，从而抑制双模态干扰。得益于其可压缩性、导电网络和热绝缘性，传感器实现了压力灵敏度4.43 kPa−1、检测限25 Pa、响应时间91 ms、超过20000次循环的耐久性，以及9.96 µV K−1的塞贝克系数和0.5 K的温度分辨率。作为概念验证，该传感器实现了实时摩尔斯码通信和生理监测；此外，集成机器学习的3×3传感器阵列展示了稳健的触觉-热融合感知。该工作提出了一种材料驱动的策略来克服多模态信号干扰，显著推动了复杂环境中的感官感知。",
+        "methods_zh": "摘要明确涉及：构建超轻分级多孔导电海绵，在单一碳纳米材料中协同整合压阻与热电效应；通过压缩性、导电网络和热绝缘性实现压力与温度双模态传感；测试压力灵敏度、检测限、响应时间、循环耐久性、塞贝克系数和温度分辨率；演示实时摩尔斯码通信、生理监测，以及集成机器学习的3×3传感器阵列用于触觉-热融合感知。摘要未报告具体合成步骤、组装方法及详细表征手段。",
+        "relevance_zh": "该工作属于多孔导电材料与柔性传感方向，与介孔/分级多孔材料及自组装技术主线关联较弱，但其中分级多孔导电网络的设计、压阻与热电双机制协同及多模态解耦策略，对框架材料/多孔材料的电学功能集成与器件化有借鉴价值。摘要未涉及MOF/COF/HOF或电化学合成，若关注多孔碳传感或双模态解耦可精读，否则可作拓展参考。",
+        "evidence_note_zh": "本解读仅依据摘要，属于摘要级解读。摘要未报告具体合成条件、前驱体、组装方法、表征手段、机器学习模型细节及长期稳定性机制等关键信息，需查阅全文核实。",
+        "key_findings_zh": [
+          "在单一碳纳米材料中协同集成压阻与热电效应，实现电阻型压力信号与电压型温度输出的物理解耦，有效抑制双模态干扰。",
+          "传感器性能：压力灵敏度4.43 kPa−1，检测限25 Pa，响应时间91 ms，耐久性超过20000次循环，塞贝克系数9.96 µV K−1，温度分辨率0.5 K。",
+          "实现实时摩尔斯码通信和生理监测；集成机器学习的3×3传感器阵列展示稳健的触觉-热融合感知。"
+        ]
+      },
+      {
+        "title": "Breaking the Diffusion–Dispersion Trade‐Off: Subnanometric MoO 3 Clusters in Interzeolite Transformation Intermediates for Oxidative Desulfurization With H 2 O 2",
+        "abstract": "ABSTRACT Overcoming the intractable trade‐off between restricted bulky molecule diffusion in microporous zeolites and poor active‐metal dispersion on mesoporous supports remains a formidable challenge, particularly in the deep oxidative desulfurization of fuel oils. Herein, by strategically trapping metastable amorphous protozeolites during the interzeolite transformation of FAU to Beta zeolite, we engineered a Mo‐functionalized interzeolite transformation intermediate (Mo‐AZ) featuring abundant silanol defects and a well‐established mesoporous architecture. These silanols serve as robust anchoring sites, yielding a unique (Si─O─) 1 Mo(─O─Mo) 5 interfacial coordination that firmly stabilizes MoO 3 species as sub‐nanometric clusters (∼1.27 nm). Crucially, the hierarchical mesoporous network eradicates the spatial steric hindrance for bulky sulfur substrates, while the highly hydrophilic silanol microenvironment not only specifically enriches the oxidant of hydrogen peroxide but dynamically promotes its spontaneous cleavage into ultra‐reactive superoxide radicals. Consequently, Mo‐AZ exhibits exceptional catalytic activity and robust structural stability for deep oxidative desulfurization. This work decisively dismantles the mass‐transfer barriers in the catalytic conversion of bulky molecules, pioneering a novel paradigm for designing high‐performance sub‐nanocluster catalysts via the defect engineering of metastable protozeolites.",
+        "authors": [
+          "Jiahe Sun",
+          "Fengyuan Zuo",
+          "Wentian Guo",
+          "Haiyang Shi",
+          "Sizhuo Jia",
+          "Xiaolong Liu",
+          "Zijian Wu",
+          "Bo Xiao",
+          "Hongying Lü",
+          "Hao Xu",
+          "Peng Wu",
+          "Zhiguo Zhu"
+        ],
+        "institutions": [],
+        "published": "2026-09-12",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.1167313",
+        "url": "https://doi.org/10.1002/anie.1167313",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 35,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "coordination",
+            "mesoporous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "打破扩散-分散权衡：中间沸石转化中间体中的亚纳米MoO3团簇用于H2O2氧化脱硫",
+        "summary_zh": "该工作通过在FAU向Beta沸石转化过程中捕获亚稳无定形原沸石，构建了具有丰富硅醇缺陷和介孔结构的Mo功能化中间体，形成独特界面配位以稳定约1.27 nm的亚纳米MoO3团簇，打破微孔扩散与介孔分散的权衡，实现高效深度氧化脱硫。",
+        "research_details_zh": "针对微孔沸石中大分子扩散受限与介孔载体上活性金属分散性差之间的顽固权衡，尤其是在燃料油深度氧化脱硫中，作者通过在FAU向Beta沸石转化过程中策略性捕获亚稳无定形原沸石，设计了一种Mo功能化的沸石转化中间体（Mo-AZ），其具有丰富的硅醇缺陷和良好的介孔结构。这些硅醇作为稳固的锚定位点，形成独特的(Si─O─)1Mo(─O─Mo)5界面配位，将MoO3物种牢固稳定为亚纳米团簇（约1.27 nm）。关键在于，分级介孔网络消除了大体积硫底物的空间位阻，而高亲水性硅醇微环境不仅特异性富集氧化剂过氧化氢，还动态促进其自发裂解为超活泼超氧自由基。因此，Mo-AZ在深度氧化脱硫中表现出优异的催化活性和稳健的结构稳定性。该工作决定性地打破了催化转化大分子中的传质障碍，开创了通过亚稳原沸石缺陷工程设高性能亚纳米团簇催化剂的新范式。",
+        "methods_zh": "摘要明确涉及：在FAU向Beta沸石转化过程中捕获亚稳无定形原沸石；构建Mo功能化沸石转化中间体Mo-AZ；利用硅醇缺陷锚定并稳定亚纳米MoO3团簇；形成(Si─O─)1Mo(─O─Mo)5界面配位；构建分级介孔网络；以H2O2为氧化剂进行深度氧化脱硫催化性能与结构稳定性评价。摘要未报告具体合成温度、时间、Mo负载量及详细表征手段。",
+        "relevance_zh": "该工作与介孔材料、框架材料（沸石）及缺陷工程主线高度相关，其通过亚稳原沸石转化构建分级介孔、利用硅醇缺陷锚定亚纳米金属团簇并调控亲水微环境的策略，对介孔导电MOF/COF/HOF及框架材料的组装与催化应用有直接借鉴意义。摘要未涉及电化学合成或导电框架，但亚纳米团簇稳定与传质-分散协同设计值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要，属于摘要级解读。摘要未报告具体合成条件、Mo负载量、比表面积/孔结构数据、表征手段细节及脱硫性能数值等关键信息，需查阅全文核实。",
+        "key_findings_zh": [
+          "通过捕获FAU向Beta转化中的亚稳无定形原沸石，构建了具有丰富硅醇缺陷和介孔结构的Mo功能化中间体Mo-AZ。",
+          "形成独特的(Si─O─)1Mo(─O─Mo)5界面配位，将MoO3物种稳定为约1.27 nm的亚纳米团簇。",
+          "分级介孔网络消除大体积硫底物空间位阻，亲水硅醇微环境富集H2O2并促进其裂解为超氧自由基，实现优异深度氧化脱硫活性和结构稳定性。"
+        ]
+      },
+      {
+        "title": "Hydrogen-bonded organic frameworks photocatalyst for nitrogen atom insertion to construct isoquinolines",
+        "abstract": "Nitrogen atom insertion into double bonds provides an efficient strategy for constructing isoquinoline skeletons. Currently reported photocatalytic strategies are limited by the low oxidation potentials of homogeneous photosensitizers, restricting their applicability to electron-deficient substrates. Herein, a HOF nanomaterial is fabricated via hydrogen-bonded self-assembly and exhibits favorable catalytic activity and recyclability. Under visible-light irradiation and 1 atm O 2 conditions, HOF efficiently promotes nitrogen insertion reactions to synthesize isoquinolines, with no obvious loss of activity after eight recyclings. Owing to the high oxidation potential of the HOF, electron-deficient substrates can be tolerated. Further investigations confirm that O 2 •– reduced from O 2 by photogenerated electrons is the key reactive oxygen species for C C bond cleavage. This work provides a highly efficient and recyclable HOF nano-photocatalyst for isoquinolines synthesis through nitrogen atom insertion.",
+        "authors": [
+          "Fengchao Sun",
+          "Qintong Huang",
+          "Yinze Qin",
+          "Xiaowen Kang",
+          "Yucheng Tang",
+          "Liangbin Huang"
+        ],
+        "institutions": [
+          "South China University of Technology",
+          "South China University of Technology",
+          "South China University of Technology",
+          "South China University of Technology",
+          "South China University of Technology",
+          "South China University of Technology"
+        ],
+        "published": "2026-09-12",
+        "journal": "Sustainable Chemistry and Pharmacy",
+        "doi": "10.1016/j.scp.2026.102555",
+        "openalex_id": "https://openalex.org/W7212403460",
+        "url": "https://doi.org/10.1016/j.scp.2026.102555",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 6,
+          "quality": 0,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [
+            "hof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "nanomaterial"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "氢键有机框架光催化剂用于氮原子插入构建异喹啉",
+        "summary_zh": "该工作通过氢键自组装制备HOF纳米材料，在可见光和1 atm O2条件下高效催化氮原子插入反应合成异喹啉，八次循环无明显活性损失；HOF的高氧化电位使其耐受缺电子底物，光生电子还原O2生成的O2•–是C=C键断裂的关键活性氧物种。",
+        "research_details_zh": "向双键中插入氮原子是构建异喹啉骨架的高效策略。目前已报道的光催化策略受限于均相光敏剂氧化电位低，仅适用于缺电子底物。本文通过氢键自组装制备了一种HOF纳米材料，表现出良好的催化活性和可回收性。在可见光照射和1 atm O2条件下，HOF高效促进氮插入反应合成异喹啉，八次回收后无明显活性损失。由于HOF具有高氧化电位，可耐受缺电子底物。进一步研究证实，由光生电子还原O2生成的O2•–是C=C键断裂的关键活性氧物种。该工作为通过氮原子插入合成异喹啉提供了一种高效且可回收的HOF纳米光催化剂。",
+        "methods_zh": "摘要明确涉及：通过氢键自组装制备HOF纳米材料；在可见光照射和1 atm O2条件下进行光催化氮原子插入反应合成异喹啉；进行循环回收实验（八次）；研究底物适用范围（缺电子底物）；通过进一步研究确认O2•–为关键活性氧物种。摘要未报告具体单体结构、自组装条件、表征手段及光催化性能数值。",
+        "relevance_zh": "该工作直接属于HOF框架材料与自组装技术主线，其氢键自组装制备HOF纳米光催化剂、高氧化电位调控底物适用范围及活性氧物种机制，对共轭框架材料的光催化应用有实际参考价值。摘要未涉及介孔结构、导电性或电化学合成，但HOF的可回收性与氮插入反应设计值得全文精读以获取单体与组装细节。",
+        "evidence_note_zh": "本解读仅依据摘要，属于摘要级解读。摘要未报告HOF单体结构、自组装条件、孔结构/比表面积、表征手段、光催化产率及氧化电位数值等关键信息，需查阅全文核实。",
+        "key_findings_zh": [
+          "通过氢键自组装制备HOF纳米材料，在可见光和1 atm O2条件下高效催化氮原子插入反应合成异喹啉，八次回收后无明显活性损失。",
+          "HOF的高氧化电位使其能够耐受缺电子底物，突破均相光敏剂低氧化电位的限制。",
+          "光生电子还原O2生成的O2•–是C=C键断裂的关键活性氧物种。"
+        ]
+      },
+      {
+        "title": "Deterministic Patterning and Alignment of Tellurium Quantum Wires Using Nanoscale Templates",
+        "abstract": "ABSTRACT Tellurium (Te) is an intriguing one‐dimensional (1D) semiconductor that has recently attracted considerable interest as a p ‐type channel material. However, scalable synthesis methods have lacked control over the orientation and patterning of the Te atomic chains, thus limiting its practical use. Guided by theory, we overcome this challenge using nanowire‐shaped templates to achieve oriented, single‐crystal growth of Te on amorphous substrates. Strong alignment of Te atomic chains is achieved as template widths are reduced to sub‐20 nm. This high structural order, confirmed by 4D scanning transmission electron microscopy, enables the observation of pristine quantum transport phenomena for deterministically patterned Te. Field‐effect transistors exhibit well‐defined conductance plateaus at 77 K due to the population of individual 1D subbands. Furthermore, Coulomb blockade emerges at 1.7 K, with the Te channel acting as a gate‐tunable quantum dot. This synthesis approach provides a scalable pathway for integration of Te‐based quantum materials for future electronic and quantum technologies.",
+        "authors": [
+          "I K M Reaz Rahman",
+          "Scott Dhuey",
+          "Moniruzzaman Jamal",
+          "Taehoon Kim",
+          "Naoki Higashitarumizu",
+          "Selven Virasawmy",
+          "Aidar Kemelbay",
+          "Genki Ohkatsu",
+          "Aditya Nirmale",
+          "Inha Kim",
+          "Hyong Min Kim",
+          "Karen C. Bustillo",
+          "Joel W. Ager",
+          "Daryl C. Chrzan",
+          "Mary Scott",
+          "Yutaka Majima",
+          "Ali Javey"
+        ],
+        "institutions": [],
+        "published": "2026-09-11",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75006",
+        "url": "https://doi.org/10.1002/adma.75006",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 33,
+        "scores": {
+          "topic": 6,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "crystal growth"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal",
+            "material",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "利用纳米模板实现碲量子线的确定性图案化与取向排列",
+        "summary_zh": "该研究利用纳米线形模板，在非晶基底上实现碲的单晶定向生长与确定性图案化。当模板宽度降至20纳米以下时，碲原子链高度取向。4D扫描透射电镜确认结构有序，场效应晶体管在77K呈现一维子带电导平台，1.7K出现库仑阻塞，表明碲通道可作为栅极可调量子点。",
+        "research_details_zh": "研究针对碲作为一维p型半导体沟道材料时，可规模化合成方法缺乏对碲原子链取向与图案化控制的问题。在理论指导下，采用纳米线形模板，在非晶基底上实现碲的定向单晶生长。当模板宽度减小至20纳米以下时，碲原子链获得强取向排列。通过4D扫描透射电子显微镜确认了高结构有序性，并据此观察到确定性图案化碲的本征量子输运现象。所制备的场效应晶体管在77K下因单个一维子带被占据而表现出明确的电导平台；在1.7K下出现库仑阻塞，碲沟道表现为栅极可调量子点。该合成方法为未来电子与量子技术中碲基量子材料的集成提供了可规模化路径。",
+        "methods_zh": "摘要明确出现的方法包括：在理论指导下使用纳米线形模板，在非晶基底上进行碲的定向单晶生长；通过4D扫描透射电子显微镜确认结构有序性；制备场效应晶体管并进行低温电学输运测试，测试温度为77K和1.7K，观察到电导平台与库仑阻塞。摘要未报告模板具体材质、合成温度、前驱体、器件制备细节及更多表征手段。",
+        "relevance_zh": "该工作属于纳米模板引导的晶体生长与确定性图案化，与自组装技术及框架材料组装主线并非直接同一体系，但在一维单晶定向生长、模板限域取向控制和量子输运验证方面具有方法学参考价值。其局限在于研究对象为碲量子线而非介孔导电MOF、共轭框架或介孔材料，且摘要未涉及电化学合成。若关注模板诱导取向生长与量子器件集成，可全文精读；若聚焦框架材料本身，则相关性有限。",
+        "evidence_note_zh": "本解读仅依据提供的题目与摘要，属于摘要级解读。摘要未报告模板具体材质与尺寸分布、合成温度与前驱体、基底类型、器件结构、电学测试细节、4D扫描透射电子显微镜具体参数及理论计算内容，这些关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "当模板宽度减小至20纳米以下时，碲原子链实现强取向排列。",
+          "4D扫描透射电子显微镜确认了碲的高结构有序性。",
+          "场效应晶体管在77K下因单个一维子带被占据而呈现明确的电导平台。",
+          "在1.7K下出现库仑阻塞，碲沟道表现为栅极可调量子点。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-12",
     "search_start": "2026-09-10",
     "generated_at": "2026-09-13T00:55:45Z",
