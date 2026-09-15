@@ -1,5 +1,1033 @@
 [
   {
+    "title": "π‐Contraction Induces High‑Spin Co Centers in 2D Conductive MOFs for Efficient Oxygen Reduction",
+    "abstract": "ABSTRACT Two‐dimensional conductive metal–organic frameworks (c‐MOFs) are promising electrocatalysts for the oxygen reduction reaction (ORR), yet nearly all optimization strategies have focused on metal‐node modification while the ligand scaffold remains largely unexplored. Here, we report an unconventional “π‐contraction” strategy that excises the peripheral benzene rings from metallophthalocyanine (MPc) to afford contracted metalloporphyrazine (MPz) ligands (M = Co, Ni). Trimming decreases π‐electron density on the carbon framework and directs charge to the metal center, thereby reshaping its electronic structure. In CoPz–MOF, this contraction uniquely induces a high‐spin Co 3d station and stabilizes mixed Co(I)/Co(II) valence states—features absent in CoPc MOF and Ni‐based analogues. DFT calculations confirm that the high‐spin configuration confers the strongest oxygen adsorption affinity among the series, while the presence of Co(I) species further promotes O 2 chemisorption during the onset stage of ORR. Electrochemically, CoPz–MOF delivers a half‐wave potential of 0.84 V with a preferential four‐electron pathway, outperforming its counterparts. In zinc–air batteries, it achieves a peak power density of 125.6 mW cm −2 and stable operation over 500 h. This work establishes ligand‐level conjugation engineering—rather than node‐metal substitution—as a powerful strategy for tailoring metal‐center electronic structures in c‐MOF electrocatalysts.",
+    "authors": [
+      "Xue Liu",
+      "Xueru Wang",
+      "Wenmiao Chen",
+      "Zhong Xu",
+      "Dongyang Xie",
+      "Miao Wang",
+      "Lianming Zhao",
+      "Yanli Chen",
+      "Daofeng Sun"
+    ],
+    "institutions": [],
+    "published": "2026-09-14",
+    "journal": "Angewandte Chemie",
+    "doi": "10.1002/ange.1652124",
+    "url": "https://doi.org/10.1002/ange.1652124",
+    "sources": [
+      "Crossref",
+      "Crossref journal watch"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 41,
+    "scores": {
+      "topic": 18,
+      "method": 0,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 0,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie"
+    ],
+    "hits": {
+      "framework": [
+        "mof",
+        "mofs"
+      ],
+      "conductive": [
+        "conductive"
+      ],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "carbon"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "核心推荐",
+    "late_arrival": false,
+    "title_zh": "π收缩在二维导电MOF中诱导高自旋Co中心以实现高效氧还原",
+    "summary_zh": "该研究提出π收缩策略，从金属酞菁切除外围苯环得到收缩金属卟啉嗪配体，在CoPz-MOF中诱导高自旋Co 3d态并稳定Co(I)/Co(II)混合价态，从而增强氧吸附并提升ORR性能，锌空电池峰值功率达125.6 mW cm−2且稳定运行500 h。",
+    "research_details_zh": "二维导电金属有机框架(c-MOF)是ORR电催化剂的有前景材料，但以往优化多集中于金属节点修饰，配体骨架较少被探索。本文报道一种非常规π收缩策略：从金属酞菁(MPc)中切除外围苯环，得到收缩的金属卟啉嗪(MPz)配体(M = Co, Ni)。该修剪降低碳骨架上的π电子密度并将电荷导向金属中心，重塑其电子结构。在CoPz-MOF中，这种收缩独特地诱导高自旋Co 3d态并稳定混合Co(I)/Co(II)价态，而这些特征在CoPc MOF和Ni基类似物中不存在。DFT计算确认高自旋构型在该系列中具有最强氧吸附亲和力，Co(I)物种进一步促进ORR起始阶段的O2化学吸附。电化学上，CoPz-MOF半波电位为0.84 V并偏好四电子路径，优于对照材料。在锌空电池中，峰值功率密度达125.6 mW cm−2，稳定运行超过500 h。该工作确立配体级共轭工程而非节点金属替换作为调控c-MOF电催化剂金属中心电子结构的有效策略。",
+    "methods_zh": "摘要明确报告的方法包括：从金属酞菁切除外围苯环制备收缩金属卟啉嗪配体(M = Co, Ni)，构建二维导电MOF；采用DFT计算确认高自旋构型与氧吸附亲和力；电化学测试评估ORR半波电位和电子路径；构建锌空电池测试峰值功率密度和运行稳定性。摘要未报告具体合成条件、表征技术细节及电解液等测试条件。",
+    "relevance_zh": "该工作直接关联介孔/导电MOF与框架材料电催化主线，核心价值在于提出配体级π收缩工程调控金属中心电子结构，而非传统节点金属替换，并提供ORR和锌空电池的定量性能。局限是摘要未报告孔径、导电性、配体合成细节及稳定性机制。对导电MOF电子结构调控与能源电催化方向，值得全文精读。",
+    "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级信息。摘要未报告具体合成条件、结构表征、孔径与导电性数据、DFT计算细节及电化学测试条件，这些关键细节仍需全文核查。",
+    "key_findings_zh": [
+      "π收缩使CoPz-MOF中诱导出高自旋Co 3d态并稳定Co(I)/Co(II)混合价态，而CoPc MOF和Ni基类似物中不存在这些特征。",
+      "DFT计算表明高自旋构型在该系列中具有最强氧吸附亲和力，Co(I)物种促进ORR起始阶段O2化学吸附。",
+      "CoPz-MOF半波电位为0.84 V并偏好四电子路径，优于对照材料。",
+      "锌空电池中峰值功率密度为125.6 mW cm−2，稳定运行超过500 h。"
+    ]
+  },
+  {
+    "title": "Accelerated Charge Recombination in MOF Cocrystals Enables Efficient NIR‐Driven Photothermal Polymerization",
+    "abstract": "ABSTRACT Understanding charge transfer across donor‐acceptor interfaces is essential for designing high‐performance optoelectronic materials. Herein, we construct host‐guest metal‐organic framework (MOF) cocrystals employing a calcium‐based naphthalenediimide (NDI) host and electron‐rich aromatic guests to investigate photoinduced charge transfer at well‐defined crystalline donor‐acceptor interfaces. Challenging the conventional view that a high concentration of radical anions is typically associated with high photothermal conversion efficiency, our study uses electron paramagnetic resonance, surface photovoltage spectroscopy, and femtosecond transient absorption microscopy to show that a more extended conjugated plane in the guest accelerates charge recombination (charge‐transfer state lifetime: 201 vs. 348 ps). This leads to a MOF cocrystal with a photothermal conversion efficiency twice that of its counterpart, despite the latter exhibiting significantly higher NDI radical concentration. Moreover, this MOF cocrystal displays good aqueous stability and retains a photothermal conversion efficiency of 65.6% in aqueous media, enabling efficient near‐infrared light‐driven photothermal polymerization in both organic and aqueous phases. Notably, this photopolymerization proceeds even under natural sunlight irradiation and across biological tissue barriers. This work provides a novel design principle for donor‐acceptor materials, in which promoting charge recombination can be strategically exploited to develop high‐performance photothermal materials for solar energy utilization.",
+    "authors": [
+      "Zhi Huang",
+      "Shunxian Yin",
+      "Changhai Zhu",
+      "Jianwei Wei",
+      "Yingze Li",
+      "Xiang‐Yu Wang",
+      "Dongxue Guo",
+      "Shaojie Xu",
+      "Yukun Yang",
+      "Ling Huang",
+      "Qing Zhang",
+      "Le Zeng"
+    ],
+    "institutions": [],
+    "published": "2026-09-14",
+    "journal": "Angewandte Chemie International Edition",
+    "doi": "10.1002/anie.6791821",
+    "url": "https://doi.org/10.1002/anie.6791821",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 41,
+    "scores": {
+      "topic": 18,
+      "method": 0,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 0,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie International Edition"
+    ],
+    "hits": {
+      "framework": [
+        "metal organic framework",
+        "metal-organic framework",
+        "mof"
+      ],
+      "conductive": [
+        "conjugated"
+      ],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "crystalline",
+        "materials"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "核心推荐",
+    "late_arrival": false,
+    "title_zh": "MOF共晶中加速的电荷复合实现高效近红外驱动光热聚合",
+    "summary_zh": "该研究构建钙基萘二酰亚胺主体与富电子芳烃客体的MOF共晶，发现客体共轭平面扩展加速电荷复合(电荷转移态寿命201 vs. 348 ps)，使光热转换效率翻倍，水相效率达65.6%，并实现近红外、自然阳光及跨生物组织的光热聚合。",
+    "research_details_zh": "理解供体-受体界面电荷转移对设计高性能光电材料至关重要。本文构建主客体金属有机框架(MOF)共晶，采用钙基萘二酰亚胺(NDI)主体和富电子芳烃客体，在明确晶体供体-受体界面研究光诱导电荷转移。研究挑战了高浓度自由基阴离子通常与高光热转换效率相关的传统观点：利用电子顺磁共振、表面光电压谱和飞秒瞬态吸收显微镜表明，客体中更扩展的共轭平面加速电荷复合(电荷转移态寿命201 vs. 348 ps)。这导致一种MOF共晶的光热转换效率是其对照的两倍，尽管后者表现出显著更高的NDI自由基浓度。此外，该MOF共晶显示良好水稳定性，在水介质中保持65.6%的光热转换效率，可在有机相和水相中实现高效近红外光驱动光热聚合。值得注意的是，该光聚合甚至在自然阳光照射下和跨越生物组织屏障时也能进行。该工作提供供体-受体材料的新设计原则，即促进电荷复合可被策略性利用来开发高性能光热材料用于太阳能利用。",
+    "methods_zh": "摘要明确报告的方法包括：构建钙基萘二酰亚胺(NDI)主体与富电子芳烃客体的主客体MOF共晶；采用电子顺磁共振、表面光电压谱和飞秒瞬态吸收显微镜研究光诱导电荷转移与电荷复合；评估水稳定性、光热转换效率及近红外光驱动光热聚合，并测试自然阳光和跨生物组织条件下的聚合。摘要未报告具体合成条件、晶体结构及聚合动力学细节。",
+    "relevance_zh": "该工作关联框架材料组装、供体-受体共晶与光热应用主线，核心价值在于提出促进电荷复合而非追求高自由基浓度来提升光热转换的新设计原则，并提供寿命与效率定量数据。局限是摘要未报告晶体结构、孔径、客体种类及聚合机制细节。对MOF共晶电荷转移与光热催化方向，值得全文精读。",
+    "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级信息。摘要未报告具体合成条件、晶体结构、客体分子种类、光热测试条件及聚合动力学，这些关键细节仍需全文核查。",
+    "key_findings_zh": [
+      "客体中更扩展的共轭平面加速电荷复合，电荷转移态寿命为201 ps，而对照为348 ps。",
+      "该MOF共晶光热转换效率是对照的两倍，尽管对照具有显著更高的NDI自由基浓度。",
+      "该MOF共晶在水介质中保持65.6%的光热转换效率，并具良好水稳定性。",
+      "该光热聚合可在近红外、自然阳光照射及跨越生物组织屏障条件下进行。"
+    ]
+  },
+  {
+    "title": "Pore Mouth Engineering: An Insulating Strategy to Dictate Interfacial Chemistry in Hard Carbon Anodes",
+    "abstract": "ABSTRACT While the pore mouth (PM) of hard carbon (HC) is known to be critical for performance, the specific impact of its properties (e.g., size, conductivity, and role in electrolyte decomposition) on key metrics like initial Coulombic efficiency (ICE), capacity, and rate capability remains poorly understood. Herein, we originally clarified this critical but poorly understood issue. By sealing the conductive 5.23 Å PM of commercial HC with an insulating microporous glassy metal–organic framework (MOF glass), we engineered a 2.98 Å, nonconductive MOF PM that fundamentally alters ion transport and interfacial chemistry. This tailored structure promotes Na + pre‑desolvation, facilitates a highly aggregated electrolyte configuration, and suppresses parasitic decomposition—collectively fostering a superior inorganic‑rich solid–electrolyte interphase (SEI). As a result, the modified HC (1G‐HC) exhibits a largely enhanced ICE of 87.8% and a capacity of ∼400 mAh/g, alongside excellent cycling stability at high rate (∼12 C, 80% capacity retention after 3000 cycles) and good low‐temperature performance of −25°C (∼5 C, 79.3% capacity retention over 500 cycles). In a practical 3.19 Ah‐level 1G‐HC||Na 3 V 2 (PO 4 ) 3 pouch cell, it achieves 108 mAh/g with 92.0% retention over 160 cycles. This work establishes PM design as a pivotal strategy for advancing sodium‐ion battery anodes.",
+    "authors": [
+      "Yan Xu",
+      "Ying He",
+      "Yiyue He",
+      "Yue Liu",
+      "Feiyan Yu",
+      "Lishun Bai",
+      "Chengjun Liu",
+      "Sijie Li",
+      "Zhi Chang"
+    ],
+    "institutions": [],
+    "published": "2026-09-14",
+    "journal": "Angewandte Chemie International Edition",
+    "doi": "10.1002/anie.8475331",
+    "url": "https://doi.org/10.1002/anie.8475331",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 41,
+    "scores": {
+      "topic": 18,
+      "method": 0,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 0,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie International Edition"
+    ],
+    "hits": {
+      "framework": [
+        "metal organic framework",
+        "metal-organic framework",
+        "mof"
+      ],
+      "conductive": [
+        "conductive"
+      ],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "carbon"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "核心推荐",
+    "late_arrival": false,
+    "title_zh": "孔口工程：一种通过绝缘策略调控硬碳负极界面化学的方法",
+    "summary_zh": "该工作用绝缘微孔玻璃态MOF密封硬碳的导电孔口，将5.23 Å孔口改造为2.98 Å非导电MOF孔口，从而调控离子传输与界面化学，显著提升钠离子电池硬碳负极的首次库仑效率、容量、倍率循环稳定性和低温性能。",
+    "research_details_zh": "研究针对硬碳负极孔口性质对首次库仑效率、容量和倍率性能影响不清的问题，提出孔口工程策略。作者以商业硬碳为基体，利用绝缘微孔玻璃态金属有机框架密封其导电的5.23 Å孔口，构建2.98 Å的非导电MOF孔口，从根本上改变离子传输和界面化学。该结构促进Na+预脱溶剂化，诱导高度聚集的电解液构型，并抑制寄生分解，从而形成更优的无机物富集固体电解质界面。改性硬碳1G-HC实现87.8%的首次库仑效率和约400 mAh/g容量，并在高倍率约12 C下3000次循环保持80%容量，在−25°C、约5 C下500次循环保持79.3%容量。在3.19 Ah级1G-HC||Na3V2(PO4)3软包电池中，实现108 mAh/g并在160次循环后保持92.0%容量。该工作将孔口设计确立为推进钠离子电池负极的关键策略。",
+    "methods_zh": "摘要明确出现的方法包括：用绝缘微孔玻璃态金属有机框架密封商业硬碳的导电孔口，构建非导电MOF孔口；通过孔口结构调控促进Na+预脱溶剂化和高度聚集电解液构型；抑制寄生分解以形成无机物富集固体电解质界面；测试首次库仑效率、容量、高倍率循环稳定性、低温性能和软包电池性能。摘要未报告具体合成条件、表征手段和电解液组成。",
+    "relevance_zh": "该工作属于框架材料组装与界面化学调控在电化学储能中的应用，核心价值在于用MOF玻璃孔口工程改造硬碳负极，直接关联介孔/微孔框架材料、离子传输和界面设计。其定量性能结果明确，对钠离子电池负极和框架材料界面工程有参考价值。局限是摘要未报告MOF玻璃具体组成、孔口密封机制细节和电解液配方，值得全文精读以核查结构—性能关系。",
+    "evidence_note_zh": "本文为摘要级解读，仅依据题目和摘要内容。MOF玻璃的具体化学组成、合成条件、孔口密封的表征证据、电解液组成、SEI成分定量数据以及软包电池测试条件等关键细节仍需全文核查。",
+    "key_findings_zh": [
+      "将商业硬碳的导电5.23 Å孔口用绝缘微孔玻璃态MOF密封后，形成2.98 Å非导电MOF孔口，改变离子传输和界面化学。",
+      "改性硬碳1G-HC的首次库仑效率达87.8%，容量约400 mAh/g。",
+      "1G-HC在约12 C高倍率下3000次循环容量保持80%，在−25°C、约5 C下500次循环容量保持79.3%。",
+      "在3.19 Ah级1G-HC||Na3V2(PO4)3软包电池中，实现108 mAh/g并在160次循环后保持92.0%容量。"
+    ]
+  },
+  {
+    "title": "Aqueous Synthesis of Ionic Covalent Organic Framework Nanosheets towards Membrane-Based Li+/Mg2+ Separation",
+    "abstract": "Abstract Covalent organic framework (COF) nanosheets are ideal building blocks for fabricating high-performance membranes. The production of COF nanosheets in water is a significant step towards sustainable synthesis but remains an unresolved challenge. Herein, we report an aqueous synthesis method for COF nanosheets via a group capping-decapping strategy. The in-plane-dominated COF growth is driven by two factors: first, capping of aldehyde groups with secondary amines enhances monomer solubility in water for homogeneous nucleation; second, the presence of ionic groups on amine monomers suppresses out-of-plane stacking via electrostatic repulsion. By adjusting Brønsted acids or bases concentrations, the decapping rate and the subsequent COF polymerization rate can be tuned, enabling precise control over the reaction kinetics. Consequently, highly crystalline ionic COF nanosheets can be mildly synthesized in water with high volumetric yield and at a gram scale. The COF composite membranes assembled from nanosheets and polyethylenimine exhibit high selectivity and outstanding Li+ recovery efficiency for Li+/Mg2+ separation. Furthermore, the excellent processability of COF nanosheets is demonstrated by fabricating the tubular membrane module.",
+    "authors": [
+      "Hao Deng",
+      "Yong Zhu",
+      "Kai Xu",
+      "Xiao Pang",
+      "Yanqiu Lu",
+      "Yu Zheng",
+      "Ying Wang",
+      "Bohui Lyu",
+      "Runnan Zhang",
+      "Zhongyi Jiang",
+      "Sui Zhang"
+    ],
+    "institutions": [],
+    "published": "2026-09-14",
+    "journal": "ACS Nano",
+    "doi": "10.1021/acsnano.6c10882",
+    "url": "https://doi.org/10.1021/acsnano.6c10882",
+    "sources": [
+      "Crossref"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 38,
+    "scores": {
+      "topic": 18,
+      "method": 2,
+      "quality": 8,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "ACS Nano"
+    ],
+    "hits": {
+      "framework": [
+        "cof",
+        "covalent organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "nucleation"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "crystalline",
+        "membrane"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "核心推荐",
+    "late_arrival": false,
+    "title_zh": "离子型共价有机框架纳米片的水相合成及其用于膜基Li+/Mg2+分离",
+    "summary_zh": "该工作报道一种水相合成COF纳米片的封端—脱封端策略，通过醛基封端提高单体水溶性、离子基团静电排斥抑制面外堆叠，并调节酸碱浓度控制反应动力学，实现高结晶离子型COF纳米片克级制备，用于高选择性Li+/Mg2+分离膜。",
+    "research_details_zh": "研究针对COF纳米片通常难以在水相中可持续合成的问题，提出水相合成离子型COF纳米片的封端—脱封端策略。其设计依赖两个因素：第一，用二级胺封端醛基，增强单体在水中的溶解度，促进均相成核；第二，胺单体上的离子基团通过静电排斥抑制面外堆叠，从而驱动面内主导的COF生长。通过调节Brønsted酸或碱浓度，可调控脱封端速率及后续COF聚合速率，实现反应动力学精确控制。由此在温和水相条件下合成高结晶离子型COF纳米片，具有高体积产率和克级规模。由纳米片与聚乙烯亚胺组装得到的COF复合膜在Li+/Mg2+分离中表现出高选择性和优异Li+回收效率。此外，通过制备管式膜组件展示了COF纳米片良好的可加工性。",
+    "methods_zh": "摘要明确出现的方法包括：水相合成COF纳米片；采用封端—脱封端策略，用二级胺封端醛基；利用胺单体上的离子基团静电排斥抑制面外堆叠；通过调节Brønsted酸或碱浓度调控脱封端和聚合速率；将COF纳米片与聚乙烯亚胺组装成复合膜；进行Li+/Mg2+分离测试；制备管式膜组件展示可加工性。摘要未报告具体单体结构、酸碱种类、膜制备参数和分离性能数值。",
+    "relevance_zh": "该工作直接关联共轭COF、框架材料组装和膜分离应用，核心价值在于提供水相、可持续、克级制备离子型COF纳米片的方法，并通过复合膜和管式膜组件展示可加工性。对COF纳米片合成、组装及离子分离研究有实际参考价值。局限是摘要未报告具体分离选择性、通量和稳定性数值，值得全文精读以评估膜性能。",
+    "evidence_note_zh": "本文为摘要级解读，仅依据题目和摘要内容。具体单体结构、封端/脱封端反应条件、Brønsted酸或碱种类与浓度、COF结晶度表征、膜制备参数、Li+/Mg2+选择性、通量和长期稳定性等关键细节仍需全文核查。",
+    "key_findings_zh": [
+      "提出封端—脱封端策略，在水相中合成离子型COF纳米片。",
+      "醛基用二级胺封端增强单体水溶性以促进均相成核，胺单体上的离子基团通过静电排斥抑制面外堆叠。",
+      "通过调节Brønsted酸或碱浓度可调控脱封端速率和COF聚合速率，实现反应动力学控制。",
+      "所得COF复合膜在Li+/Mg2+分离中表现出高选择性和优异Li+回收效率，并成功制备管式膜组件。"
+    ]
+  },
+  {
+    "title": "Knowledge-Guided Autonomous Discovery of Microenvironment-Tuned Metal–Organic Framework Photocatalysts",
+    "abstract": "Abstract Designing second-sphere microenvironments that promote proton-coupled electron transfer is central to catalysis yet difficult to achieve in porous solids, such as metal–organic frameworks (MOFs). Here, we report an end-to-end workflow that couples literature-guided large-language-model (LLM) reasoning with real-time experimental feedback to propose, test, and refine microenvironment designs in MOF photocatalysts. The system mined and fused three domains (namely, photocatalytic H2 production, hydrogenases and enzyme-mimetic catalysis) and deduced the hypothesis that placing basic, hydrogen-bonding groups near catalytic centers would facilitate water activation and proton transfer. The hypothesis was instantiated by postsynthetic modification of UiO-67, generating 31 Pt@UiO-67-X variants and evaluating them across six closed-loop iterations on an automated platform. The search converged on Pt@UiO-67-30 (8-quinolinecarboxylic acid), which delivered 2.33 mmol g–1 h–1, a ∼36-fold improvement over the parent material; in a larger, optimally illuminated reactor the same catalyst reached 12.48 mmol g–1 h–1 while preserving the library’s rank order. Photoluminescence quenching, enhanced photocurrent, and reduced impedance are consistent with faster charge separation, and first-principles calculations are consistent with reduced proton-transfer barriers via N···H hydrogen-bond networks. These results establish a practical microenvironment-engineering strategy in MOFs and show how LLM-guided knowledge fusion with experiment-in-the-loop reasoning can systematize and accelerate targeted discovery of functional materials.",
+    "authors": [
+      "Yiming Zhao",
+      "Tao Song",
+      "Linjiang Chen",
+      "Yan Huang",
+      "Kang Sun",
+      "Wentao Han",
+      "Mingyang Shen",
+      "Chenwei Mao",
+      "Peng Lan",
+      "Meng Zhou",
+      "Weiwei Shang",
+      "Jun Jiang",
+      "Hai-Long Jiang"
+    ],
+    "institutions": [],
+    "published": "2026-09-14",
+    "journal": "Journal of the American\nChemical Society",
+    "doi": "10.1021/jacs.6c13252",
+    "url": "https://doi.org/10.1021/jacs.6c13252",
+    "sources": [
+      "Crossref",
+      "Crossref journal watch"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 32,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 15,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Journal of the American Chemical Society"
+    ],
+    "hits": {
+      "framework": [
+        "metal organic framework",
+        "metal-organic framework",
+        "mof",
+        "mofs"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "material",
+        "materials",
+        "porous"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "高质量框架推荐",
+    "late_arrival": false,
+    "title_zh": "知识引导的微环境调控金属有机框架光催化剂自主发现",
+    "summary_zh": "该工作将文献引导的大语言模型推理与实时实验反馈结合，自主设计并优化UiO-67第二配位层微环境，获得36倍活性提升的光催化产氢MOF，展示了知识融合与闭环实验加速功能材料发现的潜力。",
+    "research_details_zh": "研究针对多孔固体中促进质子耦合电子转移的第二配位层微环境难以设计的问题，构建了端到端自主发现流程。系统挖掘并融合光催化产氢、氢化酶和酶模拟催化三个领域知识，提出在催化中心附近引入碱性氢键基团以促进水活化和质子转移的假设。通过后合成修饰UiO-67，生成31种Pt@UiO-67-X变体，在自动化平台上进行六轮闭环迭代评估。搜索收敛于Pt@UiO-67-30（8-喹啉羧酸），在优化光照反应器中达到12.48 mmol g–1 h–1，并保持库内排序。该策略为MOF微环境工程提供了可系统化、加速靶向发现功能材料的新范式。",
+    "methods_zh": "摘要明确出现的方法包括：文献引导的大语言模型推理与实时实验反馈耦合的闭环工作流；后合成修饰UiO-67制备31种Pt@UiO-67-X变体；自动化平台上的六轮闭环迭代评估；光催化产氢性能测试；光致发光猝灭、光电流和阻抗表征；第一性原理计算。具体合成条件、表征参数和计算细节摘要未报告。",
+    "relevance_zh": "该工作直接关联介孔导电MOF、框架材料组装与电化学合成主线，展示了MOF微环境工程与自动化闭环发现流程的结合，对框架材料光催化设计具有实际参考价值。其局限在于摘要未报告导电性、介孔结构及电化学合成细节，若关注MOF光催化产氢与知识引导发现，值得全文精读。",
+    "evidence_note_zh": "本文为摘要级解读，仅依据题目和摘要内容。关键细节如MOF孔结构、导电性、后合成修饰条件、自动化平台组成、表征参数、计算模型及稳定性数据均需全文核查。",
+    "key_findings_zh": [
+      "Pt@UiO-67-30（8-喹啉羧酸）产氢速率达2.33 mmol g–1 h–1，较母体材料提升约36倍。",
+      "在更大且优化光照的反应器中，同一催化剂产氢速率达12.48 mmol g–1 h–1，并保持库内排序。",
+      "光致发光猝灭、增强光电流和降低阻抗与更快的电荷分离一致。",
+      "第一性原理计算与N···H氢键网络降低质子转移势垒的机制一致。"
+    ]
+  },
+  {
+    "title": "Covalent‐Organic Framework‐Manipulated Multi‐Reactant Activation Enables Polystyrene Electrodegradation in Tandem With Over‐Oxidation Product Upgrading",
+    "abstract": "ABSTRACT Polystyrene (PS) waste is exceptionally difficult to chemically degrade under environmental conditions, and the high‐value utilization of low‐value C 1 products generated during the process has never been achieved. Herein, we constructed a metalloporphyrin–anthracene sp 2 covalent‐organic framework (COF) electrocatalyst, TAPP‐Fe III ‐An , which displays high structural stability and outstanding capability in activating O 2 and multi‐reactants. This enables it to effectively electro‐degrade PS into high‐value benzoyl products (yield, 23.2%, M w residue 0.3%) and re‐convert 20% of C 1 products into high‐value 1‐formyl‐1,2,3,4‐tetrahydroquinoline (anticancer drug intermediate) with 9.4% yield, through a tandem quinoline carbonylation reaction. This breaks the traditional dilemma where PS degradation produces low‐value byproducts that are difficult to re‐utilize. Electrochemical experiments combined with theoretical calculations reveal that the valence tautomerism (Fe II –Fe III –Fe IV ) of metal center and active An ligand endow TAPP‐Fe III ‐An catalyst with the ability to activate O 2 (generating 1 O 2 , •O 2 − , and •OH) and multi‐reactants (PS and CO), thus enabling efficient PS electrodegradation (to benzoyl products) in tandem with low‐value C 1 products carbonylation (to anticancer drug intermediate). In this process, the generated C 1 products (HCOOH, CO) were re‐activated by TAPP‐Fe III centers, and then react with 1,2,3,4‐tetrahydroquinoline for high‐value conversion. This work pioneers a tandem conversion strategy for PS waste degradation and low‐value C 1 products upgrading.",
+    "authors": [
+      "Yu Chen",
+      "Xiao‐Hong Chen",
+      "Qian‐Qian Huang",
+      "Si‐Ying Huang",
+      "Run‐Han Li",
+      "Ya‐Fang Guan",
+      "Jiang Liu",
+      "Ning Li",
+      "Ya‐Qian Lan"
+    ],
+    "institutions": [],
+    "published": "2026-09-14",
+    "journal": "Angewandte Chemie",
+    "doi": "10.1002/ange.5012045",
+    "url": "https://doi.org/10.1002/ange.5012045",
+    "sources": [
+      "Crossref",
+      "Crossref journal watch"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 32,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 15,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie"
+    ],
+    "hits": {
+      "framework": [
+        "cof",
+        "covalent organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "高质量框架推荐",
+    "late_arrival": false,
+    "title_zh": "共价有机框架调控多反应物活化实现聚苯乙烯电降解与过氧化产物升级串联",
+    "summary_zh": "该工作构建金属卟啉-蒽sp2共价有机框架电催化剂，实现聚苯乙烯高效电降解为苯甲酰产物，并将低价值C1产物串联转化为抗癌药物中间体，突破传统降解产生低价值副产物的困境。",
+    "research_details_zh": "研究针对聚苯乙烯废物在环境条件下难以化学降解且低价值C1产物难以高值化利用的问题，构建了金属卟啉-蒽sp2共价有机框架电催化剂TAPP-FeIII-An。该催化剂具有高结构稳定性，可活化O2和多反应物，将PS电降解为高价值苯甲酰产物（产率23.2%，Mw残留0.3%），并通过串联喹啉羰基化反应将20%的C1产物重新转化为高价值1-甲酰基-1,2,3,4-四氢喹啉（抗癌药物中间体），产率9.4%。电化学实验与理论计算揭示金属中心价态互变异构和活性An配体赋予催化剂活化O2及多反应物能力，实现PS降解与C1产物羰基化的串联转化。",
+    "methods_zh": "摘要明确出现的方法包括：构建金属卟啉-蒽sp2共价有机框架电催化剂TAPP-FeIII-An；电化学实验；理论计算；PS电降解性能测试；串联喹啉羰基化反应；产物产率与分子量残留分析。具体合成条件、表征手段、电化学测试参数及理论计算细节摘要未报告。",
+    "relevance_zh": "该工作直接关联共轭COF、框架材料电化学合成及电催化应用主线，展示了COF在多反应物活化与串联转化中的潜力，对塑料废物升级和COF电催化剂设计具有实际价值。局限在于摘要未报告COF孔结构、导电性及电化学合成细节，若关注COF电催化与废物升级，值得全文精读。",
+    "evidence_note_zh": "本文为摘要级解读，仅依据题目和摘要内容。关键细节如COF合成方法、孔结构、导电性、电化学测试条件、产物分离与表征、理论计算模型及催化剂稳定性均需全文核查。",
+    "key_findings_zh": [
+      "TAPP-FeIII-An电催化剂将PS电降解为苯甲酰产物，产率23.2%，Mw残留0.3%。",
+      "通过串联喹啉羰基化反应，将20%的C1产物转化为1-甲酰基-1,2,3,4-四氢喹啉，产率9.4%。",
+      "金属中心FeII–FeIII–FeIV价态互变异构和活性An配体赋予催化剂活化O2（生成1O2、•O2−和•OH）及多反应物（PS和CO）的能力。",
+      "生成的C1产物（HCOOH、CO）被TAPP-FeIII中心再活化，与1,2,3,4-四氢喹啉反应实现高值转化。"
+    ]
+  },
+  {
+    "title": "Intraligand Charge Transfer in Metal-Organic Frameworks Facilitates Radical Anion-Mediated Hydrogen Evolution",
+    "abstract": "Abstract Metal-organic frameworks (MOFs) offer a structurally tunable platform for photocatalysis, yet their activity for hydrogen evolution is often constrained by inefficient charge separation and reliance on metal cocatalysts. Herein, a family of MOFs, BVR-19-M, constructed from divalent transition metal ions (M = Mg2+, Mn2+, Cu2+, Zn2+, Cd2+) and the aliphatic amino acid l-cystine is reported. Among them, BVR-19-Zn exhibits the highest photocatalytic activity, enabled by the zinc’s filled d-orbitals and the redox-active disulfide l-cystine ligand, promoting intraligand charge transfer (ILCT). Uniquely, the disulfide (S–S) bridges within BVR-19-Zn undergo transient homolytic cleavage upon light irradiation, generating a thiyl radical and thiolate anion pair that actively mediate charge separation and drive hydrogen evolution in the absence of a co-catalyst. Open-shell metal ions incorporated into BVR-19-M either introduce a mid-gap state that serves as a recombination center or promote metal-centric charge transfer, both of which diminish photocatalytic efficiency. The radical anion-mediated ILCT mechanism introduces a distinct molecular design strategy for MOFs, demonstrating how disulfide redox chemistry can be harnessed to unlock efficient, sustainable photocatalysis.",
+    "authors": [
+      "Emmanuel Nyela Musa",
+      "Galen Fritz",
+      "Dylan Pyle",
+      "Logan S. Lancaster",
+      "Taylor D. Krueger",
+      "Min Soo Jung",
+      "Jacob M. Lessard",
+      "Andrzej Gładysiak",
+      "Ankit K. Yadav",
+      "Silas Musa Blessed",
+      "Prayash Mohanty",
+      "Jacob S. Hirschi",
+      "Hongliang Huang",
+      "William F. Stickle",
+      "Xiulei Ji",
+      "Chong Fang",
+      "Tim J. Zuehlsdorff",
+      "Kyriakos C. Stylianou"
+    ],
+    "institutions": [],
+    "published": "2026-09-14",
+    "journal": "Journal of the American\nChemical Society",
+    "doi": "10.1021/jacs.6c13238",
+    "url": "https://doi.org/10.1021/jacs.6c13238",
+    "sources": [
+      "Crossref",
+      "Crossref journal watch"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 32,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 15,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Journal of the American Chemical Society"
+    ],
+    "hits": {
+      "framework": [
+        "mofs"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "高质量框架推荐",
+    "late_arrival": false,
+    "title_zh": "金属有机框架中的配体内电荷转移促进自由基阴离子介导的析氢",
+    "summary_zh": "该工作报道由二价过渡金属与L-胱氨酸构建的MOF家族BVR-19-M，其中BVR-19-Zn通过配体内电荷转移和光诱导二硫键均裂生成硫自由基/硫醇阴离子对，在无金属助催化剂下高效光催化析氢。",
+    "research_details_zh": "研究针对MOF光催化析氢中电荷分离效率低和依赖金属助催化剂的问题，构建了由二价过渡金属离子（Mg2+、Mn2+、Cu2+、Zn2+、Cd2+）与脂肪族氨基酸L-胱氨酸组装而成的MOF家族BVR-19-M。其中BVR-19-Zn因锌的满d轨道和氧化还原活性二硫键L-胱氨酸配体而表现出最高光催化活性，促进配体内电荷转移。光照下BVR-19-Zn中的二硫键桥发生瞬时均裂，生成硫自由基和硫醇阴离子对，主动介导电荷分离并在无助催化剂条件下驱动析氢。开壳层金属离子引入的中间带隙态成为复合中心或促进金属中心电荷转移，均降低光催化效率。该自由基阴离子介导的ILCT机制为MOF分子设计提供了新策略。",
+    "methods_zh": "摘要明确出现的方法包括：由二价过渡金属离子与L-胱氨酸构建BVR-19-M MOF家族；光催化析氢性能评估；光照下二硫键均裂生成自由基物种的机制研究。具体合成条件、表征手段、光催化测试参数及自由基检测方法摘要未报告。",
+    "relevance_zh": "该工作直接关联MOF光催化、配体内电荷转移及无金属助催化剂析氢主线，展示了二硫键氧化还原化学在MOF电荷分离中的独特作用，对框架材料分子设计具有实际参考价值。局限在于摘要未报告MOF孔结构、导电性及电化学合成细节，若关注MOF光催化析氢机制，值得全文精读。",
+    "evidence_note_zh": "本文为摘要级解读，仅依据题目和摘要内容。关键细节如MOF晶体结构、孔道性质、合成条件、光催化测试条件、自由基表征证据、电荷转移路径及稳定性数据均需全文核查。",
+    "key_findings_zh": [
+      "BVR-19-Zn在BVR-19-M家族中表现出最高光催化析氢活性。",
+      "光照下BVR-19-Zn的二硫键桥发生瞬时均裂，生成硫自由基和硫醇阴离子对，介导电荷分离并在无助催化剂条件下驱动析氢。",
+      "开壳层金属离子引入的中间带隙态作为复合中心或促进金属中心电荷转移，均降低光催化效率。",
+      "锌的满d轨道和氧化还原活性L-胱氨酸配体共同促进配体内电荷转移。"
+    ]
+  },
+  {
+    "title": "Interpenetration Transformation of Diacetylene Metal–Organic Frameworks for Topochemical Polymerization",
+    "abstract": "ABSTRACT Achieving precise control over topochemical polymerization in diacetylene metal–organic frameworks (MOFs) remains a huge challenge due to the stringent requirements for molecular alignment and ordered stacking. Herein, we report two interpenetrated MOFs (twofold interpenetrated CAS‐20 and threefold interpenetrated CAS‐22) from a diacetylene ligand and Zn nitrate, and systematically unveil their interpenetration transformation proceeds through dramatic changes with a set of non‐interpenetrated semi‐crystalline intermediates (CAS‐20‐d, CAS‐21, CAS‐21‐d) accompanied by guest loss. This semi‐crystalline state is driven by non‐synchronous transformations of two individual frameworks in interpenetrated CAS‐20, jointly revealed through crystallographic analysis and detailed spectroscopic characterization. Remarkably, this interpenetration transformation promotes the diacetylene groups arranged in a suitable ordered and continuous stacking manner, enabling thermally induced topochemical polymerization in CAS‐22 via a 1,4‐addition reaction. The results confirm that the obtained interpenetrated MOFs show classic nonlinear optical limiting performance, and the polymerized CAS‐22 exhibits a remarkably enhanced third‐order nonlinear absorption coefficient compared to CAS‐20 (∼69 times). This study pioneers interpenetration transformation as a novel strategy for realizing MOF topochemical polymerization, opening new avenues for designing high‐performance optoelectronic materials for smart sensing and laser protection applications.",
+    "authors": [
+      "Zhi‐Bin Jin",
+      "Qi‐Qi Zhang",
+      "Li‐Mei Chang",
+      "Xiao‐Hong Chen",
+      "Zhi‐Zhou Ma",
+      "Jian Zhang",
+      "Zhi‐Gang Gu"
+    ],
+    "institutions": [],
+    "published": "2026-09-14",
+    "journal": "Angewandte Chemie International Edition",
+    "doi": "10.1002/anie.3109518",
+    "url": "https://doi.org/10.1002/anie.3109518",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 32,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 15,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie International Edition"
+    ],
+    "hits": {
+      "framework": [
+        "mof",
+        "mofs"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "crystalline",
+        "materials"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "高质量框架推荐",
+    "late_arrival": false,
+    "title_zh": "二乙炔金属有机框架的互穿转变用于拓扑化学聚合",
+    "summary_zh": "该研究报道了两种由二乙炔配体与硝酸锌构筑的互穿MOF（二重互穿CAS-20和三重互穿CAS-22），揭示其经半晶态中间体的互穿转变过程，并利用该转变促进二乙炔基团有序连续堆叠，实现热诱导拓扑化学聚合，使聚合后CAS-22的三阶非线性吸收系数较CAS-20提升约69倍。",
+    "research_details_zh": "拓扑化学聚合对分子排列和有序堆叠要求严苛，在二乙炔MOF中实现精准控制仍是巨大挑战。本研究以二乙炔配体和硝酸锌为原料，合成了二重互穿的CAS-20和三重互穿的CAS-22，并系统揭示其互穿转变经由一系列非互穿半晶态中间体（CAS-20-d、CAS-21、CAS-21-d）并伴随客体丢失。晶体学分析与详细光谱表征共同表明，该半晶态状态由互穿CAS-20中两个独立框架的非同步转变驱动。该互穿转变促使二乙炔基团以合适的有序连续方式排列，从而在CAS-22中通过1,4-加成反应实现热诱导拓扑化学聚合。所得互穿MOF表现出经典非线性光限幅性能，聚合后CAS-22的三阶非线性吸收系数较CAS-20显著增强约69倍。该工作首次将互穿转变作为实现MOF拓扑化学聚合的新策略，为设计用于智能传感和激光防护的高性能光电材料开辟了新途径。",
+    "methods_zh": "摘要明确报告的方法包括：以二乙炔配体和硝酸锌合成两种互穿MOF；通过晶体学分析结合详细光谱表征追踪互穿转变及半晶态中间体；利用热诱导实现CAS-22中二乙炔基团的1,4-加成拓扑化学聚合；对所得互穿MOF及聚合产物进行非线性光学性能测试，比较三阶非线性吸收系数。摘要未报告具体合成条件、表征仪器型号及性能测试参数。",
+    "relevance_zh": "该工作直接契合介孔导电MOF与框架材料组装主线，提出互穿转变作为实现MOF拓扑化学聚合的新策略，并建立互穿结构—二乙炔堆叠—聚合行为—三阶非线性光学性能的关联，对框架材料后合成修饰与光电应用设计有实际参考价值。其局限在于摘要未报告孔径、导电性及具体器件条件，若关注拓扑化学聚合或非线性光学框架材料，值得全文精读。",
+    "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。合成条件、晶体结构细节、光谱表征类型、聚合温度、非线性吸收测试条件及69倍增强的统计与边界条件等关键细节仍需全文核查。",
+    "key_findings_zh": [
+      "合成并表征了二重互穿CAS-20和三重互穿CAS-22两种二乙炔MOF，互穿转变经由非互穿半晶态中间体CAS-20-d、CAS-21、CAS-21-d并伴随客体丢失。",
+      "互穿CAS-20中两个独立框架发生非同步转变，该过程由晶体学分析和详细光谱表征共同揭示。",
+      "互穿转变促使二乙炔基团有序连续堆叠，使CAS-22可通过1,4-加成反应实现热诱导拓扑化学聚合。",
+      "聚合后CAS-22的三阶非线性吸收系数较CAS-20增强约69倍，互穿MOF表现出经典非线性光限幅性能。"
+    ]
+  },
+  {
+    "title": "Diamondiyne: A 3D Carbon Allotrope With Mixed sp–sp 3 Hybridization",
+    "abstract": "ABSTRACT The creation of carbon allotropes is synthetically highly challenging, but their practical significance to science and technology cannot be underestimated. Here, we report the synthesis of a new carbon allotrope, diamondiyne, which is the second known one (after diamond) that forms covalent bonds in all three dimensions. Diamondiyne has a mixed sp–sp 3 hybridization, resulting in a carbo‐mer of diamond with an expanded diamond‐topology network. On the nanoscopic scale, two asymmetrically interpenetrated 3D networks form the tetragonal space group I 4 1 / amd with unit cell parameters a = b = 11.47 Å and c = 16.22 Å. Amorphous carbon films containing diamondiyne crystals are formed using a cascade reaction at a liquid–liquid interface. Just as for a covalent organic framework, molecular nodes are connected based on geometrical constraints to form an extended structure, and we show that the method is scalable in both the thickness and the lateral direction of the film. New carbon allotropes have historically found widespread use in materials science, and we look forward to what applications might emerge for diamondiyne.",
+    "authors": [
+      "Yizhou Yang",
+      "Jie Xu",
+      "Yanyan Chen",
+      "Yu Xia",
+      "Sami Zeliouche",
+      "Clara Schäfer",
+      "Martin Ratsch",
+      "Ebba Matic",
+      "Martin Rahm",
+      "Lars Evenäs",
+      "Angela Beth Grommet",
+      "Tom Willhammar",
+      "Karl Börjesson"
+    ],
+    "institutions": [],
+    "published": "2026-09-14",
+    "journal": "Angewandte Chemie International Edition",
+    "doi": "10.1002/anie.4062963",
+    "url": "https://doi.org/10.1002/anie.4062963",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 32,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 15,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie International Edition"
+    ],
+    "hits": {
+      "framework": [
+        "covalent organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "carbon",
+        "materials"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "高质量框架推荐",
+    "late_arrival": false,
+    "title_zh": "Diamondiyne：一种具有sp–sp3混合杂化的三维碳同素异形体",
+    "summary_zh": "该研究报道了一种新型碳同素异形体diamondiyne的合成，它是继金刚石之后第二种在三个维度均形成共价键的碳同素异形体，具有sp–sp3混合杂化，形成金刚石拓扑扩展网络，并在液–液界面通过级联反应制备含diamondiyne晶体的非晶碳膜。",
+    "research_details_zh": "创建碳同素异形体在合成上极具挑战，但其对科学与技术的实际意义不可低估。本研究报道了一种新碳同素异形体diamondiyne的合成，它是已知继金刚石之后第二种在三个维度均形成共价键的碳同素异形体。Diamondiyne具有sp–sp3混合杂化，是金刚石的碳同素异形体，具有扩展的金刚石拓扑网络。在纳米尺度上，两个不对称互穿的三维网络形成四方空间群I41/amd，晶胞参数a=b=11.47 Å、c=16.22 Å。研究通过液–液界面级联反应形成含diamondiyne晶体的非晶碳膜。如同共价有机框架，分子节点基于几何约束连接形成扩展结构，并证明该方法在膜的厚度和横向方向上均可放大。新碳同素异形体历史上在材料科学中应用广泛，作者期待diamondiyne可能出现的应用。",
+    "methods_zh": "摘要明确报告的方法包括：在液–液界面通过级联反应合成diamondiyne并形成含其晶体的非晶碳膜；通过晶体学确定其四方空间群I41/amd及晶胞参数；借鉴共价有机框架的分子节点按几何约束连接形成扩展结构的思路；并展示该方法在膜厚度和横向方向上的可放大性。摘要未报告具体反应试剂、界面溶剂、温度、时间及膜厚数值等细节。",
+    "relevance_zh": "该工作虽非MOF/COF，但其以分子节点按几何约束连接形成扩展结构的策略与框架材料组装主线高度相通，且涉及三维互穿网络和液–液界面合成，对框架材料及碳基扩展网络的组装设计有借鉴意义。局限在于摘要未报告导电性、孔隙率或电化学性能，若关注三维碳同素异形体或界面合成方法，值得全文精读。",
+    "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。具体前驱体、液–液界面条件、级联反应步骤、晶体结构精修细节、膜厚与横向放大尺度及产物纯度等关键细节仍需全文核查。",
+    "key_findings_zh": [
+      "合成出新型碳同素异形体diamondiyne，为继金刚石之后第二种在三个维度均形成共价键的碳同素异形体。",
+      "Diamondiyne具有sp–sp3混合杂化，形成金刚石拓扑的扩展网络，两个不对称互穿三维网络构成四方空间群I41/amd，晶胞参数a=b=11.47 Å、c=16.22 Å。",
+      "通过液–液界面级联反应形成含diamondiyne晶体的非晶碳膜，且该方法在膜厚度和横向方向上均可放大。"
+    ]
+  },
+  {
+    "title": "Deciphering the Role of Energy Transfer Configuration in PFAS Recognition by Metal‐Organic Frameworks",
+    "abstract": "ABSTRACT Per‐ and polyfluoroalkyl substances (PFAS) have attracted widespread attention as persistent environmental contaminants. However, their rapid detection remains challenging due to their weak light absorption capacities. Luminescence sensing provides a rapid and efficient approach for PFAS monitoring, while ratiometric sensing can further amplify signal variations and improve detection sensitivity with self‐referenced optical responses. Lanthanide metal‐organic frameworks (Ln‐MOFs), featuring tunable porous environments, accessible host–guest interactions, and well‐defined multicolor emissions, have emerged as promising platforms for constructing ratiometric sensing materials. Nevertheless, current luminescence sensing has primarily focused on optimizing interactions between the framework and analytes, whereas the influence of intraframework energy transfer configuration on sensing performance remains largely unexplored. Here, Eu/Tb spatial organization is deliberately engineered in EuTb‐FDA to decipher the role of energy transfer configuration in PFAS recognition. By regulating the spatial distribution of emissive centers, the Tb 3+ ‐to‐Eu 3+ energy transfer pathway is precisely modulated, enabling distinct energy transfer behaviors. The optimized configuration couples PFAS‐induced host–guest interactions with directional lanthanide energy redistribution, resulting in enhanced sensing performance, thereby generating an amplified ratiometric response. This work reveals intraframework energy transfer configuration as a critical yet overlooked parameter in luminescence sensing and provides a new design principle for developing high‐performance ratiometric sensing materials.",
+    "authors": [
+      "Jiatong Huo",
+      "Zongsu Han",
+      "Zhaoyi Liu",
+      "Xincheng Liu",
+      "Joshua Rushlow",
+      "Hong‐Cai Zhou"
+    ],
+    "institutions": [],
+    "published": "2026-09-14",
+    "journal": "Angewandte Chemie International Edition",
+    "doi": "10.1002/anie.6212058",
+    "url": "https://doi.org/10.1002/anie.6212058",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 32,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 15,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie International Edition"
+    ],
+    "hits": {
+      "framework": [
+        "mofs"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "materials",
+        "porous"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "高质量框架推荐",
+    "late_arrival": false,
+    "title_zh": "解析能量转移构型在金属有机框架识别PFAS中的作用",
+    "summary_zh": "该研究通过设计EuTb-FDA中Eu/Tb的空间组织，解析框架内能量转移构型在PFAS识别中的作用，证明调控发光中心空间分布可精确调节Tb3+到Eu3+能量转移路径，优化构型将PFAS诱导的主客体相互作用与定向镧系能量再分配耦合，产生放大的比率响应。",
+    "research_details_zh": "全氟和多氟烷基物质（PFAS）作为持久性环境污染物受到广泛关注，但其光吸收能力弱，快速检测仍具挑战。发光传感为PFAS监测提供快速高效途径，比率传感可通过自参比光学响应放大信号变化并提高检测灵敏度。镧系金属有机框架（Ln-MOF）具有可调多孔环境、可及的主客体相互作用和明确的多色发射，是构建比率传感材料的理想平台。然而，当前发光传感主要关注优化框架与分析物之间的相互作用，框架内能量转移构型对传感性能的影响仍鲜有探索。本研究在EuTb-FDA中刻意设计Eu/Tb空间组织，以解析能量转移构型在PFAS识别中的作用。通过调控发光中心的空间分布，精确调节Tb3+到Eu3+的能量转移路径，实现不同的能量转移行为。优化构型将PFAS诱导的主客体相互作用与定向镧系能量再分配耦合，增强传感性能，产生放大的比率响应。该工作揭示框架内能量转移构型是发光传感中关键但被忽视的参数，为开发高性能比率传感材料提供新设计原则。",
+    "methods_zh": "摘要明确报告的方法包括：构建Ln-MOF材料EuTb-FDA并刻意设计Eu/Tb空间组织；通过调控发光中心空间分布来调节Tb3+到Eu3+的能量转移路径；利用发光传感和比率传感策略检测PFAS，将PFAS诱导的主客体相互作用与定向镧系能量再分配耦合以放大比率响应。摘要未报告具体合成条件、配体结构、PFAS种类、检测限、选择性数据及光谱表征细节。",
+    "relevance_zh": "该工作属于MOF发光传感方向，与介孔导电MOF及框架材料组装主线间接相关，其核心价值在于提出框架内能量转移构型作为比率传感设计的新参数，对框架材料的主客体识别与光学功能设计有参考意义。局限在于摘要未报告导电性、孔径及电化学性能，若关注MOF比率荧光传感或PFAS检测，值得全文精读。",
+    "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。EuTb-FDA的具体组成与合成、Eu/Tb比例与空间分布表征、PFAS检测限与选择性、能量转移效率及比率响应定量数据等关键细节仍需全文核查。",
+    "key_findings_zh": [
+      "在EuTb-FDA中刻意设计Eu/Tb空间组织，证明框架内能量转移构型是PFAS发光传感中关键但此前被忽视的参数。",
+      "通过调控发光中心空间分布可精确调节Tb3+到Eu3+的能量转移路径，产生不同的能量转移行为。",
+      "优化构型将PFAS诱导的主客体相互作用与定向镧系能量再分配耦合，增强传感性能并产生放大的比率响应。"
+    ]
+  },
+  {
+    "title": "Resolving Peptide-Based Supramolecular Architecture Emerging at Reactive Copper/Water Interface",
+    "abstract": "Abstract Understanding how molecular interactions evolve into ordered architectures at reactive solid/liquid interfaces remains a major challenge because surface reactivity can profoundly influence adsorption mechanisms. In such systems, multiple interfacial processes, including redox reactions, adsorption/desorption, coordination, and supramolecular organization, may occur simultaneously, making both chemical and structural characterization particularly challenging. Here, we investigate the adsorption behavior of small peptides at the copper/water interface and reveal the complex interplay between surface reactivity, self-assembly, and (supra)molecular organization. Specifically, by combining surface-sensitive techniques with density functional theory (DFT) calculations, we provide converging experimental and computational evidence on the formation of CuI-peptide units generated through interfacial copper oxidation and assembled into an interconnected three-dimensional network driven by the formation of Cu–S coordinative bonds and stabilized by weaker electrostatic and hydrogen-bonding interactions. AFM force spectroscopy further reveals reproducible nanomechanical events associated with a characteristic structural length scale of approximately 1 nm, in agreement with DFT predictions, indicating the existence of an elementary structural motif within the CuI-peptide network. The resulting assembly forms a thick, hydrated, and mechanically soft multilayer extending several tens of nanometers beyond the molecular dimensions of the peptide. Time-lapse AFM reveals a growth mechanism driven by the local reorganization of colloidal building blocks, resulting in dynamic film porosity that sustains continued growth of the adlayer. The combined experimental and theoretical results support a coupled redox-coordination-assembly-transport-controlled growth mechanism describing how molecular adsorption evolves into a supramolecular architecture at a reactive copper/water interface.",
+    "authors": [
+      "Hédi Bouloussa",
+      "Joanne Lê-Chesnais",
+      "Laetitia Valentin",
+      "Antoine Miche",
+      "Fatima E. Bouatir",
+      "Christophe Méthivier",
+      "Dominique Costa",
+      "Pauline Cornette",
+      "Jessem Landoulsi"
+    ],
+    "institutions": [],
+    "published": "2026-09-14",
+    "journal": "ACS Applied Materials &amp; Interfaces",
+    "doi": "10.1021/acsami.6c13753",
+    "url": "https://doi.org/10.1021/acsami.6c13753",
+    "sources": [
+      "Crossref"
+    ],
+    "score": 30,
+    "scores": {
+      "topic": 6,
+      "method": 6,
+      "quality": 8,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "ACS Applied Materials & Interfaces"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly",
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "colloidal",
+        "coordination",
+        "supramolecular"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "late_arrival": false,
+    "title_zh": "解析反应性铜/水界面处肽基超分子结构的形成",
+    "summary_zh": "该研究结合表面敏感技术与DFT计算，揭示小肽在铜/水界面通过铜氧化生成CuI-肽单元，经Cu-S配位键组装成三维网络，并发现约1 nm结构基元及由胶体构建块局部重组驱动的动态多孔生长机制。",
+    "research_details_zh": "针对反应性固/液界面分子相互作用如何演化为有序结构这一难题，本研究考察小肽在铜/水界面的吸附行为，揭示表面反应性、自组装与超分子组织之间的复杂耦合。研究体系为铜/水界面上的小肽，界面过程可能同时涉及氧化还原反应、吸附/脱附、配位和超分子组织。通过结合表面敏感技术与密度泛函理论（DFT）计算，获得实验与计算汇聚证据，表明界面铜氧化生成CuI-肽单元，这些单元通过Cu-S配位键组装成互连三维网络，并由较弱的静电和氢键相互作用稳定。AFM力谱进一步揭示与约1 nm特征结构尺度相关的可重复纳米力学事件，与DFT预测一致，指示CuI-肽网络中存在基本结构基元。所得组装体形成厚的水合、机械柔软多层膜，延伸至肽分子尺寸之外数十纳米。时间分辨AFM揭示生长机制由胶体构建块的局部重组驱动，导致动态膜孔隙率并维持吸附层持续生长。研究意义在于提出耦合的氧化还原-配位-组装-传输控制生长机制，描述分子吸附如何在反应性铜/水界面演化为超分子结构。",
+    "methods_zh": "摘要明确报道的方法包括：在铜/水界面研究小肽的吸附行为；结合表面敏感技术与密度泛函理论（DFT）计算获得实验与计算证据；利用AFM力谱探测纳米力学事件和特征结构尺度；采用时间分辨AFM观察生长机制和动态膜孔隙率。摘要未报告具体表面敏感技术名称、肽序列、浓度、温度、pH及DFT计算参数等细节。",
+    "relevance_zh": "该工作对理解反应性固/液界面的自组装与配位驱动超分子网络形成具有参考价值，尤其涉及Cu-S配位、胶体构建块重组和动态孔隙率等机制，与框架材料组装和界面合成主线相关。其局限在于研究对象为肽基超分子组装而非MOF/COF/HOF或介孔导电框架，且未涉及电化学合成。若关注界面反应性对组装路径的调控及原位表征方法，值得精读其机制与表征部分。",
+    "evidence_note_zh": "本解读仅依据摘要内容，未补充摘要之外的实验条件、表征手段、数值或机制。摘要未报告具体肽序列、表面敏感技术细节、AFM测试条件、DFT参数及定量动力学数据等关键信息，需查阅全文核实。",
+    "key_findings_zh": [
+      "界面铜氧化生成CuI-肽单元，通过Cu-S配位键组装成互连三维网络，并由较弱的静电和氢键相互作用稳定。",
+      "AFM力谱揭示与约1 nm特征结构尺度相关的可重复纳米力学事件，与DFT预测一致，指示CuI-肽网络中存在基本结构基元。",
+      "组装体形成厚的水合、机械柔软多层膜，延伸至肽分子尺寸之外数十纳米。",
+      "时间分辨AFM表明生长由胶体构建块的局部重组驱动，产生动态膜孔隙率并维持吸附层持续生长，支持耦合的氧化还原-配位-组装-传输控制生长机制。"
+    ]
+  },
+  {
+    "title": "Poly(Alkoxythiophene) Rod‐Coil Block Copolymers for Organic Electrochemical Transistors",
+    "abstract": "ABSTRACT Conjugated rod‐coil block copolymers provide a promising route to decouple the optimisation of ionic and electronic transport in organic electrochemical transistors (OECTs). Poly(3‐alkoxythiophene) (P3AOT)‐based rod‐coil block copolymers with precisely tuned polyethylene glycol (PEG), and poly(L‐lactide) (PLLA) coil blocks are synthesised through a modular approach combining Kumada coupling transfer polymerisation (KCTP) and Knoevenagel condensation. An evaluation of the thin film morphology and subsequent OECT performance of a range of rod‐coil copolymers reveals that device performance can be enhanced compared to the corresponding homopolymer, establishing rod‐coil block copolymers as a versatile material platform and providing fundamental insight for the use of block copolymer in OECTs.",
+    "authors": [
+      "Junfu Tian",
+      "Wentao Shan",
+      "Rachael Found",
+      "Paola Mantegazza",
+      "Francesco Leoni",
+      "Andreas W. Erhardt",
+      "Yuyun Yao",
+      "Matus Stredansky",
+      "Arianna Magni",
+      "Adam Marks",
+      "Elena Chulanova",
+      "Zeinab Hamid",
+      "Yueying Huang",
+      "Wanpeng Lu",
+      "Xian'e Li",
+      "Baopu Zhang",
+      "Qingpei Wan",
+      "Christina Kousseff",
+      "Matilde Concilio",
+      "Ruth Theresia Arwani",
+      "Caroline A. Ross",
+      "Sahika Inal",
+      "Giovanni Costantini",
+      "Iain McCulloch"
+    ],
+    "institutions": [],
+    "published": "2026-09-13",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.74978",
+    "url": "https://doi.org/10.1002/adma.74978",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 42,
+    "scores": {
+      "topic": 12,
+      "method": 2,
+      "quality": 15,
+      "novelty": 8,
+      "network": 0,
+      "applied": 2,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [
+        "conjugated"
+      ],
+      "mesoporous": [],
+      "assembly": [
+        "block copolymer"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "copolymer",
+        "material",
+        "thin film"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "late_arrival": true,
+    "title_zh": "用于有机电化学晶体管的聚烷氧基噻吩棒-线圈嵌段共聚物",
+    "summary_zh": "该研究通过KCTP与Knoevenagel缩合模块化合成聚(3-烷氧基噻吩)基棒-线圈嵌段共聚物，精确调控PEG和PLLA线圈嵌段，发现其薄膜形貌与OECT性能可优于对应均聚物，确立了棒-线圈嵌段共聚物作为OECT通用材料平台的潜力。",
+    "research_details_zh": "有机电化学晶体管需同时优化离子与电子传输，共轭棒-线圈嵌段共聚物被认为可解耦二者。本文以聚(3-烷氧基噻吩)(P3AOT)为棒段，以精确调控的聚乙二醇(PEG)和聚(L-丙交酯)(PLLA)为线圈段，采用Kumada偶联转移聚合(KCTP)与Knoevenagel缩合相结合的模块化方法合成一系列棒-线圈嵌段共聚物。研究评估了该系列共聚物的薄膜形貌及后续OECT性能，并与对应均聚物比较。结果表明，棒-线圈嵌段共聚物的器件性能可较均聚物提升，从而将棒-线圈嵌段共聚物确立为一种通用材料平台，并为嵌段共聚物在OECT中的应用提供基础认识。摘要未报告具体形貌参数、器件数值及构效关系细节。",
+    "methods_zh": "摘要明确报告的合成方法为Kumada偶联转移聚合(KCTP)与Knoevenagel缩合相结合的模块化途径，用于制备聚(3-烷氧基噻吩)基棒-线圈嵌段共聚物，线圈嵌段为精确调控的PEG和PLLA。表征与测试包括薄膜形貌评估和OECT性能评价，并与对应均聚物比较。摘要未报告具体表征技术、器件结构、测试条件及定量数据。",
+    "relevance_zh": "该工作与共轭聚合物自组装及有机电化学器件相关，核心价值在于用棒-线圈嵌段共聚物解耦离子与电子传输，并提供模块化合成平台。其局限是摘要未给出具体形貌、器件数值和机制证据，难以判断性能提升幅度与普适性。若关注共轭材料组装与OECT，值得全文精读以核查合成细节、形貌表征和器件数据。",
+    "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级信息。摘要未报告具体合成条件、分子量、形貌表征方法、器件结构、性能数值及构效关系，这些关键细节仍需全文核查。",
+    "key_findings_zh": [
+      "棒-线圈嵌段共聚物的OECT器件性能可优于对应均聚物。",
+      "通过KCTP与Knoevenagel缩合的模块化方法可合成P3AOT基棒-线圈嵌段共聚物，并精确调控PEG和PLLA线圈嵌段。",
+      "棒-线圈嵌段共聚物被确立为有机电化学晶体管的通用材料平台。",
+      "摘要未报告具体性能数值、形貌参数及定量构效关系。"
+    ]
+  },
+  {
+    "title": "Dielectrophoretic Assembly of BaTiO 3 Radiative Cooling Textiles for Proactive Urban Cooling",
+    "abstract": "ABSTRACT The urban heat island (UHI) effect threatens sustainable urban development. Passive daytime radiative cooling textiles are promising but face a trade‐off between optical performance and mechanical–chemical stability. Here, we report the first use of dielectrophoretic assembly to create a BaTiO 3 surface‐mineralized fibrous textile with simultaneous high solar reflectance and mechanical flexibility for radiative cooling, and by developing a novel dielectrophoretic assembly method to fabricate a highly flexible, high‐BaTiO 3 ‐loading fibrous textile. During electrospinning, electric field gradients induce targeted migration and self‐assembly of BaTiO 3 nanoparticles (NPs) onto fiber surfaces, creating a semi‐exposed architecture that maximizes backward Mie scattering while retaining a flexible polymer core (PVDF‐ b ‐PTFE matrix). The resulting textile achieves 96.78% solar reflectance (99.49% in the visible region) and 96.19% atmospheric window emissivity, with a breaking strain of 170%. It delivers a net cooling power of 110.1 W·m −2 , reducing surface temperatures by ca. 20°C compared to conventional building walls. Multiscale experiments and Weather Research and Forecasting (WRF) simulations indicate that large‐scale deployment of this conformal cooling textile can modify and, under the modeled conditions, reverse the classical UHI circulation.",
+    "authors": [
+      "Maoquan Zhang",
+      "Xuwang Tian",
+      "Chenhao Ding",
+      "Jiawei Wu",
+      "Zheng Yang",
+      "Weiyan Zhu",
+      "Qian Liu",
+      "Liyuan Fu",
+      "Jianhua Yan"
+    ],
+    "institutions": [],
+    "published": "2026-09-13",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.75018",
+    "url": "https://doi.org/10.1002/adma.75018",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 37,
+    "scores": {
+      "topic": 6,
+      "method": 6,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly",
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "polymer"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "late_arrival": true,
+    "title_zh": "介电泳组装BaTiO3辐射冷却纺织品用于主动城市降温",
+    "summary_zh": "该工作首次利用介电泳组装制备BaTiO3表面矿化纤维纺织品，在静电纺丝过程中使BaTiO3纳米颗粒迁移并自组装到纤维表面，形成半暴露结构，兼顾高太阳反射率和机械柔性，实现辐射冷却并模拟逆转城市热岛环流。",
+    "research_details_zh": "研究针对城市热岛效应威胁可持续城市发展，以及被动日间辐射冷却纺织品面临光学性能与机械化学稳定性之间权衡的问题，报道首次使用介电泳组装制备BaTiO3表面矿化纤维纺织品。该方法在静电纺丝过程中利用电场梯度诱导BaTiO3纳米颗粒定向迁移并自组装到纤维表面，形成半暴露结构，从而最大化背向Mie散射，同时保留柔性聚合物核，基体为PVDF-b-PTFE。所得纺织品太阳反射率达96.78%，可见区反射率99.49%，大气窗口发射率96.19%，断裂应变170%。其净冷却功率为110.1 W·m−2，相比传统建筑墙面可降低表面温度约20°C。多尺度实验和WRF模拟表明，大规模部署该共形冷却纺织品可改变并在模拟条件下逆转经典城市热岛环流。",
+    "methods_zh": "摘要明确出现的方法包括：介电泳组装；静电纺丝过程中利用电场梯度诱导BaTiO3纳米颗粒定向迁移和自组装到纤维表面；制备BaTiO3表面矿化纤维纺织品，基体为PVDF-b-PTFE；测试太阳反射率、可见区反射率、大气窗口发射率、断裂应变和净冷却功率；进行表面温度对比；开展多尺度实验和Weather Research and Forecasting模拟。摘要未报告具体纺丝参数、颗粒尺寸和模拟设置。",
+    "relevance_zh": "该工作属于自组装技术和纤维材料组装在辐射冷却中的应用，核心价值在于展示介电泳组装可构建表面矿化半暴露结构，同时实现高光学性能和机械柔性。对自组装、聚合物基复合纤维和城市热岛缓解研究有拓展参考价值。局限是摘要未报告BaTiO3颗粒尺寸、纺丝条件和WRF模拟参数，且与介孔导电MOF/COF主线关联较弱，是否精读取决于对辐射冷却纺织品的兴趣。",
+    "evidence_note_zh": "本文为摘要级解读，仅依据题目和摘要内容。BaTiO3纳米颗粒尺寸、静电纺丝参数、介电泳场强与频率、PVDF-b-PTFE组成、反射率和发射率测试标准、机械性能测试条件以及WRF模拟设置等关键细节仍需全文核查。",
+    "key_findings_zh": [
+      "首次采用介电泳组装制备BaTiO3表面矿化纤维纺织品，在静电纺丝中诱导BaTiO3纳米颗粒迁移并自组装到纤维表面，形成半暴露结构。",
+      "所得纺织品太阳反射率达96.78%，可见区反射率99.49%，大气窗口发射率96.19%，断裂应变170%。",
+      "净冷却功率为110.1 W·m−2，相比传统建筑墙面降低表面温度约20°C。",
+      "多尺度实验和WRF模拟表明，大规模部署该共形冷却纺织品可改变并在模拟条件下逆转经典城市热岛环流。"
+    ]
+  },
+  {
+    "title": "A Defect‐Engineered Sono‐Piezocatalytic In Situ Hydrogel for Preventing Hepatocellular Carcinoma Recurrence After Incomplete Radiofrequency Ablation",
+    "abstract": "ABSTRACT Residual tumor cells and the immunosuppressive microenvironment caused by incomplete radiofrequency ablation (iRFA) lead to hepatocellular carcinoma (HCC) recurrence. In this study, HA‐V‐MTO/LMP@Gel, an injectable sono‐piezocatalytic hydrogel, is developed for local treatment of HCC after iRFA. It combines hyaluronic acid‐modified, oxygen vacancy‐engineered Mn–Ti metal–organic framework nanosheets (HA‐V‐MTO) with reactive oxygen species (ROS)‐responsive liposomes co‐loaded with STING agonist MSA‐2 and an anti‐PD‐1 antibody (LMP) within a thermosensitive chitosan/β‐glycerophosphate (CS/β‐GP) hydrogel. Oxygen‐vacancy engineering lowers the O 2 adsorption energy from 0.187 to −2.559 eV and raises the piezoelectric coefficient d 33 from 35.36 to 108.73 pm V −1 . Under ultrasound, HA‐V‐MTO generates ROS through sono‐piezocatalysis, with an additional Fenton‐like reaction from the Mn‐containing framework. The resulting oxidative stress induces mitochondrial injury and promotes cytosolic mtDNA release, thereby facilitating cGAS‐mediated STING activation. ROS‐mediated LMP destabilization releases MSA‐2, which further enhances STING signaling. The hydrogel undergoes temperature‐triggered gelation for sustained local release. In a post‐iRFA model, HA‐V‐MTO/LMP@Gel + US raises intratumoral IFN‐β 7.9‐fold, increases the proportion of mature dendritic cells to 50.8% and that of intratumoral CD8 + T cells to 26.5%, suppresses residual regrowth, prolongs survival, and protects against tumor rechallenge. This work presents a locally retained sono‐piezocatalytic system that couples tumor killing with STING‐driven immune activation after iRFA.",
+    "authors": [
+      "Jianji Ke",
+      "Feiqi Liu",
+      "Changzheng Li",
+      "Ying Yan",
+      "Xiuan Li",
+      "Mingda Han",
+      "Qiannan Miao",
+      "Xiaocheng Li",
+      "Bai Ji",
+      "Fei Yan"
+    ],
+    "institutions": [],
+    "published": "2026-09-13",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.75010",
+    "url": "https://doi.org/10.1002/adma.75010",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 32,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 15,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [
+        "metal organic framework",
+        "metal-organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "高质量框架推荐",
+    "late_arrival": true,
+    "title_zh": "缺陷工程声-压电催化原位水凝胶用于预防不完全射频消融后肝细胞癌复发",
+    "summary_zh": "该研究开发了HA-V-MTO/LMP@Gel可注射声-压电催化水凝胶，将氧空位工程Mn-Ti MOF纳米片与ROS响应脂质体及温敏水凝胶结合，在不完全射频消融后通过超声触发ROS生成和STING免疫激活，抑制残余肿瘤再生并延长生存。",
+    "research_details_zh": "针对不完全射频消融后残留肿瘤细胞和免疫抑制微环境导致肝细胞癌复发的问题，本研究设计了一种可注射声-压电催化水凝胶HA-V-MTO/LMP@Gel。材料体系以透明质酸修饰的氧空位工程Mn-Ti金属有机框架纳米片（HA-V-MTO）为核心，结合活性氧响应脂质体共载STING激动剂MSA-2和抗PD-1抗体（LMP），并封装于温敏壳聚糖/β-甘油磷酸钠水凝胶中。氧空位工程将O2吸附能从0.187 eV降至-2.559 eV，压电系数d33从35.36提升至108.73 pm V-1。超声下HA-V-MTO通过声-压电催化产生ROS，Mn基框架还引发类Fenton反应。氧化应激诱导线粒体损伤并促进胞质mtDNA释放，激活cGAS介导的STING通路。ROS使LMP失稳释放MSA-2，进一步增强STING信号。水凝胶温敏凝胶化实现局部持续释放。在iRFA后模型中，该体系联合超声显著抑制残余肿瘤再生、延长生存并对抗肿瘤再挑战，意义在于提出了局部保留的声-压电催化系统，将肿瘤杀伤与STING驱动的免疫激活耦合。",
+    "methods_zh": "摘要明确报道的方法包括：合成透明质酸修饰的氧空位工程Mn-Ti MOF纳米片（HA-V-MTO）；制备共载MSA-2和抗PD-1抗体的ROS响应脂质体（LMP）；构建温敏壳聚糖/β-甘油磷酸钠（CS/β-GP）水凝胶并负载上述组分；通过氧空位工程调控O2吸附能和压电系数d33；在超声下进行声-压电催化产生ROS及类Fenton反应；在iRFA后模型中评估瘤内IFN-β水平、成熟树突状细胞比例、CD8+ T细胞比例、残余肿瘤再生长、生存期及肿瘤再挑战保护效果。摘要未报告具体合成条件、表征手段和统计方法。",
+    "relevance_zh": "该工作属于介孔导电MOF及框架材料在生物医学方向的拓展，核心价值在于将氧空位缺陷工程与MOF压电催化性能关联，并耦合STING免疫激活实现局部治疗。对关注框架材料组装、缺陷调控与电化学/催化功能的研究主线有参考意义，尤其是压电系数和吸附能的定量调控数据。但该研究偏向肿瘤免疫治疗应用，与介孔导电MOF、共轭框架及电化学合成的直接关联有限，若关注框架材料本征电化学或组装机制，建议选择性精读其材料设计与机制部分。",
+    "evidence_note_zh": "本解读仅依据摘要内容，未补充摘要之外的实验条件、表征手段、数值或机制。摘要未报告MOF的孔结构、导电性、比表面积、合成细节、超声参数、统计方法及长期稳定性等关键信息，需查阅全文核实。",
+    "key_findings_zh": [
+      "氧空位工程将O2吸附能从0.187 eV降至-2.559 eV，压电系数d33从35.36提升至108.73 pm V-1。",
+      "HA-V-MTO/LMP@Gel联合超声使瘤内IFN-β提高7.9倍，成熟树突状细胞比例增至50.8%，瘤内CD8+ T细胞比例增至26.5%。",
+      "该体系在iRFA后模型中抑制残余肿瘤再生长、延长生存并抵御肿瘤再挑战。",
+      "机制上，声-压电催化产生ROS引发氧化应激，导致线粒体损伤和胞质mtDNA释放，促进cGAS介导的STING激活；ROS响应释放MSA-2进一步增强STING信号。"
+    ]
+  },
+  {
     "title": "Regulating Sodium Deposition Behavior via Polar Functional Group‐Based Interfacial Engineering on an Industrial‐Scale Anode for High‐Performance Na‐CO 2 Batteries",
     "abstract": "ABSTRACT The development of sodium‐carbon dioxide (Na‐CO 2 ) batteries is crucial for renewable energy utilization and CO 2 fixation. However, their practical application is severely hindered by Na dendrite formation coupled with aggressive CO 2 electro‐/chemical corrosion, and extremely low Na anode utilization rates. This study addresses these interconnected challenges by employing a multifunctional covalent organic framework (COF) coating. Specifically, the C 6 O 6 ‐TAPT COF features a fully conjugated skeleton for rapid electron cloud response, abundantly distributed sodiophilic chelation sites (C═O and C═N) for Na + capture, and ordered AB stacked structure for homogenizing Na + flux. The COMSOL simulations further demonstrate the stress‐regulating strategy in mitigate solid electrolyte interphase (SEI) cracking and separator puncturing risks. Consequently, Na‐CO 2 batteries using the designed industrial‐scale anode achieve low polarization (1.4 V) and sustain stable cycling for over 1100 h at 100 mA g −1 across 0–60 °C. Remarkably, it maintained over 100 cycles at reduced N/P of 10 and delivered a high discharge capacity of 11552 mAh g −1 under lean electrolyte conditions (8.7 µL mAh −1 ). This study validates stable and functionalized COF substrates with dendrite suppression capability in Na‐CO 2 batteries, proposing a scalable pathway with implications for next‐generation energy storage.",
     "authors": [
