@@ -1,5 +1,659 @@
 [
   {
+    "date": "2026-09-18",
+    "search_start": "2026-09-16",
+    "generated_at": "2026-09-19T01:07:53Z",
+    "papers": [
+      {
+        "title": "Engineered Metal-Organic Frameworks Preserve Mitochondrial Bioenergetics at Micromolar Concentrations",
+        "abstract": "Abstract Metal-Organic Frameworks (MOFs) are emerging as versatile materials for bio-interfaces due to their structural tunability and ability to integrate with biological systems. Among them, the Zeolitic Imidazolate Framework ZIF-8 is widely investigated as a carrier for the delivery of therapeutic agents owing to its chemical stability, porous architecture, and biocompatibility. Extending these strategies to complex biological substrates is particularly relevant for therapeutic applications. In this context, mitochondria represent key targets, as they regulate cellular metabolism and their dysfunction underlies numerous mitochondrial diseases, thereby stimulating growing interest in mitochondrial transplantation as a potential therapeutic approach. Here, we investigate the one-pot, in-situ formation of ZIF-8 coatings on isolated mitochondria under physiological conditions using mild micromolar precursor concentrations to minimize mitochondrial perturbation during the self-assembly process. Structural characterization and bioenergetic analyses confirm the formation of MITO@ZIF-8 and the preservation of mitochondrial respiratory competence. Transplantation of MITO@ZIF-8 into Mouse Embryonic Fibroblasts (MEFs) increases cellular respiratory capacity without affecting cell viability, indicating that the coating is biocompatible and does not impair mitochondrial uptake. These results provide a safe platform for the further engineering of delivery systems aimed at enhancing internalization efficiency in mitochondrial transplantation therapeutics.",
+        "authors": [
+          "Marco D’Amato",
+          "Ivano Di Meo",
+          "Maria Nicol Colombo",
+          "Chiara Santanatoglia",
+          "Francesca Baldelli Bombelli",
+          "Valeria Tiranti",
+          "Pierangelo Metrangolo"
+        ],
+        "institutions": [],
+        "published": "2026-09-18",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c11154",
+        "url": "https://doi.org/10.1021/jacs.6c11154",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 49,
+        "scores": {
+          "topic": 18,
+          "method": 6,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "materials",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "工程化金属有机框架在微摩尔浓度下保持线粒体生物能量学",
+        "summary_zh": "该研究在生理条件下以微摩尔级前驱体浓度一锅原位在分离线粒体表面形成ZIF-8涂层，构建MITO@ZIF-8。结构表征与生物能量学分析证实涂层形成并保持线粒体呼吸能力，移植入小鼠胚胎成纤维细胞后提升细胞呼吸容量且不影响细胞活力。",
+        "research_details_zh": "研究问题是如何在复杂生物基底上温和地构建MOF涂层而不损伤其功能。材料体系为沸石咪唑酯框架ZIF-8与分离线粒体。设计策略是利用ZIF-8的化学稳定性、多孔结构和生物相容性，在生理条件下以温和的微摩尔级前驱体浓度进行一锅原位自组装，以尽量减少自组装过程对线粒体的扰动。研究过程包括在分离线粒体上原位形成ZIF-8涂层，进行结构表征和生物能量学分析以确认MITO@ZIF-8的形成及线粒体呼吸能力的保持，随后将MITO@ZIF-8移植到小鼠胚胎成纤维细胞中评估细胞呼吸容量和细胞活力。意义在于为线粒体移植治疗中增强内化效率的递送系统工程化提供了安全平台。",
+        "methods_zh": "摘要明确报告的方法包括：在生理条件下以温和的微摩尔级前驱体浓度进行一锅原位自组装形成ZIF-8涂层；对形成的MITO@ZIF-8进行结构表征；开展生物能量学分析评估线粒体呼吸能力；将MITO@ZIF-8移植入小鼠胚胎成纤维细胞并评估细胞呼吸容量与细胞活力。具体表征手段和测试条件摘要未报告。",
+        "relevance_zh": "该工作直接关联介孔导电MOF之外的框架材料生物界面组装主线，展示了ZIF-8在复杂生物基底上的温和原位自组装策略，对框架材料与生物系统集成及线粒体移植递送具有参考价值。其局限在于摘要未报告电化学性能、导电性及具体表征条件，若关注框架材料生物应用与自组装可全文精读，若聚焦导电MOF电化学则相关性有限。",
+        "evidence_note_zh": "本解读仅依据摘要，属摘要级解读。ZIF-8涂层的具体结构表征手段、涂层厚度、孔隙参数、前驱体具体浓度、自组装时间与温度、线粒体呼吸能力的具体定量指标、细胞呼吸容量提升幅度及统计方法等关键细节均需全文核查。",
+        "key_findings_zh": [
+          "在生理条件下以微摩尔级前驱体浓度实现了ZIF-8在分离线粒体上的一锅原位涂层形成，结构表征确认MITO@ZIF-8生成。",
+          "生物能量学分析证实涂层后线粒体呼吸能力得以保持。",
+          "MITO@ZIF-8移植入小鼠胚胎成纤维细胞后提升细胞呼吸容量，且不影响细胞活力，表明涂层具有生物相容性且不损害线粒体摄取。"
+        ]
+      },
+      {
+        "title": "Light‐Programmed Localized Supersaturation Enables Ambient Aqueous Synthesis of Highly Crystalline Metal–Organic Frameworks",
+        "abstract": "ABSTRACT Crystalline materials, particularly metal–organic frameworks (MOFs), are essential for applications in catalysis, gas storage, and energy conversion, but conventional crystallization methods typically require high precursor concentrations or elevated temperatures, such as those provided by hydrothermal or solvothermal approaches. In this study, a self‐assembled nanoreactor was developed to achieve localized supersaturation via the photooxidation of Cu 2 O nanoparticles under visible light irradiation. Unlike conventional methods, this strategy enables HKUST‐1 crystallization at ambient temperature in water without external heating. By modulating the Cu 2+ release response and ligand accessibility, we propose a two‐step process in which a metastable supersaturation regime forms a shell, followed by a labile supersaturation regime that favors predominantly inward crystal growth at or near the core‐shell interface. Transport perturbations, shell characterization, and a limiting reaction–diffusion analysis support this mechanistic interpretation, while local activities and the microscopic growth trajectory were not measured directly. X‐ray diffraction, Raman spectroscopy, and Brunauer–Emmett–Teller analyses confirmed the crystallinity and porosity of the resulting HKUST‐1. By generating localized supersaturation while maintaining dilute bulk conditions, this approach provides a programmable reaction environment for nucleation and growth, thereby opening a mild aqueous route to advanced functional materials.",
+        "authors": [
+          "Yongdeok Ahn",
+          "Seunghyeon Jeong",
+          "Sun Ho Park",
+          "Juhyeong Cho",
+          "Nak Cheon Jeong",
+          "Daeha Seo"
+        ],
+        "institutions": [],
+        "published": "2026-09-18",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75080",
+        "url": "https://doi.org/10.1002/adma.75080",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 47,
+        "scores": {
+          "topic": 18,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "crystal growth",
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal",
+            "crystalline",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "光编程局域过饱和实现高结晶金属有机框架的常温水中合成",
+        "summary_zh": "该研究开发自组装纳米反应器，通过可见光照射下Cu2O纳米颗粒的光氧化实现局域过饱和，在常温水中无需外部加热即可结晶HKUST-1。提出两步机制：亚稳过饱和形成壳层，随后易变过饱和促进以核壳界面为主的内向晶体生长，XRD、拉曼和BET确认结晶性与孔隙率。",
+        "research_details_zh": "研究问题是如何避免传统水热或溶剂热方法所需的高前驱体浓度或高温，实现MOF的温和水相结晶。材料体系为HKUST-1与Cu2O纳米颗粒构成的自组装纳米反应器。设计策略是利用可见光照射下Cu2O纳米颗粒的光氧化产生局域过饱和，同时保持稀的体相条件，从而提供可编程的成核与生长反应环境。研究过程包括构建自组装纳米反应器、通过调节Cu2+释放响应和配体可及性提出两步生长机制，即亚稳过饱和区形成壳层、易变过饱和区促进主要在核壳界面附近的内向晶体生长，并通过传输扰动实验、壳层表征和极限反应扩散分析支持该机制解释，同时指出局域活性和微观生长轨迹未被直接测量。X射线衍射、拉曼光谱和BET分析确认了所得HKUST-1的结晶性和孔隙率。意义在于为先进功能材料开辟了温和水相合成路线。",
+        "methods_zh": "摘要明确报告的方法包括：构建自组装纳米反应器；可见光照射下Cu2O纳米颗粒光氧化产生局域过饱和；调节Cu2+释放响应和配体可及性；传输扰动实验与壳层表征；极限反应扩散分析；X射线衍射、拉曼光谱和Brunauer–Emmett–Teller分析确认结晶性与孔隙率。具体光照条件、前驱体浓度和反应时间摘要未报告。",
+        "relevance_zh": "该工作与框架材料的组装和温和合成主线高度相关，展示了利用光编程局域过饱和在稀水相中常温结晶MOF的策略，对介孔MOF及框架材料可控成核生长具有方法学价值。局限在于摘要未报告电化学合成、导电性及介孔结构调控细节，若关注MOF结晶机制与绿色合成值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要，属摘要级解读。Cu2O纳米颗粒尺寸、光照波长与强度、前驱体浓度、反应时间、HKUST-1的BET比表面积与孔容数值、壳层厚度及反应扩散分析的具体参数等关键细节均需全文核查。",
+        "key_findings_zh": [
+          "在常温水中、无需外部加热，通过可见光照射Cu2O纳米颗粒光氧化产生的局域过饱和实现了HKUST-1结晶。",
+          "提出两步机制：亚稳过饱和区形成壳层，易变过饱和区促进主要在核壳界面附近的内向晶体生长，传输扰动、壳层表征和极限反应扩散分析支持该解释。",
+          "X射线衍射、拉曼光谱和BET分析确认所得HKUST-1具有结晶性和孔隙率。",
+          "局域活性和微观生长轨迹未被直接测量。"
+        ]
+      },
+      {
+        "title": "Beyond Symmetric Motifs: Asymmetric Small-Molecule Recognition Directs a New Poly(adenine) Assembly",
+        "abstract": "Abstract DNA/small-molecule hybrid materials provide a powerful route to reprogram nucleic acid structures without covalent modification. However, to date only two small molecules have been shown to direct such assemblies, both relying on symmetric hydrogen-bonding faces. Here, we report that 3-methylxanthine (3MeX), a purine-derived molecule with nonequivalent hydrogen-bonding faces, directs the assembly of poly(deoxyadenylic) acid into a new, cooperative arrangement. Through preorganization experiments, systematic modification of small-molecule binding faces, nucleobase engineering, and molecular dynamics simulations, we characterize key hydrogen-bonding interactions governing this structure. We propose a model in which two poly(deoxyadenylic) acid strands associate in an antiparallel arrangement, held together by hydrogen-bonded quartets, each comprising two adenine bases and two 3MeX molecules, similar to the G-quartets of G-quadruplex structures. The assembly exhibits pronounced thermal hysteresis consistent with a cooperative, nucleation–growth mechanism, and forms from a pharmacologically relevant molecule whereby the recognition process is exquisitely sensitive to small-molecule structure. This work establishes a new interaction motif in DNA/small-molecule hybrids, in which asymmetric, multi-face recognition enables new, directional assemblies of unmodified nucleic acids. We show that this interaction can be integrated into DNA nanotechnology to enable small-molecule-triggered dimerization, and higher-order polymerization of DNA nanostructures. The accessibility of this motif under neutral conditions, together with its tolerance to small-molecule modification, points to potential applications in programmable nanomaterials, and nucleic acid–based systems that interface with biological environments.",
+        "authors": [
+          "Jessica Bennett",
+          "Christophe Lachance-Brais",
+          "Saleh Almutairi",
+          "Asem Alenaizan",
+          "Quentin Laurent",
+          "Daniel Saliba",
+          "Hanadi F. Sleiman"
+        ],
+        "institutions": [],
+        "published": "2026-09-18",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c09329",
+        "url": "https://doi.org/10.1021/jacs.6c09329",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 35,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "materials",
+            "nanomaterials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "超越对称基序：不对称小分子识别导向新型聚腺嘌呤组装",
+        "summary_zh": "该研究报道3-甲基黄嘌呤这一具有非等价氢键面的嘌呤衍生小分子可导向聚脱氧腺苷酸组装成新型协同排列。通过预组织实验、小分子结合面系统修饰、核碱基工程和分子动力学模拟表征关键氢键相互作用，提出两条反平行链由氢键四联体连接、每个四联体含两个腺嘌呤和两个3MeX的模型。",
+        "research_details_zh": "研究问题是如何突破现有仅依赖对称氢键面的两种小分子导向DNA组装的限制，利用不对称小分子识别实现未修饰核酸的新定向组装。材料体系为聚脱氧腺苷酸与3-甲基黄嘌呤构成的DNA/小分子杂化材料。设计策略是利用3MeX具有非等价氢键面这一不对称多面识别特征，导向聚脱氧腺苷酸形成新的协同排列。研究过程包括预组织实验、小分子结合面的系统修饰、核碱基工程以及分子动力学模拟，以表征控制该结构的关键氢键相互作用，并提出两条聚脱氧腺苷酸链以反平行方式缔合、由氢键四联体连接、每个四联体包含两个腺嘌呤碱基和两个3MeX分子的模型，类似G-四链体的G-四联体。该组装表现出明显的热滞后，符合协同的成核—生长机制，且由药理学相关分子形成，识别过程对小分子结构极为敏感。研究还表明该相互作用可整合入DNA纳米技术，实现小分子触发的DNA纳米结构二聚化和高阶聚合。意义在于确立了DNA/小分子杂化物中新的相互作用基序，其中不对称多面识别可实现未修饰核酸的新定向组装，并指出该基序在中性条件下的可及性及对小分子修饰的耐受性，指向可编程纳米材料及与生物环境接口的核酸系统应用。",
+        "methods_zh": "摘要明确报告的方法包括：预组织实验；小分子结合面的系统修饰；核碱基工程；分子动力学模拟；热滞后分析以推断协同成核—生长机制；将相互作用整合入DNA纳米技术实现小分子触发的二聚化和高阶聚合。具体表征手段、热滞后定量数值及模拟参数摘要未报告。",
+        "relevance_zh": "该工作与自组装技术及框架材料组装主线中的超分子识别与定向组装相关，展示了不对称小分子识别导向未修饰核酸新型组装基序，对可编程纳米材料和生物界面核酸系统有启发。局限在于其体系为DNA/小分子杂化材料，非MOF/COF/HOF框架材料，若关注超分子组装基序与协同机制可全文精读，若聚焦框架材料则相关性较低。",
+        "evidence_note_zh": "本解读仅依据摘要，属摘要级解读。3MeX与聚脱氧腺苷酸的具体浓度与缓冲条件、热滞后的定量数值、分子动力学模拟细节、四联体结构的具体表征证据及二聚化与聚合的验证方法等关键细节均需全文核查。",
+        "key_findings_zh": [
+          "3-甲基黄嘌呤这一具有非等价氢键面的嘌呤衍生小分子可导向聚脱氧腺苷酸组装成新型协同排列。",
+          "提出两条聚脱氧腺苷酸链以反平行方式缔合、由氢键四联体连接、每个四联体含两个腺嘌呤和两个3MeX分子的模型，类似G-四链体的G-四联体。",
+          "该组装表现出明显的热滞后，符合协同的成核—生长机制，且识别过程对小分子结构极为敏感。",
+          "该相互作用可整合入DNA纳米技术，实现小分子触发的DNA纳米结构二聚化和高阶聚合。"
+        ]
+      },
+      {
+        "title": "Periodic Mesoporous Metal Oxides With Consistent Structure and Complementary Sensing Selectivity for Reliable Artificial Olfactory",
+        "abstract": "ABSTRACT The integration of functional materials and intelligent algorithms has endowed artificial olfactory systems with promising potential across various fields. Nevertheless, their accuracy and reliability in practical gas recognition remain constrained, primarily due to the unrefined combination of sensing materials and inadequate feature extraction from response curves. In this work, a series of periodic mesoporous metal oxides (PMMOs) with consistent structure and tunable compositions are synthesized by using polymer cubosomes as general templates. Within the periodic mesoporous channels, the target gases follow well‐defined diffusion pathways, so that the dynamic features of response curves can be leveraged to build a reliable multidimensional dataset, and the consistency across repeated measurement cycles and different devices can be well maintained. By tailoring the chemical microenvironment, a sensor array is constructed from seven distinct PMMOs with complementary sensing selectivity, achieving 97.1% accuracy in discriminating seven representative hazardous gases at 1–5 ppm with neural network model assistance. In complex environment, the established system can also accurately recognize the indicative gases. As a verification, it successfully realize the screening of diabetic patients by the exhaled breath analysis, with acetone serving as the key gaseous biomarker.",
+        "authors": [
+          "Yu Deng",
+          "Keyu Chen",
+          "Wenhe Xie",
+          "Chengcheng Zhu",
+          "Honggang Chen",
+          "Tianming Hu",
+          "Jichun Li",
+          "Xin‐Yu Huang",
+          "Xinhua You",
+          "Qunyan Yao",
+          "Wei Luo",
+          "Yonghui Deng"
+        ],
+        "institutions": [],
+        "published": "2026-09-18",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75089",
+        "url": "https://doi.org/10.1002/adma.75089",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 35,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "materials",
+            "mesoporous",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "具有一致结构和互补传感选择性的周期性介孔金属氧化物用于可靠人工嗅觉",
+        "summary_zh": "该工作以聚合物立方体为通用模板合成一系列结构一致、组成可调的周期性介孔金属氧化物，利用其规整介孔通道中气体的明确扩散路径构建多维响应数据集，并结合七种互补选择性传感器阵列与神经网络，在1–5 ppm下对七种危险气体识别准确率达97.1%。",
+        "research_details_zh": "研究针对人工嗅觉系统在实际气体识别中准确性和可靠性不足的问题，指出原因在于传感材料组合不够精细以及响应曲线特征提取不充分。作者以聚合物立方体作为通用模板，合成了一系列周期性介孔金属氧化物（PMMOs），其结构保持一致而组成可调。在周期性介孔通道内，目标气体沿明确的扩散路径传输，因此可利用响应曲线的动态特征构建可靠的多维数据集，并在重复测量循环和不同器件之间保持良好一致性。通过调控化学微环境，作者用七种具有互补传感选择性的不同PMMOs构建传感器阵列，在神经网络模型辅助下实现对七种代表性危险气体的区分。在复杂环境中，所建立系统也能准确识别指示性气体。作为验证，该系统通过呼出气分析成功实现糖尿病患者筛查，其中丙酮作为关键气体生物标志物。该研究的意义在于将结构一致的介孔金属氧化物与智能算法结合，提高人工嗅觉的可靠性和实际应用潜力。",
+        "methods_zh": "摘要明确报告的方法包括：使用聚合物立方体作为通用模板合成周期性介孔金属氧化物；通过调控化学微环境构建七种具有互补传感选择性的PMMOs传感器阵列；利用响应曲线动态特征构建多维数据集；采用神经网络模型辅助气体识别；在1–5 ppm范围内对七种代表性危险气体进行区分测试；在复杂环境中进行识别验证；通过呼出气分析筛查糖尿病患者，并以丙酮作为关键气体生物标志物。摘要未报告具体合成条件、表征手段和器件制备细节。",
+        "relevance_zh": "该研究属于介孔材料与传感功能结合的方向，对关注介孔结构一致性、组成可调性及阵列化气体识别的研究主线有参考价值。其核心价值在于用聚合物立方体模板实现周期性介孔金属氧化物的通用合成，并展示介孔通道扩散行为与动态响应特征提取之间的关联。局限是摘要未报告具体材料组成、孔结构参数和器件稳定性细节。若关注介孔材料在人工嗅觉和呼出气诊断中的应用，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。摘要未报告具体金属氧化物组成、模板去除条件、孔结构表征数据、传感器制备工艺、神经网络结构、重复性数值、复杂环境具体成分及临床样本规模等关键细节，仍需全文核查。",
+        "key_findings_zh": [
+          "以聚合物立方体为通用模板合成了结构一致、组成可调的周期性介孔金属氧化物系列。",
+          "由七种具有互补传感选择性的PMMOs构建的传感器阵列，在神经网络模型辅助下对1–5 ppm的七种代表性危险气体识别准确率达到97.1%。",
+          "周期性介孔通道中目标气体遵循明确扩散路径，使响应曲线动态特征可用于构建可靠多维数据集，并在重复测量循环和不同器件间保持良好一致性。",
+          "在复杂环境中该系统可准确识别指示性气体，并通过呼出气分析成功筛查糖尿病患者，丙酮为关键气体生物标志物。"
+        ]
+      },
+      {
+        "title": "Water-induced supramolecular self-assembly of porphyrin integrated with multivalent metal–organic framework for enhanced electrochemiluminescence and ultrasensitive aptasensing of 4-fluoromethamphetamine",
+        "abstract": "",
+        "authors": [
+          "Bingxue Fan",
+          "Ding Jiang",
+          "Yuan Ni",
+          "Tengfei Meng",
+          "Zheng Sun",
+          "Haibo Li",
+          "Wenchang Wang",
+          "Zhidong Chen"
+        ],
+        "institutions": [],
+        "published": "2026-09-18",
+        "journal": "Microchimica Acta",
+        "doi": "10.1007/s00604-026-08418-4",
+        "url": "https://doi.org/10.1007/s00604-026-08418-4",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 6,
+          "quality": 0,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "仅元数据",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "水诱导卟啉超分子自组装集成多价金属有机框架用于增强电化学发光及4-氟甲基苯丙胺超灵敏适配体传感",
+        "summary_zh": "该研究报道水诱导卟啉超分子自组装并与多价金属有机框架集成，用于增强电化学发光并实现对4-氟甲基苯丙胺的超灵敏适配体传感。摘要未提供，无法进一步概括其核心贡献、材料细节和定量结果。",
+        "research_details_zh": "摘要未提供，无法依据摘要说明研究问题、材料体系、设计策略、研究过程及意义。题目显示该工作涉及水诱导的卟啉超分子自组装，并与多价金属有机框架集成，目标是增强电化学发光并用于4-氟甲基苯丙胺的超灵敏适配体传感。由于摘要缺失，无法确认卟啉与金属有机框架的具体结合方式、多价金属有机框架的组成、自组装驱动力、电化学发光增强机制、适配体传感构建策略以及检测性能。该题目与框架材料组装、超分子自组装和电化学传感相关，但摘要未报告相应实验条件、表征、数值、机制或结论。",
+        "methods_zh": "摘要未报告。题目仅提示涉及水诱导卟啉超分子自组装、多价金属有机框架集成、电化学发光和适配体传感，但摘要未报告具体合成、组装、表征和性能测试方法。",
+        "relevance_zh": "该题目与框架材料组装、超分子自组装及电化学传感主线相关，可能对关注金属有机框架与卟啉组装用于电化学发光传感的研究有参考价值。但由于摘要缺失，无法判断其材料设计、增强机制和检测性能的实际创新程度。建议先获取全文或摘要后再决定是否精读。",
+        "evidence_note_zh": "本解读仅依据题目和缺失的摘要，属于摘要级解读。摘要未提供，无法核查材料组成、自组装条件、电化学发光性能、适配体传感策略、检测限、选择性和实际样品应用等关键细节，仍需全文核查。",
+        "key_findings_zh": [
+          "摘要未报告相应数据。",
+          "题目提示该工作可能实现增强电化学发光和4-氟甲基苯丙胺超灵敏适配体传感，但摘要未提供可核实的定量结果或机制证据。"
+        ]
+      },
+      {
+        "title": "Amide-Pyridine Hydrogen-Bonded Organic Framework for Iodine Capture",
+        "abstract": "Abstract Despite the rapid growth of hydrogen-bonded organic frameworks (HOFs), developing HOF adsorbents that integrate cost-effectiveness, environmental sustainability, and high uptake capacity remains a challenge. Herein, we report an amide-pyridine-based hydrogen-bonded organic framework (TPADPy-HOF) iodine adsorbent derived from the self-assembly of N1,N4-di(pyridin-4-yl)terephthalamide, which successfully reconciled the trade-off between efficient synthesis, ecological sustainability, and robust adsorption functionality. Relying on the cooperative effects of amide hydrogen bonds and π−π stacking, the obtained TPADPy-HOF featured robust crystallinity and uniform 1D channels with a pore size of around 5.874 Å × 6.027 Å, which collectively underpinned its outstanding adsorption performance toward iodine vapor and iodine species in both water and seawater. Its gaseous iodine adsorption capacity reached 5.2 g g−1, while the adsorption capacities for I2 and I3− in liquid media were 0.454 g g−1 and 0.685 g g−1, respectively, and the removal efficiency was as high as 99%. Meanwhile, the TPADPy-HOF adsorbent possessed good stability, regenerability, and recyclability, underscoring its long-term sustainability for practical applications. Mechanistic investigations revealed that the superior iodine adsorption performance of the TPADPy-HOF originated from the synergistic effect of supramolecular interactions between iodine and the heteroatoms in amide/pyridine groups, coupled with charge-transfer interactions stemming from its electron-rich architecture. These findings make the TPADPy-HOF a highly promising material for iodine pollution treatment and iodine resource recovery in seawater.",
+        "authors": [
+          "Xin-Yu Yan",
+          "Juan Chai",
+          "Wen-Qing An",
+          "Zhaojun Chen",
+          "Ming‐Xue Wu"
+        ],
+        "institutions": [
+          "Qingdao University",
+          "Ningbo University",
+          "Ningbo University of Technology",
+          "Qingdao University",
+          "Qingdao University",
+          "Qingdao University"
+        ],
+        "published": "2026-09-18",
+        "journal": "ACS Applied Nano Materials",
+        "doi": "10.1021/acsanm.6c03971",
+        "openalex_id": "https://openalex.org/W7213558214",
+        "url": "https://doi.org/10.1021/acsanm.6c03971",
+        "sources": [
+          "Crossref",
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 6,
+          "quality": 0,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [
+            "hof",
+            "hofs",
+            "hydrogen bonded organic framework",
+            "hydrogen-bonded organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "material",
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "用于碘捕获的酰胺-吡啶氢键有机框架",
+        "summary_zh": "该研究报道由N1,N4-二(吡啶-4-基)对苯二甲酰胺自组装形成的酰胺-吡啶氢键有机框架TPADPy-HOF，用于碘捕获。其具有约5.874 Å × 6.027 Å的一维通道，碘蒸气吸附容量达5.2 g g−1，水中I2和I3−吸附容量分别为0.454 g g−1和0.685 g g−1，去除效率高达99%。",
+        "research_details_zh": "研究针对氢键有机框架吸附剂在成本效益、环境可持续性和高吸附容量之间难以兼顾的问题，报道了一种基于酰胺-吡啶的氢键有机框架TPADPy-HOF碘吸附剂。该材料由N1,N4-二(吡啶-4-基)对苯二甲酰胺自组装得到，依靠酰胺氢键和π−π堆叠的协同作用，获得稳健的结晶性和均匀的一维通道，孔径约为5.874 Å × 6.027 Å。这些结构特征共同支撑其对碘蒸气以及水和海水中碘物种的优异吸附性能。其气态碘吸附容量达到5.2 g g−1，液体介质中I2和I3−吸附容量分别为0.454 g g−1和0.685 g g−1，去除效率高达99%。同时，TPADPy-HOF吸附剂具有良好的稳定性、再生性和可循环使用性，体现长期实际应用可持续性。机理研究表明，其优异碘吸附性能源于碘与酰胺/吡啶基团中杂原子之间的超分子相互作用，以及其富电子结构带来的电荷转移相互作用的协同效应。该材料对碘污染处理和海水中碘资源回收具有潜力。",
+        "methods_zh": "摘要明确报告的方法包括：由N1,N4-二(吡啶-4-基)对苯二甲酰胺自组装制备TPADPy-HOF；依靠酰胺氢键和π−π堆叠形成框架；表征其结晶性和一维通道孔径；测试对碘蒸气以及水和海水中碘物种的吸附性能；测定气态碘、液体介质中I2和I3−的吸附容量及去除效率；评估稳定性、再生性和可循环使用性；通过机理研究分析超分子相互作用和电荷转移相互作用。摘要未报告具体合成条件、表征仪器和吸附测试细节。",
+        "relevance_zh": "该研究属于氢键有机框架自组装与吸附功能方向，对关注框架材料组装、超分子相互作用和碘捕获应用的研究主线有直接参考价值。其亮点是同时报告了明确的孔结构参数、多种介质中的碘吸附容量、去除效率以及再生循环性能，并给出超分子相互作用与电荷转移协同的机制解释。局限是摘要未报告合成规模、成本数据和长期稳定性细节。若关注HOF吸附剂设计，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。摘要未报告具体合成条件、晶体结构解析细节、比表面积、吸附动力学、选择性、海水实际样本数据、再生循环次数及电荷转移表征证据等关键细节，仍需全文核查。",
+        "key_findings_zh": [
+          "TPADPy-HOF由N1,N4-二(吡啶-4-基)对苯二甲酰胺自组装形成，依靠酰胺氢键和π−π堆叠协同作用，具有稳健结晶性和孔径约5.874 Å × 6.027 Å的均匀一维通道。",
+          "气态碘吸附容量达到5.2 g g−1，液体介质中I2和I3−吸附容量分别为0.454 g g−1和0.685 g g−1，去除效率高达99%。",
+          "TPADPy-HOF吸附剂具有良好的稳定性、再生性和可循环使用性。",
+          "机理研究揭示其优异碘吸附性能源于碘与酰胺/吡啶基团中杂原子之间的超分子相互作用，以及富电子结构带来的电荷转移相互作用的协同效应。"
+        ]
+      },
+      {
+        "title": "Chirality‐Matched Piezoelectric Responsiveness and Energy Transfer in Supramolecular Co‐Assembly of Dipeptides",
+        "abstract": "ABSTRACT The concept of homochirality is fundamental to living systems, where biopolymers exhibit a uniform chiral signature. The absence of heterochiral or racemic biopolymers in nature highlights the importance of homochirality in precise molecular recognition, efficient packing, and controlled folding for maintaining cellular homeostasis and biological function. However, the role of homochirality in governing emergent functional properties in synthetic supramolecular nanomaterials has been less explored. Here, we investigate homochiral recognition of dipeptides at their co‐assembled state. Homochiral peptides on co‐assembly form supramolecular gels, whereas heterochiral peptides fail to gelify. Co‐assembly of homochiral peptides results in the formation of long‐range fibrillar network with high aspect ratios, while co‐assembly of heterochiral peptides produces short‐range, discrete morphology. Computational insight further reveals that dipeptides containing similar chiral α‐amino acids promote efficient molecular packing and long‐range π–π stacking, whereas dipeptides with opposite chirality disrupt these interactions, leading to short‐range assembly. The preference for like‐like interactions in homochiral co‐assemblies has been explored through FRET and piezoelectric measurements. Homochiral assembly exhibits significantly higher energy‐transfer efficiency and enhanced piezoelectric properties than heterochiral assembly. Overall, this study highlights the fundamental concept of homochirality in nature and its relationship with emergent functional properties.",
+        "authors": [
+          "Soumen Kuila",
+          "Riya Nag",
+          "Krishnandu Dey",
+          "Anirban Samanta",
+          "Kolimi Prashanth Reddy",
+          "Laboni Ghosh",
+          "Ajay Haridas CP",
+          "Sayantani Khatua",
+          "Titash Mondal",
+          "Pallab Datta",
+          "Amit Kumar Paul",
+          "Abhijit Bera",
+          "Jayanta Nanda"
+        ],
+        "institutions": [],
+        "published": "2026-09-18",
+        "journal": "Angewandte Chemie",
+        "doi": "10.1002/ange.1859339",
+        "url": "https://doi.org/10.1002/ange.1859339",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 33,
+        "scores": {
+          "topic": 6,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "nanomaterials",
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "二肽超分子共组装中的手性匹配压电响应与能量转移",
+        "summary_zh": "该研究考察二肽在共组装状态下的同手性识别。同手性肽共组装形成超分子凝胶和长程高长径比纤维网络，异手性肽不能凝胶化，仅形成短程离散形貌。FRET与压电测量表明同手性组装具有更高能量转移效率和增强的压电性能。",
+        "research_details_zh": "研究问题聚焦于同手性在合成超分子纳米材料中调控涌现功能性质的作用，而天然生物聚合物普遍表现均一手性特征。材料体系为二肽共组装体，通过同手性与异手性二肽的对比研究手性识别。设计策略是比较含相似手性α-氨基酸与相反手性α-氨基酸的二肽在共组装中的行为差异。研究过程包括共组装形成凝胶的能力测试、形貌观察、计算模拟分析分子堆积与π–π堆叠，以及FRET和压电性能测量。意义在于揭示同手性偏好like-like相互作用，并将手性匹配与能量转移和压电响应等涌现功能关联，为理解自然同手性及设计功能超分子纳米材料提供依据。",
+        "methods_zh": "摘要明确出现的方法包括：二肽共组装制备超分子凝胶；形貌观察以区分长程纤维网络与短程离散结构；计算模拟分析分子堆积和π–π堆叠；FRET测量能量转移效率；压电测量评估压电性能。摘要未报告具体合成条件、溶剂、浓度、表征仪器型号及定量数值。",
+        "relevance_zh": "该工作属于自组装技术与超分子纳米材料主线，直接涉及共组装、手性识别及组装结构—功能关系，对理解框架材料之外的自组装基元设计有参考价值。其局限在于研究对象为二肽而非介孔导电MOF、共轭框架或介孔材料，且摘要未给出定量性能数据。若关注手性组装与能量转移/压电耦合，值得全文精读；若聚焦框架材料电化学合成，则相关性有限。",
+        "evidence_note_zh": "本解读仅依据摘要，未核查全文。关键细节如二肽序列、组装条件、凝胶测试方法、FRET效率数值、压电系数、计算模型与表征参数均需全文核查。",
+        "key_findings_zh": [
+          "同手性肽共组装形成超分子凝胶，异手性肽无法凝胶化。",
+          "同手性共组装形成长程、高长径比纤维网络，异手性共组装产生短程、离散形貌。",
+          "计算表明含相似手性α-氨基酸的二肽促进有效分子堆积和长程π–π堆叠，相反手性则破坏这些相互作用。",
+          "同手性组装相比异手性组装表现出显著更高的能量转移效率和增强的压电性能。"
+        ]
+      },
+      {
+        "title": "High-Efficiency Host-to-Guest Energy Transfer within Complex Multicomponent Luminescent Metal–Organic Frameworks",
+        "abstract": "Abstract Förster resonance energy transfer (FRET) is a fundamental process in natural photosynthesis, inspiring the development of artificial energy transfer systems for the efficient utilization of light. High-porosity metal–organic frameworks (MOFs) with hierarchical pore structures and structural tunability have emerged as ideal platforms for constructing host-to-guest FRET systems, however it remains a challenge to rationally design high-efficiency luminescent MOF (LMOF)-based host–guest FRET systems. Herein, we report an anionic multicomponent LMOF─Zn-AD-TBPP─assembled from photosensitive octatopic pyrene-core-based TBPP linkers and zinc-adeninate vertex secondary building units─for the efficient encapsulation of cationic red-emitting dyes, yielding a host–guest system with a strong spectral overlap. The composite exhibits a high FRET efficiency exceeding 90% and a photoluminescence quantum yield of about 51.1%. This composite is used for constructing high-quality white-light-emitting diodes and exhibits prominent two-photon excited fluorescence emission. This work paves a way for the construction of complex donor-functionalized host LMOFs, accommodating acceptor chromophores, displaying high-efficiency host-to-guest energy transfer.",
+        "authors": [
+          "Kun Wang",
+          "Haixin Lei",
+          "Liting Xu",
+          "Zhenning Yang",
+          "Honghao Cao",
+          "Mengyang Zhai",
+          "Zihang Chen",
+          "Haiyan Qin",
+          "Zhijie Chen"
+        ],
+        "institutions": [],
+        "published": "2026-09-18",
+        "journal": "Journal of the American Chemical Society",
+        "doi": "10.1021/jacs.6c13048",
+        "url": "https://doi.org/10.1021/jacs.6c13048",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "mof",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "复杂多组分发光金属有机框架内高效主客体能量转移",
+        "summary_zh": "该研究报道了一种阴离子多组分发光MOF Zn-AD-TBPP，由光敏八齿芘核TBPP连接体和锌-腺嘌呤顶点次级构建单元组装而成，可高效封装阳离子红色发光染料，形成光谱重叠强的主客体体系，FRET效率超过90%，光致发光量子产率约51.1%。",
+        "research_details_zh": "研究问题是如何理性设计基于发光MOF的高效主客体FRET体系，以模拟自然光合作用中的能量转移并实现光能高效利用。材料体系为阴离子多组分LMOF Zn-AD-TBPP，由光敏八齿芘核TBPP连接体和锌-腺嘌呤顶点SBU组装，用于封装阳离子红色发光染料。设计策略利用高孔隙率、分级孔结构和结构可调性构建强光谱重叠的主客体FRET平台。研究过程包括组装多组分LMOF、封装阳离子染料形成复合材料、表征FRET效率和光致发光量子产率，并构建白光发光二极管及观察双光子激发荧光发射。意义在于为复杂供体功能化主体LMOF容纳受体生色团、实现高效主客体能量转移提供路径。",
+        "methods_zh": "摘要明确出现的方法包括：组装阴离子多组分LMOF Zn-AD-TBPP；封装阳离子红色发光染料形成主客体复合材料；测量FRET效率和光致发光量子产率；构建白光发光二极管；观察双光子激发荧光发射。摘要未报告具体合成条件、染料种类、表征仪器、器件制备细节及稳定性测试。",
+        "relevance_zh": "该工作属于高质量框架推荐，直接涉及MOF主客体组装与能量转移，对发光框架材料、FRET体系及光电器件研究有实际价值。其局限在于摘要未报告MOF孔径、染料负载量、器件色坐标及稳定性等关键参数，且未涉及介孔导电MOF或电化学合成。若关注框架材料组装与光功能应用，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要，未核查全文。关键细节如TBPP与锌-腺嘌呤SBU的具体连接方式、染料身份、FRET计算模型、量子产率测试条件、白光LED性能参数及双光子测试条件均需全文核查。",
+        "key_findings_zh": [
+          "Zn-AD-TBPP为阴离子多组分发光MOF，由光敏八齿芘核TBPP连接体和锌-腺嘌呤顶点SBU组装而成。",
+          "该MOF可高效封装阳离子红色发光染料，形成强光谱重叠的主客体体系。",
+          "复合材料FRET效率超过90%，光致发光量子产率约51.1%。",
+          "该复合材料用于构建高质量白光发光二极管，并表现出显著的双光子激发荧光发射。"
+        ]
+      },
+      {
+        "title": "Deciphering Dynamic Self‐Healing for Crystallinity Control in β‐Ketoenamine‐Linked Covalent Organic Frameworks",
+        "abstract": "ABSTRACT Covalent organic frameworks derived from triformylphloroglucinol (Tp‐COFs) represent a prominent branch of COFs due to their high potential in separation, energy storage, and optoelectronics. However, the development of Tp‐COFs is often hindered by limited crystallinity, resulting from the low reversibility of β‐ketoenamine bond formation. In this study, we report an unprecedented dynamic self‐healing mechanism during Tp‐COF formation, arising from a reversible Michael‐addition‐elimination (MAE) process. Building on this insight, a modulator‐mediated MAE pathway is further established for crystallinity control. As a representative example, Tp‐COF‐1 synthesized via this strategy (Tp‐COF‐1(H)) forms well‐defined columnar crystals with domain sizes up to 20 µm × 2 µm, and exhibits significantly improved structural order, as evidenced by a sharper powder x‐ray diffraction (PXRD) peak (full width at half maximum: 0.44° vs. 0.74°) and a higher specific surface area (1314 vs. 647 m 2 g −1 ), compared to Tp‐COF‐1 synthesized by the conventional method (Tp‐COF‐1(O)). Moreover, optical pump‐terahertz probe spectroscopy reveals a photoexcited charge‐carrier mobility of 10.84 cm 2 V −1 s −1 for Tp‐COF‐1(H), which is 1.77 times higher than that of Tp‐COF‐1(O). These findings identify dynamic self‐healing process via MAE as a key mechanism for governing Tp‐COF crystallization toward highly ordered Tp‐COFs for optoelectronic applications.",
+        "authors": [
+          "Fan Qiu",
+          "Lei Gao",
+          "Yubin Fu",
+          "Sankalpa N. Panda",
+          "Xing Su",
+          "Ya Lu",
+          "Mei‐Mei Zhang",
+          "Mischa Bonn",
+          "Paolo Samorì",
+          "Yuqiao Wang",
+          "Xin Zhao",
+          "Shun‐Qi Xu"
+        ],
+        "institutions": [],
+        "published": "2026-09-18",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.5409854",
+        "url": "https://doi.org/10.1002/anie.5409854",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "解析β-酮烯胺连接共价有机框架中动态自修复对结晶度的控制",
+        "summary_zh": "该研究报道Tp-COF形成过程中由可逆Michael加成-消除过程引发的动态自修复机制，并建立调节剂介导的MAE路径控制结晶度。所得Tp-COF-1(H)形成柱状晶体，结构有序性和比表面积显著提升，光激发载流子迁移率提高至1.77倍。",
+        "research_details_zh": "研究问题针对Tp-COF因β-酮烯胺键形成可逆性低而导致结晶度受限的问题。材料体系为三甲酰基间苯三酚衍生的Tp-COFs。设计策略基于发现的动态自修复机制，即可逆Michael加成-消除过程，并进一步建立调节剂介导的MAE路径以控制结晶。研究过程包括对比常规方法合成的Tp-COF-1(O)与调节剂介导MAE策略合成的Tp-COF-1(H)，通过PXRD、比表面积和光学泵浦-太赫兹探针光谱表征结构有序性、孔隙性和光激发电荷载流子迁移率。意义在于将动态自修复确定为调控Tp-COF结晶的关键机制，推动高有序Tp-COF在光电子学中的应用。",
+        "methods_zh": "摘要明确出现的方法包括：常规方法合成Tp-COF-1(O)；调节剂介导MAE路径合成Tp-COF-1(H)；PXRD表征结构有序性并比较半高宽；比表面积测量；光学泵浦-太赫兹探针光谱测量光激发电荷载流子迁移率。摘要未报告具体调节剂种类、反应温度、溶剂、反应时间及晶体生长条件。",
+        "relevance_zh": "该工作属于高质量框架推荐，直接涉及共轭COF的结晶控制与光电子性能，对框架材料组装、动态键化学及结构—性能关系研究有重要价值。其局限在于摘要未报告调节剂化学身份、反应条件及载流子迁移率测试细节，且未涉及介孔导电MOF或电化学合成。若关注COF结晶机制与光电应用，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要，未核查全文。关键细节如调节剂种类与用量、MAE路径具体步骤、合成条件、PXRD测试参数、比表面积计算方法及太赫兹光谱测试条件均需全文核查。",
+        "key_findings_zh": [
+          "Tp-COF形成过程中存在由可逆Michael加成-消除过程引发的动态自修复机制。",
+          "调节剂介导的MAE路径可控制结晶度，Tp-COF-1(H)形成域尺寸达20 µm × 2 µm的柱状晶体。",
+          "Tp-COF-1(H)的PXRD峰半高宽为0.44°，优于Tp-COF-1(O)的0.74°；比表面积为1314 m2 g−1，高于Tp-COF-1(O)的647 m2 g−1。",
+          "光学泵浦-太赫兹探针光谱显示Tp-COF-1(H)光激发电荷载流子迁移率为10.84 cm2 V−1 s−1，是Tp-COF-1(O)的1.77倍。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-17",
     "search_start": "2026-09-15",
     "generated_at": "2026-09-18T01:14:56Z",
