@@ -1,5 +1,298 @@
 [
   {
+    "date": "2026-09-21",
+    "search_start": "2026-09-19",
+    "generated_at": "2026-09-22T01:34:51Z",
+    "papers": [
+      {
+        "title": "Selective Laser Sintering and Graphitization for Mono‐Matrix Unibody Fabrication of Integrated Stereo‐Circuit and Stereo‐Fluidic Wearable Electronics",
+        "abstract": "ABSTRACT Wearable integrated electronic devices for biomedical, robotics, and sensing applications require greater compactness and functional complexity while maintaining wearability. However, seamlessly integrating electronic and microfluidic components remain challenging due to fabrication heterogeneity, material mismatches, and complex assembly requirements. In this study, we present an innovative selective laser sintering and graphitization (SLSG) 3D printing technology that enables seamless integration of 3D circuits (stereo‐circuits) and 3D fluidic channels (stereo‐fluidics). SLSG achieves unibody, autonomous mono‐matrix fabrication through adaptive photonic modulation of carbon‐rich precursors (e.g., polyetheretherketone (PEEK) powder), simultaneously creating insulating sintered structures and conductive graphitized patterns with conductivity up to 1,895 S/m, yielding 7.64‐fold higher electrochemical performance than classic glassy carbon electrodes (GCEs). Using SLSG, we fabricated a watch‐type wearable unibody multimodal microfluidic biosensor (UMMB) with integrated electrochemical biosensors for on‐body sweat metabolite monitoring. UMMB incorporates stereo‐circuits for sensing and signal routing, plus stereo‐fluidic channels for sweat respiration, achieving effective lactate and glucose sensing. The device demonstrates excellent sensitivities of 29.43 and 16.86 µA/mM for detecting lactate and glucose, respectively, while exhibiting nondetectable interference or circuit‐fluidic crosstalk. This novel SLSG 3D printing technology introduces a transformative unibody approach to fabricate multifunctional bioelectronic‐fluidic platform for integrated point‐of‐care devices, wearable sensors/biosensors, actuators, advanced theranostics, and personalized biomedical devices.",
+        "authors": [
+          "Li Zhang",
+          "Wing Cheung Mak"
+        ],
+        "institutions": [],
+        "published": "2026-09-21",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75075",
+        "url": "https://doi.org/10.1002/adma.75075",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 42,
+        "scores": {
+          "topic": 12,
+          "method": 2,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "material"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "选择性激光烧结与石墨化用于一体化立体电路与立体微流控可穿戴电子器件的单基质整体制造",
+        "summary_zh": "该研究提出选择性激光烧结与石墨化3D打印技术，以富碳前驱体为单一基质，同时构建绝缘烧结结构与导电石墨化图案，实现立体电路与立体微流控通道的无缝一体化制造，并制成可穿戴多模态微流控生物传感器用于汗液代谢物监测。",
+        "research_details_zh": "针对可穿戴集成电子器件中电子与微流控组件因制造异质性、材料失配和复杂组装难以无缝集成的问题，该研究提出选择性激光烧结与石墨化3D打印技术。以富碳前驱体如聚醚醚酮粉末为原料，通过自适应光子调制，在单一基质中同时形成绝缘烧结结构和导电石墨化图案，实现整体自主制造。所得导电图案电导率最高达1895 S/m，电化学性能较经典玻碳电极提高7.64倍。利用该技术制备了手表型可穿戴整体多模态微流控生物传感器，集成电化学生物传感器用于体表汗液代谢物监测，包含用于传感和信号传输的立体电路以及用于汗液呼吸的立体微流控通道，实现对乳酸和葡萄糖的有效传感。",
+        "methods_zh": "摘要明确出现的方法包括：选择性激光烧结与石墨化3D打印技术；以富碳前驱体如聚醚醚酮粉末为原料进行自适应光子调制；制备绝缘烧结结构与导电石墨化图案；电导率测试；电化学性能测试并与玻碳电极对比；制造手表型可穿戴整体多模态微流控生物传感器；集成电化学生物传感器进行体表汗液乳酸和葡萄糖传感测试；干扰和电路—微流控串扰评估。",
+        "relevance_zh": "该工作属于框架材料组装与电化学合成主线之外的拓展方向，但其单基质整体制造、激光诱导石墨化、导电图案与微流控一体化集成策略对导电框架材料的器件化组装和电化学界面构建具有方法学参考价值。局限在于材料体系为聚醚醚酮碳前驱体，并非介孔导电MOF、共轭框架或介孔材料。若关注激光直写导电材料与微流控电化学集成，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要级信息，未核查全文。摘要未报告SLSG的具体激光参数、石墨化机制细节、PEEK粉末粒径、器件长期稳定性、汗液实际检测条件及生物相容性等关键细节，均需全文核查。",
+        "key_findings_zh": [
+          "SLSG技术通过自适应光子调制富碳前驱体，在单一基质中同时形成绝缘烧结结构和导电石墨化图案，实现整体自主制造。",
+          "导电石墨化图案电导率最高达1895 S/m，电化学性能较经典玻碳电极提高7.64倍。",
+          "所制手表型可穿戴整体多模态微流控生物传感器对乳酸和葡萄糖的灵敏度分别为29.43和16.86 µA/mM。",
+          "该器件表现出不可检测的干扰或电路—微流控串扰。"
+        ]
+      },
+      {
+        "title": "Hierarchical Ce-UiO-66 with tailored mesopores for efficient upgrading of biomass-derived carboxylic acids via ketonization",
+        "abstract": "The catalytic ketonization of bulky biomass-derived carboxylic acids is often restricted by internal diffusion resistance and insufficient accessible active sites over conventional CeO 2 and strictly microporous catalysts. In this study, hierarchically porous Ce-UiO-66 materials were synthesized using F127 as a soft template to optimize pore architecture and enhance mass transport. Compared with the original microporous Ce-UiO-66, the modified materials successfully introduced ∼ 8 nm mesopores, with the mesopore volume remarkably expanding to 0.312 cm 3 /g. This well-developed micro-mesoporous network not only overcomes mass transfer barriers, but also promotes the formation of abundant active sites, Ce 3+ species, and oxygen vacancies while improving thermal stability. Among all samples, Ce-UiO-(100), synthesized with 100 mg F127 in 6 mL H 2 O, displayed the highest Ce 3+ proportion (41.3 %) and the optimal thermal stability, attributed to optimal templating conditions that balance crystallinity and defect formation. Catalytic conversion of n-octanoic acid at 500 ℃ demonstrated that Ce-UiO-66 outperformed conventional CeO 2 , and mesoporosity further enhanced activity. Ce-UiO-(100) achieved the highest conversion (85.7 %) along with superior ketone and hydrocarbon yields, mainly producing 8-pentadecanone and 2-nonanone. The improved performance is attributed to a dual synergy: hierarchical micro-mesoporous channels alleviate steric hindrance for accelerated mass transfer, while Ce 3+ -O V Lewis acid-base pairs efficiently drive C–C coupling. This study offers novel insights into the rational design of catalysts for the deoxygenation of biomass-derived carboxylic acids via ketonization.",
+        "authors": [
+          "Kuan Ding",
+          "Jinfeng Hang",
+          "Xiaoqian Liao",
+          "He Sun",
+          "Guangyu Niu",
+          "Tongxi Cui",
+          "Xiaoqing Pan",
+          "Muhammad Arshad",
+          "Shu Zhang"
+        ],
+        "institutions": [
+          "Nanjing Forestry University",
+          "Nanjing Forestry University",
+          "Nanjing Forestry University",
+          "Nanjing Forestry University",
+          "Nanjing Forestry University",
+          "Nanjing Forestry University",
+          "Jiangsu Academy of Agricultural Sciences",
+          "Ministry of Agriculture and Rural Affairs",
+          "University of Veterinary and Animal Sciences",
+          "Nanjing Forestry University"
+        ],
+        "published": "2026-09-19",
+        "journal": "Fuel",
+        "doi": "10.1016/j.fuel.2026.141402",
+        "openalex_id": "https://openalex.org/W7213660943",
+        "url": "https://doi.org/10.1016/j.fuel.2026.141402",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 37,
+        "scores": {
+          "topic": 12,
+          "method": 10,
+          "quality": 0,
+          "novelty": 8,
+          "network": 0,
+          "applied": 4,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "hierarchically porous",
+            "mesoporous"
+          ],
+          "assembly": [
+            "templating"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "materials",
+            "mesoporous",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "具有定制介孔的分级Ce-UiO-66用于生物质衍生羧酸经酮化反应高效升级",
+        "summary_zh": "该研究以F127为软模板合成分级多孔Ce-UiO-66，引入约8 nm介孔并将介孔体积扩至0.312 cm3/g，通过微—介孔网络改善传质并促进Ce3+和氧空位形成，在正辛酸酮化反应中转化率达85.7%，优于传统CeO2和纯微孔Ce-UiO-66。",
+        "research_details_zh": "针对大体积生物质衍生羧酸在传统CeO2和严格微孔催化剂上酮化反应受内扩散阻力和可接近活性位点不足限制的问题，该研究以F127为软模板合成分级多孔Ce-UiO-66材料，优化孔结构并增强传质。与原始微孔Ce-UiO-66相比，改性材料成功引入约8 nm介孔，介孔体积显著扩展至0.312 cm3/g。发达的微—介孔网络不仅克服传质障碍，还促进丰富活性位点、Ce3+物种和氧空位的形成，同时提高热稳定性。在所用样品中，以6 mL水中100 mg F127合成的Ce-UiO-(100)表现出最高Ce3+比例41.3%和最佳热稳定性。500 ℃下正辛酸催化转化表明Ce-UiO-66优于传统CeO2，介孔化进一步提升活性。Ce-UiO-(100)获得最高转化率85.7%以及优异的酮和烃产率，主要产物为8-十五酮和2-壬酮。性能提升归因于双重协同：分级微—介孔通道缓解位阻加速传质，Ce3+-OV路易斯酸碱对高效驱动C–C偶联。",
+        "methods_zh": "摘要明确出现的方法包括：以F127为软模板合成分级多孔Ce-UiO-66；通过改变F127用量调控孔结构，其中Ce-UiO-(100)为6 mL水中加入100 mg F127；表征介孔尺寸、介孔体积、Ce3+比例和热稳定性；在500 ℃下进行正辛酸催化酮化反应；与原始微孔Ce-UiO-66和传统CeO2对比催化性能；分析酮和烃产率及主要产物。",
+        "relevance_zh": "该工作直接关联介孔材料与框架材料主线，展示通过软模板在MOF中构建分级微—介孔结构以提升大分子底物传质和催化活性，对介孔导电MOF及框架材料的孔结构工程、缺陷调控和催化应用具有参考价值。局限在于Ce-UiO-66为绝缘MOF，未涉及导电性或电化学合成。若关注MOF介孔工程与生物质升级，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要级信息，未核查全文。摘要未报告F127模板去除条件、比表面积、孔径分布全貌、Ce3+和氧空位的具体表征手段、酮化反应选择性数值、催化剂循环稳定性及失活机制等关键细节，均需全文核查。",
+        "key_findings_zh": [
+          "以F127为软模板成功在Ce-UiO-66中引入约8 nm介孔，介孔体积扩展至0.312 cm3/g。",
+          "Ce-UiO-(100)具有最高Ce3+比例41.3%和最佳热稳定性。",
+          "500 ℃正辛酸酮化反应中Ce-UiO-(100)转化率达85.7%，主要产物为8-十五酮和2-壬酮。",
+          "性能提升源于分级微—介孔通道加速传质与Ce3+-OV路易斯酸碱对驱动C–C偶联的双重协同。"
+        ]
+      },
+      {
+        "title": "Heterogeneous Integration: Design Principles for Advanced Liquid Crystal Elastomers With Spatially Programmable Properties and Functionalities",
+        "abstract": "ABSTRACT Liquid crystal elastomers (LCEs) uniquely merge liquid crystal anisotropy with rubbery elasticity, positioning them as cornerstone materials for soft actuators. As the field is progressing from laboratory demonstrations toward practical applications in soft robotics and biomedical devices, it is moving beyond the simple, uniform deformations toward advanced spatially programmable properties and integrated functionalities. The design principles underlying these advances lie in heterogeneous integration, defined as the intentional spatial design of chemical, structural, or orientational differences across a unified LCE system, permitting precise programming of differentiated actuation directions, mechanical gradients, and sequential responsiveness unattainable in homogeneous LCEs. Heterogeneous integration pervades almost all advances in alignment techniques, network engineering, and device assembly. This review categorizes the diverse achievements into three hierarchical strategies: heterogeneity in orientation, heterogeneity in polymer network architecture, and heterogeneous modular assembly. We systematically summarize the mechanistic origins, achievable precision, and functional outputs of each approach. Furthermore, we outline future directions from discrete patterning to continuous gradients, from single‐dimensional to multidimensional integration, and from static programming to adaptive evolution. This review establishes a coherent conceptual blueprint to guide the rational design of next‐generation intelligent LCE systems.",
+        "authors": [
+          "Yixuan Wang",
+          "Enjian He",
+          "Guoli Wang",
+          "Yen Wei",
+          "Yan Ji"
+        ],
+        "institutions": [],
+        "published": "2026-09-21",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75020",
+        "url": "https://doi.org/10.1002/adma.75020",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 33,
+        "scores": {
+          "topic": 6,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal",
+            "materials",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "异质集成：具有空间可编程性质和功能性的先进液晶弹性体设计原则",
+        "summary_zh": "该综述提出异质集成为液晶弹性体空间可编程性质与功能化的核心设计原则，将相关进展归纳为取向异质性、聚合物网络结构异质性和异质模块化组装三类层级策略，系统总结其机制起源、可实现精度与功能输出，并展望从离散图案到连续梯度等未来方向。",
+        "research_details_zh": "液晶弹性体独特地结合液晶各向异性与橡胶弹性，是软执行器的基石材料。随着该领域从实验室演示走向软机器人和生物医学器件实际应用，研究正从简单均匀变形转向先进的空间可编程性质和集成功能。其设计原则在于异质集成，即在统一液晶弹性体系统中有意进行化学、结构或取向差异的空间设计，从而精确编程均质液晶弹性体无法实现的差异化驱动方向、力学梯度和顺序响应性。异质集成几乎贯穿取向技术、网络工程和器件组装的所有进展。该综述将多样成果归纳为三类层级策略：取向异质性、聚合物网络结构异质性和异质模块化组装，系统总结每种方法的机制起源、可实现精度和功能输出。此外，展望了从离散图案到连续梯度、从单维到多维集成、从静态编程到自适应演化的未来方向，为下一代智能液晶弹性体系统的理性设计建立连贯的概念蓝图。",
+        "methods_zh": "该文为综述，摘要未报告具体实验合成、组装、表征或性能测试方法。摘要明确出现的内容为对液晶弹性体异质集成相关成果的分类归纳与机制、精度和功能输出的系统总结，以及未来方向展望。具体文献筛选标准、覆盖范围及各类策略的详细案例摘要未报告。",
+        "relevance_zh": "该综述与介孔导电MOF、共轭框架或介孔材料主线关联较弱，但其异质集成、空间可编程组装和异质模块化组装概念对框架材料的有序组装与功能集成具有概念借鉴意义。局限在于材料体系为液晶弹性体，不涉及框架材料或电化学合成。若关注软执行器与可编程组装设计原则，可全文精读；若聚焦框架材料，则相关性有限。",
+        "evidence_note_zh": "本解读仅依据摘要级信息，未核查全文。摘要未报告具体液晶弹性体化学组成、取向技术参数、网络工程方法、器件性能数值、精度量化指标及所引案例细节，均需全文核查。",
+        "key_findings_zh": [
+          "异质集成被定义为在统一液晶弹性体系统中有意空间设计化学、结构或取向差异，以实现差异化驱动方向、力学梯度和顺序响应性。",
+          "该综述将液晶弹性体异质集成策略归纳为三类层级策略：取向异质性、聚合物网络结构异质性和异质模块化组装。",
+          "综述系统总结了每种策略的机制起源、可实现精度和功能输出。",
+          "未来方向包括从离散图案到连续梯度、从单维到多维集成、从静态编程到自适应演化。"
+        ]
+      },
+      {
+        "title": "Unlocking d–p Orbital Coupling via Built‐in Electric Fields for High‐Performance Hydrazine Hydrate Fuel Cell",
+        "abstract": "ABSTRACT Direct hydrazine fuel cells (DHzFCs) offer a promising carbon‐free liquid‐fuel route for power generation, yet progress is limited by sluggish hydrazine oxidation reaction (HzOR) kinetics and the high cost of Pt catalysts. In this work, we tune the built‐in electric field (BIEF) at the Pt@MOF interface via linker‐directed defect engineering. Partial substitution of 1,1′‐ferrocenedicarboxylic acid (Fc) with ferrocene–carboxylic acid (Fc') generates graded ligand‐defect and undercoordinated Ni─O environments, thereby regulating Pt anchoring and interfacial charge redistribution. The optimized Pt@NiFc 0.95 Fc' 0.05 ‐MOF delivers 1000 mA cm–2 for HER (180 mV, overpotential) and 2000 mA cm–2 for HzOR (346 mV, working potential), outperforming Pt/C while achieving 99% hydrazine conversion. The assembled direct hydrazine hydrate–hydrogen peroxide fuel cell (DHHPFC) delivers a peak power density of 441 mW cm −2 at 80°C. Density functional theory (DFT) calculations and experimental analyses reveal that the oxygen‐mediated Pt─O─Ni interfacial electronic pathway, enhanced apparent BIEF, and accelerated interfacial charge transfer in Pt@NiFc 0.95 Fc' 0.05 ‐MOF, accounts for the improved catalytic and fuel‐cell performance. This work establishes a linker‐defect strategy for constructing Pt‐utilization‐efficient interfaces for hydrazine energy conversion.",
+        "authors": [
+          "Xia Zhang",
+          "Mengni Liu",
+          "Yuxiao Liu",
+          "Linfeng Li",
+          "Muhammad Humayun",
+          "Junfeng Huang",
+          "Yaping Huang",
+          "Xuefei Xu",
+          "Hussein A. Younus",
+          "Anton Nikiforov",
+          "Yuanjie Pang",
+          "Cailing Xu",
+          "Jianping Yang",
+          "Chundong Wang"
+        ],
+        "institutions": [],
+        "published": "2026-09-20",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75109",
+        "url": "https://doi.org/10.1002/adma.75109",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "carbon"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": true,
+        "title_zh": "通过内建电场解锁d–p轨道耦合实现高性能水合肼燃料电池",
+        "summary_zh": "该工作通过配体缺陷工程调控Pt@MOF界面内建电场，以部分Fc'取代Fc构建梯度配体缺陷和不饱和Ni─O环境，优化Pt锚定与界面电荷再分布。最优材料在HER和HzOR中均优于Pt/C，组装的水合肼-过氧化氢燃料电池峰值功率密度达441 mW cm⁻²。",
+        "research_details_zh": "直接水合肼燃料电池（DHzFCs）作为无碳液体燃料发电路线具有前景，但受限于肼氧化反应（HzOR）动力学迟缓和Pt催化剂高成本。本研究在Pt@MOF界面通过配体导向缺陷工程调控内建电场（BIEF）。具体策略是用二茂铁羧酸（Fc'）部分取代1,1'-二茂铁二甲酸（Fc），在NiFc-MOF中生成梯度配体缺陷和不饱和Ni─O环境，从而调节Pt锚定和界面电荷再分布。优化后的Pt@NiFc0.95Fc'0.05-MOF在HER中达到1000 mA cm⁻²（过电位180 mV），在HzOR中达到2000 mA cm⁻²（工作电位346 mV），优于Pt/C并实现99%肼转化率。组装的水合肼-过氧化氢燃料电池（DHHPFC）在80°C下峰值功率密度为441 mW cm⁻²。DFT计算和实验分析表明，氧介导的Pt─O─Ni界面电子通路、增强的表观BIEF以及加速的界面电荷转移是性能提升的原因。该工作建立了配体缺陷策略以构建高效利用Pt的界面用于肼能源转化。",
+        "methods_zh": "摘要明确报道的方法包括：通过配体导向缺陷工程，用二茂铁羧酸（Fc'）部分取代1,1'-二茂铁二甲酸（Fc）合成Pt@NiFc0.95Fc'0.05-MOF；进行HER和HzOR电化学性能测试；组装水合肼-过氧化氢燃料电池并测试峰值功率密度；采用密度泛函理论（DFT）计算结合实验分析研究界面电子结构和电荷转移。摘要未报告具体合成条件、表征手段和测试参数等细节。",
+        "relevance_zh": "该工作属于MOF基框架材料在电催化与燃料电池中的应用，核心策略为配体缺陷工程调控MOF界面内建电场以优化Pt催化位点，与介孔导电MOF及框架材料电化学合成主线相关。其配体缺陷调控界面电子结构的思路对框架材料组装和电化学应用有参考价值。但该研究侧重Pt@MOF催化界面而非MOF本征导电性或介孔结构，与介孔导电MOF主线关联有限。摘要未报告MOF孔结构或导电性数据，建议根据对MOF界面催化兴趣决定是否精读。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告MOF的孔结构、比表面积、导电性、合成条件、表征手段细节及DFT计算具体参数等关键信息，这些细节需查阅全文核实。",
+        "key_findings_zh": [
+          "优化后的Pt@NiFc0.95Fc'0.05-MOF在HER中达到1000 mA cm⁻²（过电位180 mV），在HzOR中达到2000 mA cm⁻²（工作电位346 mV），优于Pt/C，肼转化率达99%。",
+          "组装的水合肼-过氧化氢燃料电池在80°C下峰值功率密度为441 mW cm⁻²。",
+          "DFT计算和实验分析揭示氧介导的Pt─O─Ni界面电子通路、增强的表观内建电场和加速的界面电荷转移是性能提升的原因。",
+          "配体缺陷工程通过Fc'部分取代Fc生成梯度配体缺陷和不饱和Ni─O环境，调控Pt锚定和界面电荷再分布。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-20",
     "search_start": "2026-09-18",
     "generated_at": "2026-09-21T01:02:01Z",
