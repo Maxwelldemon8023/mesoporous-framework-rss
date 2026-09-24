@@ -1,5 +1,457 @@
 [
   {
+    "date": "2026-09-23",
+    "search_start": "2026-09-21",
+    "generated_at": "2026-09-24T01:19:48Z",
+    "papers": [
+      {
+        "title": "Low-Voltage Electrophoretic Deposition in Water with Metal–Organic Framework Nanoparticles",
+        "abstract": "Abstract Electrophoretic deposition (EPD) constitutes a major industrial method for solution-processed fabrication of thin films and coatings. Conventional protocols require high applied voltages (50–1000 V) that induce parasitic electrochemical reactions, limit substrate compatibility, and create safety hazards. Here, we demonstrate that intrinsic surface charge density of size-controlled metal–organic framework (MOF) nanoparticles, together with particle size and solvent properties, governs electrophoretic mobility and enables high-quality EPD in aqueous media at 1 V, well below the threshold for water electrolysis. Compact, uniform films of MOF nanoparticles with thicknesses &amp;gt;10 μm deposit in 30 min, due to higher ζ-potentials and electrophoretic mobilities that improve with smaller particle sizes, whereas nonporous colloids require hours. Deposition occurs on a wide range of conductive substrates, enabling real-time monitoring of film thickness with quartz crystal microbalance devices and, as a result, the formation of redox-intercalation thin films with programmable capacitance and ion-insertion kinetics. These results provide an energy-efficient, safer, and rapid method for uniform thin-film assembly with thicknesses controlled to nanometer resolution.",
+        "authors": [
+          "Faiqa Khaliq",
+          "Raj Shekhar",
+          "Clare Smith",
+          "Carl K. Brozek"
+        ],
+        "institutions": [],
+        "published": "2026-09-23",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c13197",
+        "url": "https://doi.org/10.1021/jacs.6c13197",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 59,
+        "scores": {
+          "topic": 29,
+          "method": 2,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal",
+            "thin film"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "水相中金属有机框架纳米粒子的低电压电泳沉积",
+        "summary_zh": "该研究利用尺寸可控MOF纳米粒子的本征表面电荷密度，在1 V水相中实现高质量电泳沉积，远低于水电解阈值。30分钟内可沉积厚度超过10微米、致密均匀的MOF薄膜，并可通过石英晶体微天平实时监控膜厚，进而构建电容和离子嵌入动力学可编程的氧化还原插层薄膜。",
+        "research_details_zh": "研究针对传统电泳沉积需50至1000 V高电压、易引发电化学副反应、限制基底兼容性并带来安全隐患的问题，提出利用尺寸可控MOF纳米粒子的本征表面电荷密度，结合粒径和溶剂性质调控电泳迁移率，从而在水相中实现1 V低电压电泳沉积。摘要指出，较小粒径带来更高ζ电位和电泳迁移率，使MOF纳米粒子在30分钟内形成厚度大于10微米、致密均匀的薄膜，而非多孔胶体则需数小时。沉积可在多种导电基底上进行，并借助石英晶体微天平实时监测膜厚，形成具有可编程电容和离子嵌入动力学的氧化还原插层薄膜。该工作为均匀薄膜组装提供了节能、安全和快速的方法，厚度可控制在纳米分辨率。",
+        "methods_zh": "摘要明确涉及水相电泳沉积，施加电压为1 V；使用尺寸可控的MOF纳米粒子，并考察粒径、本征表面电荷密度和溶剂性质对电泳迁移率的影响；通过ζ电位和电泳迁移率分析沉积行为；在多种导电基底上进行沉积；采用石英晶体微天平实时监测薄膜厚度；形成氧化还原插层薄膜并评估其电容和离子嵌入动力学。其他合成与表征细节摘要未报告。",
+        "relevance_zh": "该工作直接关联框架材料组装与电化学合成主线，展示MOF纳米粒子在低电压水相电泳沉积中的组装策略，并强调膜厚实时监控与电化学功能调控，对介孔导电MOF及框架材料薄膜器件化具有参考价值。局限在于摘要未报告MOF具体组成、孔结构、导电性及电化学性能数值，是否值得全文精读取决于对低电压沉积和MOF薄膜电化学应用的关注程度。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。MOF具体组成、粒径分布、ζ电位数值、溶剂条件、基底种类、薄膜孔隙率、导电性、电容和离子嵌入动力学定量数据等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "在1 V水相中实现MOF纳米粒子电泳沉积，低于水电解阈值。",
+          "30分钟内可沉积厚度大于10微米、致密均匀的MOF薄膜。",
+          "较小粒径具有更高ζ电位和电泳迁移率，而非多孔胶体沉积需数小时。",
+          "可在多种导电基底上沉积，并通过石英晶体微天平实时监测膜厚，形成电容和离子嵌入动力学可编程的氧化还原插层薄膜。"
+        ]
+      },
+      {
+        "title": "Ammonia‐Gated Guanyl Hydrazone Photoisomerization Enables Sequential Solid‐State Optical Response in Hydrogen‐Bonded Organic Frameworks",
+        "abstract": "ABSTRACT Light‐driven molecular switches enable precise and noninvasive regulation of molecular structure and function, and thus represent fundamental building blocks for stimuli‐responsive photofunctional materials. However, translating molecular‐level photoswitching into sequence‐dependent macroscopic outputs in the solid state remains a formidable challenge. In this study, we report a supramolecular strategy that integrates guanyl hydrazone switches into hydrogen‐bonded organic frameworks (HOFs) to overcome this limitation. A tetrasulfonate‐substituted tetraphenylethylene anion ( TPE 4 − ) is employed as the host scaffold, while guanyl hydrazone ( G2 ) functions as the photoresponsive guest, affording a functional framework through cooperative assembly. This system leverages a reversible crystalline–amorphous phase transformation, triggered by acid–base stimuli, to gate the solid‐state photoisomerization of G2 . Upon activation, the configurational switching of G2 induces a cascade reorganization of the TPE 4 − packing motifs, leading to pronounced and sequence‐dependent modulation of both fluorescence and macroscopic coloration. In addition, the applicability of this system in information encryption has been demonstrated. This work expands the design paradigm of hydrazone‐based photoswitches in the solid state and provides a supramolecular strategy for constructing intelligent optical materials with high information density and enhanced security.",
+        "authors": [
+          "Weixu Feng",
+          "Dong Han",
+          "Jiamiao Yu",
+          "Zihang Tang",
+          "Yan Zhao",
+          "Wei Tian",
+          "Hongxia Yan"
+        ],
+        "institutions": [],
+        "published": "2026-09-22",
+        "journal": "Angewandte Chemie",
+        "doi": "10.1002/ange.7471326",
+        "url": "https://doi.org/10.1002/ange.7471326",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 47,
+        "scores": {
+          "topic": 18,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie"
+        ],
+        "hits": {
+          "framework": [
+            "hofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "cooperative assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystalline",
+            "materials",
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "氨门控脒基腙光异构化实现氢键有机框架中的顺序固态光学响应",
+        "summary_zh": "该研究将脒基腙开关集成到氢键有机框架中，利用酸碱刺激触发的可逆晶态—非晶态相变门控固态光异构化。活化后G2构型切换诱导TPE4−堆积级联重组，实现荧光和宏观颜色的顺序依赖调制，并展示信息加密应用。",
+        "research_details_zh": "研究针对分子级光开关难以在固态转化为序列依赖宏观输出的挑战，提出超分子策略，将脒基腙开关引入氢键有机框架。摘要明确以四磺酸取代四苯乙烯阴离子TPE4−作为主体支架，脒基腙G2作为光响应客体，通过协同组装形成功能框架。该系统利用酸碱刺激触发的可逆晶态—非晶态相变来门控G2的固态光异构化。活化后，G2的构型切换诱导TPE4−堆积基序的级联重组，导致荧光和宏观颜色的显著且序列依赖的调制。摘要还指出该体系在信息加密中具有应用展示。该工作拓展了腙基光开关在固态中的设计范式，并提供构建高信息密度和增强安全性智能光学材料的超分子策略。",
+        "methods_zh": "摘要明确采用超分子协同组装策略，以四磺酸取代四苯乙烯阴离子TPE4−为主体支架，脒基腙G2为光响应客体，构建氢键有机框架。通过酸碱刺激触发可逆晶态—非晶态相变，门控G2的固态光异构化；光照诱导G2构型切换，并观察TPE4−堆积重组、荧光和宏观颜色变化。摘要还提及信息加密应用展示。具体合成条件、表征手段和性能测试细节摘要未报告。",
+        "relevance_zh": "该工作属于氢键有机框架与自组装技术交叉方向，展示通过主客体协同组装和相变门控实现固态光响应，对框架材料组装及刺激响应光学材料设计有参考价值。局限在于摘要未报告框架结构、光异构化波长、量子产率、响应速度和加密性能等关键数据，是否值得全文精读取决于对HOF光功能化和信息加密应用的关注程度。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。HOF具体结构、组装条件、酸碱刺激范围、光异构化波长与效率、荧光变化定量数据、相变可逆性、信息加密演示细节等仍需全文核查。",
+        "key_findings_zh": [
+          "通过酸碱刺激触发的可逆晶态—非晶态相变，实现G2固态光异构化的门控。",
+          "G2构型切换诱导TPE4−堆积基序级联重组，产生荧光和宏观颜色的序列依赖调制。",
+          "该体系展示了在信息加密中的应用。",
+          "摘要未报告相应定量光学数据、相变条件及循环稳定性数据。"
+        ]
+      },
+      {
+        "title": "Engineering van der Waals Heterojunctions Within a 2D Hydrogen‐Bonded Organic Framework for Boosting CO 2 Electroreduction",
+        "abstract": "ABSTRACT Unlike conventional strategies that regulate charge transport in framework electrocatalysts by modifying covalent skeletons or compositions, we demonstrate efficient directional electron transfer by constructing interlayer van der Waals donor–acceptor (D–A) heterojunctions within a hydrogen‐bonded organic frameworks (HOFs). The porphyrin‐based HOF, PFC‐45‐Co, is assembled from electron‐donating 5,10,15,20‐tetra(4‐carboxyphenyl)porphyrin (Co‐TPyP) and electron‐accepting cobalt 5,10,15,20‐tetra(4‐carboxyphenyl)porphyrin (Co‐TCPP) through strong O─H···N hydrogen bonds, while periodic alternating interlayer π–π stacking generates vertical D–A heterojunctions. Mechanistic studies show that close π–π contacts enable through‐space charge transport, and the D–A energy offset drives electron transfer from Co‐TPyP to Co‐TCPP, producing electron‐enriched Co‐TCPP sites that promote CO 2 activation and suppress hydrogen evolution. As a result, PFC‐45‐Co outperforms the single‐component HOF PFC‐72‐Co in both neutral and acidic media. In neutral electrolyte, PFC‐45‐Co delivers a CO Faradaic efficiency (FE CO ) of 98.4% at −0.9 V versus reversible hydrogen electrode (vs. RHE) and a CO partial current density ( j CO ) of 31.3 mA cm −2 at −1.2 V versus RHE. In acidic media, it maintains FE CO values of 92%–99% and achieves j CO of 111.1 mA cm −2 at −1.6 V versus RHE. This work establishes interlayer van der Waals D–A heterojunctions as an effective motif for regulating charge transfer in HOF electrocatalysts.",
+        "authors": [
+          "Qiu‐Jin Wu",
+          "An‐An Zhang",
+          "Jia‐Tong Huang",
+          "Duan‐Hui Si",
+          "Xu Yang",
+          "Rong Cao",
+          "Tian‐Fu Liu",
+          "Yuan‐Biao Huang"
+        ],
+        "institutions": [],
+        "published": "2026-09-23",
+        "journal": "Angewandte Chemie",
+        "doi": "10.1002/ange.4407565",
+        "url": "https://doi.org/10.1002/ange.4407565",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 41,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie"
+        ],
+        "hits": {
+          "framework": [
+            "hof",
+            "hofs",
+            "hydrogen bonded organic framework",
+            "hydrogen-bonded organic framework"
+          ],
+          "conductive": [
+            "charge transport"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "在二维氢键有机框架内构建范德华异质结以促进CO2电还原",
+        "summary_zh": "该研究在卟啉基氢键有机框架PFC-45-Co中构建层间范德华供体—受体异质结，通过空间电荷传输和D–A能级偏移驱动电子从Co-TPyP向Co-TCPP转移，形成富电子Co-TCPP位点，促进CO2活化并抑制析氢，在中性和酸性介质中均优于单组分HOF。",
+        "research_details_zh": "研究不同于通过修饰共价骨架或组成调控框架电催化剂电荷传输的传统策略，提出在氢键有机框架内构建层间范德华供体—受体异质结以实现定向电子转移。摘要明确卟啉基HOF PFC-45-Co由给电子5,10,15,20-四(4-羧基苯基)卟啉Co-TPyP和受电子钴5,10,15,20-四(4-羧基苯基)卟啉Co-TCPP通过强O─H···N氢键组装，周期性交替层间π–π堆叠产生垂直D–A异质结。机理研究表明，紧密π–π接触实现空间电荷传输，D–A能级偏移驱动电子从Co-TPyP转移到Co-TCPP，产生富电子Co-TCPP位点，促进CO2活化并抑制析氢。结果PFC-45-Co在中性和酸性介质中均优于单组分HOF PFC-72-Co。中性电解液中，−0.9 V vs. RHE时CO法拉第效率为98.4%，−1.2 V vs. RHE时CO分电流密度为31.3 mA cm−2；酸性介质中FE_CO保持92%–99%，−1.6 V vs. RHE时j_CO达111.1 mA cm−2。该工作确立层间范德华D–A异质结为调控HOF电催化剂电荷转移的有效基元。",
+        "methods_zh": "摘要明确采用超分子组装构建卟啉基HOF PFC-45-Co，由Co-TPyP和Co-TCPP通过O─H···N氢键组装，并形成层间π–π堆叠D–A异质结。通过机理研究分析空间电荷传输和D–A能级偏移驱动的电子转移。电化学性能在中性和酸性电解液中测试，以CO法拉第效率、CO分电流密度和析氢抑制为指标，并与单组分HOF PFC-72-Co对比。具体合成条件、结构表征和原位机理手段摘要未报告。",
+        "relevance_zh": "该工作直接关联共轭/氢键有机框架、框架材料组装及电化学合成主线，展示在HOF内构建层间范德华D–A异质结以调控电荷传输和CO2电还原性能，对导电框架电催化剂设计具有参考价值。局限在于摘要未报告HOF孔结构、导电率、活性位点密度和长期稳定性等关键数据，是否值得全文精读取决于对HOF电催化及异质结电荷调控的关注程度。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。HOF晶体结构、孔道参数、合成条件、导电性、原位表征证据、电化学测试细节、稳定性及酸性介质中具体pH等仍需全文核查。",
+        "key_findings_zh": [
+          "PFC-45-Co由Co-TPyP和Co-TCPP通过O─H···N氢键组装，层间π–π堆叠形成垂直D–A异质结。",
+          "D–A能级偏移驱动电子从Co-TPyP转移到Co-TCPP，产生富电子Co-TCPP位点，促进CO2活化并抑制析氢。",
+          "中性电解液中，−0.9 V vs. RHE时FE_CO为98.4%，−1.2 V vs. RHE时j_CO为31.3 mA cm−2。",
+          "酸性介质中FE_CO为92%–99%，−1.6 V vs. RHE时j_CO为111.1 mA cm−2，性能优于单组分HOF PFC-72-Co。"
+        ]
+      },
+      {
+        "title": "Cyclodextrin‐Directed Assembly of Dynamic Polyoxometalate Pseudo‐Rotaxanes",
+        "abstract": "ABSTRACT Cyclodextrins (CDs) are widely used as host molecules in supramolecular chemistry, yet their capacity to actively direct structural reorganization of inorganic clusters remains largely unexplored. Here, we demonstrate that α ‐CD can direct inorganic cluster reorganization during self‐assembly, enabling the synthesis of previously inaccessible azobenzene‐functionalized polyoxometalate (POM) pseudo‐rotaxanes, in which the macrocycle not only encapsulates the organic axle but also governs the structural evolution of the inorganic core. Upon complexation with α ‐CD, a flat arsonate‐functionalized {Mo 6 } cluster reorganizes into a bent analogue, yielding a dynamic pseudo ‐rotaxane assembly ( 1a @ α ‐CD). Fine pH modulation subsequently induces a CD‐mediated transformation into an inverted‐Keggin {Mo 12 } pseudo ‐rotaxane threaded by four α ‐CD units. NMR/ITC titration, DOSY/NOESY analyses, and single‐crystal x‐ray diffraction collectively reveal dual threading pathways and delineate the dynamic {Mo 6 } to {Mo 12 } reorganization process. Crucially, α ‐CD suppresses precipitation of hydrophobic ligands under strongly acidic conditions and stabilizes transient coordination states, thereby enabling cluster growth pathways inaccessible under identical synthetic conditions in the absence of α ‐CD. These findings demonstrate that CDs can actively direct inorganic self‐assembly through host‐guest interactions, providing a supramolecular route to previously inaccessible POM pseudo ‐rotaxanes and opening new opportunities for adaptive hybrid architectures.",
+        "authors": [
+          "Yun‐Jing Mu",
+          "Cheng‐Shuai Liu",
+          "Chun‐Yan Liu",
+          "Yi‐An Yin",
+          "Chang‐Gen Lin",
+          "Haralampos N. Miras",
+          "Ulrich Kortz",
+          "Yu‐Fei Song"
+        ],
+        "institutions": [],
+        "published": "2026-09-21",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.9362433",
+        "url": "https://doi.org/10.1002/anie.9362433",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 37,
+        "scores": {
+          "topic": 6,
+          "method": 6,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "coordination",
+            "crystal",
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "环糊精导向的动态多金属氧酸盐准轮烷组装",
+        "summary_zh": "该研究证明α-环糊精可在自组装过程中主动导向无机簇结构重组，合成出此前难以获得的偶氮苯功能化多金属氧酸盐准轮烷，并揭示从{Mo6}到{Mo12}的动态转化路径及双重穿线机制。",
+        "research_details_zh": "研究问题在于环糊精虽广泛用作超分子主体，但其主动导向无机簇结构重组的能力尚未被充分探索。作者以α-环糊精为主体，以偶氮苯功能化的多金属氧酸盐为客体，发现α-环糊精不仅能包结有机轴，还能调控无机核的结构演化。与α-环糊精络合后，扁平的砷酸功能化{Mo6}簇重排为弯曲类似物，形成动态准轮烷组装体1a@α-CD。精细pH调控进一步诱导环糊精介导的转化，生成由四个α-环糊精穿线的倒Keggin型{Mo12}准轮烷。该工作表明环糊精可通过主客体相互作用主动导向无机自组装，为构建自适应杂化结构提供了超分子路径。",
+        "methods_zh": "摘要明确报道的方法包括：自组装合成、pH调控转化、NMR/ITC滴定、DOSY/NOESY分析以及单晶X射线衍射。摘要未报告具体合成温度、浓度、溶剂体系、产率及电化学或导电性测试等细节。",
+        "relevance_zh": "该工作属于超分子导向的无机簇自组装，与框架材料组装和动态结构调控主线相关，展示了主体分子主动导向无机核结构演化的策略。但其体系为多金属氧酸盐准轮烷，并非介孔导电MOF、共轭框架或电化学合成，直接借鉴有限。若关注主客体导向组装与动态转化机制，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要，属于摘要级解读。具体合成条件、产率、晶体学参数、热力学常数、pH范围及稳定性数据等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "α-环糊精可导向扁平砷酸功能化{Mo6}簇重排为弯曲类似物，形成动态准轮烷1a@α-CD。",
+          "精细pH调控可诱导环糊精介导的转化，生成由四个α-环糊精穿线的倒Keggin型{Mo12}准轮烷。",
+          "NMR/ITC滴定、DOSY/NOESY分析和单晶X射线衍射共同揭示了双重穿线路径及{Mo6}到{Mo12}的动态重组过程。",
+          "α-环糊精可抑制强酸性条件下疏水配体的沉淀并稳定瞬态配位状态，从而开启无α-环糊精时无法实现的簇生长路径。"
+        ]
+      },
+      {
+        "title": "Stepped‐Dimensional 2D/3D Tin‐Based Perovskites for High‐Efficiency Light‐Emitting Diodes",
+        "abstract": "ABSTRACT Tin (Sn)‐based perovskite near‐infrared (NIR) light‐emitting diodes (LEDs) show great potential for applications in night vision, biomedical sensing, and optical communications. However, their performance remains limited by uncontrolled crystallization and the facile oxidation of Sn 2+ . Here, we demonstrate a versatile buried‐interlayer strategy to effectively regulate the crystallization and suppress the Sn 2+ oxidation by constructing a two‐dimensional/three‐dimensional (2D/3D) heterodimensional structure. We reveal that strong interactions between the buried ligand layer, the perovskite precursor, and the underlying hole‐transport layer promote rapid nucleation, retard crystal growth, and induce a vertical dimensional gradient, leading to reduced defect density and enhanced radiative recombination. As a result, NIR Sn‐based perovskite LEDs achieve a record external quantum efficiency of 13.7% with a radiance of 103 W sr −1 m −2 . Furthermore, the buried‐interlayer strategy enables dual‐functional Sn‐based perovskite devices capable of both efficient light emission and photodetection, which are successfully integrated into a compact heart‐pulse monitoring system. Our work suggests a synergistic crystallization and dimensional‐regulation strategy for achieving high‐performance Sn‐based perovskite optoelectronic devices.",
+        "authors": [
+          "Pengpeng Teng",
+          "Zheng Jiang",
+          "Yuhan Zhou",
+          "Yangyu Liu",
+          "Wenxiao Niu",
+          "Chunping Pu",
+          "Quan Liu",
+          "Xianrong Li",
+          "Fan Pu",
+          "Yiran Zhang",
+          "Qipan Yu",
+          "Xingjiao Feng",
+          "Dongxu Jin",
+          "Yuxuan Wei",
+          "Wenhao Zheng",
+          "Zhibo Yan",
+          "Haifeng Zhao",
+          "Sai Bai",
+          "Yatao Zou",
+          "Weidong Xu",
+          "Wing Chung Tsoi",
+          "Tao Yu",
+          "Jie Yang",
+          "Xiaodong Shen",
+          "Chunxiong Bao"
+        ],
+        "institutions": [],
+        "published": "2026-09-23",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75130",
+        "url": "https://doi.org/10.1002/adma.75130",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 35,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "crystal growth",
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "阶梯维度2D/3D锡基钙钛矿用于高效发光二极管",
+        "summary_zh": "该研究采用埋入中间层策略构建2D/3D异维结构，调控锡基钙钛矿结晶并抑制Sn2+氧化，使近红外LED外量子效率达13.7%，并实现发光与光电探测双功能及心率监测集成。",
+        "research_details_zh": "研究问题在于锡基钙钛矿近红外LED受限于不可控结晶和Sn2+易氧化。作者提出一种通用的埋入中间层策略，通过构建二维/三维异维结构来调控结晶并抑制Sn2+氧化。埋入配体层、钙钛矿前驱体与底层空穴传输层之间的强相互作用促进快速成核、延缓晶体生长并诱导垂直维度梯度，从而降低缺陷密度并增强辐射复合。所得近红外锡基钙钛矿LED获得13.7%的纪录外量子效率和103 W sr−1 m−2的辐射亮度。该策略还使器件兼具高效发光和光电探测功能，并成功集成到紧凑型心率监测系统中。",
+        "methods_zh": "摘要明确报道的方法包括：埋入中间层策略构建2D/3D异维结构、结晶调控、Sn2+氧化抑制、LED器件制备与性能测试、光电探测测试以及心率监测系统集成。摘要未报告具体前驱体配比、退火条件、器件结构层参数及表征手段细节。",
+        "relevance_zh": "该工作聚焦锡基钙钛矿发光二极管，与介孔导电MOF、共轭框架、框架材料组装及电化学合成主线关联较弱，仅在结晶调控和维度调控策略上具有方法学参考价值。若关注异维结构构建与缺陷抑制策略，可选择性阅读；对框架材料电化学方向直接价值有限。",
+        "evidence_note_zh": "本解读仅依据摘要，属于摘要级解读。具体前驱体组成、埋入层材料、退火温度、器件结构、稳定性数据及表征细节仍需全文核查。",
+        "key_findings_zh": [
+          "埋入中间层策略构建2D/3D异维结构，可调控结晶并抑制Sn2+氧化。",
+          "近红外锡基钙钛矿LED实现13.7%的纪录外量子效率和103 W sr−1 m−2的辐射亮度。",
+          "埋入配体层、前驱体与空穴传输层间的强相互作用促进快速成核、延缓晶体生长并诱导垂直维度梯度，降低缺陷密度并增强辐射复合。",
+          "该策略使器件兼具高效发光和光电探测双功能，并成功集成到紧凑型心率监测系统中。"
+        ]
+      },
+      {
+        "title": "Interface-guided twisted stacking of two-dimensional organic molecular crystals for polarization-reoriented emission",
+        "abstract": "Abstract The controlled vertical assembly of organic molecular crystals remains challenging because weak intermolecular interactions often lead to random nucleation and unpredictable stacking orientations. Here we report an interface-guided vapor-phase assembly strategy for constructing stacked two-dimensional organic molecular crystals with controlled stacking geometry and layer thickness. This approach enables two distinct stacking modes: lattice-matched parallel heterostacking in DPQ-DPFQ crystals (P-OCs) and energetically favored 80° twisted homostacking in DPFQ bilayers (T-OCs), with T-OCs accounting for 54.3 ± 3.8% of the counted crystals across six independent substrates under optimized growth conditions. The fixed-angle twisted stacking couples misaligned optical axes from adjacent layers, producing lateral and vertical waveguide resonance coupling and thickness-programmed polarization reorientation. By increasing the upper layer thickness from 530 to 935 nm, the output polarization angle is continuously shifted from 45° to 74°. This work establishes molecular interface-guided twisting as a structural strategy for encoding passive polarization outputs in organic crystalline photonic materials.",
+        "authors": [
+          "Bian-Heng Wang",
+          "Yan-Peng Ye",
+          "Chao-Fei Xu",
+          "Meng-Yan Zhang",
+          "Tian-Zhe Feng",
+          "Zhao-Ji Lv",
+          "Ying-Xin Ma",
+          "Qiang Lv",
+          "Xue-Dong Wang"
+        ],
+        "institutions": [],
+        "published": "2026-09-22",
+        "journal": "National Science Review",
+        "doi": "10.1093/nsr/nwag606",
+        "url": "https://doi.org/10.1093/nsr/nwag606",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 35,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "National Science Review"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystalline",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "界面导向的二维有机分子晶体扭转堆叠用于偏振重定向发射",
+        "summary_zh": "该研究报道界面导向气相组装策略，构建堆叠二维有机分子晶体，实现平行异质堆叠和80度扭转同质堆叠两种模式，并通过层厚调控使输出偏振角从45度连续偏移至74度。",
+        "research_details_zh": "研究问题在于有机分子晶体的可控垂直组装因分子间弱相互作用常导致随机成核和不可预测的堆叠取向。作者报道一种界面导向气相组装策略，用于构建具有可控堆叠几何和层厚的堆叠二维有机分子晶体。该方法实现两种堆叠模式：DPQ-DPFQ晶体中的晶格匹配平行异质堆叠（P-OCs）和DPFQ双层中能量 favored 的80度扭转同质堆叠（T-OCs），在优化生长条件下T-OCs占六个独立基底上计数晶体的54.3 ± 3.8%。固定角度扭转堆叠耦合相邻层错位的光轴，产生横向和垂直波导共振耦合以及厚度编程的偏振重定向。将上层厚度从530 nm增至935 nm，输出偏振角从45度连续偏移至74度。该工作确立了分子界面导向扭转作为有机晶态光子材料中编码被动偏振输出的结构策略。",
+        "methods_zh": "摘要明确报道的方法包括：界面导向气相组装策略、优化生长条件、晶体计数统计、层厚调控以及偏振发射测试。摘要未报告具体基底类型、生长温度、气相源参数、晶体表征手段及波导耦合的详细测试条件。",
+        "relevance_zh": "该工作属于有机分子晶体的界面导向组装与堆叠取向调控，与自组装技术和框架材料组装主线有一定方法学关联，尤其在界面导向成核和堆叠几何控制方面具有参考价值。但其体系为有机分子晶体光子材料，不涉及MOF、COF、HOF或电化学合成。若关注界面导向组装与偏振光学调控，可全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要，属于摘要级解读。具体基底材料、生长条件、晶体结构解析、波导耦合机制及偏振测试细节仍需全文核查。",
+        "key_findings_zh": [
+          "界面导向气相组装可实现两种堆叠模式：DPQ-DPFQ晶体中的晶格匹配平行异质堆叠和DPFQ双层中的80度扭转同质堆叠。",
+          "在优化生长条件下，T-OCs占六个独立基底上计数晶体的54.3 ± 3.8%。",
+          "固定角度扭转堆叠耦合相邻层错位光轴，产生横向和垂直波导共振耦合及厚度编程的偏振重定向。",
+          "上层厚度从530 nm增至935 nm时，输出偏振角从45度连续偏移至74度。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-22",
     "search_start": "2026-09-20",
     "generated_at": "2026-09-23T01:27:15Z",
