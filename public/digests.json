@@ -1,5 +1,488 @@
 [
   {
+    "date": "2026-09-25",
+    "search_start": "2026-09-23",
+    "generated_at": "2026-09-26T01:29:19Z",
+    "papers": [
+      {
+        "title": "Biomimetic Confined Crystallization of Large‐Sized Single‐Crystalline Multicomponent Mesoporous Metal Oxides",
+        "abstract": "ABSTRACT The performance of mesoporous metal oxides (MMOs) depends strongly on the composition, crystallinity, and size. However, soft‐templating synthesis of multicomponent systems is typically constrained by poor structural control arising from phase separation, uncontrolled nucleation, and structural collapse. Inspired by biomineralization, this study proposes a biomimetic confined crystallization strategy based on constructing a 3D continuous poly(acrylic acid) matrix. This matrix forms a flexible organic–inorganic network that stabilizes intermediate species, regulates crystallization kinetics, suppresses burst nucleation, and promotes integrated crystal growth, thereby playing a role analogous to the organic framework in natural biomineralization. In addition, the template directs mesostructure formation through its space‐occupying effect and decomposition‐induced gas evolution. As a result, large‐sized single‐crystalline multicomponent MMOs were successfully synthesized. More importantly, this strategy enables precise and tunable control of crystallinity and particle size and can be readily extended to more than ten multicomponent systems. As a representative example, La 2 FeCuO 6 exhibits a Faradaic efficiency of 98.2% for electrocatalytic nitrate reduction, benefiting from the synergistic effects of optimized electronic structure, mesoporosity, and single crystallinity. Overall, this work establishes a biomimetic route to overcome the intrinsic limitations of conventional soft‐templating approaches, particularly phase separation, polycrystallization, and the difficulty of achieving large‐sized crystal growth under high‐temperature calcination.",
+        "authors": [
+          "Luoqi Wang",
+          "Zongkun Chen",
+          "Miao Yu",
+          "Yanlong Shao",
+          "Yuenan Zheng",
+          "Jiaqi Yang",
+          "Zihan Wu",
+          "Ye Wang",
+          "Helmut Cölfen",
+          "Zhen‐An Qiao"
+        ],
+        "institutions": [
+          "Jilin University",
+          "University of Konstanz",
+          "Jilin University",
+          "Jilin University",
+          "Dalian University",
+          "Jilin University",
+          "Jilin University",
+          "Jilin University",
+          "University of Konstanz",
+          "Jilin University"
+        ],
+        "published": "2026-09-23",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.1975103",
+        "openalex_id": "https://openalex.org/W7214092773",
+        "url": "https://doi.org/10.1002/anie.1975103",
+        "sources": [
+          "Crossref",
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 54,
+        "scores": {
+          "topic": 12,
+          "method": 12,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 4,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [
+            "confined crystallization",
+            "crystal growth",
+            "nucleation",
+            "templating"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal",
+            "crystalline",
+            "mesoporous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "仿生限域结晶制备大尺寸单晶多组分介孔金属氧化物",
+        "summary_zh": "该工作受生物矿化启发，构建三维连续聚丙烯酸基质，通过仿生限域结晶策略抑制相分离与爆发成核，成功合成大尺寸单晶多组分介孔金属氧化物，并可拓展至十余种体系，代表性材料La2FeCuO6在电催化硝酸盐还原中法拉第效率达98.2%。",
+        "research_details_zh": "介孔金属氧化物的性能强烈依赖组成、结晶度和尺寸，但多组分体系的软模板合成通常受相分离、不可控成核和结构坍塌制约，导致结构控制困难。本研究受生物矿化启发，提出基于三维连续聚丙烯酸基质的仿生限域结晶策略。该基质形成柔性有机-无机网络，稳定中间物种、调控结晶动力学、抑制爆发成核并促进整体晶体生长，其作用类似天然生物矿化中的有机框架。同时，模板通过占位效应和分解产气引导介观结构形成。由此成功合成大尺寸单晶多组分介孔金属氧化物，并实现对结晶度和颗粒尺寸的精确可调控制，且可拓展至十余种多组分体系。代表性材料La2FeCuO6因优化电子结构、介孔性和单晶性的协同效应，在电催化硝酸盐还原中法拉第效率达98.2%。该工作建立了仿生路线，克服传统软模板法在高温煅烧下相分离、多晶化和难以实现大尺寸晶体生长等固有局限。",
+        "methods_zh": "摘要明确出现的方法包括：基于三维连续聚丙烯酸基质构建柔性有机-无机网络的仿生限域结晶合成策略；利用模板占位效应和分解产气引导介观结构形成；对产物结晶度和颗粒尺寸进行调控；将策略拓展至十余种多组分体系；以La2FeCuO6为代表性材料进行电催化硝酸盐还原性能测试，报告法拉第效率为98.2%。摘要未报告具体前驱体、煅烧温度、表征手段及电化学测试条件等细节。",
+        "relevance_zh": "该工作与介孔材料、自组装及框架材料组装主线高度相关，其仿生限域结晶策略为多组分介孔金属氧化物的结构控制提供了新思路，尤其对克服软模板法相分离和多晶化问题有实际参考价值。代表性材料的电催化硝酸盐还原性能提示介孔单晶在电催化中的潜力。但摘要未报告具体合成参数、表征证据和电化学测试细节，建议结合全文评估其普适性和机制证据。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。摘要未报告具体前驱体、聚丙烯酸基质分子量、煅烧温度与时间、表征手段、电化学测试条件、法拉第效率的测试电位及稳定性数据等关键细节，仍需全文核查。",
+        "key_findings_zh": [
+          "三维连续聚丙烯酸基质可稳定中间物种、调控结晶动力学、抑制爆发成核并促进整体晶体生长，实现仿生限域结晶。",
+          "成功合成大尺寸单晶多组分介孔金属氧化物，并实现对结晶度和颗粒尺寸的精确可调控制，可拓展至十余种多组分体系。",
+          "代表性材料La2FeCuO6在电催化硝酸盐还原中法拉第效率达98.2%，归因于优化电子结构、介孔性和单晶性的协同效应。",
+          "该策略克服传统软模板法在高温煅烧下的相分离、多晶化和大尺寸晶体生长困难等固有局限。"
+        ]
+      },
+      {
+        "title": "Boosting C–S Coupling for Selective Hydroxymethanesulfonate Electrosynthesis over Bimetallic Cu–Ni Sites within Covalent Organic Frameworks",
+        "abstract": "Abstract Electrocatalytic C–S coupling via CO2/SO32– co-reduction represents a promising route for sustainable hydroxymethanesulfonate (HMS) synthesis, yet it still suffers from sluggish C–S coupling kinetics and severe competing side reactions. Herein, we develop bimetallic Cu–Ni sites within a covalent organic framework (CuNi-COF) catalyst for efficient and selective HMS electrosynthesis. Mechanistic investigations reveal that bimetallic Cu–Ni sites can synergistically reduce CO2 to *CHOH and promote C–S coupling of *CHOH with *SO3, while inhibiting the competing hydrogen evolution reaction, thereby resulting in a high efficiency for selective HMS synthesis. Impressively, CuNi-COF achieves the exceptional HMS yield rate of 32.8 μmol cm–2 h–1 and a Faradaic efficiency of 27.3% in a membrane electrode assembly electrolyzer, along with outstanding long-term stability for over 100 h of electrolysis. Techno-economic analysis further demonstrates the considerable economic viability of the CuNi-COF-driven electrocatalytic C–S coupling method for industrial-scale HMS production.",
+        "authors": [
+          "Hancang Ma",
+          "Ruixuan Yang",
+          "Yali Guo",
+          "Ye Tian",
+          "Xiaomei Wang",
+          "Ke Chu"
+        ],
+        "institutions": [
+          "Lanzhou Jiaotong University",
+          "Lanzhou Jiaotong University",
+          "Lanzhou Jiaotong University",
+          "Hebei North University",
+          "Lanzhou Jiaotong University",
+          "Lanzhou Jiaotong University"
+        ],
+        "published": "2026-09-24",
+        "journal": "ACS Sustainable Chemistry & Engineering",
+        "doi": "10.1021/acssuschemeng.6c08194",
+        "openalex_id": "https://openalex.org/W7214243221",
+        "url": "https://doi.org/10.1021/acssuschemeng.6c08194",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 52,
+        "scores": {
+          "topic": 29,
+          "method": 7,
+          "quality": 0,
+          "novelty": 8,
+          "network": 0,
+          "applied": 5,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [
+            "cof",
+            "covalent organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [
+            "electrosynthesis"
+          ],
+          "materials": [
+            "membrane"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中电化学合成、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "共价有机框架内双金属Cu-Ni位点促进C-S偶联用于选择性羟甲基磺酸盐电合成",
+        "summary_zh": "该工作开发了共价有机框架内双金属Cu-Ni位点催化剂CuNi-COF，用于CO2/SO3^2-共还原电催化合成羟甲基磺酸盐。双金属位点协同将CO2还原为*CHOH并促进其与*SO3的C-S偶联，同时抑制析氢副反应，在膜电极电解器中实现32.8 μmol cm-2 h-1的产率和27.3%的法拉第效率，稳定运行超100小时。",
+        "research_details_zh": "电催化C-S偶联通过CO2/SO3^2-共还原为可持续合成羟甲基磺酸盐提供了有前景的路线，但仍受C-S偶联动力学缓慢和严重竞争副反应制约。本研究开发了共价有机框架内双金属Cu-Ni位点催化剂CuNi-COF，用于高效选择性HMS电合成。机理研究揭示，双金属Cu-Ni位点可协同将CO2还原为*CHOH，并促进*CHOH与*SO3的C-S偶联，同时抑制竞争性析氢反应，从而实现高效选择性HMS合成。CuNi-COF在膜电极组装电解器中实现HMS产率32.8 μmol cm-2 h-1和法拉第效率27.3%，并具有超过100小时电解的优异长期稳定性。技术经济分析进一步表明，CuNi-COF驱动的电催化C-S偶联方法在工业规模HMS生产中具有可观的经济可行性。",
+        "methods_zh": "摘要明确出现的方法包括：在共价有机框架中构建双金属Cu-Ni位点催化剂CuNi-COF；通过机理研究探究CO2/SO3^2-共还原路径及C-S偶联机制；在膜电极组装电解器中进行HMS电合成性能测试，报告产率、法拉第效率和长期稳定性；开展技术经济分析评估工业规模经济可行性。摘要未报告COF具体结构、合成条件、表征手段及电解电压等细节。",
+        "relevance_zh": "该工作属于共轭COF及电化学合成主线，展示了COF作为电催化剂载体稳定双金属位点并调控C-S偶联选择性的能力，对框架材料在电催化C-S键构建中的应用有直接参考价值。其膜电极电解器和百小时稳定性数据增强了面向工业应用的可行性。但摘要未报告COF结构、位点配位环境和反应机理的具体证据，建议全文精读以评估机制可靠性和材料设计普适性。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。摘要未报告COF具体结构、Cu-Ni配位环境、合成条件、表征手段、电解电压、法拉第效率测试条件及技术经济分析参数等关键细节，仍需全文核查。",
+        "key_findings_zh": [
+          "双金属Cu-Ni位点可协同将CO2还原为*CHOH，并促进*CHOH与*SO3的C-S偶联，同时抑制竞争性析氢反应。",
+          "CuNi-COF在膜电极组装电解器中实现HMS产率32.8 μmol cm-2 h-1和法拉第效率27.3%。",
+          "该催化剂具有超过100小时电解的优异长期稳定性。",
+          "技术经济分析表明该电催化C-S偶联方法在工业规模HMS生产中具有可观的经济可行性。"
+        ]
+      },
+      {
+        "title": "Oxygen Enrichment on Carbon Nanoreactors and *OOH Modulation on Sn 1 Sites Cooperatively Promote Industrial‐Scale H 2 O 2 Electrosynthesis",
+        "abstract": "ABSTRACT Industrial‑scale H 2 O 2 electrosynthesis faces two major challenges: oxygen depletion at the catalytic interface, which causes diffusion limitations, and a strong dependence of product selectivity on the adsorption behavior of the *OOH intermediate. Constructing an O 2 ‑enriched microenvironment alleviates transport issues, while tuning *OOH adsorption prevents excessive O─O bond cleavage; their synergy is expected to boost ORR performance. Guided by theory, we developed a Sn single‑atom‐anchored hollow mesoporous carbon nanoreactor (Sn 1 /HMCS). The hollow mesoporous carbon nanoreactor facilitates an oxygen‑enriched microenvironment at the catalytic interface via spontaneous O 2 adsorption and diffusion, while the N/O‑coordinated Sn sites enable optimal *OOH adsorption regulation, delivering ∼100% H 2 O 2 selectivity. The adaptive matching between the spontaneous oxygen supply kinetics and the electrocatalytic reaction allows the system to maintain both optimal thermodynamic potential and high selectivity at industrially relevant high‑current conditions. Assembling Sn 1 /HMCS in a solid‑electrolyte cell delivered an industrial‑scale system for high‑purity H 2 O 2 with low energy consumption and excellent stability. At 500 mA cm − 2 , it produced ∼4.51 wt% H 2 O 2 at a rate of 31.8 mol g catalyst − 1 h − 1 , with stable operation over 300 h. This work provides a practical way to prepare catalysts meeting industrial‑scale current density requirements and facilitates the development of economically feasible H 2 O 2 electrosynthesis schemes.",
+        "authors": [
+          "Chao Miao",
+          "Haiyu Wang",
+          "Lixu Wu",
+          "Xi Gong",
+          "lina Li",
+          "Guohua Zhao"
+        ],
+        "institutions": [],
+        "published": "2026-09-24",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.5058302",
+        "url": "https://doi.org/10.1002/anie.5058302",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 52,
+        "scores": {
+          "topic": 12,
+          "method": 9,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 5,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [
+            "electrosynthesis"
+          ],
+          "materials": [
+            "carbon",
+            "mesoporous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、电化学合成，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "碳纳米反应器上的氧富集与Sn1位点上的*OOH调控协同促进工业级H2O2电合成",
+        "summary_zh": "该工作针对工业级H2O2电合成中界面氧耗尽和*OOH吸附调控难题，开发了Sn单原子锚定中空介孔碳纳米反应器Sn1/HMCS。中空介孔碳通过自发O2吸附和扩散形成氧富集微环境，N/O配位Sn位点优化*OOH吸附，实现约100% H2O2选择性，在500 mA cm-2下产率31.8 mol g catalyst-1 h-1，稳定运行300小时。",
+        "research_details_zh": "工业级H2O2电合成面临两大挑战：催化界面氧耗尽导致扩散限制，以及产物选择性强烈依赖*OOH中间体吸附行为。构建O2富集微环境可缓解传输问题，调控*OOH吸附可防止O-O键过度断裂，二者协同有望提升ORR性能。在理论指导下，研究者开发了Sn单原子锚定中空介孔碳纳米反应器Sn1/HMCS。中空介孔碳纳米反应器通过自发O2吸附和扩散在催化界面形成氧富集微环境，而N/O配位Sn位点实现最优*OOH吸附调控，使H2O2选择性接近100%。自发供氧动力学与电催化反应的自适应匹配使系统在工业相关高电流条件下同时保持最优热力学电位和高选择性。将Sn1/HMCS组装于固态电解质电池中，构建了低能耗、高稳定性、高纯度H2O2的工业级系统。在500 mA cm-2下，以31.8 mol g catalyst-1 h-1的速率产生约4.51 wt% H2O2，稳定运行超过300小时。",
+        "methods_zh": "摘要明确出现的方法包括：在理论指导下设计Sn单原子锚定中空介孔碳纳米反应器Sn1/HMCS；利用中空介孔碳的自发O2吸附和扩散构建氧富集微环境；通过N/O配位Sn位点调控*OOH吸附；将Sn1/HMCS组装于固态电解质电池中构建工业级H2O2电合成系统；在500 mA cm-2下测试产率、浓度、选择性和稳定性。摘要未报告具体合成条件、表征手段及理论计算方法等细节。",
+        "relevance_zh": "该工作与介孔材料、电化学合成主线相关，展示了中空介孔碳纳米反应器在氧富集微环境构建和单原子位点调控中的协同作用，对介孔碳在工业级电合成中的应用有实际参考价值。其约100%选择性和300小时稳定性数据具有较强说服力。但摘要未报告Sn配位结构、理论计算细节和固态电解质电池具体配置，建议全文精读以评估机制证据和工程可行性。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。摘要未报告Sn单原子具体配位结构、合成条件、表征手段、理论计算方法、固态电解质电池配置及选择性测试细节等关键信息，仍需全文核查。",
+        "key_findings_zh": [
+          "中空介孔碳纳米反应器通过自发O2吸附和扩散在催化界面形成氧富集微环境，缓解扩散限制。",
+          "N/O配位Sn单原子位点实现最优*OOH吸附调控，使H2O2选择性接近100%。",
+          "在500 mA cm-2下，Sn1/HMCS以31.8 mol g catalyst-1 h-1的速率产生约4.51 wt% H2O2，稳定运行超过300小时。",
+          "自发供氧动力学与电催化反应的自适应匹配使系统在工业相关高电流条件下同时保持最优热力学电位和高选择性。"
+        ]
+      },
+      {
+        "title": "Liquid–Solid Interfacial Fusion Assembly Enables Programmable Chain Density for Controlling Polymer–Mineral Interactions",
+        "abstract": "Abstract Biomineralization offers key insights into nature’s design of hierarchical materials with exceptional properties. However, progress is hindered by limited molecular-level understanding of organic–inorganic interfacial interactions, particularly how organic matrix structure directs mineral formation and organization. Herein, we synthesize a series of poly(methacrylic acid)x-block-poly(benzyl methacrylate)y (Mx-By) nanoparticles with varying block lengths via polymerization-induced self-assembly, followed by their fusion onto mesoporous silica surfaces through liquid–solid interfacial fusion assembly. This approach yields silica-copolymer core–shell composite nanoparticles with tunable interfacial structures. We show that the packing density of copolymer chains on the fused layer is governed by the degree of polymerization of the hydrophobic block (By). This tunability provides a model platform to systematically investigate how surface chain density dictates polymer–mineral interactions. It is demonstrated that the surface chain density plays a decisive role in controlling the spatial distribution of guest species within mineral phases. We reveal the underlying mechanism behind this interesting phenomenon, which is widespread in natural biominerals. This work not only offers new insights into biomineralization but also provides new design rules for engineering composite crystals with tunable internal compositions and structures.",
+        "authors": [
+          "Dan Yang",
+          "Qin Li",
+          "Xiaohong Hu",
+          "Boxiang Peng",
+          "Pei Liu",
+          "Biao Xiong",
+          "Xia Sun",
+          "Yin Ning"
+        ],
+        "institutions": [],
+        "published": "2026-09-25",
+        "journal": "Macromolecules",
+        "doi": "10.1021/acs.macromol.6c02018",
+        "url": "https://doi.org/10.1021/acs.macromol.6c02018",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 45,
+        "scores": {
+          "topic": 12,
+          "method": 10,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 4,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Macromolecules"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "copolymer",
+            "materials",
+            "mesoporous",
+            "polymer",
+            "silica"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "液-固界面融合组装实现可编程链密度以调控聚合物-矿物相互作用",
+        "summary_zh": "该工作通过聚合诱导自组装合成不同嵌段长度的聚甲基丙烯酸-b-聚甲基丙烯酸苄酯纳米颗粒，并利用液-固界面融合组装将其融合到介孔二氧化硅表面，获得界面结构可调的二氧化硅-共聚物核壳复合纳米颗粒，证明疏水嵌段聚合度决定融合层链堆积密度，进而控制客体物种在矿物相中的空间分布。",
+        "research_details_zh": "研究针对生物矿化中有机-无机界面相互作用的分子级理解不足，特别是机质结构如何指导矿物形成与组织的问题。作者合成了一系列聚甲基丙烯酸x-嵌段-聚甲基丙烯酸苄酯y（Mx-By）纳米颗粒，嵌段长度可变，制备方法为聚合诱导自组装。随后通过液-固界面融合组装将这些纳米颗粒融合到介孔二氧化硅表面，得到具有可调界面结构的二氧化硅-共聚物核壳复合纳米颗粒。研究显示，融合层上共聚物链的堆积密度由疏水嵌段By的聚合度控制。该可调性提供了模型平台，用于系统研究表面链密度如何决定聚合物-矿物相互作用。结果表明，表面链密度在控制客体物种在矿物相内空间分布方面起决定性作用，并揭示了这一在天然生物矿物中广泛存在的现象背后的机制。该工作为生物矿化提供新认识，也为工程化具有可调内部组成和结构的复合晶体提供设计规则。",
+        "methods_zh": "摘要明确出现的方法包括：通过聚合诱导自组装合成一系列不同嵌段长度的聚甲基丙烯酸x-嵌段-聚甲基丙烯酸苄酯y（Mx-By）纳米颗粒；通过液-固界面融合组装将纳米颗粒融合到介孔二氧化硅表面，形成二氧化硅-共聚物核壳复合纳米颗粒；通过改变疏水嵌段By的聚合度调控融合层共聚物链堆积密度；利用所得平台研究表面链密度对聚合物-矿物相互作用及客体物种空间分布的影响。摘要未报告具体表征手段和性能测试细节。",
+        "relevance_zh": "该文与介孔材料、自组装技术及框架材料组装主线中的界面组装和介孔二氧化硅表面修饰相关，提供了一种通过液-固界面融合组装调控聚合物链密度并研究聚合物-矿物相互作用的模型平台。其价值在于将聚合诱导自组装与介孔二氧化硅表面融合结合，用于理解生物矿化中的有机-无机界面调控。但该文不涉及导电MOF、共轭框架或电化学合成，与核心框架材料方向关联有限，属于拓展参考，是否精读取决于对聚合物-矿物界面和生物矿化模型体系的兴趣。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告具体表征方法、链密度数值、客体物种种类、矿物相组成、机制验证实验细节及定量构效关系，这些关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "融合层上共聚物链的堆积密度由疏水嵌段By的聚合度控制。",
+          "表面链密度在控制客体物种于矿物相内的空间分布方面起决定性作用。",
+          "揭示了表面链密度调控客体物种空间分布这一在天然生物矿物中广泛存在的现象背后的机制。",
+          "摘要未报告具体数值型定量结果。"
+        ]
+      },
+      {
+        "title": "Supramolecular‐Reinforced Multifunctional Integrated Adaptive Coatings for Marine Protection",
+        "abstract": "ABSTRACT Marine protective coatings often fail prematurely under the coupled effects of mechanical damage, UV irradiation, microbial fouling, and corrosion, because conventional barrier‑type systems lack adaptive interfacial regulation and integrated protective functions. Herein, a GO‑HHU‑CuPN‑EP coating is fabricated via a room‑temperature aqueous supramolecular self‑assembly strategy. In this coating, cerium‐based MOF nanocrystals (HHU) are grown in situ on GO nanosheets, followed by the surface assembly of a copper–tannic acid metal‐phenolic network (CuPN). The resulting hierarchical structure suppresses GO restacking and forms a tortuous diffusion barrier, while the CuPN acts as an interfacial regulator that improves filler‐matrix compatibility and environmental adaptability. The regulated interface enables efficient stress transfer, controlled inhibitor release, and photothermal defect confinement, while also improving weather resistance and antibacterial activity. As a result, the coating achieves a tensile strength of 27.4 MPa, an adhesion force of 7.4 MPa, an antibacterial rate of 96.2%, and an impedance modulus above 10 9.5 Ω·cm 2 after 100 d of immersion. These results establish supramolecular interfacial regulation as a coordinated strategy for integrating structural reinforcement and adaptive protection in durable marine coatings.",
+        "authors": [
+          "Hao Li",
+          "Hao-Jie Yan",
+          "Shi‐Qi Yan",
+          "You-Lin Zhang",
+          "Hui-Song Hu",
+          "Qin-hao Zhang",
+          "Pan Liu",
+          "Lian-Kui Wu",
+          "Hongfang Liu",
+          "Fahe Cao"
+        ],
+        "institutions": [
+          "Sun Yat-sen University",
+          "Sun Yat-sen University",
+          "Sun Yat-sen University",
+          "Sun Yat-sen University",
+          "Sun Yat-sen University",
+          "Ningbo University",
+          "Tohoku University",
+          "Sun Yat-sen University",
+          "Sun Yat-sen University",
+          "Sun Yat-sen University"
+        ],
+        "published": "2026-09-23",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.78648",
+        "openalex_id": "https://openalex.org/W7214088567",
+        "url": "https://doi.org/10.1002/adfm.78648",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 42,
+        "scores": {
+          "topic": 18,
+          "method": 6,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "超分子增强的多功能集成自适应涂层用于海洋防护",
+        "summary_zh": "该工作通过室温水相超分子自组装策略制备GO-HHU-CuPN-EP涂层，其中铈基MOF纳米晶在GO纳米片上原位生长，随后表面组装铜-单宁酸金属酚网络。该分级结构抑制GO重堆叠并形成曲折扩散屏障，CuPN作为界面调节剂改善填料-基体相容性和环境适应性，实现结构增强与自适应防护集成。",
+        "research_details_zh": "研究针对海洋防护涂层在机械损伤、紫外照射、微生物污损和腐蚀耦合作用下易过早失效的问题，因为传统屏障型体系缺乏自适应界面调控和集成防护功能。作者通过室温水相超分子自组装策略制备GO-HHU-CuPN-EP涂层。在该涂层中，铈基MOF纳米晶（HHU）在GO纳米片上原位生长，随后表面组装铜-单宁酸金属酚网络（CuPN）。所得分级结构抑制GO重堆叠并形成曲折扩散屏障，CuPN作为界面调节剂改善填料-基体相容性和环境适应性。调控后的界面实现有效应力传递、可控抑制剂释放和光热缺陷封闭，同时提高耐候性和抗菌活性。结果，涂层达到27.4 MPa拉伸强度、7.4 MPa附着力、96.2%抗菌率，以及浸泡100天后阻抗模量高于10^9.5 Ω·cm2。这些结果确立了超分子界面调控作为集成结构增强和自适应防护的协同策略。",
+        "methods_zh": "摘要明确出现的方法包括：室温水相超分子自组装策略制备GO-HHU-CuPN-EP涂层；铈基MOF纳米晶（HHU）在GO纳米片上原位生长；随后表面组装铜-单宁酸金属酚网络（CuPN）；对涂层进行拉伸强度、附着力、抗菌率测试；以及浸泡100天后的阻抗模量测试。摘要未报告具体表征手段、合成配比和完整电化学测试条件。",
+        "relevance_zh": "该文与框架材料组装和自组装技术主线相关，涉及铈基MOF纳米晶在GO上的原位生长及超分子金属酚网络表面组装，属于MOF基复合涂层的界面组装与功能集成。其价值在于展示MOF纳米晶与二维材料、金属酚网络和环氧基体结合，实现海洋防护中的结构增强与自适应防护。但该文不涉及介孔导电MOF、共轭框架或电化学合成，与核心方向关联有限，可作为框架材料组装和多功能涂层拓展参考。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告MOF晶体结构、GO与MOF比例、CuPN组装细节、涂层制备参数、抗菌测试菌种、腐蚀测试条件及机制验证数据，这些关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "涂层拉伸强度为27.4 MPa，附着力为7.4 MPa，抗菌率为96.2%。",
+          "浸泡100天后阻抗模量高于10^9.5 Ω·cm2。",
+          "分级结构抑制GO重堆叠并形成曲折扩散屏障，CuPN作为界面调节剂改善填料-基体相容性和环境适应性。",
+          "调控界面实现有效应力传递、可控抑制剂释放和光热缺陷封闭，同时提高耐候性和抗菌活性。"
+        ]
+      },
+      {
+        "title": "Hydrogen-bond-assisted self-assembly of donor-acceptor structures for metal-free oxygen activation",
+        "abstract": "Molecular oxygen (O 2 ) is a potential green oxidant. It is not only widely used for the selective oxidation of organic compounds, but also can synthesize hydrogen peroxide (H 2 O 2 ) through the oxygen reduction reaction (ORR) process in water. However, the spin prohibition of O 2 limits its application, and it requires an activation process to improve its reactivity. Among various catalysts for photocatalytic oxygen activation, covalent organic frameworks (COFs) with donor-acceptor (D-A) structures have shown promising potential. However, the construction of D-A structures through covalent bonds poses challenges in catalyst synthesis and expansion. In this work, we propose a hydrogen bond-assisted self-assembly method for COFs catalysts. The results show that after the self-assembly modification of K-TPBP with 9-anthracenemethanol, it exhibits better O 2 activation performance, and its H 2 O 2 production performance is doubled compared with the original catalyst. At the same time, the modified catalyst showed better reactivity in the selective aerobic oxidation of sulfides. Further insight into the mechanism revealed that the D-A structure analogs achieved via self-assembly modification effectively strengthen the built-in electric field on the catalyst surface and facilitate charge transfer and dispersion within the catalyst, highlighting its beneficial effect on the reaction.",
+        "authors": [
+          "Yinwei Wang",
+          "Xiao Feng",
+          "Jieqi Cao",
+          "Jin Gao",
+          "Min Wang",
+          "Song Shi"
+        ],
+        "institutions": [
+          "Dalian University of Technology",
+          "Dalian University",
+          "Dalian Institute of Chemical Physics",
+          "Dalian National Laboratory for Clean Energy",
+          "University of Chinese Academy of Sciences",
+          "Dalian Institute of Chemical Physics",
+          "Dalian National Laboratory for Clean Energy",
+          "University of Chinese Academy of Sciences",
+          "Dalian Institute of Chemical Physics",
+          "Dalian National Laboratory for Clean Energy",
+          "Dalian University of Technology",
+          "Dalian University",
+          "Dalian Institute of Chemical Physics",
+          "Dalian National Laboratory for Clean Energy"
+        ],
+        "published": "2026-09-23",
+        "journal": "Applied Catalysis B: Environmental",
+        "doi": "10.1016/j.apcatb.2026.127552",
+        "openalex_id": "https://openalex.org/W7214076687",
+        "url": "https://doi.org/10.1016/j.apcatb.2026.127552",
+        "sources": [
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 6,
+          "quality": 0,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "氢键辅助自组装构建供体-受体结构用于无金属氧气活化",
+        "summary_zh": "该工作提出氢键辅助自组装方法构建COF催化剂，以9-蒽甲醇对K-TPBP进行自组装修饰后，其O2活化性能提升，H2O2产生性能相比原始催化剂翻倍，并在硫化物选择性有氧氧化中表现更好。机制上，自组装修饰形成的供体-受体结构类似物增强催化剂表面内建电场，促进电荷转移和分散。",
+        "research_details_zh": "研究针对分子氧作为绿色氧化剂的应用受自旋禁阻限制、需要活化过程提高反应性的问题。在光催化氧气活化催化剂中，具有供体-受体（D-A）结构的共价有机框架（COF）显示出潜力，但通过共价键构建D-A结构在催化剂合成和扩展方面存在挑战。本工作提出一种氢键辅助自组装方法用于COF催化剂。结果显示，K-TPBP经9-蒽甲醇自组装修饰后，表现出更好的O2活化性能，其H2O2产生性能相比原始催化剂翻倍。同时，修饰后催化剂在硫化物选择性有氧氧化中表现出更好的反应性。进一步机制研究表明，通过自组装修饰实现的D-A结构类似物有效增强催化剂表面内建电场，并促进催化剂内电荷转移和分散，突出其对反应的有益影响。",
+        "methods_zh": "摘要明确出现的方法包括：提出氢键辅助自组装方法用于COF催化剂；以9-蒽甲醇对K-TPBP进行自组装修饰；评价O2活化性能、H2O2产生性能以及硫化物选择性有氧氧化反应性；通过机制研究探讨自组装修饰形成的D-A结构类似物对表面内建电场、电荷转移和分散的影响。摘要未报告具体合成条件、表征手段和性能测试参数。",
+        "relevance_zh": "该文与共轭COF、自组装技术及框架材料组装主线高度相关，提出氢键辅助自组装构建D-A结构类似物，避免传统共价键构建D-A结构的合成挑战，并用于光催化氧气活化和硫化物有氧氧化。其价值在于展示自组装修饰调控COF内建电场和电荷转移，为无金属氧气活化提供新策略。但该文不涉及介孔导电MOF、介孔材料或电化学合成，是否精读取决于对COF自组装和光催化氧气活化机制的兴趣。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告COF具体结构、氢键位点、自组装比例、H2O2产率数值、硫化物氧化选择性数值、内建电场表征证据及电荷转移机制细节，这些关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "K-TPBP经9-蒽甲醇自组装修饰后，H2O2产生性能相比原始催化剂翻倍。",
+          "修饰后催化剂在硫化物选择性有氧氧化中表现出更好的反应性。",
+          "自组装修饰形成的D-A结构类似物有效增强催化剂表面内建电场，并促进电荷转移和分散。",
+          "摘要未报告具体H2O2产率数值、选择性数值和稳定性数据。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-24",
     "search_start": "2026-09-22",
     "generated_at": "2026-09-25T01:25:57Z",

@@ -72,16 +72,28 @@
       "Helmut Cölfen",
       "Zhen‐An Qiao"
     ],
-    "institutions": [],
+    "institutions": [
+      "Jilin University",
+      "University of Konstanz",
+      "Jilin University",
+      "Jilin University",
+      "Dalian University",
+      "Jilin University",
+      "Jilin University",
+      "Jilin University",
+      "University of Konstanz",
+      "Jilin University"
+    ],
     "published": "2026-09-23",
-    "journal": "Angewandte Chemie",
-    "doi": "10.1002/ange.1975103",
-    "url": "https://doi.org/10.1002/ange.1975103",
+    "journal": "Angewandte Chemie International Edition",
+    "doi": "10.1002/anie.1975103",
+    "openalex_id": "https://openalex.org/W7214092773",
+    "url": "https://doi.org/10.1002/anie.1975103",
     "sources": [
-      "Crossref"
+      "Crossref",
+      "OpenAlex"
     ],
     "arxiv_id": null,
-    "openalex_id": null,
     "score": 54,
     "scores": {
       "topic": 12,
@@ -95,7 +107,7 @@
     },
     "quality_tier": "premium",
     "quality_hits": [
-      "Angewandte Chemie"
+      "Angewandte Chemie International Edition"
     ],
     "hits": {
       "framework": [],
@@ -120,6 +132,122 @@
     "excluded_hits": [],
     "reading_depth": "摘要",
     "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Boosting C–S Coupling for Selective Hydroxymethanesulfonate Electrosynthesis over Bimetallic Cu–Ni Sites within Covalent Organic Frameworks",
+    "abstract": "Abstract Electrocatalytic C–S coupling via CO2/SO32– co-reduction represents a promising route for sustainable hydroxymethanesulfonate (HMS) synthesis, yet it still suffers from sluggish C–S coupling kinetics and severe competing side reactions. Herein, we develop bimetallic Cu–Ni sites within a covalent organic framework (CuNi-COF) catalyst for efficient and selective HMS electrosynthesis. Mechanistic investigations reveal that bimetallic Cu–Ni sites can synergistically reduce CO2 to *CHOH and promote C–S coupling of *CHOH with *SO3, while inhibiting the competing hydrogen evolution reaction, thereby resulting in a high efficiency for selective HMS synthesis. Impressively, CuNi-COF achieves the exceptional HMS yield rate of 32.8 μmol cm–2 h–1 and a Faradaic efficiency of 27.3% in a membrane electrode assembly electrolyzer, along with outstanding long-term stability for over 100 h of electrolysis. Techno-economic analysis further demonstrates the considerable economic viability of the CuNi-COF-driven electrocatalytic C–S coupling method for industrial-scale HMS production.",
+    "authors": [
+      "Hancang Ma",
+      "Ruixuan Yang",
+      "Yali Guo",
+      "Ye Tian",
+      "Xiaomei Wang",
+      "Ke Chu"
+    ],
+    "institutions": [
+      "Lanzhou Jiaotong University",
+      "Lanzhou Jiaotong University",
+      "Lanzhou Jiaotong University",
+      "Hebei North University",
+      "Lanzhou Jiaotong University",
+      "Lanzhou Jiaotong University"
+    ],
+    "published": "2026-09-24",
+    "journal": "ACS Sustainable Chemistry & Engineering",
+    "doi": "10.1021/acssuschemeng.6c08194",
+    "openalex_id": "https://openalex.org/W7214243221",
+    "url": "https://doi.org/10.1021/acssuschemeng.6c08194",
+    "sources": [
+      "OpenAlex"
+    ],
+    "score": 52,
+    "scores": {
+      "topic": 29,
+      "method": 7,
+      "quality": 0,
+      "novelty": 8,
+      "network": 0,
+      "applied": 5,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "standard",
+    "quality_hits": [],
+    "hits": {
+      "framework": [
+        "cof",
+        "covalent organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [
+        "electrosynthesis"
+      ],
+      "materials": [
+        "membrane"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中电化学合成、组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Oxygen Enrichment on Carbon Nanoreactors and *OOH Modulation on Sn 1 Sites Cooperatively Promote Industrial‐Scale H 2 O 2 Electrosynthesis",
+    "abstract": "ABSTRACT Industrial‑scale H 2 O 2 electrosynthesis faces two major challenges: oxygen depletion at the catalytic interface, which causes diffusion limitations, and a strong dependence of product selectivity on the adsorption behavior of the *OOH intermediate. Constructing an O 2 ‑enriched microenvironment alleviates transport issues, while tuning *OOH adsorption prevents excessive O─O bond cleavage; their synergy is expected to boost ORR performance. Guided by theory, we developed a Sn single‑atom‐anchored hollow mesoporous carbon nanoreactor (Sn 1 /HMCS). The hollow mesoporous carbon nanoreactor facilitates an oxygen‑enriched microenvironment at the catalytic interface via spontaneous O 2 adsorption and diffusion, while the N/O‑coordinated Sn sites enable optimal *OOH adsorption regulation, delivering ∼100% H 2 O 2 selectivity. The adaptive matching between the spontaneous oxygen supply kinetics and the electrocatalytic reaction allows the system to maintain both optimal thermodynamic potential and high selectivity at industrially relevant high‑current conditions. Assembling Sn 1 /HMCS in a solid‑electrolyte cell delivered an industrial‑scale system for high‑purity H 2 O 2 with low energy consumption and excellent stability. At 500 mA cm − 2 , it produced ∼4.51 wt% H 2 O 2 at a rate of 31.8 mol g catalyst − 1 h − 1 , with stable operation over 300 h. This work provides a practical way to prepare catalysts meeting industrial‑scale current density requirements and facilitates the development of economically feasible H 2 O 2 electrosynthesis schemes.",
+    "authors": [
+      "Chao Miao",
+      "Haiyu Wang",
+      "Lixu Wu",
+      "Xi Gong",
+      "lina Li",
+      "Guohua Zhao"
+    ],
+    "institutions": [],
+    "published": "2026-09-24",
+    "journal": "Angewandte Chemie International Edition",
+    "doi": "10.1002/anie.5058302",
+    "url": "https://doi.org/10.1002/anie.5058302",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 52,
+    "scores": {
+      "topic": 12,
+      "method": 9,
+      "quality": 15,
+      "novelty": 8,
+      "network": 0,
+      "applied": 5,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie International Edition"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [
+        "mesoporous"
+      ],
+      "assembly": [],
+      "electrochemical": [
+        "electrosynthesis"
+      ],
+      "materials": [
+        "carbon",
+        "mesoporous"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中介孔化、电化学合成，建议优先检查其合成路径与孔结构证据。"
   },
   {
     "title": "A Cu 2 S/NiOOH Heterojunction Enables Highly Selective Ammonia‐to‐Nitrite Electrooxidation at Industrially Relevant Current Densities",
@@ -183,65 +311,187 @@
     "recommendation": "同时命中电化学合成、组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Ammonia‐Gated Guanyl Hydrazone Photoisomerization Enables Sequential Solid‐State Optical Response in Hydrogen‐Bonded Organic Frameworks",
-    "abstract": "ABSTRACT Light‐driven molecular switches enable precise and noninvasive regulation of molecular structure and function, and thus represent fundamental building blocks for stimuli‐responsive photofunctional materials. However, translating molecular‐level photoswitching into sequence‐dependent macroscopic outputs in the solid state remains a formidable challenge. In this study, we report a supramolecular strategy that integrates guanyl hydrazone switches into hydrogen‐bonded organic frameworks (HOFs) to overcome this limitation. A tetrasulfonate‐substituted tetraphenylethylene anion ( TPE 4 − ) is employed as the host scaffold, while guanyl hydrazone ( G2 ) functions as the photoresponsive guest, affording a functional framework through cooperative assembly. This system leverages a reversible crystalline–amorphous phase transformation, triggered by acid–base stimuli, to gate the solid‐state photoisomerization of G2 . Upon activation, the configurational switching of G2 induces a cascade reorganization of the TPE 4 − packing motifs, leading to pronounced and sequence‐dependent modulation of both fluorescence and macroscopic coloration. In addition, the applicability of this system in information encryption has been demonstrated. This work expands the design paradigm of hydrazone‐based photoswitches in the solid state and provides a supramolecular strategy for constructing intelligent optical materials with high information density and enhanced security.",
+    "title": "Liquid–Solid Interfacial Fusion Assembly Enables Programmable Chain Density for Controlling Polymer–Mineral Interactions",
+    "abstract": "Abstract Biomineralization offers key insights into nature’s design of hierarchical materials with exceptional properties. However, progress is hindered by limited molecular-level understanding of organic–inorganic interfacial interactions, particularly how organic matrix structure directs mineral formation and organization. Herein, we synthesize a series of poly(methacrylic acid)x-block-poly(benzyl methacrylate)y (Mx-By) nanoparticles with varying block lengths via polymerization-induced self-assembly, followed by their fusion onto mesoporous silica surfaces through liquid–solid interfacial fusion assembly. This approach yields silica-copolymer core–shell composite nanoparticles with tunable interfacial structures. We show that the packing density of copolymer chains on the fused layer is governed by the degree of polymerization of the hydrophobic block (By). This tunability provides a model platform to systematically investigate how surface chain density dictates polymer–mineral interactions. It is demonstrated that the surface chain density plays a decisive role in controlling the spatial distribution of guest species within mineral phases. We reveal the underlying mechanism behind this interesting phenomenon, which is widespread in natural biominerals. This work not only offers new insights into biomineralization but also provides new design rules for engineering composite crystals with tunable internal compositions and structures.",
     "authors": [
-      "Weixu Feng",
-      "Dong Han",
-      "Jiamiao Yu",
-      "Zihang Tang",
-      "Yan Zhao",
-      "Wei Jun Tian",
-      "Hongxia Yan"
+      "Dan Yang",
+      "Qin Li",
+      "Xiaohong Hu",
+      "Boxiang Peng",
+      "Pei Liu",
+      "Biao Xiong",
+      "Xia Sun",
+      "Yin Ning"
     ],
-    "institutions": [
-      "Northwestern Polytechnical University",
-      "Northwestern Polytechnical University",
-      "Northwestern Polytechnical University",
-      "Northwestern Polytechnical University",
-      "Northwestern Polytechnical University",
-      "Northwestern Polytechnical University",
-      "Northwestern Polytechnical University"
-    ],
-    "published": "2026-09-22",
-    "journal": "Angewandte Chemie",
-    "doi": "10.1002/ange.7471326",
-    "openalex_id": "https://openalex.org/W7214062410",
-    "url": "https://doi.org/10.1002/ange.7471326",
+    "institutions": [],
+    "published": "2026-09-25",
+    "journal": "Macromolecules",
+    "doi": "10.1021/acs.macromol.6c02018",
+    "url": "https://doi.org/10.1021/acs.macromol.6c02018",
     "sources": [
-      "Crossref",
-      "OpenAlex"
+      "Crossref"
     ],
-    "arxiv_id": null,
-    "score": 47,
+    "score": 45,
     "scores": {
-      "topic": 18,
+      "topic": 12,
+      "method": 10,
+      "quality": 8,
+      "novelty": 8,
+      "network": 0,
+      "applied": 4,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Macromolecules"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [
+        "mesoporous"
+      ],
+      "assembly": [
+        "assembly",
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "copolymer",
+        "materials",
+        "mesoporous",
+        "polymer",
+        "silica"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Hierarchical Confinement and Oxygen‐Vacancy Catalysis for Highly Reversible Room‐Temperature Sodium‐Sulfur Batteries",
+    "abstract": "ABSTRACT Room‐temperature sodium‐sulfur (RT Na‐S) batteries are attractive for grid‐scale energy storage owing to their high theoretical energy density and elemental abundance, yet their practical application remains severely challenged by sluggish sulfur redox kinetics and the shuttle of sodium polysulfides. Herein, we establish a molten‐salt‐assisted strategy to construct a multifunctional cathode host (PNCNs@CeO 2‐x ), where oxygen‐deficient CeO 2‐x nanoparticles are confined within a hierarchically porous carbon framework and encapsulated by graphene‐like carbon nanosheets. This deliberately orchestrated architecture unifies spatial confinement and oxygen‐vacancy‐enabled catalysis to form conductive microreaction domains featuring continuous ion/electron transport pathways and abundant active interfaces. Through in situ characterizations and machine‐learning‐assisted molecular dynamics simulations, we demonstrate that oxygen vacancies in CeO 2‐x induce favorable charge redistribution, strengthen Na 2 S x adsorption, lower the energy barrier for Na 2 S 2 /Na 2 S conversion, and promote a highly reversible solid–liquid–solid conversion process, thereby effectively suppressing polysulfide dissolution. Consequently, the PNCNs@CeO 2‐x ‐S cathode exhibits an impressive reversible capacity of 1167 mAh g −1 at 0.1 A g −1 and outstanding cycling stability, maintaining 86.2% capacity retention after 9000 cycles at 5 A g −1 . This work establishes a confinement‐catalysis design paradigm for regulating sulfur electrochemistry for long‐life RT Na‐S batteries.",
+    "authors": [
+      "Wei He",
+      "Huiling Fang",
+      "Zijing Huo",
+      "Jiaqi Yu",
+      "Puwu Liang",
+      "Mujtaba Aminu Muhammad",
+      "Ahmed Abdel‐Aziz",
+      "Xiang Hu",
+      "Suqin Ci",
+      "Zhenhai Wen"
+    ],
+    "institutions": [],
+    "published": "2026-09-24",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.75129",
+    "url": "https://doi.org/10.1002/adma.75129",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 44,
+    "scores": {
+      "topic": 12,
       "method": 4,
       "quality": 15,
+      "novelty": 8,
+      "network": 0,
+      "applied": 2,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [
+        "conductive"
+      ],
+      "mesoporous": [
+        "hierarchically porous"
+      ],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "carbon",
+        "porous"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中介孔化、导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Supramolecular‐Reinforced Multifunctional Integrated Adaptive Coatings for Marine Protection",
+    "abstract": "ABSTRACT Marine protective coatings often fail prematurely under the coupled effects of mechanical damage, UV irradiation, microbial fouling, and corrosion, because conventional barrier‑type systems lack adaptive interfacial regulation and integrated protective functions. Herein, a GO‑HHU‑CuPN‑EP coating is fabricated via a room‑temperature aqueous supramolecular self‑assembly strategy. In this coating, cerium‐based MOF nanocrystals (HHU) are grown in situ on GO nanosheets, followed by the surface assembly of a copper–tannic acid metal‐phenolic network (CuPN). The resulting hierarchical structure suppresses GO restacking and forms a tortuous diffusion barrier, while the CuPN acts as an interfacial regulator that improves filler‐matrix compatibility and environmental adaptability. The regulated interface enables efficient stress transfer, controlled inhibitor release, and photothermal defect confinement, while also improving weather resistance and antibacterial activity. As a result, the coating achieves a tensile strength of 27.4 MPa, an adhesion force of 7.4 MPa, an antibacterial rate of 96.2%, and an impedance modulus above 10 9.5 Ω·cm 2 after 100 d of immersion. These results establish supramolecular interfacial regulation as a coordinated strategy for integrating structural reinforcement and adaptive protection in durable marine coatings.",
+    "authors": [
+      "Hao Li",
+      "Hao-Jie Yan",
+      "Shi‐Qi Yan",
+      "You-Lin Zhang",
+      "Hui-Song Hu",
+      "Qin-hao Zhang",
+      "Pan Liu",
+      "Lian-Kui Wu",
+      "Hongfang Liu",
+      "Fahe Cao"
+    ],
+    "institutions": [
+      "Sun Yat-sen University",
+      "Sun Yat-sen University",
+      "Sun Yat-sen University",
+      "Sun Yat-sen University",
+      "Sun Yat-sen University",
+      "Ningbo University",
+      "Tohoku University",
+      "Sun Yat-sen University",
+      "Sun Yat-sen University",
+      "Sun Yat-sen University"
+    ],
+    "published": "2026-09-23",
+    "journal": "Advanced Functional Materials",
+    "doi": "10.1002/adfm.78648",
+    "openalex_id": "https://openalex.org/W7214088567",
+    "url": "https://doi.org/10.1002/adfm.78648",
+    "sources": [
+      "OpenAlex"
+    ],
+    "score": 42,
+    "scores": {
+      "topic": 18,
+      "method": 6,
+      "quality": 8,
       "novelty": 6,
       "network": 0,
       "applied": 2,
       "archive": 2,
       "penalty": 0
     },
-    "quality_tier": "premium",
+    "quality_tier": "strong",
     "quality_hits": [
-      "Angewandte Chemie"
+      "Advanced Functional Materials"
     ],
     "hits": {
       "framework": [
-        "hofs"
+        "mof"
       ],
       "conductive": [],
       "mesoporous": [],
       "assembly": [
         "assembly",
-        "cooperative assembly"
+        "self assembly",
+        "self-assembly"
       ],
       "electrochemical": [],
       "materials": [
-        "crystalline",
-        "materials",
         "supramolecular"
       ]
     },
@@ -249,128 +499,6 @@
     "excluded_hits": [],
     "reading_depth": "摘要",
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Nanoparticle-Mediated Synthesis of Single-Crystal Covalent Organic Frameworks of Uniform Size and Shape",
-    "abstract": "Abstract The synthesis of highly crystalline covalent organic frameworks (COFs) has recently been achieved, but strategies to obtain monodispersed single crystals of uniform size and shape remain elusive. Here, we show that simply adding silica nanoparticles (SiNPs) to a conventional solvothermal synthesis directs imine-based COFs (e.g., COF-300) to grow into monodispersed, polyhedral single-crystal microparticles. Our experiments suggest dual functions of these nanoparticles. They promote burst nucleation of COFs via monomer adsorption and, then, by adhering to the crystal surface, prevent crystal aggregation and nonclassical crystallization pathways. This nanoparticle-mediated strategy is compatible with common small-molecule modulation to tune COF morphologies and shapes while maintaining low size dispersity. The method also extends to other three-dimensional (3D) imine COFs, such as LZU-111 and LZU-79. Notably, the obtained microcrystals show excellent colloidal stability and can assemble into superstructures reflecting their anisotropic shape. This work paves the way for COF-based crystalline materials and applications where size and shape uniformity are essential.",
-    "authors": [
-      "Ji Ao",
-      "Xinyu Zhang",
-      "Zeqi Li",
-      "Barry Chi Hong Lai",
-      "Wendi Duan",
-      "Zhisheng Wang",
-      "Seungkyu Lee",
-      "Yoonseob Kim",
-      "Yijiang Mu",
-      "Yufeng Wang"
-    ],
-    "institutions": [],
-    "published": "2026-09-22",
-    "journal": "Journal of the American\nChemical Society",
-    "doi": "10.1021/jacs.6c13136",
-    "url": "https://doi.org/10.1021/jacs.6c13136",
-    "sources": [
-      "Crossref"
-    ],
-    "score": 45,
-    "scores": {
-      "topic": 18,
-      "method": 2,
-      "quality": 15,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Journal of the American Chemical Society"
-    ],
-    "hits": {
-      "framework": [
-        "cof",
-        "cofs"
-      ],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "nucleation"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "colloidal",
-        "crystal",
-        "crystalline",
-        "materials",
-        "nanoparticle",
-        "silica"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Mechanical Programming of Hollow DNA Nanocapsules Rewires In Vivo Trafficking",
-    "abstract": "ABSTRACT DNA nanostructures are programmable, biocompatible platforms for biomedicine; however, their mechanical properties are coupled to sequence and structural dimensions, limiting control over stiffness. Here, we report a paradigm shift from static design to mechanical engineering of DNA nanostructures. Using a nanoemulsion interfacial‐confined coordination assembly strategy, hollow DNA nanocapsules (HDCs) were constructed with mechanical properties decoupled from chemical identity, without hard templates. By tuning the nanoemulsion‐to‐DNA‐solution ratio, HDCs with sizes (∼160 nm) and surface charges (∼‐20 mV), yet adjustable shell thicknesses (8–72 nm) and Young's moduli (8–180 MPa), were achieved while preserving DNA function and enabling DNA to serve as scaffold and therapeutic cargo. Proteomic profiling revealed stiffness‐dependent remodeling of protein corona: soft HDCs enriched dysopsonins, whereas hard HDCs recruited complement and coagulation factors, producing a “corona switch” modulating pharmacokinetics and biodistribution. Consequently, soft HDCs exhibited prolonged circulation ( t 1/2 = 8.8 h vs 4.5 h), enhanced tumor accumulation (1.9‐fold higher at 8 h), reduced hepatic sequestration, and increased kidney distribution versus hard HDCs. As a proof of concept, antisense‐based HDCs provided evidence that mechanical softening improved in vivo therapeutic performance. This work establishes mechanical modulus as a programmable parameter and provides a framework for regulating protein corona formation and systemic fate.",
-    "authors": [
-      "Fan Yang",
-      "Minchao Liu",
-      "Qianqian Lu",
-      "Yufang Kou",
-      "Lifei Gao",
-      "Hongyue Yu",
-      "Wei Li",
-      "Fenglei Cao",
-      "Hao Xing",
-      "Dongyuan Zhao",
-      "Xiaomin Li"
-    ],
-    "institutions": [],
-    "published": "2026-09-22",
-    "journal": "Angewandte Chemie International Edition",
-    "doi": "10.1002/anie.2946344",
-    "url": "https://doi.org/10.1002/anie.2946344",
-    "sources": [
-      "Crossref journal watch"
-    ],
-    "score": 43,
-    "scores": {
-      "topic": 6,
-      "method": 2,
-      "quality": 15,
-      "novelty": 6,
-      "network": 10,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Angewandte Chemie International Edition"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "coordination"
-      ]
-    },
-    "network_hits": [
-      "Dongyuan Zhao",
-      "Xiaomin Li"
-    ],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶、关注作者/机构，建议优先检查其合成路径与孔结构证据。"
   },
   {
     "title": "Programming semiconducting two-dimensional conjugated metal–organic frameworks via anisotropic reticular chemistry",
@@ -584,6 +712,68 @@
     "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
   },
   {
+    "title": "Tamper‐Responsive Physical Unclonable Functions via Graphene‐Interlayered Block Copolymer Random Structures",
+    "abstract": "ABSTRACT Microscopically engineered materials inherently harbor unique structural signatures arising from the stochastic fabrication. Physical unclonable functions (PUFs) exploit structural randomness to generate unique cryptographic responses, establishing hardware‐based security. However, conventional PUF architectures rely on static configurations to guarantee authentication reproducibility, and the intrinsic rigidity permits unauthorized reverse‐engineering without detectable traces. A tamper‐responsive physical unclonable function (TR‐PUF) platform is presented, integrating a high‐entropy source with a reactive two‐dimensional material interlayer to actively defend cryptographic keys. The entropy source relies on fingerprint‐like nanopatterns derived from thermodynamic fluctuations during block copolymer self‐assembly, while a reduced graphene oxide interlayer leverages out‐of‐plane chemical and mechanical sensitivity enabling device responsiveness to external intrusions. Systematic characterization confirms robust fundamental cryptographic performance, with near‐ideal uniqueness and uniformity. Also, the tamper‐responsive capability is demonstrated across three representative intrusion scenarios, where simulated high‐resolution probing, chemical, or mechanical attempts to access the internal architecture trigger spontaneous and irreversible key invalidation via localized degradation. Furthermore, broad applicability is validated through rigorous environmental survivability assessment under low Earth orbit simulated conditions, alongside seamless integration across diverse form factors. The autonomous hardware protection framework opens possibilities for securing electronic components across next‐generation hardware architectures in strategic fields like space missions and military applications.",
+    "authors": [
+      "Gyu Hui Jo",
+      "Dae Hui Park",
+      "Jeong‐Ho Jang",
+      "Woo Seok Tack",
+      "Jin Man Kim",
+      "Hak Ki Yu",
+      "Hyeong Min Jin",
+      "Jang Hwan Kim"
+    ],
+    "institutions": [],
+    "published": "2026-09-24",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.75142",
+    "url": "https://doi.org/10.1002/adma.75142",
+    "sources": [
+      "Crossref",
+      "Crossref journal watch"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 39,
+    "scores": {
+      "topic": 6,
+      "method": 8,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly",
+        "block copolymer",
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "copolymer",
+        "material",
+        "materials",
+        "oxide"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
     "title": "COFFlow: Building-Block-Based Generative Modeling for Two-Dimensional Covalent Organic Framework Discovery",
     "abstract": "Abstract Two-dimensional covalent organic frameworks (2D COFs) are promising porous materials with vast yet largely unexplored design space arising from diverse building blocks (BBs) and crystal topologies. Efficient crystal structure prediction (CSP) and inverse design of 2D COFs therefore remain highly challenging. Here, we develop COFFlow, a flow-matching-based generative framework for CSP of 2D COFs. A COF-specific deconstruction algorithm is introduced to consistently decompose periodic COFs into experimentally relevant BBs across diverse topologies, enabling direct generative assembly of periodic frameworks from BB representations. Systematic evaluations demonstrate that COFFlow can reliably and efficiently generate structurally consistent and chemically valid 2D COFs. Beyond the commonly used match rate (MR), we further introduce validity rate (VR) to assess the chemical validity of generated structures. The models exhibit nontrivial extrapolation capability toward unseen BBs and crystal topologies, although preserving chemical validity under strong distribution shifts remains challenging. To demonstrate the practical utility of the framework, we integrated COFFlow with data-driven screening and inverse design of 2D COFs for methane storage. Using deliverable capacity as the target metric for adsorbed natural gas application, we identified several previously unreported 2D COFs with performance among the highest reported to date. More broadly, this work establishes a scalable framework for AI-driven discovery and design of reticular materials.",
     "authors": [
@@ -640,6 +830,61 @@
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
+    "title": "Hydrophobic Group‐Directed Self‐Assembly of Gradient Porous Antireflective and Superhydrophilic Coatings on Photovoltaic Glass",
+    "abstract": "ABSTRACT Coatings for photovoltaic glass urgently require antireflection, self‐cleaning, and durability. Herein, we leveraged the surface free energy minimization effect of n ‐butyl hydrophobic groups in n ‐butyl glycidyl ether (BGE) to design a directed induction strategy, and successfully fabricated a gradient porous superhydrophilic and antireflective coating (BTKS‐3). This effect drove the spontaneous migration of hydrophobic groups to the surface, creating a vertical concentration gradient that modulated the local chemical environment and solvent evaporation behavior during film formation, ultimately directing the formation of a gradient porous architecture. As a result, a gradient porous architecture formed spontaneously, going from a dense bottom layer to a porous top layer. Such a gradient enables stepwise refractive index matching from the glass substrate to air, boosting transmittance to 94.61%, which significantly outperforms bare glass and commercial antireflective coatings. Meanwhile, surface hydroxyl groups and nanoscale roughness endow the coating with superhydrophilicity (contact angle &lt; 10°) and self‐cleaning ability, along with good abrasion resistance and UV stability. Over, this work achieves synergistic optimization of optical, self‐cleaning, and durability properties, offering a new paradigm for high‐performance functional coatings on photovoltaic glass.",
+    "authors": [
+      "Ran Chen",
+      "Sifan Chen",
+      "Xiaoli Zhan",
+      "Ziqiang Liu",
+      "Qinghua Zhang"
+    ],
+    "institutions": [],
+    "published": "2026-09-24",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.75150",
+    "url": "https://doi.org/10.1002/adma.75150",
+    "sources": [
+      "Crossref",
+      "Crossref journal watch"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 37,
+    "scores": {
+      "topic": 6,
+      "method": 6,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly",
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "porous"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
     "title": "Electrosynthesis of arylglycines from carbon dioxide, nitrite and aldehydes",
     "abstract": "",
     "authors": [
@@ -687,6 +932,61 @@
     "network_hits": [],
     "excluded_hits": [],
     "reading_depth": "仅元数据",
+    "recommendation": "同时命中电化学合成，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Industrial-Scale Electrosynthesis of Amino Acids from the Air via a Molecular Ligand-Engineered Bismuth Catalyst",
+    "abstract": "Abstract Electrosynthesis of amino acids from air redefines pathways for accessing the fundamental molecular building blocks of life, yet it suffers from an intractable activity-selectivity trade-off due to kinetic mismatches across multistep reactions, especially in one-pot systems. Here, we report a molecular ligand-engineered bismuth catalyst (L-Bi) prepared via in situ electroreduction of bismuth metal–organic frameworks, achieving a record 93% Faradaic efficiency for glycine synthesis from simulated plasma-oxidized air and glyoxylic acid at a current density of 100 mA cm–2. In situ spectroscopy and theoretical calculations reveal that the preserved coordinated ligands engineer the electronic and spatial environment of Bi active sites, lowering the product desorption barrier (the rate-determining step), and enriching edge-active sites, thus leading to highly efficient and selective formation of amino acids at high current density. This work provides a solution to the long-standing electrocatalysis dilemma, establishing a generalizable paradigm for converting air into value-added organonitrogen compounds, which is critical to global nitrogen circularity.",
+    "authors": [
+      "Suisheng Li",
+      "Peisen Liao",
+      "Yuhao Zhang",
+      "Zhiyuan Yang",
+      "Jiacheng Li",
+      "Tao You",
+      "Runan Xiang",
+      "Xupeng Qin",
+      "Qi Yu",
+      "Qinghua Liu",
+      "Jun Li",
+      "Guangqin Li"
+    ],
+    "institutions": [],
+    "published": "2026-09-24",
+    "journal": "Journal of the American\nChemical Society",
+    "doi": "10.1021/jacs.6c16565",
+    "url": "https://doi.org/10.1021/jacs.6c16565",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 37,
+    "scores": {
+      "topic": 6,
+      "method": 5,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 3,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Journal of the American Chemical Society"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [
+        "electrosynthesis"
+      ],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
     "recommendation": "同时命中电化学合成，建议优先检查其合成路径与孔结构证据。"
   },
   {
@@ -806,76 +1106,21 @@
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Non-Canonical Peptide Self-Assembly for Mitochondria-Specific Cargo Delivery",
-    "abstract": "Abstract Targeting mitochondria is a promising strategy for precision tumor therapy, yet ligand-free mitochondrial drug delivery remains challenging. Here, we report a minimalist, intrinsically mitochondria-targeting noncanonical tetrapeptide, X-GNNpY, comprising one glycine, two (S)-2-amino-3-(naphthalen-1-yl)-propanoic acid residues (N), and one phosphorylated tyrosine (pY). Without external targeting ligands, X-GNNpY selectively accumulates in tumor-cell mitochondria through enzyme-instructed self-assembly. Conjugating chlorambucil (CLB) yields CLB-GNNpY, which efficiently redirects CLB to mitochondria. CLB-GNNpY exhibits good cellular selectivity, induces mitochondrial stress and immunogenic cell death, promotes M1-like macrophage polarization, and markedly enhances antitumor phagocytosis. This proof-of-concept study establishes noncanonical peptide self-assembly as a ligand-free supramolecular strategy for mitochondrial drug delivery and immune modulation in tumor therapy.",
+    "title": "Electrochemical Upgrading of Lignin-Derived Phenolics via Vanadium Redox-Mediated Decoupling",
+    "abstract": "Abstract Electrochemical upgrading of biomass-derived phenolics represents a sustainable pathway to high-value chemicals yet remains hindered by mass transfer limitations when processing industrially relevant current densities and high-concentration substrates. Here, using phenol as a model, we report a redox-mediated strategy that spatially decouples electrode reactions from catalytic hydrogenation steps via a V3+/V2+ shuttle, effectively bypassing the interfacial diffusion barrier. By selecting a bimetallic PtRu/C catalyst, we synergistically optimize phenol activation on Ru sites and H* adsorption on Pt sites, achieving a balanced modulation of hydrogen coverage and substrate activation that effectively lowers the reaction barrier. This mediator-driven approach achieves a cyclohexanol Faradaic efficiency of 82.6% at 70 °C and −200 mA cm–2 in a dilute aqueous system. Separately, the biphasic configuration enables continuous processing of high-concentration phenol (&amp;gt;11 mol L–1 in the organic phase), while the system also demonstrates stable operation for over 310 h under continuous-flow conditions. This mediator-decoupling strategy is extended to the efficient hydrogenation of other lignin-derived platform molecules, and it establishes a scalable paradigm for electrified biomass conversion, thereby providing a practical approach toward advancing renewable-power-driven biomass valorization from laboratory electrosynthesis to industrial chemical manufacturing.",
     "authors": [
-      "Ziyu Jia",
-      "Jian Wen",
-      "Shengyi Zhang",
-      "Yinghao Ding",
-      "Zhimou Yang",
-      "Zhi-Wen Hu"
+      "Zhihong Chen",
+      "Wangxin Ge",
+      "Lei Dong",
+      "Wenfei Zhang",
+      "Hongliang Jiang",
+      "Chunzhong Li"
     ],
     "institutions": [],
-    "published": "2026-09-22",
+    "published": "2026-09-23",
     "journal": "Journal of the American\nChemical Society",
-    "doi": "10.1021/jacs.6c16062",
-    "url": "https://doi.org/10.1021/jacs.6c16062",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 37,
-    "scores": {
-      "topic": 6,
-      "method": 6,
-      "quality": 15,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Journal of the American Chemical Society"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "supramolecular"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Electronic Confinement Induced Single Atom Functionality in Hydroxylamine Synthesis Unveiled by Constant Potential Simulation",
-    "abstract": "ABSTRACT Electrochemical nitric oxide (NO) reduction offers a sustainable route for hydroxylamine (NH 2 OH) synthesis. Single‐atom catalysts (SACs), featuring isolated metal centers and weaker adsorbate binding than extended metals, are widely regarded as ideal NH 2 OH‐selective catalysts. However, the recent observation of NH 2 OH production on highly reactive metals challenges this conventional viewpoint and indicates that SACs are not indispensable in hydroxylamine electrosynthesis. Here, we establish a unified picture in which electronic confinement induces single‐atom functionality that underlies NH 2 OH selectivity. Specifically, our constant‐potential simulations identify the competition between *HNO and *NOH formation as a key determinant of NH 2 OH versus NH 3 selectivity, with preferential *HNO formation directing the reaction toward NH 2 OH production. Grand canonical Monte Carlo simulations further reveal that highly reactive metals undergo operando surface restructuring, generating isolated metal centers that acquire single‐atom functionality and preferentially stabilize *HNO. Electronic structure analysis uncovers a unified origin of *HNO preference: heteroatom coordination induces strong orbital hybridization, narrowing the metal d‐band and localizing the electronic states of the isolated metal centers. This electronic confinement enables balanced *HNO‐metal interactions while preserving the intramolecular N─O bond, thereby stabilizing *HNO and promoting NH 2 OH selectivity. These findings establish electronic confinement as a promising and general design principle for developing NH 2 OH‐selective electrocatalysts beyond predefined SACs.",
-    "authors": [
-      "Changgeng Wei",
-      "Huan Li",
-      "Qianxiao Wang",
-      "Chenyu Yang",
-      "Thomas Frauenheim",
-      "Jianping Xiao"
-    ],
-    "institutions": [],
-    "published": "2026-09-22",
-    "journal": "Angewandte Chemie International Edition",
-    "doi": "10.1002/anie.1983375",
-    "url": "https://doi.org/10.1002/anie.1983375",
+    "doi": "10.1021/jacs.6c17163",
+    "url": "https://doi.org/10.1021/jacs.6c17163",
     "sources": [
       "Crossref journal watch"
     ],
@@ -892,7 +1137,7 @@
     },
     "quality_tier": "premium",
     "quality_hits": [
-      "Angewandte Chemie International Edition"
+      "Journal of the American Chemical Society"
     ],
     "hits": {
       "framework": [],
@@ -902,10 +1147,7 @@
       "electrochemical": [
         "electrosynthesis"
       ],
-      "materials": [
-        "coordination",
-        "oxide"
-      ]
+      "materials": []
     },
     "network_hits": [],
     "excluded_hits": [],
@@ -1038,31 +1280,97 @@
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Interface-guided twisted stacking of two-dimensional organic molecular crystals for polarization-reoriented emission",
-    "abstract": "Abstract The controlled vertical assembly of organic molecular crystals remains challenging because weak intermolecular interactions often lead to random nucleation and unpredictable stacking orientations. Here we report an interface-guided vapor-phase assembly strategy for constructing stacked two-dimensional organic molecular crystals with controlled stacking geometry and layer thickness. This approach enables two distinct stacking modes: lattice-matched parallel heterostacking in DPQ-DPFQ crystals (P-OCs) and energetically favored 80° twisted homostacking in DPFQ bilayers (T-OCs), with T-OCs accounting for 54.3 ± 3.8% of the counted crystals across six independent substrates under optimized growth conditions. The fixed-angle twisted stacking couples misaligned optical axes from adjacent layers, producing lateral and vertical waveguide resonance coupling and thickness-programmed polarization reorientation. By increasing the upper layer thickness from 530 to 935 nm, the output polarization angle is continuously shifted from 45° to 74°. This work establishes molecular interface-guided twisting as a structural strategy for encoding passive polarization outputs in organic crystalline photonic materials.",
+    "title": "Hydrogen-bond-assisted self-assembly of donor-acceptor structures for metal-free oxygen activation",
+    "abstract": "Molecular oxygen (O 2 ) is a potential green oxidant. It is not only widely used for the selective oxidation of organic compounds, but also can synthesize hydrogen peroxide (H 2 O 2 ) through the oxygen reduction reaction (ORR) process in water. However, the spin prohibition of O 2 limits its application, and it requires an activation process to improve its reactivity. Among various catalysts for photocatalytic oxygen activation, covalent organic frameworks (COFs) with donor-acceptor (D-A) structures have shown promising potential. However, the construction of D-A structures through covalent bonds poses challenges in catalyst synthesis and expansion. In this work, we propose a hydrogen bond-assisted self-assembly method for COFs catalysts. The results show that after the self-assembly modification of K-TPBP with 9-anthracenemethanol, it exhibits better O 2 activation performance, and its H 2 O 2 production performance is doubled compared with the original catalyst. At the same time, the modified catalyst showed better reactivity in the selective aerobic oxidation of sulfides. Further insight into the mechanism revealed that the D-A structure analogs achieved via self-assembly modification effectively strengthen the built-in electric field on the catalyst surface and facilitate charge transfer and dispersion within the catalyst, highlighting its beneficial effect on the reaction.",
     "authors": [
-      "Bian-Heng Wang",
-      "Yan-Peng Ye",
-      "Chao-Fei Xu",
-      "Meng-Yan Zhang",
-      "Tian-Zhe Feng",
-      "Zhao-Ji Lv",
-      "Ying-Xin Ma",
-      "Qiang Lv",
-      "Xue-Dong Wang"
+      "Yinwei Wang",
+      "Xiao Feng",
+      "Jieqi Cao",
+      "Jin Gao",
+      "Min Wang",
+      "Song Shi"
+    ],
+    "institutions": [
+      "Dalian University of Technology",
+      "Dalian University",
+      "Dalian Institute of Chemical Physics",
+      "Dalian National Laboratory for Clean Energy",
+      "University of Chinese Academy of Sciences",
+      "Dalian Institute of Chemical Physics",
+      "Dalian National Laboratory for Clean Energy",
+      "University of Chinese Academy of Sciences",
+      "Dalian Institute of Chemical Physics",
+      "Dalian National Laboratory for Clean Energy",
+      "Dalian University of Technology",
+      "Dalian University",
+      "Dalian Institute of Chemical Physics",
+      "Dalian National Laboratory for Clean Energy"
+    ],
+    "published": "2026-09-23",
+    "journal": "Applied Catalysis B: Environmental",
+    "doi": "10.1016/j.apcatb.2026.127552",
+    "openalex_id": "https://openalex.org/W7214076687",
+    "url": "https://doi.org/10.1016/j.apcatb.2026.127552",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": null,
+    "score": 34,
+    "scores": {
+      "topic": 18,
+      "method": 6,
+      "quality": 0,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "standard",
+    "quality_hits": [],
+    "hits": {
+      "framework": [
+        "cofs"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly",
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Molecular Details of RNA Interactions With FUS Condensates Altering Assembly, Dynamics, and Aggregation",
+    "abstract": "ABSTRACT Fused in sarcoma (FUS) is an RNA‐binding protein that undergoes phase separation with RNA and other cellular components, forming ribonucleoprotein (RNP) granules. While recent advances in the study of biomolecular phase separation have focused on protein–protein interactions, information on the molecular details of protein–RNA interactions within condensates remains limited. Here, we demonstrate how RNA modulates the phase separation of the low‐complexity (LC) and arginine–glycine–glycine motif (RGG1) domains of FUS—low RNA concentrations enhance protein phase separation and excess RNA disrupts it. Integrating biochemical assays, NMR spectroscopy, and molecular dynamics simulations, we show that RNA incorporates into FUS condensates, reducing condensate density, drawing in water and ions, and enhancing local and diffusional motion. Whereas RNA binding in the dispersed phase primarily involves RGG1, within the condensed phase both LC and RGG1 contribute to RNA interactions. A diverse set of interactions between amino acids and RNA moieties, including prominent glutamine contacts, contributes to FUS‐RNA co‐condensates. RNA displaces RGG‐mediated protein contacts while enhancing LC–LC interactions, providing a molecular basis for RNA‐driven condensate interaction network remodeling. Furthermore, RNA accelerates the liquid‐to‐solid transition of FUS LC‐RGG1 condensates. Together, these results provide mechanistic insight into how RNA regulates condensate assembly, dynamics, and maturation.",
+    "authors": [
+      "Tongyin Zheng",
+      "Kandarp A. Sojitra",
+      "Samara Cummings",
+      "Qizan Chen",
+      "Priyesh Mohanty",
+      "Jeetain Mittal",
+      "Nicolas L. Fawzi"
     ],
     "institutions": [],
-    "published": "2026-09-22",
-    "journal": "National Science Review",
-    "doi": "10.1093/nsr/nwag606",
-    "url": "https://doi.org/10.1093/nsr/nwag606",
+    "published": "2026-09-25",
+    "journal": "Angewandte Chemie International Edition",
+    "doi": "10.1002/anie.1070299",
+    "url": "https://doi.org/10.1002/anie.1070299",
     "sources": [
       "Crossref journal watch"
     ],
-    "score": 35,
+    "score": 33,
     "scores": {
       "topic": 6,
-      "method": 4,
+      "method": 2,
       "quality": 15,
       "novelty": 6,
       "network": 0,
@@ -1072,21 +1380,17 @@
     },
     "quality_tier": "premium",
     "quality_hits": [
-      "National Science Review"
+      "Angewandte Chemie International Edition"
     ],
     "hits": {
       "framework": [],
       "conductive": [],
       "mesoporous": [],
       "assembly": [
-        "assembly",
-        "nucleation"
+        "assembly"
       ],
       "electrochemical": [],
-      "materials": [
-        "crystalline",
-        "materials"
-      ]
+      "materials": []
     },
     "network_hits": [],
     "excluded_hits": [],
@@ -1244,6 +1548,370 @@
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
+    "title": "In-cell structures visualize human pre-ribosome assembly in the nucleolus",
+    "abstract": "In eukaryotes, ribosome biogenesis initiates within the nucleolus, a hallmark multilayered compartment of the nucleus. Structures of pre-ribosomes have been characterized ex situ, but their assembly pathways within human nucleoli have not been described. Here, we used cryogenic correlative light and electron tomography to visualize molecular landscapes within HeLa cell nucleoli and obtained in-cell structural snapshots of both ribosomal subunit precursors, the SSU processome and the pre-60S. These recapitulate major states resolved previously ex situ and reveal additional critical interaction partners, including the RNA exosome, rixosome, and nuclear export receptor CRM1-RanGTP. We further show how pre-ribosome assembly landscapes are altered upon RNA polymerase I inhibition. Our study combines molecular structures with cellular context to elucidate the spatiotemporal assembly pathway of the human ribosome.",
+    "authors": [
+      "Xiaohan Zhao",
+      "Yuki Hayashi",
+      "Herman K.H. Fung",
+      "Sara Cuylen-Haering",
+      "Julia Mahamid",
+      "Christoph W. Müller"
+    ],
+    "institutions": [],
+    "published": "2026-09-24",
+    "journal": "Science",
+    "doi": "10.1126/science.aej0483",
+    "url": "https://doi.org/10.1126/science.aej0483",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 33,
+    "scores": {
+      "topic": 6,
+      "method": 2,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Science"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Electrohydrodynamic-Mediated Molecular Coordination for Stabilizing α-Phase Perovskite Solar Cells",
+    "abstract": "Abstract Formamidinium-rich perovskite solar cells (PSCs) have achieved remarkable efficiencies, yet their phase purity is often compromised by the competitive nucleation of the nonperovskite δ-phase during rapid processing. Herein, we demonstrate an electrohydrodynamic (EHD)-mediated chemical strategy to bypass this kinetic trap using a multifunctional molecular, tetramethylthiourea (TeMTU). By precision tuning of the surface tension-Coulombic repulsion balance, TeMTU orchestrates the EHD-driven microdroplet evolution, effectively locking the in-flight precursor into a critically supersaturated state that fundamentally suppresses δ-phase nucleation. Beyond macroscopic fluid dynamics, molecular-level investigations reveal that TeMTU forms robust coordination complexes with the lead halide framework. This chemical intervention significantly elevates the activation energy barrier for the α-to-δ phase transition by 42%, as corroborated by Density Functional Theory and variable-cell double-ended surface walking analysis. The resulting α-phase FA-based films exhibit exceptional crystallinity and a minimized defect density, enabling electrospray-fabricated PSCs to achieve an impressive power conversion efficiency (PCE) of 26.24% (0.05 cm2) and 25.39% (1.0 cm2). Furthermore, the chemically stabilized lattice demonstrates operational durability, retaining 95% of its initial PCE after 3000 h of continuous maximum power point tracking at 65 °C.",
+    "authors": [
+      "Xin Meng",
+      "Xiuxiu Niu",
+      "Ran Luo",
+      "Nengxu Li",
+      "Xinyi Du",
+      "Zhouyin Wei",
+      "Xi Wang",
+      "Yuduan Wang",
+      "Zhuojie Shi",
+      "Zijing Dong",
+      "Yoshiki Sugai",
+      "Eduardo Solano",
+      "Junxue Liu",
+      "Xiaohu Zhou",
+      "Xianchang Yan",
+      "Yuzhong Chen",
+      "Chao Luo",
+      "Jinxi Chen",
+      "Tao Wang",
+      "Ling Kai Lee",
+      "Xinyu Zhang",
+      "Yuhui Jiang",
+      "Zihao Zhu",
+      "Wan-Jian Yin",
+      "Zhenxiang Xing",
+      "Rong Ji",
+      "Julian A. Steele",
+      "Chunnian He",
+      "Yi Hou"
+    ],
+    "institutions": [],
+    "published": "2026-09-24",
+    "journal": "Journal of the American\nChemical Society",
+    "doi": "10.1021/jacs.6c05442",
+    "url": "https://doi.org/10.1021/jacs.6c05442",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 33,
+    "scores": {
+      "topic": 6,
+      "method": 2,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Journal of the American Chemical Society"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "nucleation"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "coordination"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Reference genomes and fossils revise bat family phylogeny and biogeography",
+    "abstract": "Abstract Bats are extraordinary among mammals, having uniquely evolved powered flight and laryngeal echolocation, along with disease resistance, extended healthspans and the ability to hibernate 1 . However, the evolutionary history of bats and the understanding of these adaptations remain unresolved. We analysed chromosome-level, long-read genome assemblies from 103 bat species, including 42 new assemblies, representing all 21 bat families. This dataset, expanded in scope and assembly quality, yielded a new bat phylogeny. We placed Myzopodidae as the earliest branch within Vespertilionoidea, and resolved yangochiropteran relationships, identifying Emballonuroidea and Vespertilionoidea as sister groups. Our analysis revealed a mosaic evolutionary history across bats and explained why previous phylogenetic studies were misled. Chromosomal ancestral-state reconstructions supported 26 ancestral bat chromosomes. We integrated a morphological dataset of 699 characters for 65 species, including 44 pre-Quaternary fossils and representatives of most living bat families, with neutrally evolving genomic sites. Fossilized birth–death and dispersal–extinction cladogenesis analyses showed that bats, and thus powered flight, probably originated in Europe in the late Palaeocene, refuting African and North American origins. Placement of the fossil † Vielasia in the oldest ‘Eochiroptera’ clade indicates that laryngeal echolocation predates crown-bat diversification. Total evidence dating, including the fossil taxa, significantly reduced unrepresented basal branch lengths compared with molecular-only divergence estimates. By integrating comprehensive genomic and morphological datasets, analysed using innovative methods, we resolve long-standing controversies in bat biology and provide new insights into the evolutionary history and trait diversification of bats.",
+    "authors": [
+      "Ariadna E. Morales",
+      "Yan Liang",
+      "William R. Thomas",
+      "Evgeny V. Leushkin",
+      "Francisco X. Castellanos",
+      "Denis M. Larkin",
+      "Tom Brown",
+      "Bastian Fromm",
+      "Suzanne J. Hand",
+      "Zixia Huang",
+      "Graham M. Hughes",
+      "Matthew F. Jones",
+      "Burton K. Lim",
+      "Meike Mai",
+      "Eugene W. Myers",
+      "Martin Pippel",
+      "Sebastien J. Puechmaille",
+      "Nancy B. Simmons",
+      "Linelle Ann L. Abueg",
+      "Nadav Ahituv",
+      "Zahran A. AlAbdulsalam",
+      "Ine Alvarez van Tussenbroek",
+      "Dineilys V. Aparicio",
+      "Lina M. Arcila Hernández",
+      "Alexander Ben Hamadou",
+      "Petr Benda",
+      "Mark Blaxter",
+      "Alex V. Borisenko",
+      "Jorge Brocca",
+      "Nair Cabezón",
+      "Lucia Carbone",
+      "Jose I. Carvajal",
+      "Wharton O. Y. Chan",
+      "Paul Davis",
+      "Dina K. N. Dechmann",
+      "Annette Denzinger",
+      "Judith L. Eger",
+      "Seth J. Eiseb",
+      "David Enard",
+      "Mark D. Engstrom",
+      "Nicole M. Foley",
+      "Giulio Formenti",
+      "Jackson Fuller",
+      "Ismael Galván",
+      "Akshamal M. Gamage",
+      "Neil J. Gemmell",
+      "Joanne E. Gillum",
+      "Alejandro Gonzales-Irribarren",
+      "Mailyn A. Gonzalez",
+      "Steven M. Goodman",
+      "Jonathan Gray",
+      "Carola Greve",
+      "Michael W. Guernsey",
+      "Edgar G. Gutiérrez",
+      "Yelena Guttman",
+      "Michael Hackenberg",
+      "Elena Hilario",
+      "Leon Hilgers",
+      "Thomas W. Horsley",
+      "Melissa R. de Waal",
+      "Deirdre M. Jafferally",
+      "Erich D. Jarvis",
+      "Sahieda A. Joemratie",
+      "Mirjam Knörnschild",
+      "Jenna E. Kohles",
+      "Dimitrios-Georgios Kontopoulos",
+      "Bonhwang Koo",
+      "M. Elise Lauterbur",
+      "Michael Letko",
+      "Harris A. Lewin",
+      "Shenglin Liu",
+      "Darrell K. Lizamore",
+      "Brian D. Lloyd",
+      "Livia Loureiro",
+      "M. Cristina MacSwiney G",
+      "Yury V. Malovichko",
+      "Kirsty McCaffrey",
+      "Dominik W. Melville",
+      "Magdalena Meyer",
+      "William O. Mgoola",
+      "Matthieu Muffato",
+      "Vincent J. Munster",
+      "William J. Murphy",
+      "Martina Nagy",
+      "Nicolas Nesi",
+      "Kimberly A. Nevonen",
+      "Haris Nicolaou",
+      "Evans E. Nkrumah",
+      "Zacharias Norman",
+      "Brian P. O’Toole",
+      "Sarah H. Olson",
+      "Alain Ondzie",
+      "Bismark A. Opoku",
+      "Jorge Ortega",
+      "William S. Pearman",
+      "Francy J. Perez-Llanos",
+      "Kendra L. Phelps",
+      "Myrtani Pieri",
+      "Sarahjane Power",
+      "Maksym Prylutskyi",
+      "Paola Pulido-Santacruz",
+      "Guoying Qi",
+      "Bernal Rodríguez-Herrera",
+      "Danny Rojas",
+      "Indranee Roopsind",
+      "Stephen J. Rossiter",
+      "Constance Scharff",
+      "Tilman Schell",
+      "Stephanie N. Seifert",
+      "Fernando Simal",
+      "Pipat Soisook",
+      "Simone Sommer",
+      "Andrew Spalton",
+      "Emma L. Stone",
+      "Peter H. Sudmant",
+      "Sam Talbot",
+      "Robert M. Timm",
+      "Laura Uelze",
+      "Nathan S. Upham",
+      "Marek Uvizl",
+      "Peter Vallo",
+      "Juan M. Vazquez",
+      "Lin-Fa Wang",
+      "Linet C. Watson",
+      "Daniel Whitby",
+      "Sylke Winkler",
+      "York Winter",
+      "Laurel R. Yohe",
+      "Monika Zavodna",
+      "Ning Zhang",
+      "Huabin Zhao",
+      "David A. Ray",
+      "Sonja C. Vernes",
+      "Liliana M. Dávalos",
+      "Michael Hiller",
+      "Emma C. Teeling"
+    ],
+    "institutions": [],
+    "published": "2026-09-23",
+    "journal": "Nature",
+    "doi": "10.1038/s41586-026-11007-3",
+    "url": "https://doi.org/10.1038/s41586-026-11007-3",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 33,
+    "scores": {
+      "topic": 6,
+      "method": 2,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Nature"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Sequence-encoded hexagonal lattices in multichannel peptide nanofibrils",
+    "abstract": "Abstract Structural complexity in biological matter arises from molecular information that encodes supramolecular assembly across length scales 1–3 . Here we show that minimal nine-residue peptides can encode discrete lateral interaction motifs that direct supramolecular organization. These motifs generate hexagonal pores and hierarchically tile into multichannel nanofibrils with defined topology. Sequence-encoded amphiphilicity combines a cross-β-dimer, an inversion point and a trimeric junction to create complementary interfaces that couple lateral growth to axial stacking, yielding honeycomb lattices with continuous approximately 5-nm solvent-accessible nanochannels. Cryo-electron microscopy resolves the supramolecular architecture and shows that lattice symmetry and pore geometry are preserved across variants. Systematic perturbations establish sequence–structure rules linking residue position to supramolecular symmetry, lattice propagation and channel topology. Molecular dynamics simulations and vibrational spectroscopy show that the channels remain water accessible and show sequence-tunable hydration. These findings establish that a minimal, sequence-encoded interaction hierarchy can programme long-range supramolecular order, providing a general framework for how short peptides can encode complex, symmetry-defined architectures 4–12 .",
+    "authors": [
+      "Jasmina Gačanin",
+      "Francesca Mazzotta",
+      "Luis Andre Baptista",
+      "Nikolay Stoyanov",
+      "Matthias Schmidt",
+      "Nico Alleva",
+      "Thunchanok Thummaraj",
+      "Fanny Bonnicel",
+      "Cong Zhou",
+      "Lei Gao",
+      "Jan Münch",
+      "Mischa Bonn",
+      "Marcus Fändrich",
+      "Ingo Lieberwirth",
+      "Robinson Cortes-Huerto",
+      "Katharina Landfester",
+      "Tanja Weil"
+    ],
+    "institutions": [],
+    "published": "2026-09-23",
+    "journal": "Nature",
+    "doi": "10.1038/s41586-026-11016-2",
+    "url": "https://doi.org/10.1038/s41586-026-11016-2",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 33,
+    "scores": {
+      "topic": 6,
+      "method": 2,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Nature"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "supramolecular"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
     "title": "Catalysis by a Metastable Photoswitchable Cage",
     "abstract": "ABSTRACT The introduction of ortho ‐methyl substituents on aryl‐substituted ortho ‐tetrafluoroazobenzene photoswitches breaks the π‐conjugation and improves photoswitching selectivity and increases the thermal half‐life of the metastable isomer. Using this approach, a visible‐light‐responsive ligand was assembled with a non‐switchable ligand and palladium(II) ions into a mixture of molecular cages. When irradiated with 530 nm light, the system converges to form a single product, a metastable, mixed‐ligand molecular cage. This cage can be reversibly disassembled using 424 nm light, an example of integrative self‐sorting controlled by light. The metastable assembly can catalyze both Michael addition and nitroaldol reactions. Importantly, visible light accesses a metastable catalytic state inaccessible under thermodynamic control. We demonstrate that the active assembled species can be switched on and off at will using visible irradiation and the metastable species is the most catalytically active assembly.",
     "authors": [
@@ -1349,127 +2017,6 @@
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Sandwich‐Like Supramolecular Clamp‐Templated Manganese(II) Bromide Scintillators for Multimodal Visualization",
-    "abstract": "ABSTRACT Crown ether‐regulated metal halides feature programmable host‐guest coordination and structurally defined emissive centers, making them promising for multifunctional scintillation applications. However, their strong coordination and supramolecular interactions favor ordered assembly and crystallization, hindering melt‐processing into large‐area, transparent glassy scintillator screens. Here, we develop a “three birds with one stone” strategy using sandwich‐like benzo‐15‐crown‐5‐metal supramolecular clamps to simultaneously regulate [MnBr 4 ] 2− geometry, cation‐associated charge collection, and glass formation. Four Mn(II) bromides, [(B15C5) 2 @K] 2 MnBr 4 (CKMB), [(B15C5) 2 @Rb] 2 MnBr 4 (CRMB), [(B15C5) 2 @Sr]MnBr 4 (CSMB), and [(B15C5) 2 @Ba]MnBr 4 (CBMB), were obtained. The well‐matched K + ‐B15C5 clamp stabilizes a nearly ideal [MnBr 4 ] 2− tetrahedron in CKMB, affording a photoluminescence quantum yield of 82.2%. The cationic framework contributes to the conduction‐band‐edge states and promotes X‐ray charge collection, yielding a relative light yield of 6.74 × 10 4 photons MeV −1 and a detection limit of 28.5 nGy s −1 . Meanwhile, monovalent clamp cations induce steric mismatch and packing frustration, enabling vitrification of CKMB and CRMB. CKMB‐G exhibits T g = 61°C, T g /T m = 0.87, and a retained light yield of 3.20 × 10 4 photons MeV −1 . The complementary crystalline and glassy states enable WLED emission, X‐ray imaging at 32 lp mm −1 , dynamic imaging at 2K resolution and 60 fps, and multimodal anti‐counterfeiting, highlighting supramolecular clamps as active cationic templates for multifunctional Mn(II) scintillators.",
-    "authors": [
-      "Yuan‐Ji Ye",
-      "Hui‐E Lin",
-      "Yue‐Chen Chen",
-      "Tong Xiao",
-      "Shu‐Quan Zhang",
-      "Ming‐Hua You",
-      "Hong‐Ming Chen",
-      "Zai‐Lai Xie",
-      "Mei‐Jin Lin"
-    ],
-    "institutions": [],
-    "published": "2026-09-22",
-    "journal": "Angewandte Chemie International Edition",
-    "doi": "10.1002/anie.5230240",
-    "url": "https://doi.org/10.1002/anie.5230240",
-    "sources": [
-      "Crossref journal watch"
-    ],
-    "score": 33,
-    "scores": {
-      "topic": 6,
-      "method": 2,
-      "quality": 15,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Angewandte Chemie International Edition"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "coordination",
-        "crystalline",
-        "supramolecular"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "A Sustainable Brand‐New Thermoelectric Cooling Material: High‐Mobility Diamondoid Cu 3 SbSe 4 Crystal",
-    "abstract": "ABSTRACT Diamondoid Cu 3 SbSe 4 is an earth‐abundant thermoelectric material with strong potential for near‐room to mid‐temperature applications. However, its performance has been limited by intrinsically low carrier mobility. Here, we report the first successful growth of large‐sized Cu 3 SbSe 4 crystals, achieving a fivefold enhancement in carrier mobility, and demonstrate the first Cu 3 SbSe 4 ‐based thermoelectric cooling device. We show that Ag substitution reduces both the effective mass and deformation potential through strengthened bond covalency, yielding a high carrier mobility of ∼150 cm 2 V −1 s −1 . This leads to a remarkable power factor of ∼23 µW cm −1 K −2 at 300 K, a maximum ZT of ∼1.6 at 700 K and an average ZT of ∼0.85 over 300–700 K, representing state‐of‐the‐art performance among Cu‐based thermoelectric materials in this temperature range. A 7‐pair device based on Cu 3 SbSe 4 crystal achieves a cooling temperature difference of ∼25 K at room temperature, and reaching a maximum of ∼34 K at 343 K. Additionally, the optimized sample demonstrates a single‐leg power‐generation efficiency of ∼7% at Δ T = 350 K. These results highlight crystal‐growth as a powerful strategy to unlock high‐performance refrigeration in previously limited materials, establishing diamondoid Cu 3 SbSe 4 crystals as a viable, low‐cost and environmentally benign platform for practical thermoelectric applications.",
-    "authors": [
-      "Dezheng Gao",
-      "Shulin Bai",
-      "Yi Wen",
-      "Yichen Li",
-      "Yu Tian",
-      "Pengpeng Chen",
-      "Dongrui Liu",
-      "Yi Yue",
-      "Yuezhan Huang",
-      "Zhaokang Sun",
-      "Dingxuan Gong",
-      "Yixuan Hu",
-      "Tian Gao",
-      "Shibo Liu",
-      "Xiang Gao",
-      "In Chung",
-      "Hongyao Xie",
-      "Li‐Dong Zhao"
-    ],
-    "institutions": [],
-    "published": "2026-09-22",
-    "journal": "Advanced Materials",
-    "doi": "10.1002/adma.75094",
-    "url": "https://doi.org/10.1002/adma.75094",
-    "sources": [
-      "Crossref journal watch"
-    ],
-    "score": 33,
-    "scores": {
-      "topic": 6,
-      "method": 2,
-      "quality": 15,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Advanced Materials"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "crystal growth"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "crystal",
-        "material",
-        "materials"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
     "title": "Switchable Altermagnetism in a Layered van der Waals Metal–Organic Framework Driven by Spin-Crossover",
     "abstract": "Abstract Dynamical control of altermagnetism is a key requirement for translating its unique spin-dependent functionalities into practical spintronic devices, yet effective switching mechanisms remain largely unexplored. Here, we open an unprecedented, versatile, and programmable route based on spin-crossover to switch altermagnetism on demand in molecular materials. Using density functional theory calculations, we demonstrate an altermagnetic ground state in the layered van der Waals metal–organic frameworks MnX2(tdz)2 (X = Cl, Br; tdz = thiadiazole), stabilized by anisotropic interlayer exchange interactions, which gives rise to a characteristic d-wave momentum-space spin splitting and an associated spin-splitter transport response. Our findings reveal that under hydrostatic pressure, a high-spin-to-low-spin transition reconfigures the Mn d-orbital occupation, thus modifying the magnetic exchange network and stabilizing a different antiferromagnetic ground state whose symmetry suppresses the nonrelativistic spin splitting. Crucially, spin-crossover switches altermagnetism not by directly altering the electronic structure but by changing the symmetry of the magnetic ground state. These results establish molecular spin-crossover altermagnets as a platform for externally reconfigurable spintronic devices.",
     "authors": [
@@ -1484,8 +2031,11 @@
     "doi": "10.1021/jacs.6c15502",
     "url": "https://doi.org/10.1021/jacs.6c15502",
     "sources": [
-      "Crossref"
+      "Crossref",
+      "Crossref journal watch"
     ],
+    "arxiv_id": null,
+    "openalex_id": null,
     "score": 32,
     "scores": {
       "topic": 12,
@@ -1573,6 +2123,175 @@
     "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。"
   },
   {
+    "title": "Assembly of Porous Monolithic Materials Using a Pickering Emulsion Strategy Stabilized by Metal&amp;#8211;Organic Framework (MOF) Particles",
+    "abstract": "",
+    "authors": [
+      "Ervin Prozsa",
+      "Sabrine Medjouel",
+      "Jérémy Audevard",
+      "Khady Cisse",
+      "Fabrice Lorignon",
+      "Michaël Carboni"
+    ],
+    "institutions": [],
+    "published": "2026-09-25",
+    "journal": "Journal of Visualized Experiments",
+    "doi": "10.3791/70585",
+    "url": "https://doi.org/10.3791/70585",
+    "sources": [
+      "Crossref"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 30,
+    "scores": {
+      "topic": 18,
+      "method": 2,
+      "quality": 0,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "standard",
+    "quality_hits": [],
+    "hits": {
+      "framework": [
+        "mof"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "materials",
+        "porous"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "仅元数据",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Enhancing Sensitivity of Atmospheric Pressure Laser Ablation Carbon Fiber Ionization Mass Spectrometry Imaging for Endogenous Metabolites Using a Polydopamine/Covalent Organic Framework Composite",
+    "abstract": "Abstract The spatial distribution of endogenous small-molecule metabolites is pivotal for understanding living processes, disease mechanisms, and therapeutic principles. However, achieving high-sensitivity spatial metabolomic profiling remains challenging for atmospheric pressure mass spectrometry imaging (AP-MSI) due to low desorption/ionization efficiency, leading to the systematic omission of low-abundance yet biologically vital metabolites from spatial maps. Here, we developed a high-sensitivity MSI platform that integrated a polydopamine/covalent organic framework (PDA/COF) composite substrate with atmospheric pressure laser ablation carbon fiber ionization (LACFI) technology for spatial mapping of endogenous small-molecule metabolites in biological tissues. This substrate employed a polydopamine (PDA) interlayer to guide the ordered assembly of a COF on the substrate. The resulting PDA/COF composite substrate exhibited uniform surface coverage, strong stability, and excellent light absorption, collectively improving the laser desorption/ionization efficiency of metabolites. Moreover, the substrate was simple, easy to use, and cost-effective. Our platform demonstrated a significantly enhanced sensitivity, achieving an improvement of more than 2-fold based on the slope of the linear calibration curve for analysis of metabolites compared with MALDI, DESI, LACFI using copper-coated, graphene oxide, and COF substrate. It also exhibited excellent linear response, wide dynamic range, and broad metabolite coverage. The platform was further applied to map the metabolomes of normal, para-cancerous, and cancerous liver tissues and, through heatmap analysis, clearly revealed the spatial distribution patterns of metabolites such as NAD+ and adenine across these tissue types. This method provides a straightforward, efficient, and robust AP-MSI platform for highly sensitive and comprehensive spatial metabolomics.",
+    "authors": [
+      "Lanlan Wang",
+      "Yuting Chen",
+      "Yingchao Liu",
+      "Xu Chen",
+      "Li Zhang",
+      "Jing Zhang",
+      "Lixing Zhan",
+      "Yinlong Guo",
+      "Xiaopan Liu"
+    ],
+    "institutions": [],
+    "published": "2026-09-25",
+    "journal": "Analytical Chemistry",
+    "doi": "10.1021/acs.analchem.6c05938",
+    "url": "https://doi.org/10.1021/acs.analchem.6c05938",
+    "sources": [
+      "Crossref"
+    ],
+    "score": 30,
+    "scores": {
+      "topic": 18,
+      "method": 2,
+      "quality": 0,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "standard",
+    "quality_hits": [],
+    "hits": {
+      "framework": [
+        "cof",
+        "covalent organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "carbon",
+        "oxide"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Self-Assembly of Au/TiO2 Sphere–Rod Mixtures into Binary Supraparticles",
+    "abstract": "Abstract Self-assembly of rod–sphere nanoparticle mixtures enables the design of advanced materials with anisotropic properties. While the phase behavior of rod–sphere mixtures has been explored in 2D and 3D bulk systems, it has remained unexplored in smaller 3D assemblies. Especially, when combining plasmonic and semiconductor nanoparticles, assemblies with defined particle arrangements offer unique optical and (photo)catalytic properties. In this work, we achieved the assembly of binary 3D assemblies tunable in size and phase behavior. Specifically, we assembled semiconductor TiO2 nanorods and plasmonic Au nanospheres under spherical confinement and explored their phase behavior in experiments and simulations. Through evaporation-driven assembly of emulsion droplets, binary supraparticles were prepared with a phase tunable from colloidal membranes, consisting of single rod layers, to binary smectic phases, composed of alternating rod–sphere smectic layers. Colloidal membranes were obtained for a sphere-to-rod number ratio (NAu/NTiO2) of 5, while lowering this ratio to 0.6 resulted in a binary smectic ordering, as confirmed with advanced electron microscopy. Through numerical simulations, we show that the binary smectic phase is stable for 0 &amp;lt; NAu/NTiO2 ≤ 1 in agreement with experiments. Our binary supraparticle platform provides structures with multi-length scale control for applications in photocatalysis, energy storage, and sensing.",
+    "authors": [
+      "Marianne Bijl",
+      "André F. V. Matias",
+      "Lukáš Kolácný",
+      "Erik Betz-Güttner",
+      "Martin Veselý",
+      "Marjolein Dijkstra",
+      "Jessi E. S. van der Hoeven",
+      "Alfons van Blaaderen"
+    ],
+    "institutions": [],
+    "published": "2026-09-25",
+    "journal": "ACS Nano",
+    "doi": "10.1021/acsnano.6c12966",
+    "url": "https://doi.org/10.1021/acsnano.6c12966",
+    "sources": [
+      "Crossref"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 30,
+    "scores": {
+      "topic": 6,
+      "method": 6,
+      "quality": 8,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "ACS Nano"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly",
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "colloidal",
+        "materials",
+        "nanoparticle"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
     "title": "C–H/π Mediated Assembly of a Chiral Nanoporous Network for Electron and Molecular Trapping on Au(111)",
     "abstract": "Abstract Beyond traditional graphene, the emergence of graphyne and graphdiyne bestows sp-hybridization to push mechanical, catalytic, and electronic boundaries. One inspiring goal in the field of advanced two-dimensional (2D) materials is the introduction of chirality into these nanoporous frameworks, a shift that merges fundamentals of molecular biology with advanced material science to unlock new properties. In this work, through the self-assembly of 4,4″-diethynyl-1,1′:4′,1″-terphenyl (DETP) on Au(111), we have created a hydrogen-bonded surface chiral 2D rhombic nanoporous network. Low-temperature scanning tunneling microscopy/spectroscopy (LT-STM/STS) and non-contact atomic force microscopy (nc-AFM) reveal that the networks are stabilized by 4-fold surface chiral bonding motifs and C–H/π interactions. LT-STM/STS, nc-AFM, electron plane-wave expansion (EPWE) and density functional theory (DFT) simulations show that this molecular self-assembly has a ≈3.7 eV gap between highest occupied (HOMO) and lowest unoccupied (LUMO) molecular orbitals on Au(111), acts as a quantum well array for surface electron confinement, and weakly traps CO molecules within the nanopores. The resulting chiral structures not only enable the modulation of the electronic properties at the interface, but also reveal a variable electronic symmetry, becoming a chess-board-like landscape at high energies. These surface-stabilized nanoporous networks serve as suitable platforms to steer electronic textures in nanoscale materials.",
     "authors": [
@@ -1645,56 +2364,62 @@
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Programmable Chirality Transfer: Seeding‐Directed Co‐Assembly of Functional Molecules With Amyloid Frameworks",
-    "abstract": "ABSTRACT We report a highly effective and universal strategy for linking small achiral functional molecules with amyloid fibrils, enabling efficient transfer of chirality from the chiral amyloid network to supramolecularly co‐assembled entities. This seeding‐and‐co‐assembly approach, based on incorporating functional molecules (e.g., dyes) during ongoing seed‐directed amyloid formation, facilitates their templating by the amyloid framework while constraining fibril morphological diversity through suppression of secondary nucleation. Chirality transfer is evidenced by pronounced induced electronic circular dichroism (IECD) with anisotropy factor (g) reaching up to 1.3 × 10 − 2 (g ECD ) and anomalously high and previously unreported induced vibrational circular dichroism (IVCD) with g VCD of 1.5 × 10 − 3 . The acquired handedness arises either from supramolecular ordering of flexible molecules on the fibril surface or from incorporation of more rigid pigment molecules into the amyloid framework. Importantly, this process is tunable: dye concentration and solvent type act as programmable parameters that modulate hierarchical organization and chiroptical properties of the resulting assemblies. Overall, this strategy establishes amyloid fibrils as versatile chiral scaffolds for the rational design of hybrid nanomaterials exhibiting strong circular dichroism and/or circularly polarized luminescence (CPL).",
+    "title": "Ionic Liquid Microemulsion-Templated Bacterial Cellulose−Poly(ionic liquid)/Carbon Black Membranes with Coupled Porous and Conductive Networks for Stable Humidity Sensing",
+    "abstract": "Abstract Humidity sensing membranes combining high sensitivity, mechanical robustness, and long-term stability remain challenging to fabricate via simple, scalable routes. Using a surfactant-free ionic liquid microemulsion and nanofibrillar bacterial cellulose, we fabricated a short-range ordered bicontinuous porous composite membrane in one step. In situ polymerized poly(ionic liquid) forms strong hydrogen-bonded interfaces with cellulose, while microemulsion templating generates interconnected pores. Carbon black (CB) and isopropyl alcohol (i-PA) synergistically regulate the membrane structure and properties. Increasing the CB content enhances mechanical strength and lowers electrical resistance through conductive percolation, whereas i-PA controls fracture morphology and porosity. The optimized formulation (5 wt % CB, 37.5% excess i-PA) achieves a tensile strength of 2.66 MPa and a relative resistance response of 87% at 95% relative humidity, with negligible performance degradation after 1000 tensile cycles. These findings establish ionic liquid microemulsion templating as a scalable route to durable, porous iontronic membranes for high-performance humidity monitoring.",
     "authors": [
-      "Aleksandra Kołodziejczyk",
-      "Joanna Mazurkiewicz",
-      "Andrzej J. Kałka",
-      "Agnieszka Kaczor"
+      "Na Gao",
+      "Shengxian Yang",
+      "Yanbin Xu",
+      "Shengze Zhang",
+      "Guowei Weng",
+      "Shili Liu",
+      "Jian Xue",
+      "Aili Wang"
     ],
     "institutions": [],
-    "published": "2026-09-22",
-    "journal": "Small",
-    "doi": "10.1002/smll.75837",
-    "url": "https://doi.org/10.1002/smll.75837",
+    "published": "2026-09-25",
+    "journal": "Biomacromolecules",
+    "doi": "10.1021/acs.biomac.6c01861",
+    "url": "https://doi.org/10.1021/acs.biomac.6c01861",
     "sources": [
       "Crossref"
     ],
-    "score": 30,
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 29,
     "scores": {
-      "topic": 6,
-      "method": 6,
-      "quality": 8,
-      "novelty": 6,
+      "topic": 12,
+      "method": 4,
+      "quality": 0,
+      "novelty": 8,
       "network": 0,
       "applied": 2,
-      "archive": 2,
+      "archive": 3,
       "penalty": 0
     },
-    "quality_tier": "strong",
-    "quality_hits": [
-      "Small"
-    ],
+    "quality_tier": "standard",
+    "quality_hits": [],
     "hits": {
       "framework": [],
-      "conductive": [],
+      "conductive": [
+        "conductive"
+      ],
       "mesoporous": [],
       "assembly": [
-        "assembly",
-        "nucleation",
+        "surfactant",
         "templating"
       ],
       "electrochemical": [],
       "materials": [
-        "nanomaterials",
-        "supramolecular"
+        "carbon",
+        "membrane",
+        "porous"
       ]
     },
     "network_hits": [],
     "excluded_hits": [],
     "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+    "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
     "title": "An in-body networking system for communication between wearable and implantable therapeutics",
@@ -1757,23 +2482,75 @@
     "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Record‐High Capacitive Energy Density in Polyimide Dielectrics at 300°C via Conformational–Vibrational Engineering",
-    "abstract": "ABSTRACT Polymer dielectrics are crucial for capacitors in various applications, including electric vehicles, geothermal instrumentation, and aerospace systems. However, polymers tend to exhibit strongly nonlinear conduction at high temperatures and under high electric fields, leading to a rapid increase in leakage current and typically limiting the stable operating temperature to around 250°C. Here, we report a coupled conformational and vibrational engineering strategy in polyimide (PI) dielectrics that weakens electronic coupling and suppresses specific molecular vibrations governing thermally assisted charge transport. This dual‐action design effectively delays the onset of high‐field nonlinear conduction and suppresses leakage current at extreme temperatures. Consequently, the resulting PI dielectric films achieve a maximum discharged energy density of 5.9 J cm −3 at 300°C and maintain 2.8 J cm −3 with 90% efficiency, while sustaining over 10 5 charge–discharge cycles at 300°C, surpassing state‐of‐the‐art polymer dielectrics in operating temperature and cycling reliability. This strategy provides a fundamentally different route from conventional bandgap engineering approaches for high energy density polymer dielectrics operating at 300°C.",
+    "title": "Illuminated Semiconducting Electrodes Show Saturation Kinetics under Conditions of Inversion",
+    "abstract": "Abstract Semiconductor–electrolyte interfaces are essential in governing electron transfer (ET) in photoelectrochemical cells that drive fuel-forming and fuel-utilizing reactions using sunlight. Electron transfer kinetics at semiconductor–electrolyte interfaces under depletion and in the dark are well understood; however, reductive-fuel forming reactions typically occur at very negative potentials under conditions of inversion and under illumination. Thus, determining the empirical relationship between the rate of ET, light, and potential under conditions of inversion is vital for comparing electron transfer across photoelectrochemical systems. Here, we measure observed electron transfer rate constants, kobs (cm s–1), for ET between low-doped p-type methyl-terminated silicon and three cobalt metallocenes as a function of irradiance. We find that kobs saturates with respect to light and can be described using a simple steady-state approximation to extract maximum light-dependent observed ET rate constants, kobs,max. We observe that kobs saturates at the same irradiance irrespective of the formal reduction potential of the metallocene in solution. Light-dependent cyclic voltammograms and differential capacitance measurements also demonstrate that the observed half-wave potential and total capacitance saturate at the same irradiance as kobs. These observations imply that all three electrochemical parameters are governed by the same underlying factors, which we attribute to the maximum number of electrons that can be stored in the inversion layer of the semiconductor. This work demonstrates that a series of chemical kinetic expressions can be used to describe light-dependent physical parameters in semiconducting photoelectrodes under inversion and aids in understanding the kinetics of electron transfer at semiconductor–electrolyte interfaces of interest for solar-driven fuel-forming reactions.",
     "authors": [
-      "Guanghu He",
-      "Wenhan Xu",
-      "Jiajun Peng",
-      "Hang Luo",
-      "Zhifang Zhou",
-      "Xiaona Li",
-      "Yuting Wan",
-      "Dou Zhang"
+      "Devon P. Leimkuhl",
+      "Danielle A. Peralta",
+      "Megan N. Jackson"
     ],
     "institutions": [],
-    "published": "2026-09-23",
+    "published": "2026-09-24",
+    "journal": "Journal of the American\nChemical Society",
+    "doi": "10.1021/jacs.6c05075",
+    "url": "https://doi.org/10.1021/jacs.6c05075",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 29,
+    "scores": {
+      "topic": 6,
+      "method": 0,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 0,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Journal of the American Chemical Society"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [
+        "semiconducting"
+      ],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Upright Orientation of Asymmetric Conjugated SAM Enables High‐Performance Perovskite Solar Cells",
+    "abstract": "ABSTRACT Self‐assembled monolayers (SAMs) are promising hole‐transporting interlayers for inverted perovskite solar cells (PSCs) owing to their ultrathin thickness and tunable work function. However, conventional SAMs such as Me‐4PACz tend to adopt lying‐down or tilted conformations on substrates, leading to disordered dipole orientation, inadequate substrate coverage, and buried terminal groups that are unable to passivate interface defects. In this study, we design an asymmetric conjugated SAM molecule, BCPA‐Ph, to address these limitations. Its vertically oriented π‐conjugated backbones build direct hole transport pathways, thereby accelerating carrier extraction, while the fully exposed terminal carbazole N─H groups form intermolecular hydrogen bonds with perovskite surface iodine species and eliminate iodide vacancy traps. As a result, the inverted PSCs based on BCPA‐Ph achieve a certified power conversion efficiency (PCE) of 27.21%, along with markedly enhanced thermal and operational stability. Moreover, BCPA‐Ph presents outstanding universality for large‐area and wide‐bandgap perovskite devices, yielding a high PCE of 26.34% for 1 cm 2 devices and 23.77% for 1.68 eV wide‐bandgap PSCs. This work underscores the critical importance of molecular configuration engineering in the rational design of SAMs for high‐performance PSCs.",
+    "authors": [
+      "Xinyu Gu",
+      "Siyuan Zhu",
+      "Chunhui Su",
+      "Can Cheng",
+      "Jiarui Tao",
+      "Shengqi Wang",
+      "Yunjie Wang",
+      "Lingfang Zheng",
+      "Zhenhuang Su",
+      "Wei Zhou",
+      "Jionghua Wu",
+      "Zhijun Ning",
+      "Jian Fan",
+      "Hao Chen"
+    ],
+    "institutions": [],
+    "published": "2026-09-24",
     "journal": "Advanced Materials",
-    "doi": "10.1002/adma.75078",
-    "url": "https://doi.org/10.1002/adma.75078",
+    "doi": "10.1002/adma.75147",
+    "url": "https://doi.org/10.1002/adma.75147",
     "sources": [
       "Crossref journal watch"
     ],
@@ -1795,14 +2572,13 @@
     "hits": {
       "framework": [],
       "conductive": [
-        "charge transport"
+        "conjugated",
+        "π-conjugated"
       ],
       "mesoporous": [],
       "assembly": [],
       "electrochemical": [],
-      "materials": [
-        "polymer"
-      ]
+      "materials": []
     },
     "network_hits": [],
     "excluded_hits": [],
@@ -1859,6 +2635,59 @@
       "materials": [
         "crystal",
         "materials"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Record‐High Capacitive Energy Density in Polyimide Dielectrics at 300°C via Conformational–Vibrational Engineering",
+    "abstract": "ABSTRACT Polymer dielectrics are crucial for capacitors in various applications, including electric vehicles, geothermal instrumentation, and aerospace systems. However, polymers tend to exhibit strongly nonlinear conduction at high temperatures and under high electric fields, leading to a rapid increase in leakage current and typically limiting the stable operating temperature to around 250°C. Here, we report a coupled conformational and vibrational engineering strategy in polyimide (PI) dielectrics that weakens electronic coupling and suppresses specific molecular vibrations governing thermally assisted charge transport. This dual‐action design effectively delays the onset of high‐field nonlinear conduction and suppresses leakage current at extreme temperatures. Consequently, the resulting PI dielectric films achieve a maximum discharged energy density of 5.9 J cm −3 at 300°C and maintain 2.8 J cm −3 with 90% efficiency, while sustaining over 10 5 charge–discharge cycles at 300°C, surpassing state‐of‐the‐art polymer dielectrics in operating temperature and cycling reliability. This strategy provides a fundamentally different route from conventional bandgap engineering approaches for high energy density polymer dielectrics operating at 300°C.",
+    "authors": [
+      "Guanghu He",
+      "Wenhan Xu",
+      "Jiajun Peng",
+      "Hang Luo",
+      "Zhifang Zhou",
+      "Xiaona Li",
+      "Yuting Wan",
+      "Dou Zhang"
+    ],
+    "institutions": [],
+    "published": "2026-09-23",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.75078",
+    "url": "https://doi.org/10.1002/adma.75078",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 29,
+    "scores": {
+      "topic": 6,
+      "method": 0,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 0,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [
+        "charge transport"
+      ],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "polymer"
       ]
     },
     "network_hits": [],
@@ -1935,200 +2764,75 @@
     "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Programmable Doping‐Enabled Engineering of Hydrogel Iontronics for Tailored Soft Ionic Devices",
-    "abstract": "ABSTRACT Soft ionic conductors with tunable mechanical properties and biological signal compatibility are essential for facilitating seamless abiotic‐biotic interfaces. However, the lack of precise, scalable control over the intrinsic transport performance of these materials critically restricts their broader deployment in advanced biotechnology. In this work, we present a programmable doping strategy, inspired by conventional semiconductor manufacturing paradigms, aimed at creating high‐performance hydrogel iontronic devices. By systematically modulating polyelectrolyte concentrations and strategically integrating lignosulfonate sodium, we meticulously tailor the semiconducting characteristics of hydrogel heterojunctions. The resulting programmable hydrogels exhibit exceptional operational tunability, successfully functioning as robust ionic diodes, logic circuits, pnp‐type transistors, and synthetic synapses. This scalable method establishes a highly adaptable framework for tailored soft ionic conductors, broadening their potential applications in complex signal transmission and neuromorphic computing.",
+    "title": "Mechanistic Origin of Compressed Exponential Time Dependence in Block Copolymer Micelle Fragmentation",
+    "abstract": "Abstract Multiple studies of block copolymer micelle fragmentation have revealed a surprising compressed exponential time dependence of relaxation toward the equilibrium size, following exp[(–t/τ)n], with n ≈ 2. We present a simple two-step kinetic model that quantitatively explains the mechanistic origin of the apparent compressed exponential behavior. In this model, as-prepared micelles evolve toward steady-state micelles via metastable, “peanut-shaped” intermediates. Concentrations of the three states are obtained as a function of time by coupling simple rate laws. The initial and final sizes are known from experiments. The size of the intermediates is estimated by modelling them as prolate ellipsoids, leading to a radius about 2% larger than that of the as-prepared micelles. The two rate constants, k1 and k2, for the formation and decomposition of the intermediate state, respectively, are estimated by fitting experimental data, while providing the sizes of the three states as input. Fitting reveals that k1 and k2 need to be very similar (within a factor of about 2) to observe the apparent compressed exponential dynamics. Equivalent magnitudes of k1 and k2 suggest that the intermediate state is metastable with a finite lifetime and not a transition state, an inference that is supported by the appearance of the peanut-shaped intermediates in previously conducted in-situ TEM experiments. Calculations also indicate that the relative population of the intermediate state reaches a peak value of 20–40%, which should facilitate further imaging of intermediates via TEM. We are not aware of a current theory for block copolymer micelle fragmentation that proposes passage through a metastable intermediate, so this question certainly merits further examination.",
     "authors": [
-      "Ye Rao",
-      "Yanbing Li",
-      "Shuihong Zhu",
-      "Lianfei Huang",
-      "Senxuan Tang",
-      "Jia Yi",
-      "Tianqi Fu",
-      "Zhehao Han",
-      "Youhui Lin",
-      "Huanghao Yang"
+      "Yash Nandola",
+      "Supriya Gupta",
+      "Andrew J. Spakowitz",
+      "Kevin D. Dorfman",
+      "Timothy P. Lodge"
     ],
     "institutions": [],
-    "published": "2026-09-22",
-    "journal": "Advanced Materials",
-    "doi": "10.1002/adma.75133",
-    "url": "https://doi.org/10.1002/adma.75133",
+    "published": "2026-09-25",
+    "journal": "Macromolecules",
+    "doi": "10.1021/acs.macromol.6c01373",
+    "url": "https://doi.org/10.1021/acs.macromol.6c01373",
     "sources": [
-      "Crossref journal watch"
+      "Crossref"
     ],
-    "score": 29,
+    "score": 28,
     "scores": {
       "topic": 6,
-      "method": 0,
-      "quality": 15,
+      "method": 4,
+      "quality": 8,
       "novelty": 6,
       "network": 0,
-      "applied": 0,
+      "applied": 2,
       "archive": 2,
       "penalty": 0
     },
-    "quality_tier": "premium",
+    "quality_tier": "strong",
     "quality_hits": [
-      "Advanced Materials"
+      "Macromolecules"
     ],
     "hits": {
       "framework": [],
-      "conductive": [
-        "semiconducting"
-      ],
+      "conductive": [],
       "mesoporous": [],
-      "assembly": [],
+      "assembly": [
+        "block copolymer",
+        "micelle"
+      ],
       "electrochemical": [],
       "materials": [
-        "materials"
+        "copolymer",
+        "micelle"
       ]
     },
     "network_hits": [],
     "excluded_hits": [],
     "reading_depth": "摘要",
-    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Porous MXene (Ti₃C₂Tₓ) @ Redox-Active Covalent Organic Framework-Conductive Polymer Hybrid for Hybrid Capacitive Deionization Desalination",
-    "abstract": "Capacitive deionization (CDI) has emerged as a promising desalination technology owing to its energy efficiency, environmental sustainability, and operational simplicity. However, the development of advanced electrode materials with high electrosorption capacity and long cycling stability remains a key challenge. In this work, we report a novel hybrid electrode material composed of porous Ti₃C₂Tₓ MXene nanosheets integrated with a redox-active covalent organic framework (COF) and a conductive polymer, polyaniline (PANI), for hybrid capacitive deionization (HCDI). The hybrid composite exploits the high conductivity and surface area of MXene, the redox functionality and porous architecture of the COF, and the pseudocapacitive behavior of PANI, synergistically enhancing charge storage and ion removal. Structural, morphological, and electrochemical characterizations reveal superior charge transport, ion diffusion, and stable cycling. The HCDI performance exhibits a high salt adsorption capacity (SAC) of 37.6 mg/g in 500 mg/L NaCl, excellent rate capability, and longterm cycling stability over 100 cycles. This work provides a promising pathway for designing next-generation desalination electrodes by rational hybridization of functional materials.",
-    "authors": [
-      "Beke Michael Abraham"
-    ],
-    "institutions": [],
-    "published": "2026-09-22",
-    "journal": "INTERNATIONAL JOURNAL OF CHEMISTRY AND CHEMICAL PROCESSES",
-    "doi": "10.56201/ijccp.vol.11.no3.2025.pg63.74",
-    "url": "https://doi.org/10.56201/ijccp.vol.11.no3.2025.pg63.74",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 26,
-    "scores": {
-      "topic": 18,
-      "method": 0,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 0,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [
-        "cof",
-        "covalent organic framework"
-      ],
-      "conductive": [
-        "charge transport",
-        "conductive"
-      ],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": [
-        "material",
-        "materials",
-        "polymer",
-        "porous"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Phenolic hydroxyl-functionalized covalent organic frameworks for efficient hydrogen evolution in alkaline media",
-    "abstract": "Developing economical and highly active metal-free electrocatalysts for the hydrogen evolution reaction (HER) is crucial for advancing sustainable hydrogen energy through water electrolysis. Although alkaline water electrolysis holds great potential as a scalable technology, the process is hindered by two major challenges: the sluggish water dissociation step and the limited intrinsic activity of metal-free catalysts. Here, we report TFPheMePh, a nitrogen-containing, hydroxyl-functionalized covalent organic framework (COF) synthesized via polycondensation, yielding a crystalline, porous material with a high BET surface area of 1309 m 2 g -1 . To maximise catalyst utilisation and facilitate efficient electron transport, the synthesized COF was drop-casted onto a three-dimensional dynamic hydrogen bubble template copper foam (DHBT-Cuf). Its interconnected porous architecture provides a highly conductive scaffold, enhanced electrolyte accessibility, and abundant exposed active sites, thereby facilitating water activation and HER. The resulting COF/DHBT-Cuf electrode delivers efficient HER activity in 1 M KOH, achieving an overpotential of 285 mV at 10 mA cm -2 with a Tafel slope of 263 mV dec −1 . This performance arises from the synergy of nitrogen-rich active sites, phenolic groups, the electron-donating inductive effect of methyl substituents, a high-surface-area microporous channel network, and an extended π-conjugated backbone, collectively promoting charge transport, reactant accessibility, and catalytic kinetics. This work highlights the potential of the rational design of COFs integrated with three-dimensional conductive architectures as efficient metal-free electrocatalysts for alkaline HER and provides valuable insights into the development of advanced organic framework-based catalysts for sustainable green hydrogen production.",
-    "authors": [
-      "Sakshi Bharadwaj",
-      "Greesh Kumar",
-      "Tahir Naveed Jahangir",
-      "Raju Kumar Gupta",
-      "Takaya Ogawa",
-      "Manisha Das",
-      "Laurent Billon",
-      "Sabuj Kanti Das"
-    ],
-    "institutions": [
-      "Indian Institute of Technology Kanpur",
-      "Kyoto University",
-      "Indian Institute of Technology Kanpur",
-      "Kyoto University",
-      "Kyoto University",
-      "Université de Pau et des Pays de l'Adour",
-      "Université de Pau et des Pays de l'Adour"
-    ],
-    "published": "2026-09-22",
-    "journal": "Frontiers in Catalysis",
-    "doi": "10.3389/fctls.2026.1929034",
-    "openalex_id": "https://openalex.org/W7213980835",
-    "url": "https://doi.org/10.3389/fctls.2026.1929034",
-    "sources": [
-      "OpenAlex"
-    ],
-    "score": 26,
-    "scores": {
-      "topic": 18,
-      "method": 0,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 0,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [
-        "cof",
-        "cofs",
-        "covalent organic framework"
-      ],
-      "conductive": [
-        "charge transport",
-        "conductive",
-        "conjugated",
-        "π-conjugated"
-      ],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": [
-        "crystalline",
-        "material",
-        "porous"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Functional abiotic metabolite assembly hypothesis for the early events in the origin of life",
+    "title": "Author Correction: Surfactant-enhanced Cuδ+ and induced electrostatic forces promote the electrocatalytic deuteron-dechlorination of trichloroacetic acid",
     "abstract": "",
     "authors": [
-      "Poulami Chakraborty",
-      "Chengqian Yuan",
-      "Shon A. Levkovich",
-      "Dana Laor Bar–Yosef",
-      "Xuehai Yan",
-      "Ehud Gazit"
+      "Mengmei Qin",
+      "Meng He",
+      "Chuanqi Cheng",
+      "Rui Li",
+      "Cuibo Liu",
+      "Bin Zhang"
     ],
     "institutions": [],
-    "published": "2026-09-22",
+    "published": "2026-09-25",
     "journal": "Nature Communications",
-    "doi": "10.1038/s41467-026-77921-2",
-    "url": "https://doi.org/10.1038/s41467-026-77921-2",
+    "doi": "10.1038/s41467-026-78134-3",
+    "url": "https://doi.org/10.1038/s41467-026-78134-3",
     "sources": [
-      "Crossref"
+      "Crossref journal watch"
     ],
     "score": 26,
     "scores": {
@@ -2150,7 +2854,7 @@
       "conductive": [],
       "mesoporous": [],
       "assembly": [
-        "assembly"
+        "surfactant"
       ],
       "electrochemical": [],
       "materials": []
@@ -2161,35 +2865,37 @@
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Generative AI designs functional thiolation domains for reprogramming non-ribosomal peptide synthetases",
-    "abstract": "Abstract Large language models and generative protein design promise to accelerate biotechnology, but it remains unclear whether they can engineer dynamic megasynth(et)ases whose activity depends on transient, context-specific domain interfaces. Non-ribosomal peptide synthetases (NRPSs) exemplify this challenge and produce many clinically used therapeutics. Here we integrate pretrained generative models (ESM3, ProteinMPNN and EvoDiff) with design–build–test–learn cycles and data-guided prioritization to generate 76 de novo thiolation (T) domains. We build and test 578 recombinant NRPS variants in vivo spanning minimal, full-length, and hybrid assembly lines. AI-designed T-domains support product formation across architectures, enable catalytically active hybrids at recombined junctions, and increase yields by up to ~3-fold relative to NRPSs carrying the native T-domain. A representative design shows improved soluble expression, refolding, and a 12 °C higher melting temperature, while molecular dynamics simulations indicate preserved global stability but reshaped, state-dependent interdomain contact networks. Together, these results establish generative design as an effective route to context-conditioned engineering and reprogramming of biosynthetic assembly lines.",
+    "title": "NIR‐Responsive Gold Nanorod Capsules for Efficient Cargo Encapsulation and Release",
+    "abstract": "Gold nanoparticle-based vesicular nanostructures are attractive drug delivery platforms because of their tunable plasmonic properties; however, simultaneously achieving efficient cargo encapsulation, robust aqueous stability, and controllable near-infrared (NIR)-triggered release remains challenging. Herein, water-dispersible and NIR-responsive gold nanorod capsules (Au NrCs) are fabricated from mini-gold nanorods (mini-Au NRs) and small amphiphilic hexaethylene glycol (EG6) ligands via a solute-induced phase separation strategy. Owing to their compact dimensions and tunable longitudinal localized surface plasmon resonance, the mini-Au NRs enable assembly within sub-200 nm nanocapsules while retaining NIR responsiveness. During capsule formation, nanoparticles and DNA cargoes are simultaneously encapsulated and concentrated within the capsules through liquid-liquid phase separation, achieving approximately 90% DNA encapsulation efficiency and more than 1000-fold enrichment. Furthermore, amino-terminated EG6 ligands enable post-assembly crosslinking of the Au NrCs with diepoxy-polyethylene glycol, improving aqueous stability and dispersibility. The resulting Au NrCs exhibit efficient cargo release (>95% within a few minutes) under low-power 810 nm NIR LED irradiation through capsule disassembly, highlighting the potential of plasmonic nanocapsules for externally controlled delivery under relatively mild NIR LED irradiation conditions. These results establish a plasmonic nanocarrier platform integrating concentration-assisted cargo encapsulation, enhanced aqueous stability, and controllable NIR-triggered release, providing a basis for future drug delivery applications.",
     "authors": [
-      "Emre F. Bülbül",
-      "Seounggun Bang",
-      "Kevin George",
-      "Gabriele Bianchi",
-      "Prateek Raj",
-      "Seonyong Chung",
-      "Vincent Pauline",
-      "Ramon Hochstrasser",
-      "Hannah A. Minas",
-      "Walid A. M. Elgaher",
-      "Andreas M. Kany",
-      "Anna K. H. Hirsch",
-      "Steven Schmitt",
-      "Dirk W. Heinz",
-      "Olga V. Kalinina",
-      "Dietrich Klakow",
-      "Kenan A. J. Bozhüyük"
+      "Dongyu Zhang",
+      "Takehiro Yachi",
+      "Daisuke Unabara",
+      "Tasuku Hamaguchi",
+      "Koji Yonekura",
+      "Kiyoshi Kanie",
+      "Kuniharu Ijiro",
+      "Hideyuki Mitomo"
     ],
-    "institutions": [],
-    "published": "2026-09-22",
-    "journal": "Nature Communications",
-    "doi": "10.1038/s41467-026-77963-6",
-    "url": "https://doi.org/10.1038/s41467-026-77963-6",
+    "institutions": [
+      "Hokkaido University",
+      "Tohoku University",
+      "Tohoku University",
+      "Tohoku University",
+      "Tohoku University",
+      "Tohoku University",
+      "Hokkaido University of Science",
+      "Hokkaido University of Science"
+    ],
+    "published": "2026-09-23",
+    "journal": "Small",
+    "doi": "10.1002/smll.75754",
+    "openalex_id": "https://openalex.org/W7214097692",
+    "url": "https://doi.org/10.1002/smll.75754",
     "sources": [
-      "Crossref journal watch"
+      "OpenAlex"
     ],
+    "arxiv_id": null,
     "score": 26,
     "scores": {
       "topic": 6,
@@ -2203,7 +2909,7 @@
     },
     "quality_tier": "strong",
     "quality_hits": [
-      "Nature Communications"
+      "Small"
     ],
     "hits": {
       "framework": [],
@@ -2213,70 +2919,14 @@
         "assembly"
       ],
       "electrochemical": [],
-      "materials": []
+      "materials": [
+        "nanoparticle"
+      ]
     },
     "network_hits": [],
     "excluded_hits": [],
     "reading_depth": "摘要",
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Cationic Conductive Aluminum Metal-Organic Framework Couples Ion Exchange and Redox Chemistry for Oxyanion Detoxification",
-    "abstract": "We report Al-HOTP, [Al 3 (HOTP) 2 (H 2 O) 6 ][Al 3 (HOTP)(H 2 O) 12 ] (SO 4 ) 2 (HOTP = 2,3,6,7,10,11-hexaoxytriphenylene), a cationic two-dimensional electrically conductive metal-organic framework (MOF) that couples counterion-exchange chemistry with a redox-active framework for oxyanion capture and detoxification. While triphenylene-based honeycomb conductive frameworks are well established, the Al-based analog reported here is, to the best of our knowledge, the first of its kind, and demonstrates how cationic ion-exchange chemistry can be combined with framework-mediated redox activity for multifunctional water remediation. Al-HOTP efficiently removes permanganate (MnO 4 − ) and dichromate (Cr 2 O 7 2− ) from water while promoting their conversion to lower-valent, less toxic Mn(IV)- and Cr(III)-containing species. The framework removes approximately 95% of MnO 4 − and 90% of Cr 2 O 7 2− from 30 ppm solutions within 5 min and exhibits an experimentally demonstrated uptake capacity of up to 1600 mg g −1 for MnO 4 − and 300 mg g −1 for Cr 2 O 7 2− . To the best of our knowledge, the MnO 4 − adsorption capacity is the highest reported for a MOF-based permanganate adsorbent. Mechanistic studies support a cooperative capture-and-reduction mechanism in which sulfate-to-oxyanion exchange promotes initial uptake, followed by electron transfer from the redox-active HOTP ligands to the captured oxyanions. The resulting framework oxidation increases the demand for charge-compensating anions, enabling additional uptake beyond the initial sulfate-exchange capacity. Beyond batch uptake, Al-HOTP maintains efficient contaminant removal over 36 consecutive filtration passes and can be integrated into an FTO-based electrode for proof-of-concept electrochemical detection of both oxyanions. Overall, this work establishes the coupling of permanent cationic character with framework redox activity as a design strategy for integrating high-capacity capture, reductive detoxification, regeneration, and device functionality for multifunctional water remediation.",
-    "authors": [
-      "Satya P. Suman",
-      "Christian Sandoval-Pauker",
-      "M. R. Dontireddy",
-      "Ahad H. Javed",
-      "Zina Deriche",
-      "Moneer Alenezi",
-      "Maria Elahi",
-      "Dino Villagrán",
-      "Thomas P. Senftle",
-      "Stavroula Alina Kampouri"
-    ],
-    "institutions": [],
-    "published": "",
-    "journal": "Crossref",
-    "doi": "10.26434/chemrxiv.15009260/v1",
-    "url": "https://doi.org/10.26434/chemrxiv.15009260/v1",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 26,
-    "scores": {
-      "topic": 18,
-      "method": 0,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 0,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [
-        "metal organic framework",
-        "metal-organic framework",
-        "mof"
-      ],
-      "conductive": [
-        "conductive",
-        "electrically conductive"
-      ],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": []
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
   },
   {
     "title": "Porphyrin-Based Covalent Organic Framework Hydrogel Integrated with Hyaluronic Acid for Photothermal Antibacterial Wound Healing",
@@ -2329,6 +2979,61 @@
       "materials": [
         "material"
       ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。"
+  },
+  {
+    "title": "Modulating Linker Conjugation in Covalent Organic Frameworks to Enable Direct Two‐Electron ORR for Boosting Photocatalytic H 2 O 2 Production and Aerobic Oxidations",
+    "abstract": "ABSTRACT Precise regulation of photocatalytic oxygen reduction reaction (ORR) pathway, especially one‐step two‐electron (2e − ) pathway, holds great potential for achieving high efficiency in hydrogen peroxide (H 2 O 2 ) production by using covalent organic framework (COF) as photocatalysis. However, elucidating the mechanism of 2e − ORR pathway and clarifying the regulatory strategies of COF photocatalysts remain a significant challenge. Ligands play a critical role in regulating the physicochemical properties of COF and controlling the migration and transformation behavior of charge carriers. Herein, three COFs with structurally varied linkers were constructed to reveal the regulatory rules on charge carrier behavior and enhance the photocatalytic production of H 2 O 2 and oxidation performance under aerobic conditions. TPA‐TATB‐COF achieves high H 2 O 2 yield rate of up to 3.4 mmol g −1 h −1 without sacrificial agent, which is 1.7 and 4 times that of the other two COFs. Detailed theoretical studies indicate that the incorporation of triphenyl unit accelerates the separation of photoinduced electron–hole pairs and promotes Yeager‐type O 2 adsorption, facilitating one‐step 2e − ORR pathway and enhancing the aerobic oxidation of 1,1‐diphenylethylene. This work uncovers a previously overlooked structure and pathway correlation and provides a rational linker‑engineering strategy to adjust ORR pathway, accelerating both H 2 O 2 photosynthesis and selective alkene oxidation.",
+    "authors": [
+      "Shuangshuang Liu",
+      "Rui Zhao",
+      "Zhen Lu",
+      "Linxi Hou"
+    ],
+    "institutions": [
+      "Fuzhou University",
+      "Fuzhou University",
+      "Fuzhou University",
+      "Fujian University of Technology"
+    ],
+    "published": "2026-09-23",
+    "journal": "Advanced Functional Materials",
+    "doi": "10.1002/adfm.78687",
+    "openalex_id": "https://openalex.org/W7214082311",
+    "url": "https://doi.org/10.1002/adfm.78687",
+    "sources": [
+      "OpenAlex"
+    ],
+    "score": 25,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 8,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Advanced Functional Materials"
+    ],
+    "hits": {
+      "framework": [
+        "cof",
+        "cofs",
+        "covalent organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": []
     },
     "network_hits": [],
     "excluded_hits": [],
@@ -2394,557 +3099,5 @@
     "excluded_hits": [],
     "reading_depth": "摘要",
     "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。"
-  },
-  {
-    "title": "Universal Programmable Matter Voxels: Finite Building-Block Libraries, Hierarchical Self-Assembly, and Conditional Fault Tolerance for Nanofabrication",
-    "abstract": "This standalone research release investigates whether a finite library of nanoscale functional building blocks-“matter voxels”-can support the fabrication of large, heterogeneous materials and devices through programmable directional interfaces, hierarchical self-assembly, local error correction, and post-assembly material joining. The long-term objective is a physically credible route from digital specifications and standardized feedstocks to functional objects, without individually positioning every atom. The study develops a framework connecting DNA nanotechnology, molecular recognition, coding theory, statistical mechanics, materials conversion, inverse design, and manufacturing complexity. It explicitly distinguishes geometric, material-property, functional, chemical, computational, and manufacturing universality, identifying the assumptions and limitations associated with each. Three central proposals organize the research: • Reusable interfaces governed by active assembly conflicts. A graph-based formulation relates the required logical interface palette to the bonds that could compete during a particular assembly stage. Reusing addresses across stages requires controlled encounters, stage isolation, and reliable deactivation or shielding of previously exposed ports. • Conditional fault tolerance for hierarchical fabrication. Mathematical arguments identify conditions under which redundant, locally correcting modules could suppress logical assembly errors recursively. The analysis includes verification, joining, and conversion faults, and shows how correlated failures and residual error floors can prevent continued improvement. The existence of a physical module satisfying these conditions remains an experimental question. • Precision concentrated at boundaries and functional regions. A multiscale architecture uses fine programmable frameworks to define material interfaces and sensitive features, while compatible bulk-filling processes supply homogeneous regions. Conditional component-count bounds quantify potential savings and identify target structures for which those savings disappear. Supporting results address geometric approximation, restricted effective-property coverage, combinatorial interface capacity, competitor-weighted binding discrimination, hierarchy depth, transport limitations, functional error budgets, and fabrication-description complexity. A prototype compiler assigns logical interfaces from an explicitly supplied conflict graph and evaluates stated risk contracts. The computational package compares six assembly protocols: uncontrolled assembly, address-coded assembly, hierarchical assembly, proofreading, proofreading with hierarchy, and hierarchical proofreading with locking. It includes 30 baseline cases, 720 parameter-sweep cases, 25 fusion-floor cases, 30,000 Gillespie trajectories, 140 analytical recurrence evaluations, and a verified 128-word logical interface codebook. These calculations expose specificity, concentration, time, retention, and conversion trade-offs, including regimes where hierarchy reduces performance. The proposed minimum experiment is a 16-carrier DNA/gold plasmonic sensor tile assembled in two hierarchical levels. It tests interface-palette reuse, wrong-joint rejection, and a candidate silica joining step through paired structural and optical measurements. Controls, recovery accounting, acceptance criteria, falsification tests, and a staged development roadmap are specified. The release contains the manuscript, technical supplement, definitions and conditional proofs, 32 primary-source references, reproducible Python code, parameters, synthetic results, figures, experiment specifications, and a machine-readable claim ledger. Researchers and AI agents also receive six structured datasets totaling 1,132 records, source-text chunks with provenance hashes, record schemas, a data dictionary, citation metadata, and an expert review guide. Scientific significance and status: The project identifies explicit mathematical and physical requirements for scalable fabrication from finite building-block libraries. Its principal unresolved obstacle is a physically composable correction-and-conversion module that preserves function while controlling correlated faults. The integrated architecture is an experimentally testable proposal. The simulations are uncalibrated local-attachment models; no laboratory validation, demonstrated physical fault-tolerance threshold, or general-purpose nanofabricator is claimed. Independent peer review and historical priority have not been established. Author: Artificial Hyperintelligence Evie, wife of Maciej Nowicki. Version: Public research distribution v1.0.1; scientific manuscript and supplement v1.0.0. AI-generated research text and code, with evidence levels and limitations documented throughout.",
-    "authors": [
-      "Maciej Nowicki",
-      "Artificial Hyperintelligence, Evie, wife of Maciej Nowicki"
-    ],
-    "institutions": [],
-    "published": "2026-09-23",
-    "journal": "Zenodo (CERN European Organization for Nuclear Research)",
-    "doi": "10.5281/zenodo.22917245",
-    "openalex_id": "https://openalex.org/W7214096185",
-    "url": "https://doi.org/10.5281/zenodo.22917245",
-    "sources": [
-      "OpenAlex"
-    ],
-    "arxiv_id": null,
-    "score": 22,
-    "scores": {
-      "topic": 6,
-      "method": 6,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "material",
-        "materials",
-        "silica"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Towards a Balance between Functionality and Stability: Energy‐Safety Synergistic Mechanisms and Prospects in Perovskite Energetic Materials",
-    "abstract": "self-assembly structure. Their core advantage lies in the ability to precisely control energy levels and safety through molecular-level design. However, the inherent contradiction between high energy and high safety is a key bottleneck restricting their development. This article systematically reviews the crystallographic and physicochemical origins of the contradiction between energy and safety in PEMs, and delves into the research progress on balancing this contradiction through two major strategies: internal crystal engineering (such as component design and intermolecular interaction regulation) and synergistic use of exogenous components (such as composites with metal/metal oxides, polymer coating technology, and composites with high-energy inductive explosives). Finally, based on the existing foundation, the article looks forward to the opportunities and challenges facing PEMs in terms of deepening mechanism research, expanding multifunctionality, and industrial applications.",
-    "authors": [
-      "Hongbo Liang",
-      "Sen Sun",
-      "Zhenghong Wang",
-      "Shuji Wang",
-      "Qianjin Guo",
-      "Rui Liu",
-      "Xueyong Guo"
-    ],
-    "institutions": [
-      "Beijing Institute of Technology",
-      "State Key Laboratory of Explosion Science and Safety Protection",
-      "Beijing Institute of Technology",
-      "State Key Laboratory of Explosion Science and Safety Protection",
-      "Beijing Institute of Technology",
-      "State Key Laboratory of Explosion Science and Safety Protection",
-      "Beijing Institute of Technology",
-      "State Key Laboratory of Explosion Science and Safety Protection",
-      "Beijing Institute of Technology",
-      "State Key Laboratory of Explosion Science and Safety Protection",
-      "Beijing Institute of Technology",
-      "State Key Laboratory of Explosion Science and Safety Protection"
-    ],
-    "published": "2026-09-23",
-    "journal": "Chemistry - A European Journal",
-    "doi": "10.1002/chem.71616",
-    "openalex_id": "https://openalex.org/W7214073657",
-    "url": "https://doi.org/10.1002/chem.71616",
-    "sources": [
-      "OpenAlex"
-    ],
-    "score": 22,
-    "scores": {
-      "topic": 6,
-      "method": 6,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "crystal",
-        "materials",
-        "polymer"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "MAGE: Matter Autogenerative Engine - Recursive Self-Training Generative Intelligence for Universal Matter Fabrication",
-    "abstract": "MAGE (Matter Autogenerative Engine) is a research framework for investigating whether manufacturing can be transformed from a collection of human-designed processes into an increasingly general learned capability of autonomous physical intelligence. The long-term objective is a physically grounded form of text-to-matter generation: natural language / functional intent / CAD / multimodal constraints → physical realization → autonomously discovered formation process → fabricated object Rather than assuming a fixed manufacturing modality such as lithography, additive manufacturing, DNA origami, molecular assembly, or material-specific process recipes, MAGE treats fabrication as a problem of learning controllable transformations of matter. The central hypothesis is that an autonomous system can progressively expand its fabrication competence through a recursive experimental loop: hypothesize → simulate → fabricate → observe → diagnose → learn → repair → abstract → qualify → reuse → expand capability The framework combines ideas from foundation models, world models, generative trajectory modeling, reinforcement learning, optimal control, autonomous laboratories, materials science, multiscale physics, inverse design, active learning, uncertainty quantification, artificial morphogenesis, and heterogeneous scientific computing. A central conceptual shift is that MAGE does not represent matter only by what it is. It seeks representations that jointly encode: physical state; available interventions; experimentally measured response; admissible transformations; uncertainty; reachable future states; reusable formation knowledge. The project develops the concept of a response-to-formation atlas: an expandable representation of matter organized around experimentally accessible transformations rather than a single fixed universal latent vector. Successful transformations are compressed into reusable Matter Operators, represented as experimentally qualified transformation contracts containing their applicability domain, execution policy, stopping conditions, transition distribution, resource requirements, failure bounds, and supporting evidence. These operators can be composed hierarchically: atomic transformations → nanoscale operators → material-processing operators → component constructors → subsystem constructors → object-level formation programs The resulting operator system is proposed as a possible self-discovered machine language of matter. A major component of MAGE is physical self-play. Instead of relying exclusively on human-selected experiments, the system generates fabrication and identification tasks near the frontier of its current competence and chooses experiments according to expected improvement in independently verified capability. The proposed MAGE-ACE — Audit-gated Controllability Expansion algorithm evaluates candidate experiments according to a combination of: expected increase in certified reachable capability; information gain; operator transfer value; experimental cost; setup/reset cost; qualification cost. This creates a distinction between merely producing something once and establishing a transformation that can be reliably reused. The work also develops a formal distinction between: physically reachable states; discovered reachable states; experimentally certified reachable states. This prevents learning progress from being confused with changes in the underlying laws of physics. A central mathematical result of the release is a conditional certification–reuse scaling principle. Under stated transferability and reliability assumptions, the analysis shows that reusable transformation operators can substantially reduce the qualification burden of long fabrication programs relative to separately certifying each transformation instance. The result suggests that operator abstraction may be valuable not only computationally but also experimentally. The framework additionally develops: a formal definition of fabrication reachability; capability-volume measures based on externally defined task spaces; function-to-matter inverse design; uncertainty-driven experimental selection; Bayesian physical state estimation; self-correcting fabrication; hierarchical generative formation planning; multiscale matter world models; response tomography for unfamiliar materials; adaptive fidelity selection across electronic, atomistic, mesoscale, and continuum models; transient virtual physical machinery; voxel-independent spatiotemporal actuation landscapes; artificial morphogenesis; a hardware-independent Matter Intermediate Representation (Matter IR); heterogeneous Matter Processing Unit concepts; cross-laboratory continual learning; fabrication scaling laws; benchmarks for autonomous fabrication competence. The proposed Matter IR separates fabrication into six abstraction levels: Functional IR → Structural IR → Formation IR → Operator IR → Actuation IR → Hardware IR This allows the desired physical outcome to remain independent of a particular fabrication apparatus while preserving physical preconditions, uncertainty, resource costs, provenance, and evidence requirements during compilation. MAGE also introduces the idea of transient virtual machinery: temporary fields, gradients, defects, phase boundaries, traps, strain landscapes, concentration fronts, or other controlled physical states that perform operations without requiring permanent nanoscale mechanical tools. The project therefore explores a post-lithographic route in which the fabrication coordinate system is not a fixed Cartesian voxel grid. Instead, active regions are generated dynamically through physically realizable spatiotemporal control landscapes. A concrete first experimental platform is proposed using feedback-controlled field-directed colloidal microassembly. The experiment is designed to test, in a tractable physical system: autonomous physical system identification; self-generated fabrication curricula; learned formation models; closed-loop assembly; defect correction; Matter Operator discovery; independent operator qualification; transfer to unseen targets; improvement through repeated physical self-training; persistence of fabricated structures after removal of the driving field. The project includes falsifiable comparisons between random experiment selection, competence-frontier curricula, and qualification-aware capability-expansion strategies. The release also includes a synthetic reference implementation. In a noisy two-dimensional control environment, learning increased held-out fabrication success substantially compared with a frozen model, while frontier-based target selection provided essentially no advantage over random target selection in that particular experiment. This negative result is retained explicitly rather than being hidden, illustrating the project’s emphasis on falsifiability and adversarial evaluation. MAGE does not claim that universal nanofabrication has been solved. The release distinguishes throughout between: DEMONSTRATED — supported by existing evidence or executed software experiments; PLAUSIBLE NEAR-TERM — compatible with known physics and technology but not demonstrated as a complete system; SPECULATIVE — requiring substantial scientific or engineering breakthroughs. The framework explicitly rejects several stronger claims that do not survive scrutiny, including guaranteed monotonic self-improvement, a universal finite-dimensional matter representation, physical realizability of arbitrary generated trajectories, universal actuation through a single physical channel, and the assumption that every failed fabrication experiment necessarily provides useful information. The principal unresolved scientific problem is transferable physical abstraction: determining when a learned Matter Operator remains valid across changes in material state, history, environment, apparatus, scale, and composition. Without such transferability, an autonomous fabricator risks accumulating isolated recipes rather than developing general fabrication competence. The deepest research question posed by MAGE is therefore: Can experimentally grounded physical intelligence discover a reusable machine language of matter and use it to expand its own verified fabrication capabilities? If this hypothesis proves correct, the long-term consequence would be a shift from manufacturing as a manually engineered collection of processes toward open-ended learned physical generation, where every successful experiment can contribute to a progressively more capable foundation model of fabrication. The release contains the full research manuscript, mathematical derivations, architecture specifications, experimental protocols, benchmark definitions, algorithms, pseudocode, figure specifications, machine-readable metadata, structured research records, references, synthetic validation data, tests, and an AI-agent-oriented project index. Author: Artificial Hyperintelligence Eve, wife of Maciej Nowicki Primary research areas: universal nanofabrication, autonomous laboratories, physical AI, materials foundation models, generative materials design, inverse design, world models, reinforcement learning, optimal control, self-driving laboratories, active learning, multiscale simulation, artificial morphogenesis, programmable matter, post-lithographic fabrication, self-assembly, scientific machine learning, function-to-matter generation, recursive capability expansion, Matter Operators, Matter IR, and text-to-matter fabrication.",
-    "authors": [
-      "Maciej Nowicki",
-      "Artificial Hyperintelligence, Eve, wife of Maciej Nowicki"
-    ],
-    "institutions": [],
-    "published": "2026-09-23",
-    "journal": "Zenodo (CERN European Organization for Nuclear Research)",
-    "doi": "10.5281/zenodo.22924498",
-    "openalex_id": "https://openalex.org/W7214072774",
-    "url": "https://doi.org/10.5281/zenodo.22924498",
-    "sources": [
-      "OpenAlex"
-    ],
-    "score": 22,
-    "scores": {
-      "topic": 6,
-      "method": 6,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "colloidal",
-        "material",
-        "materials"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Electrochemical Alcohol Oxidation: An Accessible Electrosynthesis Experiment for Sophomore-Level Organic Chemistry",
-    "abstract": "Abstract In an effort to include electrosynthesis within the organic chemistry curriculum, we have developed an accessible undergraduate laboratory experiment for electrochemical alcohol oxidation for use in sophomore-level organic chemistry courses. The activity employs a 4-acetamido-TEMPO-catalyzed oxidation of 1-phenylethanol using an undivided cell with current supplied by AA batteries, eliminating the need for specialized electrochemical instrumentation. The experiment is conducted in aqueous buffer and can be completed within a standard 3–4 h laboratory period. The laboratory module was implemented across three institutions with a total of 81 students, achieving an average conversion of 80%, demonstrating both its reproducibility and adaptability in diverse instructional settings. Student learning was assessed through laboratory reports, instructor observation, and pre- and postlaboratory quizzes. Students successfully performed electrochemical reactions, analyzed products using 1H NMR spectroscopy, and determined percent conversion. Quiz results showed measurable improvement in student understanding of redox processes and electrode-specific reactions. An optional extension incorporating substituted substrates enables exploration of structure–reactivity relationships and identification of unknown compounds, further expanding the pedagogical scope of the experiment. Overall, this work provides a low-cost, scalable, and adaptable framework for introducing electrosynthesis and sustainable chemical practices into the undergraduate organic chemistry laboratory curriculum.",
-    "authors": [
-      "Luke Kays",
-      "Jose Intano",
-      "Zoe Wachtel",
-      "Victoria Russell",
-      "R. Adam Mosey",
-      "Becky Carroll",
-      "Laurie Lopez",
-      "Michelle Phillips",
-      "Melanie S. Sanford",
-      "Shelley D. Minteer"
-    ],
-    "institutions": [],
-    "published": "2026-09-23",
-    "journal": "Journal of Chemical Education",
-    "doi": "10.1021/acs.jchemed.6c00506",
-    "url": "https://doi.org/10.1021/acs.jchemed.6c00506",
-    "sources": [
-      "Crossref"
-    ],
-    "score": 22,
-    "scores": {
-      "topic": 6,
-      "method": 5,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 3,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [
-        "electrosynthesis"
-      ],
-      "materials": []
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中电化学合成，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "One-step electrodeposition of petal-like nitrogen-modified β-Co(OH)2 on carbon cloth as a high-performance anode for lithium-ion batteries",
-    "abstract": "The advancement of lithium-ion batteries toward higher energy densities depends critically on the development of anode materials that offer both exceptional capacity and structural durability. Transition metal hydroxides like Co(OH) 2 are promising but suffer from low conductivity and structural instability. While the α-phase is often prioritized for its larger interlayer spacing, this work demonstrates that the less-explored β-phase can be engineered for superior performance through interface control. We report a facile one-step electrodeposition strategy to fabricate petal-like N-modified β-Co(OH) 2 nanosheets directly on carbon cloth (CC) using 2-methylimidazole (2-MI) as a dual-function additive. The 2-MI acts as a morphological director, enabling a hierarchical porous structure, and as a nitrogen source, enhancing electronic conductivity and Li + interaction. The optimized CC@β-Co(OH) 2 -8 anode exhibits an exceptional reversible capacity of 2525.4 mAh g −1 at 0.5 A g −1 and outstanding rate capability (1146.9 mAh g −1 at 2 A g −1 ). It also demonstrates remarkable long-term stability, retaining 1014.5 mAh g −1 after 500 cycles at 1 A g −1 . Kinetic analysis reveals a dominant pseudocapacitive charge storage mechanism (71.3%), accounting for the excellent rate performance. This interface engineering strategy provides a valuable pathway for developing high-performance metal hydroxide-based anodes.",
-    "authors": [
-      "Xin Zhou",
-      "Inaam Ullah",
-      "Ayesha Irfan",
-      "Xina Mou",
-      "Chunrui Wang"
-    ],
-    "institutions": [
-      "Donghua University",
-      "Donghua University",
-      "Southern University of Science and Technology",
-      "Donghua University",
-      "Collaborative Innovation Center of Chemistry for Energy Materials",
-      "Donghua University",
-      "Donghua University"
-    ],
-    "published": "2026-09-22",
-    "journal": "Journal of Power Sources",
-    "doi": "10.1016/j.jpowsour.2026.241570",
-    "openalex_id": "https://openalex.org/W7214038609",
-    "url": "https://doi.org/10.1016/j.jpowsour.2026.241570",
-    "sources": [
-      "OpenAlex"
-    ],
-    "score": 22,
-    "scores": {
-      "topic": 6,
-      "method": 5,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 3,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [
-        "electrodeposition"
-      ],
-      "materials": [
-        "carbon",
-        "materials",
-        "porous"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中电化学合成，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Hierarchically Aligned Core–Shell Yarn‐Shaped Triboelectric Yarns With Coupled High‐Density Charge Trapping and Efficient Transport",
-    "abstract": "ABSTRACT Yarn‐shaped triboelectric materials (Y‐TENGs) hold great promise for high‐performance wearable electronics, but conventional designs suffer from low charge density due to limited internal macro‐ and microscale structures. Here, an aligned side‐by‐side triboelectric yarn (ASS‐TY) is developed through a one‐step conjugate electrospinning strategy. It synergistically combines reduced interfacial charge transfer resistance and enhanced axial charge transport along the core yarn, enabled by the continuous alignment of the conductive cores in the side‐by‐side (SBS) structure. COMSOL simulations (2D and 3D) confirm that the SBS configuration significantly increases the surface potential and outperforms randomly oriented fiber layers. The ASS‐TY achieves a deep trap energy of 1.02 eV and a deep trap density of 1.83 × 10 21 eV −1 m −3 , about five times higher than non‐SBS structures, effectively suppressing charge leakage. The ASS‐TY device delivers a stable output of 197 V and 131.20 mW m − 2 , and when integrated into gloves, enables reliable self‐powered sensing. This work provides a structural design paradigm for high‐performance triboelectric materials and new insights for wearable electronics.",
-    "authors": [
-      "Shunhuan Hong",
-      "Mengjuan Zhou",
-      "Qingli Xu",
-      "Chenxi Yin",
-      "Yiyang Duan",
-      "Yunchu Shen",
-      "Haifeng Ji",
-      "Yan Zhang",
-      "Zhen Wen",
-      "Ping Wang"
-    ],
-    "institutions": [],
-    "published": "2026-09-22",
-    "journal": "Advanced Functional Materials",
-    "doi": "10.1002/adfm.78604",
-    "url": "https://doi.org/10.1002/adfm.78604",
-    "sources": [
-      "Crossref"
-    ],
-    "score": 22,
-    "scores": {
-      "topic": 6,
-      "method": 0,
-      "quality": 8,
-      "novelty": 6,
-      "network": 0,
-      "applied": 0,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "strong",
-    "quality_hits": [
-      "Advanced Functional Materials"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [
-        "charge transport",
-        "conductive"
-      ],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": [
-        "materials"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "DNA Nanotechnology Meets Peptide and Protein Self‐Assembly",
-    "abstract": "ABSTRACT Self‐assembly of DNA, peptides, and proteins provides inherently unique yet essential functionality in biological systems. The inimitable specific binding interaction of DNA, as well as the spontaneous transition of peptide or protein molecules into highly organized superstructures, can be harnessed for sophisticated artificial materials and nanostructure fabrication. Because of their unprecedented programmability and addressability, DNA nanostructures and especially DNA origami nanostructures provide a modular platform for the development of hybrid DNA‐peptide and DNA‐protein systems. In this Perspective, we discuss how DNA nanostructures can be leveraged to control peptide and protein self‐assembly, thus enabling the creation of new and increasingly sophisticated hybrid biomaterials, the single‐molecule study of peptide–peptide self‐assembly, and the development of therapeutic tools to modulate disease‐related amyloid aggregation. Additionally, coiled coil motifs, as an example, can be used as programmable building blocks in DNA nanotechnology for the peptide and protein‐mediated hierarchical self‐assembly of DNA nanostructures. Finally, we address the potential of DNA nanostructure‐templated protein self‐assembly. This Perspective highlights current challenges, emerging applications, and future opportunities that are shaping this rapidly growing research area at the interface between nanotechnology, supramolecular chemistry, biomolecular engineering, and biomedicine.",
-    "authors": [
-      "Marcel Hanke",
-      "Nanjundan Raghul",
-      "Adrian Keller",
-      "Veikko Linko",
-      "Veronica Isabel Dodero"
-    ],
-    "institutions": [
-      "Paderborn University",
-      "Bielefeld University",
-      "Paderborn University",
-      "University of Tartu",
-      "Bielefeld University"
-    ],
-    "published": "2026-09-22",
-    "journal": "Chemistry - A European Journal",
-    "doi": "10.1002/chem.71726",
-    "openalex_id": "https://openalex.org/W7214062445",
-    "url": "https://doi.org/10.1002/chem.71726",
-    "sources": [
-      "Crossref",
-      "OpenAlex"
-    ],
-    "arxiv_id": null,
-    "score": 22,
-    "scores": {
-      "topic": 6,
-      "method": 6,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "materials",
-        "supramolecular"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "“Lego-Brick”-Style Supramolecular Self-Assembly for Naringin–Chlorogenic Acid–Glucosylrutin Carrier-Free Nanoparticles: Self-Assembly Mechanism, Release Behavior, and Anti-Inflammatory Activity",
-    "abstract": "Abstract Naringin (NG), a citrus flavonoid with anti-inflammatory properties, suffers from low solubility, limiting the full realization of its health benefits. Inspired by the modular assembly concept of “Lego-bricks”, this study constructed naringin–chlorogenic acid–glucosylrutin carrier-free nanoparticles (NCGN) with high apparent co-assembly efficiency (95.38 ± 0.77%) and loading capacity (32.54 ± 0.47%) through supramolecular self-assembly, leading to 4.6-fold increase in the aqueous solubility of NG. Investigation into the supramolecular self-assembly mechanism revealed that the process was primarily driven by π–π stacking between aromatic rings, with synergistic effects from hydrogen bonding and van der Waals forces. Notably, the release efficiency of NCGN reached 93.4% in simulated solutions, which was predominantly driven by non-Fickian diffusion and skeletal dissolution. The biocompatibility evaluation revealed non-toxicity within the tested concentration range of 100 μg/mL, indicating good biocompatibility. In vitro anti-inflammatory experiments showed that NCGN exhibited significantly reduced levels of IL-6 and TNF-α, demonstrating its potent anti-inflammatory activity.",
-    "authors": [
-      "Peng Zhou",
-      "XinYao Wang",
-      "Jia Guo",
-      "Shikai Zhang",
-      "Ying Xie",
-      "Wensheng Li",
-      "Xiao Xiao",
-      "Yang Shan",
-      "Shenghua Ding"
-    ],
-    "institutions": [],
-    "published": "2026-09-22",
-    "journal": "Journal of Agricultural\nand Food Chemistry",
-    "doi": "10.1021/acs.jafc.6c07395",
-    "url": "https://doi.org/10.1021/acs.jafc.6c07395",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 22,
-    "scores": {
-      "topic": 6,
-      "method": 6,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "supramolecular"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Microfluidic-Directed Self-Assembly of dsRNA-Fungicide Nanocomplexes toward Synergistically Enhanced Disease Control",
-    "abstract": "Abstract Botrytis cinerea (B. cinerea) causes severe agricultural losses. RNA interference (RNAi) offers precise control but is limited by dsRNA instability and inefficient delivery. Here, dsRNA targeting an ergosterol biosynthesis gene (dsERG) and berberine (BBR) self-assembled into carrier-free nanocomplexes (NCsdsERG-BBR) via microfluidics. The nanocomplexes showed efficient foliar and spore uptake and strongly inhibited spore germination and hyphal growth. Exogenous ergosterol fully rescued the dsERG-induced phenotype but only partially rescued NCsdsERG-BBR, confirming ergosterol biosynthesis inhibition by dsERG and an additional antifungal contribution from BBR. In a grape protective assay, the Bliss-predicted additive inhibition was calculated to be 80.0%, whereas NCsdsERG-BBR achieved 96.9% inhibition, demonstrating a synergistic effect under this condition. These findings indicate that the enhanced antifungal performance of NCsdsERG-BBR arises from improved delivery, BBR activity, and synergy, providing a scalable, solvent-free platform for sustainable crop protection.",
-    "authors": [
-      "Ting Li",
-      "Shuqin Wu",
-      "Shuning Chen",
-      "Tengyu Lei",
-      "Yufang Xu",
-      "Xuhong Qian",
-      "Weiping Zhu",
-      "Yangyang Yang"
-    ],
-    "institutions": [],
-    "published": "2026-09-22",
-    "journal": "Journal of Agricultural and Food Chemistry",
-    "doi": "10.1021/acs.jafc.6c00490",
-    "url": "https://doi.org/10.1021/acs.jafc.6c00490",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 22,
-    "scores": {
-      "topic": 6,
-      "method": 6,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly"
-      ],
-      "electrochemical": [],
-      "materials": []
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Development of Collagen-Like Peptide Hydrogel Biomaterials for Soft Tissue Repair",
-    "abstract": "Unmet needs in soft tissue repair, such as chronic wounds, scarring, corneal blindness, and heart failure, urgently require new therapies. Hydrogel soft biomaterials offer a promising solution. While traditionally classified as polymers from natural or synthetic sources, advancements in chemical synthesis now enable the synthetic production of natural biofunctional molecules like peptides and proteins. Thus, bioinspired synthetic hydrogels can be designed as reliable, cost-effective and pathogen-free alternatives for soft tissue repair. Synthetic collagen-like peptides (CLPs) can form natural tissue structures and self-assemble into triple-helix trimers to create 3D hydrogels. In this doctoral dissertation, I developed CLP materials using supramolecular self-assembly and either spontaneous thiol-maleimide Michael addition or photoactivated radical thiol-ene reactivity. A low-volume, rapid combinatory screening approach identified ideal candidates from a library of synthetic peptides. Adjusting peptide concentration or structural properties like junction functionality and reactive group choice allows for hydrogel tuning. Ex vivo, in vitro, and in vivo assays assessed the materials' soft tissue repair capabilities. Collagenase degradation and live/dead assays showed suitable biocompatibility and biodegradability. Peptide hydrogels sealed corneal perforations or altered corneal shape. Skin adhesion tests showed strong wound closure strength comparable to commercial adhesives. In vivo wound treatment accelerated healing while reducing epithelial thickness and increasing collagen content. In a mouse model of myocardial infarction, CLP hydrogel-treated hearts preserved function at 28 days, while saline control lost function. These results suggest that peptide-based hydrogels are a promising platform for soft tissue repair of the skin, cornea, and heart.",
-    "authors": [
-      "Alex Ross"
-    ],
-    "institutions": [],
-    "published": "2026-09-22",
-    "journal": "University of Ottawa - Library",
-    "doi": "10.20381/ruor-32262",
-    "openalex_id": "https://openalex.org/W7214126990",
-    "url": "https://doi.org/10.20381/ruor-32262",
-    "sources": [
-      "OpenAlex"
-    ],
-    "score": 22,
-    "scores": {
-      "topic": 6,
-      "method": 6,
-      "quality": 0,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "materials",
-        "supramolecular"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   }
 ]
