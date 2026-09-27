@@ -1,5 +1,575 @@
 [
   {
+    "date": "2026-09-26",
+    "search_start": "2026-09-24",
+    "generated_at": "2026-09-27T01:22:12Z",
+    "papers": [
+      {
+        "title": "Hierarchical Confinement and Oxygen‐Vacancy Catalysis for Highly Reversible Room‐Temperature Sodium‐Sulfur Batteries",
+        "abstract": "ABSTRACT Room‐temperature sodium‐sulfur (RT Na‐S) batteries are attractive for grid‐scale energy storage owing to their high theoretical energy density and elemental abundance, yet their practical application remains severely challenged by sluggish sulfur redox kinetics and the shuttle of sodium polysulfides. Herein, we establish a molten‐salt‐assisted strategy to construct a multifunctional cathode host (PNCNs@CeO 2‐x ), where oxygen‐deficient CeO 2‐x nanoparticles are confined within a hierarchically porous carbon framework and encapsulated by graphene‐like carbon nanosheets. This deliberately orchestrated architecture unifies spatial confinement and oxygen‐vacancy‐enabled catalysis to form conductive microreaction domains featuring continuous ion/electron transport pathways and abundant active interfaces. Through in situ characterizations and machine‐learning‐assisted molecular dynamics simulations, we demonstrate that oxygen vacancies in CeO 2‐x induce favorable charge redistribution, strengthen Na 2 S x adsorption, lower the energy barrier for Na 2 S 2 /Na 2 S conversion, and promote a highly reversible solid–liquid–solid conversion process, thereby effectively suppressing polysulfide dissolution. Consequently, the PNCNs@CeO 2‐x ‐S cathode exhibits an impressive reversible capacity of 1167 mAh g −1 at 0.1 A g −1 and outstanding cycling stability, maintaining 86.2% capacity retention after 9000 cycles at 5 A g −1 . This work establishes a confinement‐catalysis design paradigm for regulating sulfur electrochemistry for long‐life RT Na‐S batteries.",
+        "authors": [
+          "Wei He",
+          "Huiling Fang",
+          "Zijing Huo",
+          "Jiaqi Yu",
+          "Puwu Liang",
+          "Mujtaba Aminu Muhammad",
+          "Ahmed Abdel‐Aziz",
+          "Xiang Hu",
+          "Suqin Ci",
+          "Zhenhai Wen"
+        ],
+        "institutions": [],
+        "published": "2026-09-24",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75129",
+        "url": "https://doi.org/10.1002/adma.75129",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 44,
+        "scores": {
+          "topic": 12,
+          "method": 4,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [
+            "hierarchically porous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "分级限域与氧空位催化实现高可逆室温钠硫电池",
+        "summary_zh": "该工作通过熔盐辅助策略构建了氧缺陷CeO2-x限域于分级多孔碳并包覆石墨烯类碳纳米片的多功能正极宿主，统一空间限域与氧空位催化，形成连续离子电子传输的微反应域，显著抑制多硫化物溶解并实现超长循环稳定性。",
+        "research_details_zh": "室温钠硫电池因高理论能量密度和元素丰度而受关注，但硫氧化还原动力学迟缓和多硫化物穿梭严重制约实际应用。本研究采用熔盐辅助策略构建多功能正极宿主PNCNs@CeO2-x，将氧缺陷CeO2-x纳米颗粒限域于分级多孔碳骨架内并由石墨烯类碳纳米片包覆。该结构统一空间限域与氧空位催化，形成具有连续离子/电子传输路径和丰富活性界面的导电微反应域。通过原位表征和机器学习辅助分子动力学模拟，揭示氧空位诱导电荷重分布、增强Na2Sx吸附、降低Na2S2/Na2S转化能垒并促进高可逆固-液-固转化过程，从而有效抑制多硫化物溶解。该工作为调控硫电化学以实现长寿命室温钠硫电池建立了限域-催化设计范式。",
+        "methods_zh": "摘要明确报道采用熔盐辅助策略构建PNCNs@CeO2-x宿主；通过原位表征和机器学习辅助分子动力学模拟研究机制；电化学测试包括0.1 A g-1下的可逆容量测试和5 A g-1下的长循环稳定性测试。其他合成细节、表征手段和测试条件摘要未报告。",
+        "relevance_zh": "该工作涉及分级多孔碳框架、氧空位催化及限域-催化协同设计，与介孔材料、框架材料组装及电化学应用主线相关。其分级限域与缺陷催化策略对设计高性能电化学宿主材料有参考价值。但摘要未报告MOF/COF/HOF框架的具体参与，属于碳基分级多孔材料范畴，与介孔导电MOF直接关联有限，建议根据对分级多孔碳和缺陷催化兴趣决定是否精读。",
+        "evidence_note_zh": "本解读仅基于摘要，未核实全文。关键细节如熔盐辅助合成的具体条件、CeO2-x氧空位浓度、原位表征技术类型、机器学习辅助分子动力学模拟参数、多硫化物吸附能数值及固-液-固转化机制的直接证据等均需全文核查。",
+        "key_findings_zh": [
+          "PNCNs@CeO2-x-S正极在0.1 A g-1下展现1167 mAh g-1的可逆容量",
+          "在5 A g-1下循环9000次后容量保持率达86.2%",
+          "氧空位诱导电荷重分布，增强Na2Sx吸附并降低Na2S2/Na2S转化能垒",
+          "促进高可逆固-液-固转化过程，有效抑制多硫化物溶解"
+        ]
+      },
+      {
+        "title": "Tamper‐Responsive Physical Unclonable Functions via Graphene‐Interlayered Block Copolymer Random Structures",
+        "abstract": "ABSTRACT Microscopically engineered materials inherently harbor unique structural signatures arising from the stochastic fabrication. Physical unclonable functions (PUFs) exploit structural randomness to generate unique cryptographic responses, establishing hardware‐based security. However, conventional PUF architectures rely on static configurations to guarantee authentication reproducibility, and the intrinsic rigidity permits unauthorized reverse‐engineering without detectable traces. A tamper‐responsive physical unclonable function (TR‐PUF) platform is presented, integrating a high‐entropy source with a reactive two‐dimensional material interlayer to actively defend cryptographic keys. The entropy source relies on fingerprint‐like nanopatterns derived from thermodynamic fluctuations during block copolymer self‐assembly, while a reduced graphene oxide interlayer leverages out‐of‐plane chemical and mechanical sensitivity enabling device responsiveness to external intrusions. Systematic characterization confirms robust fundamental cryptographic performance, with near‐ideal uniqueness and uniformity. Also, the tamper‐responsive capability is demonstrated across three representative intrusion scenarios, where simulated high‐resolution probing, chemical, or mechanical attempts to access the internal architecture trigger spontaneous and irreversible key invalidation via localized degradation. Furthermore, broad applicability is validated through rigorous environmental survivability assessment under low Earth orbit simulated conditions, alongside seamless integration across diverse form factors. The autonomous hardware protection framework opens possibilities for securing electronic components across next‐generation hardware architectures in strategic fields like space missions and military applications.",
+        "authors": [
+          "Gyu Hui Jo",
+          "Dae Hui Park",
+          "Jeong‐Ho Jang",
+          "Woo Seok Tack",
+          "Jin Man Kim",
+          "Hak Ki Yu",
+          "Hyeong Min Jin",
+          "Jang Hwan Kim"
+        ],
+        "institutions": [],
+        "published": "2026-09-24",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75142",
+        "url": "https://doi.org/10.1002/adma.75142",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 39,
+        "scores": {
+          "topic": 6,
+          "method": 8,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "block copolymer",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "copolymer",
+            "material",
+            "materials",
+            "oxide"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "基于石墨烯插层嵌段共聚物随机结构的防篡改物理不可克隆函数",
+        "summary_zh": "该工作提出防篡改物理不可克隆函数平台，以嵌段共聚物自组装热力学涨落形成的指纹状纳米图案为高熵源，还原氧化石墨烯插层提供面外化学机械敏感性，实现近理想唯一性和均匀性，并在三种入侵场景下触发不可逆密钥失效。",
+        "research_details_zh": "物理不可克隆函数利用结构随机性生成唯一密码响应，建立硬件安全，但传统架构依赖静态配置且刚性结构易被逆向工程而无痕迹。本研究提出防篡改物理不可克隆函数平台，整合高熵源与反应性二维材料插层以主动防御密钥。熵源基于嵌段共聚物自组装过程中热力学涨落形成的指纹状纳米图案，还原氧化石墨烯插层利用面外化学和机械敏感性使器件响应外部入侵。系统表征确认稳健的密码学性能，具有近理想唯一性和均匀性。在三种代表性入侵场景中，模拟高分辨率探测、化学或机械尝试访问内部结构均触发自发不可逆的密钥失效，通过局部降解实现。此外，通过低地球轨道模拟条件下的严格环境生存性评估验证广泛适用性，并实现跨多种形态因子的无缝集成。该自主硬件保护框架为太空任务和军事应用等战略领域的下一代硬件架构安全开辟可能。",
+        "methods_zh": "摘要明确报道利用嵌段共聚物自组装形成指纹状纳米图案，还原氧化石墨烯作为反应性二维材料插层；系统表征确认密码学性能；在三种代表性入侵场景下演示防篡改能力；通过低地球轨道模拟条件进行环境生存性评估；验证跨多种形态因子的集成。具体自组装条件、表征技术和测试参数摘要未报告。",
+        "relevance_zh": "该工作涉及嵌段共聚物自组装、二维材料插层及随机结构工程，与自组装技术和框架材料组装主线中的自组装方法学相关。其利用自组装随机性构建功能器件的思路对自组装技术研究有启发意义。但该工作聚焦硬件安全应用，与介孔导电MOF、共轭框架材料及电化学合成无直接关联，建议根据对自组装随机结构及防篡改器件兴趣决定是否精读。",
+        "evidence_note_zh": "本解读仅基于摘要，未核实全文。关键细节如嵌段共聚物具体种类和自组装条件、还原氧化石墨烯插层制备方法、密码学性能定量指标、三种入侵场景的具体模拟方式和局部降解机制、低地球轨道模拟条件参数等均需全文核查。",
+        "key_findings_zh": [
+          "嵌段共聚物自组装热力学涨落形成指纹状纳米图案作为高熵源",
+          "还原氧化石墨烯插层提供面外化学和机械敏感性实现防篡改响应",
+          "系统表征确认近理想唯一性和均匀性的稳健密码学性能",
+          "三种代表性入侵场景下触发自发不可逆密钥失效，并通过低地球轨道模拟环境生存性评估"
+        ]
+      },
+      {
+        "title": "A 3D Metal–Organic Framework Protective Layer with Size-Selective Channels and Zincophilic Sites for Highly Stable Zinc Metal Anodes",
+        "abstract": "Abstract Aqueous zinc-ion batteries possess intrinsic operational safety, low cost and scalable application potential, making them promising candidates for large-scale energy storage. However, Zn metal anodes still suffer from severe dendrite proliferation, hydrogen evolution, interfacial corrosion, and inevitable by-product accumulation. The uncontrolled ion flux and distorted electric field further deteriorate the electrochemical durability and cycling lifespan. Targeting these challenges, a multifunctional interfacial protection strategy is proposed to regulate ion transport behavior and suppress parasitic reactions via constructing a 3D Zn(btec) metal–organic framework protective layer on Zn foil through a facile doctor-blade coating method. The as-designed Zn(btec) features uniform subnanometer channels of approximately 5 Å and carboxylate-rich pore walls, which jointly regulate Zn2+-dominated interfacial transport through spatial confinement and pore-wall electrostatic/coordination interactions, thereby suppressing local Zn2+ accumulation and guiding uniform Zn nucleation/deposition. Benefiting from such structural advantages, the Zn(btec)@Zn anode achieves ultra-long stable cycling over 1100 h at 4 mA cm–2 and 1 mAh cm–2 in symmetric cells, and maintains a high Coulombic efficiency of 99.8% beyond 3000 cycles in asymmetric cells. Combined experimental characterizations, finite-element simulations and theoretical calculations verify that the Zn(btec) interphase homogenizes interfacial electric field and Zn2+ flux and reduces interfacial activation energy. When matched with MnO2 or CaV6O16·2.7H2O (CaVO) cathodes, the protected Zn anode enables full cells with improved rate capability and cycling stability. Moreover, the assembled flexible pouch-cell module with an output voltage of 5.4 V can steadily drive a 5 V LED, demonstrating favorable application prospect. This work offers a multifunctional MOF interfacial engineering strategy integrating ion sieving, zincophilic regulation and side-reaction inhibition, and provides the insights into the rational design of highly reversible Zn metal anodes for advanced zinc-ion batteries.",
+        "authors": [
+          "Jingwei Liu",
+          "Xinyi Chen",
+          "Yidong Huang",
+          "Baoxin Shen",
+          "Chenxu Li",
+          "Xiaolong Cheng",
+          "Shifa Dang",
+          "Weile Kong",
+          "Lei Zhang",
+          "Shuangyan Wu"
+        ],
+        "institutions": [],
+        "published": "2026-09-25",
+        "journal": "ACS Applied Materials &amp; Interfaces",
+        "doi": "10.1021/acsami.6c11214",
+        "url": "https://doi.org/10.1021/acsami.6c11214",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 38,
+        "scores": {
+          "topic": 18,
+          "method": 2,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "ACS Applied Materials & Interfaces"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "coordination"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "具有尺寸选择性通道和亲锌位点的三维金属有机框架保护层用于高稳定锌金属负极",
+        "summary_zh": "该工作通过刮刀涂布法在锌箔上构建三维Zn(btec)金属有机框架保护层，其约5 Å亚纳米通道和富羧基孔壁通过空间限域和孔壁静电配位协同调控Zn2+界面传输，抑制局部积累并引导均匀成核沉积，实现超长稳定循环。",
+        "research_details_zh": "水系锌离子电池因本征安全性、低成本和可规模化应用潜力而成为大规模储能候选，但锌金属负极面临枝晶增殖、析氢、界面腐蚀和副产物积累等问题，不受控的离子通量和畸变电场进一步恶化电化学耐久性和循环寿命。针对这些挑战，本研究提出多功能界面保护策略，通过简便的刮刀涂布法在锌箔上构建三维Zn(btec)金属有机框架保护层。所设计的Zn(btec)具有约5 Å的均匀亚纳米通道和富羧基孔壁，通过空间限域和孔壁静电/配位相互作用共同调控Zn2+主导的界面传输，抑制局部Zn2+积累并引导均匀锌成核/沉积。结合实验表征、有限元模拟和理论计算验证Zn(btec)界面层均化界面电场和Zn2+通量并降低界面活化能。与MnO2或CaV6O16·2.7H2O正极匹配时，保护锌负极实现全电池倍率性能和循环稳定性提升。组装的柔性软包电池模块输出电压5.4 V可稳定驱动5 V LED，展示良好应用前景。该工作提供整合离子筛分、亲锌调控和副反应抑制的多功能MOF界面工程策略。",
+        "methods_zh": "摘要明确报道通过简便刮刀涂布法在锌箔上构建三维Zn(btec)金属有机框架保护层；采用实验表征、有限元模拟和理论计算验证界面机制；电化学测试包括对称电池在4 mA cm-2和1 mAh cm-2下的循环测试、不对称电池库仑效率测试、与MnO2或CaVO正极匹配的全电池测试及柔性软包电池模块演示。具体表征技术、模拟参数和测试条件摘要未报告。",
+        "relevance_zh": "该工作直接涉及金属有机框架作为保护层、亚纳米通道离子筛分及亲锌位点调控，与框架材料组装和电化学应用主线高度相关。其通过刮刀涂布法实现MOF界面层构建，为MOF在电化学器件中的组装应用提供实例。但该工作聚焦锌离子电池负极保护，与介孔导电MOF、共轭MOF/COF/HOF及电化学合成MOF的直接关联有限，建议根据对MOF界面工程和锌电池兴趣决定是否精读。",
+        "evidence_note_zh": "本解读仅基于摘要，未核实全文。关键细节如Zn(btec)的具体合成条件、刮刀涂布工艺参数、MOF层厚度和形貌表征、有限元模拟模型设置、理论计算方法和参数、全电池具体性能数值及柔性软包电池组装细节等均需全文核查。",
+        "key_findings_zh": [
+          "Zn(btec)具有约5 Å均匀亚纳米通道和富羧基孔壁，通过空间限域和孔壁静电/配位相互作用调控Zn2+界面传输",
+          "Zn(btec)@Zn对称电池在4 mA cm-2和1 mAh cm-2下实现超过1100小时超长稳定循环",
+          "不对称电池中超过3000次循环保持99.8%高库仑效率",
+          "实验表征、有限元模拟和理论计算验证Zn(btec)界面层均化界面电场和Zn2+通量并降低界面活化能",
+          "与MnO2或CaVO正极匹配的全电池倍率性能和循环稳定性提升，柔性软包模块输出电压5.4 V可驱动5 V LED"
+        ]
+      },
+      {
+        "title": "Hydrophobic Group‐Directed Self‐Assembly of Gradient Porous Antireflective and Superhydrophilic Coatings on Photovoltaic Glass",
+        "abstract": "ABSTRACT Coatings for photovoltaic glass urgently require antireflection, self‐cleaning, and durability. Herein, we leveraged the surface free energy minimization effect of n ‐butyl hydrophobic groups in n ‐butyl glycidyl ether (BGE) to design a directed induction strategy, and successfully fabricated a gradient porous superhydrophilic and antireflective coating (BTKS‐3). This effect drove the spontaneous migration of hydrophobic groups to the surface, creating a vertical concentration gradient that modulated the local chemical environment and solvent evaporation behavior during film formation, ultimately directing the formation of a gradient porous architecture. As a result, a gradient porous architecture formed spontaneously, going from a dense bottom layer to a porous top layer. Such a gradient enables stepwise refractive index matching from the glass substrate to air, boosting transmittance to 94.61%, which significantly outperforms bare glass and commercial antireflective coatings. Meanwhile, surface hydroxyl groups and nanoscale roughness endow the coating with superhydrophilicity (contact angle &lt; 10°) and self‐cleaning ability, along with good abrasion resistance and UV stability. Over, this work achieves synergistic optimization of optical, self‐cleaning, and durability properties, offering a new paradigm for high‐performance functional coatings on photovoltaic glass.",
+        "authors": [
+          "Ran Chen",
+          "Sifan Chen",
+          "Xiaoli Zhan",
+          "Ziqiang Liu",
+          "Qinghua Zhang"
+        ],
+        "institutions": [],
+        "published": "2026-09-24",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75150",
+        "url": "https://doi.org/10.1002/adma.75150",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 37,
+        "scores": {
+          "topic": 6,
+          "method": 6,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "疏水基团导向自组装制备光伏玻璃用梯度多孔减反射与超亲水涂层",
+        "summary_zh": "利用正丁基缩水甘油醚中疏水正丁基的表面自由能最小化效应，诱导自发形成从致密底层到多孔顶层的梯度多孔结构，实现折射率阶梯匹配，使透光率达94.61%，并兼具超亲水自清洁、耐磨和紫外稳定性。",
+        "research_details_zh": "光伏玻璃涂层亟需同时满足减反射、自清洁和耐久性。本文以正丁基缩水甘油醚（BGE）中的正丁基疏水基团为设计核心，利用其表面自由能最小化效应构建定向诱导策略，制备了梯度多孔超亲水减反射涂层BTKS-3。该效应驱动疏水基团自发向表面迁移，形成垂直浓度梯度，进而调控成膜过程中的局部化学环境和溶剂蒸发行为，最终自发导向梯度多孔结构的形成，即从致密底层过渡到多孔顶层。这种梯度结构使折射率从玻璃基底到空气逐步匹配，显著提升透光率。同时表面羟基和纳米级粗糙度赋予涂层超亲水性和自清洁能力，并具备良好的耐磨性和紫外稳定性。该工作实现了光学、自清洁和耐久性能的协同优化，为光伏玻璃高性能功能涂层提供了新范式。",
+        "methods_zh": "摘要明确报告采用正丁基缩水甘油醚（BGE）中的正丁基疏水基团作为导向单元，通过表面自由能最小化效应驱动疏水基团自发向表面迁移，调控成膜过程中的局部化学环境和溶剂蒸发行为，从而自发形成梯度多孔结构。摘要提及对涂层进行了透光率测试、接触角测试、耐磨性测试和紫外稳定性测试。具体合成步骤、表征手段和测试条件摘要未报告。",
+        "relevance_zh": "该工作属于自组装技术与介孔/多孔材料交叉方向，其疏水基团导向自发梯度多孔结构的策略对框架材料组装和介孔涂层设计具有方法学参考价值。但该涂层为有机-无机杂化体系而非MOF/COF/HOF框架材料，与介孔导电MOF和共轭框架材料主线关联有限。若关注自组装诱导梯度孔结构的通用策略，值得全文精读；若聚焦框架材料电化学合成，则相关性较低。",
+        "evidence_note_zh": "本文为摘要级解读，仅依据题目和摘要内容。涂层的具体化学组成、合成条件、梯度孔结构的表征证据（如截面形貌、孔径分布）、透光率测试条件、耐磨和紫外稳定性测试标准等关键细节均需全文核查。",
+        "key_findings_zh": [
+          "梯度多孔结构使透光率提升至94.61%，显著优于裸玻璃和商业减反射涂层",
+          "涂层接触角小于10°，具有超亲水性和自清洁能力",
+          "涂层表现出良好的耐磨性和紫外稳定性",
+          "疏水基团表面迁移形成的垂直浓度梯度是梯度多孔结构自发形成的关键"
+        ]
+      },
+      {
+        "title": "Ligand π‐Conjugation Area Modulates Hydrogen Evolution Performance in Metal–Organic Frameworks",
+        "abstract": "ABSTRACT Metal–organic frameworks (MOFs) combine permanent porosity, tunable compositions, ordered structures, and well‐defined coordination environments, making them versatile platforms for electrocatalyst design. Although ligand engineering has been widely explored for the hydrogen evolution reaction (HER), few studies have treated ligand π‐conjugation area as a defined molecular variable and systematically examined its relationship with HER performance. Here, we use a conjugated‐ligand engineering strategy to systematically vary ligand π‐conjugation area while maintaining comparable metal coordination environments. Pyromellitic dianhydride (PMDA), naphthalene‐1,4,5,8‐tetracarboxylic dianhydride (NTDA), and perylene‐3,4,9,10‐tetracarboxylic dianhydride (PTCDA), featuring benzene‐, naphthalene‐, and perylene‐based aromatic cores with 6, 10, and 20 π electrons, respectively, are used as precursors to the corresponding tetracarboxylate ligands to construct related Ni‐ and Co‐based MOFs with six‐coordinate metal centers. Across both metal series, increasing ligand π‐conjugation area consistently lowers overpotentials and Tafel slopes, decreases charge‐transfer resistance and mass‐transport‐related impedance, and increases electrochemically active surface area. This systematic ligand variation is accompanied by metal‐center binding‐energy shifts and bandgap narrowing. These results establish a clear structure–performance relationship between ligand π‐conjugation area and HER performance across the investigated MOF series, highlighting conjugated‐ligand engineering as an effective strategy for MOF electrocatalyst design.",
+        "authors": [
+          "Chenxi Tan",
+          "I‐Wen Peter Chen"
+        ],
+        "institutions": [],
+        "published": "2026-09-26",
+        "journal": "Small",
+        "doi": "10.1002/smll.75945",
+        "url": "https://doi.org/10.1002/smll.75945",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Small"
+        ],
+        "hits": {
+          "framework": [
+            "mof",
+            "mofs"
+          ],
+          "conductive": [
+            "conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "coordination"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "配体π共轭面积调控金属有机框架的析氢性能",
+        "summary_zh": "以苯、萘、苝为芳香核的三种四羧酸配体构建Ni基和Co基MOF，系统改变配体π共轭面积而保持金属配位环境可比，发现π共轭面积增大持续降低过电位和Tafel斜率，建立配体π共轭面积与析氢性能的结构-性能关系。",
+        "research_details_zh": "MOF兼具永久孔隙率、可调组成、有序结构和明确配位环境，是电催化剂设计的通用平台。尽管配体工程在析氢反应中已被广泛探索，但少有研究将配体π共轭面积作为明确的分子变量并系统考察其与HER性能的关系。本文采用共轭配体工程策略，在保持金属配位环境可比的前提下系统改变配体π共轭面积。以均苯四甲酸二酐（PMDA）、萘-1,4,5,8-四甲酸二酐（NTDA）和苝-3,4,9,10-四甲酸二酐（PTCDA）为前驱体，分别对应苯、萘、苝芳香核，含6、10和20个π电子，制备相应四羧酸配体并构建具有六配位金属中心的Ni基和Co基MOF。在两种金属系列中，配体π共轭面积增大一致地降低过电位和Tafel斜率，降低电荷转移电阻和传质相关阻抗，并增加电化学活性表面积。该系统性配体变化伴随金属中心结合能位移和带隙窄化。结果建立了所研究MOF系列中配体π共轭面积与HER性能之间的清晰结构-性能关系，凸显共轭配体工程作为MOF电催化剂设计的有效策略。",
+        "methods_zh": "摘要明确报告以PMDA、NTDA和PTCDA为前驱体制备对应四羧酸配体，构建Ni基和Co基MOF，金属中心为六配位。电化学测试包括过电位、Tafel斜率、电荷转移电阻、传质相关阻抗和电化学活性表面积测量。摘要提及金属中心结合能位移和带隙窄化。具体合成条件、表征手段和电化学测试参数摘要未报告。",
+        "relevance_zh": "该工作直接关联共轭MOF和框架材料电催化方向，将配体π共轭面积作为明确分子变量系统调控HER性能，对共轭配体工程和MOF电催化剂设计具有实际指导价值。研究涵盖Ni和Co两个金属系列，结构-性能关系较为系统。但摘要未涉及介孔结构或电化学合成方法，与介孔导电MOF主线的关联主要体现在共轭配体设计策略层面。值得全文精读以获取具体合成和电化学数据。",
+        "evidence_note_zh": "本文为摘要级解读，仅依据题目和摘要内容。MOF的具体合成条件、晶体结构表征、孔径数据、电化学测试条件（电解液、参比电极、扫描速率等）、过电位和Tafel斜率的具体数值、结合能位移和带隙窄化的定量数据等关键细节均需全文核查。",
+        "key_findings_zh": [
+          "在Ni基和Co基两个MOF系列中，配体π共轭面积增大一致降低过电位和Tafel斜率",
+          "π共轭面积增大降低电荷转移电阻和传质相关阻抗，并增加电化学活性表面积",
+          "配体π共轭面积变化伴随金属中心结合能位移和带隙窄化",
+          "建立了配体π共轭面积与HER性能之间的结构-性能关系"
+        ]
+      },
+      {
+        "title": "Direct Light Storage with Controlled Dark Release in a Bipyridine-Based Covalent Triazine Framework",
+        "abstract": "Abstract Utilizing bifunctional materials capable of direct light-to-charge storage offers an attractive strategy to overcome solar intermittency and enable reliable power supply under dark conditions. Reported bifunctional materials are predominantly based on metal oxides and metal–organic compounds, whereas fully organic systems remain rare despite their rich structural diversity and tunability, which enable systematic structure–property–function investigations. Here, we reveal the light-induced, reversible electron storage properties of a two-dimensional (2D) 2,2′-bipyridine (bpy)-based crystalline covalent triazine framework (CTF), CTF-Bpy. Mechanistic studies suggest that the photoreduction of CTF-Bpy primarily proceeds through a proton-coupled, one-electron reduction of the bpy units, yielding bpyH• and bpyH2•+ as the identified reduction products. Photoanodes based on CTF-Bpy show a stable photoinduced open-circuit potential (photo-OCP) of −0.92 V vs Ag/AgCl, which is so far the most negative potential reported for an organic bifunctional material. Under oxygen-free conditions, photogenerated electrons remain stable and can be controllably released on-demand in the dark, either by electrical discharge (for aqueous solar battery applications) or by reducing O2 to H2O2. Moreover, this work establishes CTF-Bpy as the first photochargeable covalent organic framework (COF) with stored electrons sufficiently reducing to drive H2 evolution in the dark in the presence of a Pt cocatalyst, highlighting the promise of using COFs for \"dark photocatalysis\". The systematic investigation of the light-induced electron storage in CTF-Bpy with a set of spectroscopic and (spectro-)electrochemical techniques provides a framework for studying optoionic materials and guiding their rational design for tailored dark photocatalysis.",
+        "authors": [
+          "Xue Wang",
+          "Bibhuti Bhusan Rath",
+          "Nicolai Schröter",
+          "Kristina Gjorgjevikj",
+          "Rohit Mann",
+          "Shun Tokuda",
+          "Yang Wang",
+          "Viola Duppel",
+          "Lorenzo Tesi",
+          "Simon Krause",
+          "Bettina V. Lotsch"
+        ],
+        "institutions": [],
+        "published": "2026-09-26",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c09757",
+        "url": "https://doi.org/10.1021/jacs.6c09757",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs",
+            "covalent organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "crystalline",
+            "material",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "联吡啶基共价三嗪框架中可控暗释放的直接光存储",
+        "summary_zh": "首次报道二维2,2'-联吡啶基晶体共价三嗪框架CTF-Bpy的光诱导可逆电子存储，光阳极光致开路电位达−0.92 V vs Ag/AgCl，为有机双功能材料最负电位，暗条件下可可控释放电子驱动析氢和O2还原。",
+        "research_details_zh": "利用可直接进行光-电荷存储的双功能材料是克服太阳能间歇性和实现暗条件下可靠供电的诱人策略。已报道的双功能材料主要基于金属氧化物和金属有机化合物，而全有机体系尽管结构多样性和可调性丰富，仍较为罕见。本文揭示了二维2,2'-联吡啶基晶体共价三嗪框架CTF-Bpy的光诱导可逆电子存储特性。机理研究表明CTF-Bpy的光还原主要通过联吡啶单元的质子耦合单电子还原进行，鉴定出bpyH•和bpyH2•+为还原产物。基于CTF-Bpy的光阳极表现出稳定的光致开路电位−0.92 V vs Ag/AgCl，这是迄今有机双功能材料报道的最负电位。在无氧条件下，光生电子保持稳定，可在暗条件下按需可控释放，或通过电放电（用于水系太阳能电池）或通过将O2还原为H2O2。此外，该工作确立了CTF-Bpy为首个光可充电共价有机框架，其存储电子在Pt助催化剂存在下足以在暗条件下驱动H2析出，凸显了利用COF进行暗光催化的前景。对联吡啶基CTF-Bpy光诱导电子存储的系统研究，结合一系列光谱和（光谱）电化学技术，为研究光离子材料并指导其理性设计以实现定制暗光催化提供了框架。",
+        "methods_zh": "摘要明确报告采用二维2,2'-联吡啶基晶体共价三嗪框架CTF-Bpy作为研究体系，使用一系列光谱和（光谱）电化学技术系统研究其光诱导电子存储行为。性能测试包括光致开路电位测量、暗条件下电子可控释放测试（电放电和O2还原为H2O2）、以及Pt助催化剂存在下的暗析氢实验。具体合成方法、光谱和电化学测试条件摘要未报告。",
+        "relevance_zh": "该工作直接关联共轭COF和框架材料光-电-催化交叉方向，首次报道光可充电COF并实现暗光催化析氢，对共轭框架材料的光电功能开发具有重要参考价值。CTF-Bpy的联吡啶单元作为电子存储位点的机制研究较为深入，−0.92 V的photo-OCP为有机双功能材料树立了新标杆。但该工作未涉及介孔结构调控或电化学合成方法，与介孔导电MOF主线关联有限。作为高质量框架推荐，值得全文精读以获取合成细节和机理证据。",
+        "evidence_note_zh": "本文为摘要级解读，仅依据题目和摘要内容。CTF-Bpy的具体合成条件、晶体结构表征、孔隙率数据、光谱和电化学测试的具体条件、光致开路电位测试的详细参数、暗释放实验的定量数据、暗光催化析氢的产氢速率等关键细节均需全文核查。",
+        "key_findings_zh": [
+          "CTF-Bpy光阳极表现出稳定的光致开路电位−0.92 V vs Ag/AgCl，为迄今有机双功能材料报道的最负电位",
+          "光还原主要通过联吡啶单元的质子耦合单电子还原进行，鉴定出bpyH•和bpyH2•+为还原产物",
+          "无氧条件下光生电子稳定，可在暗条件下按需可控释放，用于电放电或还原O2为H2O2",
+          "CTF-Bpy是首个光可充电COF，其存储电子在Pt助催化剂存在下可在暗条件下驱动H2析出"
+        ]
+      },
+      {
+        "title": "Molecularly Engineered Metal–Organic Framework With Synergistically Boosting Piezoelectric Polarization and Exciton Directional Separation Enables Efficient Piezo‐Photocatalytic Atom Transfer Radical Polymerization",
+        "abstract": "ABSTRACT Photoinduced atom transfer radical polymerization (ATRP) is often limited by the shallow penetration of visible light, and current strategies to address this limitation mainly focus on developing catalytic systems responsive to near‐infrared (NIR) light. In contrast, ultrasound‐driven polymerization offers deeper penetration but limited spatiotemporal control. To address these challenges, we pioneer the integration of piezo‐photocatalysis into ATRP by developing a donor–acceptor (D–A) metal–organic framework (MOF) catalyst (B‐Zr‐C) via incorporating electron‐acceptor N‐(4′‐carboxyphenyl)‐1,8‐naphthalimide (CPNI) into NH 2 ‐UiO‐66, which enables synergistically enhanced piezoelectric polarization and exciton separation. Multiscale characterizations verify that the introduction of CPNI prolongs the charge‐separated state lifetime and effectively increases the polarity of the MOF, as evidenced by significant increases in the piezoelectric coefficient d 33 , piezoelectric potential difference, and dipole moment. Under blue light and ultrasound, the piezo‐photocatalytic copper‐mediated ATRP apparent rate constant of B‐Zr‐C(1:1) is ∼fourfold higher than that under light alone, achieving high monomer conversion (&gt; 90%, Đ &lt; 1.11) in seven polar solvents and even producing ultrahigh‐molecular‐weight (UHMW) polymers ( M n &gt; 1100 kg·mol −1 , Đ &lt; 1.30). The piezo‐photocatalytic system retains 64% conversion through a 1.5 mm chicken‐skin barrier (vs. &lt; 10% for blue light alone), together with outstanding spatiotemporal controllability, chain‐end fidelity, and reusability.",
+        "authors": [
+          "Bei Liu",
+          "Wanchao Hu",
+          "Jie Zhang",
+          "Yun Geng",
+          "Changli Lü",
+          "Junjun Liu"
+        ],
+        "institutions": [],
+        "published": "2026-09-26",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.1148889",
+        "url": "https://doi.org/10.1002/anie.1148889",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "分子工程化金属有机框架协同增强压电极化与激子定向分离实现高效压电光催化原子转移自由基聚合",
+        "summary_zh": "该研究将压电光催化引入ATRP，通过将电子受体CPNI引入NH2-UiO-66构建D-A型MOF催化剂B-Zr-C，协同增强压电极化和激子分离，在蓝光与超声下实现高效聚合，穿透性强且时空可控。",
+        "research_details_zh": "针对光诱导ATRP受可见光穿透深度限制、近红外策略和超声驱动聚合各有不足的问题，研究者首次将压电光催化整合到ATRP中。设计策略是将电子受体N-(4'-羧基苯基)-1,8-萘酰亚胺（CPNI）引入NH2-UiO-66，构建供体-受体（D-A）型MOF催化剂B-Zr-C。多尺度表征证实CPNI的引入延长了电荷分离态寿命并有效提高MOF极性，表现为压电系数d33、压电电势差和偶极矩显著增加。在蓝光和超声条件下，B-Zr-C(1:1)的压电光催化铜介导ATRP表观速率常数约为仅光照条件下的四倍，在七种极性溶剂中实现高单体转化率（>90%，Đ<1.11），甚至可制备超高分子量聚合物（Mn>1100 kg·mol−1，Đ<1.30）。该压电光催化体系在1.5 mm鸡皮屏障下仍保持64%转化率（仅蓝光时<10%），并具有优异的时空可控性、链端保真度和可重复使用性。",
+        "methods_zh": "摘要明确报道的方法包括：将电子受体CPNI引入NH2-UiO-66合成D-A型MOF催化剂B-Zr-C；采用多尺度表征验证电荷分离态寿命、MOF极性、压电系数d33、压电电势差和偶极矩的变化；在蓝光和超声条件下进行压电光催化铜介导ATRP，测试表观速率常数、单体转化率、分子量分布、鸡皮屏障穿透性、时空可控性、链端保真度和可重复使用性。具体表征手段和测试条件摘要未报告。",
+        "relevance_zh": "该工作对介孔导电MOF及框架材料在电化学合成与自组装相关聚合方向具有参考价值，展示了通过分子工程调控MOF压电与激子行为以提升催化聚合性能的策略。其局限在于摘要未报告MOF的孔结构、导电性及具体表征细节，且研究聚焦ATRP而非直接电化学合成。若关注框架材料在聚合催化中的压电光协同机制，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未补充摘要未报告的实验条件、表征手段、数值或机制。MOF的孔结构、导电性、具体合成条件、表征仪器参数及聚合反应详细条件等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "CPNI引入NH2-UiO-66后显著提高MOF极性，压电系数d33、压电电势差和偶极矩均显著增加，电荷分离态寿命延长。",
+          "在蓝光和超声下，B-Zr-C(1:1)的压电光催化铜介导ATRP表观速率常数约为仅光照条件下的四倍。",
+          "在七种极性溶剂中实现高单体转化率（>90%，Đ<1.11），并可制备超高分子量聚合物（Mn>1100 kg·mol−1，Đ<1.30）。",
+          "在1.5 mm鸡皮屏障下保持64%转化率（仅蓝光时<10%），并具有优异的时空可控性、链端保真度和可重复使用性。"
+        ]
+      },
+      {
+        "title": "Rare‐Earth Multivariate Metal–Organic Frameworks: Cationic Radius Biased Compositional Control and Property Tuning",
+        "abstract": "ABSTRACT The synthesis of a multivariate metal–organic framework (MTV‐MOF) family, [Ln(DNNDI) 1.5 ] n ( UoB‐116 ), is reported (DNNDI: N , N' ‐bis(dinicotinate)‐1,4,5,8‐naphthalenetetracarboxydiimide). UoB‐116(Ln) is formed by 15 different metals (Ln = Y, La, Ce, Pr, Nd, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, and Lu), all of which were shown to be isoreticular. The uniformity of the framework structure facilitated the synthesis of MTV‐MOFs with 2, 4, 12, 15, or 16 (including In(III)) different metals. Single crystal structures of each unimetallic MOFs and MTV‐MOFs with 12 or 16 metals were determined, confirming the isoreticular nature of this family of MOFs. Energy Dispersive X‐ray (EDX) analysis confirmed distribution of each metal throughout crystals of the MTV‐MOFs and compositional analysis indicated increased concentration of lanthanides with smaller cationic radius. A protocol was developed to control relative composition in bimetallic systems, UoB‐116(La 1‐x Lu x ) and UoB‐116(Dy 1‐x La x ) ( x = 0–1). In the case of UoB‐116(Dy 1‐x La x ) it is shown that the porosity, magnetism and UV–visible properties can be tuned through metal cation composition.",
+        "authors": [
+          "Adnan Ishaq",
+          "Joseph O. Ogar",
+          "Asif Raza",
+          "Musa M. Mahmud",
+          "Jacob L. Brownlee",
+          "Danielle E. Schier",
+          "Stephen P. Argent",
+          "Lucy Clark",
+          "Soumya Mukherjee",
+          "Neil R. Champness"
+        ],
+        "institutions": [],
+        "published": "2026-09-26",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.5287849",
+        "url": "https://doi.org/10.1002/anie.5287849",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "crystal"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "稀土多变量金属有机框架：阳离子半径偏置的组成控制与性质调控",
+        "summary_zh": "该研究报告了多变量MOF家族[Ln(DNNDI)1.5]n（UoB-116），由15种稀土金属形成同构框架，并合成含2、4、12、15或16种金属的MTV-MOF，发现较小阳离子半径的镧系元素浓度增加，且双金属体系可调控孔隙率、磁性和紫外-可见性质。",
+        "research_details_zh": "研究报道了多变量金属有机框架（MTV-MOF）家族[Ln(DNNDI)1.5]n（UoB-116）的合成，其中DNNDI为N,N'-双(二吡啶甲酸)-1,4,5,8-萘四甲酸二酰亚胺。UoB-116(Ln)由15种不同金属（Ln = Y、La、Ce、Pr、Nd、Sm、Eu、Gd、Tb、Dy、Ho、Er、Tm、Yb和Lu）形成，均显示为同构结构。框架结构的均一性促进了含2、4、12、15或16种（包括In(III)）不同金属的MTV-MOF的合成。单晶结构解析确定了每种单金属MOF以及含12或16种金属的MTV-MOF的结构，证实了该MOF家族的同构性质。EDX分析确认了每种金属在MTV-MOF晶体中的分布，组成分析表明较小阳离子半径的镧系元素浓度增加。研究者开发了控制双金属体系UoB-116(La1-xLux)和UoB-116(Dy1-xLax)（x=0–1）相对组成的方案。在UoB-116(Dy1-xLax)中，孔隙率、磁性和紫外-可见性质可通过金属阳离子组成进行调控。",
+        "methods_zh": "摘要明确报道的方法包括：合成UoB-116(Ln)系列及含多种金属的MTV-MOF；通过单晶结构解析确定单金属MOF及含12或16种金属的MTV-MOF结构；采用EDX分析金属在晶体中的分布；进行组成分析以确定不同阳离子半径金属的相对浓度；开发双金属体系UoB-116(La1-xLux)和UoB-116(Dy1-xLax)的组成控制方案；测试孔隙率、磁性和紫外-可见性质。具体合成条件、表征仪器参数和测试细节摘要未报告。",
+        "relevance_zh": "该工作对多变量MOF及稀土框架材料的组成控制和性质调控具有参考价值，展示了通过阳离子半径偏置实现金属分布调控并进而调节孔隙率、磁性和光学性质的策略。其局限在于摘要未报告具体孔隙率数值、磁性数据及紫外-可见光谱细节，且未涉及介孔或导电MOF。若关注框架材料的多变量合成与性质调控，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未补充摘要未报告的实验条件、表征手段、数值或机制。具体合成条件、单晶结构参数、EDX定量数据、孔隙率数值、磁性测量条件和紫外-可见光谱数据等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "UoB-116(Ln)由15种不同稀土金属形成同构框架，并成功合成含2、4、12、15或16种金属的MTV-MOF。",
+          "EDX分析确认各金属在MTV-MOF晶体中分布，组成分析表明较小阳离子半径的镧系元素浓度增加。",
+          "开发了控制双金属体系UoB-116(La1-xLux)和UoB-116(Dy1-xLax)（x=0–1）相对组成的方案。",
+          "在UoB-116(Dy1-xLax)中，孔隙率、磁性和紫外-可见性质可通过金属阳离子组成进行调控。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-25",
     "search_start": "2026-09-23",
     "generated_at": "2026-09-26T01:29:19Z",
