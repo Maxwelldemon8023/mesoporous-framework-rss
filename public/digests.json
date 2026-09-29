@@ -1,5 +1,566 @@
 [
   {
+    "date": "2026-09-28",
+    "search_start": "2026-09-26",
+    "generated_at": "2026-09-29T02:33:28Z",
+    "papers": [
+      {
+        "title": "Rigid-Flexible Coupling Pore Engineering in Covalent Organic Frameworks Enables the Selective Identification of Nucleotide Analogues",
+        "abstract": "Abstract Covalent organic frameworks (COFs) offer programmable pore architectures and tunable host–guest interactions, yet their rigid channels limit the selective recognition of structurally similar biomolecules─a longstanding challenge in sensor design. Inspired by enzymatic pockets that combine rigid active sites with flexible secondary coordination spheres, we report a rigid-flexible coupling pore engineering strategy that integrates spatially proximal rigid Fe single-atom switches and dynamic alkoxy chains within a light-emitting hydrazone COF scaffold. By strategically varying the alkoxy chain length from methoxy to heptyloxy, we demonstrate that elongated flexible chains modulate the coordination geometry of Fe single-atom sites through steric hindrance effect and enable adaptive binding of adenosine triphosphate (ATP) over its analogues adenosine monophosphate and adenosine diphosphate. This selective recognition, driven by synergistic coordination from the rigid Fe single-atom and multiple weak interactions (including hydrogen bond, C–H···π, and hydrophobic interactions) from the flexible heptyloxy chain, suppresses the photoinduced electron transfer from the COF skeleton to the Fe sites and ultimately triggers a fluorescence turn-on response exclusively for ATP, with a wide quantitative range from 10 nM to 50 μM and a limit of detection as low as 8.99 nM. This work establishes a biomimetic paradigm for designing COF-based sensors with tailored specificity toward structurally similar nucleotides.",
+        "authors": [
+          "Yizhang Li",
+          "Linjing Tong",
+          "Weiyu Ye",
+          "Rui Gao",
+          "Xiaoxue Kou",
+          "Yufan Liang",
+          "Jinsheng Huang",
+          "Siming Huang",
+          "Fang Zhu",
+          "Guosheng Chen",
+          "Gangfeng Ouyang"
+        ],
+        "institutions": [],
+        "published": "2026-09-28",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c16288",
+        "url": "https://doi.org/10.1021/jacs.6c16288",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 47,
+        "scores": {
+          "topic": 18,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [
+            "pore engineering"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "coordination"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "共价有机框架中的刚柔耦合孔工程实现核苷酸类似物的选择性识别",
+        "summary_zh": "该工作提出刚柔耦合孔工程策略，在发光腙基COF中集成刚性Fe单原子开关与动态烷氧基链，通过调控链长实现ATP对AMP和ADP的选择性荧光开启识别，检测限低至8.99 nM。",
+        "research_details_zh": "针对COF刚性孔道难以选择性识别结构相似生物分子的长期挑战，该研究受酶口袋中刚性活性位点与柔性二级配位球协同作用的启发，提出刚柔耦合孔工程策略。研究体系为发光腙基COF骨架，其中空间邻近地集成刚性Fe单原子开关和动态烷氧基链。通过将烷氧基链长从甲氧基系统性变化至庚氧基，作者考察了柔性链对Fe单原子位点配位几何的调控作用。结果表明，延长的柔性链通过位阻效应调节Fe位点配位几何，并实现对ATP相对于AMP和ADP的适应性结合。该识别由刚性Fe单原子的协同配位与柔性庚氧基链的多种弱相互作用共同驱动，抑制了从COF骨架到Fe位点的光诱导电子转移，最终触发仅对ATP的荧光开启响应。该工作为设计针对结构相似核苷酸具有定制特异性的COF传感器建立了仿生范式。",
+        "methods_zh": "摘要明确报告的方法包括：合成发光腙基COF骨架并集成刚性Fe单原子开关与动态烷氧基链；通过将烷氧基链长从甲氧基变化至庚氧基进行孔工程调控；利用荧光开启响应进行ATP、AMP和ADP的识别性能测试，获得10 nM至50 μM的定量范围和8.99 nM的检测限。摘要未报告具体的合成步骤、表征手段及配位结构解析方法。",
+        "relevance_zh": "该工作直接契合共轭COF框架材料与孔工程研究主线，其刚柔耦合孔工程策略为框架材料的选择性识别与传感功能设计提供了可借鉴的仿生思路。研究展示了链长调控与单原子位点协同的明确结构—性能关系，并给出定量检测指标。局限在于摘要未报告材料稳定性、选择性边界条件及实际样品验证。建议全文精读以获取合成细节与机制证据。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未使用外部常识补造。摘要未报告的具体合成条件、表征方法、配位结构解析、材料稳定性及选择性边界条件等关键细节仍需查阅全文核实。",
+        "key_findings_zh": [
+          "烷氧基链长从甲氧基延长至庚氧基可调控Fe单原子位点的配位几何，并实现对ATP相对于AMP和ADP的选择性识别。",
+          "选择性识别由刚性Fe单原子的协同配位与柔性庚氧基链的氢键、C–H···π和疏水相互作用共同驱动。",
+          "识别过程抑制COF骨架到Fe位点的光诱导电子转移，触发仅对ATP的荧光开启响应。",
+          "ATP定量范围为10 nM至50 μM，检测限低至8.99 nM。"
+        ]
+      },
+      {
+        "title": "Multi-Chamber Dynamic Molecular Crystal Microcapsules for Payload Encapsulation and Controlled Release",
+        "abstract": "Abstract Crystalline self-assembly offers a powerful route to ordered organic materials with well-defined structures and morphologies. Despite substantial advances in controlling crystal habit, organic single crystals with precisely engineered architectures, particularly those with fully enclosed internal cavities, remain exceptionally rare and challenging to fabricate. Here, we report a one-pot strategy that uses an optimized aqueous multisurfactant crystal growth approach to produce microcapsules with programmable numbers and sizes of sealed internal compartments. A simple model captures the qualitative aspects of this phenomenon by positing diffusion-limited growth coupled with asymmetric surfactant inhibition. The microcapsule voids are contained within a single crystal domain, enabling encapsulation and long-term storage of diverse components, including water-soluble dyes, hydrogen peroxide, and nanoparticles, within separate chambers of a multichambered crystalline microcapsule. The encapsulated species remain fully isolated and leak-tight for over 200 days. Visible-light irradiation (400–580 nm) causes photoactive molecules within the crystal matrix to undergo [2 + 2] photocycloaddition, inducing photomechanical disintegration at specific locations. This capability enables on-demand release of stored contents ranging from inorganic nanoparticles to small molecules. For example, the triggered release of H2O2 or Fe3+ gives rise to chemiluminescent reactions in localized regions near the ruptured crystals. This work establishes a new design paradigm for dynamic photoresponsive molecular crystals with programmable internal architectures and emergent functionalities.",
+        "authors": [
+          "Lin Chen",
+          "Fei Tong",
+          "Rizwan Ali",
+          "Imadul Islam",
+          "Mohammed N. Almtiri",
+          "Ibraheem A. Bushnak",
+          "Tian-Yi Xu",
+          "Qi Zhang",
+          "Yikai Xu",
+          "Hui-Yao Lin",
+          "Sheng Dai",
+          "He Tian",
+          "Da-Hui Qu",
+          "Rabih O. Al-Kaysi",
+          "Christopher J. Bardeen"
+        ],
+        "institutions": [],
+        "published": "2026-09-28",
+        "journal": "Journal of the American Chemical Society",
+        "doi": "10.1021/jacs.6c12923",
+        "url": "https://doi.org/10.1021/jacs.6c12923",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 41,
+        "scores": {
+          "topic": 6,
+          "method": 10,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "crystal growth",
+            "self assembly",
+            "self-assembly",
+            "surfactant"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal",
+            "crystalline",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "用于载荷封装与可控释放的多腔动态分子晶体微胶囊",
+        "summary_zh": "该工作通过优化水性多表面活性剂晶体生长一锅法，制备具有可编程数量与尺寸密封内腔的有机单晶微胶囊，实现多种载荷长期隔离存储及可见光触发按需释放。",
+        "research_details_zh": "针对具有精确工程化结构、尤其完全封闭内腔的有机单晶极为罕见且难以制备的问题，该研究报道了一种一锅法策略，采用优化的水性多表面活性剂晶体生长方法，制备具有可编程数量和尺寸密封内腔的微胶囊。作者提出一个简单模型，通过假设扩散限制生长与非对称表面活性剂抑制相结合，定性解释该现象。微胶囊空腔位于单一晶畴内，可在多腔晶体微胶囊的不同腔室中封装并长期存储多种组分，包括水溶性染料、过氧化氢和纳米颗粒。封装的物种保持完全隔离且防漏超过200天。可见光照射（400–580 nm）使晶体基质内的光活性分子发生[2+2]光致环加成，在特定位置诱导光机械崩解，从而实现从无机纳米颗粒到小分子的按需释放。例如，触发释放H2O2或Fe3+可在破裂晶体附近局部区域引发化学发光反应。该工作为具有可编程内部结构和涌现功能的动态光响应分子晶体建立了新设计范式。",
+        "methods_zh": "摘要明确报告的方法包括：优化水性多表面活性剂晶体生长一锅法；提出扩散限制生长与非对称表面活性剂抑制相结合的定性模型；封装水溶性染料、过氧化氢和纳米颗粒并进行长期隔离存储测试；采用可见光照射（400–580 nm）触发[2+2]光致环加成与光机械崩解；通过化学发光反应验证H2O2或Fe3+的触发释放。摘要未报告具体表面活性剂种类、晶体结构解析及释放动力学定量数据。",
+        "relevance_zh": "该工作属于晶体自组装与动态分子晶体领域，与自组装技术研究主线相关，其多腔微胶囊设计与光触发释放策略对框架材料及介孔材料的封装与控释功能设计具有借鉴意义。研究展示了明确的长期隔离存储与光响应释放性能，但摘要未报告晶体结构细节与释放动力学。建议对自组装与控释方向感兴趣的读者全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未使用外部常识补造。摘要未报告的具体表面活性剂种类、晶体结构解析、释放动力学定量数据及光机械崩解机制细节仍需查阅全文核实。",
+        "key_findings_zh": [
+          "一锅法水性多表面活性剂晶体生长可制备具有可编程数量和尺寸密封内腔的微胶囊。",
+          "微胶囊空腔位于单一晶畴内，封装的水溶性染料、过氧化氢和纳米颗粒保持完全隔离且防漏超过200天。",
+          "可见光照射（400–580 nm）触发晶体基质内[2+2]光致环加成，诱导光机械崩解并实现按需释放。",
+          "触发释放H2O2或Fe3+可在破裂晶体附近局部区域引发化学发光反应。"
+        ]
+      },
+      {
+        "title": "Energy‐Level Engineering with Co‐Sensitization of Organic Molecules on NiO x for Sn‐Based Perovskite Solar Cells",
+        "abstract": "ABSTRACT A cooperative self‐assembly of organic small molecules made of diester/diacid‐bithiophene units [BT 2D ‐CE ( 1 ), BT 2D ‐CA ( 2 )] with hexylpyridine‐ or phosphonic acid‐functionalized dithienopyrrole units [DTP 2D ‐Py ( 3 ), DTP 2D ‐PA ( 4 )] was induced atop Nickel Oxide (NiO x ) hole‐transport‐layer for lead‐free tin‐based perovskite solar cells. The pyridine functionality of DTP 2D ‐Py ( 3 ) in conjunction with the carboxyl group of BT 2D ‐CA ( 2 ) altered the NiO x /Perovskite interfacial energetics and accelerates selective hole extraction by passivating the buried interfacial defects, resulting in a power conversion efficiency of 8.1% due to enhanced photovoltage (0.560 to 0.593 V), alongside remarkable operational stability. The crucial role of synergistic energy‐level modulation, especially the Fermi level, was unraveled using ultraviolet photoelectron spectroscopy, demonstrating that combining complementary conjugated organic backbones with targeted functionalities offers versatility for enhancement of overall device performance and stability.",
+        "authors": [
+          "Yamuna Ezhumalai",
+          "Parameswaran Rajamanickam",
+          "Kai‐Wei Yu",
+          "Yun‐Sheng Shih",
+          "Yu Qi Li",
+          "Wen‐Yu Chen",
+          "Shaohuan Hong",
+          "Cheng‐Liang Liu",
+          "Xianyuan Jiang",
+          "Ming‐Chou Chen",
+          "Eric Wei‐Guang Diau"
+        ],
+        "institutions": [
+          "National Central University",
+          "National Yang Ming Chiao Tung University",
+          "National Yang Ming Chiao Tung University",
+          "National Yang Ming Chiao Tung University",
+          "National Central University",
+          "National Central University",
+          "National Taiwan University",
+          "National Taiwan University",
+          "ShanghaiTech University",
+          "National Central University",
+          "National Yang Ming Chiao Tung University"
+        ],
+        "published": "2026-09-26",
+        "journal": "Small",
+        "doi": "10.1002/smll.75967",
+        "openalex_id": "https://openalex.org/W7214469016",
+        "url": "https://doi.org/10.1002/smll.75967",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 39,
+        "scores": {
+          "topic": 12,
+          "method": 6,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Small"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "oxide"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "NiOx上有机分子共敏化的能级工程用于锡基钙钛矿太阳能电池",
+        "summary_zh": "该工作通过二酯/二酸-联噻吩单元与己基吡啶或膦酸功能化二噻吩并吡咯单元在NiOx上的协同自组装，调控界面能级并钝化缺陷，使锡基钙钛矿电池效率达8.1%。",
+        "research_details_zh": "该研究针对无铅锡基钙钛矿太阳能电池的界面能级调控与缺陷钝化问题，采用由二酯/二酸-联噻吩单元[BT2D-CE (1)、BT2D-CA (2)]与己基吡啶或膦酸功能化二噻吩并吡咯单元[DTP2D-Py (3)、DTP2D-PA (4)]组成的有机小分子，在NiOx空穴传输层上进行协同自组装。其中DTP2D-Py (3)的吡啶官能团与BT2D-CA (2)的羧基共同改变NiOx/钙钛矿界面能级，并通过钝化埋底界面缺陷加速选择性空穴提取。结果获得8.1%的功率转换效率，光电压从0.560 V提升至0.593 V，并具有显著的操作稳定性。作者利用紫外光电子能谱揭示了协同能级调控尤其是费米能级的关键作用，表明将互补共轭有机骨架与目标官能团结合可为提升器件整体性能与稳定性提供通用性策略。",
+        "methods_zh": "摘要明确报告的方法包括：合成二酯/二酸-联噻吩单元与己基吡啶或膦酸功能化二噻吩并吡咯单元有机小分子；在NiOx空穴传输层上诱导协同自组装；制备无铅锡基钙钛矿太阳能电池并测试功率转换效率、光电压和操作稳定性；采用紫外光电子能谱表征界面能级调控。摘要未报告具体自组装条件、薄膜表征细节及稳定性测试条件。",
+        "relevance_zh": "该工作涉及共轭有机分子在金属氧化物上的自组装与界面能级工程，与自组装技术及共轭材料研究主线部分相关，但其核心应用为钙钛矿太阳能电池，与介孔导电MOF及框架材料组装电化学合成主线关联有限。研究提供了明确的效率与光电压定量数据及能级调控证据。对界面自组装与能级工程感兴趣的读者可选择性精读。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未使用外部常识补造。摘要未报告的具体自组装条件、薄膜表征细节、稳定性测试条件及器件制备工艺参数仍需查阅全文核实。",
+        "key_findings_zh": [
+          "DTP2D-Py的吡啶官能团与BT2D-CA的羧基协同改变NiOx/钙钛矿界面能级并钝化埋底界面缺陷。",
+          "协同自组装使锡基钙钛矿太阳能电池功率转换效率达到8.1%，光电压从0.560 V提升至0.593 V。",
+          "器件表现出显著的操作稳定性。",
+          "紫外光电子能谱揭示协同能级调控尤其是费米能级的关键作用。"
+        ]
+      },
+      {
+        "title": "Mechanochemical Encapsulation of Enzymes in a Highly Hydrophilic HOF: Harnessing Pore Microenvironment for Enhanced Biocatalysis",
+        "abstract": "ABSTRACT Enzymes immobilized within hydrogen‐bonded organic frameworks (HOFs) often suffer from reduced catalytic activity due to mass transfer limitations and pore channel blocking by residual organic solvents from conventional solution‐phase synthesis. In addition, the correlation of HOF pore hydrophilicity‐hydrophobicity with enzymatic reactivity has rarely been underscored. Here, we report a mechanochemistry‐mediated HOF assembly strategy that enables non‐destructive, in situ enzyme encapsulation while generating an open porous network free from solvent‐induced pore blockage. Using a series of isostructural HOFs assembled from [1,1′:4′,1″‐terphenyl]‐3,3″,5,5″‐tetracarboxylic acid (H 4 TPTCA) bearing different substituents (‐NH 2 , ‐H, ‐CH 3 ), we demonstrate that mechanochemical synthesis affords enzyme@HOF biocomposites with up to a 449‐fold enhancement in catalytic rate compared to the conventional solution‐phase method. Notably, the introduction of ‐NH 2 groups substantially improves pore‐wall water adsorption capability, leading to 1.45–2.78 times and 116.1–330.3 times higher activity than the ‐H and ‐CH 3 analogues, respectively. Leveraging the high activity and stability of mechanochemical enzyme@HOF biocatalysts, we construct a sandwich‐type electrochemical immunosensor for carcinoembryonic antigen (CEA) that achieves a wide linear range and a detection limit as low as 15.6 fg mL −1 . This work establishes a green mechanochemical route to highly active enzyme@HOF biocatalysts and highlights the critical role of hydrophilic pore environments in preserving enzymatic function.",
+        "authors": [
+          "Jiayin Huang",
+          "Yanbin Xu",
+          "Wei Cheng Huang",
+          "Qing Chen",
+          "Hongling Yang",
+          "Xiao‐Feng Zhong",
+          "Xiaobang Chen",
+          "Wei Yi",
+          "Guosheng Chen",
+          "Siming Huang",
+          "Gangfeng Ouyang"
+        ],
+        "institutions": [
+          "State Key Laboratory of Respiratory Disease",
+          "Guangzhou Medical University",
+          "State Key Laboratory of Respiratory Disease",
+          "Guangzhou Medical University",
+          "Sun Yat-sen University",
+          "Sun Yat-sen University",
+          "Sun Yat-sen University",
+          "Sun Yat-sen University",
+          "Guangzhou Medical University",
+          "State Key Laboratory of Respiratory Disease",
+          "Guangzhou Medical University",
+          "Sun Yat-sen University",
+          "State Key Laboratory of Respiratory Disease",
+          "Guangzhou Medical University",
+          "Sun Yat-sen University"
+        ],
+        "published": "2026-09-26",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.78707",
+        "openalex_id": "https://openalex.org/W7214426954",
+        "url": "https://doi.org/10.1002/adfm.78707",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 38,
+        "scores": {
+          "topic": 18,
+          "method": 2,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [
+            "hof",
+            "hofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "机械化学法将酶封装于高亲水性HOF中：利用孔道微环境增强生物催化",
+        "summary_zh": "该工作采用机械化学组装策略，将酶无损原位封装于系列同构HOF中，避免溶剂堵塞孔道，催化速率较溶液法提升最高449倍；氨基修饰增强孔壁亲水性，显著提高活性，并构建了CEA电化学免疫传感器。",
+        "research_details_zh": "研究针对HOF固定化酶常因传质受限和传统溶液相合成残留有机溶剂堵塞孔道而导致催化活性下降的问题，同时指出HOF孔道亲疏水性与酶反应活性的关联此前鲜有强调。作者以[1,1′:4′,1″-三联苯]-3,3″,5,5″-四羧酸（H4TPTCA）为构筑单元，引入-NH2、-H、-CH3不同取代基，构建系列同构HOF，并采用机械化学介导的组装策略实现酶的无损原位封装，形成无溶剂诱导孔道堵塞的开放多孔网络。通过对比机械化学法与常规溶液相法，系统考察取代基对孔壁水吸附能力及酶催化活性的影响，并利用机械化学酶@HOF生物复合材料的高活性与稳定性构建夹心型电化学免疫传感器，用于癌胚抗原（CEA）检测。该研究确立了绿色机械化学路线制备高活性酶@HOF生物催化剂，并揭示亲水性孔道环境对维持酶功能的关键作用。",
+        "methods_zh": "摘要明确出现的方法包括：机械化学介导的HOF组装策略用于酶的原位封装；以H4TPTCA为构筑单元并引入-NH2、-H、-CH3取代基构建系列同构HOF；与常规溶液相法进行催化速率对比；评估孔壁水吸附能力与酶活性关系；构建夹心型电化学免疫传感器并测试CEA检测的线性范围与检测限。摘要未报告具体表征手段、合成温度、时间、酶种类及电化学测试参数。",
+        "relevance_zh": "该工作直接关联介孔/多孔框架材料的组装与生物催化应用，提出机械化学封装策略解决孔道堵塞与传质问题，并建立孔道亲疏水性与酶活性的结构—性能关系，对HOF及框架材料的功能化组装具有实际参考价值。其电化学免疫传感应用亦与电化学合成/测试主线相关。局限在于摘要未提供孔结构、酶负载量及稳定性细节，建议全文精读以核查机制与普适性。",
+        "evidence_note_zh": "本解读仅依据所提供题目与摘要，属摘要级解读。摘要未报告的实验条件、表征方法、酶种类、孔结构参数、稳定性数据及电化学测试细节等关键信息，仍需查阅全文核实。",
+        "key_findings_zh": [
+          "机械化学合成所得酶@HOF生物复合材料催化速率较常规溶液相法最高提升449倍。",
+          "引入-NH2基团显著改善孔壁水吸附能力，其活性分别比-H和-CH3类似物高1.45–2.78倍和116.1–330.3倍。",
+          "基于机械化学酶@HOF生物催化剂构建的夹心型电化学免疫传感器用于CEA检测，实现宽线性范围和低至15.6 fg mL−1的检测限。",
+          "亲水性孔道环境对保持酶功能具有关键作用。"
+        ]
+      },
+      {
+        "title": "Inside Back Cover: Supramolecular Self‐Assembly Enables Controlled Lithium Replenishment Toward High‐Performance and Sustainable Regeneration of Spent LiFePO 4 Batteries",
+        "abstract": "",
+        "authors": [
+          "Yixin Lin",
+          "Tiansheng Wang",
+          "Chaochao Gao",
+          "Jie Xu",
+          "Jiawen Chen",
+          "Zixi Lin",
+          "Guanghao Mao",
+          "Weihao Gao",
+          "Yixuan Tang",
+          "Jiaheng Zhang"
+        ],
+        "institutions": [],
+        "published": "2026-09-28",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.2026-m2509022200",
+        "url": "https://doi.org/10.1002/anie.2026-m2509022200",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 37,
+        "scores": {
+          "topic": 6,
+          "method": 6,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "仅元数据",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "内封底：超分子自组装实现可控锂补充以推动废旧LiFePO4电池的高性能与可持续再生",
+        "summary_zh": "摘要未报告。仅题目提示该工作利用超分子自组装实现可控锂补充，用于废旧LiFePO4电池的高性能与可持续再生，具体贡献需全文核查。",
+        "research_details_zh": "摘要未报告。根据题目，该研究关注超分子自组装策略在废旧LiFePO4电池再生中的应用，提出通过可控锂补充实现高性能与可持续再生。但摘要缺失，无法确认研究问题、材料体系、设计策略、研究过程及意义等具体内容。",
+        "methods_zh": "摘要未报告。题目仅提示涉及超分子自组装与可控锂补充，具体合成、组装、表征和性能测试方法均需全文核查。",
+        "relevance_zh": "该条目与自组装技术主线相关，涉及超分子自组装在电池材料再生中的应用，可能对框架材料组装与电化学方向有拓展参考价值。但由于摘要缺失，无法评估其具体方法、机制与结论，是否值得全文精读需获取全文后判断。",
+        "evidence_note_zh": "本解读仅依据所提供题目，摘要为空，属摘要级解读。所有实验条件、表征、数值、机制与结论均需查阅全文核实。",
+        "key_findings_zh": [
+          "摘要未报告相应数据"
+        ]
+      },
+      {
+        "title": "In-situ monitoring of surfactant-assisted ZIF-8 synthesis and self-assembly using small angle neutron scattering",
+        "abstract": "Metal organic frameworks can be fabricated to have structure across multiple length scales, from angstroms, where the metal nodes and organic linkers self-assemble to form molecular building units, to microns, where the MOF nanoparticles self-assemble with respect to each other to form superstructures. MOF-based photonic crystals are an example of a hierarchical MOF superstructure, where constant change in their dielectric constant causes the formation of a photonic band gap, and as such results in a material with structural colour. Our work looks at fabricating ZIF-8 (a Zeolitic Imidazolate Framework) based photonic crystals, using cetyltrimethylammonium bromide (CTAB) to stabilise the ZIF colloidal nanoparticles and encourage self-assembly. The self-assembly process has not been studied in-situ across different time- and length-scales, and understanding the mechanisms that drive the formation of these hierarchical structures could access new MOF-based photonic structures. The aim of this proposal is to investigate the role of the surfactant, CTAB, on the formation of ZIF colloidal nanoparticles and then its role during the self-assembly of groups of these colloidal nanoparticles in solution, using SANS contrast matching experiments. In-situ SANS contrast matching experiments will allow us to see the interaction between the surfactant and nanoparticles, which we expect to become more prominent as the process evolves.",
+        "authors": [
+          "Miss Sophie Ray",
+          "Mr Jacob Brownlee",
+          "Dr Lauren Matthews",
+          "Miss Elizabeth Evans",
+          "Dr Hamish Yeung",
+          "Dr Mrittika Roy"
+        ],
+        "institutions": [],
+        "published": "2026-09-27",
+        "journal": "Science and Technology Facilities Council",
+        "doi": "10.5286/isis.e.rb2610373-1",
+        "openalex_id": "https://openalex.org/W7214531891",
+        "url": "https://doi.org/10.5286/isis.e.rb2610373-1",
+        "sources": [
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 36,
+        "scores": {
+          "topic": 18,
+          "method": 8,
+          "quality": 0,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly",
+            "surfactant"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "colloidal",
+            "material"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "利用小角中子散射原位监测表面活性剂辅助的ZIF-8合成与自组装",
+        "summary_zh": "该工作拟用CTAB稳定ZIF-8胶体纳米颗粒并促进其自组装，通过原位SANS对比匹配实验研究表面活性剂在ZIF-8纳米颗粒形成及胶体颗粒自组装为分级超结构过程中的作用，以理解驱动MOF基光子晶体形成的机制。",
+        "research_details_zh": "研究关注金属有机框架可在多尺度上构筑结构：从埃尺度金属节点与有机配体自组装形成分子构筑单元，到微米尺度MOF纳米颗粒彼此自组装形成超结构。MOF基光子晶体是分级MOF超结构的例子，其介电常数持续变化产生光子带隙，从而呈现结构色。该工作旨在制备基于ZIF-8（沸石咪唑酯框架）的光子晶体，使用十六烷基三甲基溴化铵（CTAB）稳定ZIF胶体纳米颗粒并促进自组装。由于该自组装过程尚未在不同时间和长度尺度上被原位研究，理解驱动这些分级结构形成的机制有望获得新的MOF基光子结构。研究目标是通过SANS对比匹配实验，探究CTAB在ZIF胶体纳米颗粒形成中的作用，以及其在这些胶体纳米颗粒于溶液中自组装过程中的作用，预期表面活性剂与纳米颗粒的相互作用会随过程演化而更加显著。",
+        "methods_zh": "摘要明确出现的方法包括：使用CTAB稳定ZIF-8胶体纳米颗粒并促进自组装；采用小角中子散射（SANS）对比匹配实验进行原位监测；在不同时间和长度尺度上研究ZIF-8合成与自组装过程。摘要未报告具体合成条件、SANS测试参数、表征细节及性能测试结果。",
+        "relevance_zh": "该工作直接关联MOF框架材料的自组装与分级超结构构筑，涉及表面活性剂辅助的胶体纳米颗粒组装及原位SANS监测方法，对理解框架材料组装机制和MOF基光子晶体制备具有参考价值。其原位多尺度表征思路对组装研究主线有方法学意义。局限在于摘要为提案性质，尚无明确结果，建议获取全文或后续成果后判断。",
+        "evidence_note_zh": "本解读仅依据所提供题目与摘要，属摘要级解读。摘要未报告的实验条件、SANS数据、结构参数、机制结论及性能结果等关键细节，仍需查阅全文核实。",
+        "key_findings_zh": [
+          "摘要未报告相应数据",
+          "研究预期表面活性剂与纳米颗粒的相互作用随自组装过程演化而更加显著，但摘要未报告验证结果。"
+        ]
+      },
+      {
+        "title": "Hypertemperature‐Detonated Biomimetic Semiconductor Stromal Bombs for Enhanced Immunotherapy in Pancreatic Cancer",
+        "abstract": "ABSTRACT Pancreatic ductal adenocarcinoma (PDAC) is characterized by “copper avidity”, which easily leads to the dysregulation of copper ion homeostasis. It is possible to develop targeted nanodrugs that selectively kill cancer cells via cuproptosis. However, the dense stroma of PDAC acts as an airtight wall, which not only limits the penetration and distribution of therapeutic agents but also promotes immunosuppressive mechanisms via its hypoxia‐promoting effects, often leading to treatment failure. Thus, we developed a near‐infrared (NIR)‐responsive semiconductor polymer‐metal‒organic framework (MOF) nanoreactor (SPNMCH) that was loaded with copper sulfide nanoclusters (CuS x NCs) and hyaluronidase (HAase). This biomimetic semiconductor “bomb” extensively demolishes the wall (by highly activating HAase) and precisely eliminates tumor cells (through its active copper uptake to induce cuproptosis). Simultaneously, the synergistic effects of increased oxygen delivery and cuproptosis elicit robust antitumor immune responses to inhibit tumor progression and distant metastasis, and strong immune memory effects as observed in four mouse cancer models. Additionally, SPNMCH can be combined with anti‐programmed death receptor 1 (PD‐1) antibodies to further promote T cell‐mediated antitumor immunity. This study reveals a promising strategy for establishing a “hot” tumor immune niche in PDAC to promote the response to immunotherapy.",
+        "authors": [
+          "Chengke Xie",
+          "Houjuan Zhu",
+          "Jianfan Wen",
+          "Yichao Mo",
+          "Wanwan Wang",
+          "Chui Yu Chan",
+          "Xinquan Lin",
+          "Xiaoxiao Huang",
+          "Ge Li",
+          "Yongding Wu",
+          "Xiaotong Fan",
+          "Zheng Jie",
+          "Maolin Yan",
+          "Zhiyuan Li",
+          "Zuwei Wang",
+          "Jerry Zhi Xiong Heng",
+          "Karen Yuanting Tang",
+          "Yifeng Tian",
+          "Enyi Ye",
+          "Loh Xian Jun",
+          "Zibiao Li",
+          "Chengyu Liao",
+          "Shi Chen"
+        ],
+        "institutions": [],
+        "published": "2026-09-28",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.202523468",
+        "url": "https://doi.org/10.1002/adma.202523468",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "高温引爆仿生半导体基质炸弹用于增强胰腺癌免疫治疗",
+        "summary_zh": "该研究构建近红外响应半导体聚合物-MOF纳米反应器SPNMCH，共载硫化铜纳米簇与透明质酸酶，通过降解致密基质、诱导铜死亡并改善缺氧，协同激活抗肿瘤免疫，在四种小鼠模型中抑制肿瘤进展与转移。",
+        "research_details_zh": "胰腺导管腺癌具有铜亲和特征，易导致铜离子稳态失调，为利用铜死亡选择性杀伤肿瘤提供可能；但其致密基质限制药物渗透并加剧免疫抑制。针对这一问题，作者设计近红外响应半导体聚合物-金属有机框架纳米反应器SPNMCH，负载硫化铜纳米簇和透明质酸酶。该仿生半导体炸弹通过高度激活透明质酸酶广泛破坏基质屏障，并借助活性铜摄取精准消除肿瘤细胞以诱导铜死亡。同时，氧气递送增加与铜死亡产生协同效应，激发强抗肿瘤免疫反应，抑制肿瘤进展和远处转移，并在四种小鼠癌症模型中观察到强免疫记忆效应。SPNMCH还可与抗PD-1抗体联用，进一步促进T细胞介导的抗肿瘤免疫。研究提出在PDAC中建立热肿瘤免疫微环境以促进免疫治疗响应的策略。",
+        "methods_zh": "摘要明确涉及：构建近红外响应半导体聚合物-金属有机框架纳米反应器SPNMCH；负载硫化铜纳米簇和透明质酸酶；利用近红外响应、透明质酸酶激活、铜摄取诱导铜死亡、氧气递送增加及免疫激活等机制；在四种小鼠癌症模型中评价抗肿瘤进展、远处转移和免疫记忆效应；并与抗PD-1抗体联合治疗。具体合成条件、表征手段和性能测试细节摘要未报告。",
+        "relevance_zh": "该工作属于MOF基纳米反应器与半导体聚合物复合的框架材料应用，涉及MOF负载无机纳米簇和酶，并用于生物医学电化学相关微环境调控。对介孔导电MOF、共轭框架材料及框架组装主线仅有间接参考价值，主要启发在于MOF作为纳米反应器载体与刺激响应组装。若关注生物医学方向可精读，若聚焦导电MOF或电化学合成则相关性有限。",
+        "evidence_note_zh": "本文为摘要级解读，仅依据题目和摘要内容整理。摘要未报告SPNMCH的具体合成条件、MOF组成、孔结构、导电性、近红外响应机制细节、铜死亡证据、免疫细胞类型与定量数据、四种小鼠模型的具体肿瘤类型及统计结果，仍需全文核查。",
+        "key_findings_zh": [
+          "SPNMCH为近红外响应半导体聚合物-MOF纳米反应器，共载硫化铜纳米簇和透明质酸酶。",
+          "该体系通过高度激活透明质酸酶破坏致密基质，并通过活性铜摄取诱导铜死亡。",
+          "氧气递送增加与铜死亡协同激发抗肿瘤免疫，抑制肿瘤进展和远处转移，并在四种小鼠癌症模型中观察到强免疫记忆效应。",
+          "SPNMCH与抗PD-1抗体联用可进一步促进T细胞介导的抗肿瘤免疫。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-27",
     "search_start": "2026-09-25",
     "generated_at": "2026-09-28T01:36:01Z",
