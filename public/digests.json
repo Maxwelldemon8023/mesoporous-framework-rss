@@ -1,5 +1,601 @@
 [
   {
+    "date": "2026-09-30",
+    "search_start": "2026-09-28",
+    "generated_at": "2026-10-01T02:03:51Z",
+    "papers": [
+      {
+        "title": "Triadic σ–π Coordination Programs Cuδ+ Sites to Drive Sequential Dual-N Species C–N Coupling for Efficient Urea Electrosynthesis",
+        "abstract": "Abstract Electrocatalytic CO2/NO3– coreduction to urea through C–N coupling (EcnRR) offers a low-carbon route that couples carbon utilization with nitrate valorization. However, its efficiency is limited by poor spatiotemporal synchronization of C- and N-derived intermediates, site competition and local repulsion at single active sites, and insufficient control over the NO3– reduction reaction (NtrRR) hydrogenation. Here, we construct a series of secondary-coordination-tunable single-atom Cu–alkynyl–X sites in conjugated microporous polymers (Cu–X–CMPs, X = N, C, S), where X → Cu σ coordination and an alkynyl π channel work together through triadic σ–π coupling to electronically program low-valent Cu atomic sites (Cuδ+). Experiments and theory show that N-coordinated Cu stabilizes the Cuδ+ working state, enhances local interfacial polarization, and reorganizes the interfacial hydrogen-bond network. These effects improve proton-coupled electron transfer (PCET) compatibility and increase the synchronized local coverages of *CO and *NHx near the active site. More importantly, Cu–N–CMPs establishes a sequential dual-N-species C–N coupling pathway initiated by *NH and completed by *NH2, with *CONH identified as the key intermediate in the first coupling step. As a result, Cu–N–CMPs delivers a Cu-site-normalized TOF of 1321.2 h–1 at −0.6 VRHE. In the membrane electrode assembly (MEA) electrolyzer, it further delivers a urea formation rate of 92.8 mmol gcat.–1 h–1 with 77.6% FEurea and stable operation for 85 h. This work demonstrates that Cu site electronic programming can coordinate sequential dual-N species C–N coupling, providing a transferable atomic-site engineering strategy for complex multi-intermediate electrocatalysis.",
+        "authors": [
+          "Chao Zhao",
+          "Bo-Chao Ye",
+          "Meiqi Zhu",
+          "Honghui Ou",
+          "Qi-lin Hou",
+          "Yu Jin",
+          "Wen-Hao Li",
+          "Dingsheng Wang",
+          "Guidong Yang"
+        ],
+        "institutions": [],
+        "published": "2026-09-30",
+        "journal": "Journal of the American Chemical Society",
+        "doi": "10.1021/jacs.6c17136",
+        "url": "https://doi.org/10.1021/jacs.6c17136",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 59,
+        "scores": {
+          "topic": 18,
+          "method": 7,
+          "quality": 15,
+          "novelty": 10,
+          "network": 0,
+          "applied": 5,
+          "archive": 4,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [
+            "electrosynthesis"
+          ],
+          "materials": [
+            "carbon",
+            "coordination",
+            "membrane"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中电化学合成、导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "三元σ–π配位编程Cuδ+位点驱动顺序双氮物种C–N偶联实现高效尿素电合成",
+        "summary_zh": "该工作构建了次级配位可调的Cu–炔基–X单原子位点共轭微孔聚合物，通过三元σ–π耦合稳定Cuδ+工作态，实现顺序双氮物种C–N偶联，在MEA中尿素产率达92.8 mmol gcat.–1 h–1、FEurea 77.6%，稳定运行85小时。",
+        "research_details_zh": "研究针对电催化CO2/NO3–共还原制尿素中C、N中间体时空同步差、单活性位点竞争与局部排斥以及NtrRR加氢控制不足的问题，设计了一系列次级配位可调的单原子Cu–炔基–X位点共轭微孔聚合物（Cu–X–CMPs，X = N、C、S）。其中X→Cu的σ配位与炔基π通道协同形成三元σ–π耦合，对低价Cu原子位点（Cuδ+）进行电子编程。实验与理论表明，N配位的Cu可稳定Cuδ+工作态、增强局部界面极化并重组界面氢键网络，从而改善PCET兼容性并提高活性位点附近*CO与*NHx的同步局部覆盖度。更重要的是，Cu–N–CMPs建立了由*NH引发、*NH2完成的顺序双氮物种C–N偶联路径，*CONH被确定为第一步偶联的关键中间体。该工作为复杂多中间体电催化提供了可迁移的原子位点工程策略。",
+        "methods_zh": "摘要明确出现的方法包括：构建次级配位可调的单原子Cu–炔基–X共轭微孔聚合物（Cu–X–CMPs，X = N、C、S）；结合实验与理论计算研究电子结构与反应机制；在−0.6 VRHE下评估Cu位点归一化TOF；在膜电极组件（MEA）电解槽中测试尿素形成速率、FEurea及85小时稳定性。摘要未报告具体合成条件、表征手段及理论计算方法细节。",
+        "relevance_zh": "该工作属于共轭微孔聚合物基单原子电催化与电化学合成交叉方向，其三元σ–π配位编程Cuδ+位点及顺序双氮物种C–N偶联机制对介孔导电MOF、共轭框架材料及框架材料电化学合成研究具有直接借鉴价值。局限在于摘要未报告材料孔结构、导电性及具体配位表征细节。建议全文精读以核查合成–结构–性能关系及机制证据。",
+        "evidence_note_zh": "本解读仅依据提供的题目与摘要，属于摘要级解读。摘要未报告具体合成条件、表征手段、理论计算方法、孔结构参数、导电性数据及配位结构细节，这些关键信息仍需全文核查。",
+        "key_findings_zh": [
+          "Cu–N–CMPs在−0.6 VRHE下实现Cu位点归一化TOF为1321.2 h–1。",
+          "在MEA电解槽中尿素形成速率达92.8 mmol gcat.–1 h–1，FEurea为77.6%，稳定运行85小时。",
+          "Cu–N–CMPs建立由*NH引发、*NH2完成的顺序双氮物种C–N偶联路径，*CONH为第一步偶联关键中间体。",
+          "N配位Cu可稳定Cuδ+工作态、增强局部界面极化、重组界面氢键网络，提高PCET兼容性及*CO与*NHx同步局部覆盖度。"
+        ]
+      },
+      {
+        "title": "Electrochemically Supported Asymmetric Synthesis on Chiral Encoded Pt and Pt–Ir Surfaces",
+        "abstract": "Conspectus In recent years, we studied the design of chiral-encoded metal surfaces via electrodeposition as a platform for heterogeneous asymmetric synthesis, where stereochemical information is intrinsically embedded within metallic architectures together with mesoporous structures. By using lyotropic liquid crystal templating and chiral molecular imprinting, it is possible to elaborate chiral-encoded mesoporous metal electrodes by electrodeposition, particularly Pt or Pt–Ir systems, with chiral recognition sites that enable ligand-free enantioselective transformations. These designer materials exhibit high surface area, efficient mass transport, and structural robustness, overcoming key limitations of traditional enantioselective catalysis such as poor recyclability and limited stability. Our studies demonstrate that the chiral interfaces enable highly enantioselective electrosynthesis of chiral compounds, achieving up to 95% ee with excellent durability. In addition, we implemented several concepts to enhance the enantiomeric excess, for example, pulsed electrosynthesis, and self-assembled monolayer protection of chiral-imprinted metal surfaces for highly enantioselective electrosynthesis. Furthermore, we also extended the concept to heterogeneous catalysis for asymmetric synthesis of chiral molecules, in particular, pharmaceutically relevant compounds, eventually achieving up to 95% ee with excellent durability and compatibility with flow-based systems. We also integrated these materials into autonomous systems, developing chiral metal microswimmers that combine self-propulsion with enantioselective catalysis, thus enabling self-mixing. Despite ongoing challenges in stabilizing the imprinted chiral information, the broadening of this concept to other metals, such as multimetallic and non-noble systems, offers promising solutions. Taken together, these advancements establish this approach to create chiral-encoded metal surfaces as a versatile concept for the next generation of chiral-imprinted metals for sustainable asymmetric synthesis.",
+        "authors": [
+          "Anousha Sohail",
+          "Wanmai Srisuwanno",
+          "Sopon Butcha",
+          "Alexander Kuhn",
+          "Chularat Wattanakit"
+        ],
+        "institutions": [
+          "Vidyasirimedhi Institute of Science and Technology",
+          "Chiang Mai University",
+          "Thammasat University",
+          "Centre National de la Recherche Scientifique",
+          "Université de Bordeaux",
+          "Institut des Sciences Moléculaires",
+          "Vidyasirimedhi Institute of Science and Technology",
+          "Institut Polytechnique de Bordeaux",
+          "Vidyasirimedhi Institute of Science and Technology"
+        ],
+        "published": "2026-09-28",
+        "journal": "Accounts of Chemical Research",
+        "doi": "10.1021/acs.accounts.6c00499",
+        "openalex_id": "https://openalex.org/W7214617281",
+        "url": "https://doi.org/10.1021/acs.accounts.6c00499",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 53,
+        "scores": {
+          "topic": 18,
+          "method": 16,
+          "quality": 0,
+          "novelty": 10,
+          "network": 0,
+          "applied": 5,
+          "archive": 4,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [
+            "templating"
+          ],
+          "electrochemical": [
+            "electrodeposition",
+            "electrosynthesis"
+          ],
+          "materials": [
+            "crystal",
+            "materials",
+            "mesoporous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、电化学合成、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "手性编码Pt与Pt–Ir表面上的电化学支持不对称合成",
+        "summary_zh": "该综述总结了通过电沉积构建手性编码介孔金属表面的策略，利用溶致液晶模板与手性分子印迹在Pt或Pt–Ir中嵌入手性识别位点，实现无配体对映选择性电合成，ee最高达95%，并拓展至流动体系与自主系统。",
+        "research_details_zh": "研究聚焦于将立体化学信息本征嵌入金属结构并同时构建介孔结构，以电沉积为平台制备手性编码金属表面用于多相不对称合成。策略上采用溶致液晶模板与手性分子印迹相结合，制备手性编码介孔金属电极，特别是Pt或Pt–Ir体系，使其具备手性识别位点，从而无需外加配体即可实现对映选择性转化。这类设计材料具有高比表面积、高效传质和结构稳健性，可克服传统对映选择性催化回收性差、稳定性有限等关键局限。研究展示手性界面可实现高对映选择性电合成，ee最高达95%且耐久性优异。为提升ee，作者还实施了脉冲电合成及自组装单层保护手性印迹金属表面等概念，并将该概念拓展至多相催化合成手性分子，尤其是药物相关化合物，最终实现最高95% ee，并具备优异耐久性与流动体系兼容性。此外，还将材料集成至自主系统，开发出兼具自推进与对映选择性催化功能的手性金属微泳器，实现自混合。尽管稳定印迹手性信息仍存挑战，但将该概念拓展至多金属及非贵金属体系提供了有前景的解决方向。",
+        "methods_zh": "摘要明确出现的方法包括：电沉积制备手性编码金属表面；溶致液晶模板法构建介孔结构；手性分子印迹引入手性识别位点；脉冲电合成；自组装单层保护手性印迹金属表面；对映选择性电合成与多相催化测试；流动体系兼容性评估；以及构建手性金属微泳器自主系统。摘要未报告具体电解液、电位、温度及表征手段细节。",
+        "relevance_zh": "该综述与介孔材料、自组装技术及电化学合成主线高度相关，其溶致液晶模板、手性分子印迹与电沉积结合的策略对框架材料组装及手性介孔电极设计具有方法学参考价值。局限在于摘要未报告具体材料组成、孔结构参数及稳定性定量数据。建议全文精读以获取可迁移的合成与表征细节。",
+        "evidence_note_zh": "本解读仅依据提供的题目与摘要，属于摘要级解读。摘要未报告具体电解液组成、电沉积参数、孔结构参数、表征手段及稳定性定量数据，这些关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "通过溶致液晶模板与手性分子印迹电沉积，可制备具有手性识别位点的手性编码介孔Pt或Pt–Ir电极，实现无配体对映选择性转化。",
+          "手性界面可实现高对映选择性电合成，ee最高达95%，并具有优异耐久性。",
+          "脉冲电合成与自组装单层保护手性印迹金属表面等策略可进一步提升对映体过量。",
+          "该概念可拓展至多相催化合成药物相关手性分子，并兼容流动体系；手性金属微泳器可结合自推进与对映选择性催化实现自混合。"
+        ]
+      },
+      {
+        "title": "Chiral Heterojunctions for Spin‐Enhanced Photoreforming of Plastic Waste",
+        "abstract": "ABSTRACT Manipulating the spin state of charge carriers via the chiral‐induced spin selectivity (CISS) effect enhances charge carrier dynamics and lowers kinetic barriers, thereby advancing the photocatalytic upcycling of plastics into renewable chemicals. Here, a chiral‐ligand‐induced interfacial assembly strategy was developed to construct heterojunctions for waste plastics photoreforming. Enantiopure cysteine grafted onto MOF‐808 directs the uniform growth of a TpPa‐COF shell enabling self‐adaptive lattice matching. The heterojunctions exploit the CISS effect to regulate the spin alignment of photogenerated charge carriers. Spin‐polarized electrons are funneled to Pt single atoms, delivering an H 2 evolution rate of 1255.74 µmol g −1 h −1 . During oxidation of polyethylene terephthalate‐derived ethylene glycol, spin‐polarized holes on Pt clusters favor the parallel spin alignment of *OH intermediates, directing the reaction pathway on chiral catalysts toward C2‐retained glycolic acid (865.96 µmol g −1 h −1 ; 90.53% selectivity). In contrast, antiparallel spin alignment on achiral counterparts drives C‐C bond cleavage, yielding the C1 product formic acid. Scalable synthesis, outdoor testing, and techno‐economic analysis demonstrate the practical viability of this approach for solar‐driven waste plastic upcycling.",
+        "authors": [
+          "Jian Li",
+          "Zhenfa Wu",
+          "Baipeng Yin",
+          "Wenli Zhang",
+          "Yong Xu",
+          "Hongliang Huang",
+          "Shuai Yuan",
+          "Jiandong Pang",
+          "Chuang Zhang",
+          "Chongli Zhong"
+        ],
+        "institutions": [],
+        "published": "2026-09-30",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75215",
+        "url": "https://doi.org/10.1002/adma.75215",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 47,
+        "scores": {
+          "topic": 18,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "interfacial assembly"
+          ],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "用于自旋增强塑料废弃物光重整的手性异质结",
+        "summary_zh": "该工作通过手性配体诱导界面组装构建MOF-808与TpPa-COF异质结，利用CISS效应调控光生载流子自旋，将自旋极化电子导向Pt单原子实现1255.74 µmol g−1 h−1析氢，并高选择性生成乙醇酸。",
+        "research_details_zh": "研究针对塑料废弃物光重整中电荷载流子动力学与反应动力学壁垒问题，提出通过手性诱导自旋选择性（CISS）效应操控电荷载流子自旋态以提升光催化塑料升级回收。设计上采用手性配体诱导的界面组装策略构建异质结：将对映纯半胱氨酸接枝于MOF-808上，引导TpPa-COF壳层均匀生长，实现自适应晶格匹配。该异质结利用CISS效应调控光生电荷载流子的自旋排列。自旋极化电子被导向Pt单原子，实现H2析出速率1255.74 µmol g−1 h−1。在氧化聚对苯二甲酸乙二醇酯衍生的乙二醇过程中，Pt团簇上的自旋极化空穴有利于*OH中间体的平行自旋排列，使手性催化剂上的反应路径导向保留C2的乙醇酸（865.96 µmol g−1 h−1；90.53%选择性）。相反，非手性对应物上的反平行自旋排列驱动C–C键断裂，生成C1产物甲酸。可放大合成、户外测试与技术经济分析表明该方法对太阳能驱动废塑料升级回收具有实际可行性。",
+        "methods_zh": "摘要明确出现的方法包括：手性配体诱导界面组装策略；将对映纯半胱氨酸接枝于MOF-808；引导TpPa-COF壳层生长构建异质结；光催化塑料重整性能测试；H2析出与乙二醇氧化产物定量及选择性分析；可放大合成、户外测试与技术经济分析。摘要未报告具体合成条件、表征手段及CISS效应测试细节。",
+        "relevance_zh": "该工作属于MOF/COF异质结界面组装与手性自旋调控交叉方向，其手性配体诱导界面组装、自适应晶格匹配及CISS效应调控策略对共轭MOF/COF框架材料组装与光催化应用具有直接参考价值。局限在于摘要未报告异质结界面结构、自旋表征及稳定性数据。建议全文精读以核查组装机制与构效关系。",
+        "evidence_note_zh": "本解读仅依据提供的题目与摘要，属于摘要级解读。摘要未报告具体合成条件、表征手段、CISS效应测试细节、异质结界面结构及稳定性数据，这些关键信息仍需全文核查。",
+        "key_findings_zh": [
+          "手性配体诱导界面组装构建MOF-808/TpPa-COF异质结，对映纯半胱氨酸接枝MOF-808引导TpPa-COF壳层均匀生长并实现自适应晶格匹配。",
+          "自旋极化电子导向Pt单原子，H2析出速率达1255.74 µmol g−1 h−1。",
+          "氧化PET衍生乙二醇时，Pt团簇上自旋极化空穴促进*OH平行自旋排列，导向C2保留的乙醇酸，产率865.96 µmol g−1 h−1、选择性90.53%；非手性对应物反平行自旋排列驱动C–C断裂生成甲酸。",
+          "可放大合成、户外测试与技术经济分析表明该方法对太阳能驱动废塑料升级回收具有实际可行性。"
+        ]
+      },
+      {
+        "title": "Experimental and DFT Cross-Validation: Synergistic Adsorption Mechanisms and Water Stability Improvement of Core-Shell Hierarchically Porous Multimetallic MIL-100(Fe)@hollow Ni/Co-BTC Composites for Perfluorooctanoic Acid Removal",
+        "abstract": "Abstract Efficient perfluorooctanoic acid (PFOA) capture requires synergistic optimization of adsorption kinetics and capacity. Defect-free metal-organic frameworks (MOFs) with well-defined hierarchical pores are key to addressing this challenge, yet single-component MOFs face inherent limitations including monotonous pores, insufficient unsaturated metal sites, and poor water stability, which restrict their practical application. To overcome these drawbacks, this study designed and synthesized a core-shell structured dual-MOF composite, MIL-100(Fe)-on-(Ni/Co-BTC) (abbreviated as M-on-(NCB)), via a polyvinylpyrrolidone (PVP)-assisted hydrothermal strategy. The composite integrates a hollow Ni/Co-BTC core and a micro–mesoporous MIL-100(Fe) shell: the hollow core constructs diffusion pathways for target molecules and reduces mass transfer resistance; the shell provides high-density Fe active sites, enhances hydrophobicity, and acts as a protective barrier to significantly improve the water stability of the fragile Ni/Co-BTC framework. Systematic characterizations confirm the well-defined core-shell structure, distinct hierarchical pore distribution, uniform elemental composition, and intact hollow core of the composite. Benefiting from structural synergy and multiple adsorption mechanisms, M-on-(NCB) exhibits remarkably superior PFOA adsorption performance relative to single-component MOFs and their physical mixtures. A cross-validation system combining experimental characterizations and density functional theory (DFT) calculations fully elucidates the adsorption mechanism: spectroscopic and zeta potential analyses verify the synergistic roles of electrostatic attraction, ligand exchange, hydrophobic interactions, and pore filling; DFT calculations reveal the nature and strength of each interaction from an electronic structure perspective, confirming that coordination interactions dominate the adsorption process, with electrostatic attraction, hydrogen bonding, and π–CF hydrophobic interactions synergistically enhancing binding. The composite also possesses excellent water stability and cyclic reusability. This work develops a highly efficient and stable PFOA adsorbent via structural innovation, clarifies the adsorption mechanism through experimental–theoretical cross-validation, and proposes a generalizable “structural–functional complementary integration” strategy for MOF-based composite design, providing theoretical support and technical reference for efficient remediation of persistent organic pollutants (POPs).",
+        "authors": [
+          "Heng Lin",
+          "ShiYu Wen",
+          "Jiaqian Lv",
+          "Xuan Fang",
+          "Jiahui Liu",
+          "Na Ma",
+          "Wei Dai"
+        ],
+        "institutions": [],
+        "published": "2026-09-30",
+        "journal": "Langmuir",
+        "doi": "10.1021/acs.langmuir.6c04665",
+        "url": "https://doi.org/10.1021/acs.langmuir.6c04665",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 44,
+        "scores": {
+          "topic": 18,
+          "method": 8,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Langmuir"
+        ],
+        "hits": {
+          "framework": [
+            "mof",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [
+            "hierarchically porous",
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "coordination",
+            "mesoporous",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "实验与DFT交叉验证：核壳分级多孔多金属MIL-100(Fe)@中空Ni/Co-BTC复合材料对全氟辛酸去除的协同吸附机制及水稳定性提升",
+        "summary_zh": "该研究通过PVP辅助水热策略构建了以中空Ni/Co-BTC为核、微介孔MIL-100(Fe)为壳的双MOF复合材料，用于高效捕获全氟辛酸。实验与DFT交叉验证揭示了配位作用主导、多种机制协同的吸附机理，并显著提升了水稳定性与循环复用性。",
+        "research_details_zh": "针对全氟辛酸高效捕获需协同优化吸附动力学与容量的需求，以及单组分MOF孔道单一、不饱和金属位点不足、水稳定性差等固有局限，本研究设计并合成了核壳结构双MOF复合材料MIL-100(Fe)-on-(Ni/Co-BTC)（简称M-on-(NCB)），采用聚乙烯吡咯烷酮辅助水热策略制备。复合材料整合了中空Ni/Co-BTC核与微介孔MIL-100(Fe)壳：中空核构建目标分子扩散通道并降低传质阻力；壳层提供高密度Fe活性位点、增强疏水性并作为保护屏障显著改善脆弱Ni/Co-BTC骨架的水稳定性。系统表征确认了明确的核壳结构、分级孔分布、均匀元素组成及完整中空核。得益于结构协同与多重吸附机制，M-on-(NCB)对PFOA的吸附性能显著优于单组分MOF及其物理混合物。该工作通过结构创新开发了高效稳定的PFOA吸附剂，并提出可推广的“结构-功能互补集成”策略。",
+        "methods_zh": "采用聚乙烯吡咯烷酮辅助水热策略合成核壳结构双MOF复合材料M-on-(NCB)。通过系统表征确认核壳结构、分级孔分布、元素组成及中空核完整性。采用光谱分析和zeta电位分析验证吸附机制。结合密度泛函理论计算从电子结构角度揭示各相互作用的性质与强度。评估了PFOA吸附性能、水稳定性及循环复用性，但摘要未报告具体表征技术名称、测试条件及性能数值。",
+        "relevance_zh": "该研究属于介孔导电MOF及框架材料组装主线的重要拓展，展示了核壳双MOF分级多孔结构的设计策略与实验-理论交叉验证的机制研究方法。其“结构-功能互补集成”思路对框架材料组装和介孔材料设计具有参考价值。但摘要未报告具体吸附容量、动力学参数及循环稳定性数值，若关注定量性能与机制细节，建议全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未补充摘要未报告的实验条件、表征技术细节、具体数值、机制结论或应用数据。摘要中未明确报告PFOA吸附容量、动力学常数、循环次数、水稳定性测试条件及DFT计算参数等关键细节，需查阅全文核实。",
+        "key_findings_zh": [
+          "M-on-(NCB)对PFOA的吸附性能显著优于单组分MOF及其物理混合物，但摘要未报告具体吸附容量或动力学数值。",
+          "光谱与zeta电位分析验证了静电吸引、配体交换、疏水相互作用和孔填充的协同作用。",
+          "DFT计算确认配位相互作用主导吸附过程，静电吸引、氢键和π–CF疏水相互作用协同增强结合。",
+          "复合材料具有优异的水稳定性和循环复用性，但摘要未报告具体循环次数或容量保持率。"
+        ]
+      },
+      {
+        "title": "N-Heterocyclic Organobase-Mediated Interfacial Polymerization for the Rapid Synthesis of Highly Crystalline COF Membranes",
+        "abstract": "Covalent organic frameworks (COFs) are ideal candidates for constructing high-performance molecular separation membranes. Interfacial polymerization (IP) represents an important approach for fabricating continuous COF membranes. This study presents an N-heterocyclic organobase-mediated IP (N-het-IP) strategy to rapidly fabricate highly crystalline, continuous COF membranes at the interface. The key of the N-het-IP strategy lies in the presynthesized aqueous-phase tertiary amine intermediates derived from the N-heterocyclic organobase (such as piperazine) and aldehyde monomers (such as Tp). The tertiary amine intermediates with a Tp core and N-heterocyclic segments take part in the dynamic amine exchange reaction with organic-phase amine monomers, inducing interfacial membrane formation and COF crystalline transformation within 30 min under mild conditions. Simultaneously, the interfacial assembly of the tertiary amine intermediates constructs an amphiphilic interfacial microenvironment, regulating self-arrangement and suppressing disordered stacking, thereby yielding highly crystalline, continuous, and defect-free COF membranes. Moreover, the N-het-IP strategy exhibits broad universality, being compatible with various N-heterocyclic organobases and amine monomers of diverse COF membranes. Constructed via the N-het-IP strategy, the resulting COF membrane exhibits moderately high permeance and enables precise molecular sieving of dyes. The N-het-IP strategy provides a facile and efficient method to synergize the rapid synthesis and continuous assembly of COF membranes, paving the way for the development of COF membranes tailored for on-demand molecular separations.",
+        "authors": [
+          "Xiaolin Wang",
+          "Hexi Yu",
+          "Zhihong Dong",
+          "Zhouyang Sun",
+          "Yajuan Cai",
+          "Xueting Zhao",
+          "Jiefeng Pan"
+        ],
+        "institutions": [
+          "Hefei Institute of Technology",
+          "Zhejiang University of Technology",
+          "Zhejiang University of Technology",
+          "Zhejiang University of Technology",
+          "Healing Foundation",
+          "Zhejiang University of Technology",
+          "Hefei Institute of Technology",
+          "Zhejiang University of Technology"
+        ],
+        "published": "2026-09-29",
+        "journal": "ACS Applied Materials & Interfaces",
+        "doi": "10.1021/acsami.6c15201",
+        "openalex_id": "https://openalex.org/W7214798651",
+        "url": "https://doi.org/10.1021/acsami.6c15201",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 40,
+        "scores": {
+          "topic": 18,
+          "method": 4,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "ACS Applied Materials & Interfaces"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "interfacial assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystalline",
+            "membrane"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "N-杂环有机碱介导的界面聚合快速合成高结晶COF膜",
+        "summary_zh": "该研究提出N-杂环有机碱介导的界面聚合策略，利用预合成水相叔胺中间体与有机相胺单体的动态胺交换反应，在温和条件下30分钟内快速制备高结晶、连续、无缺陷COF膜，并实现染料精确分子筛分。",
+        "research_details_zh": "共价有机框架是构建高性能分子分离膜的理想候选材料，界面聚合是制备连续COF膜的重要方法。本研究提出N-杂环有机碱介导的界面聚合策略，用于在界面快速制备高结晶、连续COF膜。该策略的关键在于预合成由N-杂环有机碱（如哌嗪）与醛单体（如Tp）衍生的水相叔胺中间体。具有Tp核心和N-杂环片段的叔胺中间体与有机相胺单体发生动态胺交换反应，在温和条件下30分钟内诱导界面成膜和COF结晶转变。同时，叔胺中间体的界面组装构建了两亲性界面微环境，调控自排列并抑制无序堆叠，从而获得高结晶、连续、无缺陷的COF膜。该策略具有广泛普适性，兼容多种N-杂环有机碱和多种COF膜的胺单体。所制备COF膜表现出中等偏高渗透通量并可实现染料的精确分子筛分。",
+        "methods_zh": "采用N-杂环有机碱介导的界面聚合策略，预合成水相叔胺中间体（由N-杂环有机碱如哌嗪与醛单体如Tp衍生），与有机相胺单体进行动态胺交换反应，在温和条件下30分钟内于界面成膜。通过界面组装构建两亲性微环境调控COF结晶。评估了COF膜的结晶性、连续性、缺陷情况、渗透通量及染料分子筛分性能，但摘要未报告具体表征手段和测试条件。",
+        "relevance_zh": "该研究直接关联共轭COF及框架材料组装主线，提出的N-het-IP策略为COF膜的快速合成与连续组装提供了新方法，对界面组装和自组装技术研究具有实际参考价值。其普适性和温和条件优势值得关注。但摘要未报告膜的具体性能数值和表征细节，若关注定量分离性能与结晶机制，建议全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未补充摘要未报告的实验条件、表征技术、具体数值或机制细节。摘要中未明确报告COF膜的具体渗透通量、染料截留率、结晶度数值、膜厚度及普适性验证的具体单体种类等关键信息，需查阅全文核实。",
+        "key_findings_zh": [
+          "N-het-IP策略可在温和条件下30分钟内快速制备高结晶、连续、无缺陷COF膜。",
+          "叔胺中间体的界面组装构建两亲性界面微环境，调控自排列并抑制无序堆叠。",
+          "该策略具有广泛普适性，兼容多种N-杂环有机碱和多种COF膜的胺单体。",
+          "所得COF膜表现出中等偏高渗透通量并实现染料精确分子筛分，但摘要未报告具体渗透通量或截留率数值。"
+        ]
+      },
+      {
+        "title": "Self‐Assembled Y 2 O 3 /Y(OH) 3 Heterojunction Nanosheets Hydrogel for Efficient Metal Resources Recovery",
+        "abstract": "ABSTRACT Hydrogels are innovative and efficient adsorbent for metal resource recovery owing to their three‐dimensional porous network, abundant functional groups, and exceptional hydrophilicity. However, the fabrication of stable metal oxide hydrogels in aqueous media is severely hindered by rapid metal ion hydrolysis and unstable oxide‐water interfaces, leading to structural disintegration. Here, we developed a two‐step, solvent‐mediated self‐assembly strategy to fabricate a robust 3D Y 2 O 3 /Y(OH) 3 heterogeneous nanosheets hydrogel (3D‐YHNH) for metal resource recovery. The 3D‐YHNH shows exceptional adsorption performance, exhibits high capacities of 594.5 mg g −1 for CrO 4 2− and 155.3 mg g −1 for Au(III), coupled with ultra‐rapid adsorption equilibrium kinetics achieved in 2 min. The 3D‐YHNH demonstrated exceptional durability, retaining 99.2% of its initial capacity after 100 consecutive cycles. Combined experimental results and DFT calculations reveal that the exposure of active sites and formation of interfacial defects within 3D‐YHNH generate substantial structural positive charges, resulting in enhanced electrostatic interactions with CrO 4 2− anions. Successful demonstration of kilogram‐scale preparation, together with concentration factors up to 572.6 of Cr(VI) from wastewater and 48.20 of Au(III) from kilogram‐scale e‐waste, suggests that 3D‐YHNH is compatible with industrial deployment. This finding paves the way for sustainable technologies for recovering valuable metals, directly supporting circular economy initiatives.",
+        "authors": [
+          "Jianzhong Zheng",
+          "Mengcheng Zhang",
+          "Pengjun Duan",
+          "Yan Song",
+          "Xinwen Zhang",
+          "Xiaozheng Han",
+          "Xiang Ni",
+          "Qiaomei Sun",
+          "Zhaoxiang Zhong"
+        ],
+        "institutions": [],
+        "published": "2026-09-30",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.4614735",
+        "url": "https://doi.org/10.1002/anie.4614735",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 37,
+        "scores": {
+          "topic": 6,
+          "method": 6,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "oxide",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "自组装Y2O3/Y(OH)3异质结纳米片水凝胶用于高效金属资源回收",
+        "summary_zh": "该研究通过两步溶剂介导自组装策略制备了稳健的三维Y2O3/Y(OH)3异质结纳米片水凝胶，对CrO4^2-和Au(III)表现出高吸附容量和超快动力学，兼具优异循环稳定性，并成功实现公斤级制备及实际废水与电子垃圾中的金属回收。",
+        "research_details_zh": "水凝胶因其三维多孔网络、丰富官能团和优异亲水性而成为金属资源回收的创新高效吸附剂。然而，金属氧化物水凝胶在水介质中的制备受限于金属离子快速水解和不稳定的氧化物-水界面，导致结构解体。本研究开发了两步溶剂介导自组装策略，制备了稳健的三维Y2O3/Y(OH)3异质结纳米片水凝胶（3D-YHNH），用于金属资源回收。3D-YHNH表现出优异吸附性能：对CrO4^2-吸附容量达594.5 mg g^-1，对Au(III)达155.3 mg g^-1，吸附平衡在2分钟内超快达成。3D-YHNH具有优异耐久性，连续100次循环后保留初始容量的99.2%。实验与DFT计算结合揭示，3D-YHNH中活性位点暴露和界面缺陷形成产生大量结构正电荷，增强与CrO4^2-阴离子的静电相互作用。成功演示公斤级制备，废水中Cr(VI)浓缩因子达572.6，公斤级电子垃圾中Au(III)浓缩因子达48.20。",
+        "methods_zh": "采用两步溶剂介导自组装策略制备三维Y2O3/Y(OH)3异质结纳米片水凝胶（3D-YHNH）。通过吸附实验评估对CrO4^2-和Au(III)的吸附容量、动力学及循环稳定性。结合密度泛函理论计算揭示活性位点暴露和界面缺陷与静电相互作用的关系。进行了公斤级制备演示及实际废水与电子垃圾中金属回收的浓缩实验，但摘要未报告具体表征技术名称和测试条件。",
+        "relevance_zh": "该研究属于自组装技术和介孔材料主线的拓展推荐，展示了溶剂介导自组装构建三维异质结纳米片水凝胶的策略，其超快吸附动力学和优异循环稳定性对金属资源回收具有实际价值。公斤级制备和实际体系验证增强了应用前景。但该材料非框架材料，与介孔导电MOF/COF主线关联较弱，若关注自组装方法学和吸附机制可精读。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未补充摘要未报告的实验条件、表征技术、具体数值或机制细节。摘要中未明确报告水凝胶的具体比表面积、孔径分布、异质结界面结构表征细节、DFT计算参数及实际废水/电子垃圾的具体组成等关键信息，需查阅全文核实。",
+        "key_findings_zh": [
+          "3D-YHNH对CrO4^2-吸附容量为594.5 mg g^-1，对Au(III)为155.3 mg g^-1，吸附平衡在2分钟内达成。",
+          "连续100次循环后保留初始容量的99.2%，表现出优异耐久性。",
+          "实验与DFT计算揭示活性位点暴露和界面缺陷形成产生结构正电荷，增强与CrO4^2-的静电相互作用。",
+          "成功实现公斤级制备，废水中Cr(VI)浓缩因子达572.6，公斤级电子垃圾中Au(III)浓缩因子达48.20。"
+        ]
+      },
+      {
+        "title": "Structure–Dynamics-Property Relationship Reveals the Origin of Porous Integrity in Imine-Linked Covalent Organic Frameworks",
+        "abstract": "Abstract Molecular flexibility encoded in low-frequency lattice dynamics is increasingly recognized as a key determinant of the properties of porous materials, particularly metal–organic frameworks, but remains largely unexplored in covalent organic frameworks (COFs). Here, we establish a structure–dynamics–property relationship for chemically related COFs by combining three-dimensional electron diffraction, low-frequency vibrational spectroscopy, and first-principles calculations. Using 3D electron diffraction, we determined the crystal structure of the collapsed reduced framework COF-300-AR, revealing a bent linker conformation. Terahertz and low-frequency Raman spectroscopy, together with solid-state density functional theory and local mode analysis, resolve the lattice dynamics of contracted COF-300-H2O, COF-320A, and collapsed COF-300-AR and quantify linker flexibility through imine/amine torsions. Normal-mode decomposition and torsional potential energy surfaces show that these coordinates are comparatively stiff in the imine-based frameworks, preserving near-planar linker conformations that support guest-responsive structures. In contrast, COF-300-AR exhibits a shallower, multiwell torsional potential that enables bent linker conformations, favoring collapsed packing. Gas-phase local-mode analysis reproduces this relative trend in torsional softness, suggesting that linker flexibility can be screened before a crystal structure is available. The negligible gas uptake of COF-300-AR is therefore linked to the coupling of local amine flexibility with packing constraints in the interpenetrated framework. More broadly, these results demonstrate how low-frequency dynamics can identify molecular coordinates governing the structural integrity and porosity in flexible COFs.",
+        "authors": [
+          "William B. Stoll",
+          "Johanna Kölbel",
+          "Alonso Acosta Vera",
+          "Sameeha Sultana",
+          "William Archacki",
+          "Khai-Nghi Truong",
+          "Irin E. Aby",
+          "Brandon R. Barnett",
+          "Luca Catalano",
+          "Agnes E. Thorarinsdottir",
+          "Michael T. Ruggiero"
+        ],
+        "institutions": [],
+        "published": "2026-09-30",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c14616",
+        "url": "https://doi.org/10.1021/jacs.6c14616",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "crystal",
+            "materials",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "结构—动力学—性质关系揭示亚胺连接共价有机框架中孔隙完整性的起源",
+        "summary_zh": "该研究结合三维电子衍射、低频振动光谱与第一性原理计算，建立化学相关COF的结构—动力学—性质关系，发现亚胺连接框架中连接体扭转较刚，维持近平面构象与孔隙完整性，而胺连接塌缩框架扭转势垒浅、易弯曲，导致气体吸附极低。",
+        "research_details_zh": "研究针对共价有机框架中低频晶格动力学与分子柔性如何影响孔隙完整性这一尚未充分探索的问题，选取化学相关的COF-300-H2O、COF-320A和塌缩的还原框架COF-300-AR作为材料体系。设计策略是以三维电子衍射解析COF-300-AR晶体结构，结合太赫兹与低频拉曼光谱、固态密度泛函理论及局域模式分析，解析三种框架的晶格动力学，并通过亚胺/胺扭转量化连接体柔性。研究过程包括简正模式分解与扭转势能面计算，比较亚胺基框架与胺基塌缩框架的扭转刚度，并用气相局域模式分析复现扭转软度趋势。意义在于证明低频动力学可识别控制柔性COF结构完整性与孔隙率的分子坐标，并提示连接体柔性可在晶体结构获得前进行筛选。",
+        "methods_zh": "摘要明确出现的方法包括：三维电子衍射测定COF-300-AR晶体结构；太赫兹光谱与低频拉曼光谱解析晶格动力学；固态密度泛函理论计算；局域模式分析；简正模式分解；扭转势能面计算；气相局域模式分析用于复现扭转软度趋势；气体吸附测试用于评估COF-300-AR的孔隙性。",
+        "relevance_zh": "该工作直接关联共轭COF框架的组装、结构稳定性与孔隙完整性研究主线，提供低频动力学作为连接体柔性与框架塌缩之间的机制判据，对设计抗塌缩介孔COF具有参考价值。其局限在于摘要未报告具体合成条件、比表面积数值及完整气体吸附等温线，若关注COF孔隙工程与动力学表征方法，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属于摘要级解读。具体合成条件、表征参数、定量气体吸附数据、计算细节及结构—性能定量关系仍需全文核查。",
+        "key_findings_zh": [
+          "三维电子衍射确定塌缩还原框架COF-300-AR的晶体结构，揭示其连接体呈弯曲构象。",
+          "亚胺基框架中亚胺/胺扭转坐标相对刚性，保持近平面连接体构象，支持客体响应结构。",
+          "COF-300-AR呈现更浅的多势阱扭转势，允许弯曲连接体构象，有利于塌缩堆积。",
+          "COF-300-AR的气体吸附可忽略，归因于局域胺柔性与互穿框架中堆积约束的耦合。"
+        ]
+      },
+      {
+        "title": "Boosting Photoelectrochemical Water Oxidation of BiVO 4 Photoanodes With an Iron‐Based Metal–Organic Framework as a Hole Transport Layer",
+        "abstract": "ABSTRACT Sluggish bulk hole transport fundamentally limits the performance of bismuth vanadate (BiVO 4 ) photoanodes in photoelectrochemical (PEC) water splitting. Herein, we report a BiVO 4 /Fe‐MOF/NiFeOOH trilayer photoanode, wherein an iron‐based bipyridine dicarboxylate metal–organic framework (FeBPDCA), grown on BiVO 4 via coordination‐assisted in situ synthesis, serves as a dedicated hole‐transport layer. The Fe‐MOF layer provides a favorable band alignment and a built‐in electric field at the BiVO 4 /Fe‐MOF interface to drive directional bulk hole extraction, while NiFeOOH acts as a surface water‐oxidation cocatalyst. Experimental characterization and density functional theory (DFT) calculations reveal that the Fe‐MOF primarily accelerates bulk hole extraction, whereas NiFeOOH suppresses surface recombination through rapid water oxidation, together boosting both bulk charge‐separation efficiency ( η bulk ) and surface charge‐transfer efficiency ( η trans ) up to 97%. The optimized photoanode achieves a high photocurrent density of 7.15 mA cm −2 at 1.23 V vs. RHE, with an onset potential of 0.24 V and a maximum applied bias photon‐to‐current efficiency (ABPE) of 2.56%. This work demonstrates that deliberate tuning of MOF energy levels through metal node and ligand selection enables the simultaneous engineering of favorable band alignment and efficient charge separation at semiconductor/MOF junctions, providing a practical design strategy for photoanodes where bulk charge extraction is the primary efficiency bottleneck.",
+        "authors": [
+          "Siying Zhang",
+          "Zhaoqin Chu",
+          "Xiaona Li",
+          "Yingjuan Guo",
+          "Degao Wang",
+          "Fei Li"
+        ],
+        "institutions": [],
+        "published": "2026-09-30",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.4897216",
+        "url": "https://doi.org/10.1002/anie.4897216",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "coordination"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "以铁基金属有机框架作为空穴传输层提升BiVO4光阳极的光电化学水氧化性能",
+        "summary_zh": "该研究在BiVO4上通过配位辅助原位合成铁基联吡啶二羧酸MOF作为空穴传输层，并叠加NiFeOOH水氧化助催化剂，构建三层光阳极。Fe-MOF提供有利能带排列与内建电场驱动体相空穴提取，NiFeOOH抑制表面复合，使体相与表面电荷效率提升至97%，光电流达7.15 mA cm−2。",
+        "research_details_zh": "研究针对BiVO4光阳极体相空穴传输缓慢限制光电化学水分解性能的问题，设计BiVO4/Fe-MOF/NiFeOOH三层光阳极。材料体系为铁基联吡啶二羧酸金属有机框架FeBPDCA，通过配位辅助原位合成生长在BiVO4上，作为专用空穴传输层；NiFeOOH作为表面水氧化助催化剂。研究过程结合实验表征与密度泛函理论计算，揭示Fe-MOF主要加速体相空穴提取，NiFeOOH通过快速水氧化抑制表面复合，二者协同提升体相电荷分离效率与表面电荷转移效率。意义在于证明通过金属节点与配体选择调控MOF能级，可同时工程化半导体/MOF界面的能带排列与电荷分离，为体相电荷提取为主要瓶颈的光阳极提供实用设计策略。",
+        "methods_zh": "摘要明确出现的方法包括：配位辅助原位合成在BiVO4上生长铁基联吡啶二羧酸MOF；构建BiVO4/Fe-MOF/NiFeOOH三层光阳极；实验表征；密度泛函理论计算；光电化学性能测试，包括光电流密度、起始电位、应用偏压光子—电流效率、体相电荷分离效率与表面电荷转移效率评估。",
+        "relevance_zh": "该工作关联MOF作为电荷传输层与电化学/光电化学能量转换的研究主线，展示MOF能级调控在半导体/MOF结界面工程中的实际价值，对框架材料在光电阳极中的应用有参考意义。局限在于摘要未报告MOF厚度、负载量、稳定性及长期运行数据，若关注MOF空穴传输层设计，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属于摘要级解读。具体合成条件、MOF结构表征、能带位置、DFT计算细节、稳定性与重复性数据仍需全文核查。",
+        "key_findings_zh": [
+          "Fe-MOF层在BiVO4/Fe-MOF界面提供有利能带排列与内建电场，驱动定向体相空穴提取。",
+          "NiFeOOH作为表面水氧化助催化剂，通过快速水氧化抑制表面复合。",
+          "体相电荷分离效率与表面电荷转移效率均提升至97%。",
+          "优化光阳极在1.23 V vs. RHE下光电流密度达7.15 mA cm−2，起始电位0.24 V，最大应用偏压光子—电流效率为2.56%。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-29",
     "search_start": "2026-09-27",
     "generated_at": "2026-09-30T02:03:02Z",
