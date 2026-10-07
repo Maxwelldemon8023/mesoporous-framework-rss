@@ -1,5 +1,389 @@
 [
   {
+    "date": "2026-10-06",
+    "search_start": "2026-10-04",
+    "generated_at": "2026-10-07T02:18:36Z",
+    "papers": [
+      {
+        "title": "Differential Sedimentation and Cryo‐TEM Mapping Resolve Structural Heterogeneity in Conjugated Polymer Nanowires for Programmable Stretchable Electronics",
+        "abstract": "ABSTRACT The performance of stretchable electronics based on semicrystalline conjugated polymers (CPs) is determined by the balance between crystalline order and interdomain connectivity provided by amorphous tie molecules, rather than by crystallinity alone. Solution‐state crystallization‐driven self‐assembly (CDSA) of CPs into nanowires (NWs) enables solution‐processable thin films without post‐deposition annealing to enhance crystallinity. In cast films, crystalline NWs provide charge‐transport pathways, whereas non‐aggregated amorphous chains bridge adjacent NW crystallites, sustain interdomain charge percolation, and accommodate mechanical deformation. Yet this assembly inevitably yields heterogeneous mixtures of crystalline NWs and amorphous chains, which resist single‐NW quantification and independent control. In this study, density‐driven differential sedimentation fractionates poly(3‐hexylthiophene) (P3HT) NWs into a sediment of crystalline NWs and a supernatant of shorter NWs and lower‐molecular‐weight chains. Cryo‐TEM quantitative morphological mapping resolves backbone tilt, width uniformity, and lamellar coherence at the single‐NW level, showing that local cofacial π–π packing is preserved in both fractions whereas long‐range order along the lamellar stacking direction is concentrated in the sediment. Recombining the fractions at controlled weight ratios tunes the mobility–stretchability trade‐off without chemical modification, and the strategy generalizes to coaxial p–n heterojunction hybrid NWs of P3HT‐ b ‐poly(2‐vinylpyridine)/CdSe quantum dots formed by CDSA, reframing structural heterogeneity as a programmable design parameter for stretchable electronics.",
+        "authors": [
+          "Junyeon Yoon",
+          "Jun Ho Hwang",
+          "Eunji Lee"
+        ],
+        "institutions": [],
+        "published": "2026-10-05",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75087",
+        "url": "https://doi.org/10.1002/adma.75087",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 46,
+        "scores": {
+          "topic": 12,
+          "method": 6,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "charge transport",
+            "conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystalline",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "差速沉降与冷冻透射电镜图谱解析共轭聚合物纳米线结构异质性用于可编程可拉伸电子器件",
+        "summary_zh": "该研究利用密度驱动的差速沉降将P3HT纳米线分为晶态沉淀与含短纳米线及低分子量链的上清液，并通过冷冻透射电镜在单纳米线水平定量解析结构差异。重组不同比例组分可在不化学修饰条件下调控迁移率与可拉伸性平衡，并将该策略拓展至同轴p-n异质结杂化纳米线。",
+        "research_details_zh": "研究问题聚焦于半结晶共轭聚合物自组装不可避免地产出晶态纳米线与非聚集无定形链的异质混合物，难以单纳米线定量与独立控制，而可拉伸电子性能取决于晶态有序与无定形连接链提供的域间连通性平衡。材料体系为聚(3-己基噻吩)(P3HT)纳米线，通过溶液态结晶驱动自组装(CDSA)制备。设计策略采用密度驱动的差速沉降，将纳米线分为晶态纳米线沉淀和较短纳米线及低分子量链的上清液。研究过程使用冷冻透射电镜定量形貌图谱解析单纳米线水平的骨架倾斜、宽度均匀性和层状相干性，并将两组分按受控重量比重组以调控性能。意义在于将结构异质性重新定义为可编程设计参数，并推广至P3HT-b-聚(2-乙烯基吡啶)/CdSe量子点同轴p-n异质结杂化纳米线。",
+        "methods_zh": "摘要明确出现的方法包括：溶液态结晶驱动自组装(CDSA)制备共轭聚合物纳米线；密度驱动的差速沉降进行组分分离；冷冻透射电镜(Cryo-TEM)定量形貌图谱解析单纳米线骨架倾斜、宽度均匀性和层状相干性；将分离组分按受控重量比重组以调控性能；将该策略拓展至同轴p-n异质结杂化纳米线体系。摘要未报告具体的沉降介质、离心条件、电镜加速电压、迁移率和可拉伸性数值及器件制备细节。",
+        "relevance_zh": "该工作与自组装技术及框架材料组装主线高度相关，其核心价值在于提出一种无需化学修饰、通过物理分馏与重组调控共轭聚合物纳米线结构异质性的可编程策略，并建立单纳米线结构—性能关联。对理解共轭聚合物自组装薄膜中晶态与非晶态组分的协同作用具有参考意义。局限在于研究对象为P3HT纳米线而非介孔导电MOF或COF/HOF，且摘要未报告器件级电化学或拉伸性能数据。若关注自组装与可拉伸电子交叉方向，值得全文精读以核查分馏机制与器件验证细节。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告具体的沉降介质与离心参数、冷冻透射电镜制样与成像条件、迁移率和可拉伸性的定量数值、重组比例与性能的对应关系、器件结构与制备工艺、稳定性测试条件以及同轴异质结杂化纳米线的具体表征数据，这些关键细节均需全文核查。",
+        "key_findings_zh": [
+          "差速沉降成功将P3HT纳米线分为晶态纳米线沉淀与含较短纳米线和低分子量链的上清液两个组分。",
+          "冷冻透射电镜单纳米线定量形貌图谱显示，局部共面π–π堆积在两个组分中均得以保留，而沿层状堆积方向的长程有序集中于沉淀组分。",
+          "按受控重量比重组两组分可在不进行化学修饰的条件下调控迁移率–可拉伸性权衡。",
+          "该策略可推广至CDSA形成的P3HT-b-聚(2-乙烯基吡啶)/CdSe量子点同轴p-n异质结杂化纳米线。"
+        ]
+      },
+      {
+        "title": "Hierarchically Porous Fe–N–C Electrocatalysts with Accessible Fe-Nx Sites for High-Performance Oxygen Reduction Reaction in Zn-Air Batteries",
+        "abstract": "Abstract Developing Fe–N–C electrocatalysts with high active site utilization remains a key challenge for the oxygen reduction reaction (ORR), primarily because of the limited accessibility of Fe-Nx sites. Herein, a hierarchically porous Fe–N–C (HP-Fe–N–C) catalyst is constructed via a ZnO-templated strategy combined with urea-assisted secondary pyrolysis, enabling the simultaneous regulation of the pore structure and Fe-Nx site density. The ZnO template governs the formation of mesoporous architectures, and concurrently, the pyrolysis of urea releases gaseous species that facilitate the enlargement and interconnection of mesoporous channels. Notably, the balanced micromesoporous structure derived from the ZnO template facilitates efficient mass transport and enhances site accessibility, while urea regulates the nitrogen species to promote the formation of dense Fe-Nx moieties. As a result, the HP-Fe–N–C catalyst delivers a high half-wave potential of 0.90 V, along with near four-electron selectivity and excellent durability. The Zn-air battery assembled with the HP-Fe–N–C cathode achieves an open-circuit voltage of 1.52 V, a specific capacity of 745.6 mAh g–1, and favorable charge–discharge stability exceeding 800 h. This work reveals the balance between hierarchical porosity and active site density in the Fe–N–C catalyst for the high-performance ORR.",
+        "authors": [
+          "Yankun Wei",
+          "Dan Wang",
+          "Jinxiang Chou",
+          "Ruopeng Li",
+          "Wenchang Wang",
+          "Naotoshi Mitsuzaki",
+          "Zhidong Chen"
+        ],
+        "institutions": [],
+        "published": "2026-10-06",
+        "journal": "Langmuir",
+        "doi": "10.1021/acs.langmuir.6c04394",
+        "url": "https://doi.org/10.1021/acs.langmuir.6c04394",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 36,
+        "scores": {
+          "topic": 6,
+          "method": 12,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Langmuir"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "hierarchical porosity",
+            "hierarchically porous",
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "mesoporous",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "具有可接近Fe-Nx位点的分级多孔Fe–N–C电催化剂用于锌空气电池高性能氧还原反应",
+        "summary_zh": "该研究通过ZnO模板结合尿素辅助二次热解构建分级多孔Fe–N–C催化剂，同步调控孔结构与Fe-Nx位点密度。ZnO模板主导介孔结构形成，尿素热解释放气体促进介孔通道扩大与互联并调控氮物种。催化剂半波电位达0.90 V，锌空气电池开路电压1.52 V、比容量745.6 mAh g–1、充放电稳定性超800 h。",
+        "research_details_zh": "研究问题聚焦于Fe–N–C电催化剂中Fe-Nx位点可接近性受限导致活性位利用率低，制约氧还原反应性能。材料体系为分级多孔Fe–N–C(HP-Fe–N–C)催化剂。设计策略采用ZnO模板法结合尿素辅助二次热解，以同时调控孔结构和Fe-Nx位点密度。研究过程表明，ZnO模板主导介孔架构形成，尿素热解释放气态物种促进介孔通道扩大与互联；由ZnO模板衍生的平衡微介孔结构有利于高效传质并增强位点可接近性，尿素则调控氮物种以促进致密Fe-Nx基团形成。意义在于揭示了分级孔隙率与活性位点密度之间的平衡对高性能氧还原反应的关键作用，并验证了其在锌空气电池中的实际应用潜力。",
+        "methods_zh": "摘要明确出现的方法包括：ZnO模板法构建分级多孔结构；尿素辅助二次热解调控孔结构与Fe-Nx位点密度；氧还原反应性能测试获得半波电位、四电子选择性和耐久性数据；组装锌空气电池并测试开路电压、比容量和充放电稳定性。摘要未报告ZnO模板用量、热解温度与时间、尿素比例、比表面积和孔径分布数值、Fe-Nx位点定量表征方法及电池测试的具体条件。",
+        "relevance_zh": "该工作与介孔材料及框架材料组装主线相关，其价值在于展示ZnO模板与尿素辅助热解协同调控分级多孔Fe–N–C催化剂孔结构和活性位点密度的策略，并给出完整的氧还原与锌空气电池性能数据。对介孔电催化剂设计中传质与位点可接近性平衡具有参考意义。局限在于材料为热解碳基Fe–N–C而非晶态框架材料，且摘要未报告孔结构定量参数与位点结构表征细节。若关注介孔电催化与能源器件，值得全文精读以核查孔结构—位点—性能关联证据。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告ZnO模板用量与形貌、热解温度与时间、尿素添加比例、比表面积和孔径分布数值、Fe-Nx位点的定量表征方法与含量、四电子选择性的具体数值、耐久性测试条件以及锌空气电池测试的具体参数，这些关键细节均需全文核查。",
+        "key_findings_zh": [
+          "HP-Fe–N–C催化剂实现半波电位0.90 V，并具有近四电子选择性和优异耐久性。",
+          "以HP-Fe–N–C为正极组装的锌空气电池实现开路电压1.52 V、比容量745.6 mAh g–1，充放电稳定性超过800 h。",
+          "ZnO模板主导介孔架构形成，尿素热解释放气态物种促进介孔通道扩大与互联，二者共同平衡微介孔结构。",
+          "尿素调控氮物种促进致密Fe-Nx基团形成，分级孔隙率与活性位点密度的平衡有利于传质和位点可接近性。"
+        ]
+      },
+      {
+        "title": "Donor‐Selective NiCo‐LDH Templating Directs Polymer Assembly for Enhanced Exciton Transport in Efficient Organic Solar Cells",
+        "abstract": "ABSTRACT Organic solar cells (OSCs) have achieved remarkable progress, yet improving exciton utilization in polymer donors remains challenging due to their intrinsically limited exciton diffusion length ( L D ). Here, we report a donor‐selective templating strategy based on few‐layer‐like nickel–cobalt layered double hydroxide (NiCo‐LDH) nanosheets to regulate polymer donor assembly in OSCs. The hydroxyl‐rich NiCo‐LDH surface exhibits preferential affinity toward polymer donors and promotes ordered donor‐chain organization during film formation, while exerting limited influence on the acceptor component. This templating strategy enhances the molecular ordering of the donor phase and increases the L D of D18 from 10.7 to 18.9 nm, accompanied by the formation of more ordered donor fibrillar structures. The coordinated improvements in donor organization and exciton transport are further associated with enhanced exciton‐to‐charge conversion, more balanced carrier transport, and suppressed recombination. Consequently, D18:L8‐BO‐based OSCs achieve a maximum power conversion efficiency (PCE) of 21.36%, independently certified at 21.09%, together with improved stability under continuous illumination. Analogous donor‐biased interactions, enhanced exciton diffusion, regulated fibrillar organization, and improved photovoltaic performance are also observed in PM6 and D18‐Cl systems. These results highlight the broader applicability of chemically active 2D templating for coordinating polymer donor assembly and exciton transport toward high‐performance OSCs.",
+        "authors": [
+          "Yingjie He",
+          "Deqian Zeng",
+          "Yimin Liu",
+          "Wei Lin",
+          "Yintao Yang",
+          "Wei Zhang",
+          "Yuang Fu",
+          "Xinyu Pu",
+          "Huanyan Jiang",
+          "Ziying Zhao",
+          "Qifa Zheng",
+          "Xinhui Lu",
+          "Chang Liu",
+          "Hanjian Lai",
+          "Zhenye Li"
+        ],
+        "institutions": [],
+        "published": "2026-10-05",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75208",
+        "url": "https://doi.org/10.1002/adma.75208",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 35,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "templating"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "供体选择性NiCo-LDH模板引导聚合物组装增强高效有机太阳能电池中的激子传输",
+        "summary_zh": "该研究提出基于少层状镍钴层状双氢氧化物(NiCo-LDH)纳米片的供体选择性模板策略，调控有机太阳能电池中聚合物供体组装。富羟基NiCo-LDH表面对聚合物供体具有优先亲和力，促进供体链有序组织，将D18的激子扩散长度从10.7 nm提升至18.9 nm。D18:L8-BO器件最高效率达21.36%，独立认证21.09%。",
+        "research_details_zh": "研究问题聚焦于有机太阳能电池中聚合物供体本征激子扩散长度有限，制约激子利用率提升。材料体系为少层状镍钴层状双氢氧化物(NiCo-LDH)纳米片作为模板，聚合物供体包括D18、PM6和D18-Cl，受体为L8-BO。设计策略利用富羟基NiCo-LDH表面对聚合物供体的优先亲和力，在成膜过程中促进供体链有序组织，同时对受体组分影响有限。研究过程显示该模板策略增强供体相分子有序性，使D18激子扩散长度从10.7 nm增至18.9 nm，并形成更有序的供体纤维结构；供体组织与激子传输的协同改善进一步关联到激子到电荷转化增强、载流子传输更平衡和复合抑制。意义在于证明化学活性二维模板可协调聚合物供体组装与激子传输，并具有跨体系适用性。",
+        "methods_zh": "摘要明确出现的方法包括：制备少层状NiCo-LDH纳米片作为模板；将其引入聚合物供体成膜过程以调控供体组装；测定D18激子扩散长度；表征供体纤维结构；测试有机太阳能电池光伏性能并获得光电转换效率及独立认证效率；进行连续光照稳定性测试；在PM6和D18-Cl体系中验证策略普适性。摘要未报告NiCo-LDH的合成条件、模板添加量、薄膜制备工艺、激子扩散长度测试方法及器件结构细节。",
+        "relevance_zh": "该工作与自组装技术及框架材料组装主线相关，其价值在于展示化学活性二维层状双氢氧化物模板通过供体选择性相互作用调控聚合物供体组装，并建立供体有序性—激子扩散长度—光伏性能的关联。对理解模板引导聚合物组装与激子传输协同优化具有参考意义。局限在于模板为NiCo-LDH而非共轭MOF/COF/HOF，且摘要未报告模板与聚合物界面相互作用的具体机制证据。若关注模板组装与有机光伏交叉方向，值得全文精读以核查界面作用与普适性机制细节。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告NiCo-LDH纳米片的合成方法与层数表征、模板添加量、薄膜制备工艺、激子扩散长度的测试方法与拟合模型、器件结构、独立认证机构信息、稳定性测试的具体光照与温度条件以及PM6和D18-Cl体系的具体性能数值，这些关键细节均需全文核查。",
+        "key_findings_zh": [
+          "NiCo-LDH模板使D18的激子扩散长度从10.7 nm提升至18.9 nm，并形成更有序的供体纤维结构。",
+          "D18:L8-BO有机太阳能电池实现最高光电转换效率21.36%，独立认证效率21.09%，并在连续光照下稳定性改善。",
+          "供体组织与激子传输的协同改善关联到激子到电荷转化增强、载流子传输更平衡和复合抑制。",
+          "在PM6和D18-Cl体系中同样观察到供体偏向相互作用、激子扩散增强、纤维组织调控和光伏性能提升。"
+        ]
+      },
+      {
+        "title": "Self‐Reconstructing, Conductive Bismuth Organic Framework Enables Effective Alloying and High‐Capacity Potassium‐Ion Anodes",
+        "abstract": "ABSTRACT Conversion‐type anodes can deliver high capacities for potassium‐ion batteries (PIBs), but practical deployment is hindered by severe alloying‐induced volume expansion that destabilizes electrode interphases. Meanwhile, many porous host materials are electronically insulating and require substantial carbon additives, which dilute the active mass and reduce practical capacity and kinetics. Here, we report a high‐performing PIB anode based on thin 2D crystals of an intrinsically conductive bismuth metal–organic framework (MOF) built from π‐conjugated hexahydroxytriphenylene (HHTP) ligands. Electronic coupling between the HHTP ligands and Bi nodes yields markedly higher conductivity than analogous 3D carboxylate Bi‐MOFs. Atomically accessible Bi sites on the 2D sheets enable extensive, highly confined K–Bi alloying, which drives reversible framework disassembly during potassiation and reassembly upon depotassiation, as revealed by operando X‐ray diffraction (XRD). The electrode delivers high reversible capacity from efficient alloying/dealloying, complemented by ligand‐mediated pseudocapacitive storage at higher potentials. Confinement of the alloying reaction buffers strain and limits electrode expansion by fourfold compared with Bi powder. Bi‐HHTP outperforms 3D Bi‐MOFs and conductive Cu‐, Ni‐, and Co‐HHTP analogues across all tested current densities, establishing conductive Bi‐HHTP as a top‐performing MOF‐based anode for PIBs and providing design guidelines for future alloy‐type electrodes.",
+        "authors": [
+          "Vishal Shrivastav",
+          "Ievgen Obraztsov",
+          "Shashank Sundriyal",
+          "Mansi",
+          "Mahima Khandelwal",
+          "Radek Zbořil",
+          "Aristides Bakandritsos"
+        ],
+        "institutions": [],
+        "published": "2026-10-06",
+        "journal": "Small",
+        "doi": "10.1002/smll.76139",
+        "url": "https://doi.org/10.1002/smll.76139",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Small"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof",
+            "mofs"
+          ],
+          "conductive": [
+            "conductive",
+            "conjugated",
+            "π-conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "materials",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "自重构导电铋有机框架实现有效合金化与高容量钾离子负极",
+        "summary_zh": "该工作报道了由π共轭HHTP配体构建的本征导电二维铋金属有机框架薄晶体，用作钾离子电池负极。其原子级可及的Bi位点可实现高度限域的K–Bi合金化，并伴随充放电过程中的可逆框架解组装与再组装，显著缓冲应变并提升容量与倍率性能。",
+        "research_details_zh": "研究针对转化型负极在钾离子电池中因合金化体积膨胀导致界面失稳、以及多孔宿主材料电子绝缘需大量碳添加剂稀释活性质量的问题，设计了一种由π共轭六羟基三亚苯（HHTP）配体与Bi节点构建的本征导电二维铋金属有机框架薄晶体。HHTP配体与Bi节点间的电子耦合使其电导率显著高于类似三维羧酸Bi-MOF。二维片层上原子级可及的Bi位点可实现广泛且高度限域的K–Bi合金化，operando XRD揭示其在钾化时驱动可逆框架解组装、去钾化时再组装。电极通过高效合金化/去合金化提供高可逆容量，并在较高电位下辅以配体介导的赝电容存储。合金反应限域缓冲了应变，使电极膨胀较Bi粉降低四倍。Bi-HHTP在所有测试电流密度下均优于三维Bi-MOF及导电Cu-、Ni-、Co-HHTP类似物，确立了导电Bi-HHTP作为顶级MOF基钾离子电池负极的地位，并为未来合金型电极提供设计准则。",
+        "methods_zh": "摘要明确出现的方法包括：合成由π共轭HHTP配体与Bi节点构建的二维导电Bi-MOF薄晶体；采用operando X射线衍射（XRD）追踪钾化/去钾化过程中框架的解组装与再组装；进行电化学性能测试，比较Bi-HHTP与三维Bi-MOF及Cu-、Ni-、Co-HHTP类似物在不同电流密度下的表现；评估电极膨胀行为并与Bi粉对比。摘要未报告具体合成条件、表征参数及测试细节。",
+        "relevance_zh": "该工作直接关联介孔/导电MOF与框架材料组装主线，展示了π共轭配体构建本征导电二维MOF、利用原子级可及金属位点实现限域合金化及可逆框架重构的策略，对设计合金型电极和导电框架材料具有实际参考价值。其局限在于摘要未报告孔径、比表面积、具体电导率数值及长循环数据，若关注导电MOF合成与电化学储能机制，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据提供的题目与摘要，属于摘要级解读。摘要未报告具体合成条件、配体比例、电导率数值、孔径与比表面积、电解液体系、电流密度数值、循环寿命及库仑效率等关键细节，均需全文核查。",
+        "key_findings_zh": [
+          "HHTP配体与Bi节点间的电子耦合使二维Bi-HHTP电导率显著高于类似三维羧酸Bi-MOF。",
+          "operando XRD揭示钾化时框架可逆解组装、去钾化时再组装，合金化反应高度限域。",
+          "合金化限域使电极膨胀较Bi粉降低四倍。",
+          "Bi-HHTP在所有测试电流密度下均优于三维Bi-MOF及导电Cu-、Ni-、Co-HHTP类似物。"
+        ]
+      },
+      {
+        "title": "Raman Self‐Tracking Copper Metal‐Organic Framework‐Based Nanoplatform for Cuproptosis Cancer Therapy",
+        "abstract": "ABSTRACT Cuproptosis represents a promising strategy for cancer therapy, yet its clinical translation is hampered by unexpected deactivation and off‐target toxicity of copper ions during their delivery to tumors. We developed a copper metal‐organic framework‐based nanoplatform (CuF) with H 2 O 2 responsiveness and Raman self‐tracking capability for cuproptosis‐mediated antitumor therapy. CuF was prepared by coordinating Cu 2+ with an alkyne‐bearing ligand, followed by PEGylation and incorporation of an iron‐based catalyst. CuF undergoes catalyst‐mediated oxidative cleavage of alkynyl bonds under tumor‐associated elevated H 2 O 2 levels, causing CuF degradation and Cu 2+ release. Released Cu 2+ causes copper overload in tumor cells, thereby inducing potent cuproptosis. Meanwhile, the resultant aldehydes and acids generated by the oxidative cleavage of alkynes can further synergistically potentiate cuproptosis. Consequently, CuF demonstrated high antitumor efficacy in a 4T1 tumor‐bearing mouse model (with a tumor inhibition rate of 91%). Moreover, alkynes in the metal‐organic framework (MOF) backbone provided an intrinsically enhanced Raman signal, enabling label‐free self‐tracking of CuF distribution and degradation in cells and tissue sections through Raman imaging. Overall, this work not only provides a new paradigm for cuproptosis‐based anticancer agents, but also offers a versatile strategy for engineering H 2 O 2 responsive materials and Raman imaging nanoplatforms.",
+        "authors": [
+          "Yujie Duan",
+          "Ying Bao",
+          "Ziwen Gao",
+          "Xidong He",
+          "Xinming Liu",
+          "Hao Wang",
+          "Chunsheng Xiao",
+          "Xuesi Chen"
+        ],
+        "institutions": [
+          "University of Science and Technology of China",
+          "State Key Laboratory of Polymer Physics and Chemistry",
+          "State Key Laboratory of Polymer Physics and Chemistry",
+          "Second Affiliated Hospital of Jilin University",
+          "National University of Singapore",
+          "State Key Laboratory of Polymer Physics and Chemistry",
+          "State Key Laboratory of Polymer Physics and Chemistry",
+          "University of Science and Technology of China",
+          "State Key Laboratory of Polymer Physics and Chemistry",
+          "University of Science and Technology of China",
+          "State Key Laboratory of Polymer Physics and Chemistry"
+        ],
+        "published": "2026-10-04",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.9809366",
+        "openalex_id": "https://openalex.org/W7219887478",
+        "url": "https://doi.org/10.1002/anie.9809366",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch",
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": true,
+        "title_zh": "拉曼自追踪铜金属有机框架纳米平台用于铜死亡癌症治疗",
+        "summary_zh": "该工作构建了具有过氧化氢响应和拉曼自追踪能力的铜金属有机框架纳米平台CuF，用于铜死亡介导的抗肿瘤治疗。CuF在肿瘤高H2O2下经催化剂介导氧化裂解炔键而降解并释放Cu2+，诱导铜过载与铜死亡，同时炔键提供本征增强拉曼信号实现无标记自追踪。",
+        "research_details_zh": "研究针对铜死亡癌症治疗中铜离子递送易失活和脱靶毒性的问题，设计了一种铜金属有机框架基纳米平台CuF。CuF通过Cu2+与含炔配体配位制备，随后进行PEG化并引入铁基催化剂。在肿瘤相关的高H2O2水平下，CuF发生催化剂介导的炔键氧化裂解，导致框架降解并释放Cu2+。释放的Cu2+引起肿瘤细胞内铜过载，从而诱导强效铜死亡。同时，炔键氧化裂解产生的醛和酸可进一步协同增强铜死亡。在4T1荷瘤小鼠模型中，CuF表现出高抗肿瘤疗效，肿瘤抑制率达91%。此外，MOF骨架中的炔键提供本征增强拉曼信号，使CuF在细胞和组织切片中的分布与降解可通过拉曼成像实现无标记自追踪。该工作为铜死亡抗癌剂提供了新范式，也为工程化H2O2响应材料和拉曼成像纳米平台提供了通用策略。",
+        "methods_zh": "摘要明确出现的方法包括：通过Cu2+与含炔配体配位制备CuF，随后进行PEG化并引入铁基催化剂；利用肿瘤相关高H2O2触发催化剂介导的炔键氧化裂解；在4T1荷瘤小鼠模型中评估抗肿瘤疗效；利用MOF骨架中炔键的本征增强拉曼信号，通过拉曼成像对CuF在细胞和组织切片中的分布与降解进行无标记自追踪。摘要未报告具体合成条件、表征参数及成像参数。",
+        "relevance_zh": "该工作属于MOF框架材料在生物医学中的应用，展示了含炔配体MOF的H2O2响应降解、铜死亡治疗与拉曼自追踪成像一体化设计，对框架材料的刺激响应组装与功能集成有参考价值。其局限在于摘要未报告MOF结构细节、孔径、稳定性及拉曼信号增强机制的具体证据，若关注MOF生物应用与自追踪成像，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据提供的题目与摘要，属于摘要级解读。摘要未报告CuF的具体合成条件、配体结构、MOF拓扑与孔径、PEG化与催化剂引入细节、H2O2响应阈值、拉曼成像参数、铜死亡机制的直接证据及长期毒性等关键细节，均需全文核查。",
+        "key_findings_zh": [
+          "CuF在肿瘤相关高H2O2水平下经催化剂介导炔键氧化裂解而降解并释放Cu2+。",
+          "释放的Cu2+引起肿瘤细胞铜过载并诱导铜死亡，炔键裂解产生的醛和酸可协同增强铜死亡。",
+          "在4T1荷瘤小鼠模型中肿瘤抑制率达91%。",
+          "MOF骨架中的炔键提供本征增强拉曼信号，实现CuF分布与降解的无标记自追踪。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-05",
     "search_start": "2026-10-03",
     "generated_at": "2026-10-06T02:55:10Z",
