@@ -1,5 +1,384 @@
 [
   {
+    "date": "2026-10-08",
+    "search_start": "2026-10-06",
+    "generated_at": "2026-10-09T02:55:00Z",
+    "papers": [
+      {
+        "title": "Construction of HPW/HP-UiO-66-NH2 Membranes with Tunable Mesopores for Oxidative Desulfurization Applications",
+        "abstract": "Abstract Metal–organic frameworks (MOFs) have promising applications owing to their exceptional tunability and ultrahigh porosity. However, the intrinsic microporosity and powdery form cause large mass transfer resistance, pipeline clogging, and poor recyclability, which greatly restrict their engineering applications. In this work, a hierarchical porous UiO-66-NH2-anchored phosphotungstic acid catalytic membrane (denoted as m-HPW/HP-UNX, where X represents the volume of added water) was successfully fabricated via a cast-coating method using a casting solution blended with HPW/HP-UNX and poly(vinylidene fluoride) (PVDF) solutions. Among them, hierarchical porous HP-UNX was synthesized through template-free competitive nucleation in H2O/acetic acid systems. This solvent-regulated strategy yields HP-UNX nanoparticles smaller than 20 nm, which possess a tunable mesoporous structure and –NH2 sites, making them ideal supports for anchoring bulky phosphotungstic acid (HPW). The resultant m-HPW/HP-UNX catalytic membrane retains the mesoporous structure of HP-UNX and resolves the separation difficulty of the powdery MOFs. Notably, m-HPW/HP-UN9 achieves a desulfurization efficiency of 92%, far exceeding the microporous samples UiO-66-NH2 and m-HPW/UiO-66-NH2. Moreover, the oxidative desulfurization efficiency of the membrane remains approximately 90% after cycles, demonstrating a favorable cycling stability. The strategy of introducing hierarchical pore structures into molding materials provides a feasible pathway for industrial applications of desulfurization catalysts.",
+        "authors": [
+          "龙昌红",
+          "Chao Liu",
+          "Ganggang Chang",
+          "Xiangyu Liu",
+          "Ziyi Guo",
+          "Li Mei",
+          "Yao Yao",
+          "Yi Lu",
+          "Chaowen Liu",
+          "Xiaoyu Yang"
+        ],
+        "institutions": [
+          "Wuhan University of Technology",
+          "Wuhan University of Technology",
+          "Sinopec Research Institute of Petroleum Processing",
+          "Wuhan University of Technology",
+          "Wuhan University of Technology",
+          "Wuhan University of Technology",
+          "Wuhan University of Technology",
+          "Wuhan University of Technology",
+          "Wuhan University of Technology",
+          "Wuhan University of Technology",
+          "Sinopec Research Institute of Petroleum Processing",
+          "Wuhan University of Technology"
+        ],
+        "published": "2026-10-06",
+        "journal": "Inorganic Chemistry",
+        "doi": "10.1021/acs.inorgchem.6c04362",
+        "openalex_id": "https://openalex.org/W7220738718",
+        "url": "https://doi.org/10.1021/acs.inorgchem.6c04362",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 50,
+        "scores": {
+          "topic": 29,
+          "method": 6,
+          "quality": 0,
+          "novelty": 8,
+          "network": 0,
+          "applied": 4,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "materials",
+            "membrane",
+            "mesoporous",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "具有可调介孔的HPW/HP-UiO-66-NH2膜的构建及其氧化脱硫应用",
+        "summary_zh": "该工作通过无模板竞争成核策略合成具有可调介孔结构的HP-UiO-66-NH2纳米颗粒，并采用流延涂覆法制备HPW/HP-UNX催化膜，解决了粉体MOF传质阻力大、分离困难的问题，脱硫效率达92%且循环稳定性良好。",
+        "research_details_zh": "研究针对MOF固有微孔性和粉体形态导致的传质阻力大、管道堵塞及回收性差等工程应用限制，设计了一种分级多孔UiO-66-NH2锚定磷钨酸催化膜。采用无模板竞争成核法在H2O/乙酸体系中合成HP-UNX纳米颗粒，通过溶剂调控策略获得尺寸小于20 nm、具有可调介孔结构和–NH2位点的HP-UNX，作为大尺寸磷钨酸的理想载体。将HPW/HP-UNX与聚偏氟乙烯溶液共混，通过流延涂覆法制备m-HPW/HP-UNX催化膜。所得膜保留了HP-UNX的介孔结构，并解决了粉体MOF的分离难题。该策略为将分级孔结构引入成型材料提供了可行路径，推动脱硫催化剂的工业应用。",
+        "methods_zh": "采用无模板竞争成核法在H2O/乙酸体系中合成分级多孔HP-UNX纳米颗粒；通过溶剂调控策略调节介孔结构；将HPW/HP-UNX与聚偏氟乙烯溶液共混，采用流延涂覆法制备m-HPW/HP-UNX催化膜；通过氧化脱硫实验评价脱硫效率，并进行循环稳定性测试。摘要未报告具体的表征手段和测试条件。",
+        "relevance_zh": "该工作直接涉及介孔MOF的合成、分级孔结构构建及框架材料成型加工，对介孔导电MOF和框架材料组装方向具有参考价值。其无模板竞争成核和溶剂调控介孔策略可为介孔框架材料设计提供思路。但摘要未报告导电性、电化学合成或自组装细节，与导电MOF主线关联有限，建议根据对介孔MOF成型及催化应用的需求决定是否精读全文。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未补充摘要未报告的实验条件、表征手段、数值或机制。摘要未报告具体表征方法、孔径分布数据、HPW负载量、脱硫反应条件及循环次数等关键细节，需查阅全文核实。",
+        "key_findings_zh": [
+          "m-HPW/HP-UN9的脱硫效率达到92%，远高于微孔样品UiO-66-NH2和m-HPW/UiO-66-NH2",
+          "膜在循环使用后氧化脱硫效率仍保持约90%，表现出良好的循环稳定性",
+          "溶剂调控策略可合成尺寸小于20 nm且具有可调介孔结构的HP-UNX纳米颗粒",
+          "所得催化膜保留了HP-UNX的介孔结构并解决了粉体MOF的分离困难"
+        ]
+      },
+      {
+        "title": "Cation-Dependent Salt Templating of Phenolic Resin-Derived Hierarchical Porous Carbon for High-Performance Supercapacitors",
+        "abstract": "Abstract High-surface-area porous carbon electrodes that feature a well-balanced pore distribution and facilitate rapid ion transport are crucial for enhancing electric double-layer capacitors. Conventional phenolic resin-derived carbons are usually dominated by micropores and show limited pore connectivity, which restricts electrolyte infiltration and rate performance. Herein, we report a cation-dependent salt-templating strategy by introducing equimolar ZnCl2, MgCl2, and MnCl2 into a resorcinol–hexamethylenetetramine hydrothermal system. The three divalent cations direct markedly different carbon-framework evolution. Zn2+ mainly promotes micropore formation and smaller carbon spheres, Mg2+ favors particle fusion and larger pores, whereas Mn2+ converts discrete microsphere assemblies into a continuous three-dimensional hierarchical porous network. Among the resulting samples, PC-Mn exhibits a specific surface area of 1459 m2 g–1, a total pore volume of 1.12 cm3 g–1, and a micropore surface area measuring 1105 m2 g–1, along with well-developed mesoporous channels ranging from 2 to 4 nm. When tested in 6 M KOH, PC-Mn reaches a capacitance of 270.15 F g–1 and maintains 182.49 F g–1 at a current density of 20 A g–1, achieving a capacitance retention of 95.6% following 10,000 cycles. Furthermore, the PC-Mn symmetric supercapacitor exhibits a specific capacitance of 252.04 F g–1 and an energy density of 21.24 Wh kg–1 at a power density of 20,123 W kg–1. These results demonstrate that regulating the divalent cation species in salt-templated phenolic resin systems provides an effective approach for tailoring hierarchical pore structures and improving the electrochemical performance of porous carbon electrodes.",
+        "authors": [
+          "Huiping Sun",
+          "Jie Li",
+          "Yuhang Gao",
+          "Ting Liu",
+          "Huanli Wang",
+          "Wei Xu",
+          "Huawei Zhang"
+        ],
+        "institutions": [],
+        "published": "2026-10-08",
+        "journal": "Langmuir",
+        "doi": "10.1021/acs.langmuir.6c04300",
+        "url": "https://doi.org/10.1021/acs.langmuir.6c04300",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 41,
+        "scores": {
+          "topic": 12,
+          "method": 6,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 4,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Langmuir"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [
+            "templating"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "mesoporous",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "阳离子依赖的盐模板法调控酚醛树脂衍生分级多孔碳用于高性能超级电容器",
+        "summary_zh": "该工作报道了阳离子依赖的盐模板策略，通过在间苯二酚-六亚甲基四胺水热体系中引入等摩尔ZnCl2、MgCl2和MnCl2，调控碳骨架演化，其中Mn2+形成连续三维分级多孔网络，PC-Mn比表面积达1459 m2 g–1，电容性能优异。",
+        "research_details_zh": "研究针对传统酚醛树脂衍生碳以微孔为主、孔连通性有限、限制电解质浸润和倍率性能的问题，提出阳离子依赖的盐模板策略。在间苯二酚-六亚甲基四胺水热体系中分别引入等摩尔ZnCl2、MgCl2和MnCl2，三种二价阳离子引导显著不同的碳骨架演化：Zn2+主要促进微孔形成和更小碳球，Mg2+有利于颗粒融合和更大孔道，Mn2+则将离散微球组装体转化为连续三维分级多孔网络。所得PC-Mn具有1459 m2 g–1比表面积、1.12 cm3 g–1总孔容、1105 m2 g–1微孔表面积及2至4 nm介孔通道。在6 M KOH中，PC-Mn电容达270.15 F g–1，20 A g–1下保持182.49 F g–1，10,000次循环后电容保持率95.6%。对称超级电容器比电容252.04 F g–1，功率密度20,123 W kg–1时能量密度21.24 Wh kg–1。该结果表明调控二价阳离子种类可有效裁剪分级孔结构并提升多孔碳电极电化学性能。",
+        "methods_zh": "在间苯二酚-六亚甲基四胺水热体系中引入等摩尔ZnCl2、MgCl2或MnCl2进行盐模板辅助水热合成；所得样品命名为PC-Mn等；在6 M KOH电解液中进行电化学测试，包括比电容、倍率性能和10,000次循环稳定性测试；组装对称超级电容器并测试比电容、能量密度和功率密度。摘要未报告具体水热温度、时间、碳化条件及表征手段。",
+        "relevance_zh": "该工作涉及介孔材料、模板组装及多孔碳电极，对介孔材料合成和孔结构调控有参考价值，但其材料体系为酚醛树脂衍生碳而非框架材料，与介孔导电MOF、共轭框架材料主线关联较弱。阳离子依赖盐模板策略可为分级孔结构设计提供借鉴，但摘要未涉及电化学合成或框架材料组装，建议作为拓展阅读。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未补充摘要未报告的实验条件、表征手段、数值或机制。摘要未报告水热温度、时间、碳化条件、具体表征方法及电解液测试细节，需查阅全文核实。",
+        "key_findings_zh": [
+          "PC-Mn比表面积1459 m2 g–1，总孔容1.12 cm3 g–1，微孔表面积1105 m2 g–1，并具有2至4 nm介孔通道",
+          "PC-Mn在6 M KOH中电容达270.15 F g–1，20 A g–1下保持182.49 F g–1，10,000次循环后电容保持率95.6%",
+          "PC-Mn对称超级电容器比电容252.04 F g–1，功率密度20,123 W kg–1时能量密度21.24 Wh kg–1",
+          "Zn2+促进微孔和更小碳球，Mg2+有利于颗粒融合和更大孔道，Mn2+将离散微球转化为连续三维分级多孔网络"
+        ]
+      },
+      {
+        "title": "Nanoparticle Packing-Dependent Charge Transfer Dynamics in Colloidal Binary Superparticles",
+        "abstract": "Abstract A key trend in nanoparticle self-assembly as “artificial atoms” is learning from molecular systems, yet progress lags behind molecular systems because current research primarily focuses on geometric structural mimicry while ignoring the electronic communication across arrangements intrinsic to molecules. Here, inspired by the characteristic topologies of molecular compounds, we introduce “packing-structure engineering” via a ligand solubility-matched microemulsion-confined co-assembly strategy to fabricate three typical mesoscopic packing-topology structural systems from Au nanoparticles and CdSe/CdS nanorods: metal-isolated-by-semiconductor-type, metal-interlaced-with-semiconductor-type, and semiconductor-isolated-by-metal-type. We demonstrate that packing topology acts as a fundamental independent order parameter─analogous to molecular connectivity topologies─fundamentally regulating intrinsic electron dynamics. Specifically, the metal-isolated-by-semiconductor configuration enables a transition from picosecond incoherent hot-electron transfer to instantaneous coherent plasmon-induced interfacial charge-transfer transition, comparable to contacting heterostructures. This behavior may arise from unique collective coupling modes and interparticle field enhancements. This offers a pathway for minimizing thermalization losses in the plasmonic donor. Extendable to diverse systems, it can unlock emergent optoelectronic properties and high-performance materials for applications in solar cells, photodetectors, photocatalysis, and sensing.",
+        "authors": [
+          "Cancan Li",
+          "Shuai Yue",
+          "Lindong Ma",
+          "Zhenjie Xue",
+          "Haochen Ye",
+          "Deyu Bao",
+          "Shan Zhu",
+          "Jiaxing Liu",
+          "Xiao Li",
+          "Xinfeng Liu",
+          "Tie Wang"
+        ],
+        "institutions": [],
+        "published": "2026-10-08",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c17293",
+        "url": "https://doi.org/10.1021/jacs.6c17293",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 37,
+        "scores": {
+          "topic": 6,
+          "method": 6,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "colloidal",
+            "materials",
+            "nanoparticle"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "胶体二元超颗粒中纳米颗粒堆积依赖的电荷转移动力学",
+        "summary_zh": "该工作通过配体溶解度匹配的微乳液限域共组装策略，构建了Au纳米颗粒与CdSe/CdS纳米棒组成的三种介观堆积拓扑超颗粒，发现堆积拓扑作为独立序参量调控本征电子动力学，其中金属被半导体隔离构型可实现从皮秒非相干热电子转移向瞬时相干等离激元诱导界面电荷转移跃迁的转变。",
+        "research_details_zh": "研究受分子化合物特征拓扑启发，针对纳米颗粒自组装作为人工原子主要关注几何结构模拟而忽视排列间电子通信的问题，提出堆积结构工程。通过配体溶解度匹配的微乳液限域共组装策略，从Au纳米颗粒和CdSe/CdS纳米棒制备三种典型介观堆积拓扑结构体系：金属被半导体隔离型、金属与半导体交织型、半导体被金属隔离型。研究证明堆积拓扑作为类似分子连接拓扑的基本独立序参量，从根本上调控本征电子动力学。具体而言，金属被半导体隔离构型可实现从皮秒非相干热电子转移向瞬时相干等离激元诱导界面电荷转移跃迁的转变，与接触异质结构相当。该行为可能源于独特的集体耦合模式和颗粒间场增强，为最小化等离激元给体的热化损失提供了路径，可拓展至太阳能电池、光电探测器、光催化和传感等领域。",
+        "methods_zh": "采用配体溶解度匹配的微乳液限域共组装策略，将Au纳米颗粒与CdSe/CdS纳米棒共组装为三种介观堆积拓扑超颗粒；通过对比三种堆积构型研究电荷转移动力学。摘要未报告具体配体种类、微乳液组成、组装条件、光谱表征手段及动力学测试细节。",
+        "relevance_zh": "该工作涉及纳米颗粒自组装、共组装策略及组装结构对电子动力学的调控，对自组装技术和框架材料组装方向有方法学借鉴意义，尤其是堆积拓扑作为序参量的概念可启发框架材料组装结构设计。但其材料体系为胶体纳米颗粒超颗粒，非MOF/COF/HOF框架材料，与介孔导电MOF主线关联较弱，建议作为自组装方法学拓展阅读。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未补充摘要未报告的实验条件、表征手段、数值或机制。摘要未报告配体种类、微乳液组成、组装条件、光谱表征方法及电荷转移时间常数等关键细节，需查阅全文核实。",
+        "key_findings_zh": [
+          "通过配体溶解度匹配的微乳液限域共组装策略，从Au纳米颗粒和CdSe/CdS纳米棒构建了三种介观堆积拓扑超颗粒：金属被半导体隔离型、金属与半导体交织型、半导体被金属隔离型",
+          "堆积拓扑作为基本独立序参量，类似分子连接拓扑，从根本上调控本征电子动力学",
+          "金属被半导体隔离构型可实现从皮秒非相干热电子转移向瞬时相干等离激元诱导界面电荷转移跃迁的转变，与接触异质结构相当",
+          "该行为可能源于独特的集体耦合模式和颗粒间场增强，有望最小化等离激元给体的热化损失"
+        ]
+      },
+      {
+        "title": "Ultrafast Aqueous Photoinduced Electron/Energy Transfer Reversible Addition–Fragmentation Chain Transfer Polymerization-Induced Self-Assembly: Wavelength-Dependent Morphologies and Scalable Nanoparticle Preparation",
+        "abstract": "Abstract Photoinduced electron/energy transfer–reversible addition–fragmentation chain transfer (PET-RAFT) polymerization offers a powerful route to oxygen-tolerant polymer synthesis under visible light, yet slow polymerization rates remain a persistent bottleneck for further development. Here, we report an aryloxy xanthate chain transfer agent (CTA) bearing a 2-naphthyloxy Z group that unlocks ultrafast aqueous PET-RAFT polymerization under orange light irradiation. The system achieves an apparent propagation rate constant (kpapp) of 0.89 min–1, reaching high monomer conversion (&amp;gt;80%) within 2 min while maintaining good control over polymerization (Đ ≤ 1.2). Density functional theory (DFT) calculations indicate that the enhanced polymerization rate originates from the low fragmentation energy barrier of the CTA anionic radical. Leveraging this performance, we applied the system to photoinduced polymerization-induced self-assembly (photo-PISA), achieving ultrafast formation of well-defined polymeric nanoparticles within 1 min without prior deoxygenation and with tunable morphologies accessible by varying formulation conditions. Strikingly, photo-PISA exhibited a pronounced wavelength dependence: long-wavelength irradiation produced well-defined vesicles, whereas short-wavelength irradiation yielded irregular aggregates. This behavior is attributed to superior light penetration and spatial uniformity at longer wavelengths, establishing wavelength-tunable light-field uniformity as a handle for the accessible PISA morphology. These findings establish the 2-naphthyloxy xanthate CTA as a versatile platform for scalable and high-throughput photo-PISA, opening new avenues for the rapid and oxygen-tolerant fabrication of functional polymeric nanomaterials.",
+        "authors": [
+          "Zilong Wu",
+          "Zhengyan He",
+          "Yuchen Zhou",
+          "Yi Liu",
+          "Yanhang Zhang",
+          "Kaili Gong",
+          "Feifei Zhao",
+          "Cyrille Boyer",
+          "William W. Yu"
+        ],
+        "institutions": [],
+        "published": "2026-10-08",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c11855",
+        "url": "https://doi.org/10.1021/jacs.6c11855",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 37,
+        "scores": {
+          "topic": 6,
+          "method": 6,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "nanomaterials",
+            "nanoparticle",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "超快水相光诱导电子/能量转移可逆加成-断裂链转移聚合诱导自组装：波长依赖性形貌与可规模化纳米颗粒制备",
+        "summary_zh": "该研究报道含2-萘氧基Z基团的芳氧基黄原酸酯CTA，实现橙光下超快水相PET-RAFT聚合，2分钟内转化率超80%且控制良好，并用于1分钟内无脱氧快速photo-PISA，获得波长依赖的囊泡或 irregular聚集体形貌。",
+        "research_details_zh": "研究针对光诱导电子/能量转移-可逆加成-断裂链转移（PET-RAFT）聚合虽耐氧但聚合速率慢的瓶颈，设计了一种带有2-萘氧基Z基团的芳氧基黄原酸酯链转移剂（CTA），用于橙光照射下的超快水相PET-RAFT聚合。该体系表观增长速率常数kpapp达0.89 min–1，2分钟内单体转化率超过80%，同时保持较好聚合控制（Đ ≤ 1.2）。密度泛函理论计算表明，聚合速率提升源于CTA阴离子自由基较低的断裂能垒。作者进一步将该体系用于光诱导聚合诱导自组装（photo-PISA），在无需预先脱氧条件下1分钟内形成结构明确的聚合物纳米颗粒，并通过改变配方条件调控形貌。值得注意的是，photo-PISA表现出显著波长依赖性：长波长照射得到结构明确的囊泡，短波长照射则产生不规则聚集体，归因于长波长下更优的光穿透和空间均匀性。该工作将2-萘氧基黄原酸酯CTA确立为可规模化、高通量photo-PISA的通用平台，为快速耐氧制备功能聚合物纳米材料提供新途径。",
+        "methods_zh": "摘要明确出现的方法包括：合成含2-萘氧基Z基团的芳氧基黄原酸酯链转移剂；在橙光照射下进行水相PET-RAFT聚合；测定表观增长速率常数kpapp、单体转化率和分散度Đ；采用密度泛函理论（DFT）计算CTA阴离子自由基的断裂能垒；将该体系用于photo-PISA制备聚合物纳米颗粒；通过改变配方条件调控形貌；比较不同波长照射下的PISA形貌。摘要未报告具体表征仪器、粒径统计方法和其它测试细节。",
+        "relevance_zh": "该工作属于自组装技术及框架材料之外的高分子纳米材料组装方向，对研究主线中的自组装方法学有拓展价值：其超快、耐氧、波长调控形貌的策略可为介孔材料或框架材料的前驱体组装与形貌控制提供借鉴。但该研究体系为聚合物纳米颗粒，并非介孔导电MOF、共轭COF/HOF或框架材料，与主线的材料类型关联有限。若关注光诱导自组装、PISA形貌调控和可规模化纳米颗粒制备，值得全文精读；若聚焦框架材料电化学合成，则相关性较低。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告CTA的具体合成步骤与产率、PET-RAFT聚合的详细条件、DFT计算模型与参数、photo-PISA的配方组成、纳米颗粒尺寸分布、形貌表征手段、波长具体数值、光强、氧含量控制方式及规模化制备的具体规模等关键细节，均需全文核查。",
+        "key_findings_zh": [
+          "芳氧基黄原酸酯CTA在橙光下实现超快水相PET-RAFT聚合，kpapp为0.89 min–1，2分钟内单体转化率超过80%，Đ ≤ 1.2。",
+          "DFT计算表明聚合速率提升源于CTA阴离子自由基的低断裂能垒。",
+          "photo-PISA可在1分钟内、无需预先脱氧形成结构明确的聚合物纳米颗粒，形貌可通过配方条件调控。",
+          "photo-PISA形貌呈波长依赖性：长波长照射得到结构明确的囊泡，短波长照射产生不规则聚集体，归因于长波长下更优的光穿透和空间均匀性。"
+        ]
+      },
+      {
+        "title": "Carbonyl‐Site‐Mediated Oxygen Reduction in Fluorenone‐Based Covalent Organic Frameworks for Efficient Hydrogen Peroxide Photosynthesis",
+        "abstract": "ABSTRACT Hydrogen peroxide (H 2 O 2 ) photosynthesis from molecular oxygen and water offers a sustainable route for decentralized oxidant generation, yet elucidating the molecular‐level active sites for oxygen activation in covalent organic frameworks (COFs) remains challenging. Herein, we report a fluorenone‐containing COF, FO‐Tp, as an efficient photocatalyst for H 2 O 2 production, delivering a rate nearly ten times higher than that of fluorene‐based COF, highlighting the crucial contribution of fluorenone carbonyls to photocatalytic oxygen reduction. The fluorenone carbonyls facilitate photogenerated‐electron trapping and the formation of persistent electron‐rich radical states with ketyl radical‐anion‐like character, enabling FO‐Tp to maintain excellent H 2 O 2 production under alkaline conditions (AQY = 30.40%, pH = 13, at 400 nm) and in concentrated salt solutions. Extended fluorenone‐based COFs validate the generality of this active‐site design, reaching 2478.1 µmol·g −1 h −1 in pure water and up to 38.6 mmol g −1 ·h −1 in a water/benzyl alcohol biphasic system. Spectroscopic experiments and density functional theory calculations jointly confirm the reduced fluorenone carbonyl as a thermodynamically favored and generalizable electron‐accumulating active site for oxygen reduction to H 2 O 2 . This work elucidates how the fluorenone carbonyl functions as a dynamic molecular active site and proposes a strategy for designing efficiently H 2 O 2 ‐producing COF photocatalysts by incorporating carbonyl activation.",
+        "authors": [
+          "Chang He",
+          "Siyi Gu",
+          "Weixu Liu",
+          "Xiaorou Wu",
+          "Jie Li",
+          "Xia Zhou",
+          "Jiabin Chen",
+          "Aijian Huang",
+          "Yu‐Wu Zhong",
+          "Chen Chen"
+        ],
+        "institutions": [],
+        "published": "2026-10-08",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75245",
+        "url": "https://doi.org/10.1002/adma.75245",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "芴酮基共价有机框架中羰基位点介导的氧还原用于高效过氧化氢光合成",
+        "summary_zh": "该研究报道含芴酮的COF材料FO-Tp，其羰基位点可捕获光生电子并形成持久富电子类酮基自由基阴离子态，使H2O2产率较芴基COF提高近十倍，并在碱性、浓盐及双相体系中保持高效。",
+        "research_details_zh": "研究针对共价有机框架（COF）中氧活化分子级活性位点难以阐明的问题，报道了一种含芴酮的COF——FO-Tp，作为高效光催化H2O2生产材料。与芴基COF相比，FO-Tp的H2O2产率提高近十倍，凸显芴酮羰基对光催化氧还原的关键贡献。机理上，芴酮羰基促进光生电子捕获，并形成具有类酮基自由基阴离子特征的持久富电子自由基态，使FO-Tp在碱性条件（AQY = 30.40%，pH = 13，400 nm）和浓盐溶液中仍保持优异H2O2生产性能。扩展的芴酮基COF验证了该活性位点设计的普适性，在纯水中达到2478.1 µmol·g−1·h−1，在水/苯甲醇双相体系中高达38.6 mmol·g−1·h−1。光谱实验与密度泛函理论计算共同确认，还原态芴酮羰基是热力学有利且可推广的电子累积活性位点，用于氧还原生成H2O2。该工作阐明了芴酮羰基作为动态分子活性位点的作用，并提出通过引入羰基活化设计高效产H2O2 COF光催化剂的策略。",
+        "methods_zh": "摘要明确出现的方法包括：合成含芴酮的COF FO-Tp及扩展芴酮基COF；以芴基COF作为对照；进行光催化H2O2生产性能测试；在碱性条件、浓盐溶液、纯水及水/苯甲醇双相体系中评价性能；测定表观量子产率（AQY）；采用光谱实验和密度泛函理论（DFT）计算研究活性位点与电子累积机制。摘要未报告具体合成条件、表征仪器型号、光源细节、自由基捕获实验和稳定性测试等。",
+        "relevance_zh": "该工作直接属于共轭COF框架材料与光催化氧还原方向，对研究主线中共轭COF的活性位点设计和框架材料功能化具有较高参考价值。其羰基位点介导的电子累积机制、碱性及浓盐条件下的稳定性、双相体系高产率结果，可为框架材料在电化学合成与能源转化中的位点工程提供思路。局限在于摘要未涉及介孔结构、导电性和电化学合成条件。若关注COF光催化H2O2合成与羰基活性位点设计，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告FO-Tp的具体合成方法、拓扑结构、孔结构参数、比表面积、光吸收范围、能带位置、载流子寿命、自由基捕获证据、循环稳定性、pH依赖机制细节及DFT计算模型等关键信息，均需全文核查。",
+        "key_findings_zh": [
+          "含芴酮COF FO-Tp的H2O2产率比芴基COF提高近十倍，表明芴酮羰基对光催化氧还原有重要贡献。",
+          "FO-Tp在碱性条件（AQY = 30.40%，pH = 13，400 nm）和浓盐溶液中保持优异H2O2生产性能。",
+          "扩展芴酮基COF在纯水中达到2478.1 µmol·g−1·h−1，在水/苯甲醇双相体系中高达38.6 mmol·g−1·h−1。",
+          "光谱实验与DFT计算共同确认还原态芴酮羰基是热力学有利且可推广的电子累积活性位点，形成类酮基自由基阴离子态。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-07",
     "search_start": "2026-10-05",
     "generated_at": "2026-10-08T02:40:28Z",
