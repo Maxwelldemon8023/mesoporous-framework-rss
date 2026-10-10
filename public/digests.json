@@ -1,5 +1,546 @@
 [
   {
+    "date": "2026-10-09",
+    "search_start": "2026-10-07",
+    "generated_at": "2026-10-10T02:16:41Z",
+    "papers": [
+      {
+        "title": "Tiny Pores, Big Stories: Perforating MXenes for Through-Sheet Transport in Energy and Environmental Applications",
+        "abstract": "Conspectus Transport remains a central bottleneck limiting the practical performance of MXene electrodes and membranes. Although MXenes possess metallic conductivity, hydrophilicity, and rich surface chemistry, their two-dimensional (2D) layered architecture imposes barriers to ion and molecular diffusion. During assembly into electrodes and membranes, colloidal MXene nanosheets readily restack and force transport mainly through thin interlayer galleries. The as-formed slit channels lengthen diffusion pathways leading to sluggish kinetics. These limitations become increasingly important in compact, high-loading MXene structures, where long and tortuous transport pathways can further reduce active-site utilization and rate capability. This Account argues that in-plane pore engineering transforms MXenes from predominantly lamellar-type materials into through-sheet transport platforms. Introducing nanopores into the MXene basal planes creates transverse pathways that directly connect neighboring interlayer galleries, thereby shortening diffusion distances and increasing edge-site and basal-plane accessibility. Holey MXenes therefore represent more than simply porous MXenes; they are transport-engineered 2D materials in which nanoscale perforation provides an additional direction for the movement of ions and molecules while retaining the intrinsic advantages of the MXene framework. This concept is particularly relevant to densely assembled electrodes and membranes, where in-plane pathways enable rapid mass transport. We summarize our efforts toward the synthesis and structural engineering of holey MXenes, including oxidative perforation of MXene hydrogels, microwave-assisted ultrafast etching, controlled H2O2-mediated perforation, and radical-intensified selective etching (RISE) for the direct conversion of MAX phases into holey MXenes. Across these approaches, we identify a common oxidation-driven pathway involving localized oxidation, pore nucleation, and pore propagation. Importantly, controlled oxidation can introduce nanoholes while largely preserving the conductive MXene framework, whereas excessive oxidation leads to pore enlargement, conductivity loss, and structural degradation. We further demonstrate how through-sheet transport translates into improved performance in supercapacitors, batteries, ion capacitors, capacitive deionization, membrane separation, and water purification. In electrochemical systems, nanoholes facilitate ion access to otherwise less accessible regions of the nanosheets while increasing the density of exposed edge sites. In membranes, they provide transverse pathways that can shorten molecular transport distances across compact layered structures. These examples establish in-plane perforation as a versatile approach for coupling enhanced transport with MXene-specific electronic and surface-chemical functionality. At the same time, practical implementation requires precise and reproducible control over pore size, density, geometry, and edge chemistry, together with improved chemical stability, shelf life, and scalable processing. In-plane perforation also exposes additional reactive sites that can accelerate oxidation, creating an inherent trade-off between transport enhancement and structural stability. Establishing quantitative structure–transport–property relationships will therefore be essential for rational optimization. Overall, we anticipate that through-sheet transport will serve as a useful design principle for layered 2D materials, analogous to how hierarchical porosity transformed porous carbons, and accelerate their transformative role in sustainable energy and environmental technologies.",
+        "authors": [
+          "Anirban Sikdar",
+          "Miao Zhang",
+          "Jiayin Yuan"
+        ],
+        "institutions": [
+          "Stockholm University",
+          "Xi'an Jiaotong University",
+          "Stockholm University"
+        ],
+        "published": "2026-10-08",
+        "journal": "Accounts of Materials Research",
+        "doi": "10.1021/accountsmr.6c00209",
+        "openalex_id": "https://openalex.org/W7220942226",
+        "url": "https://doi.org/10.1021/accountsmr.6c00209",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 48,
+        "scores": {
+          "topic": 18,
+          "method": 12,
+          "quality": 0,
+          "novelty": 10,
+          "network": 0,
+          "applied": 4,
+          "archive": 4,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [
+            "hierarchical porosity",
+            "pore engineering"
+          ],
+          "assembly": [
+            "assembly",
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "colloidal",
+            "materials",
+            "membrane",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "微小孔道，宏大故事：为MXene打孔以实现能源与环境应用中的跨片层传输",
+        "summary_zh": "该综述提出面内造孔可将MXene从层状材料转变为跨片层传输平台。通过氧化穿孔、微波刻蚀、H2O2调控及RISE等方法在基面引入纳米孔，缩短扩散路径并提升边缘位点可及性，从而改善超级电容器、电池、膜分离等性能。",
+        "research_details_zh": "该研究聚焦MXene电极与膜中传输瓶颈问题：二维层状结构在组装时易重堆叠，离子和分子主要沿狭窄层间通道扩散，路径长且曲折，导致动力学迟缓、活性位点利用率低，尤其在高负载致密结构中更为严重。作者提出面内孔工程策略，将MXene从以层间传输为主的材料转变为具有跨片层传输通道的平台。通过氧化穿孔MXene水凝胶、微波辅助超快刻蚀、受控H2O2介导穿孔以及自由基强化选择性刻蚀（RISE）等方法，实现从MAX相直接转化为多孔MXene。研究识别出局部氧化、孔成核和孔扩展的共性氧化驱动路径，并指出适度氧化可在保留导电框架的同时引入纳米孔，而过度氧化会导致孔扩大、导电性损失和结构退化。该工作将面内穿孔确立为耦合增强传输与MXene电子及表面化学功能的有效策略，并强调孔尺寸、密度、几何和边缘化学精确控制的重要性。",
+        "methods_zh": "摘要明确提及的合成与结构工程方法包括：MXene水凝胶的氧化穿孔、微波辅助超快刻蚀、受控H2O2介导穿孔以及自由基强化选择性刻蚀（RISE）用于从MAX相直接转化为多孔MXene。性能验证涉及超级电容器、电池、离子电容器、电容去离子、膜分离和水净化等应用。摘要未报告具体表征手段、孔径数值、电化学测试条件及定量性能数据。",
+        "relevance_zh": "该综述与介孔材料、孔工程和组装传输主线高度相关，提出面内造孔作为二维框架材料传输工程的设计原则，对理解介孔导电框架中孔结构与传输性能关系有参考价值。其局限在于为概念性综述，摘要未给出具体定量结构—传输—性能关系。值得全文精读以获取各合成方法的细节、孔结构参数和性能对比。",
+        "evidence_note_zh": "本解读仅依据摘要，属于摘要级解读。摘要未报告具体孔径、孔密度、比表面积、电导率数值、电化学测试条件、膜性能数据及结构表征细节，这些关键信息需查阅全文核实。",
+        "key_findings_zh": [
+          "面内纳米孔可在MXene基面创建横向通道，直接连接相邻层间通道，缩短扩散距离并增加边缘位点和基面可及性。",
+          "多种合成方法共享氧化驱动路径：局部氧化、孔成核和孔扩展；适度氧化保留导电框架，过度氧化导致孔扩大、导电性损失和结构退化。",
+          "跨片层传输在超级电容器、电池、离子电容器、电容去离子、膜分离和水净化中转化为性能提升。",
+          "实际应用需精确可重复控制孔尺寸、密度、几何和边缘化学，并改善化学稳定性、储存寿命和可放大加工；面内穿孔暴露的反应位点会加速氧化，存在传输增强与结构稳定性的内在权衡。"
+        ]
+      },
+      {
+        "title": "Optically Addressable Spins in a Metal–Organic Framework",
+        "abstract": "Abstract Molecular spins supporting optically detected magnetic resonance (ODMR) offer unique opportunities for quantum sensing and many-body physics by combining the sensitivity and spatial resolution offered by optical spin detection with the capacity for bottom-up assembly and chemical control. Metal–organic frameworks (MOFs) are a promising architecture to leverage such opportunities since they offer control over spin placement, tunable porosity and large internal surface areas for efficient integration with sensing targets, and a richly tunable chemical space. However, optical spin readout has not been demonstrated in a MOF. Here, we report the first successful optical detection of spins in a MOF. We use a porphyrin-based aluminum MOF (Al-PMOF), which supports efficient triplet generation on the porphyrin chromophore ligands. Using electron paramagnetic resonance, we demonstrate that these triplet states support a spin coherence time (T2) on the order of a few microseconds at 50 K. Importantly, we successfully detect optically detected magnetic resonance of these triplets using near-infrared ODMR at 77 K. Optical spin readout in a MOF paves the way for next-generation quantum sensing applications that leverage bottom-up assembly.",
+        "authors": [
+          "Miku Inoue",
+          "Wataru Ishii",
+          "Thomas W. Bradbury",
+          "Hiroki Nagashima",
+          "Alistair Inglis",
+          "Yoshitaka Aoyama",
+          "Yusuke Nishiyama",
+          "Mizue Asada",
+          "Toshikazu Nakamura",
+          "Kiminori Maeda",
+          "Yasuhiro Kobori",
+          "Jenny Clark",
+          "Sam L. Bayliss",
+          "Nobuhiro Yanai"
+        ],
+        "institutions": [],
+        "published": "2026-10-09",
+        "journal": "Journal of the American Chemical Society",
+        "doi": "10.1021/jacs.6c12867",
+        "url": "https://doi.org/10.1021/jacs.6c12867",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 45,
+        "scores": {
+          "topic": 18,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "金属—有机框架中的光学可寻址自旋",
+        "summary_zh": "该工作首次在MOF中实现光学自旋读出。利用卟啉基铝MOF（Al-PMOF）中卟啉配体的高效三重态生成，在50 K下测得T2约数微秒，并在77 K下通过近红外ODMR成功检测三重态，为基于自下而上组装的量子传感开辟道路。",
+        "research_details_zh": "该研究针对分子自旋量子传感中光学自旋读出尚未在MOF中实现的空白。MOF具有控制自旋位置、可调孔隙率和大内表面积等优势，利于与传感目标集成，但此前未展示光学自旋读出。作者选用卟啉基铝MOF（Al-PMOF），其卟啉发色团配体可高效产生三重态。通过电子顺磁共振证明这些三重态在50 K下具有数微秒量级的自旋相干时间T2。更重要的是，利用近红外ODMR在77 K下成功检测到这些三重态的光学检测磁共振信号。该工作首次在MOF中实现光学自旋读出，为利用自下而上组装的新一代量子传感应用奠定基础。",
+        "methods_zh": "摘要明确使用的方法包括：电子顺磁共振（EPR）用于表征三重态自旋相干时间；近红外光学检测磁共振（ODMR）在77 K下检测三重态。材料为卟啉基铝MOF（Al-PMOF），利用卟啉发色团配体的高效三重态生成。摘要未报告合成方法、具体T2数值、ODMR频率及量子传感性能测试细节。",
+        "relevance_zh": "该工作属于框架材料与自旋量子传感交叉方向，虽非介孔导电MOF或共轭框架主线，但展示了MOF在光学可寻址自旋和量子传感中的潜力，对框架材料功能化组装有启发意义。其局限在于摘要未提供自旋相干机制细节和传感应用验证。若关注MOF量子功能化，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要，属于摘要级解读。摘要未报告Al-PMOF的具体合成条件、晶体结构表征、T2精确数值、ODMR谱图细节及量子传感性能数据，这些关键信息需查阅全文核实。",
+        "key_findings_zh": [
+          "首次在MOF中成功实现光学自旋检测，材料为卟啉基铝MOF（Al-PMOF）。",
+          "EPR表明三重态在50 K下支持数微秒量级的自旋相干时间T2。",
+          "在77 K下通过近红外ODMR成功检测到三重态的光学检测磁共振。"
+        ]
+      },
+      {
+        "title": "Highly Sensitive Broadband Photodetectors Based on Donor–Acceptor 2D Conjugated Coordination Polymers",
+        "abstract": "ABSTRACT Two‐dimensional (2D) semiconductors are highly desirable for broadband photodetection but are often constrained by their limited optical absorption and inefficient exciton dissociation. In this study, we report a donor–acceptor‐engineered 2D conjugated coordination polymer (c‐CP), Ni‐TABQ (TABQ = tetraaminobenzoquinone), as a narrow‐bandgap semiconductor. The TABQ ligands integrate electron‐rich amino donors and electron‐deficient quinone carbonyl acceptors within the same molecular backbone, endowing the Ni‐TABQ lattice with strong intramolecular charge‐transfer absorption and a built‐in driving force for charge separation. Benefiting from strong broadband absorption and high charge‐carrier mobility, the vapor‐phase‐grown Ni‐TABQ thin films enable photodetection from 350 to 1400 nm under a 3 V bias, with a measurable response tail above 1150 nm, further achieving a responsivity of up to 3.1 A W −1 , a specific detectivity of up to 6.58 × 10 10 Jones (625 nm at ∼85 µW cm −2 ), and a response time of ∼206 µs, while maintaining stable operation at 3 V over 8500 s of continuous cycling. These metrics compare favorably with state‐of‐the‐art broadband photodetectors based on standalone 2D materials, establishing donor–acceptor molecular engineering within the 2D metal‐organic lattice as an effective strategy for advancing high‐performance 2D optoelectronic devices.",
+        "authors": [
+          "Yunxu Chen",
+          "Jinxin Liu",
+          "Shuai Fu",
+          "Apurba Mahapatra",
+          "Dongxu Wang",
+          "Mike Hambsch",
+          "Angelika Wrzesińska‐Lashkova",
+          "Jing Wang",
+          "Fabian Paulus",
+          "Yana Vaynzof",
+          "Stefan C. B. Mannsfeld",
+          "Fuchun Zhang",
+          "Mischa Bonn",
+          "Renhao Dong",
+          "Xinliang Feng"
+        ],
+        "institutions": [],
+        "published": "2026-10-09",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75350",
+        "url": "https://doi.org/10.1002/adma.75350",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 41,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "coordination polymer"
+          ],
+          "conductive": [
+            "conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "coordination",
+            "materials",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "基于供体—受体二维共轭配位聚合物的高灵敏宽带光电探测器",
+        "summary_zh": "该研究报道供体—受体工程化二维共轭配位聚合物Ni-TABQ作为窄带隙半导体。TABQ配体整合氨基供体与醌羰基受体，赋予晶格强分子内电荷转移吸收和电荷分离驱动力。气相生长薄膜实现350至1400 nm光电探测，响应度达3.1 A W−1。",
+        "research_details_zh": "该研究针对二维半导体在宽带光电探测中光吸收有限和激子解离效率低的问题。作者设计供体—受体工程化的二维共轭配位聚合物Ni-TABQ（TABQ为四氨基苯醌），作为窄带隙半导体。TABQ配体在同一分子骨架中整合富电子氨基供体和缺电子醌羰基受体，赋予Ni-TABQ晶格强分子内电荷转移吸收和电荷分离的内建驱动力。得益于强宽带吸收和高载流子迁移率，气相生长的Ni-TABQ薄膜在3 V偏压下实现350至1400 nm光电探测，在1150 nm以上仍有可测响应尾部。器件实现高达3.1 A W−1的响应度、高达6.58×10^10 Jones的比探测率（625 nm，约85 µW cm−2）和约206 µs的响应时间，并在3 V下连续循环8500 s保持稳定运行。这些指标优于基于独立二维材料的最先进宽带光电探测器，确立供体—受体分子工程在二维金属—有机晶格中作为推进高性能二维光电器件的有效策略。",
+        "methods_zh": "摘要明确使用气相生长法制备Ni-TABQ薄膜，并构建光电探测器进行性能测试。测试条件包括3 V偏压、350至1400 nm光谱范围、625 nm和约85 µW cm−2光照条件，以及8500 s连续循环稳定性测试。摘要未报告具体合成温度、前驱体、表征手段及载流子迁移率数值。",
+        "relevance_zh": "该工作属于共轭配位聚合物/框架材料与光电器件交叉方向，展示了供体—受体分子工程在二维金属—有机晶格中调控带隙、吸收和电荷分离的有效性，对共轭框架材料的电学和光电功能设计有参考价值。其局限在于摘要未提供载流子迁移率、激子解离机制和器件结构细节。若关注共轭配位聚合物光电应用，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要，属于摘要级解读。摘要未报告Ni-TABQ的具体合成条件、晶体结构、载流子迁移率数值、器件结构及激子解离机制等关键细节，需查阅全文核实。",
+        "key_findings_zh": [
+          "Ni-TABQ薄膜在3 V偏压下实现350至1400 nm宽带光电探测，1150 nm以上仍有可测响应尾部。",
+          "器件响应度高达3.1 A W−1，比探测率高达6.58×10^10 Jones（625 nm，约85 µW cm−2），响应时间约206 µs。",
+          "器件在3 V下连续循环8500 s保持稳定运行。",
+          "供体—受体分子工程在二维金属—有机晶格中被确立为推进高性能二维光电器件的有效策略。"
+        ]
+      },
+      {
+        "title": "Guanosine‐Quadruplex Hydrogels as Dynamic, Mechanically Tunable and Ion Conductive 3D Scaffolds for Cell Culture Applications",
+        "abstract": "ABSTRACT Hydrogels are widely used materials for biomedical applications. In particular, supramolecular hydrogels based on guanosine‐quadruplexes (GQ) have been utilized for drug delivery, biocatalysis, and biosensing. However, when applied as scaffolds for cell culture, existing GQ hydrogels suffer from important limitations: (i) scarcity of mild fabrication strategies, (ii) quick disintegration within few hours under physiological conditions, (iii) narrow tunability of their properties in relation to native tissues. These shortcomings hamper the broad use of GQ hydrogels in biomedicine. Herein, stable and versatile GQ hydrogels are developed as dynamic biomatrices for cell culture applications. The GQ matrices are easily fabricated under mild aqueous conditions, present improved stability and tunable mechanical properties within physiological ranges; fibrillar, porous microstructure, ion conductivity and cytocompatibility. Detailed characterization of GQ self‐assembly process driving hydrogelation is presented through various techniques. These matrices support the culture of diverse cell types in 2D and 3D, and showcase injectability and printability, making these scaffolds suitable for manufacturing soft medical devices. The results of this study expand the applicability potential of GQ hydrogels for advancing cell culture and in vitro tissue model technologies.",
+        "authors": [
+          "Neha Thakur",
+          "Minye Jin",
+          "Pavel Milkin",
+          "Deepa Negi",
+          "Carla Cofiño Fabres",
+          "Hubert Gojżewski",
+          "Leonid Ionov",
+          "Alla Synytska",
+          "Andries D. van der Meer",
+          "Robert C. J. J. Passier",
+          "Julieta I. Paez"
+        ],
+        "institutions": [
+          "Bioengineering Center",
+          "University of Twente",
+          "Bioengineering Center",
+          "University of Twente",
+          "University of Bayreuth",
+          "Bioengineering Center",
+          "University of Twente",
+          "University of Twente",
+          "University of Twente",
+          "University of Bayreuth",
+          "University of Bayreuth",
+          "University of Twente",
+          "University of Twente",
+          "Bioengineering Center",
+          "University of Twente"
+        ],
+        "published": "2026-10-07",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.78841",
+        "openalex_id": "https://openalex.org/W7220856573",
+        "url": "https://doi.org/10.1002/adfm.78841",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 39,
+        "scores": {
+          "topic": 12,
+          "method": 6,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "materials",
+            "porous",
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "鸟苷四链体水凝胶作为动态、力学可调且离子导电的三维支架用于细胞培养应用",
+        "summary_zh": "该研究针对现有鸟苷四链体水凝胶在细胞培养中制备条件苛刻、生理条件下数小时内快速崩解及性能可调性窄的局限，开发了温和水相制备的稳定多功能GQ水凝胶，具备改善的稳定性、生理范围内可调力学性能、纤维状多孔微结构、离子导电性和细胞相容性，支持多种细胞二维和三维培养，并展示可注射性和可打印性。",
+        "research_details_zh": "研究问题聚焦于现有基于鸟苷四链体的超分子水凝胶作为细胞培养支架时面临的三大限制：缺乏温和制备策略、在生理条件下数小时内快速崩解、以及相对于天然组织的性能可调范围狭窄。研究体系为鸟苷四链体水凝胶基质。设计策略是在温和水相条件下制备稳定的多功能GQ水凝胶，作为细胞培养的动态生物基质。研究过程包括通过多种技术对驱动水凝胶化的GQ自组装过程进行详细表征，并评估所得基质的稳定性、力学性能、微结构、离子导电性和细胞相容性，随后测试其对多种细胞类型的二维和三维培养支持能力，以及可注射性和可打印性。其意义在于扩展了GQ水凝胶在推进细胞培养和体外组织模型技术方面的应用潜力，并使其适用于制造软医疗器械。",
+        "methods_zh": "摘要明确报告的方法包括：在温和水相条件下制备GQ水凝胶；通过多种技术对GQ自组装过程驱动水凝胶化进行详细表征；评估水凝胶的稳定性、力学性能、纤维状多孔微结构、离子导电性和细胞相容性；进行多种细胞类型的二维和三维培养测试；展示可注射性和可打印性。摘要未报告具体表征技术名称、力学测试方法、电导率测试方法或打印参数。",
+        "relevance_zh": "该研究对超分子自组装水凝胶及框架材料组装主线具有拓展价值，尤其在温和组装、动态可调力学性能和离子导电性方面与自组装技术主题相关。其局限在于并非介孔导电MOF、共轭MOF/COF/HOF或电化学合成框架材料，而是鸟苷四链体超分子水凝胶。若关注生物医学支架、可注射/可打印软材料及离子导电水凝胶，值得全文精读；若仅关注MOF/COF/HOF电化学合成，则相关性有限。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告具体的稳定性时长、力学性能数值、离子电导率数值、细胞类型、表征技术细节、打印参数及自组装机制细节，这些关键信息仍需全文核查。",
+        "key_findings_zh": [
+          "GQ水凝胶可在温和水相条件下轻松制备，具有改善的稳定性，并在生理范围内呈现可调的力学性能。",
+          "GQ基质具有纤维状、多孔微结构、离子导电性和细胞相容性。",
+          "这些基质支持多种细胞类型的二维和三维培养，并展示出可注射性和可打印性，适用于制造软医疗器械。",
+          "摘要未报告具体的稳定性时长、力学数值、电导率数值或细胞类型名称。"
+        ]
+      },
+      {
+        "title": "Bridge‐Atom Connected Tiny‐Nanosheet Driven Delocalized Electron Transfer on Graphene for 2‐Electron Oxygen Reduction Reaction",
+        "abstract": "ABSTRACT Metal‐free graphene‐based materials are promising alternatives to precious‐metal catalysts in the 2‐electron oxygen reduction reaction (2e − ORR). While previous research has highlighted the critical role of charge density at active sites, the precise controlling the charge transfer via structural engineering on metal‐free graphene remains elusive. In this work, we construct a semi‐continuous tiny graphene (SCTG) architecture by a novel isothermal molten‐self‐assembly strategy, which is composed of nanosized graphene sheets interconnected by a sparse number of bridge atoms. This unique arrangement offers dual advantages: the high density of edge atoms in the small graphene domains facilitates the generation and retention of delocalized electrons, while the minimal bridge atoms reduce electron dissipation pathways, ensuring efficient charge delivery to reactive sites. Notably, this configuration balances electron confinement and mobility—preserving necessary charge routes without enabling excessive leakage. As a result, the SCTG structure elevates the local charge density at catalytic sites to an optimal level, enhancing both oxygen adsorption and electron transfer kinetics. This culminates in a remarkable ORR selectivity of 100% and a production rate of 13.3 mol g −1 h −1 for H 2 O 2 . These findings offer valuable insight into how graphene‐based structures can be fine‐tuned for precise electron control in electrocatalysis.",
+        "authors": [
+          "Shenghui Liu",
+          "Xiaogang Li",
+          "Xintai Su",
+          "Zhenyu Wu",
+          "Shenglin Xiong",
+          "Renchun Yang"
+        ],
+        "institutions": [],
+        "published": "2026-10-07",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75334",
+        "url": "https://doi.org/10.1002/adma.75334",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 37,
+        "scores": {
+          "topic": 6,
+          "method": 6,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "materials",
+            "nanosheet"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "桥原子连接微小纳米片驱动石墨烯上离域电子转移用于二电子氧还原反应",
+        "summary_zh": "该研究通过新型等温熔融自组装策略构建了由纳米级石墨烯片通过稀疏桥原子互连的半连续微小石墨烯结构，利用小石墨烯域高密度边缘原子促进离域电子产生与保留，同时最少桥原子减少电子耗散路径，实现局部电荷密度优化，从而获得100%的ORR选择性和13.3 mol g−1 h−1的H2O2产率。",
+        "research_details_zh": "研究问题聚焦于无金属石墨烯基材料在二电子氧还原反应中虽具潜力，但通过结构工程精确控制电荷转移仍具挑战，此前研究强调活性位点电荷密度的关键作用。研究体系为半连续微小石墨烯架构，由纳米级石墨烯片通过稀疏数量的桥原子互连构成。设计策略采用新型等温熔融自组装策略构建该结构，其双重优势在于：小石墨烯域中高密度边缘原子促进离域电子的产生和保留，而最少的桥原子减少电子耗散路径，确保电荷高效传递至反应位点。该构型平衡了电子限域与迁移性，保持必要电荷路径而不导致过度泄漏。研究过程包括构建SCTG结构并评估其ORR性能。其意义在于为石墨烯基结构在电催化中精确电子控制提供见解。",
+        "methods_zh": "摘要明确报告的方法包括：采用新型等温熔融自组装策略构建半连续微小石墨烯架构；评估其二电子氧还原反应性能，包括ORR选择性和H2O2产率测定。摘要未报告具体前驱体、温度、表征技术、电化学测试条件或理论计算方法。",
+        "relevance_zh": "该研究对自组装技术及框架材料组装主线具有拓展价值，其等温熔融自组装策略和桥原子连接纳米片结构可为介孔材料及框架材料组装提供思路。局限在于研究对象为无金属石墨烯基材料，并非介孔导电MOF、共轭MOF/COF/HOF或其他框架材料，也不涉及电化学合成框架材料。若关注自组装驱动纳米结构用于电催化及电子转移调控，值得全文精读；若仅关注MOF/COF/HOF，则相关性有限。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告具体前驱体、合成温度、桥原子种类、表征技术、电化学测试条件及理论计算细节，这些关键信息仍需全文核查。",
+        "key_findings_zh": [
+          "SCTG结构将催化位点局部电荷密度提升至最佳水平，增强氧吸附和电子转移动力学。",
+          "该结构实现100%的ORR选择性。",
+          "H2O2产率达到13.3 mol g−1 h−1。",
+          "该构型平衡电子限域与迁移性，保持必要电荷路径而不导致过度泄漏。"
+        ]
+      },
+      {
+        "title": "A Hydrogen-Bonded Metal–Organic Framework for CO2 Capture and Natural Gas Upgrading",
+        "abstract": "Abstract Efficient separation of CO2/N2 (flue gas), CO2/CH4 (natural gas), and light hydrocarbons is important in industry but remains a critical challenge. The development of versatile adsorbents capable of addressing multiple industrially relevant gas separations is therefore highly desirable. Herein, we report the synthesis of a three-dimensional (3D) hydrogen-bonded organic framework (HOF), designated ZNU-69, constructed through the interlayer hydrogen-bonding self-assembly of two-dimensional (2D) metal–organic framework (MOF) layers. Single-component adsorption isotherms reveal that ZNU-69 exhibits preferential uptake of CO2, C2H6, and C3H8 over CH4 and N2. IAST selectivity calculations at 298 K and 1 bar yield values as high as 473 for CO2/N2 (15/85), 127 for CO2/CH4 (50/50), 596 for C3H8/CH4 (50/50), and 54 for C2H6/CH4 (50/50). Theoretical calculations elucidate the microscopic adsorption mechanism, revealing that the strong binding energies, along with multiple hydrogen-bonding and van der Waals interactions with the framework, are responsible for the observed affinity and selectivity. Dynamic breakthrough experiments and cyclic tests further confirm its excellent separation performance and robust regeneration stability. This work provides a strategy for designing multifunctional MOF/HOF hybrid adsorbents that synergistically combine high selectivity with broad applicability.",
+        "authors": [
+          "Hui Wang",
+          "Guangzu Xiong",
+          "Xingyu Chen",
+          "Jiaying Tang",
+          "Jianan He",
+          "Yijie Jiang",
+          "Lingyao Wang",
+          "Chaoqun Bian",
+          "Yuanbin Zhang"
+        ],
+        "institutions": [],
+        "published": "2026-10-09",
+        "journal": "Inorganic Chemistry",
+        "doi": "10.1021/acs.inorgchem.6c04812",
+        "url": "https://doi.org/10.1021/acs.inorgchem.6c04812",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 6,
+          "quality": 0,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [
+            "hof",
+            "hydrogen bonded organic framework",
+            "hydrogen-bonded organic framework",
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "一种用于CO2捕获和天然气升级的氢键金属有机框架",
+        "summary_zh": "该研究报道了通过二维MOF层间氢键自组装构建的三维氢键有机框架ZNU-69，其对CO2、C2H6和C3H8优先吸附，IAST选择性高达CO2/N2为473、CO2/CH4为127、C3H8/CH4为596、C2H6/CH4为54，动态穿透实验和循环测试证实优异分离性能与再生稳定性。",
+        "research_details_zh": "研究问题聚焦于工业上CO2/N2、CO2/CH4及轻烃高效分离的重要性与挑战，亟需开发能应对多种工业相关气体分离的多功能吸附剂。研究体系为三维氢键有机框架ZNU-69，通过二维金属有机框架层间的氢键自组装构建。设计策略是构建MOF/HOF杂化吸附剂，协同结合高选择性与广泛适用性。研究过程包括合成ZNU-69，测定单组分吸附等温线，发现其对CO2、C2H6和C3H8相对于CH4和N2具有优先吸附；在298 K和1 bar下进行IAST选择性计算；通过理论计算阐明微观吸附机制，揭示强结合能及与框架的多重氢键和范德华相互作用是观察到的亲和力和选择性的原因；动态穿透实验和循环测试进一步证实优异分离性能和稳健再生稳定性。其意义在于为设计多功能MOF/HOF杂化吸附剂提供策略。",
+        "methods_zh": "摘要明确报告的方法包括：通过二维MOF层间氢键自组装合成三维HOF ZNU-69；测定单组分吸附等温线；在298 K和1 bar下进行IAST选择性计算；开展理论计算以阐明微观吸附机制；进行动态穿透实验和循环测试以评估分离性能与再生稳定性。摘要未报告具体合成条件、活化方法、表征技术及理论计算细节。",
+        "relevance_zh": "该研究对框架材料主线具有核心推荐价值，直接涉及HOF与MOF的杂化组装，属于氢键有机框架和金属有机框架交叉领域，与框架材料组装主题高度相关。其局限在于摘要未报告导电性、介孔性或电化学合成相关信息，因此对介孔导电MOF及电化学合成方向的相关性有限。若关注MOF/HOF杂化吸附剂设计、气体分离及氢键自组装策略，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属于摘要级解读。摘要未报告具体合成条件、活化方法、表征技术、理论计算细节、穿透实验条件及循环测试次数，这些关键信息仍需全文核查。",
+        "key_findings_zh": [
+          "ZNU-69对CO2、C2H6和C3H8相对于CH4和N2表现出优先吸附。",
+          "在298 K和1 bar下IAST选择性高达：CO2/N2 (15/85)为473，CO2/CH4 (50/50)为127，C3H8/CH4 (50/50)为596，C2H6/CH4 (50/50)为54。",
+          "理论计算表明强结合能及与框架的多重氢键和范德华相互作用是观察到的亲和力和选择性的原因。",
+          "动态穿透实验和循环测试证实其优异的分离性能和稳健的再生稳定性。"
+        ]
+      },
+      {
+        "title": "Nanocavity Confining Platinum Nanoclusters Enhances Photocatalytic Two‐Electron Oxygen Reduction for Wound Healing",
+        "abstract": "ABSTRACT Photocatalytic two‐electron oxygen reduction reaction (ORR) toward H 2 O 2 synthesis is a compelling approach for clinical antibacterial applications. Yet its selectivity is hampered by the competing four‐electron ORR, which compromises both H 2 O 2 generation kinetics and antibacterial efficiency. Herein, we report a new nanoscale confinement strategy for the controllable synthesis of covalent organic frameworks (COFs) confining isolated platinum nanoclusters (NCs) to enhance Pauling‐type of O 2 adsorption to achieve two‐electron oxygen reduction for efficient antibacterial therapy. The resulting Tfp‐Db COFs@Pt NCs exhibits a significantly higher H 2 O 2 formation kinetics (3.12 × 10− 3 mol L −1 h −1 ) than Tfp‐Db COFs@Pt nanoparticles (1.55 × 10 −3 mol L −1 h −1 ), with 2e − ORR selectivity increased from 45.0% to 86.0%. Experimental and theoretical results reveal a two‐step single electron oxygen reduction pathway for H 2 O 2 photosynthesis over Tfp‐Db COFs@Pt NCs. The Tfp‐Db COFs@Pt NCs exhibits excellent sterilization efficiencies of 5.0 log 10 CFU mL −1 and 5.2 log 10 CFU mL −1 against S. aureus and E. coli , respectively, exceeding most reported materials. Furthermore, Tfp‐Db COFs@Pt NCs facilitate the regeneration of infectious wounds, with the efficiency of nearly 100% on day 10, outperforming previously reported bionanomaterials. Collectively, this work presents a new strategy for regulating the Pauling‐type of O 2 adsorption to enhance the photocatalytic H 2 O 2 formation for wound healing application.",
+        "authors": [
+          "Yaru Guo",
+          "Shihan Zhang",
+          "QinQin Li",
+          "Yixuan Lu",
+          "Yachao Xu",
+          "Xiaohua Guo",
+          "Fangyong Liu",
+          "Youxing Liu",
+          "Shaojun Guo",
+          "Xuliang Deng"
+        ],
+        "institutions": [],
+        "published": "2026-10-09",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75228",
+        "url": "https://doi.org/10.1002/adma.75228",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "纳米空腔限域铂纳米簇增强光催化双电子氧还原用于伤口愈合",
+        "summary_zh": "该工作采用纳米限域策略合成共价有机框架限域孤立铂纳米簇，通过增强Pauling型氧气吸附提升双电子氧还原选择性，实现高效光催化过氧化氢合成与抗菌伤口愈合。",
+        "research_details_zh": "针对光催化双电子氧还原合成过氧化氢在临床抗菌应用中受竞争性四电子氧还原制约、选择性与动力学不足的问题，作者提出一种纳米尺度限域策略，可控合成共价有机框架限域孤立铂纳米簇。所构建的Tfp-Db COFs@Pt NCs通过增强Pauling型氧气吸附，促进双电子氧还原路径。实验与理论结果揭示了该体系经由两步单电子氧还原途径光合成过氧化氢。该材料展现出显著优于铂纳米颗粒对照的过氧化氢生成动力学与选择性，并对金黄色葡萄球菌和大肠杆菌具有高效杀菌能力，同时促进感染伤口再生。该研究为调控氧气吸附构型以增强光催化过氧化氢合成并应用于伤口愈合提供了新策略。",
+        "methods_zh": "摘要明确出现的方法包括：纳米尺度限域策略可控合成共价有机框架限域孤立铂纳米簇；以Tfp-Db COFs@Pt纳米颗粒作为对照；测定过氧化氢生成动力学与双电子氧还原选择性；结合实验与理论结果解析反应路径；开展针对金黄色葡萄球菌和大肠杆菌的杀菌测试以及感染伤口再生评估。具体合成条件、表征手段与理论计算方法摘要未报告。",
+        "relevance_zh": "该工作属于共价有机框架与金属纳米簇复合的框架材料组装方向，展示了限域策略调控氧气吸附构型与氧还原选择性的设计思路，对介孔导电MOF、共轭COF及框架材料电化学合成主线具有方法学参考价值。其局限在于摘要未报告框架孔结构、导电性及限域尺度等关键参数，若关注COF限域催化与双电子氧还原机制，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据提供的题目与摘要，属于摘要级解读。摘要未报告COF合成条件、孔结构表征、铂纳米簇尺寸与负载量、导电性数据、理论计算细节、活性位点结构证据、稳定性与生物安全性等关键细节，均需查阅全文核实。",
+        "key_findings_zh": [
+          "Tfp-Db COFs@Pt NCs的过氧化氢生成动力学为3.12×10^-3 mol L^-1 h^-1，显著高于Tfp-Db COFs@Pt纳米颗粒的1.55×10^-3 mol L^-1 h^-1。",
+          "双电子氧还原选择性由45.0%提升至86.0%。",
+          "实验与理论结果揭示Tfp-Db COFs@Pt NCs光合成过氧化氢经由两步单电子氧还原途径。",
+          "对金黄色葡萄球菌和大肠杆菌的杀菌效率分别达5.0 log10 CFU mL^-1和5.2 log10 CFU mL^-1，第10天感染伤口再生效率接近100%。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-08",
     "search_start": "2026-10-06",
     "generated_at": "2026-10-09T02:55:00Z",
