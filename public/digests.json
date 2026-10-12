@@ -1,5 +1,321 @@
 [
   {
+    "date": "2026-10-11",
+    "search_start": "2026-10-09",
+    "generated_at": "2026-10-12T02:18:48Z",
+    "papers": [
+      {
+        "title": "Mortise‐and‐Tenon Molecular Joint Covalent Organic Frameworks With Tunable Topology for Photothermal‐Catalytic Cross‐Dehydrogenative Coupling",
+        "abstract": "ABSTRACT The controllable regulation of dimensionality and interpenetration in covalent organic frameworks (COFs) is crucial for optimizing photocatalytic performance, yet the translation of 3D COFs from structural construction to functional customization remains challenging. Here, we successfully designed a series of mortise‐and‐tenon molecular joint COFs by rationally engineering a twisted tetraphthaldehyde ligand bearing π‐conjugated “clips”. Stepwise extension of the “clips” enables topological evolution from 2D to twofold interpenetrated 3D, and ultimately to noninterpenetrated 3D structure. Notably, DHP‐CuPor‐COF with noninterpenetrated 3D structure amplifies light‐harvesting efficiency and substrate accessibility, enabling superior photothermal conversion and catalytic performance over its 2D and twofold interpenetrated 3D counterparts. To the best of our knowledge, it delivers highly efficient photothermal‐catalytic C─X (X = O, S) bond formation for selective transformation of phenolic compounds via cross‐dehydrogenative coupling (CDC) reactions (conv., &gt;90% and yield, &gt;80%), markedly outperforming conventional thermal catalysis. The high efficiency arises from the synergistic of open 3D channels, abundant Cu‐porphyrin active sites and strong photothermal effect. This work provides an innovative strategy to tune the topological chemistry of COFs for advanced photocatalytic applications.",
+        "authors": [
+          "Xiaofei Chen",
+          "Qianqian Li",
+          "Wenhai Feng",
+          "Jiayong Weng",
+          "Haotao Yang",
+          "Qi Li",
+          "Fei Yu",
+          "Feng Bai",
+          "Yifa Chen",
+          "Ya‐Qian Lan"
+        ],
+        "institutions": [],
+        "published": "2026-10-10",
+        "journal": "Angewandte Chemie",
+        "doi": "10.1002/ange.7484294",
+        "url": "https://doi.org/10.1002/ange.7484294",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 41,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [
+            "conjugated",
+            "π-conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "榫卯分子接头共价有机框架：可调拓扑结构用于光热催化交叉脱氢偶联",
+        "summary_zh": "该工作通过设计含π共轭夹子的扭曲四醛配体，构建榫卯分子接头COF系列，实现从2D到互穿3D再到非互穿3D的拓扑演化。非互穿3D DHP-CuPor-COF兼具光捕获与底物可及性，光热催化C-X键形成转化率超90%、产率超80%。",
+        "research_details_zh": "研究针对COF维度与互穿程度难以可控调控、3D COF从结构构建到功能定制转化困难的问题，设计了一系列榫卯分子接头COF。设计策略是理性工程化一种带有π共轭夹子的扭曲四醛配体，通过逐步延伸夹子实现拓扑演化：从2D结构到二重互穿3D结构，最终到非互穿3D结构。研究比较了非互穿3D DHP-CuPor-COF与其2D及二重互穿3D对应物的性能，发现非互穿3D结构放大了光捕获效率和底物可及性，从而实现更优异的光热转换和催化性能。该材料用于酚类化合物的交叉脱氢偶联反应，实现C-X（X=O、S）键的高效光热催化形成。高效率来源于开放3D通道、丰富的Cu-卟啉活性位点和强光热效应的协同作用。该工作为调控COF拓扑化学以用于先进光催化应用提供了创新策略。",
+        "methods_zh": "摘要明确报告的方法包括：理性设计含π共轭夹子的扭曲四醛配体，通过逐步延伸夹子构建榫卯分子接头COF系列；合成DHP-CuPor-COF及其2D和二重互穿3D对应物；比较不同拓扑结构的光捕获效率、底物可及性、光热转换和催化性能；进行酚类化合物的光热催化交叉脱氢偶联反应，评估C-X（X=O、S）键形成的转化率和产率。摘要未报告具体表征手段、合成条件和测试参数。",
+        "relevance_zh": "该工作直接契合共轭COF与框架材料组装主线，提供通过配体分子工程调控COF拓扑（维度与互穿）以优化光催化性能的策略，对介孔导电MOF及框架材料的光热催化设计有参考价值。其拓扑—性能关系明确，定量结果突出，值得全文精读以核查合成细节、表征证据和普适性。",
+        "evidence_note_zh": "本解读仅基于摘要，摘要未报告具体合成条件、表征手段、光热转换效率数值、反应时间、底物范围、循环稳定性及机理验证细节，需全文核查。",
+        "key_findings_zh": [
+          "通过逐步延伸π共轭夹子，实现COF拓扑从2D到二重互穿3D、再到非互穿3D的可控演化。",
+          "非互穿3D DHP-CuPor-COF的光捕获效率和底物可及性优于2D及二重互穿3D对应物，光热转换和催化性能更优。",
+          "光热催化交叉脱氢偶联实现C-X（X=O、S）键形成，转化率>90%、产率>80%，显著优于传统热催化。",
+          "高效率归因于开放3D通道、丰富Cu-卟啉活性位点与强光热效应的协同作用。"
+        ]
+      },
+      {
+        "title": "Heterogeneous Electric Double Layer with Ion‐Transport Pathways for Practical Zinc‐Ion Batteries",
+        "abstract": "ABSTRACT Manipulating the electric double layer (EDL) structure at nanoscale remains largely underexplored yet extremely challenging for practical Ah‐level aqueous zinc‐ion batteries (AZIBs). Here, we construct a heterogeneous nanostructured EDL with intrinsic ion‐transport pathways via cation‐anion coordination strategy, which synergistically enhances the thermodynamic stability and kinetic reversibility of the Zn anode. In‐situ characterizations and theoretical simulations demonstrate that the long‐chain ionic additive triggers the interfacial ion rearrangement and assembly within the EDL, where hydrophobic carbon chains self‐aggregate into dense apolar nanodomains, and cationic groups electrostatically attract anions and co‐assemble to form interconnected polar nanodomains. This uniquely heterogeneous EDL thermodynamically confines H 2 O activity and efficiently inhibits side reactions. Meanwhile, the interconnected polar ion‐transport pathways accelerate Zn 2+ migration and desolvation kinetics, achieving an ultrahigh Zn 2+ transference number (0.89) and dendrite‐free Zn deposition. Consequently, Zn//Zn cell delivers stable cycling over 1,200 h (25 mA cm −2 , 12.5 mAh cm −2 ) and Zn//NVO full cell retains 100% capacity after 30,000 cycles at 5 A g −1 . Furthermore, 0.2‐Ah and 1.1‐Ah pouch cells exhibit stable operation for 2,500 and 257 cycles, respectively. This work establishes a new paradigm for EDL nanostructure engineering, advancing practical AZIBs.",
+        "authors": [
+          "Siqi Qin",
+          "Mi Xu",
+          "Jingshuai Li",
+          "Chunyong Liang",
+          "Haozhen Dou",
+          "Zhongwei Chen"
+        ],
+        "institutions": [],
+        "published": "2026-10-09",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75267",
+        "url": "https://doi.org/10.1002/adma.75267",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 33,
+        "scores": {
+          "topic": 6,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "coordination"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "具有离子传输路径的异质双电层用于实用锌离子电池",
+        "summary_zh": "该工作通过阳离子-阴离子配位策略构建具有本征离子传输路径的异质纳米结构双电层，长链离子添加剂诱导界面离子重排与组装，形成疏水非极性纳米域和互连极性纳米域，协同提升锌负极热力学稳定性与动力学可逆性。",
+        "research_details_zh": "研究针对实用安时级水系锌离子电池中纳米尺度双电层结构调控难题，构建了具有本征离子传输路径的异质纳米结构双电层。设计策略采用阳离子-阴离子配位策略，利用长链离子添加剂触发双电层内界面离子重排与组装：疏水碳链自聚集形成致密非极性纳米域，阳离子基团静电吸引阴离子并共组装形成互连极性纳米域。原位表征和理论模拟证实了上述界面组装行为。该异质双电层在热力学上限制水活性并抑制副反应，同时互连极性离子传输路径加速Zn2+迁移和去溶剂化动力学，实现超高Zn2+迁移数（0.89）和无枝晶锌沉积。该工作为双电层纳米结构工程建立了新范式，推动实用水系锌离子电池发展。",
+        "methods_zh": "摘要明确报告的方法包括：采用阳离子-阴离子配位策略，引入长链离子添加剂构建异质双电层；使用原位表征和理论模拟研究界面离子重排与组装行为；测试Zn2+迁移数、锌沉积形貌；组装Zn//Zn对称电池、Zn//NVO全电池及0.2-Ah和1.1-Ah软包电池进行循环性能评估。摘要未报告具体添加剂化学结构、电解液配方、表征技术细节和模拟方法。",
+        "relevance_zh": "该工作涉及自组装与配位化学在电化学界面中的应用，其长链离子添加剂诱导的界面离子组装与纳米域形成机制，对框架材料组装和电化学合成主线有方法学借鉴意义。但研究对象为锌离子电池电解液界面，非框架材料本身，属于拓展推荐，值得关注其自组装策略和原位表征方法。",
+        "evidence_note_zh": "本解读仅基于摘要，摘要未报告长链离子添加剂的具体化学结构、电解液组成、原位表征技术类型、理论模拟方法细节及软包电池测试条件，需全文核查。",
+        "key_findings_zh": [
+          "长链离子添加剂触发双电层内界面离子重排与组装，形成疏水非极性纳米域和互连极性纳米域构成的异质双电层。",
+          "异质双电层热力学限制水活性并抑制副反应，互连极性离子传输路径加速Zn2+迁移和去溶剂化动力学。",
+          "实现超高Zn2+迁移数0.89和无枝晶锌沉积。",
+          "Zn//Zn电池在25 mA cm−2、12.5 mAh cm−2下稳定循环超1200 h；Zn//NVO全电池在5 A g−1下30000次循环后容量保持100%；0.2-Ah和1.1-Ah软包电池分别稳定运行2500和257次循环。"
+        ]
+      },
+      {
+        "title": "Freezing-induced solid-liquid microphase separation for self-assembly of functional nucleic acid nanoparticles",
+        "abstract": "In nature, nuclear DNA complexed with histone form highly condensed chromatin via loop extrusion and microphase separation, yielding physically constrained solid-like structures. Inspired by this natural compaction, here we demonstrate that freezing-induced crystallization pressure and freeze-concentration effects trigger solid-liquid microphase separation for efficient DNA compression. Freezing compress various nucleic acids (single stranded DNA, molecular beacons, siRNA, plasmid DNA) into high-density states that self-assemble into nanoparticles (DNA-NPs, MB-NPs, siBcl-2-NPs, siPLK1-NPs, pEGFP-NPs). Molecular dynamics simulations reveal that ice crystal growth increases solute concentration, enhancing DNA intermolecular interactions to form supramolecular chains. Stress at advancing ice-liquid interfaces further orders and compacts these supramolecular chains into nanoparticles. In breast cancer cells, MB-NPs detect miRNA-21; siBcl-2-NPs downregulate Bcl-2 protein; siPLK1-NPs exhibited antitumor effects; and pEGFP-NPs mediate green fluorescent protein (GFP) expression. This freeze-induced self-assembly strategy replaces chemical synthesis with physical constraints, establishing a versatile platform for facile production of nucleic acid nanoparticles. Efficent delivery of various nucleic acids in vitro and in vivo remains challenging. Here, the authors use freezing-induced condensation and microphase separation to compress nucleic acids into functional nanoparticles, without excipients, validated the bioactivity in vitro and in vivo.",
+        "authors": [
+          "Tao Zeng",
+          "Jiahui Fang",
+          "Jian Hao",
+          "Xiuping Cao",
+          "Shiqing Li",
+          "Shiyan Bai",
+          "Jiaying Chen",
+          "Chunsen Li",
+          "Huanghao Yang",
+          "Chunhua Lü"
+        ],
+        "institutions": [
+          "Fuzhou University",
+          "Fuzhou University",
+          "Chinese Academy of Sciences",
+          "Fujian Institute of Research on the Structure of Matter",
+          "University of Chinese Academy of Sciences",
+          "State Key Laboratory of Structural Chemistry",
+          "Fuzhou University",
+          "Fuzhou University",
+          "Fuzhou University",
+          "Fuzhou University",
+          "Chinese Academy of Sciences",
+          "Fujian Institute of Research on the Structure of Matter",
+          "University of Chinese Academy of Sciences",
+          "State Key Laboratory of Structural Chemistry",
+          "Fuzhou University",
+          "Fuzhou University"
+        ],
+        "published": "2026-10-09",
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-026-78488-8",
+        "openalex_id": "https://openalex.org/W7221172685",
+        "url": "https://doi.org/10.1038/s41467-026-78488-8",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch",
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 32,
+        "scores": {
+          "topic": 6,
+          "method": 8,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Nature Communications"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "crystal growth",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal",
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "冷冻诱导固-液微相分离用于功能核酸纳米颗粒的自组装",
+        "summary_zh": "该工作受天然染色质凝聚启发，利用冷冻诱导的结晶压力和冷冻浓缩效应触发固-液微相分离，将多种核酸压缩为高密度状态并自组装成功能纳米颗粒，无需化学合成或辅料，在体外和体内验证了生物活性。",
+        "research_details_zh": "研究受天然核DNA与组蛋白通过环挤出和微相分离形成高度凝聚染色质的启发，提出冷冻诱导固-液微相分离策略实现高效DNA压缩。冷冻过程将多种核酸（单链DNA、分子信标、siRNA、质粒DNA）压缩为高密度状态，自组装形成纳米颗粒（DNA-NPs、MB-NPs、siBcl-2-NPs、siPLK1-NPs、pEGFP-NPs）。分子动力学模拟揭示冰晶生长增加溶质浓度，增强DNA分子间相互作用形成超分子链；推进的冰-液界面应力进一步使超分子链有序化和致密化形成纳米颗粒。在乳腺癌细胞中，MB-NPs检测miRNA-21；siBcl-2-NPs下调Bcl-2蛋白；siPLK1-NPs表现出抗肿瘤效果；pEGFP-NPs介导绿色荧光蛋白表达。该冷冻诱导自组装策略以物理约束替代化学合成，建立了便捷制备核酸纳米颗粒的通用平台。",
+        "methods_zh": "摘要明确报告的方法包括：冷冻处理多种核酸（单链DNA、分子信标、siRNA、质粒DNA）诱导固-液微相分离和自组装；分子动力学模拟研究冰晶生长、溶质浓度变化、DNA分子间相互作用及冰-液界面应力对超分子链有序化和致密化的影响；在乳腺癌细胞中评估MB-NPs检测miRNA-21、siBcl-2-NPs下调Bcl-2蛋白、siPLK1-NPs抗肿瘤效果及pEGFP-NPs介导GFP表达。摘要未报告冷冻温度、速率、缓冲液条件和纳米颗粒表征细节。",
+        "relevance_zh": "该工作聚焦冷冻诱导自组装技术，与自组装技术主线相关，其物理约束驱动微相分离形成纳米颗粒的策略对框架材料组装有启发意义。但研究对象为核酸纳米颗粒，非框架材料或介孔材料，属于拓展推荐。其无辅料、通用性强的自组装方法值得关注，但需全文核查以评估与框架材料组装的关联性。",
+        "evidence_note_zh": "本解读仅基于摘要，摘要未报告冷冻温度、冷冻速率、缓冲液组成、纳米颗粒尺寸分布、表征手段、体内实验模型及分子动力学模拟参数等关键细节，需全文核查。",
+        "key_findings_zh": [
+          "冷冻诱导的结晶压力和冷冻浓缩效应触发固-液微相分离，可将单链DNA、分子信标、siRNA和质粒DNA等多种核酸压缩自组装为纳米颗粒。",
+          "分子动力学模拟揭示冰晶生长增加溶质浓度，增强DNA分子间相互作用形成超分子链，冰-液界面应力使超分子链有序致密化形成纳米颗粒。",
+          "在乳腺癌细胞中验证了功能：MB-NPs检测miRNA-21，siBcl-2-NPs下调Bcl-2蛋白，siPLK1-NPs表现抗肿瘤效果，pEGFP-NPs介导GFP表达。",
+          "该策略无需化学合成和辅料，以物理约束替代化学合成，建立了通用核酸纳米颗粒制备平台。"
+        ]
+      },
+      {
+        "title": "A high-performance synthetic micro-mesoporous activated carbon obtained from virgin and recycled PVDC with exceptional biobutanol separation performance",
+        "abstract": "The effective recovery of biobutanol from fermentation vapor streams hinges on the development of highly selective adsorbents that can efficiently capture butanol in the presence of excess water. This paper addresses this challenge through the synthesis and characterization of tailored activated carbons. Using a high-purity polyvinylidene chloride (PVDC) precursor, in both virgin and recycled forms, a series of carbons were prepared by varying the duration of physical CO2 activation process (up to 26 h). The study establishes a clear link between these synthesis conditions and the resulting porous structure. All synthesized activated carbons displayed Type V water adsorption isotherms proving a high degree of hydrophobicity which further enhanced with increased activation time and burn-off. The nature of butanol adsorption was strongly linked to the pore structure; materials with shorter activation times and lower burn-off exhibited Type I isotherms indicative of micropore filling, while those with longer activation times and wider pores showed Type V isotherms, reflecting a cooperative adsorption mechanism. The derived activated carbons demonstrated a very high adsorption capacity for butanol vapor (0.9 g/g at 200 Pa and 40°C), significantly higher than values reported in literature for other adsorbents. Dynamic breakthrough experiments using a mixed butanol-water vapor stream validated the enhanced separation performance with a dynamic capacity very close to the equilibrium capacity. The material obtained from recycled PVDC showed excellent adsorption properties, superior to commercial benchmark materials, opening perspectives for the valorization of waste PVDC into a renewable, high grade functional porous solid.",
+        "authors": [
+          "Gille Wittevrongel",
+          "Debashis Panda",
+          "Olivier P. M. Gaudin",
+          "Valeriy Kapelyushko",
+          "Hafez Maghsoudi",
+          "Joeri F.M. Denayer"
+        ],
+        "institutions": [
+          "Vrije Universiteit Brussel",
+          "Vrije Universiteit Brussel",
+          "Vrije Universiteit Brussel",
+          "Vrije Universiteit Brussel"
+        ],
+        "published": "2026-10-09",
+        "journal": "Microporous and Mesoporous Materials",
+        "doi": "10.1016/j.micromeso.2026.114418",
+        "openalex_id": "https://openalex.org/W7221071737",
+        "url": "https://doi.org/10.1016/j.micromeso.2026.114418",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 28,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Microporous and Mesoporous Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "material",
+            "materials",
+            "mesoporous",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "以原生及回收PVDC制备高性能合成微孔-介孔活性炭及其优异的生物丁醇分离性能",
+        "summary_zh": "以原生和回收聚偏二氯乙烯为前驱体，通过CO2物理活化制备微孔-介孔活性炭，系统调控活化时间以优化孔结构。所得材料对丁醇蒸气吸附容量高达0.9 g/g（200 Pa，40°C），动态穿透实验中丁醇-水混合蒸气的动态容量接近平衡容量，回收PVDC基材料性能优于商业基准材料。",
+        "research_details_zh": "本研究针对发酵蒸气中生物丁醇在过量水存在下高效选择性捕获的难题，以高纯度聚偏二氯乙烯（PVDC）为前驱体，分别采用原生和回收形式，通过改变CO2物理活化时间（最长26小时）制备了一系列活性炭。研究建立了合成条件与多孔结构之间的明确关联，并系统考察了孔结构对水蒸气和丁醇蒸气吸附行为的影响。所有样品的水吸附等温线均为Type V型，证明材料具有高度疏水性，且疏水性随活化时间和烧失率增加而增强。丁醇吸附机制与孔结构密切相关：较短活化时间和较低烧失率的材料呈现Type I等温线，以微孔填充为主；较长活化时间和较宽孔道的材料呈现Type V等温线，反映协同吸附机制。动态穿透实验采用丁醇-水混合蒸气验证了分离性能。该工作为废弃PVDC的高值化利用提供了新途径。",
+        "methods_zh": "以原生和回收PVDC为前驱体，采用CO2物理活化法，通过改变活化时间（最长26小时）制备系列活性炭。表征手段包括水吸附等温线和丁醇蒸气吸附等温线测定（40°C，200 Pa条件）。性能测试采用丁醇-水混合蒸气的动态穿透实验，并将动态容量与平衡容量进行对比。摘要未报告具体的孔结构表征方法（如氮气吸附、比表面积测定等）及活化温度等详细条件。",
+        "relevance_zh": "本研究属于介孔材料与多孔碳的交叉方向，核心价值在于通过PVDC前驱体和CO2活化条件调控微孔-介孔结构，建立孔结构与丁醇/水吸附选择性之间的构效关系。对介孔材料在分离领域的应用具有参考意义，尤其是回收聚合物高值化制备功能多孔固体的思路。但该工作不涉及MOF/COF/HOF或框架材料组装，与导电MOF、共轭框架等主线关联较弱，属于拓展推荐。若关注多孔碳的孔结构调控与蒸气分离，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据摘要内容，未补充摘要未报告的实验条件、表征方法或数值。摘要未报告活化温度、升温程序、比表面积、孔容、孔径分布等关键孔结构参数，也未说明动态穿透实验的具体装置、流速、床层条件及循环稳定性。全文需核查：CO2活化的具体温度与时间序列、孔结构定量数据、丁醇/水选择性数值、回收PVDC的杂质影响及材料长期稳定性。",
+        "key_findings_zh": [
+          "所有合成活性炭的水吸附等温线均为Type V型，表明高度疏水性，且疏水性随活化时间和烧失率增加而增强。",
+          "丁醇蒸气吸附容量高达0.9 g/g（200 Pa，40°C），显著高于文献报道的其他吸附剂。",
+          "短活化时间、低烧失率材料呈Type I丁醇等温线（微孔填充），长活化时间、宽孔材料呈Type V等温线（协同吸附机制）。",
+          "动态穿透实验中丁醇-水混合蒸气的动态容量非常接近平衡容量，回收PVDC基材料吸附性能优于商业基准材料。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-10",
     "search_start": "2026-10-08",
     "generated_at": "2026-10-11T01:49:06Z",
