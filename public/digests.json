@@ -1,5 +1,544 @@
 [
   {
+    "date": "2026-10-21",
+    "search_start": "2026-10-19",
+    "generated_at": "2026-10-22T01:27:17Z",
+    "papers": [
+      {
+        "title": "Vinylene‐Linked Covalent Organic Framework‐Directed Facet Orientation Reconstruction in Inverted Perovskite Solar Cells",
+        "abstract": "ABSTRACT Crystallographic orientation engineering is critical for suppressing defect formation, relieving lattice strain, and promoting charge transport in metal halide perovskites, yet the selective regulation of facet competition during solution crystallization remains challenging. Here, we introduce a vinylene‐linked covalent organic framework, TBD‐COF, as a structurally robust crystallization regulator for high‐performance PSCs. The ordered porous skeleton of TBD‐COF, together with its embedded pyridinic nitrogen atoms, provides spatially distributed interaction sites for coordinating with perovskite precursors and modulating the nucleation and crystal growth processes. Notably, TBD‐COF incorporation redirects the crystallization pathway from conventional (001)‐dominated growth toward an enhanced fraction of (012)‐oriented crystalline domains. This orientation regulation alleviates disordered grain packing and lattice‐strain accumulation, thereby suppressing defect‐assisted nonradiative recombination and facilitating carrier transport. Consequently, the optimized devices achieve a champion power conversion efficiency (PCE) of 27.01% with a remarkable fill factor of 88.72%, representing one of the highest values reported for COF‐incorporated PSCs. Moreover, the TBD‐COF‐modified devices retain 89% of their initial PCE after 1000 h under the ISOS‐L‐2 protocol.",
+        "authors": [
+          "Liang Ma",
+          "Heng Zhang",
+          "Zhiqiang Zhang",
+          "Wenjie Zhang",
+          "Ziyang Chang",
+          "Dan Huang",
+          "Changlin Yao",
+          "Hai Zhong",
+          "Qi Zhang",
+          "Zhengyan He",
+          "Shufang Zhang"
+        ],
+        "institutions": [],
+        "published": "2026-10-21",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.79131",
+        "url": "https://doi.org/10.1002/adfm.79131",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 54,
+        "scores": {
+          "topic": 29,
+          "method": 4,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "covalent organic framework"
+          ],
+          "conductive": [
+            "charge transport"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "crystal growth",
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal",
+            "crystalline",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "亚乙烯基连接的共价有机框架引导反式钙钛矿太阳能电池的晶面取向重构",
+        "summary_zh": "该研究将亚乙烯基连接的TBD-COF作为结晶调节剂引入反式钙钛矿太阳能电池，使钙钛矿结晶由(001)主导转向(012)取向增强，缓解晶格应变与缺陷复合，实现27.01%效率与88.72%填充因子，并在ISOS-L-2协议下1000小时后保持初始效率的89%。",
+        "research_details_zh": "研究针对金属卤化物钙钛矿溶液结晶过程中晶面竞争难以选择性调控的问题，提出以亚乙烯基连接的共价有机框架TBD-COF作为结构稳健的结晶调节剂。TBD-COF的有序多孔骨架及嵌入的吡啶氮原子提供空间分布的相互作用位点，用于配位钙钛矿前驱体并调控成核与晶体生长过程。摘要报告，TBD-COF的引入使结晶路径由常规(001)主导生长转向(012)取向晶畴比例增强。该取向调控缓解了晶粒无序堆积与晶格应变积累，从而抑制缺陷辅助的非辐射复合并促进载流子传输。优化器件获得27.01%的最高功率转换效率和88.72%的填充因子，摘要称其为COF引入的钙钛矿太阳能电池中报道的最高值之一；TBD-COF修饰器件在ISOS-L-2协议下1000小时后保持初始PCE的89%。其意义在于展示了COF作为结晶取向调控平台在钙钛矿光伏中的应用潜力。",
+        "methods_zh": "摘要报告的方法包括：合成亚乙烯基连接的TBD-COF作为结晶调节剂；将其引入钙钛矿前驱体体系以调控成核与晶体生长；通过结晶取向分析表征(001)与(012)晶畴比例变化；评估晶格应变、缺陷辅助非辐射复合与载流子传输；测试器件功率转换效率与填充因子；并依据ISOS-L-2协议进行1000小时稳定性测试。摘要未报告具体合成条件、表征仪器型号及详细测试参数。",
+        "relevance_zh": "该工作属于共价有机框架在钙钛矿结晶调控中的直接应用，与共轭COF及框架材料组装主线高度相关，展示了COF有序孔结构与配位位点对晶面竞争和结晶路径的调控能力。其局限在于摘要仅给出器件级结果，未提供COF结构表征、取向定量比例及机制证据细节。对关注框架材料引导晶体生长与取向的研究者值得全文精读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要内容。TBD-COF的具体合成与结构表征、取向比例定量、缺陷与应变表征数据、器件结构及稳定性测试细节均需全文核查。",
+        "key_findings_zh": [
+          "TBD-COF使钙钛矿结晶由(001)主导转向(012)取向晶畴比例增强。",
+          "取向调控缓解晶粒无序堆积与晶格应变积累，抑制缺陷辅助非辐射复合并促进载流子传输。",
+          "优化器件最高PCE达27.01%，填充因子达88.72%。",
+          "TBD-COF修饰器件在ISOS-L-2协议下1000小时后保持初始PCE的89%。"
+        ]
+      },
+      {
+        "title": "Manipulation of the Nanoarchitecture of Porous Media Determines Water Mobility: NMR Experiments using Metal–Organic Framework (MOF)-Functionalized Track-Etched Solid-State Nanochannels (SSNs)",
+        "abstract": "Abstract Transport in hierarchically porous membranes depends on pore organization at the mesoscale, yet how this organization shapes local dynamics remains poorly understood. Herein, we employ single-sided nuclear magnetic resonance (SS-NMR) to probe the in situ diffusion dynamics of water within solid-state nanochannels (SSNs) functionalized with UiO-66 metal–organic framework (MOF). We systematically compare two distinct synthetic protocols: a one-pot (OP) interfacial growth and a counter-diffusion (CD) method. By deconvoluting the NMR signal attenuation, we isolate a minor slow diffusion component corresponding to intraparticle micropores and a dominant fast diffusion component representing interparticle constructional porosity. Our results show that OP growth produces large particle agglomerates and poorly connected pores with narrow bottlenecks, forcing water along highly tortuous paths. Furthermore, leveraging the pH-responsive surface charge of UiO-66, we find that water mobility in the well-connected CD nanoarchitecture varies measurably with pH, consistent with a surface-charge effect, whereas OP membranes show a weaker, nonmonotonic variation, consistent with dominant geometric obstruction. These findings link nanochannel architecture directly to local water mobility and identify constructional porosity as a structural parameter to consider in MOF-based nanofluidic membranes.",
+        "authors": [
+          "Franco A. Milana",
+          "Juan A. Allegretto",
+          "Gregorio Laucirica",
+          "Waldemar A. Marmisollé",
+          "Omar Azzaroni",
+          "Rodolfo H. Acosta",
+          "Matías Rafti",
+          "Manuel I. Velasco"
+        ],
+        "institutions": [],
+        "published": "2026-10-21",
+        "journal": "ACS Applied Materials &amp; Interfaces",
+        "doi": "10.1021/acsami.6c16040",
+        "url": "https://doi.org/10.1021/acsami.6c16040",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 40,
+        "scores": {
+          "topic": 18,
+          "method": 4,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "ACS Applied Materials & Interfaces"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [
+            "hierarchically porous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "多孔介质纳米结构的调控决定水的迁移性：利用MOF功能化径迹刻蚀固态纳米通道的NMR实验",
+        "summary_zh": "该研究用单边核磁共振探测UiO-66 MOF功能化固态纳米通道中水的原位扩散动力学，比较一锅界面生长与反向扩散两种合成方案。结果显示一锅法形成大颗粒团聚与瓶颈狭窄的不连通孔道，反向扩散法孔道连通性更好且水迁移性随pH可测变化，表明构筑孔隙是MOF纳流膜的关键结构参数。",
+        "research_details_zh": "研究针对分级多孔膜中介观尺度孔组织如何影响局部动力学认识不足的问题，采用单边核磁共振(SS-NMR)原位探测水在UiO-66金属有机框架功能化固态纳米通道(SSNs)中的扩散动力学。研究系统比较两种合成方案：一锅(OP)界面生长与反向扩散(CD)法。通过解卷积NMR信号衰减，区分出对应颗粒内微孔的次要慢扩散组分和代表颗粒间构筑孔隙的主导快扩散组分。摘要报告，OP生长产生大颗粒团聚体和连通性差、瓶颈狭窄的孔道，迫使水沿高度迂曲路径迁移；利用UiO-66的pH响应表面电荷，发现连通性良好的CD纳米结构中水迁移性随pH可测变化，符合表面电荷效应，而OP膜表现为较弱且非单调的变化，符合几何阻塞主导。研究将纳米通道结构与局部水迁移性直接关联，并指出构筑孔隙是MOF纳流膜应考虑的结构参数。",
+        "methods_zh": "摘要报告的方法包括：在径迹刻蚀固态纳米通道上以UiO-66 MOF进行功能化，分别采用一锅界面生长与反向扩散两种合成方案；使用单边核磁共振(SS-NMR)原位探测水扩散动力学；对NMR信号衰减进行解卷积以分离慢扩散与快扩散组分；利用UiO-66的pH响应表面电荷考察不同pH下水迁移性变化。摘要未报告具体NMR参数、MOF负载量及孔结构定量表征细节。",
+        "relevance_zh": "该工作将MOF功能化纳米通道的合成方案与介观孔组织、局部水迁移性直接关联，对框架材料在纳流膜与分级多孔介质中的组装调控具有参考价值，尤其体现构筑孔隙作为结构参数的意义。局限在于摘要聚焦水扩散NMR结果，未提供膜分离性能或孔结构定量数据。对关注MOF组装与多孔介质传输的研究者值得全文精读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要内容。UiO-66在纳米通道中的负载与分布表征、NMR扩散系数数值、孔径与连通性定量数据及pH响应机制细节均需全文核查。",
+        "key_findings_zh": [
+          "NMR信号解卷积区分出颗粒内微孔的慢扩散组分与颗粒间构筑孔隙的主导快扩散组分。",
+          "一锅界面生长产生大颗粒团聚与连通性差、瓶颈狭窄的孔道，导致水沿高度迂曲路径迁移。",
+          "反向扩散纳米结构中水迁移性随pH可测变化，符合表面电荷效应；一锅膜变化较弱且非单调，符合几何阻塞主导。",
+          "构筑孔隙被确定为MOF基纳流膜应关注的结构参数。"
+        ]
+      },
+      {
+        "title": "Atomic‐Level Regulating Layer‐by‐Layer Zinc Deposition by High‐Entropy Single‐Atoms Electrolyte Additive",
+        "abstract": "ABSTRACT Aqueous batteries feature intrinsic safety, but how to achieve regular and planar electrodeposits at liquid‐solid interfaces has emerged as a fundamental barrier to energy‐dense aqueous batteries that use metal anodes. Based on classical crystal growth theory, sluggish metal ion transport during the deposition process will lead to rapid interfacial metal ion depletion, resulting in a sharp increase in interfacial supersaturation and subsequently inducing dendrite growth. Herein, micropore high‐entropy single‐atoms carbon nanoparticles (CuNiMnCoIr/CNs) were synthesized as a unique electrolyte additive to suppress interfacial Zn 2+ concentration polarization and strengthen Zn chemistry at the atomic level. The micropore CuNiMnCoIr/CNs not only provide abundant Zn 2+ transport channels but significantly reduce the migration energy barrier of Zn 2+ from the bulk electrolyte to electrode interface to promote rapid desolvation kinetics and homogenize Zn 2+ flux, thereby effectively alleviating interfacial Zn 2+ supersaturation and guiding layer‐by‐layer Zn deposition. Consequently, trace CuNiMnCoIr/CNs additive delivers a high Zn 2+ transference number of 0.89 and enables Zn//Zn cells to cycle stably for over 4000 h at 5 mA cm −2 , and 800 h even at 50 mA cm −2 , with an outstanding cumulative deposition capacity up to 20 Ah cm −2 . Such knowledge may provide new insights to challenge interface chemistry for advanced aqueous metal‐ion batteries.",
+        "authors": [
+          "Xiude Liu",
+          "Jinlong Zhang",
+          "Fusheng Luo",
+          "Zeyu Yan",
+          "Junkai Zhu",
+          "Yifei Zhang",
+          "Kai Yuan",
+          "Jun Huang"
+        ],
+        "institutions": [],
+        "published": "2026-10-21",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75467",
+        "url": "https://doi.org/10.1002/adma.75467",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 33,
+        "scores": {
+          "topic": 6,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "crystal growth"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "crystal"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "高熵单原子电解质添加剂实现原子级调控逐层锌沉积",
+        "summary_zh": "该研究合成微孔高熵单原子碳纳米颗粒CuNiMnCoIr/CNs作为电解液添加剂，利用其丰富Zn2+传输通道与降低的迁移能垒促进快速去溶剂化并均化Zn2+通量，缓解界面过饱和、引导逐层锌沉积，实现0.89的Zn2+迁移数和超4000小时稳定循环。",
+        "research_details_zh": "研究针对水系电池液-固界面难以实现规则平面电沉积的问题，基于经典晶体生长理论指出：沉积过程中金属离子传输迟缓会导致界面金属离子快速耗尽，界面过饱和度骤增进而诱导枝晶生长。为此合成微孔高熵单原子碳纳米颗粒(CuNiMnCoIr/CNs)作为独特电解液添加剂，在原子层面抑制界面Zn2+浓度极化并强化锌化学。摘要报告，微孔CuNiMnCoIr/CNs不仅提供丰富的Zn2+传输通道，还显著降低Zn2+从体相电解液到电极界面的迁移能垒，从而促进快速去溶剂化动力学并均化Zn2+通量，有效缓解界面Zn2+过饱和并引导逐层锌沉积。微量CuNiMnCoIr/CNs添加剂使Zn2+迁移数达0.89，Zn//Zn电池在5 mA cm-2下稳定循环超过4000小时，在50 mA cm-2下循环800小时，累计沉积容量高达20 Ah cm-2。该工作为先进水系金属离子电池的界面化学调控提供了新思路。",
+        "methods_zh": "摘要报告的方法包括：合成微孔高熵单原子碳纳米颗粒CuNiMnCoIr/CNs作为电解液添加剂；基于晶体生长理论分析界面离子传输与过饱和度关系；评估Zn2+迁移能垒、去溶剂化动力学与Zn2+通量均化；测定Zn2+迁移数；在5 mA cm-2与50 mA cm-2条件下进行Zn//Zn电池循环测试并统计累计沉积容量。摘要未报告具体合成条件、表征手段及电解液配方细节。",
+        "relevance_zh": "该工作与介孔/微孔材料及晶体生长调控主线相关，展示微孔高熵单原子碳作为电解质添加剂通过离子传输通道与能垒调控引导逐层电沉积的策略，对框架与多孔材料在电化学界面组装中的应用有借鉴意义。局限在于其材料为单原子碳而非MOF/COF框架，且摘要未提供结构表征与机制谱学证据。对关注电化学沉积调控的研究者可作拓展阅读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要内容。CuNiMnCoIr/CNs的合成与结构表征、单原子构型证据、迁移能垒与去溶剂化动力学的定量数据及电解液配方均需全文核查。",
+        "key_findings_zh": [
+          "微孔CuNiMnCoIr/CNs添加剂提供丰富Zn2+传输通道并显著降低Zn2+从体相到界面的迁移能垒，促进快速去溶剂化并均化Zn2+通量。",
+          "添加剂缓解界面Zn2+过饱和并引导逐层锌沉积。",
+          "微量添加剂使Zn2+迁移数达0.89。",
+          "Zn//Zn电池在5 mA cm-2下循环超过4000小时、50 mA cm-2下800小时，累计沉积容量达20 Ah cm-2。"
+        ]
+      },
+      {
+        "title": "Functional Group Transposition Enables Antiparallel–Parallel Packing Switching in Dithieno[3,2‐b:2′,3′‐d]pyrrole Self‐Assembled Molecules for Efficient Organic Photovoltaics",
+        "abstract": "ABSTRACT Concurrently regulating interfacial and bulk charge dynamics, which requires simultaneous control over indium‐tin‐oxide (ITO) interfacial properties and active layer morphology, is critical for advancing and integrating organic solar cells (OSCs) and photodetectors (OPDs). However, designing universal hole‐transport‐layers (HTLs) compatible with diverse photovoltaic platforms remains a fundamental challenge. We propose two regioisomeric acceptor–donor–acceptor type self‐assembled molecules (SAMs) with dithienopyrrole (DTP) core. Simply swapping ortho‐/para‐ positions of trifluoromethyl and chlorine on the phenyl termini switches molecular stacking from disordered antiparallel to well‐ordered parallel. This programmable assembly benefits to yield uniform HTLs on ITO with homogeneous surface potential, alongside enhanced crystallinity and vertical phase segregation in the PM6:Y6 active layer. Optimized OSCs and OPDs achieve 18.70% power conversion efficiency (PCE) and a shot‐noise‐limited specific detectivity of 6.52 × 10 14 Jones at 805 nm (specific detectivity: 4.26 × 10 13 Jones). The versatility of the optimized SAM is validated across state‐of‐the‐art binary/ternary systems (PCE of 20.92% for D18:L8‐BO:BTP‐eC9 system), even upon scaling up (PCE of 19.1% for PM6:L8‐BO:BTP‐eC9 system, device area = 0.6 cm 2 ). This work not only elevates DTP as a competitive alternative against carbazole for SAMs, but also establishes functional group transposition as a finely tuned molecular lever that co‐engineers interfacial order and active‐layer morphology toward high‐performance organic optoelectronics.",
+        "authors": [
+          "Huayi Liu",
+          "Junjie Wen",
+          "Bo Yan",
+          "Lingyan Sun",
+          "Wentian Han",
+          "Yisui Feng",
+          "Zuhao You",
+          "Yihe Qi",
+          "Jiang Zhu",
+          "Haotian Li",
+          "Kaili Huang",
+          "Xin Chang",
+          "Hui Li",
+          "Cheng Zhang",
+          "Yeonju Park",
+          "Woojin Shin",
+          "Young Mee Jung",
+          "Hyunbok Lee",
+          "Wenxu Liu",
+          "Yao Liu"
+        ],
+        "institutions": [],
+        "published": "2026-10-21",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75446",
+        "url": "https://doi.org/10.1002/adma.75446",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 33,
+        "scores": {
+          "topic": 6,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "oxide"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "官能团转位实现二噻吩并[3,2-b:2′,3′-d]吡咯自组装分子的反平行—平行堆积切换用于高效有机光伏",
+        "summary_zh": "该工作以二噻吩并吡咯为核心构建两种受体—给体—受体型自组装分子，通过交换苯端三氟甲基与氯的邻/对位，使分子堆积由无序反平行转为有序平行，优化空穴传输层与活性层形貌，实现18.70%效率的有机太阳能电池及高探测率光电探测器。",
+        "research_details_zh": "研究针对有机太阳能电池与光电探测器需同时调控氧化铟锡界面性质和活性层形貌的难题，提出以二噻吩并吡咯为核、苯端三氟甲基和氯为取代基的两种区域异构受体—给体—受体型自组装分子。仅通过交换三氟甲基与氯的邻位/对位，即把分子堆积从无序反平行切换为有序平行。该可编程组装在氧化铟锡上形成表面电势均匀的空穴传输层，并提升PM6:Y6活性层结晶性与垂直相分离。优化后的太阳能电池效率达18.70%，光电探测器在805 nm处获得6.52×10^14 Jones的散粒噪声限制比探测率。该策略在二元/三元体系及放大器件中验证，显示官能团转位可作为协同调控界面有序性与活性层形貌的分子杠杆。",
+        "methods_zh": "摘要报告合成了两种以二噻吩并吡咯为核、苯端含三氟甲基和氯的区域异构自组装分子；通过邻/对位交换调控分子堆积；在氧化铟锡上制备空穴传输层；表征表面电势、活性层结晶性与垂直相分离；测试有机太阳能电池光伏性能与光电探测器在805 nm处的比探测率；并在二元/三元体系及0.6 cm²放大器件中验证。具体合成条件与表征手段摘要未报告。",
+        "relevance_zh": "该工作属于自组装技术在有机光电器件界面层中的应用，核心是官能团转位调控分子堆积与界面有序性，与框架材料组装主线仅有方法学关联，不涉及介孔导电MOF、共轭COF/HOF或介孔材料。其价值在于提供“分子堆积切换—界面形貌—器件性能”的清晰证据链，可作为自组装调控策略的参考；因主题偏离主线，建议按需选读，不必全文精读。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级信息。分子的具体合成路线、表征手段、堆积结构解析细节、器件制备条件、稳定性数据及统计分布等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "交换苯端三氟甲基与氯的邻/对位，可使二噻吩并吡咯自组装分子由无序反平行堆积切换为有序平行堆积。",
+          "优化自组装分子在氧化铟锡上形成表面电势均匀的空穴传输层，并提升PM6:Y6活性层结晶性与垂直相分离。",
+          "优化有机太阳能电池效率达18.70%，光电探测器在805 nm处散粒噪声限制比探测率达6.52×10^14 Jones。",
+          "在D18:L8-BO:BTP-eC9体系效率达20.92%，PM6:L8-BO:BTP-eC9放大器件（面积0.6 cm²）效率达19.1%。"
+        ]
+      },
+      {
+        "title": "Synergistic High‐Entropy and Anchoring Stabilization of PtPdIrRuCu Alloy Nanoparticles on N, O‐Doped Carbon Cage Fibers for Durable and Selective PET Upcycling",
+        "abstract": "ABSTRACT High‐entropy alloy nanoparticles (HEA NPs) are promising electrocatalysts, yet their ultrasmall size makes them vulnerable to migration‐induced coalescence (MIC), a sintering pathway that intrinsic high‐entropy effects cannot suppress. Herein, we anchor ultrasmall PtPdIrRuCu HEA NPs on N, O‐doped carbon cage fibers (NOCCFs). The N/O anchoring sites inhibit MIC through strong metal–support interactions, which, together with the intrinsic resistance of HEA to Ostwald ripening, synergistically suppress sintering. After 700 °C annealing, the PtPdIrRuCu NPs size increases from 2.8 nm to only 3.8 nm, whereas Pt/C aggregates from 2.3 nm to 21.8 nm. In ethylene glycol oxidation reaction (EGOR), the PtPdIrRuCu/NOCCFs delivers a mass activity of 7.66 A·mg Pt − 1 (7.3‑fold that of Pt/C) and a Faradaic efficiency of 95.8% toward glycolic acid (GA). A membrane electrode assembly (MEA) flow electrolyzer runs stably over 240 h with &gt;90% GA selectivity. Mechanistic studies reveal that the PtPdIrRuCu/NOCCFs enhances *OH adsorption to promote the GA pathway, accelerates CO ads oxidation via oxophilic Ir/Ru sites to prevent catalyst poisoning, and elevates both C–C cleavage and overoxidation barriers to suppress byproducts.",
+        "authors": [
+          "Tong Zuo",
+          "Zhenle Hu",
+          "Jiahao Zhu",
+          "Zhanpeng Qi",
+          "Fujie Li",
+          "Zhenxi Xu",
+          "Ning Dai",
+          "Guojun Zhang",
+          "Zhiyao Gu",
+          "Zimeng Tian",
+          "Yanting Cheng",
+          "Chao Zhi",
+          "Jiaguang Meng",
+          "Xiang Li",
+          "Jingnan Wang",
+          "Yaming Liu"
+        ],
+        "institutions": [
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Polytechnic University",
+          "Xi'an Technological University",
+          "Fuzhou University",
+          "Xi'an Polytechnic University"
+        ],
+        "published": "2026-10-19",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.3049389",
+        "openalex_id": "https://openalex.org/W7222978093",
+        "url": "https://doi.org/10.1002/anie.3049389",
+        "sources": [
+          "Crossref journal watch",
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 33,
+        "scores": {
+          "topic": 6,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "membrane"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "高熵与锚定协同稳定N,O掺杂碳笼纤维负载PtPdIrRuCu合金纳米颗粒用于持久选择性PET升级回收",
+        "summary_zh": "该工作将超小PtPdIrRuCu高熵合金纳米颗粒锚定于N,O掺杂碳笼纤维，借助强金属—载体相互作用抑制迁移诱导团聚，700 °C退火后粒径仅由2.8 nm增至3.8 nm，在乙二醇氧化中实现7.66 A·mgPt⁻¹质量活性与95.8%乙醇酸法拉第效率，膜电极流动电解器稳定运行240 h。",
+        "research_details_zh": "研究针对超小高熵合金纳米颗粒在高温下易发生迁移诱导团聚、而本征高熵效应无法抑制该烧结路径的问题，将超小PtPdIrRuCu高熵合金纳米颗粒锚定在N,O掺杂碳笼纤维上。N/O锚定位点通过强金属—载体相互作用抑制迁移诱导团聚，并与高熵合金固有的抗奥斯特瓦尔德熟化能力协同抑制烧结。700 °C退火后，PtPdIrRuCu颗粒由2.8 nm仅增至3.8 nm，而Pt/C由2.3 nm团聚至21.8 nm。在乙二醇氧化反应中，催化剂质量活性达7.66 A·mgPt⁻¹，为Pt/C的7.3倍，乙醇酸法拉第效率95.8%。膜电极流动电解器稳定运行240 h以上，乙醇酸选择性高于90%。机理研究表明其增强*OH吸附以促进乙醇酸路径，借助亲氧Ir/Ru位点加速COads氧化防止中毒，并提高C—C断裂与过氧化能垒以抑制副产物。",
+        "methods_zh": "摘要报告将超小PtPdIrRuCu高熵合金纳米颗粒锚定于N,O掺杂碳笼纤维；进行700 °C退火并对比Pt/C的粒径变化；测试乙二醇氧化反应质量活性与乙醇酸法拉第效率；构建膜电极流动电解器进行240 h稳定性与选择性评价；通过机理研究考察*OH吸附、COads氧化及C—C断裂与过氧化能垒。具体合成条件、表征手段与测试参数摘要未报告。",
+        "relevance_zh": "该工作聚焦高熵合金电催化剂与碳载体锚定策略，涉及碳笼纤维和膜电极器件，与介孔导电MOF、共轭COF/HOF、介孔材料及框架材料组装主线关联较弱，仅在“载体锚定抑制烧结”这一组装/稳定化思路上有借鉴意义。对框架材料电化学合成方向参考价值有限，不建议全文精读，可按需关注其抗烧结策略。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级信息。纳米颗粒合成细节、N/O锚定位点的谱学证据、机理研究的实验与理论方法、电解器运行条件及选择性统计等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "700 °C退火后PtPdIrRuCu颗粒由2.8 nm仅增至3.8 nm，而Pt/C由2.3 nm团聚至21.8 nm，表明N/O锚定与高熵效应协同抑制烧结。",
+          "乙二醇氧化反应质量活性达7.66 A·mgPt⁻¹，为Pt/C的7.3倍，乙醇酸法拉第效率95.8%。",
+          "膜电极流动电解器稳定运行240 h以上，乙醇酸选择性高于90%。",
+          "机理上增强*OH吸附促进乙醇酸路径，亲氧Ir/Ru位点加速COads氧化，并提高C—C断裂与过氧化能垒抑制副产物。"
+        ]
+      },
+      {
+        "title": "Layer-Distortion Engineering of Acridinium-Based Covalent Organic Frameworks Enables Efficient Photoredox Transformations of Alcohols",
+        "abstract": "Abstract Planar two-dimensional (2D) covalent organic frameworks (COFs) often suffer from severe interlayer π–π stacking, which promotes excitonic recombination, restricts access to active sites, and compromises photocatalytic efficiency. Here we report a layer-distortion engineering strategy to construct wavy acridinium-based COFs, Mes-Acr-TAPB and Mes-Acr-TAPP, by introducing structural distortion into otherwise planar layered frameworks. The resulting wavy framework efficiently suppresses interlayer π–π stacking, enlarges interlayer spacing, modulates molecular packing, pore environment, and improves accessibility to photoactive acridinium sites. Compared with the planar analog Dur-Acr-TAPB, Mes-Acr-TAPB exhibits enhanced exciton dissociation along with substrate absorption, more efficient charge separation, and superior photocatalytic activity. As a heterogeneous photoredox catalyst, Mes-Acr-TAPB enables diverse alcohol transformations under mild conditions, including β-scission radical functionalization, ring contraction/expansion, and skeletal transposition. Mes-Acr-TAPB shows broad functional-group tolerance and supports late-stage structural modification of complex natural products, highlighting its synthetic utility. This work establishes layer-distortion as an effective design principle for mitigating interlayer stacking in 2D COFs and advancing high-performance COF photocatalysts for sustainable organic synthesis.",
+        "authors": [
+          "Yimin Pan",
+          "Shufang Tang",
+          "Wenyu Li",
+          "Ailin Pan",
+          "Yifan Dong",
+          "Wenbin Lin",
+          "Haifeng Zheng"
+        ],
+        "institutions": [],
+        "published": "2026-10-21",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c14023",
+        "url": "https://doi.org/10.1021/jacs.6c14023",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "吖啶鎓基共价有机框架的层畸变工程实现高效醇类光氧化还原转化",
+        "summary_zh": "该工作通过层畸变工程构建波浪形吖啶鎓基共价有机框架Mes-Acr-TAPB与Mes-Acr-TAPP，抑制层间π–π堆积、扩大层间距并改善光活性位点可及性，相较平面类似物表现出更强激子解离、电荷分离与光催化活性，可实现多种醇类转化及天然产物后期修饰。",
+        "research_details_zh": "研究针对平面二维共价有机框架层间π–π堆积严重、导致激子复合、活性位点可及性受限和光催化效率下降的问题，提出层畸变工程策略，在原本平面的层状框架中引入结构畸变，构建波浪形吖啶鎓基共价有机框架Mes-Acr-TAPB和Mes-Acr-TAPP。波浪形结构有效抑制层间π–π堆积，扩大层间距，调控分子堆积与孔环境，并改善光活性吖啶鎓位点的可及性。与平面类似物Dur-Acr-TAPB相比，Mes-Acr-TAPB表现出增强的激子解离与底物吸收、更高效的电荷分离和更优的光催化活性。作为多相光氧化还原催化剂，Mes-Acr-TAPB在温和条件下实现多种醇转化，包括β-断裂自由基官能化、扩环/缩环及骨架重排，具有宽泛的官能团耐受性，并支持复杂天然产物的后期结构修饰。该工作确立层畸变作为缓解二维COF层间堆积、推进高性能COF光催化剂的设计原则。",
+        "methods_zh": "摘要报告合成了波浪形吖啶鎓基共价有机框架Mes-Acr-TAPB与Mes-Acr-TAPP，并与平面类似物Dur-Acr-TAPB对比；通过结构表征考察层间堆积、层间距、分子堆积与孔环境；评价激子解离、底物吸收与电荷分离行为；作为多相光氧化还原催化剂测试多种醇转化及天然产物后期修饰。具体合成条件、表征手段与光催化测试参数摘要未报告。",
+        "relevance_zh": "该工作直接属于共轭COF框架材料主线，核心是以层畸变调控二维COF层间堆积与孔环境，进而优化激子解离、电荷分离和光催化性能，对理解框架材料“结构畸变—堆积—性能”关系具有实际参考价值。其多相光氧化还原与后期修饰应用也拓展了COF功能边界。建议全文精读，重点核查层间距、堆积结构与光催化定量数据。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级信息。COF合成条件、结构解析与层间距数值、激子解离与电荷分离表征方法、光催化产率/选择性及底物范围等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "层畸变工程构建的波浪形Mes-Acr-TAPB和Mes-Acr-TAPP有效抑制层间π–π堆积、扩大层间距并改善吖啶鎓光活性位点可及性。",
+          "相较平面类似物Dur-Acr-TAPB，Mes-Acr-TAPB表现出增强的激子解离、底物吸收、电荷分离与光催化活性。",
+          "Mes-Acr-TAPB作为多相光氧化还原催化剂可实现β-断裂自由基官能化、扩环/缩环及骨架重排等多种醇转化，并支持复杂天然产物后期修饰。",
+          "摘要未报告相应定量数据（如层间距数值、光催化产率或选择性）。"
+        ]
+      },
+      {
+        "title": "A Microporous Zr-Tetraphosphonate MOF with Permanent Porosity, Robustness, and Thermochemical Heat Storage Capability",
+        "abstract": "Abstract Combining high-valent metal cations with phosphonate linkers represents a promising strategy to address the limited stability of MOFs, yet permanently porous phosphonate MOFs (P-MOFs) remain rare due to the strong coordination propensity of phosphonate groups. Herein, we report IEF-10, a new microporous zirconium tetraphosphonate framework constructed from ZrO5F octahedral secondary building units and a pyrene tetraphosphonate linker. The material combines three features that are seldom achieved simultaneously in P-MOFs: permanent accessible microporosity (equivalent BET surface area ∼430 m2·g–1), accessible phosphonic acid functionalities (-PO3H), and exceptional thermal (up to 450 °C), mechanical (&amp;gt;3 tons), and chemical stability (pH 1–12, organic solvents). The structure exhibits reversible water adsorption with moderate uptake and experimentally determined capacities of heat storage of ∼400–500 J·g–1, reflecting a favorable balance between host–guest interactions and regeneration requirements. As a proof of concept, IEF-10 was evaluated for thermochemical heat storage under dynamic moist-gas flow conditions. Calorimetric measurements revealed fast heat-release kinetics (3–4 h), and excellent cyclability in terms of heat release (at least 10 cycles, total test duration of 5 weeks). The hydrophobic surface character is an advantage for long-term storage uses as the adsorbent can remain in a dry state between the charging and discharging stages even at low relative humidity levels in the reactor. These results demonstrate how the combination of permanent porosity, accessible phosphonic acid groups, and exceptional framework robustness can enable functional adsorption-driven energy storage while providing new opportunities for the development of porous zirconium P-MOFs.",
+        "authors": [
+          "Pablo Salcedo-Abraira",
+          "Catalina Biglione",
+          "Sérgio M. F. Vilela",
+          "Artem A. Babaryk",
+          "Antonio Rodríguez-Diéguez",
+          "Philippe Trens",
+          "Fabrice Salles",
+          "Jerzy Zajac",
+          "Patricia Horcajada"
+        ],
+        "institutions": [],
+        "published": "2026-10-21",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c13167",
+        "url": "https://doi.org/10.1021/jacs.6c13167",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "mof",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "coordination",
+            "material",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "一种具有永久孔隙率、稳健性和热化学储热能力的微孔Zr-四膦酸酯MOF",
+        "summary_zh": "报道了由ZrO5F八面体次级构筑单元与芘四膦酸酯连接体构建的微孔锆四膦酸酯框架IEF-10，同时实现永久微孔性、可及膦酸官能团与优异热/机械/化学稳定性，并在动态湿气流下验证其热化学储热性能与循环性。",
+        "research_details_zh": "研究针对膦酸酯MOF因膦酸基团配位倾向强而难以获得永久孔隙的长期难题，提出以高价金属阳离子与膦酸酯连接体结合提升稳定性的策略。材料体系为IEF-10，由ZrO5F八面体次级构筑单元与芘四膦酸酯连接体组装而成的微孔锆四膦酸酯框架。设计策略旨在同时实现三个在膦酸酯MOF中罕见并存的特征：永久可及微孔性、可及膦酸官能团（-PO3H）以及极端稳定性。研究过程包括结构构建与孔隙表征、热/机械/化学稳定性测试、可逆水吸附测试、量热法储热容量测定，以及在动态湿气流条件下的热化学储热概念验证与循环测试。其意义在于证明永久孔隙、可及膦酸基团与框架稳健性的结合可支撑吸附驱动储能功能，并为多孔锆膦酸酯MOF的开发提供新机会。",
+        "methods_zh": "摘要明确出现的方法包括：由ZrO5F八面体次级构筑单元与芘四膦酸酯连接体构建框架；通过等效BET比表面积评估永久微孔性；热稳定性（至450 °C）、机械稳定性（大于3吨）与化学稳定性（pH 1–12、有机溶剂）测试；可逆水吸附测试；量热法测定储热容量与放热动力学；在动态湿气流条件下开展热化学储热概念验证及至少10次循环、为期5周的循环性测试。具体合成条件与表征细节摘要未报告。",
+        "relevance_zh": "该工作属于框架材料（MOF）主线，聚焦微孔膦酸酯MOF的稳定性—孔隙率协同设计及吸附驱动热化学储热，对理解高价金属—膦酸酯配位组装与框架稳健性关系有参考价值。其储热容量约400–500 J·g–1属中等水平，且研究对象为微孔而非介孔框架，与介孔导电MOF、共轭框架及电化学合成主题关联有限。若关注稳定多孔框架的吸附储能功能，值得全文精读；若聚焦介孔或导电框架，则相关性较低。",
+        "evidence_note_zh": "本解读为摘要级解读，仅依据题目与摘要，未核查全文。合成条件、SBU与连接体的具体连接方式、晶体结构解析、BET计算模型与数据质量、水吸附等温线与 uptake 数值、储热容量测试条件与误差、循环测试中容量衰减情况、疏水性表征及动态气流实验参数等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "IEF-10的等效BET比表面积约为430 m2·g–1，具有永久可及微孔性，并保留可及膦酸官能团（-PO3H）。",
+          "材料热稳定性高达450 °C，机械稳定性大于3吨，化学稳定性覆盖pH 1–12及有机溶剂。",
+          "实验测定储热容量约400–500 J·g–1，反映主客体相互作用与再生需求之间的有利平衡。",
+          "动态湿气流下量热测量显示快速放热动力学（3–4 h），放热循环性优异（至少10次循环，总测试时长5周）；疏水表面使其在低相对湿度下充电与放电阶段之间仍保持干燥状态。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-20",
     "search_start": "2026-10-18",
     "generated_at": "2026-10-21T01:30:20Z",
