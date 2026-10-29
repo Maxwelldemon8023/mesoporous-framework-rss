@@ -1,5 +1,504 @@
 [
   {
+    "date": "2026-10-28",
+    "search_start": "2026-10-26",
+    "generated_at": "2026-10-29T02:22:35Z",
+    "papers": [
+      {
+        "title": "Hierarchically Porous Polyaniline Film via Interfacial Self-Assembly for Ultrafast Dual-Band Electrochromic Smart Window",
+        "abstract": "Abstract Dual-band electrochromic smart windows, capable of independently regulating visible and near-infrared solar radiation, offer an effective route toward reducing building/vehicle energy consumption. However, their practical implementation is often limited by slow switching kinetics, insufficient bistability, as well as challenges in fabricating polychromatic, uniform, and scalable electrochromic films with efficient ion and charge transport. Here, we report an interfacial self-assembly strategy to fabricate large-area polyaniline (PANI) thin films featuring a hierarchically porous architecture and thickness-dependent porosity gradient. The self-assembly process, driven by solvent exchange at the air–water interface and modulated by surfactant confinement, produces interconnected PANI nanoparticle networks with both in-plane hierarchical pores and out-of-plane structural gradation. This architecture facilitates electrolyte penetration and charge transport across the film thickness. As a result, the PANI films enable rapid and stable dual-band electrochromic modulation, exhibiting three distinct optical states (“bright”, “cool”, and “dark”) with independent control of visible and near-infrared transmittance. The assembled devices demonstrate fast response (coloration/bleaching times of 1.8/4 s at 633 nm and 1.2/3.6 s at 1200 nm), high coloration efficiency, and excellent optical bistability, together with effective indoor thermal regulation. These results establish interfacial self-assembly as a versatile approach for engineering functional polymer films for next-generation energy-efficient smart windows.",
+        "authors": [
+          "Wenkun Fei",
+          "Qing Zhao",
+          "Jianmei Chen",
+          "Canfeng Ding",
+          "Shengliang Zhang",
+          "Qiang Zhao",
+          "Jianmin Li"
+        ],
+        "institutions": [],
+        "published": "2026-10-28",
+        "journal": "Chemistry of Materials",
+        "doi": "10.1021/acs.chemmater.6c01929",
+        "url": "https://doi.org/10.1021/acs.chemmater.6c01929",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 56,
+        "scores": {
+          "topic": 18,
+          "method": 12,
+          "quality": 8,
+          "novelty": 10,
+          "network": 0,
+          "applied": 4,
+          "archive": 4,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Chemistry of Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "charge transport"
+          ],
+          "mesoporous": [
+            "hierarchically porous"
+          ],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly",
+            "surfactant"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "nanoparticle",
+            "polymer",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "界面自组装制备多级孔聚苯胺薄膜用于超快双波段电致变色智能窗",
+        "summary_zh": "该工作采用界面自组装策略制备大面积多级孔聚苯胺薄膜，通过溶剂交换与表面活性剂限域形成面内多级孔和厚度方向孔隙梯度，实现可见与近红外独立调控的三态双波段电致变色，响应快且双稳态优异。",
+        "research_details_zh": "研究针对双波段电致变色智能窗切换动力学慢、双稳态不足以及多色均匀可放大薄膜制备困难的问题，提出在空气—水界面利用溶剂交换驱动、表面活性剂限域调控的界面自组装策略，制备大面积聚苯胺薄膜。所得薄膜具有多级孔结构及随厚度变化的孔隙梯度，由互连的聚苯胺纳米颗粒网络构成，兼具面内多级孔与面外结构梯度。该结构有利于电解液渗透和跨膜厚电荷传输。薄膜可实现快速稳定的双波段电致变色调制，呈现亮态、冷态和暗态三种光学状态，可见与近红外透过率可独立控制。器件在633纳米和1200纳米处表现出快速着色/漂白响应、高着色效率和优异光学双稳态，并具备有效的室内热调控能力。该工作将界面自组装确立为面向下一代节能智能窗的功能聚合物薄膜工程化方法。",
+        "methods_zh": "摘要明确采用空气—水界面溶剂交换驱动的界面自组装制备聚苯胺薄膜，并以表面活性剂限域调控组装结构。表征与测试涉及薄膜多级孔结构、面内孔与面外结构梯度的确认，以及电致变色性能测试：在633纳米和1200纳米处测定着色/漂白响应时间，评估着色效率、光学双稳态和三种光学状态的可见与近红外透过率调控，并演示室内热调控。具体表征手段与合成条件摘要未报告。",
+        "relevance_zh": "该工作属于自组装技术与多级孔功能薄膜的交叉方向，对理解界面自组装调控孔隙梯度、电荷传输与电致变色性能的关系有直接参考价值，并可启发框架或聚合物薄膜的组装—传输—器件性能研究。其材料体系为聚苯胺而非MOF/COF/HOF，机制与框架材料组装关联有限；若关注多级孔薄膜组装与电化学器件，值得全文精读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要。薄膜具体合成条件、表面活性剂种类与用量、孔径分布、膜厚、着色效率数值、双稳态保持时间、器件结构及热调控定量数据等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "界面自组装结合溶剂交换与表面活性剂限域，可制备大面积、多级孔且沿厚度方向具有孔隙梯度的聚苯胺薄膜。",
+          "薄膜实现亮态、冷态、暗态三种光学状态，可见与近红外透过率可独立调控。",
+          "器件在633纳米处着色/漂白时间为1.8/4秒，在1200纳米处为1.2/3.6秒，并具有高着色效率和优异光学双稳态。",
+          "器件展示有效的室内热调控能力。"
+        ]
+      },
+      {
+        "title": "V‐Shaped Linkers Modulate Covalent Organic Frameworks' Interlayer Spacing for Efficient Iodine Capture",
+        "abstract": "ABSTRACT Significantly enlarging and precisely regulating the interlayer spacing of two‐dimensional covalent organic frameworks (2D COFs) is both meaningful and challenging. Capitalizing on the weak conjugation effects inherent in flexible monomer assembly, this study proposes an interlayer regulation strategy for constructing 2D flexible COFs using dual‐flexible monomers. By introducing nonlinear V‐shaped linkers, we elucidated the core structure‐property relationship of “angle‐packing‐spacing” and established a novel assembly method for synthesizing highly crystalline 2D nonlinear COFs (NLCOFs). Crucially, the V‐shaped topology effectively suppresses interlayer π‐π stacking interactions, thereby enabling controllable expansion and precise tuning of COF interlayer spacing within the range of 4.2 Å to 4.5 Å. Moreover, fine‐tuning the included angle of linkers allows NLCOFs' structural optimization, allowing control over the adsorption and transport properties toward guest molecules such as iodine vapor and iodomethane. This work provides fundamental insights into the rational design of flexible crystalline COFs and establishes a potentially generalizable strategy for interlayer engineering.",
+        "authors": [
+          "Xinghua Guo",
+          "Yiyan Hong",
+          "Jianming Li",
+          "Meicheng Zhang",
+          "Bo Chen",
+          "Yang Li",
+          "Lijian Ma",
+          "Degao Wang"
+        ],
+        "institutions": [],
+        "published": "2026-10-27",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.79313",
+        "url": "https://doi.org/10.1002/adfm.79313",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 38,
+        "scores": {
+          "topic": 18,
+          "method": 2,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystalline"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "V形连接基调控共价有机框架层间距用于高效碘捕获",
+        "summary_zh": "该研究以双柔性单体和V形连接基构建高结晶二维非线性共价有机框架，利用V形拓扑抑制层间π-π堆积，将层间距精确调控在4.2至4.5埃，并据此调节对碘蒸气和碘甲烷的吸附与传输性能。",
+        "research_details_zh": "研究针对二维共价有机框架层间距显著扩大与精确调控困难的问题，利用柔性单体组装中较弱的共轭效应，提出以双柔性单体构建二维柔性共价有机框架的层间调控策略。通过引入非线性V形连接基，研究阐明角度—堆积—间距的核心构效关系，并建立合成高结晶二维非线性共价有机框架的新组装方法。关键在于V形拓扑有效抑制层间π-π堆积相互作用，使层间距在4.2至4.5埃范围内可控扩展并精确调节。进一步微调连接基夹角可实现结构优化，从而调控对碘蒸气和碘甲烷等客体分子的吸附与传输性能。该工作为柔性结晶共价有机框架的理性设计提供基础认识，并建立可能具有普适性的层间工程策略。",
+        "methods_zh": "摘要明确采用双柔性单体与非线性V形连接基进行组装，合成高结晶二维非线性共价有机框架，并通过调节连接基夹角实现结构优化。性能评价涉及对碘蒸气和碘甲烷的吸附与传输测试。摘要未报告具体合成条件、表征手段、结晶性表征方法及吸附测试细节。",
+        "relevance_zh": "该工作直接关联共轭COF的组装与层间工程主线，其角度—堆积—间距构效关系对框架材料孔道与层间距设计具有方法学参考价值，并涉及客体吸附与传输。材料为柔性二维COF而非导电或介孔框架，电化学合成与介孔结构未涉及；若关注COF层间距调控与吸附分离，值得全文精读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要。连接基具体结构、合成条件、结晶性与孔隙表征、层间距测定方法、碘吸附容量与动力学数据等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "V形拓扑有效抑制层间π-π堆积，使二维非线性共价有机框架层间距在4.2至4.5埃范围内可控扩展和精确调节。",
+          "微调V形连接基夹角可优化框架结构，并调控对碘蒸气和碘甲烷的吸附与传输性能。",
+          "提出角度—堆积—间距的构效关系，并建立双柔性单体组装高结晶二维非线性共价有机框架的方法。"
+        ]
+      },
+      {
+        "title": "Chemical Reaction‐Powered Self‐Assembly and Dehydration of Supramolecular Hydrogels for Phase‐Transitional Robots",
+        "abstract": "ABSTRACT Phase‐transitional robots have long intrigued the scientists from multidisciplinary fields, yet their realization remains a formidable task due to the lack of soft materials that seamlessly integrate phase transition with actuation functionality. Here, we report phase‐transitional hydrogel robots enabled by chemical reaction‐powered supramolecular gelation of a peptide solution followed by a dehydration process. The peptide contains a carboxyl group which can be converted into hydrophobic oxazolone moiety upon addition of carbodiimide. This chemical transformation neutralizes the negative charge of the peptide, thereby activating its self‐assembly into a hydrogel. Interestingly, over time, the hydrogel network becomes more hydrophobic because of the progressive formation of hydrophobic oxazolone species, which in turn leads to dehydration‐induced macroscopic contraction of the hydrogel. The contraction degree can be regulated by changing the concentrations of carbodiimide. This sol‐to‐gel transition followed by actuation behavior enables phase‐transitional robots that can flow into complex terrains to catch and transport cargoes, showing extraordinary morphological adaptivity. As an application, we show that the robot can adaptively enter a narrow channel to regulate an electrical circuit. This work unlocks the potential of chemically fueled supramolecular self‐assembly for the development of phase‐transitional robots that show unparalleled morphological adaptivity and functionalities.",
+        "authors": [
+          "Guanyao Gu",
+          "Lai Wei",
+          "Yuliang Gao",
+          "Chunyu Zhang",
+          "Xinyu Chen",
+          "Xuhong Guo",
+          "Yiming Wang",
+          "F.Z. Xuan"
+        ],
+        "institutions": [
+          "East China University of Science and Technology",
+          "East China University of Science and Technology",
+          "East China University of Science and Technology",
+          "East China University of Science and Technology",
+          "East China University of Science and Technology",
+          "East China University of Science and Technology",
+          "East China University of Science and Technology",
+          "East China University of Science and Technology"
+        ],
+        "published": "2026-10-27",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.8697238",
+        "openalex_id": "https://openalex.org/W7223986524",
+        "url": "https://doi.org/10.1002/anie.8697238",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch",
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 37,
+        "scores": {
+          "topic": 6,
+          "method": 6,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "materials",
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "化学反应驱动的超分子水凝胶自组装与脱水用于相变机器人",
+        "summary_zh": "该工作利用碳二亚胺将肽中羧基转化为疏水噁唑酮，中和负电荷并驱动肽自组装成超分子水凝胶，随后疏水物种渐进形成引发脱水收缩，收缩程度可由碳二亚胺浓度调控，从而实现可流动、可抓取运输货物的相变机器人。",
+        "research_details_zh": "研究针对相变机器人缺乏能无缝整合相变与驱动功能的软材料这一难题，提出以化学反应驱动的超分子凝胶化结合脱水过程构建相变水凝胶机器人。所用肽含羧基，加入碳二亚胺后羧基转化为疏水噁唑酮部分，化学转化中和肽的负电荷，从而激活其自组装形成水凝胶。随时间推移，疏水噁唑酮物种逐步形成使水凝胶网络疏水性增强，进而导致脱水诱导的宏观收缩。收缩程度可通过改变碳二亚胺浓度调控。这种溶胶—凝胶转变及随后的驱动行为使相变机器人能够流入复杂地形以抓取和运输货物，展现突出的形态适应性。应用演示中，机器人可自适应进入狭窄通道以调控电路。该工作释放了化学燃料驱动超分子自组装在相变机器人中的潜力，赋予其形态适应性与功能。",
+        "methods_zh": "摘要明确采用含羧基肽溶液，通过加入碳二亚胺实现化学转化并驱动超分子自组装形成水凝胶，随后进行脱水过程；通过改变碳二亚胺浓度调控水凝胶收缩程度。功能演示包括机器人流入复杂地形抓取和运输货物，以及进入狭窄通道调控电路。摘要未报告具体肽序列、浓度、表征手段和力学测试方法。",
+        "relevance_zh": "该工作属于自组装技术主线中的化学燃料驱动超分子组装与刺激响应软材料，对理解自组装—脱水收缩—驱动功能的耦合有参考价值，并可启发框架或超分子材料的动态组装设计。其体系为肽基水凝胶，不涉及MOF/COF/HOF、介孔材料或电化学合成；若关注自组装驱动与相变软体机器人，可拓展阅读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要。肽序列、碳二亚胺种类与浓度范围、凝胶化与收缩的定量表征、力学性能、机器人驱动速度与负载能力等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "碳二亚胺将肽羧基转化为疏水噁唑酮，中和负电荷并激活肽自组装形成超分子水凝胶。",
+          "疏水噁唑酮渐进形成增强网络疏水性，引发脱水诱导的宏观收缩，收缩程度可由碳二亚胺浓度调控。",
+          "溶胶—凝胶转变与后续驱动行为使机器人可流入复杂地形抓取运输货物，并能进入狭窄通道调控电路。"
+        ]
+      },
+      {
+        "title": "Micelles as a Confined Liquid: Standard and Two-Dimensional Kinetics of Solute Rotation in Surfactant Micelles",
+        "abstract": "Abstract The dynamics inside a surfactant micelle show clear confinement effects: solute rotation slows and develops a nonexponential relaxation. Multiple rate constants─rate dispersion─must be involved. These effects have been widely attributed to solutes confined to an outer layer of strongly ordered hydrocarbon chains, a layer similar to a Langmuir-Blodgett film. In this picture, confinement effects result from a surface phenomenon enhanced by the high surface area of a nanometer-sized particle. This paper presents results that are inconsistent with strong chain ordering. Varying the solute shows that most of the confinement-induced slowing is at the center of the micelle, not near its surface. Two-dimensional (two-relaxation-period) kinetics show that rate dispersion is mostly due to rate heterogeneity among different solute molecules. A homogeneous component of the stretched dynamics is also identified and is attributed to the coupling of the solute rotation with conformational relaxation of the hydrocarbon chains. In a picture consistent with these results, the micelle is unstructured, and the solutes are more widely distributed than in the conventional model. Confinement effects are not due to surface effects; they are due to the clash in the lengths of the hydrocarbon chain and the particle diameter. This study is enabled by a nonparametric, “data-first” approach that enhances the interpretation of kinetics, especially two-dimensional kinetics.",
+        "authors": [
+          "Biswajit Manna",
+          "Mainak Dhar",
+          "Mark A. Berg"
+        ],
+        "institutions": [],
+        "published": "2026-10-28",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c16297",
+        "url": "https://doi.org/10.1021/jacs.6c16297",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 35,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "micelle",
+            "surfactant"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "micelle"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "胶束作为受限液体：表面活性剂胶束中溶质旋转的标准动力学与二维动力学",
+        "summary_zh": "该文质疑胶束受限效应源于表面有序链层的传统观点，通过变溶质与二维动力学分析表明，受限减速主要发生在胶束中心，速率分散主要源于不同溶质分子间的速率异质性，并识别出与烃链构象弛豫耦合的均相组分。",
+        "research_details_zh": "研究问题聚焦于表面活性剂胶束内部溶质旋转的受限效应及其微观起源。传统模型将溶质旋转减慢和非指数弛豫归因于溶质被限制在类似Langmuir-Blodgett膜的高度有序外层烃链中，即一种由纳米颗粒高比表面积增强的表面现象。本文通过改变溶质分子考察受限减速的空间分布，并采用二维（双弛豫周期）动力学方法区分速率分散的来源。结果显示，大部分受限诱导的减速位于胶束中心而非表面附近；速率分散主要来自不同溶质分子之间的速率异质性，同时识别出一个均相拉伸动力学组分，并将其归因于溶质旋转与烃链构象弛豫的耦合。作者据此提出胶束内部无结构、溶质分布比传统模型更宽的图像，认为受限效应源于烃链长度与颗粒直径之间的不匹配，而非表面效应。该工作借助非参数化“数据优先”方法提升动力学尤其是二维动力学的解读能力，对理解软物质受限动力学具有方法学意义。",
+        "methods_zh": "摘要明确提到采用变溶质策略考察胶束内溶质旋转动力学，并应用二维（双弛豫周期）动力学分析区分速率分散来源；同时使用非参数化“数据优先”方法增强动力学数据解读。摘要未报告具体的表面活性剂种类、溶质分子结构、光谱技术、温度条件及定量拟合参数。",
+        "relevance_zh": "该文属于自组装胶束体系中的受限动力学研究，与自组装技术主线相关，但并非介孔导电MOF、共轭框架或框架材料电化学合成方向。其方法学价值在于二维动力学与“数据优先”分析策略，可启发框架孔道内客体动力学的异质性与耦合机制研究；对框架材料主线直接价值有限，若关注受限空间动力学表征方法可略读，否则不必精读全文。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读；具体表面活性剂与溶质体系、表征手段、温度与浓度条件、二维动力学数据及定量参数均需全文核查。",
+        "key_findings_zh": [
+          "大部分受限诱导的溶质旋转减速发生在胶束中心，而非近表面区域，与传统表面有序层模型不一致。",
+          "二维动力学表明速率分散主要源于不同溶质分子间的速率异质性，并识别出与烃链构象弛豫耦合的均相拉伸动力学组分。",
+          "提出胶束内部无结构、溶质分布更宽的图像，受限效应归因于烃链长度与颗粒直径的不匹配而非表面效应。"
+        ]
+      },
+      {
+        "title": "Nonfullerene Acceptor−Iridium Coordination Polymer as a Triplet Sensitizer for Efficient Organic Photovoltaics",
+        "abstract": "ABSTRACT Utilizing triplet excitons has been recognized as a promising method to boost performances of organic solar cells (OSCs). Although long lifetime and diffusion length of triplet excitons have been observed in some systems, efficiencies of triplet‐sensitized OSCs are still moderate because of the lack of an efficient way to generate and transfer triplet excitons. In this study, we report a nonfullerene acceptor–iridium coordination polymer (BTP‐N‐Ir) as a triplet sensitizer in ternary OSCs for utilizing triplet excitons to improve photocurrents. The triplet polymer sensitizer shows a small singlet‐triplet energy gap, facilitating the generation of long‐lived triplet excitons, which transfer to an intra‐moiety excited (i‐EX) state of the acceptor in ternary films, dissociating into free charges to contribute photocurrents. Such a new triplet‐exciton transfer pathway with the i‐EX as an intermediate state is more effective than those in previous systems, leading to the highest efficiency of 20.37% for OSCs with a triplet sensitizer.",
+        "authors": [
+          "Xuan Liu",
+          "Yang Li",
+          "Yejun Xiao",
+          "Yongfeng Ni",
+          "Yu Qiao",
+          "Xin Guo",
+          "Can Li"
+        ],
+        "institutions": [],
+        "published": "2026-10-28",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75552",
+        "url": "https://doi.org/10.1002/adma.75552",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "coordination polymer"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "coordination",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "非富勒烯受体-铱配位聚合物作为三线态敏化剂用于高效有机光伏",
+        "summary_zh": "该文报道一种非富勒烯受体-铱配位聚合物BTP-N-Ir作为三元有机太阳能电池的三线态敏化剂，其小单-三线态能隙利于产生长寿命三线态激子，经受体分子内激发态中间态实现更有效的三线态激子转移与电荷解离，使器件效率达20.37%。",
+        "research_details_zh": "研究问题是有机太阳能电池中三线态激子虽具长寿命和长扩散长度，但缺乏高效产生与转移三线态激子的途径，导致三线态敏化器件效率中等。材料体系为非富勒烯受体与铱配位形成的配位聚合物BTP-N-Ir，作为三线态敏化剂引入三元有机太阳能电池。设计策略利用该三线态聚合物敏化剂的小单-三线态能隙促进长寿命三线态激子产生，并使其转移至三元薄膜中受体的分子内激发态，该态作为中间态进一步解离为自由电荷贡献光电流。研究过程包括在三元薄膜中表征三线态激子向受体分子内激发态的转移路径，并评估其对光电流和器件效率的提升。意义在于提出以受体分子内激发态为中间态的新型三线态激子转移路径，较此前体系更有效，并实现含三线态敏化剂有机太阳能电池的最高效率20.37%，为利用三线态激子提升光伏性能提供配位聚合物敏化剂设计思路。",
+        "methods_zh": "摘要明确提到构建非富勒烯受体-铱配位聚合物BTP-N-Ir并作为三线态敏化剂制备三元有机太阳能电池薄膜与器件，评估三线态激子产生、向受体分子内激发态转移及电荷解离对光电流的贡献，并测试器件效率。摘要未报告具体合成步骤、表征技术、能隙数值、激子寿命及器件稳定性数据。",
+        "relevance_zh": "该文涉及配位聚合物作为功能组分用于光电器件，与框架材料主线中的配位聚合物相关，但其结构为三线态敏化剂而非介孔或共轭框架，且不涉及电化学合成或自组装。对配位聚合物光电功能化有参考价值，对介孔导电MOF与框架电化学合成主线直接价值有限；若关注配位聚合物激子调控可读摘要，全文精读优先级较低。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读；配位聚合物结构、合成条件、光物理表征、能隙与激子寿命数值及器件测试细节均需全文核查。",
+        "key_findings_zh": [
+          "BTP-N-Ir三线态聚合物敏化剂具有小单-三线态能隙，有利于产生长寿命三线态激子。",
+          "三线态激子转移至三元薄膜中受体的分子内激发态，并以该态为中间态解离为自由电荷贡献光电流。",
+          "该三线态激子转移路径较此前体系更有效，使含三线态敏化剂的有机太阳能电池效率达到20.37%。"
+        ]
+      },
+      {
+        "title": "Coupling Ligand Tuning With Polymer‐Induced Aperture Regulation for Molecular Sieving in Flexible MOFs",
+        "abstract": "ABSTRACT Framework flexibility fundamentally limits molecular sieving in many metal–organic frameworks (MOFs) by enlarging their effective pore apertures beyond crystallographic constraints. This challenge is pronounced in zeolitic imidazolate framework‐8 (ZIF‐8), where dynamic aperture expansion prevents CO 2 /N 2 size‐sieving despite an ideally positioned nominal aperture size. Here, we show that polymer infiltration enables in situ regulation of dynamic apertures, converting ZIF‐8 from a nonselective adsorbent into a CO 2 /N 2 molecular sieve. During mixed‐matrix membrane (MMM) formation, poly(ethylene glycol) diacrylate (PEGDA) partially infiltrates ZIF cavities and suppresses framework dynamics, as supported by solid‐state NMR ( 1 H‐ 13 C HetCor) and spin–lattice relaxation. Consequently, the CO 2 /N 2 diffusion selectivity of ZIF‐8‐NH 2 with 6 mol% 2‐aminobenzimidazole increased from 0.58 (polymer‐free) to 26.6 within the polymer environment, enabling CO 2 /N 2 size sieving. Membranes with 20 wt% filler achieved a CO 2 permeability of 261.7 Barrer and a CO 2 /N 2 selectivity of 73.9. This strategy is generalizable to other flexible ZIFs, such as ZIF‐7 and ZIF‐67, establishing polymer infiltration as a simple and versatile route for controlling dynamic MOF apertures for effective gas separation.",
+        "authors": [
+          "Jun Hyoung Lee",
+          "Ju Yeon Won",
+          "Amro M. O. Mohamed",
+          "Tae‐Wan Kim",
+          "Na Hyeon Lee",
+          "Kiwon Eum",
+          "Jong Suk Lee",
+          "Yun‐Ho Ahn"
+        ],
+        "institutions": [],
+        "published": "2026-10-27",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.5441857",
+        "url": "https://doi.org/10.1002/anie.5441857",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "mof",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "membrane",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": true,
+        "title_zh": "配体调控与聚合物诱导孔径调节耦合实现柔性MOF分子筛分",
+        "summary_zh": "该文针对ZIF-8框架柔性导致动态孔径扩张、无法实现CO2/N2尺寸筛分的问题，利用PEGDA部分渗入ZIF空腔抑制框架动力学，使ZIF-8-NH2的CO2/N2扩散选择性由0.58提升至26.6，混合基质膜CO2渗透率达261.7 Barrer、选择性73.9。",
+        "research_details_zh": "研究问题在于框架柔性会扩大MOF有效孔径、突破晶体学孔径限制，从而根本性限制分子筛分；ZIF-8虽名义孔径理想，但动态孔径扩张使其无法实现CO2/N2尺寸筛分。材料体系为ZIF-8及氨基功能化ZIF-8-NH2，并引入6 mol% 2-氨基苯并咪唑进行配体调控，同时以聚乙二醇二丙烯酸酯PEGDA作为聚合物渗入组分。设计策略是在混合基质膜形成过程中使PEGDA部分渗入ZIF空腔，抑制框架动力学，实现动态孔径的原位调节。研究通过固态NMR（1H-13C HetCor）和自旋-晶格弛豫表征支持PEGDA渗入与框架动力学抑制。结果使ZIF-8-NH2的CO2/N2扩散选择性从无聚合物时的0.58提高到聚合物环境中的26.6，实现CO2/N2尺寸筛分；含20 wt%填料的膜CO2渗透率为261.7 Barrer、CO2/N2选择性为73.9。该策略可推广至ZIF-7和ZIF-67等其他柔性ZIF，表明聚合物渗入是控制动态MOF孔径的简便通用途径。",
+        "methods_zh": "摘要明确提到配体调控引入6 mol% 2-氨基苯并咪唑，在混合基质膜形成过程中以PEGDA部分渗入ZIF空腔，采用固态NMR（1H-13C HetCor）和自旋-晶格弛豫表征框架动力学，并测试混合基质膜的CO2/N2扩散选择性与渗透选择性。摘要未报告膜制备详细条件、气体测试温度压力及长期稳定性数据。",
+        "relevance_zh": "该文直接涉及MOF框架柔性与孔径调控，与框架材料主线高度相关，尤其对理解柔性MOF动态孔径抑制与分子筛分具有实际价值；其聚合物渗入策略可为框架孔道限域与复合膜设计提供参考。但该文不涉及介孔导电MOF、共轭框架或电化学合成，属拓展性参考；若关注柔性MOF气体分离与孔径调控，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读；ZIF合成细节、PEGDA渗入量、NMR谱图证据、气体分离测试条件及膜稳定性等关键细节均需全文核查。",
+        "key_findings_zh": [
+          "PEGDA部分渗入ZIF空腔并抑制框架动力学，固态NMR与自旋-晶格弛豫结果支持该作用。",
+          "ZIF-8-NH2（6 mol% 2-氨基苯并咪唑）的CO2/N2扩散选择性由无聚合物时的0.58提升至聚合物环境中的26.6，实现CO2/N2尺寸筛分。",
+          "含20 wt%填料的混合基质膜CO2渗透率达261.7 Barrer、CO2/N2选择性达73.9。",
+          "该聚合物渗入策略可推广至ZIF-7和ZIF-67等其他柔性ZIF。"
+        ]
+      },
+      {
+        "title": "HOMO‐Level Alignment as a Design Descriptor for Donor–Acceptor Covalent Organic Frameworks in Aqueous Zinc‐Iodine Batteries",
+        "abstract": "ABSTRACT Aqueous zinc–iodine batteries (ZIBs) offer high voltage and inherent safety, but face a persistent trade‐off among fast kinetics, long cycling stability, and high iodine loading. Donor–acceptor (D–A) covalent organic frameworks (COFs) have emerged as promising iodine hosts, yet the rational design is hindered by an unclear understanding of what truly governs charge‐transfer efficiency—with most studies empirically pursuing higher energy density without clear design rules. In this study, we establish highest occupied molecular orbital (HOMO) level alignment relative to iodine's redox potential as the governing descriptor for charge‐transfer efficiency. Analyzing a series of units with progressively elevated HOMO levels reveals a clear trend: higher HOMO levels enhance electron donation to iodine and promote charge transfer. The optimally designed NT‐COF, which combines a triphenylamine (TPA) donor with favorable HOMO alignment and a naphthalene diimide (NTCDI) acceptor with extended conjugation, exhibits the best electrochemical performance. Even with a high iodine loading (∼50.5 wt%), it delivers stable cycling and reliable low‐temperature operation. Spectroscopic and theoretical analyses confirm that the energetic alignment facilitates chemisorptive iodine anchoring, accelerates charge transfer, and suppresses polyiodide dissolution. This synergy confirms that rational COF design must combine energy‐level alignment with structural conjugation.",
+        "authors": [
+          "Donghong Wang",
+          "Yongcan Feng",
+          "Yufan Shang",
+          "Ruiqian Sun",
+          "Xiangfeng Chu",
+          "Tingxuan Yan",
+          "Jie Xu",
+          "Qing Li",
+          "Lei Zhu"
+        ],
+        "institutions": [],
+        "published": "2026-10-27",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.7926853",
+        "url": "https://doi.org/10.1002/anie.7926853",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": true,
+        "title_zh": "HOMO能级对齐作为供体-受体共价有机框架在水系锌碘电池中的设计描述符",
+        "summary_zh": "该研究提出以COF的HOMO能级相对碘氧化还原电位的对齐程度作为供体-受体COF电荷转移效率的调控描述符，并据此设计NT-COF，在高碘负载约50.5 wt%下实现稳定循环与低温运行，为COF碘宿主提供理性设计规则。",
+        "research_details_zh": "研究针对水系锌碘电池中快速动力学、长循环稳定性与高碘负载难以兼得的矛盾，以及供体-受体COF作为碘宿主缺乏明确设计规则的问题，提出以最高占据分子轨道能级相对碘氧化还原电位的对齐程度作为电荷转移效率的主导描述符。作者分析了一系列HOMO能级逐步升高的构建单元，观察到HOMO能级越高越有利于向碘供电子并促进电荷转移的趋势。据此设计的最优NT-COF将具有有利HOMO对齐的三苯胺供体与具有扩展共轭的萘二酰亚胺受体相结合，获得最佳电化学性能。该工作将能级对齐与结构共轭并列为COF理性设计必须兼顾的两个要素，为供体-受体框架材料的分子级设计提供了可操作的描述符思路。",
+        "methods_zh": "摘要明确出现的方法包括：对一系列HOMO能级递升的构建单元进行比较分析；合成以三苯胺为供体、萘二酰亚胺为受体的NT-COF；电化学性能测试（循环稳定性、低温运行、高碘负载条件）；光谱分析与理论分析，用于验证能级对齐对碘化学吸附、电荷转移及多碘化物溶解抑制的作用。具体合成条件、表征手段种类与测试参数摘要未报告。",
+        "relevance_zh": "该工作直接关联共轭COF的理性设计主线，将分子轨道能级对齐引入框架材料设计描述符体系，对供体-受体COF在电化学储能中的应用具有方法学参考价值。其局限在于摘要仅给出单一最优体系与定性机制描述，缺乏系列材料的定量构效对比数据。鉴于设计规则清晰且涉及高负载与低温等边界条件，值得全文精读以核查能级调控与性能关联的完整证据链。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级解读。COF的具体合成条件与溶剂体系、表征技术细节、HOMO能级的数值范围、电化学测试参数（电流密度、容量保持率、循环圈数、低温温度）、多碘化物抑制的直接证据及理论计算细节均需全文核查。",
+        "key_findings_zh": [
+          "HOMO能级相对碘氧化还原电位的对齐程度被确立为供体-受体COF电荷转移效率的主导描述符，HOMO能级升高可增强向碘的电子供给并促进电荷转移。",
+          "最优NT-COF结合三苯胺供体与萘二酰亚胺受体，在约50.5 wt%的高碘负载下仍实现稳定循环和可靠的低温运行。",
+          "光谱与理论分析表明，能级对齐促进碘的化学吸附锚定、加速电荷转移并抑制多碘化物溶解。",
+          "合理的COF设计需同时兼顾能级对齐与结构共轭，二者协同决定性能。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-27",
     "search_start": "2026-10-25",
     "generated_at": "2026-10-28T02:08:53Z",
