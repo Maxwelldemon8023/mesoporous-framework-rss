@@ -1,5 +1,379 @@
 [
   {
+    "date": "2026-11-04",
+    "search_start": "2026-11-02",
+    "generated_at": "2026-11-05T03:26:49Z",
+    "papers": [
+      {
+        "title": "Universal In-Plane Confined Growth of Mesoporous Metal–Organic Framework Crystalline Heterostructures",
+        "abstract": "Abstract Constructing mesoporous MOF heterostructures on conductive two-dimensional hosts remains challenging because interfacial contact and pore accessibility are rarely optimized simultaneously. Herein, we report a universal in-plane confined growth strategy for mesoporous UiO-66-NH2/MXene heterostructures featuring continuous interfacial contact and vertically accessible mesochannels. In contrast to conventional particle-on-sheet hybrids, the resulting architecture enables improved electrolyte penetration, shortened Zn2+ transport pathways, and efficient interfacial electron transfer. By regulating micellar assembly at the interface, an optimal mesostructural regime is identified in which ion accessibility and structural confinement are best balanced. Consequently, the optimized heterostructure delivers a high energy density of 163.9 Wh kg–1, excellent rate capability (∼68% retention over a 50-fold current increase), and ∼100% capacity retention over 50,000 cycles. Kinetic analyses and ex situ studies further show that the interfacial mesoporous architecture suppresses diffusion limitations and preserves structural integrity during Zn2+ storage. Moreover, the assembly concept shows transferability across substrates of different dimensionalities, highlighting its broader utility for constructing mesoporous crystalline heterostructures. This work provides an effective route to mesoporous MOF heterostructures and a generalizable design principle for hybrid crystalline electrodes.",
+        "authors": [
+          "Prashant Dubey",
+          "Yingji Zhao",
+          "Norman C.-R. Chen",
+          "Xiangyang Liu",
+          "Asep Sugih Nugraha",
+          "Minghao Xu",
+          "Yusuke Yamauchi"
+        ],
+        "institutions": [],
+        "published": "2026-11-04",
+        "journal": "ACS Nano",
+        "doi": "10.1021/acsnano.6c13368",
+        "url": "https://doi.org/10.1021/acsnano.6c13368",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 67,
+        "scores": {
+          "topic": 35,
+          "method": 6,
+          "quality": 8,
+          "novelty": 10,
+          "network": 0,
+          "applied": 4,
+          "archive": 4,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "ACS Nano"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystalline",
+            "mesoporous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "介孔金属有机框架晶体异质结构的普适面内限域生长",
+        "summary_zh": "提出普适性面内限域生长策略，在MXene等二维基底上构建介孔UiO-66-NH2晶体异质结构，实现连续界面接触与垂直可及介孔通道，优化后锌离子储能达163.9 Wh kg–1并具超长循环稳定性。",
+        "research_details_zh": "研究针对导电二维基底上构建介孔MOF异质结构时界面接触与孔道可及性难以兼顾的问题，提出面内限域生长策略，制备介孔UiO-66-NH2/MXene异质结构。该结构区别于传统颗粒-片层杂化物，具有连续界面接触和垂直可及的介孔通道，可改善电解液渗透、缩短Zn2+传输路径并促进界面电子转移。通过调控界面胶束组装，研究确定了离子可及性与结构限域最佳平衡的介观结构区间。优化后的异质结构用于Zn2+存储，表现出高能量密度、优异倍率性能和近100%容量保持。动力学分析及非原位研究显示，界面介孔结构抑制扩散限制并在储锌过程中保持结构完整性。该组装概念还可转移至不同维度基底，为介孔MOF异质结构与杂化晶态电极提供通用设计原则。",
+        "methods_zh": "摘要明确采用面内限域生长策略构建介孔UiO-66-NH2/MXene异质结构，通过调控界面胶束组装优化介观结构；性能评价包括能量密度、倍率性能和长循环测试；机理方面采用动力学分析和非原位研究；并验证该组装概念在不同维度基底上的可转移性。具体合成条件与表征手段摘要未报告。",
+        "relevance_zh": "该工作直接契合介孔导电MOF、框架材料组装与电化学储能主线，提供二维基底上介孔MOF晶体异质结构的普适组装策略及结构—性能关系证据，对界面限域组装设计有较高参考价值。摘要未给出具体合成参数与表征细节，建议全文精读以核查介孔调控机制与普适性范围。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级信息；具体前驱体、胶束模板、合成温度时间、表征手段、动力学分析细节及不同维度基底验证范围仍需全文核查。",
+        "key_findings_zh": [
+          "优化异质结构能量密度达163.9 Wh kg–1，电流增大50倍时容量保持约68%，50,000次循环容量保持约100%。",
+          "界面介孔结构可改善电解液渗透、缩短Zn2+传输路径并促进界面电子转移。",
+          "动力学分析与非原位研究表明界面介孔结构抑制扩散限制并保持储锌过程结构完整性。",
+          "面内限域组装策略可在不同维度基底上转移，具有构建介孔晶态异质结构的普适性。"
+        ]
+      },
+      {
+        "title": "Review and Outlook on Biomass-Derived Carbon Materials and Their Functional Composites with 2D Materials for Sustainable Energy Storage Applications",
+        "abstract": "Abstract The synergistic integration of sustainable biomass-derived carbon frameworks with highly conductive two-dimensional MXenes represents a promising frontier for bridging the energy–power gap in electrochemical energy-storage systems. This Review highlights the critical role of MXenes, transition-metal dichalcogenides (TMDs), and metal–organic frameworks (MOFs), along with their composites with biomass-derived activated carbon, in designing advanced electrodes for energy storage systems. Biomass-derived carbons offer renewable, low-cost, and hierarchically porous structures that facilitate efficient ion transport, while MXenes provide exceptional electrical conductivity and surface functionality. Meanwhile, MOFs and TMDs introduce tunable porosity and abundant redox-active sites, enabling enhanced pseudocapacitive and Faradaic charge storage. A central focus of this Review is the influence of synthesis strategies on structural evolution and electrochemical performance. Various synthesis approaches are critically discussed to demonstrate how they can tailor three-dimensional architectures, interfacial interactions, and pore distribution, thereby directly influencing key performance metrics, such as specific capacitance, energy density, rate capability, and cycling stability. In addition, the Review comprehensively examines essential characterization techniques and practical performance parameters, including scalability, oxidation stability, and electrolyte compatibility, providing insights into the realistic evaluation of device performance. Finally, future research directions are outlined with an emphasis on green and scalable synthesis routes, flexible and wearable device integration, and the development of electrically efficient and structurally robust architectures. This Review provides a comprehensive framework for the design of next-generation hybrid materials, paving the way for high-performance, sustainable, and commercially viable energy storage technologies.",
+        "authors": [
+          "Md Nishat Eliyas",
+          "Nitin Kumar Gautam",
+          "Shahid Ul Islam",
+          "Faheem Ahmed",
+          "Zishan H. Khan",
+          "Shalendra Kumar"
+        ],
+        "institutions": [
+          "Jamia Millia Islamia",
+          "University of Petroleum and Energy Studies",
+          "Jamia Millia Islamia",
+          "Jamia Millia Islamia",
+          "Jamia Millia Islamia",
+          "University of Petroleum and Energy Studies"
+        ],
+        "published": "2026-11-03",
+        "journal": "Energy & Fuels",
+        "doi": "10.1021/acs.energyfuels.6c02570",
+        "openalex_id": "https://openalex.org/W7225202218",
+        "url": "https://doi.org/10.1021/acs.energyfuels.6c02570",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 46,
+        "scores": {
+          "topic": 29,
+          "method": 4,
+          "quality": 0,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [
+            "mofs"
+          ],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [
+            "hierarchically porous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "materials",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "生物质衍生碳材料及其与二维材料功能复合材料用于可持续储能的研究进展与展望",
+        "summary_zh": "综述生物质衍生碳与MXene、TMD、MOF等功能复合材料在电化学储能中的设计，重点讨论合成策略对三维结构、界面作用和孔分布的影响及其对电容、能量密度、倍率和循环性能的调控。",
+        "research_details_zh": "该综述聚焦可持续生物质衍生碳框架与高导电二维MXene等材料协同集成，以弥合电化学储能中的能量—功率差距。文中强调MXene、过渡金属硫族化合物和MOF及其与生物质活性炭复合材料在先进电极设计中的作用：生物质碳提供可再生、低成本、分级多孔结构以促进离子传输，MXene提供高电导率和表面功能化，MOF与TMD引入可调孔隙和丰富氧化还原活性位点，增强赝电容与法拉第储能。综述核心在于合成策略对结构演化和电化学性能的影响，讨论如何调控三维架构、界面相互作用和孔分布，从而影响比电容、能量密度、倍率性能和循环稳定性。同时评述关键表征技术与实际性能参数，包括可扩展性、氧化稳定性和电解液兼容性，并展望绿色可扩展合成、柔性与可穿戴器件集成及结构稳健架构等方向。",
+        "methods_zh": "作为综述，摘要明确其综合讨论多种合成方法对结构演化与电化学性能的影响，评述关键表征技术及实际性能参数（可扩展性、氧化稳定性、电解液兼容性），并比较生物质碳与MXene、TMD、MOF及其复合材料的电极设计。摘要未报告具体实验合成条件、表征数据或性能数值。",
+        "relevance_zh": "该综述与框架材料（MOF）、多孔碳及二维导电材料复合储能主线相关，可提供生物质碳—MXene—MOF复合材料的设计框架与性能评价视角。但其为综述性文献，非原创实验，且介孔MOF与组装电化学合成并非核心，适合作为背景拓展而非重点精读。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级信息；综述所引具体合成路线、表征结果、性能数值及比较结论需全文核查。",
+        "key_findings_zh": [
+          "生物质衍生碳提供可再生、低成本、分级多孔结构，有利于离子传输；MXene提供高电导率和表面功能化。",
+          "MOF与TMD可引入可调孔隙和丰富氧化还原活性位点，增强赝电容与法拉第电荷存储。",
+          "合成策略通过调控三维架构、界面相互作用和孔分布，直接影响比电容、能量密度、倍率性能和循环稳定性。",
+          "实际评价需关注可扩展性、氧化稳定性和电解液兼容性，未来方向包括绿色可扩展合成与柔性可穿戴集成。"
+        ]
+      },
+      {
+        "title": "Versatile Interfacial Engineering of Core–Shell Mesoporous Nanomaterials: Programmable Assembly, Functional Integration, and Diverse Applications",
+        "abstract": "Abstract Integrating diverse building blocks into functional materials with tailored architectures and properties has emerged as an efficient strategy to address the demands of multifunctional applications, and core–shell mesoporous materials (CSMMs) enable the modular integration of functional components and the structural optimization of mass transfer. Enabled by multi-interface nanoassembly strategies, diverse CSMMs have been engineered and sparked intense interdisciplinary interest owing to their distinctive features, including multicomponent synergistic effects, interfacial coupling effects, and rationally designed heterogeneous architectures. Herein, this review systematically introduces the concept of “micellar coating chemistry” and summarizes current assembly strategies for the tailored synthesis of CSMMs. The rational design of structure (e.g. surface roughness, cavity, pore size, and porosity) and composition (e.g. magnetic-, noble metal-, silica-, polymer-, and carbon-based components) are highlighted. Furthermore, functionality integration (e.g. nanoparticle loading, hybridization, and surface functionalization) is also evaluated and summarized, and the diverse applications of these materials in hot fields, such as catalysis, gas sensing, environmental remediation, biomedicine, energy storage and conversion, are critically assessed and compared. This review outlines future research opportunities and challenges, and establishes a conceptual foundation for the rational design, scalable synthesis, and versatile interdisciplinary applications of CSMMs.",
+        "authors": [
+          "Yidong Zou",
+          "Yu Deng",
+          "Junhao Ma",
+          "Limin Wu",
+          "Qin Yue",
+          "Yonghui Deng"
+        ],
+        "institutions": [],
+        "published": "2026-11-03",
+        "journal": "ACS Nano",
+        "doi": "10.1021/acsnano.6c16393",
+        "url": "https://doi.org/10.1021/acsnano.6c16393",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 41,
+        "scores": {
+          "topic": 12,
+          "method": 6,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 4,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "ACS Nano"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "materials",
+            "mesoporous",
+            "nanomaterials",
+            "nanoparticle",
+            "polymer",
+            "silica"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "核壳介孔纳米材料的通用界面工程：可编程组装、功能集成与多样应用",
+        "summary_zh": "综述以胶束包覆化学为核心，系统总结核壳介孔纳米材料的界面纳米组装策略，讨论结构（表面粗糙度、空腔、孔径、孔隙率）与组成调控、功能集成及其在催化、传感、环境、生物医学和能源等领域的应用。",
+        "research_details_zh": "该综述针对多功能应用对定制架构与性能材料的需求，聚焦核壳介孔材料可实现功能组分模块化集成与传质结构优化。文章系统引入胶束包覆化学概念，总结核壳介孔材料的现有多界面纳米组装策略，强调结构理性设计（表面粗糙度、空腔、孔径和孔隙率）与组成设计（磁性、贵金属、二氧化硅、聚合物和碳基组分）。同时评估并总结功能集成方式，包括纳米颗粒负载、杂化和表面功能化，并对材料在催化、气体传感、环境修复、生物医学、能量存储与转换等热点领域的应用进行批判性评估与比较。综述还展望未来研究机遇与挑战，为核壳介孔材料的理性设计、可扩展合成和跨学科应用建立概念基础。",
+        "methods_zh": "作为综述，摘要明确其系统介绍胶束包覆化学概念，总结核壳介孔材料的多界面纳米组装策略，评述结构与组成设计、功能集成方式，并对催化、气体传感、环境修复、生物医学、能量存储与转换等应用进行比较评估。摘要未报告具体合成条件、表征手段或性能测试数值。",
+        "relevance_zh": "该综述与介孔材料、自组装技术及框架材料组装主线相关，其胶束包覆化学与多界面组装概念可为介孔框架材料的核壳结构设计提供方法学参考。但内容偏通用核壳介孔纳米材料，未聚焦MOF/COF/HOF或电化学合成，适合作为组装策略背景拓展，精读优先级一般。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级信息；具体组装体系、合成参数、表征证据及各应用领域性能数据需全文核查。",
+        "key_findings_zh": [
+          "提出以胶束包覆化学为核心的核壳介孔材料多界面纳米组装策略框架。",
+          "结构设计涵盖表面粗糙度、空腔、孔径和孔隙率，组成设计涵盖磁性、贵金属、二氧化硅、聚合物和碳基组分。",
+          "功能集成包括纳米颗粒负载、杂化和表面功能化，并应用于催化、气体传感、环境修复、生物医学、能量存储与转换等领域。",
+          "摘要未报告相应定量性能数据。"
+        ]
+      },
+      {
+        "title": "Pursuing fragile hollow mesoporous structure for low-temperature sintering",
+        "abstract": "",
+        "authors": [
+          "Dongyuan Zhao"
+        ],
+        "institutions": [],
+        "published": "2026-11-04",
+        "journal": "National Science Review",
+        "doi": "10.1093/nsr/nwag678",
+        "url": "https://doi.org/10.1093/nsr/nwag678",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 40,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 5,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "National Science Review"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "mesoporous"
+          ]
+        },
+        "network_hits": [
+          "Dongyuan Zhao"
+        ],
+        "excluded_hits": [],
+        "reading_depth": "仅元数据",
+        "recommendation": "同时命中介孔化、关注作者/机构，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "追求脆弱中空介孔结构以实现低温烧结",
+        "summary_zh": "摘要未报告。该条目仅有题目，无摘要内容，无法判断其材料体系、介孔结构特征、低温烧结策略及性能结果。仅从题目看，研究关注脆弱中空介孔结构与低温烧结的关系，但具体贡献摘要未报告。",
+        "research_details_zh": "摘要未报告。由于输入仅提供题目Pursuing fragile hollow mesoporous structure for low-temperature sintering，未提供摘要正文，无法依据摘要说明研究问题、材料体系、设计策略、研究过程及意义。题目提示研究对象为脆弱中空介孔结构，目标应用或工艺背景涉及低温烧结，但中空介孔结构的组成、孔结构参数、脆弱性的来源与调控方式、低温烧结的温度窗口及结构演变机制均摘要未报告。因此不能判断该工作与介孔导电MOF、共轭框架材料或框架材料组装的直接关系，也不能提取任何定量结果或结构—性能关系。",
+        "methods_zh": "摘要未报告。输入未提供摘要，无法确认任何合成方法、组装策略、表征手段或性能测试方法。题目中出现的低温烧结属于工艺背景提示，但具体烧结条件、前驱体体系、结构表征方式及性能评价方法均摘要未报告。",
+        "relevance_zh": "该条目与介孔材料主线存在题目层面的关联，可能涉及中空介孔结构的稳定性与低温烧结行为，对介孔结构在热过程中的保持策略有潜在参考价值。但由于摘要缺失，无法确认其材料类别是否属于导电MOF、共轭框架或其他框架材料，也无法评估其机制深度与数据完整性。当前不建议仅凭题目投入全文精读，应先获取摘要与关键图表判断相关性。",
+        "evidence_note_zh": "本解读为摘要级解读，且该条目实际无摘要可用，所有判断仅基于题目。中空介孔结构的组成、孔结构参数、脆弱性机制、低温烧结条件、结构演变与性能数据等关键细节均需全文核查。",
+        "key_findings_zh": [
+          "摘要未报告相应数据",
+          "题目仅提示研究脆弱中空介孔结构与低温烧结，具体结论摘要未报告",
+          "摘要未报告相应数据"
+        ]
+      },
+      {
+        "title": "Porous Framework Assembly Creates Functional Tertiary Folds in Small Peptides",
+        "abstract": "Abstract There is significant interest in recreating the protein tertiary structure in simpler systems, which can enable the precise and modular organization of multiple functional groups for enhancing molecular recognition and catalysis. Small peptides are minimalist analogs of proteins; however, their limited size highly disfavors folding into tertiary structures, especially those that also possess open binding sites needed for function. Here, we report that 3-dimensional self-assembly into a porous crystalline framework overcomes this limitation, producing modular tertiary structures in peptides shorter than 20 amino acids with tunable binding sites. As shown by X-ray crystallography, this framework-mediated folding tolerates many sequences with a broad range of functional groups, and it generates precise confined environments that are dynamic and mutationally robust. Thus, these pores can be programmed to selectively bind complex molecular guests such as nucleotides and perfluoroalkyl substances through the cooperative engagement of up to 10 distinct residues. These results demonstrate that a well-defined tertiary structure can exist in very short peptides and can impart tunable protein-like function to synthetic porous materials.",
+        "authors": [
+          "Pragati Ganatra",
+          "Daniel F. Wang",
+          "Bidyut K. Kundu",
+          "Prithwiraj Jana",
+          "Dan McElheny",
+          "Savannah Nichols",
+          "Pamela J. Focia",
+          "Joseph S. Brunzelle",
+          "Viet Thuc Dang",
+          "Andy I. Nguyen"
+        ],
+        "institutions": [],
+        "published": "2026-11-04",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c16936",
+        "url": "https://doi.org/10.1021/jacs.6c16936",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 37,
+        "scores": {
+          "topic": 6,
+          "method": 6,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystalline",
+            "materials",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "多孔框架组装在小肽中构建功能性三级折叠",
+        "summary_zh": "该工作利用三维自组装形成多孔晶态框架，使短于20个氨基酸的小肽获得可调结合位点的模块化三级结构。晶体学显示该框架介导的折叠耐受多种序列与官能团，形成动态且抗突变的限域环境，并可协同多达10个残基选择性识别核苷酸和全氟烷基物质。",
+        "research_details_zh": "研究问题是如何在远小于蛋白质的小肽中重建三级结构，并同时保留用于分子识别与催化的开放结合位点。作者提出以三维自组装形成多孔晶态框架作为折叠模板，使短于20个氨基酸的肽序列在框架限域环境中形成模块化三级结构，并获得可调的结合位点。通过X射线晶体学解析框架介导的折叠结构，作者考察了该策略对多种序列和广泛官能团的耐受性，并分析孔道限域环境的动态性与突变鲁棒性。功能上，这些孔道被编程为通过多达10个不同残基的协同作用，选择性结合核苷酸和全氟烷基物质等复杂分子客体。该工作的意义在于证明明确的三级结构可存在于极短肽中，并能将类蛋白功能赋予合成多孔材料，为框架材料的孔内功能化与分子识别设计提供了新思路。",
+        "methods_zh": "摘要明确出现的方法包括：三维自组装构建多孔晶态框架；X射线晶体学解析肽在框架中的折叠结构与限域环境；对多种肽序列和官能团进行耐受性考察；对限域环境的动态性与突变鲁棒性进行分析；以及以核苷酸和全氟烷基物质为客体进行孔道结合选择性评价。摘要未报告具体的合成条件、晶体学分辨率、结合常数或选择性数值。",
+        "relevance_zh": "该工作属于框架材料组装与孔内功能化主线，展示了多孔晶态框架作为折叠模板调控短肽三级结构并实现协同分子识别的能力，对框架材料的限域环境设计和选择性吸附具有直接参考价值。其局限在于摘要未说明框架的化学组成、导电性或稳定性，也未给出定量结合数据，与导电MOF或共轭框架的电化学功能关联尚不明确。若关注框架组装调控分子构象与识别，值得全文精读。",
+        "evidence_note_zh": "本解读为摘要级解读。框架的具体化学组成、合成条件、晶体学分辨率、孔结构参数、结合常数与选择性数值、动态性与突变鲁棒性的定量证据等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "三维自组装形成多孔晶态框架，可使短于20个氨基酸的小肽形成模块化三级结构并获得可调结合位点",
+          "X射线晶体学表明该框架介导的折叠耐受多种序列和广泛官能团，形成的限域环境具有动态性和突变鲁棒性",
+          "孔道可通过多达10个不同残基的协同作用，选择性结合核苷酸和全氟烷基物质等复杂客体"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "search_start": "2026-11-01",
     "generated_at": "2026-11-04T02:59:11Z",
@@ -41879,275 +42253,6 @@
           "优化蒸发器在1倍太阳光照下实现了3.44 kg m⁻² h⁻¹的蒸发速率。",
           "集成模块在14小时内产生了24.4 kg m⁻²的淡水产量。",
           "性能提升源于扩展蒸发区域、毛细管水传输和热量再分配的协同作用。"
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "generated_at": "2026-07-28T03:43:46Z",
-    "papers": [
-      {
-        "title": "Interfacial-energy-directed synthesis of mesoporous COF architectures",
-        "abstract": "",
-        "authors": [
-          "Jing Tang",
-          "Yusuke Yamauchi"
-        ],
-        "institutions": [],
-        "published": "2026-07-27",
-        "journal": "National Science Review",
-        "doi": "10.1093/nsr/nwag454",
-        "url": "https://doi.org/10.1093/nsr/nwag454",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 47,
-        "scores": {
-          "topic": 18,
-          "method": 4,
-          "quality": 15,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "National Science Review"
-        ],
-        "hits": {
-          "framework": [
-            "cof"
-          ],
-          "conductive": [],
-          "mesoporous": [
-            "mesoporous"
-          ],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "mesoporous"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "仅元数据",
-        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "核心推荐",
-        "title_zh": "界面能引导的介孔COF结构合成",
-        "summary_zh": "研究提出了一种基于界面能调控的策略，用于合成具有介孔结构的共价有机框架（COF），为设计新型多孔材料提供了新思路。",
-        "research_details_zh": "该研究聚焦于通过界面能调控实现介孔COF的合成。研究可能探讨了如何利用界面能的变化来引导COF的自组装过程，从而形成具有特定孔径和结构的介孔体系。这种方法可能突破了传统COF合成中孔径调控的限制，为开发具有特定功能的多孔材料提供了新的设计策略。研究的意义在于为多孔材料的合成开辟了新的方向，尤其是在催化、分离和储能等领域具有潜在应用价值。",
-        "methods_zh": "摘要未报告具体的合成、组装、表征或性能测试方法。",
-        "relevance_zh": "该研究直接涉及介孔COF的设计与合成，符合研究主线。其提出的界面能调控策略可能为框架材料的孔径调控提供新思路，值得全文精读以了解具体方法和性能数据。",
-        "evidence_note_zh": "这是摘要级解读，需核查全文以获取实验条件、表征数据、性能测试结果及具体机制。",
-        "key_findings_zh": [
-          "摘要未报告相应数据"
-        ]
-      },
-      {
-        "title": "Engineering Frustrated Packing of Porous Organic Cages for Precision Acetylene–Ethylene Separation",
-        "abstract": "ABSTRACT Porous organic cages (POCs) are emerging porous molecular materials with their tunable porosity and solution processability. Beyond the intrinsic pores within individual cage molecules, extrinsic pores generated by intermolecular packing play a critical role in defining the porosity and separation performance of POCs. These packing‐derived pores can connect discrete cage cavities, impose size‐selective constraints, and create tailored adsorption microenvironments. However, their systematic design and utilization remain underdeveloped, as current synthetic and post‐synthetic modification strategies largely focus on intrinsic‐pore engineering. In this study, we report an extrinsic pores engineering strategy based on the structural modification of tetrazine‐based POCs. By tuning cage shape and peripheral steric hindrance, we precisely modulate frustrated packing to achieve highly selective acetylene uptake. The optimized cage, m ‐4N‐cage , exhibits excellent acetylene/ethylene separation performance in adsorption and breakthrough experiments, comparable to that of the best‐performing porous molecular organic materials. In situ single‐crystal diffraction analysis reveals that acetylene molecules are selectively adsorbed within the tailored extrinsic pores. This work highlights extrinsic pores as a tunable design element for targeted separations and establishes as a model platform for controlling frustrated packing in molecular crystal engineering.",
-        "authors": [
-          "Hongqing Li",
-          "Zhe Jia",
-          "Aiting Kai",
-          "Dingyue Hu",
-          "Jinjin Zhang",
-          "Ming Liu"
-        ],
-        "institutions": [],
-        "published": "2026-07-27",
-        "journal": "Angewandte Chemie International Edition",
-        "doi": "10.1002/anie.3036478",
-        "url": "https://doi.org/10.1002/anie.3036478",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 35,
-        "scores": {
-          "topic": 6,
-          "method": 4,
-          "quality": 15,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Angewandte Chemie International Edition"
-        ],
-        "hits": {
-          "framework": [],
-          "conductive": [],
-          "mesoporous": [
-            "pore engineering"
-          ],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "crystal",
-            "materials",
-            "porous"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "通过调控多孔有机笼的受限堆积实现精确的乙炔-乙烯分离",
-        "summary_zh": "研究开发了一种基于多孔有机笼（POC）外源孔的工程策略，通过调控分子堆积实现高效乙炔-乙烯分离。",
-        "research_details_zh": "该研究针对多孔有机笼（POC）的外源孔工程展开，提出通过调控笼分子的形状和外围空间位阻来优化分子堆积，从而实现对外源孔的精确调控。研究以含四嗪基团的POC为模型，通过结构修饰优化了其堆积模式，使其在吸附和穿透实验中表现出优异的乙炔/乙烯分离性能。通过原位单晶衍射分析，研究揭示了乙炔分子优先吸附于经调控的外源孔内的机制。该工作展示了外源孔作为设计元素在分子晶体工程中的潜力，为开发高效分离材料提供了新思路。",
-        "methods_zh": "研究通过结构修饰调控POC的分子堆积，采用原位单晶衍射分析吸附机制，并进行了吸附和穿透实验以评估分离性能。",
-        "relevance_zh": "该研究展示了外源孔在分子晶体工程中的重要性，为多孔材料的分离性能优化提供了新思路。尽管其与框架材料的直接关联有限，但其设计策略对框架材料的孔结构调控具有启发意义，适合拓展阅读。",
-        "evidence_note_zh": "这是摘要级解读，需核查全文以获取具体实验条件、性能数据及外源孔调控的详细机制。",
-        "key_findings_zh": [
-          "外源孔的调控可显著提高乙炔/乙烯分离性能。",
-          "优化后的m-4N-cage在吸附和穿透实验中表现出优异的分离性能。",
-          "原位单晶衍射揭示了乙炔分子优先吸附于外源孔的机制。"
-        ]
-      },
-      {
-        "title": "Dynamic Coordination-Enabled Metal-Dependent Configurational Switching in a Covalent Organic Framework",
-        "abstract": "",
-        "authors": [
-          "Si Huang",
-          "Hai-Sen Xu",
-          "Liang Song",
-          "Hongfei Wang",
-          "Wen-Na Jiao",
-          "Wei-De Zhu",
-          "Xiao-Chun Lin",
-          "Jia-Hao Chen",
-          "Han Chen",
-          "Jia Liu",
-          "Dieter Fenske",
-          "Zhiye Zhong",
-          "Cheng-Yong Su"
-        ],
-        "institutions": [],
-        "published": "2026-07-27",
-        "journal": "Journal of the American Chemical Society",
-        "doi": "10.1021/jacs.6c10544",
-        "url": "https://doi.org/10.1021/jacs.6c10544",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 32,
-        "scores": {
-          "topic": 12,
-          "method": 0,
-          "quality": 15,
-          "novelty": 4,
-          "network": 0,
-          "applied": 0,
-          "archive": 1,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Journal of the American Chemical Society"
-        ],
-        "hits": {
-          "framework": [
-            "covalent organic framework"
-          ],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "coordination"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "仅元数据",
-        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "动态配位驱动的金属依赖型共价有机框架构型切换",
-        "summary_zh": "研究探索了动态配位作用下金属离子对共价有机框架（COF）构型切换的调控机制。",
-        "research_details_zh": "该研究聚焦于动态配位作用对共价有机框架（COF）构型的影响，探讨了金属离子如何通过与COF中的功能基团相互作用，诱导其发生构型切换。这种金属依赖型的动态调控可能为开发响应性框架材料提供了新思路。研究可能涉及不同金属离子的筛选及其对COF结构和性能的影响分析，旨在揭示动态配位在调控框架材料性能中的潜力。",
-        "methods_zh": "摘要未报告具体的合成、组装、表征或性能测试方法。",
-        "relevance_zh": "该研究涉及动态配位和金属依赖型构型切换，拓展了COF材料的功能性和应用潜力。尽管摘要信息有限，但其研究方向与框架材料的动态调控密切相关，值得进一步阅读以获取详细信息。",
-        "evidence_note_zh": "这是摘要级解读，需核查全文以获取实验条件、金属离子种类、构型切换机制及性能数据。",
-        "key_findings_zh": [
-          "摘要未报告相应数据"
-        ]
-      },
-      {
-        "title": "Polymorphism in Covalent Organic Frameworks Regulates Excited Dynamics for H 2 O 2 Photosynthesis Coupled With Biomass Valorization",
-        "abstract": "ABSTRACT Polymorphism in covalent organic frameworks (COFs) offers a unique platform to decipher structure–property relationships, yet its impact on excited‐state dynamics remains unexplored. Herein, we construct two chemically identical but topologically distinct 1D and 2D COF polymorphs to correlate framework architecture with photocatalytic performance. Impressively, in H 2 O 2 photosynthesis coupled with furfuryl alcohol valorization, the 1D‐TBPP‐COF showed an exceptional H 2 O 2 generation rate (18.75 mmol g −1 h −1 ) and selective oxidation of furfuryl alcohol to high‐value 6‐hydroxy‐2H‐pyran‐3(6H)‐one (PN) with PN formation rate of 28.14 mmol·g −1 ·h −1 , substantially outperforming the 2D‐TBPP‐COF counterpart. Mechanistic investigations revealed that the intercalated dual‐chain edges in 1D‐TBPP‐COF impose steric constraints on aromatic ring rotation, effectively suppressing vibrational relaxation losses and prolonging the charge‐transfer state lifetime. In contrast, the conformationally flexible 2D‐TBPP‐COF permits greater rotational freedom, leading to non‐radiative energy dissipation. This work establishes polymorphism engineering as a powerful strategy to manipulate excited‐state dynamics in COFs for photocatalysis.",
-        "authors": [
-          "Yu‐Ou He",
-          "Wen‐Yi Zheng",
-          "Meng‐Na Yue",
-          "Yong Liu",
-          "Jiayu Li",
-          "Ming‐De Li",
-          "Wang‐Kang Han",
-          "Zhi‐Guo Gu"
-        ],
-        "institutions": [],
-        "published": "2026-07-27",
-        "journal": "Angewandte Chemie International Edition",
-        "doi": "10.1002/anie.3123120",
-        "url": "https://doi.org/10.1002/anie.3123120",
-        "sources": [
-          "Crossref"
-        ],
-        "score": 32,
-        "scores": {
-          "topic": 12,
-          "method": 0,
-          "quality": 15,
-          "novelty": 4,
-          "network": 0,
-          "applied": 0,
-          "archive": 1,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Angewandte Chemie International Edition"
-        ],
-        "hits": {
-          "framework": [
-            "cof",
-            "cofs"
-          ],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": []
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "共价有机框架中的多晶型调控激发态动力学以实现与生物质增值耦合的H2O2光合成",
-        "summary_zh": "研究通过构建1D和2D COF多晶型材料，揭示框架结构对光催化性能的影响。1D COF表现出优异的H2O2生成速率和选择性氧化性能，显著优于2D COF。",
-        "research_details_zh": "本研究探讨了共价有机框架（COFs）多晶型对激发态动力学的影响。通过设计化学组成相同但拓扑结构不同的1D和2D COF多晶型材料，研究其在H2O2光合成及糠醇氧化为高附加值产物6-羟基-2H-吡喃-3(6H)-酮（PN）中的性能差异。结果表明，1D-TBPP-COF由于其双链边缘的空间位阻效应，抑制了芳环旋转和振动弛豫损失，从而延长了电荷转移态寿命，表现出更高的光催化效率。相比之下，2D-TBPP-COF因其更大的构象自由度导致非辐射能量耗散增加。研究表明，多晶型工程是调控COFs激发态动力学以优化光催化性能的有效策略。",
-        "methods_zh": "研究通过设计1D和2D COF多晶型材料，结合光催化性能测试、动力学分析和机理研究，探讨框架结构与性能的关系。具体方法包括H2O2生成速率和PN生成速率的测定，以及对激发态动力学的深入分析。",
-        "relevance_zh": "该研究通过多晶型工程调控COFs的激发态动力学，为优化光催化性能提供了新思路，特别是在H2O2光合成和生物质增值领域具有重要意义。研究结果对设计高效光催化材料具有指导价值，值得全文精读。",
-        "evidence_note_zh": "这是基于摘要的解读，实验条件、具体表征方法和完整机理分析需通过全文核查以获取更详细信息。",
-        "key_findings_zh": [
-          "1D-TBPP-COF的H2O2生成速率为18.75 mmol g−1 h−1，显著高于2D-TBPP-COF。",
-          "1D-TBPP-COF的PN生成速率为28.14 mmol g−1 h−1，表现出优异的选择性氧化性能。",
-          "1D-TBPP-COF通过空间位阻效应抑制芳环旋转，延长了电荷转移态寿命。",
-          "2D-TBPP-COF因构象自由度增加导致非辐射能量耗散增强。"
         ]
       }
     ]
