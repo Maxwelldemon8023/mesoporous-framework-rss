@@ -1,5 +1,458 @@
 [
   {
+    "date": "2026-11-06",
+    "search_start": "2026-11-04",
+    "generated_at": "2026-11-07T02:44:06Z",
+    "papers": [
+      {
+        "title": "Reorganization of Interfacial Water by Cu–Ru Interfaces for Efficient Nitrate-to-Ammonia Electrosynthesis",
+        "abstract": "Abstract Electrocatalytic nitrate reduction offers a sustainable route for ammonia (NH3) synthesis, yet its efficiency is limited by sluggish N–O bond cleavage, incomplete NOx hydrogenation, and competing hydrogen evolution reaction. However, how catalyst structural engineering regulates the interfacial microenvironment remains unclear, despite its critical importance for constructing efficient catalysts. Here, we report a Cu3Ru7 catalyst with abundant Cu–Ru interfaces, where interface-induced water reorganization enables efficient NH3 production. The Cu3Ru7 catalyst exhibits an impressive NH3 formation rate of 19.7 mmol h–1 cm–2 at 5 A cm–2 in a membrane electrode assembly (MEA) electrolyzer and remains stable at 2 A cm–2 with an NH3 Faradaic efficiency of ∼86% for 500 h. A scale-up demonstration using a 100 cm2 MEA electrolyzer affords an NH3 formation rate up to 1.5 mol h–1 at 400 A. The in situ attenuated total reflectance surface-enhanced infrared absorption spectroscopy (ATR-SEIRAS) reveals that Cu3Ru7 catalyst establishes a moderate interfacial hydrogen-bond network, which creates a water-mediated interfacial micro environment that facilitates NOx deoxygenation and subsequent NHx formation. Ab initio molecular dynamics (AIMD) simulations further reveal that the Cu–Ru interface stabilizes the dissociating oxygen atom through a persistent and dynamically connected hydrogen-bond network, thereby facilitating sequential NO3– → NO2 → NO conversion. Meanwhile, the surrounding Cu matrix attenuates the excessive *H accumulation characteristic of Ru, suppressing the hydrogen evolution reaction. This work establishes Cu–Ru interface-induced interfacial water reorganization as a strategy for improving electrocatalytic nitrate reduction performance.",
+        "authors": [
+          "Jing Xue",
+          "Tianfu Liu",
+          "Yi Wang",
+          "Yunfan Fu",
+          "Pengfei Wei",
+          "Yanpeng Song",
+          "Hanyu Wang",
+          "Jiaqi Sang",
+          "Chuanchuan Yan",
+          "Youwen Rong",
+          "Dunfeng Gao",
+          "Guoxiong Wang",
+          "Xinhe Bao"
+        ],
+        "institutions": [],
+        "published": "2026-11-06",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c16802",
+        "url": "https://doi.org/10.1021/jacs.6c16802",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 50,
+        "scores": {
+          "topic": 12,
+          "method": 7,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 5,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [
+            "electrosynthesis"
+          ],
+          "materials": [
+            "membrane"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中电化学合成、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "Cu–Ru界面重构界面水实现高效硝酸盐电合成氨",
+        "summary_zh": "报道具有丰富Cu–Ru界面的Cu3Ru7催化剂，通过界面诱导界面水重构促进硝酸盐还原产氨。在MEA电解槽中5 A cm−2下产氨速率达19.7 mmol h−1 cm−2，2 A cm−2下法拉第效率约86%并稳定500 h，并完成100 cm2级放大演示。",
+        "research_details_zh": "研究针对电催化硝酸盐还原合成氨中N–O键断裂缓慢、NOx加氢不完全及析氢竞争等问题，指出催化剂结构工程如何调控界面微环境尚不清晰。作者构建了具有丰富Cu–Ru界面的Cu3Ru7催化剂，并以界面诱导的水重构为核心设计策略。性能评价在膜电极组件电解槽中进行，考察产氨速率、法拉第效率与稳定性，并进行100 cm2电解槽放大演示。机制方面，利用原位衰减全反射表面增强红外吸收光谱揭示Cu3Ru7建立适度的界面氢键网络，形成水介导的界面微环境，利于NOx脱氧和后续NHx生成；从头算分子动力学模拟进一步表明Cu–Ru界面通过持续且动态连接的氢键网络稳定解离的氧原子，促进NO3−→NO2→NO的连续转化，同时周围Cu基体削弱Ru过度的*H积累从而抑制析氢。该工作将Cu–Ru界面诱导的界面水重构确立为提升电催化硝酸盐还原性能的策略。",
+        "methods_zh": "摘要明确出现的方法包括：构建Cu3Ru7催化剂并在膜电极组件电解槽中评价硝酸盐还原产氨性能，考察产氨速率、法拉第效率与长期稳定性，并进行100 cm2级电解槽放大演示；采用原位衰减全反射表面增强红外吸收光谱（ATR-SEIRAS）表征界面氢键网络与界面微环境；采用从头算分子动力学（AIMD）模拟研究Cu–Ru界面稳定解离氧原子及反应路径。具体合成步骤、结构表征与电解液条件摘要未报告。",
+        "relevance_zh": "该工作虽以电催化硝酸盐还原产氨为主题，不属于介孔导电MOF或共轭框架材料主线，但其Cu–Ru界面诱导界面水重构、氢键网络调控反应中间体及抑制析氢的机制，对框架材料电化学合成与原位界面微环境设计具有方法学借鉴价值。摘要未涉及框架材料或自组装，直接相关性有限，建议作为界面调控与电催化机制参考阅读，是否精读全文取决于对界面水与氢键网络表征细节的需求。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读。催化剂的合成方法、结构表征、电解液组成、MEA构筑细节、法拉第效率测试条件及AIMD模型参数等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "Cu3Ru7催化剂在MEA电解槽5 A cm−2下产氨速率达19.7 mmol h−1 cm−2。",
+          "在2 A cm−2下氨法拉第效率约86%，并稳定运行500 h。",
+          "100 cm2 MEA电解槽在400 A下产氨速率最高达1.5 mol h−1。",
+          "原位ATR-SEIRAS与AIMD表明Cu–Ru界面建立适度界面氢键网络，稳定解离氧原子并促进NO3−→NO2→NO转化，周围Cu基体抑制*H过度积累。"
+        ]
+      },
+      {
+        "title": "Coordination-directed synthesis of two-dimensional metal-organic covalent organic frameworks",
+        "abstract": "Metal-organic covalent organic frameworks (MOCOFs) combine the advantages of covalent and metal-organic frameworks, but research remains sparse due to characterization difficulties, leaving unclear whether their formation is covalent- or coordination-directed. To date, only a few three-dimensional MOCOFs have been reported, while two-dimensional (2D) MOCOFs remain unexplored. Here, we strategically synthesize two single-crystal 2D MOCOFs with high porosity, denoted as PUMC-1 and PUMC-2. Leveraging three-dimensional electron diffraction, we are able to elucidate their formation process in detail. First, one-dimensional coordination polymers (1D CPs) are constructed from two sub-building units: tetrakis(4-aminophenyl) porphyrin and cobalt(II) trans-A₂B₂ porphyrin. Second, 1D CPs with covalent extension sites are used to construct two distinct 2D MOCOF conformations via covalent self-assembly under different conditions. Notably, the same 2D MOCOFs can also be directly obtained via one-pot synthesis with the same monomers, providing experimental evidence for a coordination-directed covalent assembly mechanism. This work not only expands the dimensionality of MOCOFs but also opens new avenues in reticular chemistry. Metal-organic covalent organic frameworks (MOCOFs) combine the advantages of covalent and metal-organic frameworks, but two-dimensional (2D) MOCOFs remain unexplored. Here, the authors synthesize two 2D MOCOFs with high porosity and elucidate their formation process in detail.",
+        "authors": [
+          "Liangliang Yue",
+          "Liqin Hao",
+          "Chun Hong Mak",
+          "Binhua Chen",
+          "Duu-Jong Lee",
+          "Hsien‐Yi Hsu",
+          "Jiong Xin Zhao",
+          "Lok Wing Wong",
+          "Di Hu",
+          "Zhongyi Jiang",
+          "Xunjin Zhu"
+        ],
+        "institutions": [
+          "Hong Kong Baptist University",
+          "Hong Kong Polytechnic University",
+          "Nankai University",
+          "City University of Hong Kong",
+          "Nankai University",
+          "City University of Hong Kong",
+          "City University of Hong Kong",
+          "Hong Kong Polytechnic University",
+          "Hong Kong Polytechnic University",
+          "Hong Kong Baptist University",
+          "Nankai University",
+          "Hong Kong Polytechnic University"
+        ],
+        "published": "2026-11-05",
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-026-79250-w",
+        "openalex_id": "https://openalex.org/W7225323910",
+        "url": "https://doi.org/10.1038/s41467-026-79250-w",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch",
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 42,
+        "scores": {
+          "topic": 18,
+          "method": 6,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Nature Communications"
+        ],
+        "hits": {
+          "framework": [
+            "reticular chemistry"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "coordination",
+            "crystal"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "配位导向合成二维金属-有机共价有机框架",
+        "summary_zh": "报道两种高孔隙率单晶二维金属-有机共价有机框架PUMC-1与PUMC-2，借助三维电子衍射解析其形成过程：先由两种子构建单元形成一维配位聚合物，再经共价自组装构建二维MOCOF，并给出一锅法直接获得相同产物的证据。",
+        "research_details_zh": "研究针对金属-有机共价有机框架（MOCOF）兼具共价框架与金属-有机框架优势但研究稀少、表征困难、形成过程究竟由共价还是配位导向尚不明确的问题，指出此前仅报道少数三维MOCOF，二维MOCOF尚属空白。作者策略性合成两种高孔隙率单晶二维MOCOF，命名为PUMC-1和PUMC-2。利用三维电子衍射详细解析其形成过程：第一步由四(4-氨基苯基)卟啉与钴(II) trans-A2B2卟啉两个子构建单元构建一维配位聚合物；第二步，具有共价延伸位点的一维配位聚合物在不同条件下经共价自组装构建两种不同的二维MOCOF构型。值得注意的是，相同单体通过一锅法合成也可直接获得相同的二维MOCOF，为配位导向的共价组装机制提供了实验证据。该工作拓展了MOCOF的维度，并为网状化学开辟新途径。",
+        "methods_zh": "摘要明确出现的方法包括：以四(4-氨基苯基)卟啉和钴(II) trans-A2B2卟啉为子构建单元进行合成；先构建一维配位聚合物，再在不同条件下经共价自组装构建二维MOCOF；采用一锅法以相同单体直接合成；利用三维电子衍射解析单晶结构及形成过程；并报道产物具有高孔隙率。具体合成条件、孔隙率数值、表征细节与稳定性测试摘要未报告。",
+        "relevance_zh": "该工作直接契合共轭框架材料与框架材料组装主线：二维MOCOF结合共价有机框架与金属-有机框架特征，且明确涉及配位导向的共价自组装机制与一锅法合成证据，对理解框架材料成核与组装路径、拓展网状化学维度具有实际价值。摘要未报告导电性、介孔结构或电化学性能，若关注导电MOF或电化学合成需全文核查。作为核心推荐，值得精读以获取三维电子衍射解析与组装机制细节。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读。单晶结构数据、孔隙率数值、合成条件、一锅法与分步法对比细节及框架稳定性等关键信息仍需全文核查。",
+        "key_findings_zh": [
+          "成功合成两种高孔隙率单晶二维MOCOF，即PUMC-1与PUMC-2，拓展了MOCOF的维度。",
+          "三维电子衍射解析表明形成过程为：两种卟啉子构建单元先形成一维配位聚合物，再经共价自组装构建二维MOCOF。",
+          "相同单体一锅法可直接获得相同二维MOCOF，为配位导向的共价组装机制提供实验证据。"
+        ]
+      },
+      {
+        "title": "Pulsed photoelectrocatalysis enables efficient urea synthesis over Cu(salen)-COF",
+        "abstract": "Abstract Electrocatalytic urea synthesis from carbon dioxide and nitrate under ambient conditions offers a sustainable alternative to the energy-intensive Bosch-Meiser process. However, its efficiency is constrained by the spatiotemporal mismatch of key carbon and nitrogen intermediates at the catalyst-electrolyte interface. Herein, we address this limitation through interfacial microenvironment optimization combining ionic liquid modification of copper-salen covalent organic framework, pulsed electrolysis, and photoelectrocatalytic coupling. The ionic liquid modification enriches carbon dioxide and facilitates interfacial charge transfer, pulsed electrolysis promotes the dynamic matching of carbon and nitrogen intermediates, and photoelectrocatalytic coupling boosts interfacial electron accumulation. The integrated system achieves a urea yield rate of 69.2 mmol g cat −1 h −1 with a Faradaic efficiency of 56.7% in an H-type cell and 82.5% in a flow cell. In this work, we establish a generalizable strategy for efficient urea electrosynthesis via hierarchical interfacial control and highlight the potential of pulsed photoelectrocatalysis.",
+        "authors": [
+          "Yuxin Ren",
+          "Zhou Wang",
+          "Xu Fang",
+          "Jiaojiao Liu",
+          "Xiaoran Wu",
+          "Chengcheng Liu",
+          "Wei-qiao Deng"
+        ],
+        "institutions": [],
+        "published": "2026-11-05",
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-026-79143-y",
+        "url": "https://doi.org/10.1038/s41467-026-79143-y",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 42,
+        "scores": {
+          "topic": 18,
+          "method": 5,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 3,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Nature Communications"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "covalent organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [
+            "electrosynthesis"
+          ],
+          "materials": [
+            "carbon"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中电化学合成，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "脉冲光电催化实现Cu(salen)-COF高效尿素合成",
+        "summary_zh": "针对CO2与硝酸盐电催化合成尿素中碳氮中间体时空失配问题，采用离子液体修饰铜-salen共价有机框架、脉冲电解与光电催化耦合的分级界面调控策略，H型池尿素产率69.2 mmol g cat−1 h−1、法拉第效率56.7%，流动池达82.5%。",
+        "research_details_zh": "研究面向常温常压下由二氧化碳和硝酸盐电催化合成尿素替代高能耗Bosch-Meiser工艺的需求，指出其效率受催化剂-电解液界面关键碳、氮中间体时空失配制约。作者以铜-salen共价有机框架（Cu(salen)-COF）为材料体系，采用分级界面微环境优化策略：离子液体修饰富集二氧化碳并促进界面电荷转移；脉冲电解促进碳、氮中间体的动态匹配；光电催化耦合增强界面电子积累。三者集成后在H型池中实现尿素产率69.2 mmol g cat−1 h−1、法拉第效率56.7%，在流动池中法拉第效率达82.5%。该工作建立了通过分级界面控制实现高效尿素电合成的可推广策略，并展示了脉冲光电催化的潜力。",
+        "methods_zh": "摘要明确出现的方法包括：以铜-salen共价有机框架为催化剂并进行离子液体修饰；采用脉冲电解；引入光电催化耦合；在H型池和流动池中评价尿素产率与法拉第效率。摘要未报告COF的具体合成与表征方法、离子液体种类与用量、光照条件、电解液组成及产物定量检测细节。",
+        "relevance_zh": "该工作以共轭COF（Cu(salen)-COF）为催化平台，结合离子液体界面修饰、脉冲电解与光电催化，属于框架材料电化学应用与界面微环境调控范畴，对理解COF在电合成中的界面工程与脉冲策略具有参考价值。摘要未涉及介孔结构、导电性表征或框架自组装合成细节，与介孔导电MOF主线关联有限。作为核心推荐，若关注COF电催化与脉冲光电耦合策略，值得精读全文。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读。COF合成与结构表征、离子液体修饰方式、脉冲参数、光照条件、电解液与产物定量方法等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "集成离子液体修饰、脉冲电解与光电催化耦合的Cu(salen)-COF体系在H型池中尿素产率达69.2 mmol g cat−1 h−1，法拉第效率56.7%。",
+          "在流动池中尿素法拉第效率达82.5%。",
+          "离子液体修饰富集CO2并促进界面电荷转移，脉冲电解促进碳氮中间体动态匹配，光电催化耦合增强界面电子积累。"
+        ]
+      },
+      {
+        "title": "Rigid Double‐Spiro‐Grid Polymer Regulates Donor Fibrillar Pre‐Assembly and Acceptor Interdiffusion in Layer‐by‐Layer Organic Solar Cells",
+        "abstract": "ABSTRACT Layer‐by‐layer (LBL) fabrication of organic solar cells (OSCs) decouples donor and acceptor deposition, which, however, induces difficulties in controlling donor crystallization and acceptor interdiffusion. Here, we introduce NPSG, a fully conjugated double‐spiro‐grid polymer, to regulate donor fibrillar pre‐assembly before acceptor deposition. Morphological results reveal that NPSG shifts D18 assembly from loosely associated aggregates toward pronounced fibrillar pre‐assemblies in solution. Molecular dynamics simulations further suggest that the rigid NPSG backbone provides multiple noncovalent interaction sites that favor anisotropic association between D18 chain segments. During film formation, these fibrillar precursors evolve into a coherent and solvent‐resistant donor framework, which moderates L8‐BO interdiffusion and promotes a vertically graded, double fibrillar heterojunction. The resulting morphology facilitates interfacial charge transfer, improves the balance of electron and hole transport, and suppresses nongeminate recombination. Consequently, the optimized D18+NPSG/L8‐BO devices achieve a power conversion efficiency (PCE) of 21.2%, with a certified value of 20.7%. This strategy also improves device reproducibility, processing tolerance, applicability across different donor/acceptor systems, and operational stability under maximum‐power‐point (MPP) tracking. These findings establish donor‐underlayer pre‐assembly regulation as an effective strategy for efficient and robust sequentially processed OSCs.",
+        "authors": [
+          "Hao Li",
+          "Yang Li",
+          "Lixuan Kan",
+          "Fei Han",
+          "Senke Tan",
+          "Jingxuan Sun",
+          "Rui Zeng",
+          "Ming Zhang",
+          "Zheng Zhang",
+          "Wutong Zhao",
+          "Mengna Yu",
+          "Quanyou Feng",
+          "Ying Wei",
+          "Yongming Zhang",
+          "Lei Zhu",
+          "Linghai Xie",
+          "Feng Liu"
+        ],
+        "institutions": [],
+        "published": "2026-11-05",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75653",
+        "url": "https://doi.org/10.1002/adma.75653",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 42,
+        "scores": {
+          "topic": 12,
+          "method": 2,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "刚性双螺环网格聚合物调控逐层有机太阳能电池中给体纤维预组装与受体互扩散",
+        "summary_zh": "该研究引入全共轭双螺环网格聚合物NPSG调控逐层有机太阳能电池中D18给体的纤维预组装，抑制L8-BO受体过度互扩散，形成垂直梯度双纤维异质结，使器件效率达21.2%（认证20.7%），并提升重现性与稳定性。",
+        "research_details_zh": "逐层加工有机太阳能电池将给体与受体分步沉积，但给体结晶控制与受体互扩散难以兼顾。作者设计并引入NPSG——一种全共轭双螺环网格聚合物——在受体沉积前调控D18给体的纤维预组装。形貌结果表明，NPSG使D18在溶液中由松散聚集体转变为明显的纤维预组装体。分子动力学模拟提示，刚性NPSG骨架提供多个非共价相互作用位点，有利于D18链段间的各向异性缔合。成膜过程中，这些纤维前驱体演化为连贯且耐溶剂的给体骨架， moderates L8-BO互扩散，促进垂直梯度双纤维异质结形成。该形貌有利于界面电荷转移、改善电子与空穴传输平衡并抑制非孪生复合。研究意义在于确立给体底层预组装调控作为高效稳健顺序加工有机太阳能电池的有效策略。",
+        "methods_zh": "摘要明确出现：逐层溶液加工制备有机太阳能电池；引入全共轭双螺环网格聚合物NPSG；形貌表征观察溶液中D18组装状态与成膜形貌；分子动力学模拟分析NPSG骨架与D18链段间非共价相互作用；光伏性能测试获得PCE及认证值；最大功率点跟踪评估运行稳定性。具体表征手段与测试条件摘要未报告。",
+        "relevance_zh": "该工作属于共轭聚合物自组装与逐层组装调控主线，展示刚性共轭骨架通过非共价相互作用调控给体预组装并影响受体互扩散，对框架/聚合物组装与光电性能关联有参考价值。但其对象为有机太阳能电池给体层，非介孔导电MOF或COF/HOF体系，与主线的材料类型距离较远，建议作为组装调控策略的拓展阅读，不必优先精读全文。",
+        "evidence_note_zh": "本条目为摘要级解读。NPSG的具体结构、分子量、添加量、形貌表征手段、模拟参数、器件结构、认证机构及稳定性测试条件等关键细节均需全文核查；摘要未报告的内容未作补造。",
+        "key_findings_zh": [
+          "NPSG使D18在溶液中由松散聚集体转变为明显的纤维预组装体，成膜后形成连贯且耐溶剂的给体骨架。",
+          "优化器件D18+NPSG/L8-BO的PCE达21.2%，认证值为20.7%。",
+          "纤维前驱体骨架 moderates L8-BO互扩散，促进垂直梯度双纤维异质结，改善电荷传输平衡并抑制非孪生复合。",
+          "该策略提升器件重现性、加工容忍度、对不同给体/受体体系的适用性及最大功率点跟踪下的运行稳定性。"
+        ]
+      },
+      {
+        "title": "Surface‐Coordinated Gas–Solid Polymerization Enables Quasi‐2D Polyphenylacetylene Single‐Crystalline Nanoribbons",
+        "abstract": "ABSTRACT Two‐dimensional (2D) conjugated polymer single crystals are highly desirable for optoelectronics, yet their realization is limited by the intrinsic coupling between molecular‐weight buildup and chain entanglement, which disrupts long‐range order. Here, we report a gas–solid interfacial polymerization strategy that decouples monomer diffusion from chain propagation, enabling the growth of quasi‐2D polyphenylacetylene (PPA) single‐crystalline nanoribbons on Cu/CuO x surfaces. This process is likely enabled by surface coordination‐assisted activation of phenylacetylene and directional π‐stacking‐driven assembly, which suppress chain entanglement and promote crystallographic ordering. As a result, micrometer‐scale PPA single‐crystalline nanoribbons with left‐handed cis‐transoidal helical chains and long‐range crystallinity are obtained. Under an ideal fully extended‐chain model, the PPA chains exhibit a geometrically estimated upper‐bound molecular weight of up to ∼3.7 × 10 9 g mol − 1 . The resulting PPA nanoribbons exhibit efficient charge transport and broadband photodetection from 375 to 1550 nm, with a responsivity of 30.1 A W − 1 and a detectivity of 8.65 × 10 1 2 Jones. This interfacial synthesis strategy provides a route to overcoming the trade‐off between molecular‐weight buildup and structural order in conjugated polymers, offering opportunities for quasi‐2D polymer semiconductors in flexible optoelectronics and programmable chiral materials.",
+        "authors": [
+          "Qian Cai",
+          "Wenting Hong",
+          "Wei Liu"
+        ],
+        "institutions": [],
+        "published": "2026-11-05",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75641",
+        "url": "https://doi.org/10.1002/adma.75641",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 42,
+        "scores": {
+          "topic": 12,
+          "method": 2,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "charge transport",
+            "conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "coordination",
+            "crystalline",
+            "materials",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "表面配位气固聚合制备准二维聚苯乙炔单晶纳米带",
+        "summary_zh": "该研究报道气固界面聚合策略，将单体扩散与链增长解耦，在Cu/CuOx表面生长出具有左手顺反螺旋链的微米级准二维聚苯乙炔单晶纳米带，几何估算分子量上限约3.7×10^9 g/mol，并展示高效电荷传输与375至1550 nm宽带光探测。",
+        "research_details_zh": "二维共轭聚合物单晶在光电子学中极具吸引力，但分子量增长与链缠结的内在耦合破坏长程有序，限制其实现。作者提出气固界面聚合策略，将单体扩散与链增长解耦，在Cu/CuOx表面生长准二维聚苯乙炔（PPA）单晶纳米带。该过程可能由表面配位辅助的苯乙炔活化与定向π堆叠驱动组装实现，从而抑制链缠结并促进结晶有序。所得微米级PPA单晶纳米带具有左手顺反螺旋链和长程结晶性。在理想全伸展链模型下，PPA链的几何估算分子量上限约3.7×10^9 g/mol。纳米带表现出高效电荷传输和375至1550 nm宽带光探测，响应度为30.1 A/W，探测率为8.65×10^12 Jones。该界面合成策略为克服共轭聚合物中分子量增长与结构有序之间的权衡提供了途径。",
+        "methods_zh": "摘要明确出现：气固界面聚合，在Cu/CuOx表面进行苯乙炔聚合；表面配位辅助活化与定向π堆叠驱动组装；获得单晶纳米带并进行结晶性表征；基于理想全伸展链模型几何估算分子量上限；电荷传输与375至1550 nm光探测性能测试，给出响应度和探测率。具体聚合温度、时间、表征设备及器件结构摘要未报告。",
+        "relevance_zh": "该工作属于共轭聚合物自组装与界面聚合主线，展示通过表面配位与气固界面解耦单体扩散和链增长来获得高有序共轭单晶，对框架材料/共轭体系的定向组装与电荷传输研究有方法学参考价值。但其材料为聚苯乙炔而非MOF/COF/HOF或介孔框架，建议作为界面聚合与结晶调控的拓展阅读。",
+        "evidence_note_zh": "本条目为摘要级解读。Cu/CuOx表面组成、聚合条件、单晶结构解析、分子量估算模型细节、光探测器件结构与测试条件等关键信息均需全文核查；摘要未报告的内容未作补造。",
+        "key_findings_zh": [
+          "气固界面聚合将单体扩散与链增长解耦，在Cu/CuOx表面获得微米级准二维PPA单晶纳米带，具有左手顺反螺旋链和长程结晶性。",
+          "理想全伸展链模型下几何估算PPA分子量上限约3.7×10^9 g/mol。",
+          "PPA纳米带实现375至1550 nm宽带光探测，响应度30.1 A/W，探测率8.65×10^12 Jones。",
+          "该策略为克服共轭聚合物分子量增长与结构有序之间的权衡提供途径。"
+        ]
+      },
+      {
+        "title": "Chiral Metal–Organic Frameworks with Multiple and Highly Anisotropic Nonlinear Optical Effects",
+        "abstract": "Abstract The design and construction of photonic materials with multiple and anisotropic nonlinear optical (NLO) behaviors for all-photonic device applications is an attractive but challenging task. Herein, we present a generalizable polarity–chirality synergy strategy that employs donor−π–acceptor (D-π-A)-type organic molecules as polar linkers for assembling chiral metal–organic frameworks (MOFs), in which polarity governs the NLO properties while chirality enables symmetry breaking. Through a chiral induction method, a pair of novel chiral MOFs, LaTCA-L and LaTCA-D, were synthesized by using 4,4″,4‴-tricarboxyltriphenylamine (H3TCA) as the ligand and lanthanum ions as the metal nodes. The LaTCA-L and LaTCA-D crystals simultaneously exhibit significant photoluminescence and second-order and third-order NLO effects with a second-harmonic generation (SHG) intensity of up to 11 times that of the classic KH2PO4 (KDP) crystal. In addition, the LaTCA-L crystal shows obvious linear polarization-dependent SHG, third-harmonic generation (THG), and two-photon-excited photoluminescence (2PEL) with a high degree of polarization (DOP) up to 99.0% under excitation wavelengths ranging from 900 to 1800 nm. In particular, the MOF LaTCA-L exhibits gSHG-CD values of 0.79 and 0.86 at 1030 nm, with identical circular-polarization-dependent SHG trends confirmed at 1064 and 1310 nm. Moreover, this construction strategy can be easily expanded to other D-π-A type organic ligands such as 1,3,5-tris(4-carboxyphenyl)benzene acid (H3BTB), thus opening a pathway toward designing multifunctional chiral MOFs with promising potential for photonic applications.",
+        "authors": [
+          "Shenghan Lin",
+          "He-Qi Zheng",
+          "Zheyan Xu",
+          "Xue Han",
+          "Guodong Qian",
+          "Yuanjing Cui"
+        ],
+        "institutions": [],
+        "published": "2026-11-04",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c20694",
+        "url": "https://doi.org/10.1021/jacs.6c20694",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "mof",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "crystal",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": true,
+        "title_zh": "具有多重且高度各向异性非线性光学效应的手性金属有机框架",
+        "summary_zh": "该研究提出极性—手性协同策略，以D-π-A型4,4″,4‴-三羧基三苯胺为配体、镧离子为节点，经手性诱导合成LaTCA-L与LaTCA-D一对手性MOF，同时表现显著光致发光及二阶、三阶非线性光学效应，SHG强度最高达KDP的11倍。",
+        "research_details_zh": "面向全光子器件应用，设计兼具多重与各向异性非线性光学（NLO）行为的光子材料具有吸引力但挑战性大。作者提出可推广的极性—手性协同策略，采用供体—π—受体（D-π-A）型有机分子作为极性连接体组装手性金属有机框架，其中极性主导NLO性质，手性实现对称性破缺。通过手性诱导方法，以4,4″,4‴-三羧基三苯胺（H3TCA）为配体、镧离子为金属节点，合成一对新型手性MOF：LaTCA-L与LaTCA-D。两种晶体同时表现显著光致发光以及二阶和三阶NLO效应，SHG强度最高达经典KH2PO4（KDP）晶体的11倍。LaTCA-L晶体在900至1800 nm激发波长范围内表现明显的线偏振依赖SHG、三阶谐波产生（THG）和双光子激发光致发光（2PEL），偏振度高达99.0%。LaTCA-L在1030 nm处gSHG-CD值为0.79和0.86，并在1064和1310 nm确认相同的圆偏振依赖SHG趋势。该构建策略可扩展至其他D-π-A型有机配体如H3BTB。",
+        "methods_zh": "摘要明确出现：以H3TCA为配体、镧离子为金属节点，通过手性诱导方法合成LaTCA-L与LaTCA-D手性MOF；光致发光表征；二阶NLO（SHG）与三阶NLO（THG）测试，并与KDP晶体对比；900至1800 nm激发波长下的线偏振依赖SHG、THG与2PEL测试及偏振度分析；1030、1064和1310 nm下的圆偏振依赖SHG与gSHG-CD测定；扩展配体H3BTB的构建验证。具体合成条件、晶体结构与测试设备摘要未报告。",
+        "relevance_zh": "该工作属于手性框架材料与框架组装主线，展示以D-π-A极性配体经手性诱导构建手性MOF并实现多重各向异性NLO效应，对框架材料的极性—手性协同设计与光子功能开发有直接参考价值。其材料为手性MOF而非介孔导电或共轭框架，建议作为框架功能化与手性组装的高质量拓展阅读，可按需精读。",
+        "evidence_note_zh": "本条目为摘要级解读。配体与金属节点比例、合成溶剂与温度、晶体结构解析、NLO测试装置与偏振配置、gSHG-CD符号归属等关键细节均需全文核查；摘要未报告的内容未作补造。",
+        "key_findings_zh": [
+          "LaTCA-L与LaTCA-D同时表现显著光致发光及二阶、三阶NLO效应，SHG强度最高达KDP晶体的11倍。",
+          "LaTCA-L在900至1800 nm激发下表现线偏振依赖SHG、THG和2PEL，偏振度高达99.0%。",
+          "LaTCA-L在1030 nm处gSHG-CD值为0.79和0.86，并在1064和1310 nm确认相同圆偏振依赖SHG趋势。",
+          "极性—手性协同策略可扩展至H3BTB等其他D-π-A型有机配体。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-05",
     "search_start": "2026-11-03",
     "generated_at": "2026-11-06T03:22:41Z",
@@ -41917,426 +42370,6 @@
         "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
         "relevance_zh": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
         "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-29",
-    "generated_at": "2026-07-30T03:39:24Z",
-    "papers": [
-      {
-        "title": "Light‐Induced Alternating Catalysis on Single‐Atom Ruthenium Embedded in Covalent Organic Frameworks for High‐Performance Photo‐Assisted Li–O 2 Batteries",
-        "abstract": "ABSTRACT The development of high‐efficiency cathode catalysts is crucial for advancing photo‐assisted non‐aqueous lithium–oxygen (Li–O 2 ) batteries, which leverage solar energy to reduce the high overpotential for driving oxygen reduction and evolution processes. However, the state‐of‐the‐art photo‐cathode catalysts often lack multi‐step conversion pathways that regulate interactions between complex active sites and reactive oxygen‐related intermediates within Li–O 2 battery systems. Herein, we report a new light‐induced alternating catalytic mechanism based on a single‐atom Ru‐embedded covalent organic framework assembled from a triazine‐core C3‐symmetric node and π‐extended perylene‐diimide linkers (T‐PDI), generating an ordered conjugated Ru/T‐PDI network that functions as a high‐performance photo cathode of the Li–O 2 battery. Unlike conventional photo‐assisted catalysts that operate through the single‐site activity, the Ru/T‐PDI electrode enables dynamic migration and efficient conversion of reactive oxygen species between catalytic sites across multiple selective sites. This mechanism orchestrates the multi‐step transformation process within Li–O 2 batteries, significantly enhancing catalytic efficiency of active sites and facilitating both the formation and decomposition of Li 2 O 2 products. As a result, the photo‐assisted Li–O 2 battery employing the Ru/T‐PDI cathode achieves a quite low overpotential, outstanding cycling stability and excellent rate performance. This work provides crucial insights for reaction mechanism studies and catalyst design for next‐generation light‐driven metal–oxygen batteries.",
-        "authors": [
-          "Zongqiang Sun",
-          "Jahan Tohtayeva",
-          "Wenbo Liu",
-          "Youxing Liu",
-          "Begumhan Karapınar Koc",
-          "Zheng Lin",
-          "Yachao Xu",
-          "Zehao Xiao",
-          "Chenglong Sun",
-          "Mingchuan Luo",
-          "Sermet Koyuncu",
-          "Onder Metin",
-          "Shaojun Guo"
-        ],
-        "institutions": [],
-        "published": "2026-07-29",
-        "journal": "Angewandte Chemie",
-        "doi": "10.1002/ange.8705276",
-        "url": "https://doi.org/10.1002/ange.8705276",
-        "sources": [
-          "Crossref"
-        ],
-        "score": 41,
-        "scores": {
-          "topic": 18,
-          "method": 0,
-          "quality": 15,
-          "novelty": 6,
-          "network": 0,
-          "applied": 0,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Angewandte Chemie"
-        ],
-        "hits": {
-          "framework": [
-            "covalent organic framework"
-          ],
-          "conductive": [
-            "conjugated"
-          ],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": []
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "核心推荐",
-        "title_zh": "单原子钌嵌入共价有机框架的光诱导交替催化用于高性能光辅助锂氧电池",
-        "summary_zh": "研究开发了一种基于单原子钌嵌入的共价有机框架（COF）的光诱导交替催化机制，用于光辅助锂氧电池，显著降低过电位并提高循环稳定性和倍率性能。",
-        "research_details_zh": "该研究针对光辅助非水锂氧电池中高效阴极催化剂的开发问题，提出了一种新型的光诱导交替催化机制。研究中设计了一种由三嗪核C3对称节点和π扩展的苝二酰亚胺连接体组装的共价有机框架（T-PDI），并将单原子钌嵌入其中形成有序的共轭网络（Ru/T-PDI）。该催化剂通过动态迁移和多步转化机制，显著提高了活性位点的催化效率，促进了Li2O2的生成和分解。研究表明，Ru/T-PDI电极在光辅助下表现出低过电位、优异的循环稳定性和出色的倍率性能，为下一代光驱动金属氧电池的催化剂设计提供了重要的机制见解。",
-        "methods_zh": "研究中通过将单原子钌嵌入由三嗪核C3对称节点和苝二酰亚胺连接体组装的共价有机框架（T-PDI）中，制备了Ru/T-PDI催化剂。对其光催化性能进行了测试，并通过表征研究了其结构和催化机制。",
-        "relevance_zh": "该研究对光辅助锂氧电池的高效催化剂设计具有重要意义，尤其是通过单原子催化和多步转化机制显著提高了电池性能。建议全文精读以深入了解其催化机制和实验细节。",
-        "evidence_note_zh": "这是基于摘要的解读，实验条件、具体表征方法及数值细节需通过全文核查。",
-        "key_findings_zh": [
-          "Ru/T-PDI催化剂显著降低了锂氧电池的过电位。",
-          "实现了活性氧物种在多个催化位点之间的动态迁移和高效转化。",
-          "光辅助锂氧电池表现出优异的循环稳定性和倍率性能。"
-        ]
-      },
-      {
-        "title": "Integrating Amphiphilic Sites and Adaptive Pores in a Metal–Organic Framework for Wet Natural Gas Upgrading",
-        "abstract": "ABSTRACT One‐step removal of C 2 H 6 /C 3 H 8 and moisture from natural gas can enhance both energy conversion efficiency and transportation safety. However, this remains a significant challenge due to the opposite polarity of C 2 H 6 /C 3 H 8 and H 2 O. Here, one‐step upgrading of wet natural gas can be achieved through integrating amphiphilic sites and adaptive pores in a metal‐organic framework ( FJI‐H36‐Cu ). FJI‐H36‐Cu not only possesses conjugated groups capable of capturing C 2 H 6 /C 3 H 8 and Cu(II) sites that can adsorb H 2 O, but also has a flexible framework that can undergo guest‐driven adaptive transformations (including channel deformation and Cu(II) site reconfiguration) and guest‐regulated controllable thermal expansions (from anisotropy to isotropy). FJI‐H36‐Cu hardly adsorbs CH 4 but can efficiently capture C 2 H 6 /C 3 H 8 , where both C 2 H 6 and C 3 H 8 can simultaneously achieve very high adsorption capacities and very low adsorption enthalpies. Such excellent adsorption performance stems from the adaptive response of FJI‐H36‐Cu to different alkanes; both C 2 H 6 and C 3 H 8 can enhance adsorption by inducing significant deformation, while CH 4 cannot. Moreover, FJI‐H36‐Cu exhibits a high H 2 O adsorption capacity but a very slow adsorption rate, ensuring that the presence of H 2 O does not interfere with C 2 H 6 /C 3 H 8 capture. All these enable FJI‐H36‐Cu to efficiently remove C 3 H 8 , C 2 H 6 , and H 2 O from wet natural gas, achieving very high CH 4 productivity.",
-        "authors": [
-          "Sheng Gao",
-          "Jia Dai",
-          "Peng Gao",
-          "Qihui Chen",
-          "Daqiang Yuan",
-          "Maochun Hong"
-        ],
-        "institutions": [],
-        "published": "2026-07-29",
-        "journal": "Advanced Functional Materials",
-        "doi": "10.1002/adfm.77412",
-        "url": "https://doi.org/10.1002/adfm.77412",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 34,
-        "scores": {
-          "topic": 18,
-          "method": 0,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 0,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "Advanced Functional Materials"
-        ],
-        "hits": {
-          "framework": [
-            "metal organic framework",
-            "metal-organic framework"
-          ],
-          "conductive": [
-            "conjugated"
-          ],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": []
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "核心推荐",
-        "title_zh": "将两亲性位点和自适应孔道集成到金属有机框架中以升级湿天然气",
-        "summary_zh": "研究开发了一种新型金属有机框架（FJI-H36-Cu），通过两亲性位点和自适应孔道的集成，实现了湿天然气中C2H6/C3H8和水分的一步去除。",
-        "research_details_zh": "该研究针对湿天然气中C2H6/C3H8和水分的高效去除问题，设计了一种新型金属有机框架FJI-H36-Cu。该框架具有两亲性位点和自适应孔道，能够捕获C2H6/C3H8和H2O，同时对CH4几乎无吸附。FJI-H36-Cu的柔性结构可通过客体诱导发生变形，并表现出可控的热膨胀特性。研究表明，C2H6和C3H8通过显著的框架变形增强吸附，而CH4则无法引发类似效应。此外，FJI-H36-Cu对水具有高吸附容量但吸附速率较慢，从而避免了水对C2H6/C3H8捕获的干扰。该材料实现了湿天然气中C3H8、C2H6和H2O的高效去除，显著提高了CH4的产率。",
-        "methods_zh": "研究通过设计和合成FJI-H36-Cu金属有机框架，结合吸附实验和结构表征，研究了其对湿天然气中C2H6、C3H8和H2O的吸附性能及机制。",
-        "relevance_zh": "该研究为湿天然气的高效升级提供了新策略，展示了两亲性位点和自适应孔道在框架材料中的应用潜力。建议全文精读以了解具体的吸附性能数据和框架变形机制。",
-        "evidence_note_zh": "这是基于摘要的解读，吸附实验的具体条件和框架结构的详细表征需通过全文核查。",
-        "key_findings_zh": [
-          "FJI-H36-Cu对C2H6和C3H8表现出高吸附容量和低吸附焓。",
-          "框架的柔性结构通过客体诱导发生变形，增强了吸附性能。",
-          "对H2O具有高吸附容量但吸附速率较慢，不干扰C2H6/C3H8捕获。"
-        ]
-      },
-      {
-        "title": "Unveiling the Optimal Conjugation Threshold in Covalent Organic Frameworks for Photocatalytic Hydrogen Peroxide Production",
-        "abstract": "ABSTRACT Solar‐driven photocatalytic synthesis of hydrogen peroxide (H 2 O 2 ) offers a sustainable alternative to the energy‐intensive anthraquinone process. Donor–acceptor (D–A) covalent organic frameworks (COFs) are highly promising photocatalysts for this transformation; however, the precise correlation between electronic conjugation, D–A pairing, and catalytic efficiency remains poorly understood. Here, we systematically investigate the threshold of conjugation enhancement on photocatalytic H 2 O 2 production by designing D–A COFs with varying degrees of π‐conjugation. Using benzotrithiophene (BTT) as the electron donor, we integrated acceptor units featuring alkyne and extended‐ring motifs (yielding TATAB‐BTT and TATAP‐BTT ). We reveal a distinct structure‐activity relationship: moderate conjugation ( TATAB‐BTT ) optimizes energy‐level matching and maximizes charge separation, achieving an outstanding H 2 O 2 production rate of 1610.8 µmol g −1 h −1 , outperforming the less‐conjugated literature example, TAPB‐BTT (557.0 µmol g −1 h −1 ). Conversely, excessive conjugation ( TATAP‐BTT ) induces a structural mismatch that shifts the electronic configuration from D–A to D–D, severely trapping excitons and diminishing performance (780.0 µmol g −1 h −1 . These findings demonstrate that an optimal conjugation threshold is critical for sustaining D–A charge‐transfer dynamics, providing a fundamental molecular design principle for next‐generation polymeric photocatalysts.",
-        "authors": [
-          "Mengying Fu",
-          "Zhiqing Lin",
-          "Songyao Dai",
-          "Weijian Liang",
-          "Lai‐Hon Chung",
-          "Jun He"
-        ],
-        "institutions": [],
-        "published": "2026-07-29",
-        "journal": "Small",
-        "doi": "10.1002/smll.74842",
-        "url": "https://doi.org/10.1002/smll.74842",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 34,
-        "scores": {
-          "topic": 18,
-          "method": 0,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 0,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "Small"
-        ],
-        "hits": {
-          "framework": [
-            "cofs"
-          ],
-          "conductive": [
-            "conjugated"
-          ],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": []
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "核心推荐",
-        "title_zh": "揭示共价有机框架中光催化过氧化氢生产的最佳共轭阈值",
-        "summary_zh": "研究揭示了供体-受体（D-A）共价有机框架中共轭增强与光催化H2O2生产效率之间的关系，提出适度共轭优化了电荷分离和能级匹配。",
-        "research_details_zh": "该研究聚焦于太阳能驱动的光催化H2O2合成，设计了不同共轭程度的D-A共价有机框架（COFs），以系统研究共轭增强对催化效率的影响。通过使用苯并三硫（BTT）作为电子供体，结合含炔基和扩展环的受体单元，分别合成了TATAB-BTT和TATAP-BTT框架。研究发现，适度共轭（TATAB-BTT）能够优化能级匹配并最大化电荷分离，表现出优异的H2O2生成速率（1610.8 µmol g−1 h−1），而过度共轭（TATAP-BTT）导致电子配置从D-A转变为D-D，显著降低了性能（780.0 µmol g−1 h−1）。这些结果表明，适度共轭是维持D-A电荷转移动力学的关键，为下一代聚合物光催化剂的分子设计提供了重要指导。",
-        "methods_zh": "研究通过设计和合成不同共轭程度的D-A COFs（TATAB-BTT和TATAP-BTT），结合光催化实验和电子结构分析，系统研究了共轭增强对H2O2生成性能的影响。",
-        "relevance_zh": "该研究为优化共价有机框架的分子设计提供了明确的指导，特别是针对光催化H2O2合成的高效能级匹配和电荷分离机制。建议全文精读以获取更多关于结构-性能关系的细节。",
-        "evidence_note_zh": "这是基于摘要的解读，光催化实验的具体条件和电子结构分析的详细数据需通过全文核查。",
-        "key_findings_zh": [
-          "TATAB-BTT的H2O2生成速率达到1610.8 µmol g−1 h−1，显著优于其他框架。",
-          "适度共轭优化了能级匹配和电荷分离。",
-          "过度共轭导致D-A电子配置转变为D-D，降低了催化性能。"
-        ]
-      },
-      {
-        "title": "Inside Front Cover: Metal–Organic Framework‐Gated Biocatalysis Enables Triggered Depolymerization of Melt‐Processed Polyesters",
-        "abstract": "",
-        "authors": [
-          "Shitong Cui",
-          "Jing Tian",
-          "Mengyu Zhu",
-          "Zihan Liu",
-          "Yufei Cao",
-          "Yu Liu",
-          "Yuxiao Feng",
-          "Wanghui Xu",
-          "Weijian Lai",
-          "Hongyi Yang",
-          "Jun Xu",
-          "Baohua Guo",
-          "Lin Qiu",
-          "Zhenzhong Yang",
-          "Paolo Falcaro",
-          "Jun Ge"
-        ],
-        "institutions": [],
-        "published": "2026-07-29",
-        "journal": "Angewandte Chemie",
-        "doi": "10.1002/ange.2026-m2607095800",
-        "url": "https://doi.org/10.1002/ange.2026-m2607095800",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 32,
-        "scores": {
-          "topic": 12,
-          "method": 0,
-          "quality": 15,
-          "novelty": 4,
-          "network": 0,
-          "applied": 0,
-          "archive": 1,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Angewandte Chemie"
-        ],
-        "hits": {
-          "framework": [
-            "metal organic framework",
-            "metal-organic framework"
-          ],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": []
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "仅元数据",
-        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "封面文章：金属有机框架调控的生物催化实现熔融聚酯的触发降解",
-        "summary_zh": "该研究提出了一种利用金属有机框架（MOF）调控的生物催化方法，实现了熔融聚酯的触发降解，为可持续材料的回收和再利用提供了新思路。",
-        "research_details_zh": "研究聚焦于通过MOF调控的生物催化技术，解决熔融聚酯材料降解的挑战。研究设计了一种基于MOF的系统，能够在特定条件下触发聚酯的降解。该方法旨在提高聚酯材料的可回收性和环境友好性，具有潜在的工业应用价值。",
-        "methods_zh": "摘要未报告具体的合成、组装、表征或性能测试方法。",
-        "relevance_zh": "该研究与金属有机框架的功能化应用密切相关，特别是在可持续材料领域的潜在应用。尽管摘要未提供详细信息，但其创新性方法值得进一步阅读以了解具体机制和实验细节。",
-        "evidence_note_zh": "这是基于摘要的解读，实验条件、具体表征方法和性能数据需通过全文核查。",
-        "key_findings_zh": [
-          "提出了一种基于MOF的生物催化策略。",
-          "实现了熔融聚酯的触发降解。",
-          "为聚酯材料的可持续回收提供了新方法。"
-        ]
-      },
-      {
-        "title": "Triple Framework Isomerism and Efficient Ethane/Ethylene Separation of Single‐Crystal Covalent Organic Frameworks With 2D hcb Sheets",
-        "abstract": "ABSTRACT Constructing triple framework isomerism with atom‐resolution structures is of great significance but remains highly challenging for covalent organic frameworks (COFs). Herein, [3+3] imine condensation of 1,3,5‐trimethyl‐2,4,6‐tris(4‐aminophenyl)benzene with 1,3,5‐triethyl‐2,4,6‐tris(4‐formylphenyl)benzene affords three single‐crystal COF isomers composed of hcb nets. Their AB hcb stacking, double [2D+2D], and triple [2D+2D+2D] crossing entangled structures have been resolved by 3D electron diffraction. Among the three desolvated COFs, GZU‐4a exhibits the highest ethane uptake (100.7 cm 3 g −1 ) and ethane/ethylene selectivity (1.6), enabling one‐step production of high‐purity ethylene (&gt;99.99%) in dynamic breakthrough experiments. The superior and inverse separation performance originates from its rigid non‐interpenetrated framework with optimized pore confinement for strengthened ethane binding. This work not only presents an unprecedented example of triple isomeric COFs with atom‐resolution structures from non‐interpenetration to inclined interpenetration of 2D nets, but also shows an inverse adsorption selectivity for ethane over ethylene, greatly enriching the diversity of COFs.",
-        "authors": [
-          "Baoqiu Yu",
-          "Tonghai Wang",
-          "Yucheng Jin",
-          "Zhongwei Liu",
-          "Qingmei Xu",
-          "Shangwei Yuan",
-          "Xin Xiao",
-          "Xu Ding",
-          "Hailong Wang",
-          "Zhenjie Zhang",
-          "Banglin Chen",
-          "Jianzhuang Jiang"
-        ],
-        "institutions": [],
-        "published": "2026-07-29",
-        "journal": "Angewandte Chemie International Edition",
-        "doi": "10.1002/anie.5362334",
-        "url": "https://doi.org/10.1002/anie.5362334",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 32,
-        "scores": {
-          "topic": 12,
-          "method": 0,
-          "quality": 15,
-          "novelty": 4,
-          "network": 0,
-          "applied": 0,
-          "archive": 1,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Angewandte Chemie International Edition"
-        ],
-        "hits": {
-          "framework": [
-            "cof",
-            "cofs"
-          ],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "crystal"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "三重框架异构与具有2D hcb片层的单晶共价有机框架的高效乙烷/乙烯分离",
-        "summary_zh": "该研究通过[3+3]亚胺缩合合成了三种单晶COF异构体，展示了三重框架异构性，并实现了高效乙烷/乙烯分离，动态突破实验中乙烯纯度超过99.99%。",
-        "research_details_zh": "研究通过1,3,5-三甲基-2,4,6-三(4-氨基苯基)苯与1,3,5-三乙基-2,4,6-三(4-甲酰基苯基)苯的[3+3]亚胺缩合，合成了三种具有hcb网络的单晶COF异构体。这些异构体包括AB hcb堆叠、双[2D+2D]交叉和三重[2D+2D+2D]交叉结构，通过3D电子衍射解析了其原子分辨率结构。在脱溶剂化后，GZU-4a表现出最高的乙烷吸附量（100.7 cm³ g⁻¹）和乙烷/乙烯选择性（1.6），并在动态突破实验中实现了高纯度乙烯的单步分离（纯度>99.99%）。",
-        "methods_zh": "采用[3+3]亚胺缩合合成COF异构体，利用3D电子衍射解析其原子分辨率结构，并通过动态突破实验评估乙烷/乙烯分离性能。",
-        "relevance_zh": "该研究展示了COF材料在气体分离中的潜力，特别是其在乙烷/乙烯分离中的应用。三重框架异构性的实现和高纯度乙烯分离的结果为COF的设计和应用提供了新思路，值得深入研究。",
-        "evidence_note_zh": "这是基于摘要的解读，需核查全文以获取更详细的实验条件、表征数据和机制分析。",
-        "key_findings_zh": [
-          "成功合成了三种具有三重异构性的单晶COF。",
-          "GZU-4a在动态突破实验中实现了乙烯纯度>99.99%。",
-          "非互穿框架结构优化了孔隙约束，增强了乙烷吸附能力。"
-        ]
-      },
-      {
-        "title": "An Intrinsically Therapeutic Mn/Se Supramolecular Hydrogel for Cancer Immunotherapy",
-        "abstract": "ABSTRACT Current biomaterial‐assisted cancer immunotherapy predominantly relies on hydrogels as passive depots for the controlled release of encapsulated drugs or immune modulators. This paradigm, while effective, inherits the complexities of drug loading, stability, and release kinetics. Herein, we report an intrinsically therapeutic supramolecular material whose matrix‐forming components directly provide therapeutic functions without requiring separately loaded drugs or immune agonists. We engineer a peptide‐based hydrogel through the Mn 2+ ‐coordinated self‐assembly of a selenopeptide, FHAH . In this design, the selenated motif drives enhanced natural killer (NK) cell activation, while the coordinatively bound Mn 2+ acts as both a structural crosslinker and a potent activator of the cGAS‐STING pathway. This structurally integrated, multifunctional hydrogel directly induces immunogenic cell death in tumor cells and simultaneously activates both the STING and NK cell axes, orchestrating a concerted innate immune response. In vivo, localized application markedly suppresses primary tumors, inhibits distant tumor growth, and suppresses lung metastasis by remodeling the immunosuppressive microenvironment and eliciting systemic antitumor immune responses. This work moves beyond the conventional carrier paradigm to establish a new class of self‐therapeutic biomaterials in which therapeutic function is molecularly encoded into the material structure, offering a streamlined strategy for next‐generation cancer immunotherapy.",
-        "authors": [
-          "Liyuan Peng",
-          "Yuting Kong",
-          "Jingru Yan",
-          "Guoyu Xia",
-          "Weiyu Xing",
-          "Menghuan Shen",
-          "Chenyang Wang",
-          "Zhen Zheng"
-        ],
-        "institutions": [],
-        "published": "2026-07-29",
-        "journal": "Advanced Functional Materials",
-        "doi": "10.1002/adfm.77396",
-        "url": "https://doi.org/10.1002/adfm.77396",
-        "sources": [
-          "Crossref"
-        ],
-        "score": 28,
-        "scores": {
-          "topic": 6,
-          "method": 4,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "Advanced Functional Materials"
-        ],
-        "hits": {
-          "framework": [],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [
-            "self assembly",
-            "self-assembly"
-          ],
-          "electrochemical": [],
-          "materials": [
-            "material",
-            "supramolecular"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "一种用于癌症免疫治疗的内在治疗性锰/硒超分子水凝胶",
-        "summary_zh": "研究开发了一种基于锰/硒配位自组装的多功能超分子水凝胶，该材料无需额外药物负载即可直接提供治疗功能，用于癌症免疫治疗。",
-        "research_details_zh": "研究设计了一种由锰离子（Mn²⁺）和硒肽（FHAH）通过配位自组装形成的超分子水凝胶。该水凝胶的硒化基团能够增强自然杀伤细胞（NK细胞）的活性，而Mn²⁺既作为结构交联剂，又能激活cGAS-STING通路。该材料通过直接诱导肿瘤细胞的免疫原性细胞死亡，同时激活STING和NK细胞通路，协调先天免疫反应。在体内实验中，局部应用该水凝胶显著抑制了原发肿瘤和远处肿瘤的生长，并通过重塑免疫抑制微环境和引发系统性抗肿瘤免疫反应，抑制了肺部转移。",
-        "methods_zh": "通过锰离子与硒肽的配位自组装制备水凝胶，利用体外和体内实验评估其免疫治疗效果，包括NK细胞活性和STING通路激活的表征。",
-        "relevance_zh": "该研究展示了一种新型的自组装超分子材料，其内在治疗功能为癌症免疫治疗提供了新思路。研究方法和结果具有较高的创新性和应用潜力，值得深入阅读以了解其具体机制。",
-        "evidence_note_zh": "这是基于摘要的解读，需核查全文以获取更详细的实验设计、表征数据和治疗机制。",
-        "key_findings_zh": [
-          "开发了一种无需药物负载的内在治疗性水凝胶。",
-          "水凝胶通过激活STING和NK细胞通路诱导免疫原性细胞死亡。",
-          "在体内实验中显著抑制肿瘤生长和肺部转移。"
-        ]
       }
     ]
   }

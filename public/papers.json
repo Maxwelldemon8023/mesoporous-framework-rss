@@ -1,5 +1,384 @@
 [
   {
+    "title": "Reorganization of Interfacial Water by Cu–Ru Interfaces for Efficient Nitrate-to-Ammonia Electrosynthesis",
+    "abstract": "Abstract Electrocatalytic nitrate reduction offers a sustainable route for ammonia (NH3) synthesis, yet its efficiency is limited by sluggish N–O bond cleavage, incomplete NOx hydrogenation, and competing hydrogen evolution reaction. However, how catalyst structural engineering regulates the interfacial microenvironment remains unclear, despite its critical importance for constructing efficient catalysts. Here, we report a Cu3Ru7 catalyst with abundant Cu–Ru interfaces, where interface-induced water reorganization enables efficient NH3 production. The Cu3Ru7 catalyst exhibits an impressive NH3 formation rate of 19.7 mmol h–1 cm–2 at 5 A cm–2 in a membrane electrode assembly (MEA) electrolyzer and remains stable at 2 A cm–2 with an NH3 Faradaic efficiency of ∼86% for 500 h. A scale-up demonstration using a 100 cm2 MEA electrolyzer affords an NH3 formation rate up to 1.5 mol h–1 at 400 A. The in situ attenuated total reflectance surface-enhanced infrared absorption spectroscopy (ATR-SEIRAS) reveals that Cu3Ru7 catalyst establishes a moderate interfacial hydrogen-bond network, which creates a water-mediated interfacial micro environment that facilitates NOx deoxygenation and subsequent NHx formation. Ab initio molecular dynamics (AIMD) simulations further reveal that the Cu–Ru interface stabilizes the dissociating oxygen atom through a persistent and dynamically connected hydrogen-bond network, thereby facilitating sequential NO3– → NO2 → NO conversion. Meanwhile, the surrounding Cu matrix attenuates the excessive *H accumulation characteristic of Ru, suppressing the hydrogen evolution reaction. This work establishes Cu–Ru interface-induced interfacial water reorganization as a strategy for improving electrocatalytic nitrate reduction performance.",
+    "authors": [
+      "Jing Xue",
+      "Tianfu Liu",
+      "Yi Wang",
+      "Yunfan Fu",
+      "Pengfei Wei",
+      "Yanpeng Song",
+      "Hanyu Wang",
+      "Jiaqi Sang",
+      "Chuanchuan Yan",
+      "Youwen Rong",
+      "Dunfeng Gao",
+      "Guoxiong Wang",
+      "Xinhe Bao"
+    ],
+    "institutions": [],
+    "published": "2026-11-06",
+    "journal": "Journal of the American\nChemical Society",
+    "doi": "10.1021/jacs.6c16802",
+    "url": "https://doi.org/10.1021/jacs.6c16802",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 50,
+    "scores": {
+      "topic": 12,
+      "method": 7,
+      "quality": 15,
+      "novelty": 8,
+      "network": 0,
+      "applied": 5,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Journal of the American Chemical Society"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [
+        "electrosynthesis"
+      ],
+      "materials": [
+        "membrane"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中电化学合成、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "late_arrival": false,
+    "title_zh": "Cu–Ru界面重构界面水实现高效硝酸盐电合成氨",
+    "summary_zh": "报道具有丰富Cu–Ru界面的Cu3Ru7催化剂，通过界面诱导界面水重构促进硝酸盐还原产氨。在MEA电解槽中5 A cm−2下产氨速率达19.7 mmol h−1 cm−2，2 A cm−2下法拉第效率约86%并稳定500 h，并完成100 cm2级放大演示。",
+    "research_details_zh": "研究针对电催化硝酸盐还原合成氨中N–O键断裂缓慢、NOx加氢不完全及析氢竞争等问题，指出催化剂结构工程如何调控界面微环境尚不清晰。作者构建了具有丰富Cu–Ru界面的Cu3Ru7催化剂，并以界面诱导的水重构为核心设计策略。性能评价在膜电极组件电解槽中进行，考察产氨速率、法拉第效率与稳定性，并进行100 cm2电解槽放大演示。机制方面，利用原位衰减全反射表面增强红外吸收光谱揭示Cu3Ru7建立适度的界面氢键网络，形成水介导的界面微环境，利于NOx脱氧和后续NHx生成；从头算分子动力学模拟进一步表明Cu–Ru界面通过持续且动态连接的氢键网络稳定解离的氧原子，促进NO3−→NO2→NO的连续转化，同时周围Cu基体削弱Ru过度的*H积累从而抑制析氢。该工作将Cu–Ru界面诱导的界面水重构确立为提升电催化硝酸盐还原性能的策略。",
+    "methods_zh": "摘要明确出现的方法包括：构建Cu3Ru7催化剂并在膜电极组件电解槽中评价硝酸盐还原产氨性能，考察产氨速率、法拉第效率与长期稳定性，并进行100 cm2级电解槽放大演示；采用原位衰减全反射表面增强红外吸收光谱（ATR-SEIRAS）表征界面氢键网络与界面微环境；采用从头算分子动力学（AIMD）模拟研究Cu–Ru界面稳定解离氧原子及反应路径。具体合成步骤、结构表征与电解液条件摘要未报告。",
+    "relevance_zh": "该工作虽以电催化硝酸盐还原产氨为主题，不属于介孔导电MOF或共轭框架材料主线，但其Cu–Ru界面诱导界面水重构、氢键网络调控反应中间体及抑制析氢的机制，对框架材料电化学合成与原位界面微环境设计具有方法学借鉴价值。摘要未涉及框架材料或自组装，直接相关性有限，建议作为界面调控与电催化机制参考阅读，是否精读全文取决于对界面水与氢键网络表征细节的需求。",
+    "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读。催化剂的合成方法、结构表征、电解液组成、MEA构筑细节、法拉第效率测试条件及AIMD模型参数等关键细节仍需全文核查。",
+    "key_findings_zh": [
+      "Cu3Ru7催化剂在MEA电解槽5 A cm−2下产氨速率达19.7 mmol h−1 cm−2。",
+      "在2 A cm−2下氨法拉第效率约86%，并稳定运行500 h。",
+      "100 cm2 MEA电解槽在400 A下产氨速率最高达1.5 mol h−1。",
+      "原位ATR-SEIRAS与AIMD表明Cu–Ru界面建立适度界面氢键网络，稳定解离氧原子并促进NO3−→NO2→NO转化，周围Cu基体抑制*H过度积累。"
+    ]
+  },
+  {
+    "title": "Coordination-directed synthesis of two-dimensional metal-organic covalent organic frameworks",
+    "abstract": "Metal-organic covalent organic frameworks (MOCOFs) combine the advantages of covalent and metal-organic frameworks, but research remains sparse due to characterization difficulties, leaving unclear whether their formation is covalent- or coordination-directed. To date, only a few three-dimensional MOCOFs have been reported, while two-dimensional (2D) MOCOFs remain unexplored. Here, we strategically synthesize two single-crystal 2D MOCOFs with high porosity, denoted as PUMC-1 and PUMC-2. Leveraging three-dimensional electron diffraction, we are able to elucidate their formation process in detail. First, one-dimensional coordination polymers (1D CPs) are constructed from two sub-building units: tetrakis(4-aminophenyl) porphyrin and cobalt(II) trans-A₂B₂ porphyrin. Second, 1D CPs with covalent extension sites are used to construct two distinct 2D MOCOF conformations via covalent self-assembly under different conditions. Notably, the same 2D MOCOFs can also be directly obtained via one-pot synthesis with the same monomers, providing experimental evidence for a coordination-directed covalent assembly mechanism. This work not only expands the dimensionality of MOCOFs but also opens new avenues in reticular chemistry. Metal-organic covalent organic frameworks (MOCOFs) combine the advantages of covalent and metal-organic frameworks, but two-dimensional (2D) MOCOFs remain unexplored. Here, the authors synthesize two 2D MOCOFs with high porosity and elucidate their formation process in detail.",
+    "authors": [
+      "Liangliang Yue",
+      "Liqin Hao",
+      "Chun Hong Mak",
+      "Binhua Chen",
+      "Duu-Jong Lee",
+      "Hsien‐Yi Hsu",
+      "Jiong Xin Zhao",
+      "Lok Wing Wong",
+      "Di Hu",
+      "Zhongyi Jiang",
+      "Xunjin Zhu"
+    ],
+    "institutions": [
+      "Hong Kong Baptist University",
+      "Hong Kong Polytechnic University",
+      "Nankai University",
+      "City University of Hong Kong",
+      "Nankai University",
+      "City University of Hong Kong",
+      "City University of Hong Kong",
+      "Hong Kong Polytechnic University",
+      "Hong Kong Polytechnic University",
+      "Hong Kong Baptist University",
+      "Nankai University",
+      "Hong Kong Polytechnic University"
+    ],
+    "published": "2026-11-05",
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-026-79250-w",
+    "openalex_id": "https://openalex.org/W7225323910",
+    "url": "https://doi.org/10.1038/s41467-026-79250-w",
+    "sources": [
+      "Crossref",
+      "Crossref journal watch",
+      "OpenAlex"
+    ],
+    "arxiv_id": null,
+    "score": 42,
+    "scores": {
+      "topic": 18,
+      "method": 6,
+      "quality": 8,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Nature Communications"
+    ],
+    "hits": {
+      "framework": [
+        "reticular chemistry"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly",
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "coordination",
+        "crystal"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "核心推荐",
+    "late_arrival": true,
+    "title_zh": "配位导向合成二维金属-有机共价有机框架",
+    "summary_zh": "报道两种高孔隙率单晶二维金属-有机共价有机框架PUMC-1与PUMC-2，借助三维电子衍射解析其形成过程：先由两种子构建单元形成一维配位聚合物，再经共价自组装构建二维MOCOF，并给出一锅法直接获得相同产物的证据。",
+    "research_details_zh": "研究针对金属-有机共价有机框架（MOCOF）兼具共价框架与金属-有机框架优势但研究稀少、表征困难、形成过程究竟由共价还是配位导向尚不明确的问题，指出此前仅报道少数三维MOCOF，二维MOCOF尚属空白。作者策略性合成两种高孔隙率单晶二维MOCOF，命名为PUMC-1和PUMC-2。利用三维电子衍射详细解析其形成过程：第一步由四(4-氨基苯基)卟啉与钴(II) trans-A2B2卟啉两个子构建单元构建一维配位聚合物；第二步，具有共价延伸位点的一维配位聚合物在不同条件下经共价自组装构建两种不同的二维MOCOF构型。值得注意的是，相同单体通过一锅法合成也可直接获得相同的二维MOCOF，为配位导向的共价组装机制提供了实验证据。该工作拓展了MOCOF的维度，并为网状化学开辟新途径。",
+    "methods_zh": "摘要明确出现的方法包括：以四(4-氨基苯基)卟啉和钴(II) trans-A2B2卟啉为子构建单元进行合成；先构建一维配位聚合物，再在不同条件下经共价自组装构建二维MOCOF；采用一锅法以相同单体直接合成；利用三维电子衍射解析单晶结构及形成过程；并报道产物具有高孔隙率。具体合成条件、孔隙率数值、表征细节与稳定性测试摘要未报告。",
+    "relevance_zh": "该工作直接契合共轭框架材料与框架材料组装主线：二维MOCOF结合共价有机框架与金属-有机框架特征，且明确涉及配位导向的共价自组装机制与一锅法合成证据，对理解框架材料成核与组装路径、拓展网状化学维度具有实际价值。摘要未报告导电性、介孔结构或电化学性能，若关注导电MOF或电化学合成需全文核查。作为核心推荐，值得精读以获取三维电子衍射解析与组装机制细节。",
+    "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读。单晶结构数据、孔隙率数值、合成条件、一锅法与分步法对比细节及框架稳定性等关键信息仍需全文核查。",
+    "key_findings_zh": [
+      "成功合成两种高孔隙率单晶二维MOCOF，即PUMC-1与PUMC-2，拓展了MOCOF的维度。",
+      "三维电子衍射解析表明形成过程为：两种卟啉子构建单元先形成一维配位聚合物，再经共价自组装构建二维MOCOF。",
+      "相同单体一锅法可直接获得相同二维MOCOF，为配位导向的共价组装机制提供实验证据。"
+    ]
+  },
+  {
+    "title": "Pulsed photoelectrocatalysis enables efficient urea synthesis over Cu(salen)-COF",
+    "abstract": "Abstract Electrocatalytic urea synthesis from carbon dioxide and nitrate under ambient conditions offers a sustainable alternative to the energy-intensive Bosch-Meiser process. However, its efficiency is constrained by the spatiotemporal mismatch of key carbon and nitrogen intermediates at the catalyst-electrolyte interface. Herein, we address this limitation through interfacial microenvironment optimization combining ionic liquid modification of copper-salen covalent organic framework, pulsed electrolysis, and photoelectrocatalytic coupling. The ionic liquid modification enriches carbon dioxide and facilitates interfacial charge transfer, pulsed electrolysis promotes the dynamic matching of carbon and nitrogen intermediates, and photoelectrocatalytic coupling boosts interfacial electron accumulation. The integrated system achieves a urea yield rate of 69.2 mmol g cat −1 h −1 with a Faradaic efficiency of 56.7% in an H-type cell and 82.5% in a flow cell. In this work, we establish a generalizable strategy for efficient urea electrosynthesis via hierarchical interfacial control and highlight the potential of pulsed photoelectrocatalysis.",
+    "authors": [
+      "Yuxin Ren",
+      "Zhou Wang",
+      "Xu Fang",
+      "Jiaojiao Liu",
+      "Xiaoran Wu",
+      "Chengcheng Liu",
+      "Wei-qiao Deng"
+    ],
+    "institutions": [],
+    "published": "2026-11-05",
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-026-79143-y",
+    "url": "https://doi.org/10.1038/s41467-026-79143-y",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 42,
+    "scores": {
+      "topic": 18,
+      "method": 5,
+      "quality": 8,
+      "novelty": 6,
+      "network": 0,
+      "applied": 3,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Nature Communications"
+    ],
+    "hits": {
+      "framework": [
+        "cof",
+        "covalent organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [
+        "electrosynthesis"
+      ],
+      "materials": [
+        "carbon"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中电化学合成，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "核心推荐",
+    "late_arrival": true,
+    "title_zh": "脉冲光电催化实现Cu(salen)-COF高效尿素合成",
+    "summary_zh": "针对CO2与硝酸盐电催化合成尿素中碳氮中间体时空失配问题，采用离子液体修饰铜-salen共价有机框架、脉冲电解与光电催化耦合的分级界面调控策略，H型池尿素产率69.2 mmol g cat−1 h−1、法拉第效率56.7%，流动池达82.5%。",
+    "research_details_zh": "研究面向常温常压下由二氧化碳和硝酸盐电催化合成尿素替代高能耗Bosch-Meiser工艺的需求，指出其效率受催化剂-电解液界面关键碳、氮中间体时空失配制约。作者以铜-salen共价有机框架（Cu(salen)-COF）为材料体系，采用分级界面微环境优化策略：离子液体修饰富集二氧化碳并促进界面电荷转移；脉冲电解促进碳、氮中间体的动态匹配；光电催化耦合增强界面电子积累。三者集成后在H型池中实现尿素产率69.2 mmol g cat−1 h−1、法拉第效率56.7%，在流动池中法拉第效率达82.5%。该工作建立了通过分级界面控制实现高效尿素电合成的可推广策略，并展示了脉冲光电催化的潜力。",
+    "methods_zh": "摘要明确出现的方法包括：以铜-salen共价有机框架为催化剂并进行离子液体修饰；采用脉冲电解；引入光电催化耦合；在H型池和流动池中评价尿素产率与法拉第效率。摘要未报告COF的具体合成与表征方法、离子液体种类与用量、光照条件、电解液组成及产物定量检测细节。",
+    "relevance_zh": "该工作以共轭COF（Cu(salen)-COF）为催化平台，结合离子液体界面修饰、脉冲电解与光电催化，属于框架材料电化学应用与界面微环境调控范畴，对理解COF在电合成中的界面工程与脉冲策略具有参考价值。摘要未涉及介孔结构、导电性表征或框架自组装合成细节，与介孔导电MOF主线关联有限。作为核心推荐，若关注COF电催化与脉冲光电耦合策略，值得精读全文。",
+    "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读。COF合成与结构表征、离子液体修饰方式、脉冲参数、光照条件、电解液与产物定量方法等关键细节仍需全文核查。",
+    "key_findings_zh": [
+      "集成离子液体修饰、脉冲电解与光电催化耦合的Cu(salen)-COF体系在H型池中尿素产率达69.2 mmol g cat−1 h−1，法拉第效率56.7%。",
+      "在流动池中尿素法拉第效率达82.5%。",
+      "离子液体修饰富集CO2并促进界面电荷转移，脉冲电解促进碳氮中间体动态匹配，光电催化耦合增强界面电子积累。"
+    ]
+  },
+  {
+    "title": "Rigid Double‐Spiro‐Grid Polymer Regulates Donor Fibrillar Pre‐Assembly and Acceptor Interdiffusion in Layer‐by‐Layer Organic Solar Cells",
+    "abstract": "ABSTRACT Layer‐by‐layer (LBL) fabrication of organic solar cells (OSCs) decouples donor and acceptor deposition, which, however, induces difficulties in controlling donor crystallization and acceptor interdiffusion. Here, we introduce NPSG, a fully conjugated double‐spiro‐grid polymer, to regulate donor fibrillar pre‐assembly before acceptor deposition. Morphological results reveal that NPSG shifts D18 assembly from loosely associated aggregates toward pronounced fibrillar pre‐assemblies in solution. Molecular dynamics simulations further suggest that the rigid NPSG backbone provides multiple noncovalent interaction sites that favor anisotropic association between D18 chain segments. During film formation, these fibrillar precursors evolve into a coherent and solvent‐resistant donor framework, which moderates L8‐BO interdiffusion and promotes a vertically graded, double fibrillar heterojunction. The resulting morphology facilitates interfacial charge transfer, improves the balance of electron and hole transport, and suppresses nongeminate recombination. Consequently, the optimized D18+NPSG/L8‐BO devices achieve a power conversion efficiency (PCE) of 21.2%, with a certified value of 20.7%. This strategy also improves device reproducibility, processing tolerance, applicability across different donor/acceptor systems, and operational stability under maximum‐power‐point (MPP) tracking. These findings establish donor‐underlayer pre‐assembly regulation as an effective strategy for efficient and robust sequentially processed OSCs.",
+    "authors": [
+      "Hao Li",
+      "Yang Li",
+      "Lixuan Kan",
+      "Fei Han",
+      "Senke Tan",
+      "Jingxuan Sun",
+      "Rui Zeng",
+      "Ming Zhang",
+      "Zheng Zhang",
+      "Wutong Zhao",
+      "Mengna Yu",
+      "Quanyou Feng",
+      "Ying Wei",
+      "Yongming Zhang",
+      "Lei Zhu",
+      "Linghai Xie",
+      "Feng Liu"
+    ],
+    "institutions": [],
+    "published": "2026-11-05",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.75653",
+    "url": "https://doi.org/10.1002/adma.75653",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 42,
+    "scores": {
+      "topic": 12,
+      "method": 2,
+      "quality": 15,
+      "novelty": 8,
+      "network": 0,
+      "applied": 2,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [
+        "conjugated"
+      ],
+      "mesoporous": [],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "polymer"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "late_arrival": true,
+    "title_zh": "刚性双螺环网格聚合物调控逐层有机太阳能电池中给体纤维预组装与受体互扩散",
+    "summary_zh": "该研究引入全共轭双螺环网格聚合物NPSG调控逐层有机太阳能电池中D18给体的纤维预组装，抑制L8-BO受体过度互扩散，形成垂直梯度双纤维异质结，使器件效率达21.2%（认证20.7%），并提升重现性与稳定性。",
+    "research_details_zh": "逐层加工有机太阳能电池将给体与受体分步沉积，但给体结晶控制与受体互扩散难以兼顾。作者设计并引入NPSG——一种全共轭双螺环网格聚合物——在受体沉积前调控D18给体的纤维预组装。形貌结果表明，NPSG使D18在溶液中由松散聚集体转变为明显的纤维预组装体。分子动力学模拟提示，刚性NPSG骨架提供多个非共价相互作用位点，有利于D18链段间的各向异性缔合。成膜过程中，这些纤维前驱体演化为连贯且耐溶剂的给体骨架， moderates L8-BO互扩散，促进垂直梯度双纤维异质结形成。该形貌有利于界面电荷转移、改善电子与空穴传输平衡并抑制非孪生复合。研究意义在于确立给体底层预组装调控作为高效稳健顺序加工有机太阳能电池的有效策略。",
+    "methods_zh": "摘要明确出现：逐层溶液加工制备有机太阳能电池；引入全共轭双螺环网格聚合物NPSG；形貌表征观察溶液中D18组装状态与成膜形貌；分子动力学模拟分析NPSG骨架与D18链段间非共价相互作用；光伏性能测试获得PCE及认证值；最大功率点跟踪评估运行稳定性。具体表征手段与测试条件摘要未报告。",
+    "relevance_zh": "该工作属于共轭聚合物自组装与逐层组装调控主线，展示刚性共轭骨架通过非共价相互作用调控给体预组装并影响受体互扩散，对框架/聚合物组装与光电性能关联有参考价值。但其对象为有机太阳能电池给体层，非介孔导电MOF或COF/HOF体系，与主线的材料类型距离较远，建议作为组装调控策略的拓展阅读，不必优先精读全文。",
+    "evidence_note_zh": "本条目为摘要级解读。NPSG的具体结构、分子量、添加量、形貌表征手段、模拟参数、器件结构、认证机构及稳定性测试条件等关键细节均需全文核查；摘要未报告的内容未作补造。",
+    "key_findings_zh": [
+      "NPSG使D18在溶液中由松散聚集体转变为明显的纤维预组装体，成膜后形成连贯且耐溶剂的给体骨架。",
+      "优化器件D18+NPSG/L8-BO的PCE达21.2%，认证值为20.7%。",
+      "纤维前驱体骨架 moderates L8-BO互扩散，促进垂直梯度双纤维异质结，改善电荷传输平衡并抑制非孪生复合。",
+      "该策略提升器件重现性、加工容忍度、对不同给体/受体体系的适用性及最大功率点跟踪下的运行稳定性。"
+    ]
+  },
+  {
+    "title": "Surface‐Coordinated Gas–Solid Polymerization Enables Quasi‐2D Polyphenylacetylene Single‐Crystalline Nanoribbons",
+    "abstract": "ABSTRACT Two‐dimensional (2D) conjugated polymer single crystals are highly desirable for optoelectronics, yet their realization is limited by the intrinsic coupling between molecular‐weight buildup and chain entanglement, which disrupts long‐range order. Here, we report a gas–solid interfacial polymerization strategy that decouples monomer diffusion from chain propagation, enabling the growth of quasi‐2D polyphenylacetylene (PPA) single‐crystalline nanoribbons on Cu/CuO x surfaces. This process is likely enabled by surface coordination‐assisted activation of phenylacetylene and directional π‐stacking‐driven assembly, which suppress chain entanglement and promote crystallographic ordering. As a result, micrometer‐scale PPA single‐crystalline nanoribbons with left‐handed cis‐transoidal helical chains and long‐range crystallinity are obtained. Under an ideal fully extended‐chain model, the PPA chains exhibit a geometrically estimated upper‐bound molecular weight of up to ∼3.7 × 10 9 g mol − 1 . The resulting PPA nanoribbons exhibit efficient charge transport and broadband photodetection from 375 to 1550 nm, with a responsivity of 30.1 A W − 1 and a detectivity of 8.65 × 10 1 2 Jones. This interfacial synthesis strategy provides a route to overcoming the trade‐off between molecular‐weight buildup and structural order in conjugated polymers, offering opportunities for quasi‐2D polymer semiconductors in flexible optoelectronics and programmable chiral materials.",
+    "authors": [
+      "Qian Cai",
+      "Wenting Hong",
+      "Wei Liu"
+    ],
+    "institutions": [],
+    "published": "2026-11-05",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.75641",
+    "url": "https://doi.org/10.1002/adma.75641",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 42,
+    "scores": {
+      "topic": 12,
+      "method": 2,
+      "quality": 15,
+      "novelty": 8,
+      "network": 0,
+      "applied": 2,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [
+        "charge transport",
+        "conjugated"
+      ],
+      "mesoporous": [],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "coordination",
+        "crystalline",
+        "materials",
+        "polymer"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "late_arrival": true,
+    "title_zh": "表面配位气固聚合制备准二维聚苯乙炔单晶纳米带",
+    "summary_zh": "该研究报道气固界面聚合策略，将单体扩散与链增长解耦，在Cu/CuOx表面生长出具有左手顺反螺旋链的微米级准二维聚苯乙炔单晶纳米带，几何估算分子量上限约3.7×10^9 g/mol，并展示高效电荷传输与375至1550 nm宽带光探测。",
+    "research_details_zh": "二维共轭聚合物单晶在光电子学中极具吸引力，但分子量增长与链缠结的内在耦合破坏长程有序，限制其实现。作者提出气固界面聚合策略，将单体扩散与链增长解耦，在Cu/CuOx表面生长准二维聚苯乙炔（PPA）单晶纳米带。该过程可能由表面配位辅助的苯乙炔活化与定向π堆叠驱动组装实现，从而抑制链缠结并促进结晶有序。所得微米级PPA单晶纳米带具有左手顺反螺旋链和长程结晶性。在理想全伸展链模型下，PPA链的几何估算分子量上限约3.7×10^9 g/mol。纳米带表现出高效电荷传输和375至1550 nm宽带光探测，响应度为30.1 A/W，探测率为8.65×10^12 Jones。该界面合成策略为克服共轭聚合物中分子量增长与结构有序之间的权衡提供了途径。",
+    "methods_zh": "摘要明确出现：气固界面聚合，在Cu/CuOx表面进行苯乙炔聚合；表面配位辅助活化与定向π堆叠驱动组装；获得单晶纳米带并进行结晶性表征；基于理想全伸展链模型几何估算分子量上限；电荷传输与375至1550 nm光探测性能测试，给出响应度和探测率。具体聚合温度、时间、表征设备及器件结构摘要未报告。",
+    "relevance_zh": "该工作属于共轭聚合物自组装与界面聚合主线，展示通过表面配位与气固界面解耦单体扩散和链增长来获得高有序共轭单晶，对框架材料/共轭体系的定向组装与电荷传输研究有方法学参考价值。但其材料为聚苯乙炔而非MOF/COF/HOF或介孔框架，建议作为界面聚合与结晶调控的拓展阅读。",
+    "evidence_note_zh": "本条目为摘要级解读。Cu/CuOx表面组成、聚合条件、单晶结构解析、分子量估算模型细节、光探测器件结构与测试条件等关键信息均需全文核查；摘要未报告的内容未作补造。",
+    "key_findings_zh": [
+      "气固界面聚合将单体扩散与链增长解耦，在Cu/CuOx表面获得微米级准二维PPA单晶纳米带，具有左手顺反螺旋链和长程结晶性。",
+      "理想全伸展链模型下几何估算PPA分子量上限约3.7×10^9 g/mol。",
+      "PPA纳米带实现375至1550 nm宽带光探测，响应度30.1 A/W，探测率8.65×10^12 Jones。",
+      "该策略为克服共轭聚合物分子量增长与结构有序之间的权衡提供途径。"
+    ]
+  },
+  {
     "title": "Programmable Directional Assembly of Hydrogen-Bonded Lead Organic Chalcogenolates",
     "abstract": "Abstract Controlling the directional assembly of metal organic chalcogenolates (MOCs) with atomic precision remains a synthetic challenge yet represents a critical step toward advancing their programmable syntheses and property investigations. Herein, we present a “hydrogen-bond-directed assembly” strategy to drive the formation of single-crystalline, hydrogen-bonded lead organic chalcogenolates (H-LOCs), offering an ideal platform for elucidating their structure–property relationships. By strategically functionalizing thiophenol with regiochemically or electronically distinct substituents, we achieved precise control at the ligand–ligand interface, yielding six distinct H-LOC architectures mediated by interlayer, intralayer, or cooperative hybrid hydrogen-bonding interactions. These programmed hydrogen-bonding interactions play an essential role in crystal growth, enabling the formation of large single crystals of two-dimensional (2D) LOCs. Combined structural and optical characterizations reveal a linear correlation between the ligand electronic effects and optical bandgaps of the materials, culminating in a narrow bandgap of 1.55 eV for the most electron-donating substituent. Most importantly, the reversible nature of these interfacial hydrogen bonds endows the H-LOCs with excellent solution-processability, allowing them to be fabricated into highly stable films with ambient durability exceeding two months─thereby unlocking their potential for optoelectronic devices.",
     "authors": [
@@ -418,6 +797,73 @@
       "三维自组装形成多孔晶态框架，可使短于20个氨基酸的小肽形成模块化三级结构并获得可调结合位点",
       "X射线晶体学表明该框架介导的折叠耐受多种序列和广泛官能团，形成的限域环境具有动态性和突变鲁棒性",
       "孔道可通过多达10个不同残基的协同作用，选择性结合核苷酸和全氟烷基物质等复杂客体"
+    ]
+  },
+  {
+    "title": "Chiral Metal–Organic Frameworks with Multiple and Highly Anisotropic Nonlinear Optical Effects",
+    "abstract": "Abstract The design and construction of photonic materials with multiple and anisotropic nonlinear optical (NLO) behaviors for all-photonic device applications is an attractive but challenging task. Herein, we present a generalizable polarity–chirality synergy strategy that employs donor−π–acceptor (D-π-A)-type organic molecules as polar linkers for assembling chiral metal–organic frameworks (MOFs), in which polarity governs the NLO properties while chirality enables symmetry breaking. Through a chiral induction method, a pair of novel chiral MOFs, LaTCA-L and LaTCA-D, were synthesized by using 4,4″,4‴-tricarboxyltriphenylamine (H3TCA) as the ligand and lanthanum ions as the metal nodes. The LaTCA-L and LaTCA-D crystals simultaneously exhibit significant photoluminescence and second-order and third-order NLO effects with a second-harmonic generation (SHG) intensity of up to 11 times that of the classic KH2PO4 (KDP) crystal. In addition, the LaTCA-L crystal shows obvious linear polarization-dependent SHG, third-harmonic generation (THG), and two-photon-excited photoluminescence (2PEL) with a high degree of polarization (DOP) up to 99.0% under excitation wavelengths ranging from 900 to 1800 nm. In particular, the MOF LaTCA-L exhibits gSHG-CD values of 0.79 and 0.86 at 1030 nm, with identical circular-polarization-dependent SHG trends confirmed at 1064 and 1310 nm. Moreover, this construction strategy can be easily expanded to other D-π-A type organic ligands such as 1,3,5-tris(4-carboxyphenyl)benzene acid (H3BTB), thus opening a pathway toward designing multifunctional chiral MOFs with promising potential for photonic applications.",
+    "authors": [
+      "Shenghan Lin",
+      "He-Qi Zheng",
+      "Zheyan Xu",
+      "Xue Han",
+      "Guodong Qian",
+      "Yuanjing Cui"
+    ],
+    "institutions": [],
+    "published": "2026-11-04",
+    "journal": "Journal of the American\nChemical Society",
+    "doi": "10.1021/jacs.6c20694",
+    "url": "https://doi.org/10.1021/jacs.6c20694",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 32,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 15,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Journal of the American Chemical Society"
+    ],
+    "hits": {
+      "framework": [
+        "mof",
+        "mofs"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "crystal",
+        "materials"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "高质量框架推荐",
+    "late_arrival": true,
+    "title_zh": "具有多重且高度各向异性非线性光学效应的手性金属有机框架",
+    "summary_zh": "该研究提出极性—手性协同策略，以D-π-A型4,4″,4‴-三羧基三苯胺为配体、镧离子为节点，经手性诱导合成LaTCA-L与LaTCA-D一对手性MOF，同时表现显著光致发光及二阶、三阶非线性光学效应，SHG强度最高达KDP的11倍。",
+    "research_details_zh": "面向全光子器件应用，设计兼具多重与各向异性非线性光学（NLO）行为的光子材料具有吸引力但挑战性大。作者提出可推广的极性—手性协同策略，采用供体—π—受体（D-π-A）型有机分子作为极性连接体组装手性金属有机框架，其中极性主导NLO性质，手性实现对称性破缺。通过手性诱导方法，以4,4″,4‴-三羧基三苯胺（H3TCA）为配体、镧离子为金属节点，合成一对新型手性MOF：LaTCA-L与LaTCA-D。两种晶体同时表现显著光致发光以及二阶和三阶NLO效应，SHG强度最高达经典KH2PO4（KDP）晶体的11倍。LaTCA-L晶体在900至1800 nm激发波长范围内表现明显的线偏振依赖SHG、三阶谐波产生（THG）和双光子激发光致发光（2PEL），偏振度高达99.0%。LaTCA-L在1030 nm处gSHG-CD值为0.79和0.86，并在1064和1310 nm确认相同的圆偏振依赖SHG趋势。该构建策略可扩展至其他D-π-A型有机配体如H3BTB。",
+    "methods_zh": "摘要明确出现：以H3TCA为配体、镧离子为金属节点，通过手性诱导方法合成LaTCA-L与LaTCA-D手性MOF；光致发光表征；二阶NLO（SHG）与三阶NLO（THG）测试，并与KDP晶体对比；900至1800 nm激发波长下的线偏振依赖SHG、THG与2PEL测试及偏振度分析；1030、1064和1310 nm下的圆偏振依赖SHG与gSHG-CD测定；扩展配体H3BTB的构建验证。具体合成条件、晶体结构与测试设备摘要未报告。",
+    "relevance_zh": "该工作属于手性框架材料与框架组装主线，展示以D-π-A极性配体经手性诱导构建手性MOF并实现多重各向异性NLO效应，对框架材料的极性—手性协同设计与光子功能开发有直接参考价值。其材料为手性MOF而非介孔导电或共轭框架，建议作为框架功能化与手性组装的高质量拓展阅读，可按需精读。",
+    "evidence_note_zh": "本条目为摘要级解读。配体与金属节点比例、合成溶剂与温度、晶体结构解析、NLO测试装置与偏振配置、gSHG-CD符号归属等关键细节均需全文核查；摘要未报告的内容未作补造。",
+    "key_findings_zh": [
+      "LaTCA-L与LaTCA-D同时表现显著光致发光及二阶、三阶NLO效应，SHG强度最高达KDP晶体的11倍。",
+      "LaTCA-L在900至1800 nm激发下表现线偏振依赖SHG、THG和2PEL，偏振度高达99.0%。",
+      "LaTCA-L在1030 nm处gSHG-CD值为0.79和0.86，并在1064和1310 nm确认相同圆偏振依赖SHG趋势。",
+      "极性—手性协同策略可扩展至H3BTB等其他D-π-A型有机配体。"
     ]
   },
   {
@@ -36245,393 +36691,6 @@
     ],
     "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
     "relevance_zh": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-    "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-  },
-  {
-    "title": "Metal–Organic Frameworks (MOFs) for the Delivery of Small-Molecule Therapeutics",
-    "abstract": "Abstract As cutting-edge porous materials, the properties of metal–organic frameworks (MOFs) are governed by their metal nodes and organic linkers, as well as the assembly mode of these subunits. This allows the loading capacity of MOFs for small-molecule drugs to be readily tailored by rationally adjusting their structures and physicochemical properties. Furthermore, the introduction of additional functional groups into MOFs can enable the stimuli-responsive release of small-molecule drugs, thus rendering MOFs promising candidates for small-molecule drug delivery. With this perspective, we summarize the advances in the construction of MOF-based small-molecule drug delivery carriers and analyze the advantages and limitations of the various loading strategies for small-molecule drugs. We also introduce drug release mechanisms and their application for the targeted treatment of various human diseases. In particular, this perspective describes how the corresponding drug-loading strategies should be selected based on the inherent physicochemical properties of the small-molecule drugs and the specific biomedical application, in order to facilitate clinical translation.",
-    "authors": [
-      "Pei-Hong Tong",
-      "Xi-Le Hu",
-      "Kai-Cheng Yan",
-      "Xiao-Shuai Yuan",
-      "Tony D. James",
-      "Hong-Yang Wang",
-      "Xiao-Peng He"
-    ],
-    "institutions": [],
-    "published": "2026-08-13",
-    "journal": "Journal of the American\nChemical Society",
-    "doi": "10.1021/jacs.6c06915",
-    "url": "https://doi.org/10.1021/jacs.6c06915",
-    "sources": [
-      "Crossref"
-    ],
-    "score": 45,
-    "scores": {
-      "topic": 18,
-      "method": 2,
-      "quality": 15,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Journal of the American Chemical Society"
-    ],
-    "hits": {
-      "framework": [
-        "mof",
-        "mofs"
-      ],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "materials",
-        "porous"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-    "selection_tier": "核心推荐",
-    "title_zh": "Metal–Organic Frameworks (MOFs) for the Delivery of Small-Molecule Therapeutics",
-    "summary_zh": "该文围绕晶态多孔框架材料展开，值得结合原文进一步判断其方法和结论。",
-    "research_details_zh": "该研究涉及晶态多孔框架材料。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-    "key_findings_zh": [
-      "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-    ],
-    "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-    "relevance_zh": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-    "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-  },
-  {
-    "title": "Solvent‐Induced Structural Modulation in Nanoscale Covalent Organic Frameworks Enables High‐Performance NO 2 Sensing",
-    "abstract": "ABSTRACT Covalent organic frameworks (COFs) offer exceptional structural and functional tunability, enabling performance optimization in separation, catalysis, and sensing applications. Here, we report a solvent‐induced strategy for inducing structural disorder in porphyrin‐based COF nanoparticles (nanoCOFs) synthesized in aqueous acetic acid, where the porphyrin units are protonated during the synthesis. Subsequent post‐treatment with polar organic solvents induces deprotonation of the porphyrin units and effectively reduces the crystallinity of the nanoCOFs. The decreased crystallinity arises from solvent insertion between COF layers, which disrupts the ordered interlayer stacking and promotes structural disorder. Systematic control experiments demonstrated that the protonation‐deprotonation behaviors of porphyrin units, the strength of interlayer interactions, and solvent properties (e.g., size and polarity) are key factors in regulating the framework structure and degree of structural disorder. Despite the significantly decreased surface area and reduced crystallinity, the solvent‐treated nanoCOF‐366, with its less compactly stacked layers, exposes more accessible porphyrin sites to guest molecules. As a result, they exhibit enhanced NO 2 uptake and superior chemiresistive sensing performance, achieving an ultrahigh record response of 1083.0 to 10 ppm NO 2 and an ultralow limit of detection of 0.21 ppb. This work presents an effective strategy for structural regulation of COFs toward advanced gas sensing applications.",
-    "authors": [
-      "Yu Pan",
-      "Xueying Kong",
-      "Guangling Liang",
-      "Samson Afewerki",
-      "Chao Xu"
-    ],
-    "institutions": [],
-    "published": "2026-08-13",
-    "journal": "Angewandte Chemie International Edition",
-    "doi": "10.1002/anie.2684732",
-    "url": "https://doi.org/10.1002/anie.2684732",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 32,
-    "scores": {
-      "topic": 12,
-      "method": 0,
-      "quality": 15,
-      "novelty": 4,
-      "network": 0,
-      "applied": 0,
-      "archive": 1,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Angewandte Chemie International Edition"
-    ],
-    "hits": {
-      "framework": [
-        "cof",
-        "cofs"
-      ],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": []
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-    "selection_tier": "高质量框架推荐",
-    "title_zh": "Solvent‐Induced Structural Modulation in Nanoscale Covalent Organic Frameworks Enables High‐Performance NO 2 Sensing",
-    "summary_zh": "该文围绕晶态多孔框架材料展开，值得结合原文进一步判断其方法和结论。",
-    "research_details_zh": "该研究涉及晶态多孔框架材料。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-    "key_findings_zh": [
-      "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-    ],
-    "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-    "relevance_zh": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-    "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-  },
-  {
-    "title": "Mesoporous Organosilica‐Based Infrared Metamaterials for Radiative Cooling of Windows",
-    "abstract": "ABSTRACT Efficient radiative cooling requires an unobstructed view of the sky. However, the vertical facades of buildings see terrestrial features, which act as broadband infrared emitters of heat in the summer. As a result, for conventional materials, including building windows, terrestrial heat gain in the summer can negate or overwhelm a vertically‐oriented surface's narrowband long‐wave infrared (LWIR) emission to space. To address this challenge, here we develop a visibly transparent, LWIR‐selective mesoporous metamaterial suitable for use on windows that is designed to emit selectively within the 8–13 µm atmospheric transparency window. This material, a highly porous organosilica network dried under ambient conditions known as an ambigel, leverages phonon‐polariton resonances to achieve high and selective emittance in the transparency window. Experimental characterization and modeling suggest that the bond angle and length distributions of amorphous SiO 2 in this ambigel differs significantly from those in fused silica, highlighting a new degree of freedom for optical design. Field tests demonstrate that the ambigel maintains surface temperatures approximately 0.5°C lower than a conventional broadband emitter in representative conditions. Our results demonstrate a material design strategy for a visibly transparent infrared selective material that can enable effective radiative cooling for windows and building facades.",
-    "authors": [
-      "Aryan Zaveri",
-      "Susan E. Ju",
-      "Andrew R. Tuokkola",
-      "Rebecca McAlpine",
-      "Ricardo Martinez",
-      "Joeun Kim",
-      "Shinichi Furuya",
-      "Laurent Pilon",
-      "Bruce Dunn",
-      "Sarah H. Tolbert",
-      "Aaswath P. Raman"
-    ],
-    "institutions": [],
-    "published": "2026-08-13",
-    "journal": "Small",
-    "doi": "10.1002/smll.75152",
-    "url": "https://doi.org/10.1002/smll.75152",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 28,
-    "scores": {
-      "topic": 6,
-      "method": 4,
-      "quality": 8,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "strong",
-    "quality_hits": [
-      "Small"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [
-        "mesoporous"
-      ],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": [
-        "material",
-        "materials",
-        "mesoporous",
-        "porous",
-        "silica"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-    "selection_tier": "拓展推荐",
-    "title_zh": "Mesoporous Organosilica‐Based Infrared Metamaterials for Radiative Cooling of Windows",
-    "summary_zh": "该文围绕介孔或分级孔结构展开，值得结合原文进一步判断其方法和结论。",
-    "research_details_zh": "该研究涉及介孔或分级孔结构。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-    "key_findings_zh": [
-      "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-    ],
-    "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-    "relevance_zh": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-    "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-  },
-  {
-    "title": "Chemically Modified Sugars as Multifunctional Precursors for Direct, Template-Free Synthesis of Nanoporous Carbonaceous Materials",
-    "abstract": "Abstract Carbonaceous solids with pores in the nanometer domain are of great technological importance owing to their amenability to sorption/separation, catalysis, and electrochemical applications. Herein, we demonstrate that a simple yet targeted chemical modification of sugar, specifically the use of alkylated sucrose as a carbon precursor, leads to direct nanostructuring of carbonaceous solids and template-free production of porous carbonaceous solids via in situ pore formation (i.e., self-generation of pores) under a hydrothermal environment. Chemically modified sugars are multifunctional and programmable, allowing tuning of (i) self-assembly (due to amphiphilicity), (ii) carbonization (via condensation of the sugar backbone), and (iii) tail cleavage (via linker decomposition). The synthetic approach was further extended to the synthesis using another alkylated sugar precursor with a different sugar headgroup. Wet-laboratory synthesized fructose monolaurate yielded a layered carbonaceous nanostructure upon hydrothermal carbonization. Finally, the porous carbonaceous solid synthesized hydrothermally utilizing alkylated sucrose at a higher aqueous concentration exhibited a high specific surface area of 1155 m2 g–1 and a total pore volume of 1.00 cm3 g–1 with uniform, ∼32 nm-sized pores. Our demonstrated procedure presents advantages over the widely exploited, conventional templating method. It does not require sacrificial templates; hence, access to novel porous structures is not restricted by the availability and effectiveness of templates. Our precursor modification-based, direct one-step procedure is an attractive tool for precise yet flexible pore control and as a future resource- and energy-efficient approach toward nanoporous carbonaceous solids.",
-    "authors": [
-      "Shiori Kubo",
-      "Joshua Philip Barham",
-      "Norihito Hiyoshi"
-    ],
-    "institutions": [],
-    "published": "2026-08-12",
-    "journal": "Journal of the American\nChemical Society",
-    "doi": "10.1021/jacs.5c16771",
-    "url": "https://doi.org/10.1021/jacs.5c16771",
-    "sources": [
-      "Crossref"
-    ],
-    "score": 39,
-    "scores": {
-      "topic": 6,
-      "method": 8,
-      "quality": 15,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Journal of the American Chemical Society"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly",
-        "templating"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "carbon",
-        "materials",
-        "porous"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-    "selection_tier": "拓展推荐",
-    "title_zh": "Chemically Modified Sugars as Multifunctional Precursors for Direct, Template-Free Synthesis of Nanoporous Carbonaceous Materials",
-    "summary_zh": "该文围绕组装与结晶过程展开，值得结合原文进一步判断其方法和结论。",
-    "research_details_zh": "该研究涉及组装与结晶过程。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-    "key_findings_zh": [
-      "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-    ],
-    "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-    "relevance_zh": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-    "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-  },
-  {
-    "title": "Assembly and Disassembly of Nanoparticles for Antitumor Applications: Mechanisms, Strategies, and Functions",
-    "abstract": "ABSTRACT Nanoparticles (NPs) demonstrate tremendous potential in tumor therapy, diagnostic imaging, and precision medicine. Their performance is regulated by their assembly and disassembly, which influence drug delivery, therapeutic efficacy, and biosafety. However, existing reviews are confined to single therapeutic modalities, specific assembly strategies, or isolated functional optimization approaches, and do not systematically examine of NP assembly‐disassembly processes and their biological functions. Accordingly, this review first discusses the driving forces behind NP assembly and disassembly, including hydrophobic, electrostatic, hydrogen bonding, and π–π interactions. Subsequently, the NP assembly strategies, covering ex situ and in situ self‐assembly, are summarized, and the applications by which assembled NP extend blood circulation residence time, enhance tumor accumulation, protect therapeutic cargo, and potentiate therapeutic efficacy are examined. The major NP disassembly pathways, including bond cleavage, carrier degradation, coordination dissociation, supramolecular dissociation, and phase transition, are subsequently discussed, highlighting their involvement in drug release, intracellular trafficking, and molecular imaging. Finally, a trade‐off‐based assembly and disassembly discussion outlines the key challenges for clinical translation, aiming to guide the development of more effective NP‐based therapeutic systems.",
-    "authors": [
-      "Huanan Yu",
-      "Cong Chen",
-      "Mier Guo",
-      "Xusheng Wang",
-      "Dongdong Xu",
-      "Wen Sun"
-    ],
-    "institutions": [],
-    "published": "2026-08-12",
-    "journal": "Advanced Materials",
-    "doi": "10.1002/adma.74607",
-    "url": "https://doi.org/10.1002/adma.74607",
-    "sources": [
-      "Crossref"
-    ],
-    "score": 37,
-    "scores": {
-      "topic": 6,
-      "method": 6,
-      "quality": 15,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Advanced Materials"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "coordination",
-        "supramolecular"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-    "selection_tier": "拓展推荐",
-    "title_zh": "Assembly and Disassembly of Nanoparticles for Antitumor Applications: Mechanisms, Strategies, and Functions",
-    "summary_zh": "该文围绕组装与结晶过程展开，值得结合原文进一步判断其方法和结论。",
-    "research_details_zh": "该研究涉及组装与结晶过程。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-    "key_findings_zh": [
-      "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-    ],
-    "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-    "relevance_zh": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-    "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-  },
-  {
-    "title": "Mapping of Multirotor Dynamics in Metal–Organic Frameworks",
-    "abstract": "Abstract The amphidynamic nature of metal–organic frameworks (MOFs) arises from incorporated mobile rotors on organic linkers that connect metal or cluster building blocks into rigid crystalline networks. Quantifying such dynamics is crucial for advancing ultimate applications of MOFs in gas storage, separation, and molecular machinery. However, the lack of a versatile, label-free characterization technique capable of resolving the motions of multiple distinct rotors in a single framework results in an acute shortage of quantitative dynamical data sets, which hinders structure–property correlation. Here, we establish a high-resolution solid-state 13C MAS NMR (Magic Angle Spinning Nuclear Magnetic Resonance) method that employs a classic transverse relaxation theory, enabling quantitative mapping of multirotor dynamics in MOFs. This method is validated on a series of Zn4O(COO)6-based MOFs with increasing structural complexity. In particular, the rotor-specific phenylene motion of multiple linkers is simultaneously determined, yielding distinctive activation energies and motion frequencies spanning 102–107 Hz. DFT calculations of activation energies and known 2H NMR data, where available, corroborate the 13C dynamical analysis. The resulting dynamics maps correlate mobility with local structural features and sorption properties, revealing that higher porosity and weaker π-conjugation enhance rotation, and that high mobility reduces unusable methane uptake at low pressure, thereby enhancing deliverable methane capacity. This versatile methodology is broadly applicable to dynamic systems, providing site-specific insights into complex motional landscapes to establish structure–dynamics–property relationships.",
-    "authors": [
-      "Qing Wang",
-      "Zhe Wang",
-      "Cong-Cong Liang",
-      "Jing Tan",
-      "Yue-Biao Zhang",
-      "Haiming Liu"
-    ],
-    "institutions": [],
-    "published": "2026-08-12",
-    "journal": "Journal of the American\nChemical Society",
-    "doi": "10.1021/jacs.6c06870",
-    "url": "https://doi.org/10.1021/jacs.6c06870",
-    "sources": [
-      "Crossref"
-    ],
-    "score": 32,
-    "scores": {
-      "topic": 12,
-      "method": 0,
-      "quality": 15,
-      "novelty": 4,
-      "network": 0,
-      "applied": 0,
-      "archive": 1,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Journal of the American Chemical Society"
-    ],
-    "hits": {
-      "framework": [
-        "mofs"
-      ],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": [
-        "crystalline"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-    "selection_tier": "高质量框架推荐",
-    "title_zh": "Mapping of Multirotor Dynamics in Metal–Organic Frameworks",
-    "summary_zh": "该文围绕晶态多孔框架材料展开，值得结合原文进一步判断其方法和结论。",
-    "research_details_zh": "该研究涉及晶态多孔框架材料。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-    "key_findings_zh": [
-      "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-    ],
-    "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-    "relevance_zh": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
     "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
   }
 ]
