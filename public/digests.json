@@ -1,5 +1,430 @@
 [
   {
+    "date": "2026-11-12",
+    "search_start": "2026-11-10",
+    "generated_at": "2026-11-13T03:22:40Z",
+    "papers": [
+      {
+        "title": "Processing-induced self-organised triboelectric interfaces enable event-responsive cementitious composites",
+        "abstract": "Structural materials are commonly designed to bear loads passively, whereas sensing and energy-harvesting functions are typically implemented using externally attached devices that are vulnerable to damage and interfacial failure. Here we report a processing-induced strategy for forming self-organised triboelectric interfaces directly within fibre-reinforced cementitious composites during vibration-assisted casting. Through fresh-state flow, fibre migration, and grid-assisted interception, conductive and dielectric constituents assemble into local fibre-enriched contact regions, enabling intrinsic electromechanical transduction without post-fabrication assembly. Microstructural characterisation reveals local fibre enrichment and fibre-grid interweaving around the embedded coated grid, while first-principles calculations support the interfacial charge redistribution between polyvinyl alcohol and polytetrafluoroethylene. The composites retain high mechanical toughness while exhibiting stable electrical responses under low-frequency mechanical excitation, with signal amplitude scaling with load and contact configuration. After cracking, newly created internal interfaces continue to provide functional output, demonstrating damage-tolerant electromechanical activity. We further demonstrate an event-triggered sensing system in which the embedded interfaces serve as self-powered signal sources for wake-up and alert operations. This work establishes a processing-driven route for programming functional interfaces within structural materials and provides a basis for intrinsically responsive infrastructure components. The study shows that vibration-assisted casting forms fibre-polymer contacts inside a cementitious composite, enabling electrical signals after damage and a laboratory demonstration of event-triggered alerts.",
+        "authors": [
+          "Jingming Cai",
+          "Haolang Sun",
+          "Daiqi Li",
+          "JiaQi Huang",
+          "Guangming Cai",
+          "Jing Wu",
+          "Hailiang Fei",
+          "Chang Wu",
+          "Liyun Ma",
+          "Liangzhu Leon Wang",
+          "Y. X. Zhang",
+          "Ruijun Zhang",
+          "Tong Guo"
+        ],
+        "institutions": [
+          "Southeast University",
+          "Southeast University",
+          "Wuhan Textile University",
+          "Wuhan Textile University",
+          "Wuhan Textile University",
+          "Wuhan Textile University",
+          "Southeast University",
+          "Southeast University",
+          "Imperial College London",
+          "Concordia University",
+          "University of Technology Sydney",
+          "Southeast University",
+          "Southeast University"
+        ],
+        "published": "2026-11-11",
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-026-79667-3",
+        "openalex_id": "https://openalex.org/W7225820632",
+        "url": "https://doi.org/10.1038/s41467-026-79667-3",
+        "sources": [
+          "Crossref journal watch",
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 35,
+        "scores": {
+          "topic": 12,
+          "method": 2,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Nature Communications"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "materials",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "加工诱导的自组织摩擦电界面实现事件响应型水泥基复合材料",
+        "summary_zh": "该研究在振动辅助浇筑过程中，通过新拌流动、纤维迁移和网格拦截，在纤维增强水泥基复合材料内部自组织形成摩擦电界面，无需后组装即可实现本征机电转换，并在开裂后仍保持功能输出，演示了事件触发传感系统。",
+        "research_details_zh": "研究针对结构材料通常仅被动承载、传感与能量收集依赖外接器件且易受损和界面失效的问题，提出一种加工诱导策略，在振动辅助浇筑过程中于纤维增强水泥基复合材料内部直接形成自组织摩擦电界面。通过新拌态流动、纤维迁移和网格辅助拦截，导电与介电组分组装成局部富纤维接触区域，从而无需后制造组装即可实现本征机电转换。微观结构表征显示嵌入涂层网格周围存在局部纤维富集和纤维-网格交织，第一性原理计算支持聚乙烯醇与聚四氟乙烯之间的界面电荷重分布。复合材料在保持高力学韧性的同时，在低频机械激励下表现出稳定电响应，信号幅值随载荷和接触构型变化。开裂后新产生的内部界面继续提供功能输出，体现耐损伤的机电活性。研究进一步演示了事件触发传感系统，其中嵌入界面作为自供电信号源用于唤醒和警报操作。该工作为在结构材料内编程功能界面提供了加工驱动路线，并为本征响应型基础设施构件奠定基础。",
+        "methods_zh": "摘要明确出现的方法包括：振动辅助浇筑加工策略；利用新拌态流动、纤维迁移和网格辅助拦截实现自组织组装；微观结构表征观察局部纤维富集和纤维-网格交织；第一性原理计算研究聚乙烯醇与聚四氟乙烯之间的界面电荷重分布；低频机械激励下的电响应测试；开裂后功能输出测试；以及事件触发传感系统的实验室演示。摘要未报告具体的表征设备型号、测试频率范围、信号幅值数值和力学韧性定量数据。",
+        "relevance_zh": "该工作虽非介孔导电MOF或共轭框架材料，但其核心在于加工诱导自组装形成功能界面，与自组装技术和框架材料组装主线在方法学上具有类比价值：通过流场和模板拦截编程局部组分富集与接触。对关注自组装构筑功能界面的读者有启发，但材料体系为水泥基复合材料，与介孔/共轭框架电化学合成距离较远，建议作为拓展阅读而非全文精读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目和摘要内容。摘要未报告具体表征设备、测试频率范围、信号幅值数值、力学韧性定量数据、第一性原理计算细节及事件触发系统的具体性能参数，这些关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "振动辅助浇筑过程中的新拌流动、纤维迁移和网格辅助拦截使导电与介电组分在水泥基复合材料内部自组织形成局部富纤维接触区域，实现无需后制造组装的本征机电转换。",
+          "微观结构表征显示嵌入涂层网格周围存在局部纤维富集和纤维-网格交织，第一性原理计算支持聚乙烯醇与聚四氟乙烯之间的界面电荷重分布。",
+          "复合材料保持高力学韧性，并在低频机械激励下表现出稳定电响应，信号幅值随载荷和接触构型变化；开裂后新产生的内部界面继续提供功能输出。",
+          "演示了事件触发传感系统，嵌入界面作为自供电信号源用于唤醒和警报操作。"
+        ]
+      },
+      {
+        "title": "Hydroxyl‐Rich Sodium Gluconate Enables Dense SAM Assembly and Enhances Conductivity in NiO x ‐Based Inverted Perovskite Solar Cells",
+        "abstract": "ABSTRACT Nickel oxide (NiO x )/self‐assembled monolayer (SAM) composite hole transport layers represent a promising configuration for inverted perovskite solar cells (IPSCs). Nevertheless, the insufficient electrical conductivity of NiO x and the limited number of binding sites on its surface lead to incomplete monolayer coverage, resulting in substantial interfacial charge losses that constrain efficiency improvements. To address these issues, we introduce hydroxyl‑rich sodium gluconate (SG) into the NiO x solution. Gluconate anions from SG modulate the electronic properties of NiO x , thereby enhancing its conductivity. Meanwhile, the abundant hydroxyl groups along the SG backbone furnish additional hydrogen‐bonding sites for the subsequent adsorption of the SAM, promoting the formation of a compact and well‐ordered interfacial molecular layer. This dense SAM not only suppresses leakage currents but also optimizes the energetic cascade at the heterojunction, ultimately enabling the resulting IPSCs to achieve a power conversion efficiency of 26.24%. During maximum‐power‐point operation under ISOS‑L‑1 protocol, the optimized device preserves 91.6% of the starting output after 1000 h. This work establishes a versatile interfacial engineering approach that overcomes limitations in both SAM assembly and charge transport, offering new opportunities for the development of highly efficient and durable IPSCs.",
+        "authors": [
+          "Junkang HOU",
+          "Xilai He",
+          "Hui Chen",
+          "Guangpeng Feng",
+          "Ranhao Yin",
+          "Zihao Zhou",
+          "Xingyan WANG",
+          "Chenhao Wen",
+          "Dapeng Wang",
+          "Bing Wang",
+          "Qi Cao",
+          "Ilhom Tojiboyev",
+          "Xuanhua Li"
+        ],
+        "institutions": [
+          "Northwestern Polytechnical University",
+          "State Key Laboratory of Solidification Processing",
+          "Northwestern Polytechnical University",
+          "State Key Laboratory of Solidification Processing",
+          "Northwestern Polytechnical University",
+          "State Key Laboratory of Solidification Processing",
+          "Northwestern Polytechnical University",
+          "State Key Laboratory of Solidification Processing",
+          "Northwestern Polytechnical University",
+          "State Key Laboratory of Solidification Processing",
+          "Northwestern Polytechnical University",
+          "State Key Laboratory of Solidification Processing",
+          "Northwestern Polytechnical University",
+          "State Key Laboratory of Solidification Processing",
+          "Northwestern Polytechnical University",
+          "State Key Laboratory of Solidification Processing",
+          "Shaanxi Normal University",
+          "Xijing University",
+          "Tashkent State Technical University named after Islam Karimov",
+          "Institute of Ion Plasma Laser Technologies",
+          "Northwestern Polytechnical University",
+          "State Key Laboratory of Solidification Processing"
+        ],
+        "published": "2026-11-10",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.79576",
+        "openalex_id": "https://openalex.org/W7225703662",
+        "url": "https://doi.org/10.1002/adfm.79576",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 35,
+        "scores": {
+          "topic": 12,
+          "method": 2,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "charge transport"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "oxide"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "富羟基葡萄糖酸钠实现致密SAM组装并提升NiOx基倒置钙钛矿太阳能电池导电性",
+        "summary_zh": "研究将富羟基葡萄糖酸钠引入NiOx溶液，利用葡萄糖酸根调控NiOx电子性质提升导电性，同时其丰富羟基提供额外氢键位点促进致密有序SAM组装，使倒置钙钛矿太阳能电池效率达26.24%，并在ISOS-L-1协议下1000小时后保持91.6%初始输出。",
+        "research_details_zh": "研究针对NiOx/自组装单分子层复合空穴传输层中NiOx导电性不足及其表面结合位点有限导致单层覆盖不完整、界面电荷损失大、限制倒置钙钛矿太阳能电池效率提升的问题，提出将富羟基葡萄糖酸钠引入NiOx溶液。葡萄糖酸根阴离子调控NiOx的电子性质从而增强其导电性；同时葡萄糖酸钠骨架上的丰富羟基为后续SAM吸附提供额外氢键位点，促进形成致密且有序的界面分子层。该致密SAM不仅抑制漏电流，还优化异质结处的能级级联，最终使倒置钙钛矿太阳能电池实现26.24%的光电转换效率。在ISOS-L-1协议最大功率点运行下，优化器件在1000小时后保持初始输出的91.6%。该工作建立了一种通用界面工程方法，同时克服SAM组装和电荷传输的限制，为高效耐久倒置钙钛矿太阳能电池提供新机会。",
+        "methods_zh": "摘要明确出现的方法包括：将富羟基葡萄糖酸钠引入NiOx溶液进行界面修饰；利用葡萄糖酸根阴离子调控NiOx电子性质；通过羟基氢键作用促进SAM吸附组装；制备NiOx/SAM复合空穴传输层及倒置钙钛矿太阳能电池；光电转换效率测试；在ISOS-L-1协议下进行最大功率点运行稳定性测试（1000小时）。摘要未报告具体的SAM分子结构、表征手段、薄膜电导率数值和能级参数。",
+        "relevance_zh": "该工作聚焦NiOx/SAM界面工程用于钙钛矿太阳能电池，与介孔导电MOF、共轭框架材料及框架材料电化学合成主线关联较弱，但其通过羟基氢键调控自组装单层致密性和界面能级的思想，对自组装技术主线有一定方法学参考价值。材料体系为无机氧化物与分子SAM，非框架材料，建议作为拓展阅读，不必全文精读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目和摘要内容。摘要未报告SAM具体分子结构、表征手段、NiOx薄膜电导率数值、能级参数及器件其他光伏参数，这些关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "葡萄糖酸根阴离子调控NiOx电子性质，增强其导电性；葡萄糖酸钠骨架上的丰富羟基提供额外氢键位点，促进致密有序SAM组装。",
+          "致密SAM抑制漏电流并优化异质结能级级联，使倒置钙钛矿太阳能电池光电转换效率达到26.24%。",
+          "在ISOS-L-1协议最大功率点运行下，优化器件1000小时后保持初始输出的91.6%。"
+        ]
+      },
+      {
+        "title": "Electron-Catalyzed Supramolecular Assembly with High Efficiency, Robustness, and Versatility",
+        "abstract": "Abstract Although catalysis is widely exploited by nature to orchestrate noncovalent supramolecular assembly and build up complex living systems, its utilization in synthetic chemistry has conventionally been limited to accelerating covalent reactions. Consequently, the development of artificial systems for catalytic assembly remains a formidable and largely unexplored challenge. Here, we present a rationally designed strategy of electron-catalyzed supramolecular assembly, wherein the electron acts as an efficient, robust, and versatile catalyst to accelerate the formation of a donor–acceptor complex. Optimization of the elementary steps and intermediate stability yields an efficient catalytic cycle, furnishing the process with both a high turnover number and operational robustness in open air. Furthermore, the electron catalysis can be readily triggered by diverse external stimuli─including electricity, light, and mechanical force─enabling precise spatiotemporal control over the assembly process and near-quantitative synthesis of supramolecular complexes. Collectively, this work establishes a well-elucidated strategy of catalytic assembly with remarkable practicality, advancing the frontiers of noncovalent synthetic chemistry.",
+        "authors": [
+          "Guangcheng Wu",
+          "Qinghua Yang",
+          "Yunyan Qiu",
+          "Long Zhang",
+          "Quentin Stern",
+          "Hongliang Chen",
+          "Kang Cai",
+          "Xueze Zhao",
+          "Zhao Wang",
+          "Xuesong Li",
+          "Xingang Zhao",
+          "Yi-Kang Xing",
+          "Han Han",
+          "Sheng-Nan Lei",
+          "Chun Tang",
+          "Ruihua Zhang",
+          "Charlotte L. Stern",
+          "J. Fraser Stoddart",
+          "Michael R. Wasielewski",
+          "Yang Jiao"
+        ],
+        "institutions": [],
+        "published": "2026-11-12",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c16409",
+        "url": "https://doi.org/10.1021/jacs.6c16409",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 33,
+        "scores": {
+          "topic": 6,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "高效、稳健且通用的电子催化超分子组装",
+        "summary_zh": "研究提出电子催化超分子组装策略，以电子作为高效、稳健、通用的催化剂加速供体-受体复合物形成，优化基元步骤和中间体稳定性获得高周转数和开放空气操作稳健性，并可由电、光和机械力触发实现时空可控组装和近定量合成。",
+        "research_details_zh": "研究针对催化在合成化学中通常限于加速共价反应、而人工催化组装系统仍具挑战且鲜有探索的问题，提出理性设计的电子催化超分子组装策略。该策略中电子作为高效、稳健且通用的催化剂，加速供体-受体复合物的形成。通过优化基元步骤和中间体稳定性，获得高效催化循环，使过程兼具高周转数和在开放空气中的操作稳健性。此外，电子催化可被电、光和机械力等多种外部刺激触发，从而实现对组装过程的精确时空控制和超分子复合物的近定量合成。该工作建立了一种阐释清晰的催化组装策略，具有显著实用性，推进了非共价合成化学的前沿。",
+        "methods_zh": "摘要明确出现的方法包括：理性设计电子催化超分子组装策略；优化基元步骤和中间体稳定性以构建催化循环；以电子作为催化剂加速供体-受体复合物形成；利用电、光和机械力等外部刺激触发电子催化；实现超分子复合物的近定量合成。摘要未报告具体的表征手段、周转数测定方法、中间体结构解析方法和动力学测试细节。",
+        "relevance_zh": "该工作属于超分子自组装与非共价合成化学，与自组装技术主线直接相关，其电子催化、外部刺激触发和时空可控组装概念对框架材料组装及电化学合成具有方法学启发，尤其电触发组装与电化学合成主线存在潜在关联。但材料体系为供体-受体超分子复合物，非介孔或共轭框架材料，建议作为自组装方法学拓展阅读，是否全文精读取决于对催化组装机制的关注程度。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目和摘要内容。摘要未报告具体周转数数值、供体-受体复合物结构、外部刺激响应阈值、动力学参数及表征方法，这些关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "电子作为高效、稳健且通用的催化剂加速供体-受体复合物形成，优化基元步骤和中间体稳定性后获得高周转数和开放空气中的操作稳健性。",
+          "电子催化可由电、光和机械力等多种外部刺激触发，实现对组装过程的精确时空控制和超分子复合物的近定量合成。",
+          "摘要未报告相应数据：具体周转数数值、复合物结构、刺激响应阈值及动力学参数。"
+        ]
+      },
+      {
+        "title": "An Experimental MOF-Polymer Latent Space for Composite Design",
+        "abstract": "Abstract Metal–organic frameworks (MOFs) have tremendous promise for filtration, catalysis, and sequestration, but they are limited by the polymer matrices in which they must be embedded to form functional composites. Here, we find an experimental approach in which composite performance can be predicted using a single MOF particle. In particular, we attach single MOF particles to atomic force microscope (AFM) probes and find that the forces between the MOF-tipped probe and polymer films can be transformed into an instructive low-dimensional descriptor of MOF-polymer interactions. This two-dimensional latent space provides direct measures of chemical compatibility as well as the work of adhesion and can be used to understand interfacial phenomena in MOF-polymer composites. For example, polymer intercalation is observed via X-ray scattering for MOF-polymer combinations with high chemical-compatibility latent-space variables. Bulk composite performance can also be predicted using the latent space values for cases where the MOF is held constant. For example, a simple linear model was trained to predict CO2 absorption into composites of UiO-66-NH2 based solely on the latent space variables. In addition to providing a rapid way to screen polymer matrices to complement a MOF chosen for its bulk properties, these results suggest that composite performance may be a separable function of bulk properties and the interfacial latent space. In this way, this transfer-learning approach can vastly accelerate the design and understanding of functional composites.",
+        "authors": [
+          "Yihong Xu",
+          "Adedire D. Adesiji",
+          "Joseph M. Palomba",
+          "Peter A. Beaucage",
+          "Avery E. Baumann",
+          "Noora M. Al-Kharji",
+          "Tien M. Tran",
+          "Madeline M. Howell",
+          "Joshua D. Marquez",
+          "Florencia Son",
+          "Zoha H. Syed",
+          "Jan Ilavsky",
+          "Chase B. Thompson",
+          "Trenton M. Tovar",
+          "Thomas P. Pearl",
+          "Omar K. Farha",
+          "Austin M. Evans",
+          "Ronald A. Smaldone",
+          "Gregory W. Peterson",
+          "Keith A. Brown"
+        ],
+        "institutions": [],
+        "published": "2026-11-11",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c14560",
+        "url": "https://doi.org/10.1021/jacs.6c14560",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "mof",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": true,
+        "title_zh": "用于复合材料设计的实验性MOF-聚合物潜空间",
+        "summary_zh": "该研究将单个MOF颗粒固定在AFM探针上，把MOF与聚合物膜间的作用力转化为二维潜空间描述符，用于表征化学相容性与黏附功，并预测MOF-聚合物复合材料的界面现象与宏观性能。",
+        "research_details_zh": "研究针对MOF在过滤、催化与封存应用中必须嵌入聚合物基体形成复合材料、但其性能受聚合物基体限制的问题，提出用单个MOF颗粒的实验测量来预测复合材料性能。设计策略是将单颗MOF颗粒附着于原子力显微镜探针，测量MOF端探针与聚合物膜之间的作用力，并将这些力转化为低维描述符，构成二维潜空间。该潜空间直接给出化学相容性以及黏附功的度量，可用于理解MOF-聚合物复合材料中的界面现象。研究显示，对于化学相容性潜空间变量较高的MOF-聚合物组合，X射线散射观察到聚合物插层。在MOF固定的情况下，潜空间数值还可预测块体复合材料性能：以UiO-66-NH2复合材料为例，训练了仅基于潜空间变量预测CO2吸收的简单线性模型。该工作为快速筛选与目标MOF匹配的聚合物基体提供了途径，并提出复合材料性能可能是块体性质与界面潜空间的可分离函数，从而以迁移学习方式加速功能复合材料的设计与理解。",
+        "methods_zh": "摘要明确出现的方法包括：将单个MOF颗粒附着于原子力显微镜探针，测量MOF端探针与聚合物膜之间的作用力；将力数据转化为低维潜空间描述符；用X射线散射观察MOF-聚合物组合中的聚合物插层；针对UiO-66-NH2复合材料训练简单线性模型，以潜空间变量预测CO2吸收。摘要未报告具体的AFM测试条件、聚合物种类与分子量、X射线散射参数、CO2吸收测试条件及模型统计指标。",
+        "relevance_zh": "该工作虽非介孔导电MOF或共轭框架主线，但直接涉及MOF-聚合物复合材料的界面表征与性能预测，对框架材料自组装、复合与器件化具有方法学参考价值。其单颗粒AFM转化为潜空间描述符的思路可用于快速筛选基体，但研究对象限于MOF-聚合物复合体系，且摘要级信息不足以判断其对介孔或导电框架的适用性，建议结合全文评估方法可迁移性。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要。AFM测试条件、聚合物种类与分子量、X射线散射细节、CO2吸收测试条件、线性模型统计指标及潜空间变量的具体定义与数值均需全文核查。",
+        "key_findings_zh": [
+          "单MOF颗粒AFM力测量可转化为二维潜空间描述符，直接度量MOF-聚合物化学相容性与黏附功。",
+          "高化学相容性潜空间变量的MOF-聚合物组合中，X射线散射观察到聚合物插层。",
+          "在MOF固定为UiO-66-NH2时，仅用潜空间变量训练的简单线性模型可预测复合材料对CO2的吸收。",
+          "结果提示复合材料性能可能是块体性质与界面潜空间的可分离函数。"
+        ]
+      },
+      {
+        "title": "Discovery of NIR-II nanocrystals Ag3AuSe2 with near-unity quantum yield",
+        "abstract": "ABSTRACT The development of second near-infrared (NIR-II) emitting nanocrystals (NCs) with unity photoluminescence quantum yield (PLQY) is paramount for deep-tissue bioimaging and high-efficiency optoelectronics; however, the PLQY decreases markedly as the emission shifts to longer wavelengths. Herein, we have discovered a novel Ag3AuSe2 (fischesserite) NC system that extends this PLQY-wavelength frontier into the long-wavelength regime, achieving a near-unity absolute PLQY of 98.9% at 1000 nm with a monoexponential decay time of 4.1 µs. The synthesis of the near-single-crystal Ag3AuSe2 NCs hinges on the employment of an Au(I)-octanethiolate coordination polymer, [Au(OTT)]n, as the Au precursor. This precursor enables the regulated release of active gold species and provides a mild redox environment, which are essential for improving crystal quality and suppressing interfacial defects otherwise induced by side reactions. The exceptional brightness of these NCs provides a new paradigm for ultra-high signal-to-noise ratio imaging, fundamentally reshaping the application landscape for NIR-II emitters.",
+        "authors": [
+          "Liming Chen",
+          "Zhi-Gang Wang",
+          "Zhen-Ya Liu",
+          "Wei Zhao",
+          "Lin-Han Jiang",
+          "Ling Huang",
+          "Shiwu Zhang",
+          "Dai-Wen Pang"
+        ],
+        "institutions": [],
+        "published": "2026-11-11",
+        "journal": "National Science Review",
+        "doi": "10.1093/nsr/nwag710",
+        "url": "https://doi.org/10.1093/nsr/nwag710",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "National Science Review"
+        ],
+        "hits": {
+          "framework": [
+            "coordination polymer"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "coordination",
+            "crystal",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": true,
+        "title_zh": "近 unity 量子产率NIR-II纳米晶Ag3AuSe2的发现",
+        "summary_zh": "该研究报道Ag3AuSe2纳米晶体系，在1000 nm处实现98.9%绝对光致发光量子产率与4.1微秒单指数衰减，其合成依赖Au(I)-辛硫醇配位聚合物作为金前驱体以调控金物种释放并抑制界面缺陷。",
+        "research_details_zh": "研究针对第二近红外区发光纳米晶在深组织生物成像与高效光电器件中的需求，指出随着发射波长红移，光致发光量子产率显著下降的问题。材料体系为新型Ag3AuSe2（fischesserite）纳米晶，旨在将量子产率-波长前沿拓展至长波长区间。合成策略的关键是采用Au(I)-辛硫醇配位聚合物[Au(OTT)]n作为金前驱体，该前驱体能够调控活性金物种的释放并提供温和的氧化还原环境，这两点对于提高晶体质量、抑制副反应诱导的界面缺陷至关重要。研究实现了近单晶Ag3AuSe2纳米晶的制备，并表征其发光性能：在1000 nm处获得98.9%的绝对光致发光量子产率，衰减时间为4.1微秒且呈单指数特征。作者指出该纳米晶的优异亮度为超高信噪比成像提供了新范式，并可能重塑NIR-II发光体的应用格局。",
+        "methods_zh": "摘要明确出现的方法包括：以Au(I)-辛硫醇配位聚合物[Au(OTT)]n作为金前驱体合成Ag3AuSe2纳米晶；对所得纳米晶进行光致发光量子产率与发光衰减时间测量，报告绝对量子产率98.9%与单指数衰减时间4.1微秒；并提及近单晶纳米晶的获得。摘要未报告具体合成温度、时间、配体比例、纯化步骤、晶体结构表征手段及量子产率测量装置等细节。",
+        "relevance_zh": "该工作属于配位聚合物前驱体辅助的无机纳米晶合成，与介孔导电MOF、共轭COF/HOF及框架组装主线关联较弱，但其利用配位聚合物调控金属物种释放与氧化还原环境以抑制界面缺陷的策略，对框架材料衍生合成与界面缺陷控制有借鉴意义。若关注NIR-II发光材料或配位聚合物前驱体化学，值得全文精读；若聚焦介孔导电框架与电化学合成，则相关性有限。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要。合成温度与时间、前驱体配比、晶体结构表征、量子产率测量方法与误差、衰减曲线拟合细节及稳定性数据均需全文核查。",
+        "key_findings_zh": [
+          "Ag3AuSe2纳米晶在1000 nm处实现98.9%的绝对光致发光量子产率。",
+          "该纳米晶的发光衰减时间为4.1微秒，且为单指数衰减。",
+          "以Au(I)-辛硫醇配位聚合物[Au(OTT)]n为金前驱体，可调控活性金物种释放并提供温和氧化还原环境，从而提高晶体质量并抑制界面缺陷。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "search_start": "2026-11-09",
     "generated_at": "2026-11-12T03:45:54Z",
@@ -43176,420 +43601,6 @@
         ],
         "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
         "relevance_zh": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-04",
-    "generated_at": "2026-08-05T03:41:35Z",
-    "papers": [
-      {
-        "title": "Supramolecular G-Quadruplex Templating Enables Controlled Growth of Amorphous Coordination Polymer Nanodots for Photothermal CO2 Cycloaddition",
-        "abstract": "Abstract Amorphous coordination polymers offer distinct advantages over crystalline frameworks owing to their structural flexibility, high density of accessible coordination sites, and defect tolerance. Yet precise control over their nanoscale growth and dispersion remains a fundamental challenge. Herein, we report a biomolecule-driven supramolecular templating strategy for the generation of amorphous coordination polymer nanodot-embedded hydrogel. A guanosine monophosphate-based G-quadruplex supramolecular architecture, co-assembled with gallic acid, serves as an active template that spatially confines metal–polyphenol coordination. Upon Fe3+ incorporation, this supramolecular scaffold directs the formation of ultrasmall, uniformly dispersed coordination polymer nanodots, in contrast to the uncontrolled aggregation observed in non-templated systems. Spectroscopic and electrochemical analyses reveal that supramolecular confinement stabilizes mixed-valence Fe2+/Fe3+ species and enhances ligand-to-metal charge transfer, imparting efficient photothermal conversion under visible-light irradiation. As a proof-of-concept, the resulting hybrid material is shown to be an effective photothermal catalyst for solvent-free cycloaddition of CO2 to epoxides under ambient pressure, delivering cyclic carbonates with high efficiency. This work establishes G-quadruplex assembly as a versatile platform for regulating size-controlled growth of coordination polymers and highlights the functional advantages of biomolecular confinement for sustainable catalytic transformations.",
-        "authors": [
-          "Tarun Kumar Sahu",
-          "Shaurya Aneja",
-          "Ravindra Vishwakarma",
-          "Aditya Prasun",
-          "Yoshita Chakravarty",
-          "Suryakamal Sarma",
-          "Tridib K. Sarma"
-        ],
-        "institutions": [],
-        "published": "2026-08-04",
-        "journal": "ACS Applied Materials &amp; Interfaces",
-        "doi": "10.1021/acsami.6c08251",
-        "url": "https://doi.org/10.1021/acsami.6c08251",
-        "sources": [
-          "Crossref"
-        ],
-        "score": 38,
-        "scores": {
-          "topic": 18,
-          "method": 2,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "ACS Applied Materials & Interfaces"
-        ],
-        "hits": {
-          "framework": [
-            "coordination polymer"
-          ],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [
-            "templating"
-          ],
-          "electrochemical": [],
-          "materials": [
-            "coordination",
-            "crystalline",
-            "material",
-            "polymer",
-            "supramolecular"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "核心推荐",
-        "title_zh": "Supramolecular G-Quadruplex Templating Enables Controlled Growth of Amorphous Coordination Polymer Nanodots for Photothermal CO2 Cycloaddition",
-        "summary_zh": "该文围绕组装与结晶过程展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及组装与结晶过程。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Starfish‐Inspired Flexible Conductive Ester‐Linked Porphyrin Covalent Organic Framework With “Corrugated Mesh” Stacking Conformer for High Performance Electrochemical Ion Storage",
-        "abstract": "ABSTRACT The dynamic adaptability of flexible covalent organic frameworks (COFs) offers unique opportunities for advanced electrochemical systems. However, flexible nonconjugated linkers disrupt long‐range charge delocalization, making it challenging to reconcile framework high conductivity with flexibility. Here, inspired by starfish's skeletal conformer adaptive maintenance, we proposed a stacking conformer orchestration biomimetic strategy to construct a flexible conductive ester‐linked porphyrin COF (Ester‐THP‐COF) featuring starfish‐like skeletal “corrugated mesh” stacking conformer. Twisting modulation of the C─O─C dihedral angle locks adjacent layers into an AA‐eclipsed conformer, suppressing interlayer slippage to achieve anisotropic charge transport. The resulting Ester‐THP‐COF exhibited the highest electrical conductivity among the flexible COFs, reaching 6.8 × 10 −3 S·cm −1 . Meanwhile, flexible ester linkages impart pronounced ion‐embedding adaptability. The Ester‐THP‐COF electrode achieves a record‐breaking Na + storage capacity of 62.5 mg g −1 , while maintaining self‐reinforcing capacity stability of 102.8%–107.9% within large hydration size ionic systems (spanning Na + to Ca 2+ /Mg 2+ ). In‐situ characterizations revealed that hydrated‐ion insertion induces adaptive lattice respiration, progressively exposing buried interlayer porphyrin sites and enabling rapid, reversible ion coordination. This work establishes a molecular‐level design principle for integrating high conductivity and flexibility in COFs, advancing adaptive reticular porous materials for next‐generation electrochemical applications.",
-        "authors": [
-          "Junjian Li",
-          "Xiaochen Zhang",
-          "Fei Yu",
-          "Xin‐Gui Li",
-          "Jie Ma"
-        ],
-        "institutions": [],
-        "published": "2026-08-04",
-        "journal": "Advanced Functional Materials",
-        "doi": "10.1002/adfm.76678",
-        "url": "https://doi.org/10.1002/adfm.76678",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 34,
-        "scores": {
-          "topic": 18,
-          "method": 0,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 0,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "Advanced Functional Materials"
-        ],
-        "hits": {
-          "framework": [
-            "cof",
-            "cofs",
-            "covalent organic framework"
-          ],
-          "conductive": [
-            "charge transport",
-            "conductive"
-          ],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "coordination",
-            "materials",
-            "porous"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "核心推荐",
-        "title_zh": "Starfish‐Inspired Flexible Conductive Ester‐Linked Porphyrin Covalent Organic Framework With “Corrugated Mesh” Stacking Conformer for High Performance Electrochemical Ion Storage",
-        "summary_zh": "该文围绕导电与共轭特性展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及导电与共轭特性。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Engineering Hexaazatriphenylene Covalent Organic Frameworks/Carbon Nanotube Nanohybrids through In Situ Growth for Superior Anodic Lithium-Ion Storage",
-        "abstract": "Abstract Redox-active covalent organic frameworks (COFs) represent a promising class of sustainable organic electrode materials for lithium-ion batteries (LIBs). However, the tight layer stacking and poor inherent conductivity of COFs pose a major barrier to utilizing their internal redox-active sites. To circumvent the challenge, three phenazine-linked COFs hybrids (HHATP-COF@CNT, HDAB-COF@CNT, and HTAB-COF@CNT) are synthesized through the in situ polycondensation of hexaketocyclohexane with distinct aromatic multi-amine monomers on conductive carbon nanotube (CNT) surfaces, forming core–shell nanocomposites rich in redox-active hexaazatriphenylene (HAT) and aromatic ring moieties. Benefiting from the extended π-electron delocalization and high-density redox-active sites in COFs, synergized with the superior conductivity and flexible network of CNTs, these hybrids deliver high capacity, rate capability, and cycling stability. Consequently, the HHATP-COF@CNT core–shell anode delivers a high initial specific capacity of 926 mAh g–1 at 0.1 A g–1 and exhibits stable cycling performance over 1500 cycles at a high current density of 5.0 A g–1. Complementary XPS and FT-IR measurements under different states of charge/discharge unequivocally attribute the superior electrochemical performance to the rich redox-active HAT units and aromatic rings embedded in the conjugated COF architectures. This research highlights the significant potential of COF-based materials in enabling high-performance Li+ storage.",
-        "authors": [
-          "Meiying Zou",
-          "Zhenhu Li",
-          "Haoxiang Li",
-          "Yaoning Tian",
-          "Jun Xiao",
-          "Feiyang Pan",
-          "Shaoshuai Yu"
-        ],
-        "institutions": [],
-        "published": "2026-08-04",
-        "journal": "ACS Applied Materials &amp; Interfaces",
-        "doi": "10.1021/acsami.6c07460",
-        "url": "https://doi.org/10.1021/acsami.6c07460",
-        "sources": [
-          "Crossref"
-        ],
-        "score": 34,
-        "scores": {
-          "topic": 18,
-          "method": 0,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 0,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "ACS Applied Materials & Interfaces"
-        ],
-        "hits": {
-          "framework": [
-            "cof",
-            "cofs"
-          ],
-          "conductive": [
-            "conductive",
-            "conjugated"
-          ],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "carbon",
-            "materials"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "核心推荐",
-        "title_zh": "Engineering Hexaazatriphenylene Covalent Organic Frameworks/Carbon Nanotube Nanohybrids through In Situ Growth for Superior Anodic Lithium-Ion Storage",
-        "summary_zh": "该文围绕导电与共轭特性展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及导电与共轭特性。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Identification of Metal–Organic Frameworks for CO2 Capture from Humid Flue Gas: Integrating Molecular Simulation, Machine Learning, and Experimental Synthesis",
-        "abstract": "Abstract Increasing global CO2 emissions are driving efforts to develop advanced carbon capture materials. Metal–organic frameworks (MOFs) show great promise as CO2 adsorbents, yet maintaining performance under humid flue gas conditions remains a major challenge. Herein, we present an integrated computational high-throughput screening workflow that begins with a library of over 110,000 experimental MOFs or MOF-like structures, explicitly includes the effects of water in adsorption simulations, and incorporates machine learning-based stability analysis to identify promising candidates from among existing MOFs. Guided by this workflow, we synthesized a top-performing MOF that demonstrates exceptional tolerance to humid conditions, maintaining high CO2 uptake at elevated relative humidity. We further revealed key structure–property relationships and structural motifs that offer valuable design principles for next-generation MOFs for CO2 capture in humid conditions.",
-        "authors": [
-          "Jiayang Liu",
-          "Xiaoliang Wang",
-          "Xiyang Liu",
-          "Zi-Ming Ye",
-          "Thang D. Pham",
-          "Filip Formalik",
-          "Manuel Tsotsalas",
-          "Omar K. Farha",
-          "Randall Q. Snurr"
-        ],
-        "institutions": [],
-        "published": "2026-08-04",
-        "journal": "Journal of the American Chemical Society",
-        "doi": "10.1021/jacs.6c10566",
-        "url": "https://doi.org/10.1021/jacs.6c10566",
-        "sources": [
-          "Crossref"
-        ],
-        "score": 32,
-        "scores": {
-          "topic": 12,
-          "method": 0,
-          "quality": 15,
-          "novelty": 4,
-          "network": 0,
-          "applied": 0,
-          "archive": 1,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Journal of the American Chemical Society"
-        ],
-        "hits": {
-          "framework": [
-            "mof",
-            "mofs"
-          ],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "carbon",
-            "materials"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Identification of Metal–Organic Frameworks for CO2 Capture from Humid Flue Gas: Integrating Molecular Simulation, Machine Learning, and Experimental Synthesis",
-        "summary_zh": "该文围绕晶态多孔框架材料展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及晶态多孔框架材料。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Acid-/Base- and Site-Hindrance-Induced Cage Transformation and Hierarchical Self-Assembly of Regular Nanoaggregates",
-        "abstract": "Abstract Regulating the topology redistribution of coordination cages through acid-/base-responsive ligand conversion remains challenging, especially when cage topology is further directed by substituent steric effects and spatial orientation. Herein, we report a supramolecular cage system showing substituent-directed topology redistribution and fluorescence modulation under acid/base regulation. Acid- and base-induced ring-closing and ring-opening reactions provide a covalent structural switch in bisimidazolium ligands, and the resulting ligands self-assemble with Zn2+ ions into cage assemblies assigned to cuboctahedral, octahedral, square-prismatic, and triangular-prismatic cage architectures. The steric hindrance and spatial orientation of the substituents modulate the apparent cage topology distribution, while coordination-induced cage rigidity and substituent-dependent local steric restriction jointly give rise to fluorescence modulation with quantum yields varying by more than two orders of magnitude. Furthermore, the hierarchical self-assembly of cuboctahedral cages into hexagonal nanoaggregates or lyotropic nanostructures was observed by TEM, depending on the electrostatics and geometry-induced packing forces. This study demonstrates how substituent-directed ligand design couples acid-/base-responsive cage topology redistribution with optical and aggregation behaviors.",
-        "authors": [
-          "Miao Li",
-          "Yu-Qi Shi",
-          "Tianyu Guo",
-          "Longbin Su",
-          "Chuangwei Zhou",
-          "Qixia Bai",
-          "Hong-Fei Pan",
-          "Tun Wu",
-          "Zhe Zhang",
-          "Pei-Yang Su",
-          "Ting-Zheng Xie",
-          "Pingshan Wang"
-        ],
-        "institutions": [],
-        "published": "2026-08-04",
-        "journal": "ACS Applied Materials &amp; Interfaces",
-        "doi": "10.1021/acsami.6c09202",
-        "url": "https://doi.org/10.1021/acsami.6c09202",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 28,
-        "scores": {
-          "topic": 6,
-          "method": 4,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "ACS Applied Materials & Interfaces"
-        ],
-        "hits": {
-          "framework": [],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [
-            "self assembly",
-            "self-assembly"
-          ],
-          "electrochemical": [],
-          "materials": [
-            "coordination",
-            "supramolecular"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Acid-/Base- and Site-Hindrance-Induced Cage Transformation and Hierarchical Self-Assembly of Regular Nanoaggregates",
-        "summary_zh": "该文围绕组装与结晶过程展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及组装与结晶过程。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Compartmentalized Amplification and Spectral Engineering of Luminol Chemiluminescence via Host–Guest Cavity Binding and Amphiphilic Self‐Assembly",
-        "abstract": "ABSTRACT Luminol chemiluminescence (CL) is widely used in bioanalysis and forensics, yet stringent alkalinity, flash‐type kinetics, and blue emission strongly hinder in vivo applications. Here, we report QC4A‐8C, a single compartmentalized supramolecular platform that simultaneously addresses these limitations. QC4A‐8C is an amphiphilic quaternary ammonium calix[4]arene with orthogonally functionalized upper and lower rims. The cationic cavity selectively encapsulates luminol, induces a p K a shift, and converts luminol into a glow‐type emitter at near‐physiological pH. In parallel, the hydrophobic lower rim self‐assembles into nanoaggregates that compartmentalize fluorescent acceptors (DTBT, MCCH, DCI) in nanometer proximity, enabling sequential chemiluminescence resonance energy transfer (CRET) with high efficiency and red‐shifted emission (650–700 nm). As a result, tissue penetration and emission lifetime are substantially extended, and in a lipopolysaccharide‐induced peritonitis model, QC4A‐8C delivers pronounced signal enhancement over free luminol. This work validates macrocyclic host–guest chemistry as a programmable route to integrate CL amplification with optical spectral engineering for diagnostic imaging.",
-        "authors": [
-          "Jie Gao",
-          "Hongchao Wang",
-          "Maocheng Yang",
-          "Yujie Wang",
-          "Meng‐meng Chen",
-          "Yumei Wu",
-          "Zhe Zheng",
-          "Chunju Li",
-          "Zeli Yuan"
-        ],
-        "institutions": [],
-        "published": "2026-08-04",
-        "journal": "Small",
-        "doi": "10.1002/smll.75000",
-        "url": "https://doi.org/10.1002/smll.75000",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 28,
-        "scores": {
-          "topic": 6,
-          "method": 4,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "Small"
-        ],
-        "hits": {
-          "framework": [],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [
-            "self assembly",
-            "self-assembly"
-          ],
-          "electrochemical": [],
-          "materials": [
-            "supramolecular"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Compartmentalized Amplification and Spectral Engineering of Luminol Chemiluminescence via Host–Guest Cavity Binding and Amphiphilic Self‐Assembly",
-        "summary_zh": "该文围绕组装与结晶过程展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及组装与结晶过程。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
         "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
       }
     ]
