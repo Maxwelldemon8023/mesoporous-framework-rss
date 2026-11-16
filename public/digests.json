@@ -1,5 +1,611 @@
 [
   {
+    "date": "2026-11-15",
+    "search_start": "2026-11-13",
+    "generated_at": "2026-11-16T02:41:45Z",
+    "papers": [
+      {
+        "title": "Boolean Logic‐Assisted Organic Photoelectrochemical Transistor DNA Molecular Computing Platform for Dual‐miRNA‐Based Precise Breast Cancer Diagnosis",
+        "abstract": "ABSTRACT Single‐biomarker OPECT biosensing is prone to false positives, and although Boolean logic gates improve specificity through dual‐target triggering, they typically sacrifice sensitivity or depend on fragmented, multi‐step readouts. Herein, we report an OPECT‐based DNA molecular‐computing platform that reframes biosensing as a programmable Boolean‐responsive trigger (BRT) circuits with a rationally engineered Cu‐T 4 EPE/MSN@CsPbBr 3 (Cu‐T/MSN@CPB) photoelectric heterojunction for breast‐cancer detection. Halide perovskites offer exceptional carrier transport and photoelectric conversion, yet have been excluded from OPECT biosensing by aqueous instability or the lack of a continuous, biocompatible charge‐transport interface. We therefore pre‐encapsulate CsPbBr 3 quantum dots in mesoporous silica nanospheres and interface them with a porous, visible‐light‐absorbing Cu‐T MOF, forming a Cu‐T/MSN@CPB type‐II heterojunction whose matched band alignment drives directional spatial separation of photogenerated carriers, delivering a 4‐fold photocurrent response over pristine Cu‐T with stability retained in physiological buffer. On this gate, Boolean‐responsive trigger circuitry outputs a HCR‐amplified signal only when miR‐21 and miR‐31 coexist and attains detection limits of 0.13 fM (miR‐31) and 0.09 fM (miR‐21). This DNA‐encoded logic is rewirable to other cancer types, pointing toward programmable, point‐of‐care precision cancer diagnosis.",
+        "authors": [
+          "Qiqi Chao",
+          "Jing Ren",
+          "Sixian Li",
+          "Jia‐Hao Chen",
+          "Degang Jiang",
+          "Hong Zhou"
+        ],
+        "institutions": [
+          "Qingdao University of Science and Technology",
+          "Qingdao University of Science and Technology",
+          "Qingdao University of Science and Technology",
+          "Qingdao University of Science and Technology",
+          "Qingdao University of Science and Technology",
+          "Qingdao University of Science and Technology"
+        ],
+        "published": "2026-11-13",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.79617",
+        "openalex_id": "https://openalex.org/W7226005485",
+        "url": "https://doi.org/10.1002/adfm.79617",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 54,
+        "scores": {
+          "topic": 29,
+          "method": 4,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [
+            "mof"
+          ],
+          "conductive": [
+            "charge transport"
+          ],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "mesoporous",
+            "porous",
+            "silica"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "布尔逻辑辅助的有机光电化学晶体管DNA分子计算平台用于双miRNA乳腺癌精准诊断",
+        "summary_zh": "该工作将OPECT生物传感重构为可编程布尔响应触发电路，构建Cu-T MOF与介孔二氧化硅封装CsPbBr3量子点的II型异质结，实现双miRNA共存触发的HCR放大检测，miR-31和miR-21检测限分别为0.13 fM和0.09 fM。",
+        "research_details_zh": "研究针对单标志物OPECT传感易假阳性、而现有布尔逻辑门常牺牲灵敏度或依赖多步读出的问题，提出将生物传感重构为可编程布尔响应触发电路。材料体系为Cu-T4EPE MOF与介孔二氧化硅纳米球预封装CsPbBr3量子点复合形成的Cu-T/MSN@CPB光电异质结，旨在解决卤化物钙钛矿水相不稳定及缺乏连续生物相容电荷传输界面的难题。设计策略是利用多孔可见光吸收Cu-T MOF与MSN@CPB构建II型异质结，通过匹配能带排列驱动光生载流子定向空间分离。研究过程包括异质结构建、光电性能评估及布尔触发电路与杂交链式反应放大整合，仅在miR-21与miR-31共存时输出信号。其意义在于将DNA编码逻辑可重编程至其他癌种，指向可编程即时精准诊断。",
+        "methods_zh": "摘要明确报告的方法包括：将CsPbBr3量子点预封装于介孔二氧化硅纳米球，并与多孔可见光吸收Cu-T MOF界面复合构建II型异质结；通过光电化学晶体管平台进行光电响应测试并评估生理缓冲液中的稳定性；构建布尔响应触发电路并结合杂交链式反应实现信号放大；以双miRNA共存为逻辑条件进行检测性能评价并获得检测限。摘要未报告具体表征手段、合成条件及器件制备细节。",
+        "relevance_zh": "该研究直接关联介孔材料与MOF框架在光电化学器件中的组装应用，展示了介孔二氧化硅封装钙钛矿与导电MOF异质结的界面设计思路，对框架材料组装和电化学/光电合成主线有参考价值。其创新在于逻辑门控传感而非框架材料本身的结构创新，若关注MOF异质结电荷分离机制值得全文精读，若仅关注MOF合成则相关性有限。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级解读；异质结的具体能带位置、载流子分离的直接证据、MOF结构细节、合成条件、表征手段及逻辑电路设计参数等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "Cu-T/MSN@CPB II型异质结相比原始Cu-T实现4倍光电流响应，且在生理缓冲液中保持稳定性",
+          "布尔响应触发电路仅在miR-21与miR-31共存时输出HCR放大信号",
+          "检测限达0.13 fM（miR-31）和0.09 fM（miR-21）",
+          "DNA编码逻辑可重编程用于其他癌症类型"
+        ]
+      },
+      {
+        "title": "Topology-Based Generation of Hypothetical Metal−Organic Frameworks through Single-Metal Nodes and Symmetry-Aware Linker Rotation",
+        "abstract": "Abstract Topology-based hypothetical metal−organic framework (MOF) generators enable scalable exploration of chemical space beyond experimentally reported structures, but their accessible design space is constrained by the building blocks and assembly rules they encode. Here, we present PORMAKE2, an upgraded topology-based hypothetical MOF generator designed to improve both access to small-pore structures and geometric fidelity. PORMAKE2 introduces an expanded building-block library, including single-metal nodes, and implements symmetry-aware linker rotation for higher-fidelity framework assembly. These upgrades substantially expand the accessible small-pore MOF space and enable MOF designs that were inaccessible to earlier workflows, including ZIF-type and CALF-20-like structures with improved geometrical agreement. Carbon dioxide direct air capture (DAC) and xenon/krypton separation are included as case studies demonstrating that an improved framework-generation workflow can influence downstream screening outcomes. These results establish PORMAKE2 as a more expressive and chemically faithful front-end platform for hypothetical MOF generation.",
+        "authors": [
+          "Jungwoo Lee",
+          "Young-Hun Kim",
+          "Gunho Lee",
+          "Jihan Kim"
+        ],
+        "institutions": [
+          "Korea Advanced Institute of Science and Technology",
+          "Korea Advanced Institute of Science and Technology",
+          "Korea Advanced Institute of Science and Technology",
+          "Korea Advanced Institute of Science and Technology"
+        ],
+        "published": "2026-11-14",
+        "journal": "Chemistry of Materials",
+        "doi": "10.1021/acs.chemmater.6c02674",
+        "openalex_id": "https://openalex.org/W7212033715",
+        "url": "https://doi.org/10.1021/acs.chemmater.6c02674",
+        "sources": [
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 38,
+        "scores": {
+          "topic": 18,
+          "method": 2,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Chemistry of Materials"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "carbon"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "通过单金属节点与对称性感知连接子旋转的拓扑基假想金属有机框架生成",
+        "summary_zh": "该工作提出升级的拓扑基假想MOF生成器PORMAKE2，引入含单金属节点的扩展构建块库和对称性感知连接子旋转，显著扩展可及小孔MOF空间，并以二氧化碳直接空气捕集和氙/氪分离为案例展示其对下游筛选的影响。",
+        "research_details_zh": "研究问题是拓扑基假想MOF生成器的可设计空间受其所编码构建块和组装规则限制。材料体系为假想金属有机框架，重点扩展至单金属节点构建块及小孔结构。设计策略是升级PORMAKE2生成器：引入扩展构建块库（含单金属节点），并实现对称性感知的连接子旋转以提高框架组装几何保真度。研究过程包括生成器开发、可及小孔MOF空间扩展评估，以及以二氧化碳直接空气捕集和氙/氪分离为案例研究验证改进工作流对下游筛选结果的影响，并展示ZIF型和CALF-20类结构具有改进的几何一致性。其意义在于确立PORMAKE2作为更具表达力和化学保真度的假想MOF生成前端平台，属于计算生成方法学而非实验合成报道。",
+        "methods_zh": "摘要明确报告的方法为拓扑基假想MOF生成：构建扩展构建块库（包括单金属节点），实施对称性感知连接子旋转进行框架组装，并开展几何一致性评估。应用层面以二氧化碳直接空气捕集和氙/氪分离为案例进行下游筛选研究。摘要未报告具体算法细节、计算参数、力场或筛选指标数值。",
+        "relevance_zh": "该研究属于框架材料计算生成方法学，与介孔导电MOF、共轭框架等实验主线关联较弱，但对框架组装规则和拓扑设计有方法学参考价值，尤其单金属节点和小孔结构生成可启发框架构建块选择。若研究主线侧重实验合成与电化学应用，相关性有限；若涉及计算筛选或结构预测则值得关注。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级解读；生成算法细节、构建块库规模、几何保真度评价指标、筛选流程与具体性能数据等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "PORMAKE2通过扩展构建块库（含单金属节点）和对称性感知连接子旋转，显著扩展可及小孔MOF空间",
+          "可生成早期工作流无法获得的MOF设计，包括ZIF型和CALF-20类结构且几何一致性改进",
+          "二氧化碳直接空气捕集与氙/氪分离案例表明改进的框架生成工作流可影响下游筛选结果"
+        ]
+      },
+      {
+        "title": "Diatom‐Inspired Hierarchical Macro‐Mesoporous AuPd/ZnO with Topology‑Induced Metal‐Support Interactions for Ultrasensitive Monitoring of Bacterial Volatile Biomarkers",
+        "abstract": "ABSTRACT Inspired by the hierarchical porous architecture of diatom frustules, we report a biomimetic hierarchically ordered macroporous mesoporous AuPd/ZnO composite as a high‐performance sensing platform for trace detection of 3 ‐hydroxy‐2‐butanone (3H2B), a critical volatile biomarker of Listeria monocytogenes. Here, the deliberate design of high curvature mesopores as topological traps to anchor AuPd nanocrystals, proposing a topology‐induced metal‐support interaction mechanism that triggers interfacial electronic restructuring. This confinement‐driven modulation optimizes oxygen reactivity and reduces the reaction energy barrier, enabling MEMS sensor with an ultralow detection limit of 9.7 ppb and high response (R a /R g = 74.4) to 10 ppm 3H2B at 150°C, significantly outperforming conventional porous materials. In situ spectroscopy and DFT calculations reveal that Pd sites within the AuPd alloy serve as primary electron donors, facilitating 3H2B dehydrogenation and oxidation. Furthermore, a portable wireless module integrated with a random forest algorithm allows accurate identification of 3H2B in complex mixtures, validating real‐time monitoring of bacterial growth in food. This work not only establishes a paradigm for precision synthesis of hierarchically porous materials but also provides profound insights into interfacial science by leveraging topological confinement to tailor electronic structures for interfacial catalytic performance and food safety applications.",
+        "authors": [
+          "Yongheng Zhu",
+          "Xingyu Wang",
+          "Keheng Zhu",
+          "Weihao Wu",
+          "Jingting Han",
+          "Cheng Zhao",
+          "Zhaohuan Zhang",
+          "Keyu Chen",
+          "Yong Zhao",
+          "Yidong Zou",
+          "Tianjun Ni",
+          "Xuanyu Yang"
+        ],
+        "institutions": [
+          "Shanghai Ocean University",
+          "Shanghai Ocean University",
+          "Shanghai Maritime University",
+          "Shanghai Ocean University",
+          "Shanghai Ocean University",
+          "Shanghai Ocean University",
+          "Shanghai Ocean University",
+          "Fudan University",
+          "Shanghai Ocean University",
+          "Tongji University",
+          "Henan Medical University",
+          "Zhengzhou University of Light Industry"
+        ],
+        "published": "2026-11-14",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.79618",
+        "openalex_id": "https://openalex.org/W7229263456",
+        "url": "https://doi.org/10.1002/adfm.79618",
+        "sources": [
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 37,
+        "scores": {
+          "topic": 6,
+          "method": 8,
+          "quality": 8,
+          "novelty": 6,
+          "network": 5,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "hierarchically porous",
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "materials",
+            "mesoporous",
+            "porous"
+          ]
+        },
+        "network_hits": [
+          "Fudan University"
+        ],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、关注作者/机构，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "仿硅藻分级大孔-介孔AuPd/ZnO及其拓扑诱导金属-载体相互作用用于细菌挥发性标志物超灵敏监测",
+        "summary_zh": "该工作仿硅藻分级多孔结构构建有序大孔-介孔AuPd/ZnO复合材料，提出高曲率介孔作为拓扑陷阱锚定AuPd纳米晶的拓扑诱导金属-载体相互作用机制，实现3-羟基-2-丁酮超低检测限9.7 ppb并集成便携无线模块与随机森林算法识别复杂混合物。",
+        "research_details_zh": "研究问题是痕量检测单核细胞增生李斯特菌关键挥发性标志物3-羟基-2-丁酮（3H2B）需要高性能传感平台。材料体系为仿硅藻壳分级多孔结构的有序大孔-介孔AuPd/ZnO复合材料。设计策略是刻意设计高曲率介孔作为拓扑陷阱锚定AuPd纳米晶，提出拓扑诱导金属-载体相互作用机制以触发界面电子重构，通过限域驱动调制优化氧反应活性并降低反应能垒。研究过程包括复合材料构建、MEMS传感器制备与性能测试，结合原位光谱和DFT计算揭示AuPd合金中Pd位点作为主要电子供体促进3H2B脱氢与氧化，并集成便携无线模块与随机森林算法实现复杂混合物中3H2B的准确识别及食品中细菌生长实时监测。其意义在于建立分级多孔材料精准合成范式并借助拓扑限域调控电子结构以提升界面催化性能。",
+        "methods_zh": "摘要明确报告的方法包括：仿硅藻分级多孔结构构建有序大孔-介孔AuPd/ZnO复合材料；MEMS传感器制备及对3H2B的响应与检测限测试；原位光谱表征与DFT计算分析Pd位点电子供体作用及反应路径；集成便携无线模块与随机森林算法进行复杂混合物识别和食品中细菌生长实时监测。摘要未报告具体合成条件、孔径数值及表征仪器细节。",
+        "relevance_zh": "该研究关联介孔材料与分级多孔结构设计，其高曲率介孔作为拓扑陷阱锚定纳米晶的思路对介孔材料组装和界面调控有参考价值，但材料体系为AuPd/ZnO而非MOF/COF框架，与框架材料主线关联有限。若关注分级介孔合成与拓扑限域效应值得全文精读，若聚焦导电MOF或共轭框架则相关性较低。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级解读；具体合成条件、孔径与比表面积数值、原位光谱类型、DFT计算细节及传感器长期稳定性等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "MEMS传感器对10 ppm 3H2B在150°C下响应Ra/Rg=74.4，检测限低至9.7 ppb，显著优于常规多孔材料",
+          "原位光谱与DFT计算表明AuPd合金中Pd位点为主要电子供体，促进3H2B脱氢与氧化",
+          "高曲率介孔作为拓扑陷阱锚定AuPd纳米晶，拓扑诱导金属-载体相互作用触发界面电子重构并降低反应能垒",
+          "便携无线模块结合随机森林算法可准确识别复杂混合物中3H2B并实时监测食品中细菌生长"
+        ]
+      },
+      {
+        "title": "Molecular Bridging Flexibility Enables Closed‐Pore Engineering in Hard Carbon for Enhanced Plateau Sodium Storage",
+        "abstract": "ABSTRACT Closed pores are critical structural motifs that enable low‐voltage plateau capacity in hard carbon (HC) anodes for sodium‐ion batteries, yet their controllable construction through precursor molecular design remains challenging. Herein, we demonstrate molecular bridging flexibility as an effective design principle for regulating closed‐pore formation in HCs. The flexibility/rigidity of polymer precursors is tailored by distinct bridging configurations, namely Ar─CH 2 ─Ar and Ar─O─C bridges, where oxygen‐containing bridges enhance segmental flexibility. During early‐stage pyrolysis, flexible precursor segments provide higher conformational freedom, inducing curved carbon skeletons and promoting the formation of semi‐open sub‐1 nm pores. Driven by high surface energy, these semi‐open pores undergo pore‐mouth closure during high‐temperature pyrolysis, generating abundant closed pores. The resulting HC exhibits a closed porosity of 0.12 cm 3 g −1 and a pore size 1.13 nm, which enhances plateau capacity and sodium‐ion diffusion kinetics. Consequently, the flexible‐precursor‐derived HC delivers a high reversible capacity of 356.1 mAh g −1 and a plateau capacity of 242.7 mAh g −1 . Moreover, a practical 1.2 Ah pouch cell achieves 217.2 Wh kg −1 and retains 81.2% of its initial capacity after 100 cycles at 0.5 C. This work establishes a molecular‐level strategy for closed‐pore engineering in HC anodes for high‐performance sodium‐ion batteries.",
+        "authors": [
+          "Ying Zhao",
+          "Chuang Qiu",
+          "Shengyong Gao",
+          "Yibo Zhu",
+          "Kuan Fang",
+          "Heping Niu",
+          "Peng Liu",
+          "Liting Yang",
+          "Yahui Chen",
+          "Hui Ying Yang",
+          "Lianzhou Wang",
+          "Bin Luo",
+          "Jisheng Zhou"
+        ],
+        "institutions": [],
+        "published": "2026-11-13",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75718",
+        "url": "https://doi.org/10.1002/adma.75718",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 35,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "pore engineering"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "分子桥接柔性实现硬碳闭孔工程以增强平台区储钠",
+        "summary_zh": "该研究提出以分子桥接柔性调控硬碳闭孔形成，通过含氧桥增强前驱体链段柔性，诱导半开放亚纳米孔并在高温下闭口，获得闭孔率0.12 cm3 g−1、孔径1.13 nm的硬碳，实现356.1 mAh g−1可逆容量与242.7 mAh g−1平台容量。",
+        "research_details_zh": "研究针对钠离子电池硬碳负极闭孔难以通过前驱体分子设计可控构建的问题，提出分子桥接柔性作为闭孔形成调控原则。材料体系为聚合物前驱体衍生硬碳，通过不同桥接构型Ar─CH2─Ar与Ar─O─C调节前驱体柔性/刚性，其中含氧桥提升链段柔性。研究过程为：早期热解阶段柔性链段提供更高构象自由度，诱导弯曲碳骨架并促进半开放亚1 nm孔形成；高温热解阶段这些半开放孔在高表面能驱动下发生孔口闭合，生成大量闭孔。所得硬碳闭孔率为0.12 cm3 g−1、孔径1.13 nm，增强平台容量与钠离子扩散动力学。意义在于建立了硬碳负极闭孔工程的分子层面策略，并验证了 pouch 电池层面的实用性。",
+        "methods_zh": "摘要明确出现的方法包括：通过Ar─CH2─Ar与Ar─O─C两种桥接构型设计并调节聚合物前驱体的柔性/刚性；经早期热解和高温热解两步热处理制备硬碳；表征闭孔率（0.12 cm3 g−1）与孔径（1.13 nm）；测试可逆容量、平台容量和钠离子扩散动力学；组装1.2 Ah pouch电池并在0.5 C下进行100次循环测试。摘要未报告具体表征仪器、电解液体系和测试电压窗口等细节。",
+        "relevance_zh": "该工作虽以硬碳储钠为主，但其“前驱体分子桥接柔性—弯曲骨架—半开放亚纳米孔—高温孔口闭合”的闭孔构筑逻辑，对介孔/微孔碳材料的孔工程与框架材料热解衍生多孔碳的孔结构调控具有方法学参考价值。局限在于研究对象为无定形硬碳而非晶态框架或介孔导电框架，且未涉及电化学合成或自组装。若关注孔口闭合与亚纳米孔调控机制，值得全文精读。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读；前驱体具体化学结构、热解温度与时间、闭孔表征方法、电解液与电压窗口、pouch电池测试条件及循环稳定性机制等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "含氧桥Ar─O─C增强前驱体链段柔性，柔性链段在早期热解中诱导弯曲碳骨架和半开放亚1 nm孔，高温下孔口闭合形成闭孔。",
+          "所得硬碳闭孔率为0.12 cm3 g−1，孔径为1.13 nm，增强平台容量与钠离子扩散动力学。",
+          "柔性前驱体衍生硬碳的可逆容量为356.1 mAh g−1，平台容量为242.7 mAh g−1。",
+          "1.2 Ah pouch电池能量密度达217.2 Wh kg−1，0.5 C下100次循环后容量保持率为81.2%。"
+        ]
+      },
+      {
+        "title": "Advances in Donor–Acceptor Covalent Organic Frameworks: From Rational Design to Multifunctional Applications",
+        "abstract": "ABSTRACT Donor–acceptor (D‐A) covalent organic frameworks (COFs) provide modular crystalline platforms in which D‐A pairing, linkage chemistry, pore environments, and framework ordering can be rationally engineered to regulate light harvesting, exciton dissociation, charge separation, and charge transport. This review summarizes recent progress in the design and multifunctional applications of D‐A COFs across key linkage families, including imine, β‐ketoenamine, triazine, vinylene, boroxine, amide, ester, and hydrazone frameworks. We first discuss key structural design principles, including donor/acceptor selection, topology and linkage engineering, π‐π stacking, framework planarity, pore functionalization, and post‐synthetic modification, and relate these features to optoelectronic descriptors such as absorption/emission behavior, energy‐level alignment, and charge‐transfer dynamics. Representative applications are then organized across solar‐driven catalysis, including hydrogen evolution reaction, oxygen evolution reaction, CO 2 reduction, coupled CO–H 2 O 2 generation, as well as sensing/biosensing, biomedical phototherapies, and broadband photodetection. Selected case studies illustrate how specific donor‐acceptor combinations, conjugated linkages, metal centers, and pore microenvironments translate into enhanced performances through structure‐function correlations. Finally, we discuss remaining challenges in operational stability, scalable synthesis, structural precision, and target selectivity, and highlight emerging opportunities in data‐guided design, hybrid integration, and application‐oriented optimization of D‐A COFs for energy, environmental, and biomedical technologies.",
+        "authors": [
+          "Soheil Tavassoli",
+          "Kheibar Dashtian",
+          "Shabnam Taghipour",
+          "Ogechukwu Vincentia Ezeh",
+          "Natee Wongsrisujarit",
+          "Mehdi Rahimi‐Nasrabadi"
+        ],
+        "institutions": [],
+        "published": "2026-11-13",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.79080",
+        "url": "https://doi.org/10.1002/adfm.79080",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [
+            "cofs"
+          ],
+          "conductive": [
+            "charge transport",
+            "conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "crystalline"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "供体—受体共价有机框架研究进展：从理性设计到多功能应用",
+        "summary_zh": "该综述系统总结供体—受体共价有机框架在亚胺、β-酮烯胺、三嗪、乙烯撑、硼氧环、酰胺、酯和腙等连接家族中的设计原则，将供体/受体选择、拓扑与连接工程、π-π堆叠、框架平面性、孔功能化及后合成修饰与光吸收、能级匹配和电荷转移动力学关联，并梳理光催化、传感、生物医学光疗和宽带光电探测等应用。",
+        "research_details_zh": "综述针对供体—受体共价有机框架如何通过模块化晶体平台理性调控光捕获、激子解离、电荷分离与传输的问题展开。材料体系覆盖亚胺、β-酮烯胺、三嗪、乙烯撑、硼氧环、酰胺、酯和腙等多种连接类型的D-A COF。设计策略包括供体/受体选择、拓扑与连接工程、π-π堆叠、框架平面性、孔功能化和后合成修饰，并将这些结构特征与吸收/发射行为、能级匹配和电荷转移动力学等光电子描述符关联。应用部分按太阳能驱动催化（析氢、析氧、CO2还原、耦合CO–H2O2生成）、传感/生物传感、生物医学光疗和宽带光电探测组织，并通过案例说明特定供体—受体组合、共轭连接、金属中心和孔微环境如何经由结构—功能关系提升性能。最后讨论运行稳定性、可规模化合成、结构精确性和目标选择性等挑战，并展望数据引导设计、杂化集成和应用导向优化。",
+        "methods_zh": "摘要未报告具体实验方法；作为综述，其组织方式为按连接家族归纳D-A COF的结构设计原则，将供体/受体选择、拓扑与连接工程、π-π堆叠、框架平面性、孔功能化和后合成修饰与吸收/发射行为、能级匹配和电荷转移动力学等光电子描述符关联，并按太阳能驱动催化、传感/生物传感、生物医学光疗和宽带光电探测等应用分类讨论代表性案例。摘要未报告具体合成条件、表征手段和性能测试参数。",
+        "relevance_zh": "该综述直接覆盖共轭COF与框架材料主线，系统梳理D-A COF的连接化学、孔环境工程和光电子结构—功能关系，对理解共轭框架的电荷传输调控与多功能应用具有较高参考价值。其局限为综述性质，不提供原始实验数据，且摘要未涉及介孔导电MOF、HOF或电化学合成。适合作为D-A COF设计原则与应用版图的入门与检索入口，值得全文精读以获取具体案例与性能数据。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读；各连接家族的具体合成路线、表征数据、器件性能数值、稳定性测试条件和案例细节仍需全文核查。",
+        "key_findings_zh": [
+          "D-A COF可通过供体/受体选择、拓扑与连接工程、π-π堆叠、框架平面性、孔功能化和后合成修饰等原则理性调控光捕获、激子解离、电荷分离与传输。",
+          "不同连接家族（亚胺、β-酮烯胺、三嗪、乙烯撑、硼氧环、酰胺、酯、腙）构成D-A COF设计与应用的结构基础。",
+          "特定供体—受体组合、共轭连接、金属中心和孔微环境可通过结构—功能关系提升光催化、传感、光疗和光电探测性能。",
+          "运行稳定性、可规模化合成、结构精确性和目标选择性仍是挑战，数据引导设计与杂化集成是新兴方向。"
+        ]
+      },
+      {
+        "title": "Interpretable Machine Learning Reveals Design Rules for Thermal‐Mechanical Decoupling in Covalent Organic Frameworks",
+        "abstract": "ABSTRACT Thermal management materials face a persistent challenge: high thermal conductivity ( κ ) and low Young's modulus (E) are often mutually exclusive. Stiff materials typically conduct heat well while compliant materials tend to thermally insulate. Covalent organic frameworks (COFs) offer exceptional structural tunability that breaks this trade‐off, yet a systematic understanding of κ ‐E decoupling remains elusive. Here we establish an interpretable machine learning framework integrating molecular simulations, six benchmarked models, and SHAP‐based feature analysis to screen over 52 000 topologically valid three‐dimensional COFs. Using random forest as the optimal model, we identify 26 COFs that simultaneously achieve high κ (&gt; 0.8 W m − 1 K − 1 ) and low E (&lt; 8 GPa), a combination difficult to attain by conventional design. SHAP analysis reveals that decoupling arises from nonlinear cooperative actions of multiple descriptors rather than single‐feature tuning. Phonon‐level transport analyses show that intermediate density, strong covalent connectivity, moderate porosity, and low linker fragment complexity balance volumetric heat capacity, phonon group velocity, and phonon lifetime, enabling high κ while preserving low E. This work provides a blueprint for thermally conductive yet mechanically compliant COFs and establishes a generalizable workflow for exploring property decoupling in framework materials.",
+        "authors": [
+          "Jian Luo",
+          "Yinglong Hu",
+          "Xinran Zhang",
+          "Kan Tao",
+          "Chenxuan Liu",
+          "Yanguang Zhou",
+          "Qi Wang",
+          "Hao Ma"
+        ],
+        "institutions": [],
+        "published": "2026-11-13",
+        "journal": "Advanced Functional Materials",
+        "doi": "10.1002/adfm.79649",
+        "url": "https://doi.org/10.1002/adfm.79649",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Functional Materials"
+        ],
+        "hits": {
+          "framework": [
+            "cofs"
+          ],
+          "conductive": [
+            "conductive"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "可解释机器学习揭示共价有机框架热—力学解耦的设计规则",
+        "summary_zh": "该研究构建整合分子模拟、六种基准模型和SHAP特征分析的可解释机器学习框架，筛选逾52000种拓扑有效的三维COF，以随机森林为最优模型识别出26种同时满足高热导率（>0.8 W m−1 K−1）和低杨氏模量（<8 GPa）的COF，并揭示解耦源于多描述符的非线性协同作用。",
+        "research_details_zh": "研究针对热管理材料中高热导率与低杨氏模量难以兼得的问题，利用COF结构可调性探索κ–E解耦。材料体系为超过52000种拓扑有效的三维COF。方法上构建可解释机器学习框架，整合分子模拟、六种基准模型和基于SHAP的特征分析进行筛选，确定随机森林为最优模型。结果识别出26种同时实现高κ（>0.8 W m−1 K−1）和低E（<8 GPa）的COF，该组合难以通过常规设计获得。SHAP分析表明解耦来自多个描述符的非线性协同作用而非单一特征调节。声子层面输运分析显示，中等密度、强共价连接、适中孔隙率和低连接片段复杂度可平衡体积热容、声子群速度和声子寿命，从而在保持低E的同时实现高κ。意义在于为导热且力学柔顺的COF提供设计蓝图，并建立框架材料性质解耦的通用工作流。",
+        "methods_zh": "摘要明确出现的方法包括：分子模拟、六种基准机器学习模型的构建与比较、以随机森林为最优模型的筛选流程、基于SHAP的特征重要性分析，以及对超过52000种拓扑有效三维COF的批量筛选；并开展声子层面输运分析，考察体积热容、声子群速度和声子寿命。摘要未报告具体分子模拟力场、COF结构生成方式、训练/测试集划分及热导率和杨氏模量的计算细节。",
+        "relevance_zh": "该工作以三维COF为对象，将可解释机器学习与声子输运分析结合，提出热导率—模量解耦的设计规则，对框架材料的结构—性质关系研究和数据驱动设计具有方法学价值，与共轭框架及框架材料组装主线相关但偏热—力学性能而非电化学。局限在于摘要未涉及介孔、导电MOF、HOF或电化学合成，且结果为计算筛选，实验验证情况摘要未报告。对框架材料机器学习工作流感兴趣的读者值得全文精读。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读；COF结构库来源、分子模拟参数、模型训练细节、κ与E的计算方法及是否有实验验证等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "以随机森林为最优模型，从逾52000种拓扑有效三维COF中识别出26种同时满足κ>0.8 W m−1 K−1和E<8 GPa的COF。",
+          "SHAP分析表明κ–E解耦源于多个描述符的非线性协同作用，而非单一特征调节。",
+          "声子输运分析显示中等密度、强共价连接、适中孔隙率和低连接片段复杂度可平衡体积热容、声子群速度和声子寿命，实现高κ并保持低E。"
+        ]
+      },
+      {
+        "title": "Colloidally Prepared Homogeneous Wide-Bandgap Perovskites for Efficient Tandem Solar Cells with Industrial Silicon",
+        "abstract": "Abstract Wide-bandgap (WBG) perovskites, based on mixed halide-cation compositions, are widely employed as top cells in perovskite/silicon tandem solar cells to overcome the theoretical limitations of single-junction devices and exploit the full potential of crystalline silicon photovoltaics. However, uncontrolled nucleation rates and disordered crystallization kinetics in WBG perovskites pose a grave challenge to the preparation of phase-homogeneous perovskite films. Herein, we identify the undesirable precursor suspension as the main underlying reason for the compositional inhomogeneity and propose a colloidal engineering strategy to reconstruct the perovskite intermediate complex. According to classical colloidal theory and theoretical calculations, long-chain alkylphosphonic acid molecules are selected to precisely regulate colloidal structures and properties via their specific coordination strengths, leading to colloid-guided rapid nucleation and slow crystallization processes. Assisted by the uniform colloidal nucleation template, the prepared WBG perovskite films with compositional homogenization and reduced trap density enable tandem devices based on industrial silicon heterojunction cells to yield a champion power conversion efficiency of 34.01% (a certified reverse-scan PCE of 33.65%) for a 1 cm2 active area. The resultant encapsulated tandem device maintains 93% and 88% of its initial efficiency after 1211 h and 1000 h of one-sun operation at 25 and 65 °C, respectively, under their maximum power points.",
+        "authors": [
+          "Wentao Liu",
+          "Shaofei Yang",
+          "Long Jiang",
+          "Minglong Liu",
+          "Zhiliang Liu",
+          "Jun Fang",
+          "Lianzheng Hao",
+          "Lei Wang",
+          "Zhijun Xiong",
+          "Yuanbo Yang",
+          "Francis R. Lin",
+          "Changxin Tang",
+          "Cao Yu",
+          "Longbin Qiu",
+          "Songhua Cai",
+          "Yang Bai",
+          "Hong Zhang",
+          "Alex K.-Y. Jen",
+          "Kai Yao",
+          "Yiwang Chen"
+        ],
+        "institutions": [],
+        "published": "2026-11-15",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c10873",
+        "url": "https://doi.org/10.1021/jacs.6c10873",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 33,
+        "scores": {
+          "topic": 6,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "colloid",
+            "colloidal",
+            "coordination",
+            "crystalline"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "胶体法制备均相宽带隙钙钛矿用于与工业硅集成的高效叠层太阳能电池",
+        "summary_zh": "针对宽带隙钙钛矿成核与结晶失控导致的组分不均问题，提出胶体工程策略重构中间体络合物，实现均相成核与缓慢结晶，使工业硅异质结叠层电池在1 cm2面积上获得34.01%的冠军效率，并显著提升器件稳定性。",
+        "research_details_zh": "研究聚焦宽带隙混合卤化物-阳离子钙钛矿顶电池中成核速率不可控与结晶动力学无序所导致的薄膜组分不均一问题。作者将前驱体悬浮液的不利胶体状态识别为组分不均一的主要根源，并提出胶体工程策略重构钙钛矿中间体络合物。依据经典胶体理论与理论计算，选择长链烷基膦酸分子，利用其特定配位强度精确调控胶体结构与性质，从而引导快速成核与缓慢结晶过程。在均匀胶体成核模板辅助下，所制备宽带隙钙钛矿薄膜实现组分均一化并降低缺陷密度，进而使基于工业硅异质结电池的叠层器件在1 cm2有效面积上获得34.01%的冠军功率转换效率（认证反扫效率33.65%）。封装叠层器件在最大功率点、25与65摄氏度下一倍太阳光连续运行1211小时与1000小时后，分别保持初始效率的93%与88%。该工作将胶体化学调控与钙钛矿结晶动力学相联系，为宽带隙顶电池的均相化制备提供了可操作路径。",
+        "methods_zh": "摘要明确提到基于经典胶体理论与理论计算筛选长链烷基膦酸分子，用其调控前驱体胶体结构与性质；采用胶体引导的成核与结晶过程制备宽带隙钙钛矿薄膜；构建基于工业硅异质结电池的叠层器件并进行1 cm2有效面积的光伏性能测试与认证反扫效率表征；对封装器件在25与65摄氏度、最大功率点、一倍太阳光条件下开展运行稳定性测试。摘要未报告具体表征手段与薄膜结构分析细节。",
+        "relevance_zh": "该工作虽以钙钛矿光伏为主，但其核心是胶体组装与成核-结晶动力学调控，与自组装技术及溶液法组装框架材料的思路相通，可为介孔或框架材料前驱体胶体状态调控提供方法学借鉴。局限在于不涉及MOF/COF/HOF或介孔框架材料本身，电化学合成亦未涉及。若关注胶体引导结晶与均相薄膜制备，值得全文精读其胶体调控细节。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要。胶体结构的具体表征、烷基膦酸分子种类与用量、薄膜组分均一性与缺陷密度的定量证据、器件结构层叠细节及稳定性测试条件等关键信息仍需全文核查。",
+        "key_findings_zh": [
+          "前驱体悬浮液的不良胶体状态被认定为宽带隙钙钛矿组分不均一的主要根源，胶体工程可重构中间体络合物。",
+          "长链烷基膦酸分子通过特定配位强度调控胶体结构，实现胶体引导的快速成核与缓慢结晶。",
+          "1 cm2有效面积的工业硅异质结叠层器件获得34.01%冠军效率，认证反扫效率为33.65%。",
+          "封装器件在25与65摄氏度最大功率点运行1211小时与1000小时后分别保持初始效率的93%与88%。"
+        ]
+      },
+      {
+        "title": "Spatial Electrostatic Complementarity in MOF Pores Enables Selective Recognition of Closely Related Fluoromethanes",
+        "abstract": "ABSTRACT Trace purification of chemically similar gases is particularly challenging when molecular size and kinetics offer little contrast and conventional affinity descriptors provide conflicting guidance. Trifluoromethane (CHF 3 ) removal from monofluoromethane (CH 3 F) exemplifies this problem: CH 3 F has the greater dipole moment, and CHF 3 is more polarizable. Here, to our knowledge, we report the first adsorptive removal of trace CHF 3 from CH 3 F and demonstrate electrostatic complementary recognition (ECR) in interpenetrated anion‐pillared MOF pores. Localized, directional negative‐potential sites from TiF 6 2– pillars and surrounding electropositive pyridyl C─H domains complement the 1H/3F electrostatic pattern of CHF 3 while geometrically frustrating the inverse 3H/1F pattern of CH 3 F. All other benchmark adsorbents showed an overall preference for CH 3 F, whereas both TIFSIX frameworks achieved a reversal of adsorption preference toward CHF 3 under trace‐relevant conditions. TIFSIX‐Cu‐dpt, featuring a more focused and directional ECR environment, adsorbed 18.5 cm 3 /g of CHF 3 at 0.1 kPa. Neutron diffraction, adsorption thermodynamics, and molecular simulations support a spatially complementary multipoint binding mode. Fixed‐bed breakthrough of a binary feed containing 1000 ppm CHF 3 produced CH 3 F with &gt;99.999% purity relative to CHF 3 at 320 L/kg. These results show how spatial electrostatic complementarity can translate subtle molecular differences beyond conventional scalar descriptors into selective adsorption.",
+        "authors": [
+          "Rongrong Fan",
+          "Tian Ke",
+          "Cheng Li",
+          "Wenjun Zhang",
+          "Zhiguo Zhang",
+          "Zongbi Bao",
+          "Qilong Ren",
+          "Qiwei Yang"
+        ],
+        "institutions": [],
+        "published": "2026-11-15",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.7323951",
+        "url": "https://doi.org/10.1002/anie.7323951",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "MOF孔道中的空间静电互补实现相近氟代甲烷的选择性识别",
+        "summary_zh": "针对CH3F中痕量CHF3难以脱除的问题，利用互穿阴离子柱撑MOF孔道中TiF6 2-柱与吡啶C-H域构建空间静电互补识别环境，逆转常规吸附偏好，实现痕量CHF3选择性吸附与高纯CH3F制备。",
+        "research_details_zh": "研究问题是化学性质相近、分子尺寸与动力学差异小且常规亲和描述符相互矛盾的氟代甲烷分离，具体为从单氟甲烷（CH3F）中脱除痕量三氟甲烷（CHF3）：CH3F偶极矩更大，而CHF3极化率更高，导致常规吸附剂普遍偏好CH3F。作者报道了据其所知首个从CH3F中吸附脱除痕量CHF3的工作，并在互穿阴离子柱撑MOF孔道中提出静电互补识别（ECR）机制。TiF6 2-柱提供局域、定向的负电势位点，周围电正性吡啶C-H域与CHF3的1H/3F静电图案互补，同时在几何上排斥CH3F的3H/1F反向图案。所有其他基准吸附剂整体偏好CH3F，而两种TIFSIX框架在痕量相关条件下均实现对CHF3的吸附偏好逆转。其中TIFSIX-Cu-dpt具有更聚焦、更定向的ECR环境，在0.1 kPa下吸附18.5 cm3/g的CHF3。中子衍射、吸附热力学与分子模拟支持空间互补的多点结合模式。含1000 ppm CHF3的二元进料固定床穿透实验在320 L/kg时产出相对CHF3纯度超过99.999%的CH3F。",
+        "methods_zh": "摘要明确出现的方法包括：合成互穿阴离子柱撑TIFSIX系列MOF（含TIFSIX-Cu-dpt）；开展吸附等温与吸附热力学测试（如0.1 kPa下CHF3吸附量）；采用中子衍射解析结合结构；进行分子模拟验证结合模式；以含1000 ppm CHF3的二元进料开展固定床穿透实验并评估产物纯度。摘要未报告具体合成条件、活化流程与表征仪器参数。",
+        "relevance_zh": "该工作直接对应MOF孔道微环境设计主线，展示如何通过阴离子柱撑与孔壁静电图案的空间互补实现常规标量描述符无法区分的相近分子识别，对框架材料的孔道工程与选择性吸附研究具有明确方法学价值。其局限在于面向气体分离而非介孔导电或共轭框架，也未涉及电化学合成。空间静电互补识别概念值得全文精读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要。MOF具体合成与活化条件、孔结构参数、等温线测试温度、中子衍射结构细节、模拟力场与穿透实验完整条件等关键信息仍需全文核查。",
+        "key_findings_zh": [
+          "两种TIFSIX框架在痕量相关条件下逆转吸附偏好，由常规偏好CH3F转为偏好CHF3，而其他基准吸附剂整体偏好CH3F。",
+          "TIFSIX-Cu-dpt在0.1 kPa下吸附18.5 cm3/g的CHF3，其ECR环境更聚焦、更定向。",
+          "中子衍射、吸附热力学与分子模拟支持空间互补的多点结合模式。",
+          "含1000 ppm CHF3的二元进料固定床穿透在320 L/kg时产出相对CHF3纯度超过99.999%的CH3F。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-14",
     "search_start": "2026-11-12",
     "generated_at": "2026-11-15T02:35:34Z",
@@ -43974,286 +44580,6 @@
         ],
         "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
         "relevance_zh": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-07",
-    "generated_at": "2026-08-08T02:26:35Z",
-    "papers": [
-      {
-        "title": "Liquid-Dependent Structural Responses of a Metal–Organic Framework Revealed by Liquid-Phase Three-Dimensional Electron Diffraction",
-        "abstract": "Abstract Liquid environments can profoundly influence the formation, structural transformation, and functional response of crystalline materials, making it essential to access their genuine structures in liquids. However, atomic-level structure analysis in liquids is highly challenging, as excessive liquid thickness, strong background scattering, and severe beam damage can severely compromise diffraction data quality. Herein, we develop a liquid-cell platform based on ultrathin carbon films. This platform confines a nanoscale local liquid layer around individual crystals and, when combined with low-dose three-dimensional electron diffraction (3D ED), enables atomic-resolution structure determination under liquid conditions. Using this approach, we achieve ab initio structure determination of a flexible metal–organic framework (MOF) Al-MIL-53 in various liquids, with data resolution reaching 0.58 Å. This allows direct revealing of two previously undiscovered solvent-dependent breathing structures in ethylene glycol and DMF, which exhibit large pore structures in contrast to the narrow pore structure observed in water. This liquid-cell platform could establish liquid-phase three-dimensional electron diffraction (LP-3DED) as an effective and widely accessible method for probing atomic-level structures in liquid environments.",
-        "authors": [
-          "Xiang Rao",
-          "Xiang Zhou",
-          "Mingxing Li",
-          "Zhiling Yu",
-          "Xiaofa Yan",
-          "Danqing Liu",
-          "Lijuan Wang",
-          "Wantao Chen",
-          "Shuo Wang",
-          "Zixuan Chen",
-          "Yu Han",
-          "Yu Wang",
-          "Zhehao Huang"
-        ],
-        "institutions": [],
-        "published": "2026-08-07",
-        "journal": "Journal of the American\nChemical Society",
-        "doi": "10.1021/jacs.6c10477",
-        "url": "https://doi.org/10.1021/jacs.6c10477",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 47,
-        "scores": {
-          "topic": 18,
-          "method": 4,
-          "quality": 15,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Journal of the American Chemical Society"
-        ],
-        "hits": {
-          "framework": [
-            "metal organic framework",
-            "metal-organic framework",
-            "mof"
-          ],
-          "conductive": [],
-          "mesoporous": [
-            "large pore"
-          ],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "carbon",
-            "crystalline",
-            "materials"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "核心推荐",
-        "title_zh": "Liquid-Dependent Structural Responses of a Metal–Organic Framework Revealed by Liquid-Phase Three-Dimensional Electron Diffraction",
-        "summary_zh": "该文围绕介孔或分级孔结构展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及介孔或分级孔结构。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "A Bimetallic Covalent Organic Framework Photonic Synaptic Electrocatalysts",
-        "abstract": "ABSTRACT Photonic synaptic electrocatalysts encode catalytic activity as a writable, retainable state under optical stimulation, enabling history‐dependent performance modulation with potential relevance to scenarios such as intermittent solar illumination and artificial metabolic learning systems. However, most photo‐assisted electrocatalysts are stateless, showing only transient activity enhancement under illumination that vanishes once the light is removed. Here, we establish a photonic synaptic electrocatalyst based on a bimetallic covalent organic framework (Co–Ni─COF), in which optical stimulation writes synaptic information into the catalytic state, and oxygen evolution serves as a stringent functional readout. During electrochemical reactions, Co─Ni─COF shows strong photonic synaptic behavior, featuring excitatory postsynaptic current responses, tunable synaptic plasticity, transitions from short‐term to long‐term plasticity, learning–forgetting–relearning behavior, and long‐term memory retention. Mechanistic investigations reveal that this light‐written and retained state originates from strengthened electronic coupling between Co and Ni centers, promoted charge delocalization and intermetallic charge transfer, and the accumulation of metastable Co(III) active species together with key oxygenated intermediates (*OOH, *OO). Notably, a substantial fraction of enhanced catalytic activity is preserved for hours in the dark, maintaining ∼127% higher than the initial state after 3 h, highlighting its potential for efficient energy conversion under intermittent solar illumination.",
-        "authors": [
-          "Guangyuan Feng",
-          "Zhiping Liu",
-          "Jie Liu",
-          "Guoning Cui",
-          "Nicolás Arisnabarreta",
-          "Miao Zhang",
-          "Chao Wang",
-          "Sihui Zhan",
-          "Shengbin Lei",
-          "Wenping Hu"
-        ],
-        "institutions": [],
-        "published": "2026-08-07",
-        "journal": "Angewandte Chemie International Edition",
-        "doi": "10.1002/anie.2636151",
-        "url": "https://doi.org/10.1002/anie.2636151",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 32,
-        "scores": {
-          "topic": 12,
-          "method": 0,
-          "quality": 15,
-          "novelty": 4,
-          "network": 0,
-          "applied": 0,
-          "archive": 1,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Angewandte Chemie International Edition"
-        ],
-        "hits": {
-          "framework": [
-            "cof",
-            "covalent organic framework"
-          ],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": []
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "A Bimetallic Covalent Organic Framework Photonic Synaptic Electrocatalysts",
-        "summary_zh": "该文围绕晶态多孔框架材料展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及晶态多孔框架材料。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Solvent‐Driven Modulation of Covalent‐Organic Framework Nano‐Architectures for Photothermal‐Catalytic Biomass Valorization and Hydrogen Peroxide Production",
-        "abstract": "ABSTRACT The modulation of three‐dimensional (3D) covalent‐organic frameworks (COFs) into multifunctional nano‐architectures is highly desirable for their extended applications yet still challenging in both material design and morphology investigation. Here, we have designed a functional 3D COF (DPP‐TAM‐COF) and successfully modulated it into diverse nano‐architectures, including nano‐ring, hollow‐sphere, and nano‐urchin, through a solvent‐driven tuning strategy. The produced nano‐architectures possess bifunctional groups, well‐tuned morphology, high porosity, and photothermal properties that can be applied in efficient photothermal biomass valorization coupled with hydrogen peroxide production. Specifically, they can realize the furfuryl alcohol conversion into furoic acid with an optimal generation efficiency of 39.0 mmol/g coupled with the efficient hydrogen peroxide production, which is superior to the majority of reported materials. Based on various characterizations and theoretical calculations, the functions of nano‐architectures and bifunctional groups have been validated in the coupling reaction. Aiming at extending the application regimes of 3D COFs, this work might give new insights into the structure or morphology study of 3D COFs.",
-        "authors": [
-          "Yi‐Lu Yang",
-          "Yuan Tian",
-          "Gao Peng",
-          "Jia‐Min Ke",
-          "Zi‐Sen Wang",
-          "Ming‐Jie Long",
-          "Jia‐Nan Chang",
-          "Fei Yu",
-          "Yifa Chen",
-          "Ya‐Qian Lan"
-        ],
-        "institutions": [],
-        "published": "2026-08-07",
-        "journal": "Angewandte Chemie International Edition",
-        "doi": "10.1002/anie.2408330",
-        "url": "https://doi.org/10.1002/anie.2408330",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 32,
-        "scores": {
-          "topic": 12,
-          "method": 0,
-          "quality": 15,
-          "novelty": 4,
-          "network": 0,
-          "applied": 0,
-          "archive": 1,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Angewandte Chemie International Edition"
-        ],
-        "hits": {
-          "framework": [
-            "cof",
-            "cofs",
-            "covalent organic framework"
-          ],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "material",
-            "materials"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Solvent‐Driven Modulation of Covalent‐Organic Framework Nano‐Architectures for Photothermal‐Catalytic Biomass Valorization and Hydrogen Peroxide Production",
-        "summary_zh": "该文围绕晶态多孔框架材料展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及晶态多孔框架材料。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Tandem Ring-Closing/Ring-Opening Chemistry for Linkage Reprogramming in Covalent Organic Frameworks",
-        "abstract": "Abstract The linkages connecting building blocks largely dictate the accessible chemical space of covalent organic frameworks (COFs). However, synthesizing new linkages typically relies on linkage-specific condensations that require distinct monomer pairs. Here, we present a controllable tandem ring-closing/ring-opening (RCRO) strategy that enables linkage reprogramming of COFs from a single imine-linked precursor. Through a domino sequence involving intramolecular oxidative ring-closing followed by nucleophilic ring-opening, imine linkages are selectively transformed into benzoxazinone- and bis-benzamide-linked frameworks while preserving long-range crystallinity. This RCRO process allows divergent access to multiple robust linkages, is compatible with extended linkers, and enables systematic modulation of framework connectivity and porosity without altering the precursor chemistry. The resulting COFs exhibit pronounced linkage-dependent properties, including rapid iodine vapor adsorption in bis-benzamide-linked frameworks and efficient photocatalytic H2O2 production in the benzoxazinone-linked COF. By establishing tandem RCRO reactions as a viable mode of linkage engineering in extended crystalline frameworks, this work opens a general pathway for efficient and divergent exploration of COF structures and functions.",
-        "authors": [
-          "Zilun Yu",
-          "Sihui Meng",
-          "Qiang Xue",
-          "Yue Zhu",
-          "Feng Wang",
-          "Xukai Zhou"
-        ],
-        "institutions": [],
-        "published": "2026-08-07",
-        "journal": "Journal of the American\nChemical Society",
-        "doi": "10.1021/jacs.6c02367",
-        "url": "https://doi.org/10.1021/jacs.6c02367",
-        "sources": [
-          "Crossref"
-        ],
-        "score": 32,
-        "scores": {
-          "topic": 12,
-          "method": 0,
-          "quality": 15,
-          "novelty": 4,
-          "network": 0,
-          "applied": 0,
-          "archive": 1,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Journal of the American Chemical Society"
-        ],
-        "hits": {
-          "framework": [
-            "cof",
-            "cofs"
-          ],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "crystalline"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Tandem Ring-Closing/Ring-Opening Chemistry for Linkage Reprogramming in Covalent Organic Frameworks",
-        "summary_zh": "该文围绕晶态多孔框架材料展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及晶态多孔框架材料。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
         "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
       }
     ]
