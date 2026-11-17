@@ -1,5 +1,710 @@
 [
   {
+    "date": "2026-11-16",
+    "search_start": "2026-11-14",
+    "generated_at": "2026-11-17T05:03:01Z",
+    "papers": [
+      {
+        "title": "Hierarchically Porous COFs Enabled by Copolymer‐Mediated Mechanochemical Preassembly",
+        "abstract": "ABSTRACT The relatively small pore channels of conventional covalent organic frameworks (COFs) would impede mass transport and limit the accessibility of active sites therein, restricting their practical utility with bulky molecules. Here, we break this bottleneck by developing a copolymer‐mediated mechanochemistry strategy that enables the construction of hierarchically porous COF (HPCOF) precursors with tunable large mesopores, which are then recrystallized to afford crystalline HPCOFs. The confined microenvironments of low‐solvent ball‐milling not only enhance hydrogen‐bonding interactions between monomers and Pluronic F127 (PEO 106 PPO 70 PEO 106 ) micelles, but also eliminate the disruptive effects of excess solvent and acidic conditions on micelle assembly. Additionally, the mechanical pulses decompose the polycondensation into stepwise events, effectively buffering the incompatible rates between the polymerization of COF precursors and micelle assembly and allowing the mesostructures to be precisely “locked” under solid‐state confined conditions. By varying monomer combinations, seven representative HPCOFs with different connectivities were constructed. Thanks to its simplicity and reproducibility, the proposed strategy demonstrates potential in large‐scale production. Benefiting from the synergistic combination of large channels and rigid microporous crystalline walls, the resultant HPCOFs feature unique structural stability and favorable enzyme affinity, enabling efficient trypsin immobilization with retained catalytic activity for protein hydrolysis, prefiguring their application prospects in bioreactor construction.",
+        "authors": [
+          "Dongxue Feng",
+          "Yao Tong",
+          "Shoude Han",
+          "Jian Yang",
+          "Jinlou Gu"
+        ],
+        "institutions": [],
+        "published": "2026-11-15",
+        "journal": "Advanced Science",
+        "doi": "10.1002/advs.78803",
+        "url": "https://doi.org/10.1002/advs.78803",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 60,
+        "scores": {
+          "topic": 29,
+          "method": 8,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 4,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Science"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [
+            "hierarchically porous"
+          ],
+          "assembly": [
+            "assembly",
+            "micelle"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "copolymer",
+            "crystalline",
+            "micelle",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "共聚物介导的机械化学预组装构建分级多孔COF",
+        "summary_zh": "该工作提出共聚物介导的机械化学策略，在低溶剂球磨条件下利用Pluronic F127胶束与单体的氢键作用，先构建具有可调大介孔的分级多孔COF前驱体，再经重结晶获得结晶性HPCOF，并用于胰蛋白酶固定化。",
+        "research_details_zh": "研究针对常规共价有机框架孔道较小、传质受限、大分子活性位点可及性差的问题，开发共聚物介导的机械化学策略构建分级多孔COF。设计上利用低溶剂球磨的受限微环境增强单体与Pluronic F127（PEO106PPO70PEO106）胶束间的氢键相互作用，同时消除过量溶剂和酸性条件对胶束组装的破坏；机械脉冲将缩聚分解为分步事件，缓冲COF前驱体聚合与胶束组装之间的速率不匹配，使介观结构在固态受限条件下被精确锁定。所得前驱体经重结晶得到结晶性HPCOF。通过改变单体组合构建了七种不同连接方式的分级多孔COF，并展示其可规模化生产的潜力。材料兼具大通道与刚性微孔结晶壁，表现出结构稳定性和酶亲和性，用于胰蛋白酶固定化并保持催化活性以水解蛋白质。",
+        "methods_zh": "摘要明确出现的方法包括：共聚物介导的机械化学策略，采用低溶剂球磨并施加机械脉冲；以Pluronic F127胶束为介观结构模板，通过氢键与单体相互作用；先形成分级多孔COF前驱体，再经重结晶获得结晶性HPCOF；通过改变单体组合构建七种不同连接方式的HPCOF；以胰蛋白酶固定化和蛋白质水解评估酶亲和性与催化活性。摘要未报告具体表征手段和性能测试的定量条件。",
+        "relevance_zh": "该工作直接契合介孔材料与框架材料组装主线，提供了一种通过机械化学与胶束模板协同构建分级多孔COF的通用策略，对介孔COF的绿色可规模化合成和生物催化应用有实际参考价值。其局限在于摘要未给出孔结构、结晶度和酶固定化性能的定量数据，建议全文精读以核查介孔调控机制与稳定性证据。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读；具体的孔结构参数、结晶性表征、七种HPCOF的连接方式与单体组合、酶固定化容量与催化活性数值、稳定性测试条件及规模化生产证据均需全文核查。",
+        "key_findings_zh": [
+          "低溶剂球磨的受限微环境增强单体与Pluronic F127胶束的氢键相互作用，并消除过量溶剂和酸性条件对胶束组装的破坏。",
+          "机械脉冲将缩聚分解为分步事件，缓冲COF前驱体聚合与胶束组装之间的速率不匹配，使介观结构在固态受限条件下被精确锁定。",
+          "通过改变单体组合构建了七种不同连接方式的分级多孔COF，策略简单且可重复，具备大规模生产潜力。",
+          "HPCOF兼具大通道与刚性微孔结晶壁，表现出结构稳定性和酶亲和性，可实现胰蛋白酶固定化并保持催化活性用于蛋白质水解。"
+        ]
+      },
+      {
+        "title": "Cofactor‐Inspired Second‐Sphere Engineering of Artificial Metalloenzymes for Neutral Ammonia Synthesis",
+        "abstract": "ABSTRACT Constructing artificial metalloenzymes with precisely positioned metal centers and tailored second‐sphere microenvironments remains challenging in replicating the hierarchical catalytic functions of natural enzymes. Here, we report a cofactor‐inspired second‐sphere engineering strategy to construct an artificial nanozyme, CuS 1 /CN, featuring atomically defined [3Cu−1S] motifs selectively anchored to ultrasmall Cu clusters (∼0.73 nm) within a mesoporous nitrogen‐doped carbon framework. This architecture establishes enzyme‐like catalytic compartmentalization without compromising active‐site accessibility: exposed Cu sites mimic nitrate reductase for nitrate activation and water dissociation, while adjacent [3Cu−1S] motifs function as cofactor‐like centers that orchestrate interfacial hydration, facilitating proton‐coupled electron transfer and hydrogen relay during downstream hydrogenation. The engineered second‐sphere microenvironment overcomes the intrinsic *NO 2 ‐to‐*NO 2 H bottleneck and shifts the rate‐determining step to *NH 2 O‐to‐*NH 2 OH conversion with a substantially reduced energy barrier. Consequently, CuS 1 /CN enables highly efficient and selective ammonia electrosynthesis under neutral conditions at industrially relevant current densities with long‐term stability. Its integration into a Zn−NO 3 − battery further enables simultaneous nitrate conversion and electricity generation. This work establishes cofactor‐inspired second‐sphere engineering as a general strategy for designing artificial enzymes with programmable catalytic microenvironments beyond conventional active‐site engineering.",
+        "authors": [
+          "Yi Zhong",
+          "Doufeng Wang",
+          "Haiyi Yang",
+          "Xiaojie Chen",
+          "Fuzhan Song",
+          "Jian‐Ke Sun",
+          "Xinchun Yang"
+        ],
+        "institutions": [],
+        "published": "2026-11-16",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.2640104",
+        "url": "https://doi.org/10.1002/anie.2640104",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 52,
+        "scores": {
+          "topic": 12,
+          "method": 9,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 5,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [
+            "electrosynthesis"
+          ],
+          "materials": [
+            "carbon",
+            "mesoporous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、电化学合成，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "仿辅因子第二配位层工程构建人工金属酶用于中性氨合成",
+        "summary_zh": "该工作提出仿辅因子的第二配位层工程策略，在介孔氮掺杂碳框架中构建含原子级[3Cu−1S]基序与超小Cu簇的人工纳米酶CuS1/CN，实现中性条件下高效选择性电催化硝酸盐还原合成氨，并集成于Zn−NO3−电池。",
+        "research_details_zh": "研究针对人工金属酶中金属中心精确排布与第二配位层微环境定制困难的问题，提出仿辅因子的第二配位层工程策略，构建人工纳米酶CuS1/CN。该材料将原子级定义的[3Cu−1S]基序选择性锚定在介孔氮掺杂碳框架内的超小Cu簇（约0.73 nm）上，形成类酶的催化区室化而不牺牲活性位点可及性：暴露的Cu位点模拟硝酸还原酶，负责硝酸盐活化与水分解；相邻[3Cu−1S]基序作为类辅因子中心，调控界面水合，促进质子耦合电子转移和加氢过程中的氢传递。该第二配位层微环境克服了*NO2到*NO2H的固有瓶颈，将决速步转变为*NH2O到*NH2OH转化并显著降低能垒。所得CuS1/CN在中性条件和工业相关电流密度下实现高效选择性氨电合成并具长期稳定性，集成到Zn−NO3−电池中可同时实现硝酸盐转化与发电。",
+        "methods_zh": "摘要明确出现的方法包括：仿辅因子第二配位层工程策略构建人工纳米酶CuS1/CN；在介孔氮掺杂碳框架中锚定原子级[3Cu−1S]基序与超小Cu簇；电催化硝酸盐还原合成氨的性能评估，包括中性条件、工业相关电流密度和长期稳定性测试；将CuS1/CN集成到Zn−NO3−电池中评估硝酸盐转化与发电。摘要未报告具体合成步骤、表征手段和理论计算细节。",
+        "relevance_zh": "该工作属于介孔碳框架与电化学合成的交叉方向，其第二配位层工程思路对框架材料中活性位点微环境设计具有方法学借鉴意义，但研究对象并非导电MOF/COF，与介孔导电框架主线关联为拓展性。摘要缺少合成与结构表征细节，若关注框架内金属位点精准构筑可全文精读，否则可作为背景参考。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读；CuS1/CN的具体合成路线、[3Cu−1S]基序的结构表征证据、理论计算细节、氨选择性、法拉第效率、电流密度与稳定性时长等定量数据均需全文核查。",
+        "key_findings_zh": [
+          "在介孔氮掺杂碳框架中构建了含原子级[3Cu−1S]基序和超小Cu簇（约0.73 nm）的CuS1/CN人工纳米酶，实现类酶催化区室化且不牺牲活性位点可及性。",
+          "第二配位层微环境克服了*NO2到*NO2H的固有瓶颈，将决速步转变为*NH2O到*NH2OH转化并显著降低能垒。",
+          "CuS1/CN在中性条件和工业相关电流密度下实现高效选择性氨电合成，并具有长期稳定性。",
+          "集成到Zn−NO3−电池中可同时实现硝酸盐转化和发电。"
+        ]
+      },
+      {
+        "title": "Guest-Mediated On-Surface Growth of 2D COF Heterobilayer for Synaptic Devices",
+        "abstract": "Abstract Chemically defined organic heterobilayers offer a route to programmable interfacial coupling, yet their on-surface construction remains challenging due to the instability of dynamic covalent frameworks during sequential growth. Here, we report a guest-induced COF-on-COF growth strategy that enables deterministic heteroepitaxy of imine/boroxine covalent organic framework (COF) heterobilayers at solid–liquid interfaces. Coronene guest molecules occupy the pores of the underlying imine COF, stabilizing the framework while promoting interfacial molecular diffusion, thereby redirecting growth from framework degradation to directional epitaxy. This yields a structurally precise heterobilayer with a commensurate √3 × √3 R30° rotational relationship and long-range order. The resulting 2D COF heterobilayer is continuous over large areas with low defect density, enabling direct device integration without transfer. Electrical measurements, supported by theory, reveal interfacial charge redistribution arising from chemically encoded asymmetry, manifested as interfacial charge redistribution and enhanced charge trapping. Device responses, including nonvolatile switching and analogue conductance modulation, provide a macroscopic readout of the molecularly defined heterointerface. These results establish a route to programmable organic heterostructures in which interfacial growth, coupling, and electronic functionality are codesigned through molecular assembly.",
+        "authors": [
+          "Guangyuan Feng",
+          "Xiaojuan Li",
+          "Tianze Hu",
+          "Kunal S. Mali",
+          "Shengbin Lei",
+          "Steven De Feyter"
+        ],
+        "institutions": [],
+        "published": "2026-11-16",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c16398",
+        "url": "https://doi.org/10.1021/jacs.6c16398",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 45,
+        "scores": {
+          "topic": 18,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "covalent organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "客体介导的二维COF异质双层表面生长用于突触器件",
+        "summary_zh": "该工作提出客体诱导的COF-on-COF生长策略，利用冠状烯客体占据底层亚胺COF孔道以稳定框架并促进界面分子扩散，在固液界面实现亚胺/硼氧烷COF异质双层的确定性异质外延，并直接集成突触器件。",
+        "research_details_zh": "研究针对动态共价框架在顺序生长过程中不稳定、有机异质双层难以在表面可控构建的问题，提出客体诱导的COF-on-COF生长策略，在固液界面实现亚胺/硼氧烷共价有机框架异质双层的确定性异质外延。设计上以冠状烯客体分子占据底层亚胺COF的孔道，稳定框架并促进界面分子扩散，将生长从框架降解导向定向外延。所得异质双层具有结构精确的共格√3×√3 R30°旋转关系和长程有序，二维COF异质双层大面积连续、缺陷密度低，无需转移即可直接集成器件。电学测量结合理论揭示，化学编码的不对称性引起界面电荷重新分布并增强电荷俘获；器件表现出非易失开关和模拟电导调制，为分子定义的异质界面提供宏观读出。该工作建立了界面生长、耦合与电子功能协同设计的可编程有机异质结构路线。",
+        "methods_zh": "摘要明确出现的方法包括：客体诱导的COF-on-COF生长策略，在固液界面进行顺序生长与异质外延；以冠状烯客体分子占据底层亚胺COF孔道；构建亚胺/硼氧烷COF异质双层；电学测量结合理论分析界面电荷分布与电荷俘获；器件测试非易失开关和模拟电导调制。摘要未报告具体合成条件、表征手段和器件制备细节。",
+        "relevance_zh": "该工作直接契合共轭COF的组装与框架材料界面工程主线，展示了客体介导外延生长构建COF异质双层并直接器件化的路径，对COF基电子器件和可编程有机异质结构有实际参考价值。局限在于摘要未给出生长条件、结构表征和器件性能的定量数据，建议全文精读以核查外延机制与界面电荷证据。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读；客体介导生长的具体条件、异质双层的结构表征证据、界面电荷分布的理论与实验细节、器件开关比、电导调制范围和稳定性等定量数据均需全文核查。",
+        "key_findings_zh": [
+          "冠状烯客体占据底层亚胺COF孔道，稳定框架并促进界面分子扩散，使生长从框架降解转向定向外延。",
+          "所得亚胺/硼氧烷COF异质双层具有共格√3×√3 R30°旋转关系和长程有序，大面积连续且缺陷密度低，无需转移即可直接集成器件。",
+          "电学测量结合理论表明，化学编码的不对称性引起界面电荷重新分布并增强电荷俘获。",
+          "器件表现出非易失开关和模拟电导调制，为分子定义的异质界面提供宏观读出。"
+        ]
+      },
+      {
+        "title": "Zeolite Crystallization via Seed-Mediated Chemical Vapor Deposition",
+        "abstract": "Abstract The demand for zeolites with specific, tailored characteristics is expected to further accelerate. For decades, however, zeolites have been predominantly synthesized by hydrothermal methods, in which tightly coupled sol–gel processes, nucleation, and crystal growth constrain property control and complicate device-oriented fabrication. Here we report the direct synthesis of zeolites by chemical vapor deposition (CVD), in which vapor-delivered precursors crystallize on preexisting zeolite seeds. Mechanistic investigations reveal that zeolite growth under CVD follows a fundamentally distinct pathway, where vapor-phase hydrolysis–condensation reactions are spatially decoupled from interfacial crystallization. This decoupling enables the maintenance of a controlled and steady supersaturation, offering a facile strategy for fabricating zeolite films with low dielectric constants and robust mechanical properties. The unique mechanism and operation mode of CVD bring zeolite crystallization into a manufacturing-relevant vapor-phase regime that could be extended to other zeolite types and deployed in diverse applications.",
+        "authors": [
+          "Mingyuan Shao",
+          "Zixin Xiao",
+          "Zhenyuan Zhao",
+          "Yabin Wang",
+          "Zhendong Liu"
+        ],
+        "institutions": [],
+        "published": "2026-11-16",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c20824",
+        "url": "https://doi.org/10.1021/jacs.6c20824",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 35,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "crystal growth",
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "通过种子介导化学气相沉积实现沸石结晶",
+        "summary_zh": "该研究报道以化学气相沉积直接合成沸石，蒸气前驱体在预置沸石种子上结晶。机理上气相水解缩合与界面结晶在空间上解耦，从而维持受控稳定过饱和度，并制得低介电常数、力学性能稳健的沸石膜。",
+        "research_details_zh": "研究针对传统水热法合成沸石时溶胶凝胶、成核与晶体生长紧密耦合、限制性能调控和器件化制备的问题，提出以化学气相沉积直接合成沸石。材料体系为预置沸石种子与蒸气输送前驱体，设计策略是让前驱体蒸气在已有沸石种子上发生结晶。摘要指出机理研究揭示CVD条件下沸石生长遵循不同路径：气相水解缩合反应与界面结晶在空间上解耦。这种解耦使体系能够维持受控且稳定的过饱和度，为制备低介电常数和力学性能稳健的沸石膜提供简便策略。其意义在于把沸石结晶带入与制造相关的气相范畴，并可能拓展至其他沸石类型和多种应用；但摘要未报告具体沸石类型、前驱体种类、温度、介电常数数值及力学数据。",
+        "methods_zh": "摘要明确出现的方法是化学气相沉积合成，以蒸气输送前驱体并在预置沸石种子上结晶；同时进行了机理研究以解析气相水解缩合与界面结晶的关系。摘要还提到制备沸石膜并评价其低介电常数和力学性能。摘要未报告具体前驱体、沉积温度、表征手段及性能测试标准。",
+        "relevance_zh": "该工作虽非介孔MOF或共轭框架，但其气相沉积结晶与种子介导生长思路对框架材料及介孔材料的组装、膜制备和界面结晶控制有方法学参考价值，尤其涉及空间解耦反应与过饱和度调控。局限在于摘要未涉及MOF/COF/HOF或介孔结构，且关键实验条件缺失，建议作为拓展阅读而非主线精读。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属摘要级信息。具体沸石类型、前驱体、沉积条件、表征方法、介电常数与力学性能数值、机制证据细节均需全文核查。",
+        "key_findings_zh": [
+          "化学气相沉积可在预置沸石种子上直接结晶生长沸石，突破以水热法为主的合成方式。",
+          "CVD条件下气相水解缩合与界面结晶在空间上解耦，使体系维持受控且稳定的过饱和度。",
+          "该气相结晶策略可制备低介电常数且力学性能稳健的沸石膜。",
+          "摘要未报告具体介电常数、力学数值及可拓展沸石类型的实验验证数据。"
+        ]
+      },
+      {
+        "title": "Advances in Conductive Self‐Adhesive Interfaces for Epidermal Bioelectronics: Materials Design, Fabrication Strategies, and Future Directions",
+        "abstract": "ABSTRACT Epidermal bioelectronics require a reliable, low‐impedance skin–electrode interface that maintains conformal contact under dynamic conditions. Conductive self‐adhesive interfaces, which integrate charge transport with interfacial adhesion, offer a compelling solution. However, optimizing conductivity, adhesion, mechanical compliance, and biocompatibility simultaneously remains challenging due to inherent trade‐offs among these properties. In this review, we first discuss the physicochemical properties of skin, then systematically examine the adhesion mechanisms, charge conduction pathways, and biocompatibility evaluation protocols for conductive self‐adhesive interfaces. We then comprehensively review recent advances in three primary material design strategies—structural engineering, surface‐confined assembly, and bulk blending molding—comparing their respective advantages and disadvantages in balancing the four core properties. Furthermore, we discuss the application of pre‐fabrication‐integration and in situ fabrication techniques in constructing stable and reliable interfaces. Building on these material platforms, we highlight their implementation in representative epidermal bioelectronics, including electrophysiological monitoring, physicochemical sensing, therapeutic intervention, and human–machine interfacing, with particular emphasis on how interface properties dictate device performance in each scenario. Finally, we identify remaining challenges and propose future directions for the continued development of conductive self‑adhesive interfaces toward practical epidermal bioelectronic applications.",
+        "authors": [
+          "Zujian Li",
+          "Yuzhu Li",
+          "Zhitao Zhang"
+        ],
+        "institutions": [],
+        "published": "2026-11-15",
+        "journal": "Advanced Science",
+        "doi": "10.1002/advs.78743",
+        "url": "https://doi.org/10.1002/advs.78743",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 35,
+        "scores": {
+          "topic": 12,
+          "method": 2,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Science"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "charge transport",
+            "conductive"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "material",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "用于表皮生物电子的导电自粘附界面研究进展：材料设计、制备策略与未来方向",
+        "summary_zh": "该综述聚焦表皮生物电子所需的导电自粘附界面，系统讨论皮肤性质、粘附机制、电荷传导路径与生物相容性评价，并比较结构工程、表面限域组装和本体共混成型三类材料设计策略及制备集成方式。",
+        "research_details_zh": "研究问题是表皮生物电子需要可靠、低阻抗且动态条件下保持共形接触的皮肤电极界面，而导电自粘附界面需同时优化导电性、粘附性、力学顺应性和生物相容性，四者存在内在权衡。该综述先讨论皮肤理化性质，再系统梳理导电自粘附界面的粘附机制、电荷传导路径和生物相容性评价方案。材料设计策略归纳为结构工程、表面限域组装和本体共混成型三类，并比较其在平衡四项核心性能上的优缺点。文章还讨论预制备集成与原位制备技术在构建稳定可靠界面中的应用，并综述其在电生理监测、物理化学传感、治疗干预和人机接口等表皮生物电子中的实现，强调界面性质如何决定器件性能。最后提出剩余挑战和未来方向；摘要未报告具体材料体系、数值或定量比较结果。",
+        "methods_zh": "摘要表明这是一篇综述，方法为文献梳理与比较分析，涵盖皮肤理化性质讨论、粘附机制与电荷传导路径分析、生物相容性评价方案总结，以及结构工程、表面限域组装、本体共混成型三类设计策略的比较，并讨论预制备集成和原位制备技术。摘要未报告具体实验合成、表征或性能测试方法。",
+        "relevance_zh": "该综述与框架材料组装和自组装技术主线的关联主要在表面限域组装及界面电荷传输与粘附协同设计，可为导电框架材料在生物电子界面中的应用提供设计框架和评价视角。局限在于其对象为导电自粘附界面而非MOF/COF/HOF或介孔材料，且为综述性概括，建议按需查阅其中组装相关章节。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属摘要级信息。具体材料体系、性能数值、比较结果、引用文献及组装机制细节均需全文核查。",
+        "key_findings_zh": [
+          "导电自粘附界面需同时平衡导电性、粘附性、力学顺应性和生物相容性，四者存在内在权衡。",
+          "结构工程、表面限域组装和本体共混成型是三类主要材料设计策略，各有优缺点。",
+          "预制备集成与原位制备技术可用于构建稳定可靠的表皮界面。",
+          "界面性质在电生理监测、物理化学传感、治疗干预和人机接口等场景中决定器件性能。"
+        ]
+      },
+      {
+        "title": "When Electrolytes Become Dopants: Programming Charge Transport in Conductive Metal−Organic Framework Transistors",
+        "abstract": "Abstract Conjugated metal−organic frameworks (c-MOFs) operating in ionic environments have emerged as promising microporous and conductive systems for next-generation applications. Understanding the interplay between electrolyte composition and electronic−ionic mixed transport remains a critical barrier to the rational design of novel devices. Here, we demonstrate that electrolyte composition provides a direct and programmable handle for controlling charge transport and field-effect properties in c-MOF electrochemical transistors (ECTs). Two types of c-MOF thin films composed of the conjugated linker 2,3,5,6,10,11-hexahydroxytriphenylene (HHTP) and either Cu2+ or Ni2+ ions, namely, Cu3(HHTP)2 and Ni3(HHTP)2, were employed as transistor channel materials. Using these c-MOFs as prototypical conductive frameworks, we systematically interrogate the influence of ionic strength, ion identity, pH, and gate configuration on transistor operation. Across these variables, we unveil robust and quantitative relationships linking the nature and conditions of the electrolyte to variations in charge neutrality, modulation of transconductance, and transitions between transport regimes. For instance, increasing ionic strength shifts the transfer curves of Cu3(HHTP)2- and Ni3(HHTP)2-based ECTs toward a more negative potential, with a linear dependence on the logarithm of ion concentration. The ion-hydrated radius strongly influences ion-electron transport, as smaller cations more readily permeate the framework and reduce surface potential. Charge neutrality point potential (VCNP) displays a linear pH dependence, with sensitivities comparable to conducting polymer ECTs. Device performance is also influenced by the gate electrode configuration (liquid-junction or pseudo-reference electrodes). Extensive field-effect characterization demonstrates good electrochemical stability. A unified mechanistic model successfully describes the coupled ionic−electronic transport governing c-MOF device operation.",
+        "authors": [
+          "Joaquin F. Diforti",
+          "Melina Arcidiácono",
+          "Waldemar A. Marmisollé",
+          "Jakub Dostalek",
+          "Wolfgang Knoll",
+          "Juan A. Allegretto",
+          "Matías Rafti",
+          "Esteban Piccinini",
+          "Omar Azzaroni"
+        ],
+        "institutions": [],
+        "published": "2026-11-16",
+        "journal": "Chemistry of Materials",
+        "doi": "10.1021/acs.chemmater.6c02487",
+        "url": "https://doi.org/10.1021/acs.chemmater.6c02487",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Chemistry of Materials"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof",
+            "mofs"
+          ],
+          "conductive": [
+            "charge transport",
+            "conductive",
+            "conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "materials",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "当电解质成为掺杂剂：编程导电金属有机框架晶体管中的电荷传输",
+        "summary_zh": "该研究以Cu3(HHTP)2和Ni3(HHTP)2薄膜为沟道，证明电解质组成可编程调控共轭MOF电化学晶体管的电荷传输与场效应性质，并建立离子强度、离子身份、pH和栅极构型与器件行为的定量关系及统一机理模型。",
+        "research_details_zh": "研究问题是离子环境中工作的共轭金属有机框架中电解质组成与电子离子混合传输之间的相互作用尚不清晰，阻碍器件理性设计。材料体系为以共轭连接体2,3,5,6,10,11-六羟基三亚苯（HHTP）与Cu2+或Ni2+构成的Cu3(HHTP)2和Ni3(HHTP)2薄膜，作为电化学晶体管沟道。设计策略是把电解质组成作为直接且可编程的手段调控电荷传输和场效应性质。研究系统考察离子强度、离子身份、pH和栅极构型对晶体管工作的影响，揭示电解质性质与条件同电荷中性、跨导调制及传输区间转变之间的稳健定量关系。例如提高离子强度使两种器件转移曲线向更负电位移动，并与离子浓度对数呈线性依赖；离子水合半径强烈影响离子电子传输，较小阳离子更易渗透框架并降低表面电位；电荷中性点电位呈线性pH依赖，灵敏度与导电聚合物电化学晶体管相当；栅电极构型也影响器件性能。场效应表征显示良好电化学稳定性，统一机理模型描述耦合离子电子传输。",
+        "methods_zh": "摘要明确使用共轭连接体HHTP与Cu2+或Ni2+制备Cu3(HHTP)2和Ni3(HHTP)2薄膜作为电化学晶体管沟道，系统改变离子强度、离子身份、pH和栅极构型进行晶体管操作测试，并开展广泛场效应表征评估电化学稳定性，最终建立统一机理模型描述耦合离子电子传输。摘要未报告具体薄膜制备方法、表征仪器及器件尺寸参数。",
+        "relevance_zh": "该工作直接关联共轭MOF与导电框架主线，把电解质从背景条件提升为可编程掺杂变量，定量关联离子性质与电荷传输、跨导和传输区间转变，对理解离子电子混合传输及设计框架基电化学器件有实际价值。局限在于对象为微孔c-MOF薄膜晶体管而非介孔材料，且摘要未给出合成与稳定性细节，值得全文精读以获取器件参数和模型依据。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属摘要级信息。薄膜制备方法、器件结构尺寸、具体灵敏度数值、稳定性测试条件及机理模型细节均需全文核查。",
+        "key_findings_zh": [
+          "提高离子强度使Cu3(HHTP)2和Ni3(HHTP)2电化学晶体管转移曲线向更负电位移动，且与离子浓度对数呈线性依赖。",
+          "离子水合半径强烈影响离子电子传输，较小阳离子更易渗透框架并降低表面电位。",
+          "电荷中性点电位呈线性pH依赖，灵敏度与导电聚合物电化学晶体管相当。",
+          "栅电极构型影响器件性能，统一机理模型可描述耦合离子电子传输，且器件显示良好电化学稳定性。"
+        ]
+      },
+      {
+        "title": "Synergistic Molecular-Nano Engineering Enabling Ultralong-Cycling and High-Capacity Lithium Storage of Covalent Organic Frameworks",
+        "abstract": "Abstract Lithium-ion capacitors (LICs) combine the high energy density of batteries with the high-power density of supercapacitors for potential advanced applications. As promising anode candidates for LICs, the practical application of covalent organic frameworks (COFs) is hampered by the intrinsically low electronic conductivity. Here, a “molecular-nano” dual-scale synergistic strategy is proposed to enhance the charge transport and utilization of active sites. At the molecular scale, three highly crystalized COFs (2,6-DAAQ-COF, 2,6-DAA-COF, and 1,4-DAAQ-COF) via donor-acceptor (D–A) structural design are synthesized to enhance the intramolecular charge separation and electron transfer processes. At the nanoscale, a three-dimensional conductive network is constructed by in situ compositing with carbon nanotubes (CNTs) to yield core-shell structured COF@CNT, which also effectively exfoliates COF layers and exposes active sites. Benefiting from the synergistic enhancement between intramolecular charge transfer and the macroscopic conductive network, the optimized 2,6-DAAQ-COF@CNT50 exhibits exceptional lithium storage performance, retaining a high discharge capacity of 1983 mAh g–1 after 1000 cycles at 1 A g–1. Furthermore, the electrode also exhibits excellent electrochemical performance at low temperature (–20 °C), retaining 220 mAh g–1 after 2000 cycles at 0.5 A g–1. The assembled LICs demonstrate superior stability of up to 10,000 cycles. This study provides a new strategy and mechanistic insights for designing high-performance organic anode materials for LICs.",
+        "authors": [
+          "Peilin Guo",
+          "Derong Luo",
+          "Feng Liu",
+          "Xuan Wang",
+          "Hui Wang",
+          "Bing Ding",
+          "Hui Dou",
+          "Xiaogang Zhang"
+        ],
+        "institutions": [],
+        "published": "2026-11-16",
+        "journal": "ACS Applied Materials &amp; Interfaces",
+        "doi": "10.1021/acsami.6c19857",
+        "url": "https://doi.org/10.1021/acsami.6c19857",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 34,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "ACS Applied Materials & Interfaces"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [
+            "charge transport",
+            "conductive"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "分子-纳米协同工程实现共价有机框架的超长循环与高容量储锂",
+        "summary_zh": "提出分子-纳米双尺度协同策略：分子层面以给体-受体结构设计三种高结晶COF增强分子内电荷分离，纳米层面原位复合碳纳米管构建核壳COF@CNT三维导电网络并剥离层片暴露活性位点，优化材料实现超长循环高容量储锂及低温性能。",
+        "research_details_zh": "研究问题是COF作为锂离子电容器负极时本征电子电导率低、活性位点利用率不足，限制其实际应用。材料体系为三种高结晶COF（2,6-DAAQ-COF、2,6-DAA-COF、1,4-DAAQ-COF），通过给体-受体（D-A）结构设计在分子尺度增强分子内电荷分离与电子转移。纳米尺度上，采用原位复合碳纳米管（CNT）构建三维导电网络，得到核壳结构COF@CNT，同时有效剥离COF层并暴露活性位点。研究过程围绕分子内电荷转移与宏观导电网络之间的协同增强展开，筛选优化出2,6-DAAQ-COF@CNT50。意义在于为高性能有机负极材料设计提供新策略与机制认识，并展示COF在锂离子电容器中的应用潜力。",
+        "methods_zh": "摘要明确出现的方法包括：通过给体-受体结构设计合成三种高结晶COF；与原位复合碳纳米管构建核壳结构COF@CNT三维导电网络；以电化学储锂性能测试评价电极（1 A g–1循环1000次、–20 °C下0.5 A g–1循环2000次）；组装锂离子电容器并测试其循环稳定性（至10000次）。摘要未报告具体合成条件、表征手段及电容器其他性能参数。",
+        "relevance_zh": "该工作直接涉及共轭COF的分子尺度电子结构调控与纳米尺度导电网络组装，对框架材料电化学储能主线有实际参考价值：D-A设计与CNT原位复合的组合思路可迁移至其他导电框架电极。局限在于摘要仅给出储锂与电容器性能，未披露合成细节、表征证据与机制验证手段，值得全文精读以核查结构-性能关系。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要。COF具体合成条件、结构表征（如结晶度、形貌）、CNT复合比例优化依据、储锂机制证据及电容器器件参数等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "优化的2,6-DAAQ-COF@CNT50在1 A g–1下循环1000次后仍保持1983 mAh g–1的高放电容量。",
+          "该电极在低温（–20 °C）下于0.5 A g–1循环2000次后仍保持220 mAh g–1。",
+          "组装的锂离子电容器稳定性可达10000次循环。",
+          "协同增强来源于分子内电荷转移与宏观导电网络的共同作用，CNT复合还剥离COF层并暴露活性位点。"
+        ]
+      },
+      {
+        "title": "Electronic Polarization of Covalent Organic Framework Membranes for Precise Antibiotic Purification",
+        "abstract": "Abstract Precise molecular separation is essential for pharmaceutical production and purification, yet existing sieving systems struggle to distinguish structurally similar molecules due to their predominant reliance on size exclusion. Herein, we fabricate a covalent organic framework (COF) membrane featuring fluorine-induced polarized nanochannels for fast organic solvent nanofiltration. The incorporation of fluorine atoms redistributes electron density along the pore walls, creating a polarized electrostatic environment while lowering surface energy. This unique pore environment promotes the uptake and transport of polar solvents, while enhancing separation selectivity by retarding highly polar solutes through polarity-dependent solute-framework interactions. Furthermore, the low surface energy imparted by the robust C–F bonds also reduces irreversible foulant adhesion and facilitates permeance recovery after cleaning. The resultant COF membrane achieves a molecular weight cutoff down to 350 Da and stable operation for over 550 h. Notably, it differentiates structurally related fluoroquinolone antibiotics according to their molecular polarity and delivers a favorable separation factor of 8.9 for norfloxacin over its synthetic intermediate piperazine. This work demonstrates that engineering pore-wall polarity in COF membranes provides a viable route to chemically regulated molecular recognition beyond size-based separation.",
+        "authors": [
+          "Chuansheng Tang",
+          "Congcong Yin",
+          "Ziyin Zhang",
+          "Jinglin Gao",
+          "Kai Liu",
+          "Shijia Luo",
+          "Yong Wang"
+        ],
+        "institutions": [],
+        "published": "2026-11-16",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c18580",
+        "url": "https://doi.org/10.1021/jacs.6c18580",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "covalent organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "membrane"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "共价有机框架膜的电子极化用于精准抗生素纯化",
+        "summary_zh": "构建氟诱导极化纳米通道的COF膜用于有机溶剂纳滤，氟原子沿孔壁重分布电子密度形成极化静电环境并降低表面能，促进极性溶剂传输、阻滞高极性溶质，实现350 Da截留分子量、550小时稳定运行及氟喹诺酮抗生素按极性分离。",
+        "research_details_zh": "研究问题是现有筛分体系主要依赖尺寸排阻，难以区分结构相似的分子，制约制药生产与纯化中的精准分离。材料体系为含氟COF膜，设计策略是在孔壁引入氟原子以重分布电子密度，构建极化静电环境并降低表面能。该孔环境促进极性溶剂的吸附与传输，同时通过极性依赖的溶质-框架相互作用阻滞高极性溶质，从而在尺寸筛分之外增加化学识别维度；C–F键带来的低表面能还减少不可逆污染附着并利于清洗后通量恢复。研究过程包括膜制备、有机溶剂纳滤性能评价、截留分子量与长期稳定性测试，以及结构相关氟喹诺酮抗生素的分离选择性考察。意义在于证明孔壁极性工程是超越尺寸排阻、实现化学调控分子识别的可行途径。",
+        "methods_zh": "摘要明确出现的方法包括：制备含氟COF膜；有机溶剂纳滤性能测试；测定截留分子量（低至350 Da）；进行超过550小时的稳定性运行；考察结构相关氟喹诺酮抗生素（诺氟沙星与哌嗪）的分离选择性并计算分离因子。摘要未报告膜的具体合成条件、氟引入方式、表征手段及通量数值。",
+        "relevance_zh": "该工作属于共轭COF膜在精准分子分离中的应用，核心创新是孔壁极性与电子密度调控，对框架材料孔环境工程主线有参考价值：将分离选择性从尺寸排阻拓展到极性识别。局限在于摘要未给出膜制备细节、通量数据与表征证据，若关注COF膜规模化或机制验证，值得全文精读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要。COF膜的合成与氟引入方法、孔结构表征、通量数值、污染与清洗实验细节及分离机制证据仍需全文核查。",
+        "key_findings_zh": [
+          "所得COF膜的截留分子量低至350 Da，稳定运行超过550小时。",
+          "膜可依据分子极性区分结构相关的氟喹诺酮抗生素，诺氟沙星相对其合成中间体哌嗪的分离因子达8.9。",
+          "氟原子沿孔壁重分布电子密度，形成极化静电环境并降低表面能，促进极性溶剂传输并阻滞高极性溶质。",
+          "C–F键赋予的低表面能减少不可逆污染附着，有利于清洗后通量恢复。"
+        ]
+      },
+      {
+        "title": "Engineering Amino‐Induced p‐π Conjugation for Electronic Regulation of Li + Transport in PVDF‐Based Solid‐State Electrolytes",
+        "abstract": "ABSTRACT Sluggish Li + transport in poly(vinylidene fluoride) (PVDF)‐based solid polymer electrolytes (SPEs) arises from restricted polymer segmental motion and persistent Li + ‐FSI − association, while conventional fillers provide limited regulation of the local electronic and coordination environments. Herein, amino‐functionalized UiO66‐NH 2 is introduced into a PVDF/lithium bis(fluorosulfonyl)imide (LiFSI) electrolyte to construct electronically active composite SPEs (U6NP). The electron‐donating ─NH 2 groups induce p‐π conjugation, redistribute the linker electron density, and strengthen ligand‐to‐metal charge transfer (LMCT)‐related electronic coupling between the organic linkers and Zr‐O clusters. This electronic reconstruction, together with amino‐associated modulation of local O‐centered coordination environments, reshapes the electrostatic landscape, weakens Li + ‐FSI − interactions, and facilitates Li + migration. U6NP delivers a room‐temperature ionic conductivity of 2.41 × 10 −3 S cm −1 , a Li + transference number of 0.56, and an oxidative stability of 4.42 V. More importantly, Li||U6NP||LiNi 0.8 Co 0.1 Mn 0.1 O 2 (NCM811) cells with a cathode loading of 21.5 mg cm −2 retain 98.51% after 120 cycles at 0.05 C. The Li||U6NP||NCM811 pouch cell delivers 136.6 mAh g −1 initially and 120.9 mAh g −1 after 100 cycles. This work establishes ─NH 2 ‐induced p‐π conjugation‐enhanced LMCT as an effective strategy for electronically active MOF‐reinforced PVDF electrolytes toward high‐loading solid‐state lithium metal batteries.",
+        "authors": [
+          "Rongjin Lin",
+          "Ming Jiang",
+          "Xuejie Gao",
+          "Runcang Sun",
+          "Dan Luo",
+          "Li Shuai",
+          "Xinglong Wu",
+          "Meng Yao",
+          "Xiaofei Yang",
+          "Zhongwei Chen"
+        ],
+        "institutions": [],
+        "published": "2026-11-16",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.5164505",
+        "url": "https://doi.org/10.1002/anie.5164505",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "coordination",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "氨基诱导p-π共轭工程调控PVDF基固态电解质中的锂离子传输",
+        "summary_zh": "将氨基功能化UiO66-NH2引入PVDF/LiFSI固态电解质，利用给电子氨基诱导p-π共轭、重分布连接体电子密度并增强配体-金属电荷转移相关电子耦合，削弱Li+与FSI−相互作用，实现高离子电导率、高迁移数与高负载电池稳定循环。",
+        "research_details_zh": "研究问题是PVDF基固态聚合物电解质中聚合物链段运动受限且Li+与FSI−持续缔合，导致锂离子传输缓慢，而常规填料对局部电子与配位环境的调控有限。材料体系为氨基功能化UiO66-NH2引入PVDF/LiFSI构成的电子活性复合固态电解质（U6NP）。设计策略是利用给电子─NH2基团诱导p-π共轭，重分布连接体电子密度，增强有机连接体与Zr-O团簇之间配体-金属电荷转移（LMCT）相关的电子耦合；该电子重构与氨基相关的局部氧配位环境调控共同重塑静电景观，削弱Li+–FSI−相互作用并促进Li+迁移。研究过程包括复合电解质制备、离子电导率、锂离子迁移数与氧化稳定性测试，以及高负载NCM811电池与软包电池的循环评价。意义在于确立氨基诱导p-π共轭增强LMCT作为电子活性MOF增强PVDF电解质的有效策略。",
+        "methods_zh": "摘要明确出现的方法包括：将氨基功能化UiO66-NH2引入PVDF/LiFSI制备复合固态电解质U6NP；测试室温离子电导率、锂离子迁移数与氧化稳定性；组装Li||U6NP||NCM811电池（正极负载21.5 mg cm−2）在0.05 C下循环120次；组装软包电池并测试100次循环容量。摘要未报告具体制备工艺、表征手段及LMCT的直接谱学证据。",
+        "relevance_zh": "该工作涉及MOF填料通过电子结构调控（p-π共轭、LMCT）改善聚合物电解质离子传输，对框架材料电子调控与电化学应用主线有参考价值：氨基功能化作为调控配位与电子环境的抓手。局限在于摘要聚焦性能数据，机制以描述性表述为主，若关注MOF-聚合物界面作用证据，值得全文精读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要。复合电解质制备细节、UiO66-NH2表征、p-π共轭与LMCT的谱学或计算证据、电池测试条件及界面稳定性数据仍需全文核查。",
+        "key_findings_zh": [
+          "U6NP室温离子电导率达2.41 × 10−3 S cm−1，锂离子迁移数为0.56，氧化稳定性为4.42 V。",
+          "正极负载21.5 mg cm−2的Li||U6NP||NCM811电池在0.05 C下循环120次后容量保持98.51%。",
+          "Li||U6NP||NCM811软包电池初始容量136.6 mAh g−1，循环100次后为120.9 mAh g−1。",
+          "─NH2诱导的p-π共轭增强LMCT相关电子耦合，重塑静电景观并削弱Li+–FSI−相互作用。"
+        ]
+      },
+      {
+        "title": "Self‐Confinement‑Tailored Energy Routing for Superior Thermal‐Adaptive Ln‐MOFs Scintillator",
+        "abstract": "ABSTRACT Noncontact radiation monitoring in extreme environments is essential across scientific and industrial fields, driving the development of x‑ray scintillators. Conventional scintillators continue to suffer from inadequate exciton utilization, poor thermal stability, or limited processability. In this study, we propose a self‐confinement strategy to tailor energy routing for constructing superior thermal‐adaptive scintillators. Two lanthanide‐organic frameworks, ZJNU‐1006‐Ln and Ln‐BDC‐F, are rationally designed and synthesized. Compared with the free state of pure ligand or its quasi‐confinement state in Ln‐BDC‐F, ZJNU‐1006‐Ln exhibits a strong molecular self‐confinement state arising from compact ligand packing, thereby enhancing exciton utilization, suppressing nonradiative energy dissipation, and optimizing the energy routing. These features endow ZJNU‐1006‐Ln with superior radio‐luminescent performance, including high light yield (max ∼ 62,000 photons MeV ‒1 ), low detection limit (92.7 nGy air s ‒1 ), and great thermal‐stability (&lt; 7% emission intensity attenuation from 77 to 590 K). ZJNU‐1006‐Ln membranes and fibers demonstrate great potential for in situ, real‐time x‐ray imaging and radiation monitoring. In addition, by tracking radio‐luminescent chromaticity, a series of ZJNU‐1006‐Ln with varied Tb 3+ /Eu 3+ doping ratios enables precise localization of radiation‐exposed regions over a broad temperature range, particularly encompassing the Earth surface temperature window. This work highlights the self‐confinement effect as a promising strategy for designing advanced inorganic‐organic scintillators.",
+        "authors": [
+          "Hongjun Li",
+          "Rong Shan",
+          "Qianghui Dong",
+          "Jiaying Cao",
+          "Lin Zhang",
+          "Enlai Hu",
+          "Hai Guo",
+          "Guodong Qian"
+        ],
+        "institutions": [],
+        "published": "2026-11-16",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75756",
+        "url": "https://doi.org/10.1002/adma.75756",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "自限域调控能量路由构建优异热自适应镧系MOF闪烁体",
+        "summary_zh": "提出自限域策略调控能量路由，设计合成ZJNU-1006-Ln与Ln-BDC-F两种镧系有机框架。紧凑配体堆积形成的强自限域态提升激子利用、抑制非辐射耗散，实现高光产额、低检测限与宽温区热稳定闪烁性能，并用于X射线成像与辐射监测。",
+        "research_details_zh": "研究针对传统闪烁体激子利用率不足、热稳定性差或加工性受限的问题，提出自限域策略以调控能量路由，构建热自适应闪烁体。材料体系为两种镧系有机框架ZJNU-1006-Ln与Ln-BDC-F，通过配体堆积紧密程度区分自限域状态：ZJNU-1006-Ln呈强分子自限域态，Ln-BDC-F呈准限域态，并以纯配体自由态作对照。设计策略是以紧凑配体堆积增强激子利用、抑制非辐射能量耗散并优化能量路由。研究过程包括两种框架的理性设计与合成、三种限域状态的对比、放射发光性能评价、热稳定性测试，以及膜与纤维形态的成像与监测演示；还通过调控Tb3+/Eu3+掺杂比例追踪放射发光色度，实现宽温区辐射暴露区域定位。其意义在于将自限域效应确立为设计先进无机-有机闪烁体的可行策略。",
+        "methods_zh": "摘要报告的方法包括：两种镧系有机框架ZJNU-1006-Ln与Ln-BDC-F的理性设计与合成；以纯配体自由态和Ln-BDC-F准限域态为参照，对比ZJNU-1006-Ln的分子自限域状态；评价放射发光性能（光产额、检测限）与77至590 K热稳定性；制备ZJNU-1006-Ln膜和纤维并演示原位实时X射线成像与辐射监测；通过改变Tb3+/Eu3+掺杂比例并追踪放射发光色度实现温度相关辐射区域定位。具体合成条件与表征手段摘要未报告。",
+        "relevance_zh": "该工作属于镧系MOF框架材料的功能化应用，核心是自限域结构调控能量路由，与框架材料组装及结构—性能关系主线相关，但未涉及介孔导电MOF、共轭框架或电化学合成。其定量闪烁性能与宽温区稳定性对框架材料光学应用有参考价值，膜与纤维形态也涉及加工组装。若关注MOF能量转移调控或辐射探测可精读全文；若聚焦导电、介孔或电化学组装，则相关性有限。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要，未核查全文。摘要未报告具体合成条件、配体结构、表征手段、限域态的结构证据、光产额与检测限的测试标准、热稳定性测试细节、掺杂比例范围及成像分辨率等关键信息，均需全文核查。",
+        "key_findings_zh": [
+          "ZJNU-1006-Ln的最大光产额约62000 photons MeV-1，检测限为92.7 nGy air s-1。",
+          "ZJNU-1006-Ln在77至590 K范围内发射强度衰减小于7%，表现出优异热稳定性。",
+          "相比纯配体自由态与Ln-BDC-F中的准限域态，ZJNU-1006-Ln的紧凑配体堆积形成强自限域态，增强激子利用、抑制非辐射能量耗散并优化能量路由。",
+          "ZJNU-1006-Ln膜与纤维可用于原位实时X射线成像与辐射监测；不同Tb3+/Eu3+掺杂比例样品通过放射发光色度实现宽温区辐射暴露区域定位，覆盖地表温度窗口。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-15",
     "search_start": "2026-11-13",
     "generated_at": "2026-11-16T02:41:45Z",
@@ -44301,285 +45006,6 @@
         ],
         "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
         "relevance_zh": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-08",
-    "generated_at": "2026-08-09T02:33:23Z",
-    "papers": [
-      {
-        "title": "Self‐Assembled Mesoporous Nickel Polyphthalocyanine/Graphene Microspheres for Room‐Temperature Sensing of Carbonate Ester Leakage in Batteries",
-        "abstract": "ABSTRACT The low viscosity of linear carbonate esters improves electrolyte wetting and ionic conductivity, making them essential for battery operation, but also rendering them prone to rapid evaporation when cells are mechanically damaged or leaking. Given their high flammability, such evaporation poses serious safety hazards. Monitoring such emissions without elevating temperature is critical for providing early hazard warning. Herein, we report a room temperature operable carbonate esters sensor based on self‐assembled mesoporous nickel polyphthalocyanine/graphene microsphere. This spherical structure suppresses π–π stacking of the polyphthalocyanine layers, exposing abundant Ni–N 4 active centers for coordination with carbonate esters. The mesoporous architecture establishes 3D diffusion pathways, facilitating rapid gas transport. The extended π‑conjugation and enriched electron density further enhance the adsorption affinity of Ni–N 4 sites toward carbonate ester groups. The constructed sensor achieves a 90% response to dimethyl carbonate (DMC) vapor at 20°C within 10 s, with high selectivity and stability under bending, humidity variations, and long‐term standby operation. An integrated DMC‐temperature flexible chip identifies overheating and leakage faults of lithium‐ion battery and locates the leakage point within a battery module. This work enables monitoring of battery breakage under practical operating conditions, forming comprehensive risk assessment for battery management systems.",
-        "authors": [
-          "Nuo Sun",
-          "Qinlang Rong",
-          "YiXin Yang",
-          "Hailong Wang",
-          "Stephan Werner",
-          "Hongjiao Li",
-          "Christoph Pratsch",
-          "Zhimeng Liu",
-          "Linyu Hu",
-          "Yong Yang",
-          "Xin He"
-        ],
-        "institutions": [],
-        "published": "2026-08-08",
-        "journal": "Advanced Materials",
-        "doi": "10.1002/adma.74531",
-        "url": "https://doi.org/10.1002/adma.74531",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 35,
-        "scores": {
-          "topic": 6,
-          "method": 4,
-          "quality": 15,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Advanced Materials"
-        ],
-        "hits": {
-          "framework": [],
-          "conductive": [],
-          "mesoporous": [
-            "mesoporous"
-          ],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "coordination",
-            "mesoporous"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Self‐Assembled Mesoporous Nickel Polyphthalocyanine/Graphene Microspheres for Room‐Temperature Sensing of Carbonate Ester Leakage in Batteries",
-        "summary_zh": "该文围绕介孔或分级孔结构展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及介孔或分级孔结构。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Domino Effect in Epimer Self‐Assembly Induces Diverse Hydrogel Properties for Biomedical Applications",
-        "abstract": "ABSTRACT Precise regulation of small‐molecule self‐assembly remains a formidable challenge, as subtle structural variations can trigger profound reprogramming of supramolecular architectures. Herein, we demonstrate that C18‐epimerization of glycyrrhizic acid (GA) acts as a molecular switch to modulate both its self‐assembly behavior and the properties of the resulting supramolecular hydrogels. Computational simulations and experimental analyses reveal that this epimer transition induces a “domino effect” that fundamentally rewrites the self‐assembly pathway, particularly by reshaping the intermolecular hydrogen‐bonding (H‐bond) network. Isoglycyrrhizic acid (IGA), the C18‐epimer of GA, forms a densely crosslinked fiber network through a distinct tetramer stacking mode, with significantly enhanced H‐bond interactions arising from altered electrostatic surface potential and molecular planarity. These structural differences yield hydrogels with enhanced injectability and viscosity, supporting the translational potential of IGA‐based hydrogel platforms. Furthermore, IGA co‐assembled with diverse therapeutic agents to form hydrogels that improved drug dispersibility and produced enhanced therapeutic effects in the evaluated preclinical models. This study elucidates the epimer‐governed cascade from molecular stereochemistry to macroscopic function and establishes a stereochemical strategy for engineering supramolecular biomaterials.",
-        "authors": [
-          "Yihang Zhao",
-          "Luping Yang",
-          "Zhiwei Wang",
-          "Helong Xu",
-          "Zhijia Wang",
-          "Jihui Lu",
-          "Xiang Zhang",
-          "Yiqing Huang",
-          "Haimin Lei",
-          "Xuemei Huang",
-          "Penglong Wang"
-        ],
-        "institutions": [],
-        "published": "2026-08-08",
-        "journal": "Angewandte Chemie",
-        "doi": "10.1002/ange.6657683",
-        "url": "https://doi.org/10.1002/ange.6657683",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 35,
-        "scores": {
-          "topic": 6,
-          "method": 4,
-          "quality": 15,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "premium",
-        "quality_hits": [
-          "Angewandte Chemie"
-        ],
-        "hits": {
-          "framework": [],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [
-            "self assembly",
-            "self-assembly"
-          ],
-          "electrochemical": [],
-          "materials": [
-            "supramolecular"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Domino Effect in Epimer Self‐Assembly Induces Diverse Hydrogel Properties for Biomedical Applications",
-        "summary_zh": "该文围绕组装与结晶过程展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及组装与结晶过程。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Electronic Structure of Cu-Phthalocyanine Metal–Organic Framework",
-        "abstract": "Abstract Metal phthalocyanine metal–organic frameworks (MPc-MOFs) possess a crystalline structure consisting of stacked molecular layers that form a square lattice composed of metal phthalocyanine (MPc) units. The unique structure of these MPc-MOF molecular layers is theoretically predicted to belong to the Leib or fes (square octagon) lattice. Although these lattice models possess fascinating electronic structures, such as Dirac bands and flat bands around the energy gap, they remain the least-studied Dirac materials to date. In this study, the π-bands of CuPc-MOF were investigated owing to their similarity to the Dirac bands of the fes lattice, as the Cu 3d band avoids the Fermi level. We synthesized CuPc-MOF using the molten-salt method, with ZnCl2 as the flux. X-ray diffraction and transmission electron microscopy studies revealed that synthesized CuPc-MOF consisted of flake-like microcrystals formed by overlapping molecular layers and that the crystals grew poorly in the stacking direction. Density functional theory (DFT) energy band calculations for the CuPc-MOF bulk crystals suggested that CuPc-MOF is metallic, as energy bands with large dispersion widths develop in the stacking direction of the molecular layers. However, the experimental results differ from the theoretical predictions. The visible and near-NIR absorption spectra indicate that CuPc-MOF has an optical energy gap of 0.31 eV. Furthermore, the density of states (DOS) of CuPc-MOF, directly observed using ultraviolet photoelectron spectroscopy (UPS), indicates that synthesized CuPc-MOF is nonmetallic. This discrepancy is attributed to the fact that the synthesized CuPc-MOF consists of flake-like microcrystals. In fact, the DFT-calculated energy band structure, assuming a single-molecular layer structure for the CuPc-MOF, strongly resembled that of the fes lattice and explained the observed UPS results. As expected, the DOS immediately below the Fermi level of the CuPc-MOF showed barely any contribution from the Cu 3d orbitals, and the π orbitals gave rise to a linear DOS. These results are in good agreement with the UPS results. Finally, electrical measurements revealed that CuPc-MOF was more electrically conductive than typical organic semiconductors. In the future, a wider range of physical properties of CuPc-MOF and its detailed electronic structure should be determined to understand its similarities to the fes lattice.",
-        "authors": [
-          "Momoka Isobe",
-          "Kenichi Ozawa",
-          "Jun’ya Tsutsumi",
-          "Kaname Kanai"
-        ],
-        "institutions": [],
-        "published": "2026-08-08",
-        "journal": "Chemistry of Materials",
-        "doi": "10.1021/acs.chemmater.6c01551",
-        "url": "https://doi.org/10.1021/acs.chemmater.6c01551",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 34,
-        "scores": {
-          "topic": 18,
-          "method": 0,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 0,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "Chemistry of Materials"
-        ],
-        "hits": {
-          "framework": [
-            "metal organic framework",
-            "metal-organic framework",
-            "mof",
-            "mofs"
-          ],
-          "conductive": [
-            "conductive",
-            "electrically conductive"
-          ],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "crystalline",
-            "materials"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "核心推荐",
-        "title_zh": "Electronic Structure of Cu-Phthalocyanine Metal–Organic Framework",
-        "summary_zh": "该文围绕导电与共轭特性展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及导电与共轭特性。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Tannic-Acid-Modified Mesoporous Silica Nanocarriers Enhance Chlorantraniliprole Delivery against Hyphantria cunea by Improving Foliar Adhesion",
-        "abstract": "Abstract The fall webworm Hyphantria cunea (Lepidoptera: Erebidae) is an invasive pest that severely damages forest resources and disrupts ecological stability. Chlorantraniliprole (CAP) is widely applied to control this pest, yet conventional formulations exhibit poor foliar retention, droplet spreading, and rainfastness. To address these limitations, we prepared tannic acid (TA)-modified mesoporous silica nanoparticles (MSN) loaded with CAP (TA@CAP@MSN) to enhance insecticidal efficacy and foliar adhesion. TA@CAP@MSN were uniform mesoporous nanospheres with 162.95 m2/g specific surface area, 0.241 cm3/g pore volume, 27.83% drug loading, and sustained-release performance. After 72 h of exposure, the LC50 of TA@CAP@MSN against third-instar H. cunea was 2.130 mg/L, corresponding to a 3.66-fold increase in toxicity relative to technical CAP. When sprayed on Populus × euramericana leaves, this nanoformulation achieved 62.33% larval mortality at 120 h. Notably, TA@CAP@MSN exhibited superior retention, wettability, and rainfastness on three representative host plants with distinct leaf surface properties. After simulated rainfall, mortalities under LC50/LC80 were significantly higher than those of pure CAP and CAP@MSN. Sublethal studies revealed that TA@CAP@MSN initially modulated key detoxification and antioxidant enzymes, followed by suppression of superoxide dismutase (SOD) and carboxylesterase (CarE) activities, consistent with altered antioxidant and detoxification responses. This tannic-acid-functionalized mesoporous silica nanocarrier provides an interfacial engineering strategy to construct high-efficiency nanopesticides against H. cunea.",
-        "authors": [
-          "Fei Teng",
-          "Guifang Zhong",
-          "Siying Song",
-          "Mingyu Xue",
-          "Hui Li",
-          "Wenxuan Xu",
-          "Shiyue Zhao",
-          "Peng Xu",
-          "Dejun Hao"
-        ],
-        "institutions": [],
-        "published": "2026-08-08",
-        "journal": "Langmuir",
-        "doi": "10.1021/acs.langmuir.6c03079",
-        "url": "https://doi.org/10.1021/acs.langmuir.6c03079",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 28,
-        "scores": {
-          "topic": 6,
-          "method": 4,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "Langmuir"
-        ],
-        "hits": {
-          "framework": [],
-          "conductive": [],
-          "mesoporous": [
-            "mesoporous"
-          ],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "mesoporous",
-            "silica"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Tannic-Acid-Modified Mesoporous Silica Nanocarriers Enhance Chlorantraniliprole Delivery against Hyphantria cunea by Improving Foliar Adhesion",
-        "summary_zh": "该文围绕介孔或分级孔结构展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及介孔或分级孔结构。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
         "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
       }
     ]
