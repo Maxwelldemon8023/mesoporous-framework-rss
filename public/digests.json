@@ -1,5 +1,583 @@
 [
   {
+    "date": "2026-11-17",
+    "search_start": "2026-11-15",
+    "generated_at": "2026-11-18T04:13:25Z",
+    "papers": [
+      {
+        "title": "Macrocycle 2D COF Single Crystal",
+        "abstract": "Abstract We report the synthesis of a two-dimensional (2D) covalent organic framework (COF) single crystal, termed COF-900, constructed from a geminiarene-type macrocycle linker, biphenyl-extended pillar[3]arene containing nine phenyl units. The atomically accurate structure was resolved by three-dimensional electron diffraction (3D ED) of the 2D COF single crystal with a resolution of 1.2 Å, unveiling the conformation of the macrocycle in the layered backbone as well as AB interlayer stacking. The macrocycle exhibits a similar stacking mode in both the COF and the molecular crystal of the linker, suggesting prealignment of linkers during COF crystal growth through a mechanism termed alignment-led framework assembly (ALFA). Cryo-transmission electron microscopy images further provided direct real-space visualization of the macrocycle, where three types of interconnected pores were clearly visualized with sizes of 1.1, 1.5, and 2.3 nm.",
+        "authors": [
+          "Chengtao Gong",
+          "Chunxing Yan",
+          "Jing Zhang",
+          "Yaoyao Peng",
+          "Hexiang Deng"
+        ],
+        "institutions": [],
+        "published": "2026-11-17",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c20335",
+        "url": "https://doi.org/10.1021/jacs.6c20335",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 47,
+        "scores": {
+          "topic": 18,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "covalent organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "crystal growth"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystal"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "大环二维COF单晶",
+        "summary_zh": "报道了由双子芳烃型大环连接体构建的二维共价有机框架单晶COF-900，通过三维电子衍射以1.2 Å分辨率解析原子级结构，揭示大环构象与AB层间堆积，并提出对齐引导框架组装机制。",
+        "research_details_zh": "研究目标是获得原子级精确结构的二维COF单晶并理解其生长机制。材料体系为以含九个苯基单元的双苯基延伸柱[3]芳烃大环为连接体的COF-900。设计策略是利用大环连接体在分子晶体中的预排列来引导框架生长。研究过程包括合成该二维COF单晶，采用三维电子衍射以1.2 Å分辨率解析其原子级结构，揭示大环在层状骨架中的构象及AB层间堆积模式；比较该大环在COF与连接体分子晶体中的堆积方式，发现相似堆积模式，据此提出对齐引导框架组装机制；并通过冷冻透射电镜在实空间直接观察到大环及三种相互连通的孔道，尺寸分别为1.1、1.5和2.3 nm。该工作意义在于将大环化学与COF单晶结构解析结合，为框架组装机制提供结构证据。",
+        "methods_zh": "摘要明确报告的方法包括：以双子芳烃型大环为连接体合成二维COF单晶COF-900；采用三维电子衍射进行原子级结构解析，分辨率1.2 Å；通过冷冻透射电子显微镜进行实空间成像观察大环与孔道；并将COF中大环堆积模式与连接体分子晶体中的堆积模式进行比较分析。其他合成条件与表征细节摘要未报告。",
+        "relevance_zh": "该工作直接关联共轭COF与框架组装主线，提供二维COF单晶的原子级结构解析和大环预排列引导组装的机制证据，对理解框架晶体生长与孔道结构具有实际价值。其孔道尺寸与组装机制值得全文精读，但导电性或电化学功能摘要未报告，需评估与介孔导电MOF主线的直接关联度。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级解读；合成条件、反应参数、产率、稳定性、比表面积、导电性及电化学性能等关键细节需全文核查。",
+        "key_findings_zh": [
+          "成功合成二维COF单晶COF-900，并通过三维电子衍射以1.2 Å分辨率解析其原子级精确结构。",
+          "大环在COF层状骨架与连接体分子晶体中呈现相似堆积模式，支持对齐引导框架组装机制。",
+          "冷冻透射电镜实空间观察到三种相互连通孔道，尺寸分别为1.1、1.5和2.3 nm。",
+          "结构解析揭示大环构象及AB层间堆积方式。"
+        ]
+      },
+      {
+        "title": "Orthogonal Self‐Assembled Two‐Dimensional Charge‐Transfer Cocrystals With Superior Photothermal Stability for Low‐Loss NIR‐II Waveguiding and Epitaxial Heterostructure Fabrication",
+        "abstract": "ABSTRACT Low‐dimensional organic near‐infrared (NIR) crystals hold tremendous potential for integrated photonics. However, simultaneously achieving two‐dimensional (2D) structural growth and low‐loss waveguiding within the NIR‐II region remains a formidable challenge due to one‐dimensional (1D) packing tendencies imposed by strong charge transfer (CT) interactions. In this study, we strategically choose the extended π‐conjugated structure donor dithieno[2,3‐d:2',3'‐d']benzo[1,2‐b:4,5‐b']dithiophene and the strong electron‐withdrawing acceptor tetracyanoquinodimethane, and report the first large‐scale preparation of 2D organic CT cocrystal microsheets with NIR‐II emission at 1050 nm via a gas‐phase self‐assembly. The strategically expanded conjugation framework not only further promotes the luminescence red‐shift but also introduces an interaction network with orthogonal directions, counterbalancing the intrinsic 1D stacking constraints brought by the strong CT interactions and guiding the crystals into a thermodynamically stable 2D morphology. The compact network plays a crucial role in endowing the material with exceptional structural and photothermal stability, as well as low‐loss optical waveguiding. Furthermore, attributed to the extremely low lattice‐mismatch rate, 1D‐2D branched heterostructures were constructed, which demonstrated efficient energy transfer (ET) and cross‐band optical signal conversion over 600 nm. This work breaks new ground in extending 2D organic cocrystals into the NIR‐II region and provides a promising material platform for low‐loss, and integrated NIR optoelectronic devices.",
+        "authors": [
+          "Xing‐Yu Deng",
+          "Shuai Zhao",
+          "Lin‐Qing Qiu",
+          "Meng‐Yan Zhang",
+          "Zheng‐Bo Liu",
+          "Wen‐Can Zhang",
+          "Zheng‐Xuan Li",
+          "Yun Hu",
+          "Ian Sandall",
+          "Ying‐Li Shi",
+          "Chun Zhao",
+          "Xue‐Dong Wang"
+        ],
+        "institutions": [],
+        "published": "2026-11-17",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75755",
+        "url": "https://doi.org/10.1002/adma.75755",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 46,
+        "scores": {
+          "topic": 12,
+          "method": 6,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "conjugated",
+            "π-conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "material"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "正交自组装二维电荷转移共晶及其优异光热稳定性用于低损耗NIR-II波导与外延异质结构筑",
+        "summary_zh": "通过气相自组装首次大规模制备发射位于1050 nm的二维有机电荷转移共晶微片，扩展共轭给体引入正交方向相互作用网络，克服一维堆积限制，实现二维形貌、光热稳定性与低损耗NIR-II波导，并构筑一维-二维分支异质结构。",
+        "research_details_zh": "研究问题是强电荷转移相互作用通常导致一维堆积，难以同时实现二维结构生长与NIR-II低损耗波导。材料体系选用扩展π共轭给体二噻吩并苯并二噻吩与强吸电子受体四氰基对醌二甲烷。设计策略是利用扩展共轭框架促进发光红移，并引入正交方向的相互作用网络以抵消强CT作用带来的一维堆积约束，引导晶体形成热力学稳定的二维形貌。研究过程包括通过气相自组装大规模制备二维有机CT共晶微片，表征其1050 nm的NIR-II发射、结构稳定性、光热稳定性与低损耗光波导性能；利用极低晶格失配率构筑一维-二维分支异质结构，并展示高效能量转移与超过600 nm的跨带光信号转换。意义在于将二维有机共晶拓展至NIR-II区域，为低损耗集成近红外光电器件提供材料平台。",
+        "methods_zh": "摘要明确报告的方法包括：选择扩展π共轭给体与强吸电子受体构建电荷转移共晶；采用气相自组装进行大规模二维微片制备；表征NIR-II发射、结构与光热稳定性及低损耗光波导性能；基于晶格失配分析构筑一维-二维分支异质结构，并研究能量转移与跨带光信号转换。具体表征手段与测试条件摘要未报告。",
+        "relevance_zh": "该工作属于自组装与共轭有机晶态材料方向，展示正交自组装策略调控二维形貌与光物理功能，对理解共轭体系组装—性能关系有参考价值。其与介孔导电MOF/COF主线关联偏拓展性，但低损耗波导与异质结构筑思路值得关注；是否全文精读取决于对有机共晶光子学的兴趣。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级解读；具体合成条件、表征手段、波导损耗数值、稳定性测试条件及异质结构筑细节需全文核查。",
+        "key_findings_zh": [
+          "首次大规模制备二维有机CT共晶微片，NIR-II发射位于1050 nm。",
+          "扩展共轭框架引入正交方向相互作用网络，抵消强CT导致的一维堆积约束，引导形成热力学稳定的二维形貌。",
+          "材料表现出优异的结构与光热稳定性以及低损耗光波导性能。",
+          "基于极低晶格失配率构筑一维-二维分支异质结构，实现高效能量转移和超过600 nm的跨带光信号转换。"
+        ]
+      },
+      {
+        "title": "Flexible 2D Donor‐Acceptor MOFs Enable Tunable and Pressure‐Responsive TSCT–TADF for Heterocrystal Photonic Logic",
+        "abstract": "ABSTRACT Efficient thermally activated delayed fluorescence (TADF) materials that combine high efficiency, color tunability, and dynamic stimulus responsiveness are highly desirable for adaptive photonic technologies, yet remain difficult to realize within a single crystalline platform. Here, flexible two‐dimensional (2D) donor‐acceptor (D–A) metal‐organic frameworks (MOFs) are developed through integrating an aggregation‐induced‐emission‐active triphenylamine donor with size‐matched electron‐deficient acceptors. Solvent‐directed assembly, donor conformational flexibility, and acceptor electronic modulation cooperatively regulate the D–A packing and through‐space charge‐transfer (TSCT) effect. The resulting MOFs exhibit broadly tunable TADF emission (474–635 nm), delayed lifetimes (0.11–7.65 µs), and photoluminescence quantum yields (PLQY, 0.52%–74.24%). Relative to the DMF‐derived structures, the DMA‐derived MOFs display increases of up to 51‐fold in delayed lifetime and 6‐fold in PLQY, while calculations support an unconventional high‐lying reverse intersystem crossing (hRISC) pathway. More importantly, the structural adaptability of the layered frameworks enables pressure‐induced reconfiguration of D–A interactions, giving rise to reversible piezochromic TSCT–TADF with emission shifts of up to 113 nm. A multicomponent heterocrystal is further constructed to translate pressure‐dependent emission changes into optical logic operations. These results establish flexible 2D D–A MOFs as a dynamic platform for integrating efficient TADF, mechanical responsiveness, and heterocrystal photonic functionality.",
+        "authors": [
+          "Rui Sun",
+          "Lin Geng",
+          "Mei‐Hui Yu",
+          "Wei Li",
+          "Ze Chang",
+          "Xian‐He Bu"
+        ],
+        "institutions": [],
+        "published": "2026-11-17",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75759",
+        "url": "https://doi.org/10.1002/adma.75759",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 45,
+        "scores": {
+          "topic": 18,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "crystalline",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "柔性二维给体-受体MOF实现可调及压力响应TSCT–TADF用于异质晶体光子逻辑",
+        "summary_zh": "构建柔性二维给体-受体MOF，通过溶剂导向组装、给体构象柔性与受体电子调控协同调节空间电荷转移，实现474–635 nm可调TADF、延迟寿命与PLQY大幅提升及可逆压致变色，并构筑异质晶体实现光学逻辑操作。",
+        "research_details_zh": "研究问题是难以在单一晶态平台中同时实现高效、颜色可调且动态刺激响应的TADF。材料体系为柔性二维给体-受体MOF，由聚集诱导发光活性的三苯胺给体与尺寸匹配的缺电子受体构成。设计策略是通过溶剂导向组装、给体构象柔性与受体电子调控协同调节D–A堆积和空间电荷转移效应。研究过程包括制备系列MOF并表征其TADF发射、延迟寿命与光致发光量子产率；比较DMF衍生与DMA衍生结构，发现后者延迟寿命最高提升51倍、PLQY提升6倍，计算支持高位反向系间窜越路径；利用层状框架结构适应性实现压力诱导D–A相互作用重构，获得发射位移最高113 nm的可逆压致变色TSCT–TADF；进一步构筑多组分异质晶体，将压力依赖发射变化转化为光学逻辑操作。意义在于建立集高效TADF、机械响应与异质晶体光子功能于一体的动态平台。",
+        "methods_zh": "摘要明确报告的方法包括：以三苯胺给体与尺寸匹配缺电子受体通过溶剂导向组装制备柔性二维D–A MOF；表征TADF发射光谱、延迟寿命与光致发光量子产率；开展理论计算支持高位反向系间窜越路径；进行压力响应发光测试；构筑多组分异质晶体并演示光学逻辑操作。具体合成条件、表征设备与压力测试细节摘要未报告。",
+        "relevance_zh": "该工作属于框架材料组装与功能调控方向，展示溶剂导向组装与给受体设计对二维MOF空间电荷转移和TADF性能的调控，并引入压力响应与异质晶体光子逻辑，对框架材料动态功能化有参考价值。与介孔导电MOF主线关联有限，但组装—性能关系与刺激响应设计值得关注，可按需精读。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级解读；具体合成条件、结构解析、计算细节、压力测试条件及异质晶体构筑方式需全文核查。",
+        "key_findings_zh": [
+          "MOF的TADF发射可在474–635 nm范围调节，延迟寿命为0.11–7.65 µs，PLQY为0.52%–74.24%。",
+          "相对DMF衍生结构，DMA衍生MOF延迟寿命最高提升51倍、PLQY提升6倍，计算支持高位反向系间窜越路径。",
+          "层状框架结构适应性实现可逆压致变色TSCT–TADF，发射位移最高达113 nm。",
+          "构筑多组分异质晶体，将压力依赖发射变化转化为光学逻辑操作。"
+        ]
+      },
+      {
+        "title": "Synthetic Pathway Modulation of Metal Organization in Multivariate Metal–Organic Frameworks",
+        "abstract": "ABSTRACT Multivariate metal–organic frameworks (MTV MOFs) incorporate various metals and/or linkers within a periodic backbone, offering structural diversity and emergent functionalities. Typically, conventional one‐pot synthesis does not allow for any control over the spatial arrangement or sequencing of metals within the framework. Here, we present a synthetic strategy to alter metal arrangement in multimetallic MTV MOFs, yielding materials with nearly identical composition yet distinct properties. Using isostructural m CB‐Co and m CB‐Ni MOFs, we generate two MTV MOFs with different one‐dimensional Ni/Co arrangements, resulting in distinct semiconducting and magnetic properties. High‐resolution electrospray ionization mass spectrometry (ESI‐HRMS) reveals the formation of distinct precursor species in solution, suggesting that prenucleation chemistry influences the final metal arrangement. This work establishes a new approach for modulating metal arrangement in MTV MOFs, enabling tunable functional properties in multimetallic frameworks for applications in catalysis, electronics, and quantum materials.",
+        "authors": [
+          "Xiao‐Bao Li",
+          "Celia Castillo‐Blas",
+          "Silvia Gómez‐Coca",
+          "Eliseo Ruiz",
+          "Valentin Novikov",
+          "Jonathan De Tovar",
+          "Mark E. Light",
+          "Oscar Palacios",
+          "Anna E. Carrillo",
+          "Ana Arauzo",
+          "Elena Bartolomé",
+          "José Giner Planas"
+        ],
+        "institutions": [],
+        "published": "2026-11-16",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75706",
+        "url": "https://doi.org/10.1002/adma.75706",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 41,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [
+            "mofs"
+          ],
+          "conductive": [
+            "semiconducting"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "多变量金属有机框架中金属组织方式的合成路径调控",
+        "summary_zh": "该研究通过合成路径调控多变量MOF中Ni/Co的一维排列方式，在组成几乎相同的材料中获得不同的半导体与磁性质，并用ESI-HRMS揭示前驱体物种差异影响成核前化学与最终金属排列。",
+        "research_details_zh": "研究针对多变量金属有机框架中金属空间排列难以控制的问题，以同构的mCB-Co和mCB-Ni为构建单元，合成两种具有不同一维Ni/Co排列方式的多变量MOF。两种材料组成几乎相同，但半导体和磁性质不同，说明金属排列本身可成为调控功能的变量。为理解排列差异来源，作者用高分辨电喷雾电离质谱表征溶液中的前驱体物种，发现不同合成路径下形成不同的前驱体物种，提示成核前化学影响最终框架中的金属排列。该工作提出通过合成路径调节多变量MOF金属排列的新策略，为在多金属框架中实现可调功能提供依据，面向催化、电子学和量子材料等应用。摘要未报告具体合成条件、金属比例、结构表征细节及性能数值。",
+        "methods_zh": "摘要明确出现的方法包括：以mCB-Co和mCB-Ni为构建单元的多变量MOF合成；用于探测溶液中前驱体物种的高分辨电喷雾电离质谱（ESI-HRMS）；以及对所得材料半导体和磁性质的评估。摘要未报告具体合成温度、溶剂、金属投料比、结构表征手段和性能测试条件。",
+        "relevance_zh": "该工作直接关联框架材料组装与多变量MOF功能调控主线，其价值在于把金属排列而非仅组成作为独立调控维度，并通过溶液前驱体化学建立合成路径与框架金属组织之间的联系。对关注导电/半导体MOF及多金属框架功能设计的研究者有参考意义。摘要未涉及介孔结构或电化学合成，性能数值缺失，建议精读全文核查合成与表征细节。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级信息。具体合成条件、金属比例、结构表征、半导体与磁性能数值、前驱体物种结构及排列机制仍需全文核查。",
+        "key_findings_zh": [
+          "使用同构mCB-Co和mCB-Ni构建单元，获得两种组成几乎相同但一维Ni/Co排列方式不同的多变量MOF。",
+          "不同金属排列导致两种材料表现出不同的半导体和磁性质。",
+          "ESI-HRMS显示不同合成路径在溶液中形成不同前驱体物种，提示成核前化学影响最终金属排列。"
+        ]
+      },
+      {
+        "title": "Solar-Matched Colloidal Quantum Dots/Metal–Organic Framework Hybrid Materials for Photo-Induced Charge Transfer",
+        "abstract": "Abstract Lead sulfide colloidal quantum dots (PbS CQDs) are promising third-generation photovoltaic materials, and metal–organic frameworks (MOFs) are complementary materials that are used as multifunctional charge storage and redox platforms. Hybrid materials combining CQDs and MOFs are highly promising for applications utilizing solar-driven charge transfer, but their synthesis can be challenging due to the thermal instability of solar-matched infrared CQDs. Here, we demonstrate a room-temperature, \"bottle-around-ship\" synthesis of a nanocomposite that integrates near-infrared (NIR) absorbing PbS CQDs with an iron-based MOF, MIL-88B(Fe). We employ a syringe-pump-assisted addition of precursors to achieve controlled nucleation and crystallization of the MOF around the CQDs under ambient conditions. Structural characterization confirms the formation of crystalline composites composed of co-localized CQDs with the MOFs. Steady-state, time-resolved optical spectroscopy reveals photoluminescence quenching and shortening of the exciton lifetime in the composite compared to the CQDs alone. Transient absorption data suggest a photo-induced charge transfer from the PbS CQDs to the MIL-88B(Fe) framework on a picosecond timescale. This work establishes a room-temperature synthesis approach for integrating thermally sensitive solar-matched CQDs with functional MOFs and performs an initial spectroscopic study to evaluate the potential of these nanocomposites as advanced hybrid materials for photocatalysis and optoelectrochemical devices in the future.",
+        "authors": [
+          "Dhanvini Gudi",
+          "Kevin J. Bennett",
+          "Jill M. Cleveland",
+          "Luke R. O’Connor",
+          "Minghao Wang",
+          "Gregory Foley",
+          "James R. Wilkes",
+          "Kyle S. Barcus",
+          "Hoon Jeong Lee",
+          "Sujitra J. Pookpanratana",
+          "Jier Huang",
+          "Arthur E. Bragg",
+          "Susanna M. Thon",
+          "V. Sara Thoi"
+        ],
+        "institutions": [],
+        "published": "2026-11-17",
+        "journal": "ACS Applied Materials &amp; Interfaces",
+        "doi": "10.1021/acsami.6c13055",
+        "url": "https://doi.org/10.1021/acsami.6c13055",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 38,
+        "scores": {
+          "topic": 18,
+          "method": 2,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "ACS Applied Materials & Interfaces"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "colloidal",
+            "crystalline",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "太阳光谱匹配胶体量子点/金属有机框架杂化材料用于光诱导电荷转移",
+        "summary_zh": "该研究在室温下以瓶绕船策略将近红外吸收PbS胶体量子点与铁基MIL-88B(Fe)MOF复合，结构表征确认晶态复合物形成，光谱显示荧光猝灭、激子寿命缩短及皮秒级光诱导电荷转移。",
+        "research_details_zh": "研究问题是太阳光谱匹配的红外胶体量子点热稳定性差，难以与MOF直接复合，从而限制太阳能驱动电荷转移杂化材料的制备。材料体系为近红外吸收的PbS胶体量子点与铁基MOF MIL-88B(Fe)。设计策略是室温瓶绕船合成：用注射泵辅助加入前驱体，在环境条件下控制MOF在量子点周围的成核与结晶，避免热敏量子点受损。结构表征确认形成由共定位量子点和MOF组成的晶态复合材料。稳态与时间分辨光学光谱显示，与单独量子点相比复合材料发生光致发光猝灭和激子寿命缩短；瞬态吸收数据提示在皮秒时间尺度上发生从PbS量子点到MIL-88B(Fe)框架的光诱导电荷转移。该工作建立了热敏太阳光谱匹配量子点与功能MOF的室温集成方法，并初步评估其在光催化和光电化学器件中的潜力。",
+        "methods_zh": "摘要明确出现的方法包括：室温瓶绕船合成，采用注射泵辅助加入前驱体以控制MOF在量子点周围的成核与结晶；结构表征确认晶态复合物及量子点与MOF共定位；稳态和时间分辨光致发光光谱；瞬态吸收光谱用于探测电荷转移动力学。摘要未报告具体前驱体浓度、注射速率、表征仪器型号及电荷转移效率数值。",
+        "relevance_zh": "该工作关联框架材料组装与框架基杂化材料的光电功能主线，其实际价值在于提供室温、可控制成核的MOF围绕热敏量子点组装方法，并以时间分辨光谱给出皮秒级界面电荷转移证据。对MOF基光电器件和光电化学应用有参考意义。摘要未涉及介孔MOF、导电MOF或电化学合成，且仅为首光谱评估，建议精读全文核查复合结构稳定性与电荷转移机制细节。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级信息。具体合成参数、结构表征细节、光谱数据数值、电荷转移机制及器件性能仍需全文核查。",
+        "key_findings_zh": [
+          "在室温下通过瓶绕船策略成功将PbS胶体量子点与MIL-88B(Fe)复合，结构表征确认形成晶态复合物且量子点与MOF共定位。",
+          "与单独量子点相比，复合材料出现光致发光猝灭和激子寿命缩短。",
+          "瞬态吸收数据提示从PbS量子点到MIL-88B(Fe)框架的光诱导电荷转移发生在皮秒时间尺度。"
+        ]
+      },
+      {
+        "title": "Ultrarobust and Thermo‐Mechano‐Photo‐Responsive Elastomers by Supramolecular and Dynamic 3D Topological Architectures",
+        "abstract": "ABSTRACT Mechanically robust elastomers are being widely used in multi‐stimuli‐responsive systems including closed‐loop recycling, information encryption, and advanced photolithography. However, their advancement is hindered by an inherent trade‐off: structural integrity for mechanical robustness versus molecular‐level reversibility for stimuli responsiveness. In this study, we constructed ultrarobust recyclable and photo‐responsive supramolecular‐dynamic covalent networks (SDCN) based on molecular engineering of anthracene‐functionalized poly(urethane‐urea‐amide) (PUUA) networks with hindered urea motifs. Well‐designed SDCN achieves multiscale assembly through coordinated π–π stacking, hydrogen bonding, and dynamic covalent interactions, creating dynamic coupling between soft‐chain crosslinks and self‐assembly hard domains, and driving microphase separation. Under stretching, strain‐activated disassembly of dynamically assembled nanostructures synergizes with stress‐induced crystallization, in situ evolving three‐dimensional topological architectures and promoting strength‐toughness enhancement. Consequently, PUUA elastomers exhibit remarkable mechanical performance (100.17 MPa tensile strength, 1286.79% elongation and 498.15 MJ m −3 toughness at room temperature; 113.67 MPa strength and 667.8% elongation at −40°C) and recycling performance (92.4% recyclability via solvent reprocessing). Significantly, UV‐responsive anthracene photonic moieties combined with temperature‐mediated interfacial SDCN transition enable fluorescent encryption and sub‐micron photolithographic patterning. Therefore, this work coordinates dynamic thermal‐mechanical‐optical responses and multi‐scale molecular transition mechanisms, which can be expected to boost high‐precision photolithographic patterning and flexible microcircuit printing fields.",
+        "authors": [
+          "Sijia Li",
+          "Zimo Pang",
+          "Xinwei Chen",
+          "Yujie Chen",
+          "Liang Wu",
+          "Xinyuan Zhu",
+          "Huai Sun",
+          "Hezhou Liu"
+        ],
+        "institutions": [],
+        "published": "2026-11-17",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75763",
+        "url": "https://doi.org/10.1002/adma.75763",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 37,
+        "scores": {
+          "topic": 6,
+          "method": 6,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "supramolecular"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "基于超分子与动态三维拓扑架构的超强韧热-力-光响应弹性体",
+        "summary_zh": "该研究以蒽功能化聚氨酯-脲-酰胺和受阻脲基元构建超分子-动态共价网络，通过多尺度组装与应变诱导三维拓扑演化，实现高强度、高延展、高韧性、可回收及光响应图案化。",
+        "research_details_zh": "研究针对机械 Robust 性与刺激响应可逆性之间的固有矛盾，构建可回收、光响应的超分子-动态共价网络。材料体系为蒽功能化聚（氨酯-脲-酰胺）网络，含受阻脲基元。设计策略是利用π–π堆积、氢键和动态共价作用的协同多尺度组装，在软链交联与自组装硬域之间形成动态耦合并驱动微相分离。拉伸时，动态组装纳米结构的应变激活解组装与应力诱导结晶协同，原位演化三维拓扑架构，从而提升强度与韧性。所得PUUA弹性体在室温下拉伸强度100.17 MPa、断裂伸长率1286.79%、韧性498.15 MJ m−3；在−40°C下强度113.67 MPa、伸长率667.8%；经溶剂再加工回收率92.4%。紫外响应蒽光功能基元结合温度介导的界面超分子-动态共价网络转变，实现荧光加密和亚微米光刻图案化。该工作协调热-力-光响应与多尺度分子转变机制，面向高精度光刻图案化和柔性微电路印刷。",
+        "methods_zh": "摘要明确出现的方法包括：基于蒽功能化聚（氨酯-脲-酰胺）和受阻脲基元的分子工程设计；利用π–π堆积、氢键和动态共价作用的多尺度组装；拉伸力学性能测试（室温与−40°C）；溶剂再加工回收测试；紫外响应荧光加密与亚微米光刻图案化演示。摘要未报告具体合成步骤、表征仪器、微相分离表征手段及光刻分辨率数值。",
+        "relevance_zh": "该工作属于自组装技术与动态超分子网络方向，对框架材料主线的直接关联有限，但其多尺度组装、动态共价网络与刺激响应拓扑演化的思路可为框架/超分子材料的组装调控提供借鉴。摘要未涉及MOF、COF、HOF、介孔材料或电化学合成，且为弹性体体系，建议作为拓展阅读而非核心精读。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级信息。具体合成路线、结构表征、微相分离证据、光刻分辨率及回收机理仍需全文核查。",
+        "key_findings_zh": [
+          "室温下PUUA弹性体拉伸强度100.17 MPa、断裂伸长率1286.79%、韧性498.15 MJ m−3；−40°C下强度113.67 MPa、伸长率667.8%。",
+          "经溶剂再加工回收率达92.4%。",
+          "拉伸时动态组装纳米结构的应变激活解组装与应力诱导结晶协同，原位演化三维拓扑架构并提升强韧性。",
+          "紫外响应蒽基元与温度介导的界面超分子-动态共价网络转变实现荧光加密和亚微米光刻图案化。"
+        ]
+      },
+      {
+        "title": "Deferoxamine‐Engineered Mesoporous Silica Nanoparticles Unlock High‐Valence Metal Channels for Multiplexed Mass Cytometry",
+        "abstract": "ABSTRACT Mass cytometry (MC) enables highly multiplexed single‐cell protein analysis, but its full analytical potential remains constrained by the limited range of available mass tags. Here, we report deferoxamine‐engineered mesoporous silica nanoparticles (DFO‐MSNs) for high‐capacity loading of multiple underutilized high‐valent metal ions within a common nanoparticle scaffold. DFO‐MSNs accommodated Zr 4+ , Hf 4+ , Nb 5+ , and Ta 5+ at approximately 10 4 metal atoms per nanoparticle, with high metal retention in physiological buffers. Following PEGylation and antibody (Ab) conjugation, the resulting Zr‐, Nb‐, Hf‐, and Ta‐based probes enabled antigen‐specific detection of human peripheral blood mononuclear cells (PBMCs) by co‐staining with commercial Maxpar reagents. Nb‐, Hf‐, and Ta‐loaded MSN_CD8a probes resolved CD8a+ cytotoxic T lymphocytes at titers as low as 30 NPs/cell. In a 30‐plex staining panel, Ta@MSN_CD25 resolved low‐abundance CD25 hi CD127 lo T reg ‐like cells with apparent population recovery comparable to the corresponding Maxpar reagent, while consuming ca. 35‐fold less Ab. Together, these results establish a modular strategy for incorporating underutilized high‐valent metals into functional mass tags and demonstrate the feasibility of integrating MSN‐based probes into multiplexed MC immunophenotyping workflows.",
+        "authors": [
+          "Xiaochong Li",
+          "Tianjia Yang",
+          "Inês R. M. Santos",
+          "Daniel Majonis",
+          "Mitchell A. Winnik"
+        ],
+        "institutions": [],
+        "published": "2026-11-17",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.1099418",
+        "url": "https://doi.org/10.1002/anie.1099418",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 35,
+        "scores": {
+          "topic": 6,
+          "method": 4,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "mesoporous",
+            "nanoparticle",
+            "silica"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "去铁胺工程化介孔二氧化硅纳米颗粒解锁高价金属通道用于多重质谱流式细胞术",
+        "summary_zh": "该工作用去铁胺修饰介孔二氧化硅纳米颗粒，实现Zr4+、Hf4+、Nb5+、Ta5+的高容量负载，构建可偶联抗体的质谱流式探针，并在多重复染色中验证其抗原特异性检测与低抗体消耗优势。",
+        "research_details_zh": "研究针对质谱流式细胞术可用金属标签种类有限的问题，提出以去铁胺工程化介孔二氧化硅纳米颗粒（DFO-MSNs）作为通用纳米支架，负载此前较少使用的高价金属离子。摘要报告DFO-MSNs可容纳Zr4+、Hf4+、Nb5+和Ta5+，每个纳米颗粒约负载10^4个金属原子，并在生理缓冲液中保持较高金属保留率。经PEG化和抗体偶联后，Zr、Nb、Hf和Ta基探针可与商业Maxpar试剂共染，实现人外周血单个核细胞的抗原特异性检测。Nb、Hf和Ta负载的MSN_CD8a探针在低至30 NPs/cell滴度下仍能分辨CD8a+细胞毒性T淋巴细胞。在30重染色面板中，Ta@MSN_CD25可分辨低丰度CD25hiCD127lo Treg样细胞，群体回收率与对应Maxpar试剂相当，同时抗体消耗约降低35倍。该策略的意义在于将未充分利用的高价金属模块化引入功能化质谱标签，并展示MSN探针整合进多重质谱流式免疫表型工作流的可行性。",
+        "methods_zh": "摘要明确报告的方法包括：制备去铁胺工程化介孔二氧化硅纳米颗粒（DFO-MSNs）并负载Zr4+、Hf4+、Nb5+和Ta5+；在生理缓冲液中评估金属保留；对纳米颗粒进行PEG化并偶联抗体；将所得金属探针与商业Maxpar试剂共染人外周血单个核细胞进行质谱流式检测；以CD8a+细胞和CD25hiCD127lo Treg样细胞为对象评估抗原特异性分辨与群体回收，并比较抗体消耗。摘要未报告具体合成条件、表征手段和统计方法。",
+        "relevance_zh": "该文属于介孔二氧化硅纳米颗粒的功能化与生物分析应用，而非导电MOF、共轭框架或框架材料电化学合成主线。其可借鉴之处在于介孔纳米颗粒作为高容量金属负载支架、模块化表面PEG化与抗体偶联、以及多重检测中的低抗体消耗策略。对框架材料组装或电化学合成无直接机制贡献，若关注介孔材料表面工程与生物偶联可略读，否则全文精读优先级较低。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属摘要级信息。DFO-MSNs的具体合成条件、孔结构表征、金属负载化学状态、PEG化与抗体偶联效率、质谱流式门控策略、统计重复及长期稳定性等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "DFO-MSNs对Zr4+、Hf4+、Nb5+和Ta5+的负载量约为每个纳米颗粒10^4个金属原子，并在生理缓冲液中保持高金属保留。",
+          "Nb、Hf和Ta负载的MSN_CD8a探针可在低至30 NPs/cell滴度下分辨CD8a+细胞毒性T淋巴细胞。",
+          "在30重染色面板中，Ta@MSN_CD25分辨低丰度CD25hiCD127lo Treg样细胞的群体回收率与对应Maxpar试剂相当，且抗体消耗约降低35倍。"
+        ]
+      },
+      {
+        "title": "Mitochondria‐Inspired COF Nanochannels for Reversible Directional Ion Transport for Osmotic Power Generation",
+        "abstract": "ABSTRACT Directional ion transport in artificial nanochannels usually relies on fixed structural or chemical asymmetry, which restricts adaptive regulation. Inspired by proton transport in mitochondrial ATP synthase, we fabricate pH‐responsive PAN‐supported COF nanochannel membranes via liquid–liquid confined interfacial polymerization. Transmembrane pH polarization triggers asymmetric charge regulation and builds an internal electric field. The membranes show pH‐dependent ion transport, with conductance spanning 0.4–1005.5 µS and a forward/reverse power density ratio of 202. Under a 100‐fold NaCl gradient and pH 1/13 polarization, they deliver 20.2 W m − 2 . Experiments verify pH‐dependent COF charge regulation, while simulations indicate internal electric fields modulate ion migration together with diffusion. Salinity and pH gradients supply transport driving force; COF charge regulation dominates directional transport, and electrolyte properties, ion mobilities and electrochemical potentials tune current and output power. The observation of analogous directional transport across six chemically distinct membrane systems suggests the broader applicability of pH‐mediated transport regulation. These results provide insight into adaptive ion regulation and a strategy for energy conversion under combined salinity and pH gradients.",
+        "authors": [
+          "Wenxiu Jiang",
+          "Chenguang Zhu",
+          "Zihao Huang",
+          "Xinyue Zhang",
+          "Shuyu Ying",
+          "Meiling Wang",
+          "Xiaochen Feng",
+          "Yuxuan Ma",
+          "Jun Gao",
+          "Huanting Wang",
+          "Ying Zhu",
+          "Lei Jiang"
+        ],
+        "institutions": [],
+        "published": "2026-11-16",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.8471488",
+        "url": "https://doi.org/10.1002/anie.8471488",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "cof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "membrane"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": true,
+        "title_zh": "线粒体启发的COF纳米通道用于可逆定向离子传输及渗透能发电",
+        "summary_zh": "该工作以线粒体ATP合酶质子传输为灵感，通过液-液受限界面聚合制备pH响应PAN支撑COF纳米通道膜，利用跨膜pH极化诱导非对称电荷调控和内部电场，实现可逆定向离子传输与渗透能发电。",
+        "research_details_zh": "研究针对人工纳米通道定向离子传输通常依赖固定结构或化学不对称性、难以自适应调控的问题，借鉴线粒体ATP合酶中的质子传输过程，设计pH响应型COF纳米通道膜。材料体系为PAN支撑的COF纳米通道膜，制备方法为液-液受限界面聚合。跨膜pH极化触发COF电荷的非对称调控并建立内部电场，使膜表现出pH依赖的离子传输行为，电导跨越0.4至1005.5 µS，正向/反向功率密度比达到202。在100倍NaCl梯度和pH 1/13极化条件下，器件输出功率密度为20.2 W m−2。实验验证了pH依赖的COF电荷调控，模拟表明内部电场与扩散共同调制离子迁移。摘要指出盐度和pH梯度提供传输驱动力，COF电荷调控主导定向传输，电解质性质、离子迁移率和电化学势调节电流与输出功率；六种化学组成不同的膜体系均出现类似定向传输，提示pH介导传输调控具有较广适用性。",
+        "methods_zh": "摘要明确报告的方法包括：以液-液受限界面聚合制备PAN支撑的COF纳米通道膜；通过跨膜pH极化调控COF电荷并构建内部电场；测量pH依赖的离子电导和正/反向功率密度；在100倍NaCl梯度和pH 1/13条件下测试渗透能输出；结合实验验证pH依赖的COF电荷调控，并用模拟分析内部电场对离子迁移与扩散的调制；在六种化学组成不同的膜体系中比较定向传输行为。摘要未报告具体单体、表征仪器和模拟参数。",
+        "relevance_zh": "该文直接关联共轭COF膜与框架材料组装主线，核心价值在于用液-液受限界面聚合构建COF纳米通道膜，并以跨膜pH极化实现可逆、非对称电荷调控和定向离子传输。其pH响应电荷调控与内部电场机制对框架膜离子传输和能量转换研究有参考意义，20.2 W m−2输出和202的功率密度比提供了明确性能边界。若关注COF膜组装、离子通道和渗透能，值得全文精读；但摘要未涉及电化学合成，需全文核查制备细节与普适性证据。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属摘要级信息。COF单体与孔结构、膜厚度与缺陷控制、界面聚合条件、pH响应电荷调控的化学证据、电化学测试规范、模拟参数以及六种膜体系的具体组成等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "pH响应PAN支撑COF纳米通道膜的电导可在0.4至1005.5 µS之间调控，正向/反向功率密度比为202。",
+          "在100倍NaCl梯度和pH 1/13极化条件下，膜输出功率密度为20.2 W m−2。",
+          "实验验证pH依赖的COF电荷调控，模拟表明内部电场与扩散共同调制离子迁移；COF电荷调控主导定向传输。",
+          "六种化学组成不同的膜体系均观察到类似定向传输，提示pH介导调控具有较广适用性。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-16",
     "search_start": "2026-11-14",
     "generated_at": "2026-11-17T05:03:01Z",
@@ -44865,147 +45443,6 @@
         ],
         "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
         "relevance_zh": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-09",
-    "generated_at": "2026-08-10T02:39:11Z",
-    "papers": [
-      {
-        "title": "Interaction‐Driven Assembly Pathways in Heterogeneous Active Microrobotic Systems",
-        "abstract": "ABSTRACT Active microrobotic swarms are promising platforms for programmable matter, yet how competing interactions govern self‐organization in heterogeneous active systems remains unclear. Here, we investigate interaction‐controlled self‐assembly in heterogeneous populations of light‐powered α‐Fe 2 O 3 /Au microrobots with distinct morphologies, magnetic responses, and photocatalytic activities. We show that magnetic dipole–dipole interactions drive a reversible colloidal polymerization process in which individual microrobots behave as active monomers that assemble into dynamic chain‐like architectures. Quantitative analysis of pairwise trajectories enables direct extraction of magnetic dipole moments from active dynamics, in excellent agreement with independent magnetometry measurements, establishing a general strategy to probe interparticle interactions in active matter. Upon light activation, the emergence of phoretic interactions competes with magnetic attraction, destabilizing colloidal polymers and promoting a transition toward disordered clustered states. In heterogeneous populations, the imbalance between magnetic and phoretic interactions generates non‐random assembly pathways, where cubic microrobots preferentially act as nucleation centers that recruit peanut‐shaped microrobots into hybrid aggregates through a colloidal copolymerization mechanism. By tuning the relative strength of competing interactions, the assembly pathway can be selectively programmed, enabling controlled transitions between dispersed, polymeric, and clustered states. Beyond elucidating assembly rules of heterogeneous active matter, these mechanisms enable the efficient phoretic trapping of dispersed nano/microplastics.",
-        "authors": [
-          "Domenico Calabrò",
-          "Roshan Velluvakandy",
-          "Martin Pumera",
-          "Francesco Priolo",
-          "Salvo Mirabella",
-          "Mario Urso"
-        ],
-        "institutions": [],
-        "published": "2026-08-09",
-        "journal": "Advanced Functional Materials",
-        "doi": "10.1002/adfm.77539",
-        "url": "https://doi.org/10.1002/adfm.77539",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 30,
-        "scores": {
-          "topic": 6,
-          "method": 6,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "Advanced Functional Materials"
-        ],
-        "hits": {
-          "framework": [],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [
-            "nucleation",
-            "self assembly",
-            "self-assembly"
-          ],
-          "electrochemical": [],
-          "materials": [
-            "colloidal"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Interaction‐Driven Assembly Pathways in Heterogeneous Active Microrobotic Systems",
-        "summary_zh": "该文围绕组装与结晶过程展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及组装与结晶过程。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Metal‐Organic Framework‐Enabled Protection of Plasma DNA for Long‐Term Storage and Rare Mutation Detection",
-        "abstract": "ABSTRACT Plasma DNA analysis remains a pivotal noninvasive approach for cancer diagnosis; however, the low abundance and rapid degradation of circulating tumor DNA (ctDNA) present significant challenges for sample preservation and transport. Existing stabilization methods often fail to maintain DNA integrity at room temperature and may interfere with high‐sensitivity downstream assays. Here, we develop a ZIF‐67‐based metal‐organic framework (MOF) strategy that robustly protects ctDNA from ultraviolet irradiation, enzymatic cleavage, and oxidative stress. Both simulations and experimental results confirm that synergistic electrostatic interactions and π – π stacking effectively preserve more than 85% of DNA integrity after four weeks of storage at room temperature. Crucially, this platform is fully compatible with blocker displacement amplification (BDA), enabling reliable detection of rare mutations at variant allele frequencies (VAFs) as low as 0.37%. Validated with clinical colorectal cancer samples, our approach provides a scalable, material‐based solution that eliminates the need for cold‐chain logistics. This strategy not only guarantees diagnostic fidelity but also establishes a versatile framework to advance precision oncology across diverse clinical settings.",
-        "authors": [
-          "Qiangting Zheng",
-          "Yi Gu",
-          "Xinglei Su",
-          "Hongyu Shen",
-          "Fengyang Zhao",
-          "Yi Zhang",
-          "Wenli Wu",
-          "Fei Wang",
-          "Yunfang Zhang",
-          "Qiongzheng Hu",
-          "Ping Song"
-        ],
-        "institutions": [],
-        "published": "2026-08-09",
-        "journal": "Advanced Functional Materials",
-        "doi": "10.1002/adfm.202527407",
-        "url": "https://doi.org/10.1002/adfm.202527407",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 25,
-        "scores": {
-          "topic": 12,
-          "method": 0,
-          "quality": 8,
-          "novelty": 4,
-          "network": 0,
-          "applied": 0,
-          "archive": 1,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "Advanced Functional Materials"
-        ],
-        "hits": {
-          "framework": [
-            "metal organic framework",
-            "metal-organic framework",
-            "mof"
-          ],
-          "conductive": [],
-          "mesoporous": [],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "material"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Metal‐Organic Framework‐Enabled Protection of Plasma DNA for Long‐Term Storage and Rare Mutation Detection",
-        "summary_zh": "该文围绕晶态多孔框架材料展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及晶态多孔框架材料。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
         "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
       }
     ]
