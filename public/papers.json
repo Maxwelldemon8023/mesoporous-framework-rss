@@ -1,5 +1,309 @@
 [
   {
+    "title": "In Situ STEM Imaging of Colloidal Crystals Based on Programmable Atom Equivalents",
+    "abstract": "Abstract It is challenging to image the assembly of colloidal crystals composed of programmable atom equivalents (PAEs) using electron microscopy (EM). PAEs typically consist of nanoparticle cores densely functionalized with radially oriented DNA shells, which assemble in the liquid phase via DNA bonds. EM requires high-vacuum conditions, and electron beams can damage soft materials like nucleic acids. Here, we present a liquid-phase scanning transmission electron microscopy (LPSTEM) method for imaging PAEs composed of ∼5 nm gold nanoparticle cores in solution, enabling the direct investigation of their DNA-directed assembly processes. This system is particularly well-suited for in situ studies of soft-matter dynamics because the gold nanoparticle cores provide strong electron contrast. Using a nanofluidic liquid cell, the nucleation and growth of PAE assemblies, governed via the principles of colloidal crystal engineering with DNA, were directly observed. Imaging conditions were established to resolve colloidal assemblies in liquid while also characterizing electron-beam-induced damage under both conventional STEM and STEM-in-SEM conditions. Quantitative image analysis reveals changes in local coordination during crystal growth and subsequent beam-induced dissociation. Complementary ex situ simulations corroborate that radiolytic species generated in the buffer are major contributors to beam-induced damage. Together, these results establish a versatile and accessible platform for probing the in situ dynamics of PAE assembly in liquids, with broad applicability to the study of other soft nanomaterials and composites relevant to sensing, actuation, energy storage, catalysis, and medicine.",
+    "authors": [
+      "Arindam Raj",
+      "Ana Clara Zampirolli Leal",
+      "Nathan D. Rosenmann",
+      "Christopher Sharpe",
+      "Roberto dos Reis",
+      "Tirzah Abbott",
+      "George Winstone",
+      "Vinayak P. Dravid",
+      "Nathan C. Gianneschi",
+      "Chad A. Mirkin"
+    ],
+    "institutions": [],
+    "published": "2026-11-20",
+    "journal": "Journal of the American\nChemical Society",
+    "doi": "10.1021/jacs.6c16846",
+    "url": "https://doi.org/10.1021/jacs.6c16846",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 37,
+    "scores": {
+      "topic": 6,
+      "method": 6,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Journal of the American Chemical Society"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly",
+        "crystal growth",
+        "nucleation"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "colloidal",
+        "coordination",
+        "crystal",
+        "materials",
+        "nanomaterials",
+        "nanoparticle"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "late_arrival": false,
+    "title_zh": "基于可编程原子等价物的胶体晶体的原位STEM成像",
+    "summary_zh": "该研究建立液相扫描透射电子显微镜方法，在溶液中直接成像由约5 nm金纳米颗粒核与DNA壳构成的可编程原子等价物及其DNA导向组装过程，观察成核与生长，并表征电子束损伤及辐射分解物种的贡献。",
+    "research_details_zh": "研究针对可编程原子等价物（PAEs）组装形成的胶体晶体难以用电子显微镜成像的问题：PAEs由纳米颗粒核与径向取向的致密DNA壳构成，在液相中通过DNA键组装，而电镜需要高真空且电子束会损伤核酸等软物质。为此，作者提出液相扫描透射电子显微镜（LPSTEM）方法，对由约5 nm金纳米颗粒核、在溶液中组装的可编程原子等价物进行成像，从而直接研究其DNA导向组装过程。金纳米颗粒核提供强电子衬度，使该体系适合软物质动力学的原位研究。研究使用纳流体液相池，直接观察了依据DNA胶体晶体工程原理进行的PAE组装成核与生长过程；建立了在液相中分辨胶体组装体的成像条件，并表征了常规STEM与STEM-in-SEM条件下的电子束诱导损伤。定量图像分析揭示了晶体生长过程中局部配位的变化以及随后的束诱导解离；补充的非原位模拟表明，缓冲液中产生的辐射分解物种是束诱导损伤的主要贡献者。该工作建立了探测液相中PAE组装原位动力学的通用平台。",
+    "methods_zh": "摘要明确出现的方法包括：液相扫描透射电子显微镜（LPSTEM）；以约5 nm金纳米颗粒核与径向DNA壳构成的可编程原子等价物（PAEs）为研究对象；使用纳流体液相池进行原位成像；在常规STEM与STEM-in-SEM条件下表征电子束诱导损伤；定量图像分析局部配位变化；补充非原位模拟分析辐射分解物种对束诱导损伤的贡献。摘要未报告DNA序列设计、缓冲液组成、剂量率等具体实验参数。",
+    "relevance_zh": "该工作聚焦胶体晶体与DNA导向组装的原位液相电镜表征，属于自组装技术与软纳米材料表征方法学，对理解框架材料组装动力学与束敏材料表征具有借鉴意义，但与介孔导电MOF、共轭COF/HOF及电化学合成主线关联较弱。其原位液相STEM方法对研究溶液相组装过程有方法学价值，可作为拓展阅读；若关注框架材料电化学合成与孔结构，则不必全文精读。",
+    "evidence_note_zh": "本解读仅依据题目与摘要，属于摘要级解读。摘要未报告DNA序列设计、缓冲液组成、电子剂量率、成像分辨率、损伤阈值及模拟方法细节等关键信息，均需全文核查。",
+    "key_findings_zh": [
+      "利用纳流体液相池的LPSTEM方法，在溶液中直接观察到PAE组装体的成核与生长过程，并建立了可分辨液相胶体组装体的成像条件。",
+      "定量图像分析揭示晶体生长过程中局部配位发生变化，以及随后的电子束诱导解离。",
+      "补充的非原位模拟表明，缓冲液中产生的辐射分解物种是电子束诱导损伤的主要贡献者。",
+      "该平台被确立为探测液相中PAE组装原位动力学的通用且易获取的平台，并适用于其他软纳米材料与复合材料。"
+    ]
+  },
+  {
+    "title": "Radical Molecular-Junction Covalent Organic Framework for Asymmetric Iodide Conversion: 100,000 Cycles in Zn-Iodine Batteries",
+    "abstract": "Abstract Aqueous Zinc–iodine batteries are promising for large-scale energy storage owing to their eco-friendliness and safety. However, conventional two-electron cathode hosts suffer from poor cycling life due to polyiodide shuttling and sluggish one-step I–/I2 redox kinetics, which limits their practical usage. Herein, we designed a molecular-junction covalent organic framework (COF) denoted as TNCOF, integrating the tetrathiafulvalene (TTF) donor and the naphthalene diimide (NDI) acceptor. Typically, TTF forms a robust radical-cationic TTF•+ structure by anchoring to iodine electrostatically. TTF•+ and electron-withdrawing NDI within the T•+NCOF molecular junction provide a driving force through an intense local electrostatic potential for the asymmetric iodine conversion (AIC) pathway (I–/I3–/I2 vs. I2/I–), markedly boosting reaction kinetics and suppressing polyiodide shuttling. The optimized T•+NCOF cathode delivers a specific capacity of 228.7 mAh g–1 at 1 A g–1 and achieves an ultralong cycling stability exceeding 100,000 cycles, which is one of the highest records in this field. In situ measurements, Peak Force Tunneling atomic force microscopy (AFM) results, and calculations confirm the robust adsorption capability of T•+NCOF and demonstrate the accelerated I3– conversion kinetics. This work establishes that a radical-cationic molecular-junction COF enables robust I3– anchoring and a unique AIC pathway, offering a novel strategy to overcome inherent stability challenges in Zinc-halogen batteries.",
+    "authors": [
+      "Liqi Bai",
+      "Ke Fan",
+      "Si-Miao Wang",
+      "Long-Zhang Dong",
+      "Hai-Ting Li",
+      "Chao Chen",
+      "Han Zhang",
+      "Yuan Xu",
+      "Yu-Ye Ou",
+      "Songge Zhang",
+      "Meng Lu",
+      "Mi Zhang",
+      "Shun-Li Li",
+      "Ya-Qian Lan"
+    ],
+    "institutions": [],
+    "published": "2026-11-20",
+    "journal": "Journal of the American\nChemical Society",
+    "doi": "10.1021/jacs.6c20563",
+    "url": "https://doi.org/10.1021/jacs.6c20563",
+    "sources": [
+      "Crossref",
+      "Crossref journal watch"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 32,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 15,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Journal of the American Chemical Society"
+    ],
+    "hits": {
+      "framework": [
+        "cof",
+        "covalent organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+    "selection_tier": "高质量框架推荐",
+    "late_arrival": false,
+    "title_zh": "自由基分子结共价有机框架用于不对称碘转化：锌碘电池10万次循环",
+    "summary_zh": "该工作设计TTF给体与NDI受体集成的分子结COF（TNCOF），经自由基阳离子化形成T•+NCOF，实现不对称碘转化路径，1 A g⁻¹下比容量228.7 mAh g⁻¹，循环超过10万次。",
+    "research_details_zh": "研究针对水系锌碘电池中传统双电子正极宿主因多碘化物穿梭和一步I–/I2氧化还原动力学迟缓导致循环寿命差的问题，设计了一种分子结共价有机框架TNCOF，将四硫富瓦烯（TTF）给体与萘二酰亚胺（NDI）受体集成于框架中。TTF通过静电锚定碘形成稳固的自由基阳离子TTF•+结构；在T•+NCOF分子结中，TTF•+与吸电子的NDI通过强烈局部静电势提供驱动力，引导不对称碘转化（AIC）路径（I–/I3–/I2 对 I2/I–），显著提升反应动力学并抑制多碘化物穿梭。优化后的T•+NCOF正极在1 A g–1下给出228.7 mAh g–1比容量，并实现超过100,000次循环的超长循环稳定性。原位测量、Peak Force隧穿原子力显微镜结果与计算共同确认T•+NCOF的强吸附能力并证明I3–转化动力学加速。该工作确立自由基阳离子分子结COF可实现稳固I3–锚定与独特AIC路径，为克服锌卤电池固有稳定性挑战提供新策略。",
+    "methods_zh": "设计并合成TTF给体与NDI受体集成的分子结COF（TNCOF），经自由基阳离子化得到T•+NCOF；将其用作水系锌碘电池正极并测试比容量与循环稳定性；采用原位测量与Peak Force隧穿原子力显微镜表征吸附与转化行为；结合理论计算分析局部静电势、吸附能力与I3–转化动力学。",
+    "relevance_zh": "该文属于共轭COF框架材料在电化学能源存储中的应用，涉及给体–受体分子结设计、自由基阳离子框架、碘转化机理与超长循环性能，对共轭框架材料组装及电化学应用主线具有较高参考价值。其聚焦电池正极而非介孔导电MOF或自组装技术，但分子结与自由基化学策略对框架材料设计有启发；摘要给出明确容量与循环数据，值得全文精读以核查机理表征细节。",
+    "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读；COF的孔结构、导电性、比表面积、具体合成条件、自由基阳离子化方法、原位表征细节及计算参数等关键信息仍需全文核查，摘要未报告相应数据。",
+    "key_findings_zh": [
+      "优化T•+NCOF正极在1 A g–1下比容量为228.7 mAh g–1。",
+      "实现超过100,000次循环的超长循环稳定性，为该领域最高记录之一。",
+      "原位测量、Peak Force隧穿AFM与计算确认T•+NCOF强吸附能力并证明I3–转化动力学加速。",
+      "TTF•+与NDI分子结通过强烈局部静电势驱动不对称碘转化路径，抑制多碘化物穿梭。"
+    ]
+  },
+  {
+    "title": "Strong and Thermally Conductive Graphene‐Bamboo Nanocomposites by Topological Fiber‐Network Engineering Towards Intelligent Energy‐Efficient Floors",
+    "abstract": "ABSTRACT Smart floor‐heating systems that integrate occupancy sensing with localized thermal regulation offer a promising route toward low‐carbon buildings, yet existing flooring materials cannot simultaneously provide robust mechanical properties and rapid heat delivery. Here, a topological fiber‐network engineering and thermorheology‐assisted assembly strategy is reported that enables continuous thermal‐transport and load‐bearing networks to coexist within a single material. Long bamboo fibers form a topologically entangled framework that simultaneously serves as a mechanically robust scaffold and a three‐dimensional template for graphene nanoplatelet assembly, while thermorheological phenol‐formaldehyde (PF) resin facilitates their rearrangement into ordered face‐to‐face configurations under low pressure. The resulting graphene–bamboo composites (GBC) exhibit metal‐level thermal conductivities of 12.8–116.7 W m − 1 K − 1 together with outstanding flexural strengths of 75–155 MPa, outperforming conventional flooring materials. When integrated into a pressure‐sensing smart floor‐heating system, the composites enable rapid thermal homogenization and occupant‐responsive localized heating. Whole‐building simulations indicate that nationwide adoption of the composite in pressure‐sensing smart floor‐heating systems in China could reduce annual heating‐electricity consumption by up to ∼208 TWh, corresponding to a ∼37% reduction compared with conventional wood flooring. This work establishes the integration of topological fiber‐network engineering with thermorheology‐assisted assembly as a general strategy for overcoming the thermal–mechanical trade‐off in structural biomass composites and advancing energy‐efficient building materials.",
+    "authors": [
+      "Xincheng Yao",
+      "Xilin Zhang",
+      "Wenlong Luo",
+      "Zheng Liu",
+      "Yujia Wang",
+      "Yuru Zhu",
+      "Guang Wang",
+      "Jiahao Wu",
+      "Jingchao Li",
+      "Jiabing Feng",
+      "Min Hong",
+      "Ashok Kumar Nanjundan",
+      "Qiang Gao",
+      "Pingan Song"
+    ],
+    "institutions": [],
+    "published": "2026-11-19",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.75777",
+    "url": "https://doi.org/10.1002/adma.75777",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 42,
+    "scores": {
+      "topic": 12,
+      "method": 2,
+      "quality": 15,
+      "novelty": 8,
+      "network": 0,
+      "applied": 2,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [
+        "conductive"
+      ],
+      "mesoporous": [],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "carbon",
+        "material",
+        "materials"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "late_arrival": true,
+    "title_zh": "通过拓扑纤维网络工程制备强韧且导热的石墨烯-竹纳米复合材料用于智能节能地板",
+    "summary_zh": "该研究提出拓扑纤维网络工程与热流变辅助组装策略，使连续导热网络与承载网络在单一材料中共存。竹纤维构成拓扑缠结骨架并作为石墨烯纳米片组装的三维模板，所得复合材料兼具高导热与高抗弯强度，并用于压力传感智能地板供暖系统。",
+    "research_details_zh": "研究针对现有地板材料难以同时兼顾力学性能与快速热传输的问题，提出拓扑纤维网络工程与热流变辅助组装相结合的策略。材料体系为长竹纤维与石墨烯纳米片，并以热流变性酚醛树脂（PF）作为辅助组分。长竹纤维形成拓扑缠结框架，既作为力学增强骨架，又作为石墨烯纳米片组装的三维模板；热流变性PF树脂在低压下促进石墨烯纳米片重排为有序的面-面构型。所得石墨烯-竹复合材料（GBC）实现了连续热传输网络与承载网络的共存。研究进一步将该复合材料集成到压力传感智能地板供暖系统中，考察快速热均匀化与 occupant-responsive 局部加热行为，并通过整栋建筑模拟评估全国推广的节能潜力。该工作将拓扑纤维网络工程与热流变辅助组装确立为克服结构生物质复合材料热-力学权衡的通用策略。",
+    "methods_zh": "摘要明确出现的方法包括：拓扑纤维网络工程与热流变辅助组装策略；以长竹纤维为骨架和三维模板、石墨烯纳米片为导热填料、热流变性酚醛树脂（PF）在低压下辅助重排组装；制备石墨烯-竹复合材料（GBC）；测试导热系数与抗弯强度；将复合材料集成到压力传感智能地板供暖系统并考察热均匀化与局部加热；开展整栋建筑模拟评估全国推广的节能效果。摘要未报告具体表征手段、合成温度、压力数值及模拟参数等细节。",
+    "relevance_zh": "该工作虽非介孔导电MOF或共轭框架材料，但其拓扑纤维网络工程与热流变辅助组装策略对框架材料的组装与复合结构设计具有方法学参考价值，尤其是将骨架同时用作模板与承载网络、通过基体流变行为调控填料有序组装的思路。与介孔导电MOF、COF/HOF及电化学合成主线关联较弱，属于拓展性组装与复合材料文献。若关注自组装技术与多级网络构筑可略读，若聚焦框架材料电化学则不必全文精读。",
+    "evidence_note_zh": "本解读仅依据题目与摘要，属于摘要级解读。摘要未报告具体表征手段、合成温度与压力、PF树脂含量、石墨烯负载量、导热与力学测试标准、传感地板系统结构及建筑模拟参数等关键细节，均需全文核查。",
+    "key_findings_zh": [
+      "GBC的导热系数为12.8–116.7 W m−1 K−1，达到金属级水平，同时抗弯强度为75–155 MPa，优于传统地板材料。",
+      "长竹纤维的拓扑缠结框架同时充当力学骨架和石墨烯纳米片组装的三维模板，热流变性PF树脂在低压下促进石墨烯纳米片重排为有序面-面构型。",
+      "集成到压力传感智能地板供暖系统后，复合材料可实现快速热均匀化和 occupant-responsive 局部加热。",
+      "整栋建筑模拟表明，若在中国全国范围采用该复合材料于压力传感智能地板供暖系统，年供暖用电量最多可减少约208 TWh，相较传统木地板约降低37%。"
+    ]
+  },
+  {
+    "title": "Bioinspired Molecular‐Scale Tape Interface Towards Ultrahigh‐Pixel‐Density Flexible Quantum Dot Light‐Emitting Devices",
+    "abstract": "ABSTRACT Flexible, high‐density integrated optoelectronics underpin emerging wearable information systems and human–machine interfaces. However, as pixel size decreases to a few micrometers, emission uniformity and performance of flexible light emitting diodes (LED) degrade severely due to microscale electrical and optical nonuniformity of electrodes especially after bending, hindering their potential applications. Inspired by fish scales, we propose a molecular‐scale tape interface as a transparent electrode for ultrahigh‐pixel‐density flexible LEDs. An atomically thin MXene layer, assembled via liquid–air interfacial assembly, conformally adheres to indium tin oxide through reversible hydrogen bonding and van der Waals coupling, enabling stress redistribution, crack bridging, and potential homogenization. This electrode enables flexible quantum‐dot LEDs with uniform micro‐area current and emission up to 25 400 ppi and a record external quantum efficiency (EQE) of 23.4%, maintaining performance after 3000 bending cycles. This biomimetic transparent‐electrode interfacial strategy unites mechanical flexibility with ultrahigh pixel density, advancing high‐density integrated optoelectronic architectures.",
+    "authors": [
+      "Runzhen Sun",
+      "Zhen Wang",
+      "Xuan Guo",
+      "Xin Hu",
+      "Yi Jiang",
+      "Hongyang Fu",
+      "Jie Zhang",
+      "Keyu Ma",
+      "Yangbin Zhu",
+      "Yang Li",
+      "Yue Wang",
+      "Deli Li",
+      "Liangxu Lin",
+      "Yi Zhao",
+      "Yang Liu",
+      "Fushan Li",
+      "Wei Huang"
+    ],
+    "institutions": [],
+    "published": "2026-11-19",
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.75803",
+    "url": "https://doi.org/10.1002/adma.75803",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 35,
+    "scores": {
+      "topic": 6,
+      "method": 4,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Advanced Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly",
+        "interfacial assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "oxide"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "拓展推荐",
+    "late_arrival": true,
+    "title_zh": "仿生分子尺度胶带界面用于超高像素密度柔性量子点发光器件",
+    "summary_zh": "该研究受鱼鳞启发提出分子尺度胶带界面作为透明电极，通过液-气界面组装使原子级薄MXene层经可逆氢键与范德华耦合共形粘附于氧化铟锡，实现应力重分布与裂纹桥接，使柔性量子点LED达到25400 ppi及23.4%的外量子效率。",
+    "research_details_zh": "研究针对柔性高密度集成光电子器件中像素尺寸缩小至数微米时，电极的微尺度电学与光学不均匀性（尤其弯折后）导致发光均匀性和性能严重退化的问题。作者受鱼鳞启发，提出一种分子尺度胶带界面作为透明电极。材料体系为原子级薄MXene层与氧化铟锡（ITO）：MXene层通过液-气界面组装形成，并借助可逆氢键与范德华耦合共形粘附于ITO上，从而实现应力重分布、裂纹桥接以及潜在的性能均匀化。该电极被用于柔性量子点发光二极管（QLED），实现了均匀的微区电流与发光，像素密度高达25400 ppi，外量子效率（EQE）达到23.4%的纪录值，并在3000次弯折循环后保持性能。该仿生透明电极界面策略将机械柔性与超高像素密度相结合，推动了高密度集成光电子架构的发展。",
+    "methods_zh": "摘要明确出现的方法包括：液-气界面组装制备原子级薄MXene层；通过可逆氢键与范德华耦合使MXene共形粘附于ITO形成透明电极；构建柔性量子点发光二极管（QLED）；评估微区电流与发光均匀性、像素密度（25400 ppi）、外量子效率（23.4%）以及3000次弯折循环后的性能保持。摘要未报告MXene具体组成、界面组装条件、器件层结构与测试标准等细节。",
+    "relevance_zh": "该工作以液-气界面组装构建MXene透明电极界面，属于自组装技术与界面工程在光电器件中的应用，对框架材料薄膜组装与界面粘附设计有方法学参考价值，但与介孔导电MOF、共轭COF/HOF及电化学合成主线关联较弱。其界面组装与应力管理思路可拓展至柔性框架材料器件，但若聚焦框架材料孔结构与电化学，则不必全文精读。",
+    "evidence_note_zh": "本解读仅依据题目与摘要，属于摘要级解读。摘要未报告MXene具体组成与厚度、液-气界面组装条件、界面结合的表征证据、QLED器件层结构与测试标准等关键细节，均需全文核查。",
+    "key_findings_zh": [
+      "原子级薄MXene层通过液-气界面组装并经可逆氢键与范德华耦合共形粘附于ITO，形成分子尺度胶带界面，实现应力重分布、裂纹桥接和潜在均匀化。",
+      "基于该电极的柔性量子点LED实现均匀微区电流与发光，像素密度高达25400 ppi，外量子效率达23.4%的纪录值。",
+      "器件在3000次弯折循环后仍保持性能。"
+    ]
+  },
+  {
     "title": "Supramolecular Assembly Amplifies the Optoelectronic Performance of Terpyridine-Based Transition Metallomesogens",
     "abstract": "Abstract By introducing a supramolecular strategy centered on a novel dendritic ruthenium(II) metallomesogen (Ru-M) functionalized with terpyridine ligands, it is demonstrated that guiding molecular-level hierarchical organization amplifies the electrochromic (EC) performance. Comprehensive structural analyses confirm that Ru-M spontaneously self-assembles into a well-defined and uniaxially oriented lamellar nanostructure. This molecular-level ordering creates highly efficient charge transport pathways, leading to substantially enhanced electrochromic performance compared with the disordered nonmesogenic chromogen (Ru-2Tpy). The organized assembly exhibits remarkable coloration efficiency, a low operating voltage, and superior cycling stability, achieving high optoelectronic efficiency even at a 7-fold lower ruthenium loading per unit area. This strategy of directed supramolecular organization highlights the critical role of nanostructural engineering in overcoming performance trade-offs in electrochromic systems, establishing that tailored supramolecular architectures provide a robust platform for maximizing optoelectronic functionality.",
     "authors": [
@@ -436,6 +740,82 @@
       "缺陷介导的介孔化使原子级分散Ce物种稳定引入Cu-SSZ-13，形成Cu-Ce相邻结构。",
       "原位光谱、同位素标记与多尺度模拟表明缺陷网络增强NOx和NH3扩散，缺陷边缘Ce物种促进氧活化并加速Cu-NO2中间体形成。",
       "所得催化剂在147至560°C之间实现≥90%的NOx转化率，Cu2+/Cu+循环温度窗口显著拓宽。"
+    ]
+  },
+  {
+    "title": "Mixed-Valent Ce/Mn–H2BPDC MOF@g-C3N4 Z-Scheme Photocatalyst for Visible-Light Ciprofloxacin Degradation: Experimental and DFT Mechanistic Studies",
+    "abstract": "This work reports the rational design of a novel mixed-valent Ce–Mn–H2BPDC metal–organic framework (MOF) integrated with graphitic carbon nitride (GCN) to construct a visible-light-responsive direct Z-scheme heterojunction for efficient photocatalytic degradation of ciprofloxacin (CIP). The Ce–Mn–H2BPDC@GCN composite was synthesized through a facile solvothermal-assisted self-assembly strategy and comprehensively characterized, which was supported by density functional theory (DFT) calculations. Structural and spectroscopic analyses confirmed the successful formation of a mixed-valent Ce3+/Ce4+ and Mn2+/Mn3+/Mn4+ bimetallic framework intimately coupled with GCN nanosheets, providing abundant interfacial contact and enhanced visible-light absorption. Under visible-light irradiation, Ce–Mn–H2BPDC achieved 82% CIP degradation within 120 min, with a pseudo-first-order rate constant of 0.00543 min–1 (R2 = 0.9937). In contrast, Ce–Mn–H2BPDC@GCN showed enhanced activity, achieving 91% degradation with a higher rate constant of 0.00614 min–1 (R2 = 0.9831). Moreover, Ce–Mn–H2BPDC@GCN maintained most of its photocatalytic activity over five consecutive cycles, demonstrating good recyclability and stability. The radical trapping experiments proved •O2– to be the dominant reactive species, followed by •OH and h+, and the mechanism was supported by direct Z-scheme charge transfer. The HOMO–LUMO, molecular electrostatic potential, density of states, and Fukui function analyses, computed RMSD of electron and hole, Δr intex, H index, and t index singlet and triplet states from DFT calculations, displayed the preferred reactive sites of CIP and provided molecular-level insight into the degradation pathway. The synergistic effects of mixed-valence metal centers, efficient interfacial charge separation, broadened visible-light harvesting, and reactive oxygen species (ROS) generation collectively account for the outstanding photocatalytic activity. This work presents an effective strategy for designing advanced MOF-based heterojunction photocatalysts for sustainable antibiotic wastewater remediation.",
+    "authors": [
+      "Pavadai Nethaji",
+      "Revathi Palanisamy",
+      "Natruja Towiratkit",
+      "Rajaji Pavadai",
+      "Hideki Kato",
+      "Pornapa Sujaridworakun"
+    ],
+    "institutions": [
+      "Chulalongkorn University",
+      "Chulalongkorn University",
+      "Chulalongkorn University",
+      "Tohoku University",
+      "Chulalongkorn University"
+    ],
+    "published": "2026-11-18",
+    "journal": "ACS Omega",
+    "doi": "10.1021/acsomega.6c09574",
+    "openalex_id": "https://openalex.org/W7236458715",
+    "url": "https://doi.org/10.1021/acsomega.6c09574",
+    "sources": [
+      "OpenAlex"
+    ],
+    "score": 34,
+    "scores": {
+      "topic": 18,
+      "method": 6,
+      "quality": 0,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "standard",
+    "quality_hits": [],
+    "hits": {
+      "framework": [
+        "metal organic framework",
+        "metal-organic framework",
+        "mof"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly",
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "carbon"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+    "selection_tier": "核心推荐",
+    "late_arrival": true,
+    "title_zh": "混合价态Ce/Mn–H2BPDC MOF@g-C3N4 Z型光催化剂用于可见光降解环丙沙星：实验与DFT机理研究",
+    "summary_zh": "该工作将混合价态Ce–Mn–H2BPDC MOF与石墨相氮化碳自组装为直接Z型异质结，可见光下120分钟降解91%环丙沙星，速率常数0.00614 min⁻¹，并保持五轮循环活性。",
+    "research_details_zh": "研究针对抗生素废水治理，设计混合价态双金属Ce–Mn–H2BPDC MOF与石墨相氮化碳（GCN）复合的可见光直接Z型异质结光催化剂。通过简便的溶剂热辅助自组装策略合成Ce–Mn–H2BPDC@GCN复合材料，并进行综合表征，辅以密度泛函理论计算。结构与光谱分析确认形成了Ce3+/Ce4+与Mn2+/Mn3+/Mn4+混合价态双金属框架，并与GCN纳米片紧密耦合，提供丰富界面接触和增强的可见光吸收。在可见光照射下评价环丙沙星降解性能，并通过自由基捕获实验识别活性物种；结合DFT计算HOMO–LUMO、分子静电势、态密度、Fukui函数以及电子与空穴的RMSD、Δr指数、H指数和单三重态t指数，分析环丙沙星优选反应位点并给出降解路径的分子层面见解。该工作为设计先进MOF基异质结光催化剂用于可持续抗生素废水修复提供了策略。",
+    "methods_zh": "采用简便的溶剂热辅助自组装策略合成Ce–Mn–H2BPDC@GCN复合材料；通过结构与光谱分析确认混合价态双金属框架与GCN纳米片的紧密耦合；在可见光照射下进行环丙沙星降解性能测试并拟合准一级动力学；通过自由基捕获实验识别活性物种；结合DFT计算HOMO–LUMO、分子静电势、态密度、Fukui函数及电子/空穴RMSD、Δr、H指数和单三重态t指数等分析反应位点与降解路径。",
+    "relevance_zh": "该文属于MOF基框架材料与自组装复合光催化方向，涉及混合价态双金属MOF、MOF@g-C3N4异质结及Z型电荷转移机制，对框架材料组装与电化学/光化学能源环境应用主线有参考价值。但其侧重光催化降解而非介孔导电MOF或电化学合成，与核心关注点部分契合；摘要已给出明确降解数据与机理证据，值得全文精读以核查界面表征与DFT细节。",
+    "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读；MOF的孔结构、导电性、比表面积、具体合成条件、表征图谱细节、DFT计算参数及降解产物鉴定等关键信息仍需全文核查，摘要未报告相应数据。",
+    "key_findings_zh": [
+      "Ce–Mn–H2BPDC在可见光下120分钟降解82%环丙沙星，准一级速率常数0.00543 min⁻¹（R2=0.9937）；与GCN复合后降解率提升至91%，速率常数0.00614 min⁻¹（R2=0.9831）。",
+      "Ce–Mn–H2BPDC@GCN在连续五次循环中保持大部分光催化活性，显示良好的可回收性与稳定性。",
+      "自由基捕获实验证明•O2–为主要活性物种，其次为•OH和h+，机理由直接Z型电荷转移支持。",
+      "DFT计算给出环丙沙星优选反应位点及降解路径的分子层面信息；混合价态金属中心、界面电荷分离、可见光吸收拓宽与ROS生成的协同效应共同解释优异活性。"
     ]
   },
   {
@@ -36487,408 +36867,6 @@
     "evidence_note_zh": "这是摘要级解读，该论文摘要为空，所有实验条件、表征结果、性能数据和结论均需全文核查，当前信息完全缺失。",
     "key_findings_zh": [
       "摘要未报告相应数据"
-    ]
-  },
-  {
-    "title": "Bowl-shaped Janus mesoporous silica nanomotors: active drug delivery and oxygen modulation for boosting bacterial keratitis treatment",
-    "abstract": "Abstract Bacterial keratitis is a primary cause of corneal blindness, with its clinical treatment hampered by inadequate drug penetration into the deep corneal stroma and the growing emergence of antibiotic resistance. Corneal collagen cross-linking (CXL), a promising non-antibiotic strategy relying on riboflavin (RF) photosensitization and UV-induced stromal stiffening, is limited by poor bioavailability and diminished efficacy in infection-induced hypoxic microenvironments. Herein, we fabricate a self-propelled nanomotor system based on bowl-shaped Janus mesoporous SiO2 nanoparticles via ZIF-8-templated in situ masking, for active ocular drug delivery and spatiotemporal oxygen modulation. The nanomotors possess an open hemispherical architecture with abundant mesopores for efficient RF loading; catalase (CAT) is asymmetrically anchored on their outer surface via regioselective functionalization, forming a Janus structure that enables spatially controlled catalysis and directional propulsion. In antibiotic-resistant lesions, CAT catalyzes endogenous H2O2 to generate O2, driving autonomous nanomotor motion while alleviating hypoxia. This propulsion boosts trans-corneal penetration and stromal drug delivery, and sustained RF release combined with localized oxygenation restores CXL efficacy under hypoxia. This work thus presents a microenvironment-responsive nanoplatform with well-defined structure that integrates active drug delivery and oxygen modulation, overcoming key therapeutic barriers in bacterial keratitis and holding great translational potential for precision ocular nanomedicine.",
-    "authors": [
-      "Minchao Liu",
-      "Huifang Ren",
-      "Yating Zhan",
-      "Dewei Li",
-      "Jia Jia",
-      "Yufang Kou",
-      "Hongyue Yu",
-      "Tiancong Zhao",
-      "Qingjun Zhou",
-      "Hengrui Zhang",
-      "Xiaomin Li",
-      "Lixin Xie"
-    ],
-    "institutions": [],
-    "published": "2026-09-08",
-    "journal": "National Science Review",
-    "doi": "10.1093/nsr/nwag578",
-    "url": "https://doi.org/10.1093/nsr/nwag578",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 40,
-    "scores": {
-      "topic": 6,
-      "method": 4,
-      "quality": 15,
-      "novelty": 6,
-      "network": 5,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "National Science Review"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [
-        "mesoporous"
-      ],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": [
-        "mesoporous",
-        "silica"
-      ]
-    },
-    "network_hits": [
-      "Xiaomin Li"
-    ],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中介孔化、关注作者/机构，建议优先检查其合成路径与孔结构证据。",
-    "selection_tier": "拓展推荐",
-    "title_zh": "碗状Janus介孔二氧化硅纳米马达：主动药物递送和氧调控用于增强细菌性角膜炎治疗",
-    "summary_zh": "该研究制备了基于碗状Janus介孔SiO2的自驱动纳米马达，通过ZIF-8模板原位掩蔽法构建，负载核黄素并不对称锚定过氧化氢酶，实现主动跨角膜递送和局部产氧，在缺氧微环境下恢复角膜交联疗效，克服细菌性角膜炎治疗屏障。",
-    "research_details_zh": "研究针对细菌性角膜炎治疗中药物穿透角膜基质深层困难及抗生素耐药两大临床瓶颈。材料体系为碗状Janus介孔SiO2纳米颗粒，设计策略是结合介孔结构的高载药能力与Janus不对称催化的自驱动特性。制备过程采用ZIF-8模板原位掩蔽法获得开放半球形介孔结构，通过区域选择性功能化在颗粒外表面不对称锚定过氧化氢酶，形成Janus结构。该纳米马达在耐药菌感染病灶中催化内源性H2O2产生O2，既驱动自主运动促进跨角膜穿透和基质药物递送，又缓解缺氧环境。核黄素的持续释放与局部供氧协同恢复角膜交联在缺氧条件下的疗效。该工作展示了微环境响应型纳米平台整合主动递送与氧调控的策略，为精准眼科纳米医学提供了具有转化潜力的平台设计。",
-    "methods_zh": "合成方法包括ZIF-8模板原位掩蔽法制备碗状Janus介孔SiO2纳米颗粒，区域选择性功能化实现过氧化氢酶不对称锚定。表征涉及介孔结构确认和Janus形貌验证。性能测试包括药物负载与释放行为、催化产氧能力、自主运动特性、跨角膜穿透效率以及细菌性角膜炎治疗效果的评估。",
-    "relevance_zh": "该论文属于介孔材料与自组装技术的交叉应用，展示了介孔结构在药物递送中的功能化设计，与介孔材料研究方向高度相关。其Janus结构构筑和微环境响应策略对框架材料的组装设计具有借鉴意义，值得全文精读以获取详细的制备参数和性能数据。",
-    "evidence_note_zh": "这是摘要级解读，摘要明确报告了材料结构、功能机制和主要结论，但具体数值如载药量、运动速度、穿透效率提升倍数、产氧速率及体内外治疗效果数据均未报告，需全文核查。",
-    "key_findings_zh": [
-      "纳米马达具有开放半球形结构且富含介孔，可实现核黄素的高效负载",
-      "过氧化氢酶不对称锚定形成Janus结构，实现空间可控催化和定向推进",
-      "催化内源性H2O2产生O2驱动自主运动并缓解缺氧，增强跨角膜穿透和基质药物递送",
-      "持续核黄素释放结合局部供氧可恢复缺氧条件下的角膜交联疗效"
-    ]
-  },
-  {
-    "title": "Subcomponent Self‐Assembly of Anion‐Coordinated Quadruple Helicates With Light‐Induced Guest Release",
-    "abstract": "ABSTRACT Developing new self‐assembly strategies is important not only for constructing otherwise inaccessible materials, but also for understanding the principles that govern how molecules organize. Herein, we report the use of subcomponent self‐assembly for the construction of anion‐coordinated quadruple helicates with high to quantitative yields. These quadruple helicates were assembled in situ from simple subcomponents through the simultaneous formation of dynamic acylhydrazone bonds and hydrogen bonds. Among them, the A 2 L 4 quadruple helicate featuring linkers of 4,4′‐methylenebis(phenyl) ( H 1 ) demonstrated the ability to encapsulate a range of cationic guests, such as TBA + and TPA + . At the same time, the templating effect of the guests was able to drive the selective formation of H 1 ⊃TBA from a dynamic combinatorial library. Notably, the incorporated acylhydrazone units function as a photoresponsive motif, enabling light‐induced release of encapsulated guests. By demonstrating subcomponent self‐assembly for constructing photoresponsive anion‐coordinated architectures, this work provides a robust strategy that paves the way for metal‐free, high‐nuclearity hydrogen‐bonded assemblies and their advanced applications in smart materials for targeted molecular delivery and release.",
-    "authors": [
-      "Leilei Xu",
-      "Wenhua Xiong",
-      "Lixia Chang",
-      "Mingli Lian",
-      "Ruying Lv",
-      "Jiawei Liu",
-      "Le Yu",
-      "Zhenyi Zhang",
-      "Jake L. Greenfield",
-      "Dong Yang",
-      "Jie Zhao"
-    ],
-    "institutions": [
-      "Ministry of Education of the People's Republic of China",
-      "Northwest University",
-      "Ministry of Education of the People's Republic of China",
-      "Northwest University",
-      "Ministry of Education of the People's Republic of China",
-      "Northwest University",
-      "Ministry of Education of the People's Republic of China",
-      "Northwest University",
-      "Ministry of Education of the People's Republic of China",
-      "Northwest University",
-      "Ministry of Education of the People's Republic of China",
-      "Northwest University",
-      "Ministry of Education of the People's Republic of China",
-      "Northwest University",
-      "Bruker (China)",
-      "University of St Andrews",
-      "Ministry of Education of the People's Republic of China",
-      "Northwest University",
-      "Xi'an University of Architecture and Technology"
-    ],
-    "published": "2026-09-08",
-    "journal": "Angewandte Chemie International Edition",
-    "doi": "10.1002/anie.9038203",
-    "openalex_id": "https://openalex.org/W7212039510",
-    "url": "https://doi.org/10.1002/anie.9038203",
-    "sources": [
-      "Crossref",
-      "OpenAlex"
-    ],
-    "arxiv_id": null,
-    "score": 39,
-    "scores": {
-      "topic": 6,
-      "method": 8,
-      "quality": 15,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Angewandte Chemie International Edition"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly",
-        "templating"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "materials"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-    "selection_tier": "拓展推荐",
-    "late_arrival": true,
-    "title_zh": "阴离子配位四重螺旋体的亚组分自组装及其光诱导客体释放",
-    "summary_zh": "该工作利用亚组分自组装策略，通过动态酰腙键与氢键的同步形成，原位构建了高产率至定量产率的阴离子配位四重螺旋体，其中A2L4型螺旋体可包封阳离子客体，并借助酰腙单元的光响应性实现光诱导客体释放。",
-    "research_details_zh": "研究旨在发展新的自组装策略以构建常规方法难以获得的材料，并理解分子组织原理。作者采用亚组分自组装方法，由简单亚组分通过动态酰腙键和氢键的同时形成，原位组装出阴离子配位的四重螺旋体，产率从高到定量。其中，以4,4′-亚甲基双(苯基)为连接子的A2L4四重螺旋体H1能够包封TBA+和TPA+等一系列阳离子客体。客体的模板效应可驱动从动态组合库中选择性形成H1⊃TBA。值得注意的是，嵌入的酰腙单元作为光响应基元，可实现包封客体的光诱导释放。该工作展示了亚组分自组装构建光响应阴离子配位结构的可行性，为无金属、高核数氢键组装体及其在靶向分子递送与释放智能材料中的先进应用提供了稳健策略。",
-    "methods_zh": "摘要明确出现的方法包括：亚组分自组装，通过动态酰腙键和氢键的同时形成原位组装四重螺旋体；利用客体模板效应从动态组合库中选择性形成H1⊃TBA；利用酰腙单元的光响应性实现光诱导客体释放。摘要未报告具体的表征手段、光谱类型、光照条件、释放效率及定量测试细节。",
-    "relevance_zh": "该工作属于自组装技术与框架材料组装主线，展示了亚组分自组装构建阴离子配位四重螺旋体及光响应客体释放功能，对超分子组装和智能递送材料有参考价值。但其体系为离散螺旋体而非介孔导电MOF、共轭框架或介孔材料，与主线的直接关联有限。若关注动态共价键、氢键组装及光响应释放机制，值得全文精读；若聚焦MOF/COF/HOF电化学合成，则相关性较低。",
-    "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。摘要未报告具体的合成条件、表征方法、光照参数、释放效率、产率数值、动态组合库组成及机制证据等关键细节，仍需全文核查。",
-    "key_findings_zh": [
-      "亚组分自组装可高产率至定量产率地构建阴离子配位四重螺旋体。",
-      "A2L4四重螺旋体H1可包封TBA+和TPA+等阳离子客体，且客体模板效应可驱动从动态组合库中选择性形成H1⊃TBA。",
-      "嵌入的酰腙单元作为光响应基元，可实现光诱导的包封客体释放。",
-      "该策略为无金属、高核数氢键组装体及其在智能材料中的应用提供了途径。"
-    ]
-  },
-  {
-    "title": "Biological growth self-assembly of mycelia enables eco-friendly full-color room-temperature phosphorescence materials via internalized confinement",
-    "abstract": "Abstract Preparing room-temperature phosphorescence (RTP) materials via biological growth processes presents an attractive yet rarely explored strategy. Herein, we report a facile and sustainable biological growth self-assembly strategy for preparing mycelia of Trametes pubescens (MTP) that exhibit RTP. During fungal growth, sulfonic acid chromophores (SACs) with various degrees of π conjugation are readily internalized into mycelial pellets through hydrogen bonding and confinement interactions, thereby suppressing non-radiative decay to enable highly efficient RTP. The afterglow color can be modulated from blue to red by altering the degree of chromophore conjugation. MTP and the chromophores exhibit synergistic growth behavior since SACs serve as nutrients that promote fungal growth. The resulting RTP MTP exhibits a minimal environmental footprint, not only degrading safely in nature but further enhancing soil fertility to promote plant growth. This strategy can facilitate the development of highly eco-friendly RTP materials to expand the potential of fungi for functional optical applications.",
-    "authors": [
-      "Xin Li",
-      "Jing Si",
-      "Can Jin",
-      "Jinxin Ma",
-      "Luxin Tang",
-      "Feng Peng",
-      "Pengyu Li",
-      "Mingxing Chen",
-      "Baozhong Lü",
-      "Baokai Cui"
-    ],
-    "institutions": [],
-    "published": "2026-09-08",
-    "journal": "National Science Review",
-    "doi": "10.1093/nsr/nwag586",
-    "url": "https://doi.org/10.1093/nsr/nwag586",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 37,
-    "scores": {
-      "topic": 6,
-      "method": 6,
-      "quality": 15,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "National Science Review"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "assembly",
-        "self assembly",
-        "self-assembly"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "materials"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
-    "selection_tier": "拓展推荐",
-    "title_zh": "菌丝体生物生长自组装通过内化限域实现环保型全色室温磷光材料",
-    "summary_zh": "该研究利用白腐真菌Trametes pubescens菌丝体的生物生长自组装策略，将不同π共轭程度的磺酸发色团内化到菌丝球中，通过氢键和限域作用抑制非辐射跃迁，实现高效室温磷光，余辉颜色可从蓝调至红，材料可自然降解并增强土壤肥力。",
-    "research_details_zh": "研究旨在探索通过生物生长过程制备室温磷光材料的新策略，该路径此前鲜有报道。材料体系为Trametes pubescens菌丝体与磺酸发色团的复合体系，设计策略是利用真菌生长过程中的自然自组装能力，将发色团内化至菌丝球内部。在真菌生长期间，不同π共轭程度的磺酸发色团通过氢键和限域相互作用被内化，有效抑制非辐射衰变从而产生高效RTP。通过改变发色团共轭程度可实现余辉颜色从蓝色到红色的调控。菌丝体与发色团呈现协同生长行为，发色团作为营养物质促进真菌生长。所得RTP菌丝体环境足迹极小，不仅可在自然界安全降解，还能提高土壤肥力促进植物生长。该策略为开发高环保RTP材料提供了新途径，拓展了真菌在功能光学应用中的潜力。",
-    "methods_zh": "制备方法为生物生长自组装策略，在Trametes pubescens培养过程中将磺酸发色团内化至菌丝球。表征涉及RTP性能测试包括余辉颜色和效率评估，结构表征包括发色团与菌丝体的相互作用确认。降解性和生态影响通过自然降解实验和土壤肥力测试评估。",
-    "relevance_zh": "该论文属于自组装技术与功能材料交叉领域，展示了生物生长驱动的自组装策略，与自组装研究方向相关。其内化限域机制和环保设计理念对框架材料的绿色合成具有启发意义，但材料体系非传统框架材料，相关性有限，可作为拓展阅读。",
-    "evidence_note_zh": "这是摘要级解读，摘要明确报告了材料制备策略、颜色调控范围和生态友好特性，但具体磷光量子产率、寿命、余辉颜色对应的波长范围、发色团种类及浓度等定量数据均未报告，需全文核查。",
-    "key_findings_zh": [
-      "通过真菌生物生长自组装可将磺酸发色团内化到菌丝球中，实现高效室温磷光",
-      "改变发色团π共轭程度可实现余辉颜色从蓝色到红色的调控",
-      "磺酸发色团作为营养物质促进真菌生长，菌丝体与发色团呈现协同生长行为",
-      "所得RTP菌丝体可自然降解并增强土壤肥力，具有极小的环境足迹"
-    ]
-  },
-  {
-    "title": "Dual-Function Donor Engineering of a Metal–Organic Framework for Efficient Photocatalytic Oxidative Synthesis",
-    "abstract": "Abstract Donor and/or acceptor engineering that allows the delicate optimization of the charge or energy transfer process within heterogeneous photocatalysts for the efficient generation of reactive oxygen species (ROS) of the superoxide radical (O2•–) or singlet oxygen (1O2) dictates the efficiency of aerobic oxidative synthesis. However, the development of donor and/or acceptor engineering approaches that can simultaneously optimize the charge and energy transfer processes for abundant generation of O2•– and 1O2 is a major challenge. Herein, a series of porphyrin (electron donor)- and naphthalene diimide (NDI, electron acceptor)-based isostructural mixed-ligand donor–acceptor MOFs were designed and synthesized. Experiments and theoretical calculations revealed that by delicately tuning the electron-pushing capacity of the organic conjugated groups on the donor porphyrin units, the charge transfer kinetics from the donors to the acceptors as well as the energy transfer gifted by the donor porphyrins related to their singlet–triplet energy gaps could be simultaneously optimized. As a result, Zr-NDI-H2DPBP(Pyr), wherein the porphyrin donor ligand with pyrene (Pyr) groups possesses the strongest electron-pushing capacity, exhibited the highest O2•– and 1O2 generation activities, which can be utilized for efficient aerobic oxidation reactions, including dipolar [3 + 2] cycloaddition and the synthesis of quinoxaline derivatives. This work exemplifies a dual-function donor engineering approach for developing heterogeneous catalysts toward advanced artificial photosynthesis.",
-    "authors": [
-      "Peng-Cheng Zhao",
-      "Tian-Yuan Yang",
-      "Huapeng Sun",
-      "Yong-Tao Liu",
-      "Shuang Pi",
-      "Zijun Huang",
-      "Zi-Sheng Chao",
-      "Hong-Guang Jin"
-    ],
-    "institutions": [],
-    "published": "2026-09-08",
-    "journal": "ACS Applied Materials &amp; Interfaces",
-    "doi": "10.1021/acsami.6c13030",
-    "url": "https://doi.org/10.1021/acsami.6c13030",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 34,
-    "scores": {
-      "topic": 18,
-      "method": 0,
-      "quality": 8,
-      "novelty": 6,
-      "network": 0,
-      "applied": 0,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "strong",
-    "quality_hits": [
-      "ACS Applied Materials & Interfaces"
-    ],
-    "hits": {
-      "framework": [
-        "metal organic framework",
-        "metal-organic framework",
-        "mofs"
-      ],
-      "conductive": [
-        "conjugated"
-      ],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": []
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
-    "selection_tier": "核心推荐",
-    "title_zh": "金属有机框架的双功能供体工程用于高效光催化氧化合成",
-    "summary_zh": "本研究通过供体卟啉上共轭基团的推电子能力调控，同时优化了MOF内电荷转移与能量转移过程，实现了超氧自由基和单线态氧的高效生成，并用于好氧氧化反应。该工作为人工光合作用催化剂设计提供了双功能供体工程策略。",
-    "research_details_zh": "研究问题聚焦于如何通过供体/受体工程同时优化异质光催化剂中电荷与能量转移过程，以高效生成超氧自由基和单线态氧，从而提升好氧氧化合成效率。材料体系为基于卟啉（电子供体）和萘二酰亚胺（NDI，电子受体）的同构混合配体供体-受体MOF系列。设计策略是在供体卟啉单元上引入不同推电子能力的有机共轭基团，系统调节供体到受体的电荷转移动力学以及供体卟啉的单重态-三重态能隙相关的能量转移。研究过程包括设计合成系列MOF，并通过实验与理论计算验证推电子能力对电荷和能量转移的协同优化效果。结果表明，含芘基团的Zr-NDI-H2DPBP(Pyr)具有最强推电子能力，表现出最高的超氧自由基和单线态氧生成活性，可高效催化偶极[3+2]环加成及喹喔啉衍生物合成等好氧氧化反应。该工作为开发先进人工光合作用异质催化剂提供了双功能供体工程范例。",
-    "methods_zh": "摘要明确提及合成了系列同构混合配体供体-受体MOF，并通过实验和理论计算研究了电荷与能量转移过程。性能测试涉及超氧自由基和单线态氧的生成活性评估，以及好氧氧化反应（包括偶极[3+2]环加成和喹喔啉衍生物合成）的催化测试。具体合成条件、表征手段和测试参数摘要未报告。",
-    "relevance_zh": "该研究直接关联介孔导电MOF和共轭MOF的光催化应用，展示了通过供体工程调控电荷与能量转移以增强活性氧生成的设计思路，对框架材料的光电性能优化具有参考价值。摘要提供了明确的结构-性能关系，值得全文精读以获取详细的合成与表征数据，但需注意其光催化氧化方向与导电性研究主线存在一定距离。",
-    "evidence_note_zh": "这是摘要级解读，具体实验条件（如溶剂、温度、光照波长）、定量产率、量子效率、详细的表征数据（如瞬态吸收、荧光寿命）以及理论计算细节均需全文核查。",
-    "key_findings_zh": [
-      "通过精细调控供体卟啉单元上有机共轭基团的推电子能力，可同时优化从供体到受体的电荷转移动力学以及供体卟啉单重态-三重态能隙相关的能量转移。",
-      "含芘基团的Zr-NDI-H2DPBP(Pyr)因供体配体具有最强推电子能力，表现出最高的超氧自由基和单线态氧生成活性。",
-      "该MOF可高效催化偶极[3+2]环加成反应和喹喔啉衍生物的合成等好氧氧化反应。"
-    ]
-  },
-  {
-    "title": "Modulating the Pore Environment of a Hydrogen‐Bonded Organic Framework for Efficient Separation of a Ternary Mixture of Methanol‐to‐Olefin Products",
-    "abstract": "ABSTRACT Developing energy‐efficient adsorbents for one‐step purification of ethylene (C 2 H 4 ) from ternary methanol‐to‐olefins (MTO) product mixture remains highly important but essentially unexplored in hydrogen‐bonded organic frameworks (HOFs). Herein, an ultramicroporous HOF, HOF‐36, with pyridine‐functionalized pore surfaces, was synthesized from 4,4′,4″,4‴‐(pyridine‐2,3,5,6‐tetrayl)tetrabenzoic acid. According to the single‐component sorption isotherm, the activated HOF‐36 (HOF‐36a) exhibits preferential adsorption toward ethane (C 2 H 6 ) and propylene (C 3 H 6 ) over C 2 H 4 , with IAST selectivities of 1.6 for C 2 H 6 /C 2 H 4 and 13.1 for C 3 H 6 /C 2 H 4 mixtures at 298 K, where the C 3 H 6 /C 2 H 4 selectivity surpasses those of all previously reported HOFs. Dynamic breakthrough experiments demonstrate that HOF‐36a enables one‐step purification of polymer‐grade C 2 H 4 (≥ 99.99%) from binary and ternary MTO‐related hydrocarbon mixtures. Notably, HOF‐36a affords a C 2 H 4 productivity of 1.1 L kg −1 for the challenging ternary C 3 H 6 /C 2 H 6 /C 2 H 4 (33.3/33.3/33.3, v / v / v ) mixture. Moreover, the separation performance remains nearly unchanged under humid conditions and repeated breakthrough cycles. Theoretical calculations reveal that the pyridine‐functionalized pore surface strengthens the binding affinity toward C 2 H 6 and C 3 H 6 through enhanced host–guest interactions. This work demonstrates the potential of HOFs for challenging multicomponent olefin separation and highlights pore environment engineering for regulating host–guest interactions.",
-    "authors": [
-      "Xiantao Zhong",
-      "Hua Liu",
-      "Baoqiu Yu",
-      "Zhongwei Liu",
-      "Yucheng Jin",
-      "Hailong Wang",
-      "Xu Ding",
-      "Xiaolin Liu",
-      "Shangwei Yuan",
-      "Xin Xiao",
-      "Jianzhuang Jiang"
-    ],
-    "institutions": [
-      "Guizhou University",
-      "Guizhou University",
-      "Guizhou University",
-      "Guizhou University",
-      "Guizhou University",
-      "University of Science and Technology Beijing",
-      "Guizhou University",
-      "Chongqing Normal University",
-      "Guizhou University",
-      "Guizhou University",
-      "Guizhou University",
-      "University of Science and Technology Beijing"
-    ],
-    "published": "2026-09-08",
-    "journal": "Angewandte Chemie International Edition",
-    "doi": "10.1002/anie.5126918",
-    "openalex_id": "https://openalex.org/W7212068859",
-    "url": "https://doi.org/10.1002/anie.5126918",
-    "sources": [
-      "Crossref",
-      "Crossref journal watch",
-      "OpenAlex"
-    ],
-    "arxiv_id": null,
-    "score": 32,
-    "scores": {
-      "topic": 12,
-      "method": 0,
-      "quality": 15,
-      "novelty": 4,
-      "network": 0,
-      "applied": 0,
-      "archive": 1,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Angewandte Chemie International Edition"
-    ],
-    "hits": {
-      "framework": [
-        "hof",
-        "hofs",
-        "hydrogen bonded organic framework",
-        "hydrogen-bonded organic framework"
-      ],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": [
-        "polymer"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
-    "selection_tier": "高质量框架推荐",
-    "late_arrival": true,
-    "title_zh": "调控氢键有机框架孔环境以实现甲醇制烯烃三元混合物高效分离",
-    "summary_zh": "该工作合成吡啶功能化孔表面的超微孔HOF-36，通过孔环境工程增强对乙烷和丙烯的优先吸附，实现从甲醇制烯烃三元混合物中一步纯化聚合物级乙烯，并展示优异的丙烯/乙烯选择性和湿度稳定性。",
-    "research_details_zh": "研究问题是如何开发节能吸附剂，从甲醇制烯烃三元产物混合物中一步纯化乙烯，这在氢键有机框架中此前基本未被探索。作者以4,4′,4″,4‴-(吡啶-2,3,5,6-四基)四苯甲酸为构筑单元，合成了具有吡啶功能化孔表面的超微孔HOF-36。根据单组分吸附等温线，活化后的HOF-36a在298 K下对乙烷和丙烯的吸附优先于乙烯，IAST选择性为C2H6/C2H4 1.6和C3H6/C2H4 13.1，其中C3H6/C2H4选择性超过所有此前报道的HOF。动态穿透实验表明，HOF-36a可从二元和三元MTO相关烃混合物中一步纯化聚合物级C2H4（≥99.99%）。值得注意的是，对于具有挑战性的三元C3H6/C2H6/C2H4（33.3/33.3/33.3，v/v/v）混合物，HOF-36a的C2H4产率为1.1 L kg−1。此外，分离性能在潮湿条件和重复穿透循环下几乎不变。理论计算表明，吡啶功能化孔表面通过增强主客体相互作用，强化了对C2H6和C3H6的结合亲和力。该工作展示了HOF在挑战性多组分烯烃分离中的潜力，并突出了孔环境工程调控主客体相互作用的重要性。",
-    "methods_zh": "摘要明确出现的方法包括：以4,4′,4″,4‴-(吡啶-2,3,5,6-四基)四苯甲酸合成超微孔HOF-36，并活化得到HOF-36a；测定单组分吸附等温线并计算IAST选择性；进行动态穿透实验以评估二元和三元MTO相关烃混合物的分离性能；在潮湿条件和重复穿透循环下测试稳定性；通过理论计算分析主客体相互作用。摘要未报告具体合成条件、活化条件、穿透实验参数及计算细节。",
-    "relevance_zh": "该工作属于氢键有机框架与孔环境工程主线，展示了HOF在挑战性多组分烯烃分离中的潜力，并通过吡啶功能化孔表面调控主客体相互作用。对框架材料的气体吸附与分离研究有实际参考价值，尤其是C3H6/C2H4选择性超过此前HOF的定量结果。但其体系为超微孔HOF，并非介孔导电MOF、共轭MOF/COF或介孔材料，与电化学合成主线关联有限。若关注HOF孔工程和烯烃纯化，值得全文精读。",
-    "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。摘要未报告具体合成条件、活化条件、单组分吸附等温线细节、穿透实验参数、理论计算方法和湿度测试条件等关键细节，仍需全文核查。",
-    "key_findings_zh": [
-      "HOF-36a在298 K下对C2H6/C2H4的IAST选择性为1.6，对C3H6/C2H4的IAST选择性为13.1，其中C3H6/C2H4选择性超过所有此前报道的HOF。",
-      "动态穿透实验表明HOF-36a可从二元和三元MTO相关烃混合物中一步纯化聚合物级C2H4（≥99.99%）。",
-      "对于三元C3H6/C2H6/C2H4（33.3/33.3/33.3，v/v/v）混合物，HOF-36a的C2H4产率为1.1 L kg−1。",
-      "分离性能在潮湿条件和重复穿透循环下几乎不变；理论计算表明吡啶功能化孔表面通过增强主客体相互作用强化对C2H6和C3H6的结合亲和力。"
     ]
   }
 ]
