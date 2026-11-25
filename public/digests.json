@@ -1,5 +1,755 @@
 [
   {
+    "date": "2026-11-24",
+    "search_start": "2026-11-22",
+    "generated_at": "2026-11-25T05:23:45Z",
+    "papers": [
+      {
+        "title": "Hierarchically Porous Unsubstituted Olefin‐Linked COF With Synergistically Enhanced Electronic and Ionic Conductivities for High‐Performance Lithium‐Ion Battery Cathodes",
+        "abstract": "ABSTRACT The development of covalent organic frameworks (COFs) with synergistically enhanced ionic/electronic conductivities, improved active site utilization, and increased chemical stability for achieving high‐performance lithium–ion battery (LIB) cathodes remain a significant challenge. Here, we report the rational design of a novel unsubstituted olefin–linked, highly crystalline COF (namely HATN–ICTO COF) as a cathode for LIBs. The HATN–ICTO COF integrates extended fully conjugated π–networks, hierarchical porosity, and dual redox–active centers, enabling a synergistic improvement in ionic and electronic conductivity as well as a high theoretical capacity. This unique unsubstituted olefin linkage also endows the COF with excellent chemical stability, thereby ensuring long‐term cycling performance. Meanwhile, the hierarchical porous architecture of the COF can effectively buffer the volume expansion during repeated charge–discharge processes, mitigating electrode damage. The COF delivers a high specific capacity of 293 mAh g − 1 at 0.1 A g − 1 and maintains 206 mAh g − 1 at 10.0 A g − 1 , with outstanding cycling performance of 155 mAh g − 1 at 5.0 A g − 1 after 18,000 cycles. Additionally, a pouch cell based on the HATN–ICTO COF//Li configuration was also demonstrated. This work provides fundamental insights into structure–property relationships governing charge delocalization and redox activity in COFs.",
+        "authors": [
+          "Ning Fu",
+          "Ying Liu",
+          "Xu Deng",
+          "Zhenjun Liu",
+          "Nan Zhang",
+          "Zihan Zhao",
+          "Chong Zhang",
+          "Sheng Han",
+          "Yongsheng Niu",
+          "Lin Liu",
+          "Ben Yang"
+        ],
+        "institutions": [],
+        "published": "2026-11-23",
+        "journal": "Angewandte Chemie",
+        "doi": "10.1002/ange.2258529",
+        "url": "https://doi.org/10.1002/ange.2258529",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 65,
+        "scores": {
+          "topic": 29,
+          "method": 8,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs"
+          ],
+          "conductive": [
+            "conjugated"
+          ],
+          "mesoporous": [
+            "hierarchical porosity",
+            "hierarchically porous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "crystalline",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "具有协同增强电子与离子电导率的分级多孔无取代烯烃连接COF用于高性能锂离子电池正极",
+        "summary_zh": "该工作设计了一种无取代烯烃连接的高结晶HATN-ICTO COF正极，集扩展全共轭π网络、分级孔隙与双氧化还原活性中心于一体，协同提升电子/离子电导率与活性位点利用率，并实现优异循环稳定性与 pouch 电池演示。",
+        "research_details_zh": "研究针对COF正极中电子/离子电导率难以协同提升、活性位点利用率低及化学稳定性不足的问题，报道了一种新型无取代烯烃连接、高结晶的HATN-ICTO COF作为锂离子电池正极。设计策略上，该COF整合了扩展的全共轭π网络、分级孔隙结构和双氧化还原活性中心，旨在协同改善离子与电子电导率并提供高理论容量；无取代烯烃连接还赋予材料优异化学稳定性以保障长期循环。分级多孔结构可缓冲反复充放电过程中的体积膨胀，减轻电极损伤。摘要报告该COF在0.1 A g−1下比容量293 mAh g−1，10.0 A g−1下保持206 mAh g−1，5.0 A g−1下经18000次循环后仍为155 mAh g−1，并展示了HATN-ICTO COF//Li软包电池。该工作为理解COF中电荷离域与氧化还原活性的构效关系提供了基础见解。",
+        "methods_zh": "摘要明确提及的合成与研究方法包括：合理设计并制备无取代烯烃连接的高结晶HATN-ICTO COF；将其用作锂离子电池正极进行电化学性能测试，包括不同电流密度下的比容量测试（0.1 A g−1、10.0 A g−1、5.0 A g−1）及长循环测试（18000次）；并构建HATN-ICTO COF//Li软包电池进行演示。摘要未报告具体合成条件、表征手段及测试细节。",
+        "relevance_zh": "该工作直接契合介孔导电MOF/共轭COF与框架材料电化学应用主线，展示了无取代烯烃连接、全共轭、分级多孔COF在锂离子电池正极中的协同导电与稳定化设计，定量电化学数据完整且含长循环与软包电池验证，对框架材料的结构—性能关系研究有较高参考价值，值得全文精读以核查合成与表征细节。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读；具体合成条件、结构表征数据、氧化还原机制证据、软包电池测试条件及统计细节仍需全文核查。",
+        "key_findings_zh": [
+          "HATN-ICTO COF在0.1 A g−1下比容量为293 mAh g−1，在10.0 A g−1下仍保持206 mAh g−1。",
+          "在5.0 A g−1下经18000次循环后容量保持155 mAh g−1，显示优异长期循环性能。",
+          "无取代烯烃连接赋予优异化学稳定性，分级多孔结构可缓冲充放电体积膨胀。",
+          "展示了基于HATN-ICTO COF//Li配置的软包电池。"
+        ]
+      },
+      {
+        "title": "Coordination‐Driven Spiral Self‐Assembly of Helical Mesoporous Polymer Nanospheres and Derived MoS 2 /Carbon Colloidal Nanospheres for Fast Lithium Storage",
+        "abstract": "ABSTRACT Helical mesoporous architectures are attractive for electrochemical energy storage because their curved channels and spiral surfaces facilitate ion transport and interfacial charge transfer. However, their synthesis has traditionally relied on chiral templates or complex assembly procedures, limiting structural tunability and compositional flexibility. Herein, we develop a coordination‐driven spiral self‐assembly (CSS) strategy that converts achiral building blocks into helical mesoporous polymer nanospheres (HMPSs) with continuous spiral surface textures and internal helical mesopores. Interfacial Mo–S coordination drives micellar spiral organization without chiral additives, enabling systematic regulation of pore size, morphology, and composition. Subsequent carbonization transforms HMPSs into helical mesoporous MoS 2 /C nanospheres (HMMoS 2 /C) containing uniformly dispersed monolayer MoS 2 while retaining the helical mesostructure. Finite‐element simulations and density functional theory calculations reveal that the helical mesoporous architecture facilitates rapid Li + diffusion, local ion enrichment, and interfacial charge transfer, thereby improving Li‐storage kinetics. Consequently, HMMoS 2 /C delivers a reversible capacity of 1776.3 mAh g − 1 at 0.3 A g − 1 after 150 cycles, a high‐rate capacity of 752.7 mAh g − 1 at 10 A g − 1 , and outstanding long‐term cycling stability. This work establishes coordination‐driven self‐assembly as a versatile route to helical mesoporous materials for energy storage.",
+        "authors": [
+          "Zhengwen Tan",
+          "Zhenshi Wang",
+          "Jiyuan Feng",
+          "Wanting Lu",
+          "Jiaming Yang",
+          "Lingwang Zu",
+          "Tao Wang",
+          "Fei Du",
+          "Ling Zhang",
+          "Zhen‐An Qiao"
+        ],
+        "institutions": [],
+        "published": "2026-11-24",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75859",
+        "url": "https://doi.org/10.1002/adma.75859",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 52,
+        "scores": {
+          "topic": 12,
+          "method": 10,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 4,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [
+            "assembly",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "colloidal",
+            "coordination",
+            "materials",
+            "mesoporous",
+            "polymer"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "配位驱动螺旋自组装制备螺旋介孔聚合物纳米球及衍生MoS2/碳胶体纳米球用于快速储锂",
+        "summary_zh": "该工作提出配位驱动螺旋自组装策略，将非手性构筑单元转化为具有连续螺旋表面纹理和内部螺旋介孔的聚合物纳米球，碳化后得到单层MoS2均匀分散的螺旋介孔MoS2/C纳米球，并展示其快速储锂动力学与优异循环性能。",
+        "research_details_zh": "研究针对螺旋介孔结构在电化学储能中因曲率通道和螺旋表面有利于离子传输与界面电荷转移、但传统合成依赖手性模板或复杂组装而限制结构可调性与组成灵活性的问题，开发了配位驱动螺旋自组装策略。该策略无需手性添加剂，通过界面Mo–S配位驱动胶束螺旋组织，将非手性构筑单元转化为具有连续螺旋表面纹理和内部螺旋介孔的螺旋介孔聚合物纳米球，并可系统调控孔径、形貌和组成。随后碳化将聚合物纳米球转化为含均匀分散单层MoS2且保留螺旋介观结构的螺旋介孔MoS2/C纳米球。有限元模拟与密度泛函理论计算表明，螺旋介孔结构促进快速Li+扩散、局部离子富集和界面电荷转移，从而改善储锂动力学。摘要报告HMMoS2/C在0.3 A g−1下经150次循环后可逆容量1776.3 mAh g−1，10 A g−1下高倍率容量752.7 mAh g−1，并具有优异长期循环稳定性。",
+        "methods_zh": "摘要明确报告的方法包括：配位驱动螺旋自组装（CSS）策略，通过界面Mo–S配位驱动胶束螺旋组织，由非手性构筑单元制备螺旋介孔聚合物纳米球；后续碳化转化为螺旋介孔MoS2/C纳米球；采用有限元模拟和密度泛函理论计算研究螺旋介孔结构对Li+扩散、离子富集和界面电荷转移的影响；并进行电化学储锂性能测试（0.3 A g−1、10 A g−1及长循环）。摘要未报告具体合成参数与表征手段。",
+        "relevance_zh": "该工作契合自组装技术、介孔材料及框架材料衍生碳基电极主线，展示了无手性模板的配位驱动螺旋自组装新路线及其对介孔结构与储锂动力学的调控，模拟与理论计算结合增强机制解释，对介孔材料组装方法学有拓展价值，值得全文精读以核查组装机制与结构表征细节。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读；具体自组装条件、聚合物结构表征、碳化参数、模拟与DFT计算细节及电化学测试条件仍需全文核查。",
+        "key_findings_zh": [
+          "HMMoS2/C在0.3 A g−1下经150次循环后可逆容量为1776.3 mAh g−1。",
+          "在10 A g−1下高倍率容量为752.7 mAh g−1，并具有优异长期循环稳定性。",
+          "有限元模拟与DFT计算表明螺旋介孔结构促进快速Li+扩散、局部离子富集和界面电荷转移。",
+          "配位驱动自组装无需手性添加剂即可系统调控孔径、形貌和组成。"
+        ]
+      },
+      {
+        "title": "Spin and Charge Engineering of a BiCuMn Nanoalloy Catalyst for Industrial‐Scale Electrosynthesis of Glycine",
+        "abstract": "ABSTRACT Electrocatalytic C–N coupling provides a sustainable route for α‐amino acids, yet its practicality is limited by poor selectivity and durability at industrially relevant current densities. Here, we report a Bi‐based nanoalloy catalyst with atomically dispersed Cu and Mn (BiCuMn@C) for industrial‐level glycine electrosynthesis. Experimental and theoretical results reveal that Cu modulates the electronic structure of Bi sites via d ‐ p hybridization, enhancing the adsorption/activation of nitrogen‐containing species, while spin‐polarized electrons from Mn are delivered to adjacent *NO intermediates, promoting their hydrogenation to *NHO on the pathway to NH 2 OH. This spin‐charge engineering disrupts the intrinsic scaling relationship between *NO and *NHO adsorption, enabling simultaneous enhancement of activity and selectivity. As a result, BiCuMn@C achieves a glycine Faradaic efficiency of 78.9% at a current density of 533.1 mA cm −2 , corresponding to a yield rate of 1569 µmol h −1 cm −2 , and extends to the efficient synthesis of five additional amino acids. In a membrane‐electrode assembly (MEA) electrolyzer, the catalyst sustains stable operation for over 1000 h with a cumulative glycine production exceeding 1 mol. This work achieves one of the best overall performances reported to date and provides practical design guidance for the industrially relevant electrosynthesis of α‐amino acids.",
+        "authors": [
+          "Yufeng Li",
+          "Can Wang",
+          "Baipeng Yin",
+          "Bojun Shi",
+          "Hengan Wang",
+          "Botao Zhang",
+          "Yantao Yang",
+          "Jianmin Gu",
+          "Xinchen Kang",
+          "Chuang Zhang"
+        ],
+        "institutions": [],
+        "published": "2026-11-23",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.3194380",
+        "url": "https://doi.org/10.1002/anie.3194380",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 50,
+        "scores": {
+          "topic": 12,
+          "method": 7,
+          "quality": 15,
+          "novelty": 8,
+          "network": 0,
+          "applied": 5,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [
+            "electrosynthesis"
+          ],
+          "materials": [
+            "membrane"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中电化学合成、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "BiCuMn纳米合金催化剂的自旋与电荷工程用于工业级甘氨酸电合成",
+        "summary_zh": "该工作报道原子级分散Cu和Mn的Bi基纳米合金催化剂BiCuMn@C，通过Cu的d-p杂化调控Bi位电子结构、Mn的自旋极化电子促进*NO加氢，打破*NO与*NHO吸附标度关系，实现高电流密度下高选择性甘氨酸电合成及长时稳定运行。",
+        "research_details_zh": "研究针对电催化C–N偶联合成α-氨基酸在工业相关电流密度下选择性与耐久性不足的问题，报道了一种原子级分散Cu和Mn的Bi基纳米合金催化剂BiCuMn@C用于工业级甘氨酸电合成。实验与理论结果表明，Cu通过d-p杂化调控Bi位点电子结构，增强含氮物种的吸附/活化；Mn的自旋极化电子传递至相邻*NO中间体，促进其加氢生成*NHO，进而通向NH2OH。这种自旋—电荷工程打破了*NO与*NHO吸附之间的本征标度关系，同时提升活性与选择性。摘要报告BiCuMn@C在533.1 mA cm−2电流密度下甘氨酸法拉第效率78.9%，产率1569 µmol h−1 cm−2，并扩展至另外五种氨基酸的高效合成；在膜电极组装电解槽中稳定运行超过1000 h，累计甘氨酸产量超过1 mol。",
+        "methods_zh": "摘要明确报告的方法包括：制备原子级分散Cu和Mn的Bi基纳米合金催化剂BiCuMn@C；结合实验与理论计算（包括d-p杂化和自旋极化电子分析）研究电子结构与反应路径；在533.1 mA cm−2电流密度下测试甘氨酸电合成法拉第效率与产率；扩展测试另外五种氨基酸合成；并在膜电极组装电解槽中进行超过1000 h的稳定性测试与累计产量评估。摘要未报告具体合成条件与表征手段。",
+        "relevance_zh": "该工作与介孔导电MOF、共轭框架材料主线关联较弱，主要涉及纳米合金电催化与自旋—电荷工程，但其电合成方法学、膜电极组装长时运行及工业电流密度验证对框架材料电化学合成应用有方法学参考价值；因非框架材料体系，建议作为拓展阅读而非核心精读。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读；具体催化剂合成条件、结构表征、理论计算细节、电解槽操作条件及产物定量方法仍需全文核查。",
+        "key_findings_zh": [
+          "BiCuMn@C在533.1 mA cm−2下甘氨酸法拉第效率为78.9%，产率为1569 µmol h−1 cm−2。",
+          "Cu通过d-p杂化调控Bi位电子结构，Mn的自旋极化电子促进*NO加氢至*NHO，打破*NO与*NHO吸附标度关系。",
+          "在膜电极组装电解槽中稳定运行超过1000 h，累计甘氨酸产量超过1 mol。",
+          "该催化剂可扩展至另外五种氨基酸的高效合成。"
+        ]
+      },
+      {
+        "title": "Band‐Filling Engineering in Covalent Organic Frameworks Through Host–Guest Charge‐Transfer Interactions",
+        "abstract": "ABSTRACT Band‐filling engineering is one of the most rational approaches to controlling the electronic properties of inorganic solids such as cuprates, in which electron/hole doping using heterovalent substitution leads to a rigid‐band shift of the Fermi level. In organic solids, a significant obstacle to accurately predicting electronic properties is the difficulty in maintaining the packing structure during molecular substitution. Here, we utilized a covalent organic framework (COF) in which π‐conjugated electron‐donating molecules are covalently linked to form one‐dimensional pore channels. The introduction of a well‐defined amount of electron‐accepting molecules without disrupting the framework structure enabled the first successful demonstration of the deliberate band‐filling control while elucidating the charge state through various spectroscopic measurements. Enhanced electronic itinerancy facilitated by host–guest charge transfer was evidenced by spectroscopic, transport, and magnetic measurements in support of theoretical calculations. The present study opens a new avenue for exploring more advanced electronic organic solids based on band‐filling engineering.",
+        "authors": [
+          "Xinyu Li",
+          "Yukihiro Yoshida",
+          "Yusuke Nanba",
+          "Yuki Tanaka",
+          "Soichiro Yasaka",
+          "Mitsuhiko Maesato",
+          "Yasuto Noda",
+          "Hiroshi Kitagawa"
+        ],
+        "institutions": [],
+        "published": "2026-11-24",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.7059051",
+        "url": "https://doi.org/10.1002/anie.7059051",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 41,
+        "scores": {
+          "topic": 18,
+          "method": 0,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 0,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "cof",
+            "covalent organic framework"
+          ],
+          "conductive": [
+            "conjugated",
+            "π-conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "通过主客体电荷转移相互作用实现共价有机框架的能带填充工程",
+        "summary_zh": "该研究利用一维孔道共价有机框架，在不破坏框架结构的前提下引入定量电子受体分子，首次实现有机固体中能带填充的刻意调控，并通过光谱、输运和磁性测量证实主客体电荷转移增强电子迁移性。",
+        "research_details_zh": "研究针对有机固体中分子取代难以保持堆积结构、从而难以精确预测电子性质的问题，采用π共轭给电子分子共价连接形成一维孔道的共价有机框架作为主体。设计策略是在不破坏框架结构的情况下引入确定量的电子受体分子，实现能带填充控制。研究过程包括通过多种光谱测量阐明电荷状态，并结合光谱、输运和磁性测量以及理论计算，验证主客体电荷转移促进的电子迁移性增强。该工作首次在有机框架中演示了类似无机铜氧化物中异价取代掺杂导致的费米能级刚性移动的能带填充工程，为探索更先进的电子有机固体提供了新途径。摘要未报告具体合成条件、受体分子种类及定量数值。",
+        "methods_zh": "摘要明确出现的方法包括：合成π共轭给电子分子共价连接的一维孔道共价有机框架；引入确定量电子受体分子进行主客体组装；采用多种光谱测量阐明电荷状态；结合输运测量和磁性测量表征电子性质；辅以理论计算支持实验结论。摘要未报告具体合成条件、表征仪器型号及性能测试参数。",
+        "relevance_zh": "该工作直接关联共轭COF与框架材料电子性质调控主线，首次将无机固体中的能带填充工程概念引入有机框架，通过主客体电荷转移实现电子结构调控，对导电框架材料设计具有概念性价值。其局限在于摘要未提供定量输运数据和受体分子细节，若关注COF电子性质调控策略值得全文精读。",
+        "evidence_note_zh": "本解读仅基于题目和摘要，属于摘要级解读。具体合成条件、受体分子种类与引入量、光谱与输运测量细节、理论计算方法及定量性能数据均需查阅全文核查。",
+        "key_findings_zh": [
+          "首次在共价有机框架中成功演示了不破坏框架结构的刻意能带填充控制",
+          "主客体电荷转移增强的电子迁移性由光谱、输运和磁性测量共同证实，并得到理论计算支持",
+          "通过多种光谱测量阐明了主客体体系的电荷状态",
+          "摘要未报告能带填充量、电导率等具体定量数据"
+        ]
+      },
+      {
+        "title": "Introducing Controlled Backbone Porosity and Functionality into Aerogels through Mesoporous Nanoparticle Assembly",
+        "abstract": "Abstract Precise control over the structural architecture of aerogels remains a central challenge, particularly in integrating well-defined nanoscale porosity within the aerogel backbone. Here, we present a nanoparticle-assembly strategy for synthesizing aerogels with controlled backbone porosity using preformed mesoporous silica nanoparticles (MSNs) as building blocks. This approach decouples network formation from pore generation, enabling independent control over composition, structure, and porosity. The resulting MSNs aerogel exhibits a high specific surface area of 960 m2 g–1 and significantly enhanced adsorption performance compared with the corresponding powders, driven by improved accessibility of active sites within the hierarchical porous framework. The intrinsic surface roughness of the MSNs promotes interparticle interlocking, resulting in accelerated gelation, a lower percolation threshold, and enhanced structural stability during wetting, as supported by experiments and computational modeling. To demonstrate the versatility of this concept for sensing applications, a pH-responsive probe was incorporated into the MSN dispersion prior to assembly, yielding a solid-state pH indicator. These findings highlight the potential of nanoparticle assembly as a strategy for integrating controlled backbone porosity and tailored functionality into aerogels for applications in adsorption and sensing.",
+        "authors": [
+          "Linoy Dery",
+          "Elena Tervoort",
+          "Martin Kröger",
+          "Markus Niederberger"
+        ],
+        "institutions": [],
+        "published": "2026-11-24",
+        "journal": "ACS Nano",
+        "doi": "10.1021/acsnano.6c14834",
+        "url": "https://doi.org/10.1021/acsnano.6c14834",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 41,
+        "scores": {
+          "topic": 12,
+          "method": 6,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 4,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "ACS Nano"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [
+            "mesoporous"
+          ],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "mesoporous",
+            "nanoparticle",
+            "porous",
+            "silica"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": false,
+        "title_zh": "通过介孔纳米颗粒组装在气凝胶骨架中引入可控孔隙与功能",
+        "summary_zh": "该研究以预formed介孔二氧化硅纳米颗粒为构建单元组装气凝胶，将网络形成与孔生成解耦，实现组成、结构和孔隙率的独立调控，获得比表面积960 m2 g–1的高吸附性能气凝胶，并演示固态pH传感功能。",
+        "research_details_zh": "研究针对气凝胶结构架构精确控制困难、尤其在骨架中整合明确纳米级孔隙的挑战，提出以预formed介孔二氧化硅纳米颗粒为构建单元的纳米颗粒组装策略。该策略将网络形成与孔生成解耦，从而独立控制组成、结构和孔隙率。所得介孔二氧化硅纳米颗粒气凝胶比表面积达960 m2 g–1，相比对应粉末吸附性能显著增强，归因于分级多孔框架中活性位点可及性提高。介孔二氧化硅纳米颗粒的固有表面粗糙度促进颗粒间互锁，导致凝胶化加速、渗流阈值降低以及润湿过程中结构稳定性增强，并得到实验和计算模拟支持。为演示传感应用，在组装前将pH响应探针引入分散液，获得固态pH指示剂。摘要未报告具体组装条件与吸附质种类。",
+        "methods_zh": "摘要明确出现的方法包括：以预formed介孔二氧化硅纳米颗粒为构建单元进行纳米颗粒组装制备气凝胶；将网络形成与孔生成解耦以独立调控组成、结构和孔隙率；测定比表面积和吸附性能；结合实验与计算模拟研究颗粒互锁、凝胶化动力学和润湿稳定性；在组装前将pH响应探针引入分散液制备固态pH指示剂。摘要未报告具体组装温度、溶剂及表征仪器型号。",
+        "relevance_zh": "该工作关联介孔材料与自组装技术主线，提出将预formed介孔纳米颗粒作为构建单元、把网络形成与孔生成解耦的组装策略，对介孔气凝胶骨架孔隙与功能的独立调控具有方法学参考价值。其材料体系为二氧化硅而非框架材料，与导电MOF/COF主线关联有限，但组装理念可迁移，适合关注介孔组装策略时精读。",
+        "evidence_note_zh": "本解读仅基于题目和摘要，属于摘要级解读。具体纳米颗粒合成参数、组装条件、吸附质与吸附容量、计算模拟方法及传感性能数据均需查阅全文核查。",
+        "key_findings_zh": [
+          "所得介孔二氧化硅纳米颗粒气凝胶比表面积达960 m2 g–1，吸附性能显著优于对应粉末",
+          "介孔二氧化硅纳米颗粒表面粗糙度促进颗粒间互锁，实现凝胶化加速和渗流阈值降低",
+          "实验与计算模拟共同支持气凝胶在润湿过程中的结构稳定性增强",
+          "组装前引入pH响应探针可获得固态pH指示剂，演示传感应用可行性"
+        ]
+      },
+      {
+        "title": "Halogenated Triazole-Based Metal–Organic Framework Achieves Ultra-Selective CO2 Capture under Humid Conditions",
+        "abstract": "Abstract Selective CO2 capture from humid, N2-rich flue gas requires adsorbents that combine extreme CO2/N2 discrimination with robustness under realistic conditions. However, only a few MOFs are able to combine ultrahigh selectivity, humidity tolerance, scalable synthesis, and structural durability. Here, we introduce CALF-20-X (X = Cl or Br) halogentriazolate–oxalate Zn-MOFs and a PVDF composite, integrating these attributes into an ultramicroporous framework. The halogenated Zn-MOFs are obtained by means of solvent-minimized liquid-assisted grinding followed by water-incubation route, producing a highly crystalline material. Halogen functionalization polarizes the triazolate C–H donor, thereby promoting directional C–H···O(CO2) contacts and enhancing electrostatic complementarity, as evidenced by an experimental isosteric heat of adsorption of 48 kJ/mol. Furthermore, this halogen substitution significantly restricts the size of the pore window inhibiting N2 uptake, and leads to the formation of perfectly CO2-fitted pockets. These combined features enabled a CO2 excellent adsorption of 2.89 mmol g–1 at 0.15 bar and 298 K, and CO2/N2 selectivity higher than 4074 for CALF-20-Cl, exceeding leading physisorbent benchmarks. The highly selective CO2 capture was confirmed by dynamic breakthrough experiments performed on a CALF-20-Cl@PVDF composite under humid conditions over numerous cycles, thus demonstrating its robust performance under flue-gas-relevant conditions. Competitive CO2/H2O breakthrough experiments, supported by GCMC simulations, demonstrate that CO2 sorption is favored at 21% relative humidity (RH), resulting in a 56% suppression of water uptake, and even remains competitive at RH &amp;gt; 50% and 318 K, a temperature relevant for carbon capture from point sources. These results highlight halogen-driven structural engineering for regenerable and humidity-tolerant next-generation CO2-selective MOF adsorbents with complete retention of the performance metrics.",
+        "authors": [
+          "Armando Rigamonti",
+          "Jacopo Perego",
+          "Charl X. Bezuidenhout",
+          "Sergio Piva",
+          "Erica Montanari",
+          "Angiolina Comotti",
+          "Silvia Bracco"
+        ],
+        "institutions": [],
+        "published": "2026-11-24",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c13451",
+        "url": "https://doi.org/10.1021/jacs.6c13451",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "crystalline",
+            "material"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "卤化三唑基金属有机框架在潮湿条件下实现超高选择性CO2捕获",
+        "summary_zh": "该研究合成卤代三唑—草酸锌MOF CALF-20-X（X=Cl或Br）及其PVDF复合物，通过卤素功能化极化三唑C–H供体形成CO2适配口袋，CALF-20-Cl在298 K、0.15 bar下CO2吸附量达2.89 mmol g–1，CO2/N2选择性超过4074，并在潮湿条件下经动态穿透实验验证。",
+        "research_details_zh": "研究针对潮湿、富N2烟道气中选择性CO2捕获需兼顾超高CO2/N2选择性、湿度耐受性、可规模化合成和结构耐久性的问题，提出卤代三唑—草酸锌MOF家族CALF-20-X（X=Cl或Br）及PVDF复合物，构建超微孔框架。材料通过溶剂最小化液相辅助研磨后水孵育路线获得，结晶性高。卤素功能化极化三唑C–H供体，促进定向C–H···O(CO2)接触并增强静电互补性，实验等量吸附热为48 kJ/mol；卤素取代显著限制孔窗尺寸抑制N2吸附，形成与CO2完美适配的口袋。CALF-20-Cl在298 K、0.15 bar下CO2吸附量2.89 mmol g–1，CO2/N2选择性高于4074。在潮湿条件下对CALF-20-Cl@PVDF复合物进行多次循环动态穿透实验，并在21%相对湿度下观察到CO2吸附占优、水吸附抑制56%，在RH>50%和318 K下仍具竞争力，GCMC模拟支持竞争吸附结论。",
+        "methods_zh": "摘要明确出现的方法包括：溶剂最小化液相辅助研磨后水孵育路线合成高结晶卤代Zn-MOF；制备CALF-20-Cl@PVDF复合物；测定等量吸附热和吸附等温线；进行CO2/N2选择性评估；在潮湿条件下开展多次循环动态穿透实验；进行竞争性CO2/H2O穿透实验；结合GCMC模拟分析竞争吸附。摘要未报告具体研磨参数、水孵育条件及表征仪器型号。",
+        "relevance_zh": "该工作属于高质量框架材料推荐，展示卤素驱动结构工程在超微孔MOF中同时实现超高CO2/N2选择性、湿度耐受和可规模化合成，对框架材料孔道精细调控与真实工况性能验证具有参考价值。其主题偏向气体分离而非导电或介孔框架，与介孔导电MOF主线关联有限，但孔窗调控与复合物穿透验证方法值得借鉴。",
+        "evidence_note_zh": "本解读仅基于题目和摘要，属于摘要级解读。具体合成参数、晶体结构解析、吸附等温线细节、穿透实验条件及GCMC模拟设置均需查阅全文核查。",
+        "key_findings_zh": [
+          "CALF-20-Cl在298 K、0.15 bar下CO2吸附量达2.89 mmol g–1，CO2/N2选择性高于4074，超过领先物理吸附剂基准",
+          "实验等量吸附热为48 kJ/mol，卤素功能化极化三唑C–H供体促进定向C–H···O(CO2)接触",
+          "在21%相对湿度下CO2吸附占优，水吸附被抑制56%，RH>50%和318 K下仍具竞争力",
+          "CALF-20-Cl@PVDF复合物在潮湿条件下经多次循环动态穿透实验验证稳健性能"
+        ]
+      },
+      {
+        "title": "Thermodynamic–Kinetic Synergy Enables Neon/Helium Separation in an Anion‐Pillared Metal–Organic Framework",
+        "abstract": "ABSTRACT Separating neon (Ne) from helium (He) remains challenging because both gases are chemically inert and weakly interacting, while classical size‐sieving principles predict faster transport for the smaller He atom. Here we address this challenge with the anion‐pillared metal–organic framework (MOF) Ni(4‐DPDS) 2 CrO 4 , whose confined pores combine narrow apertures with electrostatically heterogeneous cavities. This environment provides multiple weak contacts that favor Ne adsorption while producing an inverse diffusional response relative to the expected size trend. At 77 K and 100 kPa, the framework adsorbs 50.63 cm 3 g −1 of Ne but only 0.40 cm 3 g −1 of He in static adsorption, with a kinetic Ne/He selectivity of 113.58. Fixed‐bed experiments afford He with a purity above 99.999%, followed by temperature‐driven recovery of Ne with a purity above 99.7%. The results show that coordinating adsorption thermodynamics with molecular transport offers a route to separating weakly interacting gases beyond equilibrium affinity or classical size sieving alone.",
+        "authors": [
+          "Wenbo Shi",
+          "Fang Zheng",
+          "Chien‐Hsu Chien",
+          "Rundao Chen",
+          "Wei Xia",
+          "Zhijie Zhou",
+          "Qiwei Yang",
+          "Zhiguo Zhang",
+          "Qilong Ren",
+          "Zongbi Bao"
+        ],
+        "institutions": [],
+        "published": "2026-11-24",
+        "journal": "Angewandte Chemie",
+        "doi": "10.1002/ange.1279811",
+        "url": "https://doi.org/10.1002/ange.1279811",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "热力学-动力学协同实现阴离子柱撑金属-有机框架中的氖/氦分离",
+        "summary_zh": "该研究利用阴离子柱撑MOF Ni(4-DPDS)2CrO4的窄孔道与静电异质空腔，在77 K下实现Ne优先吸附并产生反常扩散行为，动力学Ne/He选择性达113.58，固定床获得99.999%以上纯度He及99.7%以上纯度Ne。",
+        "research_details_zh": "研究针对Ne与He化学惰性且相互作用弱、经典尺寸筛分预测较小He原子更快传输而难以分离的问题，采用阴离子柱撑金属-有机框架Ni(4-DPDS)2CrO4作为分离材料。其受限孔道同时具备窄开口和静电异质空腔，提供多重弱接触以 favoring Ne吸附，并产生相对于预期尺寸趋势的反向扩散响应。摘要报告在77 K和100 kPa静态吸附条件下，框架对Ne吸附量为50.63 cm3 g-1，对He仅0.40 cm3 g-1，动力学Ne/He选择性为113.58。固定床实验先获得纯度高于99.999%的He，随后通过温度驱动回收纯度高于99.7%的Ne。该工作表明协调吸附热力学与分子传输可超越平衡亲和力或经典尺寸筛分，为弱相互作用气体分离提供路径。",
+        "methods_zh": "摘要明确涉及静态吸附测试（77 K、100 kPa下测定Ne和He吸附量）、动力学Ne/He选择性评价以及固定床分离实验（获得He纯度并温度驱动回收Ne）。材料为阴离子柱撑MOF Ni(4-DPDS)2CrO4。摘要未报告具体合成步骤、表征手段、动力学测试条件细节及理论计算方法。",
+        "relevance_zh": "该工作属于框架材料在弱相互作用气体分离中的应用，核心价值在于用阴离子柱撑MOF的孔道限域与静电异质环境协同吸附热力学和扩散动力学，突破经典尺寸筛分对Ne/He分离的限制。对介孔导电MOF、共轭框架或自组装/电化学合成主线关联有限，但作为框架材料孔环境设计与分离机制研究具有参考价值。若关注MOF气体分离中的热力学-动力学协同策略，值得全文精读；若仅关注导电或介孔框架，则相关性较低。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。关键细节如MOF的合成与活化条件、静态吸附等温线完整数据、动力学选择性测定方法与条件、固定床实验的床层参数与循环稳定性、理论计算或表征证据等仍需全文核查。",
+        "key_findings_zh": [
+          "在77 K和100 kPa下，Ni(4-DPDS)2CrO4对Ne静态吸附量为50.63 cm3 g-1，对He仅0.40 cm3 g-1。",
+          "动力学Ne/He选择性达到113.58，表现为相对于经典尺寸趋势的反向扩散响应。",
+          "固定床实验获得纯度高于99.999%的He，并经温度驱动回收纯度高于99.7%的Ne。",
+          "窄开口与静电异质空腔提供的多重弱接触有利于Ne吸附，是热力学-动力学协同分离的结构基础。"
+        ]
+      },
+      {
+        "title": "Conformational Locking in Covalent Organic Frameworks Promotes Coupled H 2 O 2 Photosynthesis and Organic Valorization",
+        "abstract": "ABSTRACT Covalent organic frameworks (COFs) offer a compelling platform for coupling photocatalytic hydrogen peroxide (H 2 O 2 ) production with organic valorization. However, the practical efficiency remains limited by rapid electron‐hole recombination. Inspired by the conformational rigidity and planar geometry imposed by peptide bonds, we develop a conformational locking strategy that introduces a fused‐ring linker, which restricts backbone rotation and thereby enhances framework planarity and conjugation, affording a series of COFs (TFPPy‐DATMBP, TFPPy‐DABP, and TFPPy‐DAPy) with progressively improved planarity and conjugation. The conformationally locked TFPPy‐DAPy achieves an impressive H 2 O 2 production rate of 119.8 mmol g −1 h −1 , with an apparent quantum yield up to 29.14% at 410 nm, while delivering a yield of &gt;98% toward the high‐value imine product. Transient absorption spectroscopy reveals that the conformationally locked TFPPy‐DAPy extends the lifetime of the long‐lived charge‐separated state by approximately 10‐fold to 102.87 ps, compared with 10.34 ps for TFPPy‐DATMBP. This work establishes TFPPy‐DAPy as an efficient photocatalyst for fine chemical co‐production, and provides a generalizable molecular‐level design strategy for developing advanced catalysts across diverse photocatalytic applications.",
+        "authors": [
+          "Nana Wang",
+          "Zhiyu Fang",
+          "Junchi Xu",
+          "Yang Shu",
+          "Feng Gao",
+          "Zilong Li",
+          "Aobo Chen",
+          "Yujie Wang",
+          "Jiangyuan Pan",
+          "Guangyu Liu",
+          "Zhiwen Zhuo",
+          "Yangguang Hu",
+          "Yujie Xiong",
+          "Chao Gao"
+        ],
+        "institutions": [],
+        "published": "2026-11-24",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.anie-26-23475",
+        "url": "https://doi.org/10.1002/anie.anie-26-23475",
+        "sources": [
+          "Crossref"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "cofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "共价有机框架中的构象锁定促进耦合的H2O2光合成与有机物增值",
+        "summary_zh": "该研究受肽键构象刚性与平面几何启发，在COF中引入稠环连接体实施构象锁定，限制骨架旋转并增强平面性与共轭，使TFPPy-DAPy的H2O2产率达119.8 mmol g-1 h-1，410 nm表观量子产率29.14%，同时亚胺产物收率超过98%。",
+        "research_details_zh": "研究针对COF光催化中电子-空穴快速复合限制H2O2生产与有机物增值耦合效率的问题，提出构象锁定策略。受肽键赋予的构象刚性和平面几何启发，引入稠环连接体以限制骨架旋转，从而增强框架平面性和共轭性，构建了TFPPy-DATMBP、TFPPy-DABP和TFPPy-DAPy一系列平面性与共轭性逐步提升的COF。其中构象锁定的TFPPy-DAPy实现H2O2产率119.8 mmol g-1 h-1，410 nm处表观量子产率高达29.14%，对高价值亚胺产物收率超过98%。瞬态吸收光谱显示，TFPPy-DAPy将长寿命电荷分离态寿命延长约10倍至102.87 ps，而TFPPy-DATMBP为10.34 ps。该工作确立了TFPPy-DAPy作为精细化学品联产的高效光催化剂，并提供可推广的分子层面设计策略。",
+        "methods_zh": "摘要明确涉及一系列COF（TFPPy-DATMBP、TFPPy-DABP、TFPPy-DAPy）的构建、光催化H2O2生产与有机物增值性能评价（H2O2产率、410 nm表观量子产率、亚胺产物收率）以及瞬态吸收光谱表征电荷分离态寿命。摘要未报告具体合成条件、连接体化学结构细节、光催化反应条件及理论计算方法。",
+        "relevance_zh": "该工作直接属于共轭COF光催化主线，其构象锁定策略通过稠环连接体调控骨架平面性与共轭性，进而延长电荷分离态寿命并提升H2O2光合成与有机物增值耦合效率。对共轭框架的分子层面结构-性能设计具有实际参考价值，定量结果明确，值得全文精读以了解连接体设计、光催化测试条件与电荷动力学证据。与介孔导电MOF或电化学合成主线关联较弱。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。关键细节如COF的合成与表征、稠环连接体的具体结构、光催化反应条件与稳定性、表观量子产率测定方法、瞬态吸收光谱实验条件及电荷分离机制等仍需全文核查。",
+        "key_findings_zh": [
+          "构象锁定的TFPPy-DAPy实现H2O2产率119.8 mmol g-1 h-1，410 nm处表观量子产率最高29.14%。",
+          "TFPPy-DAPy对高价值亚胺产物收率超过98%。",
+          "瞬态吸收光谱表明TFPPy-DAPy的长寿命电荷分离态寿命约延长10倍至102.87 ps，而TFPPy-DATMBP为10.34 ps。",
+          "引入稠环连接体限制骨架旋转、增强平面性与共轭性，是抑制电子-空穴复合的结构-性能关系基础。"
+        ]
+      },
+      {
+        "title": "A Novel Metal‐Hydrogen‐Bonded Organic Framework (M‐HOF) Cathode Material for High‐Performance Lithium–Sulfur Batteries",
+        "abstract": "ABSTRACT Lithium–sulfur (Li–S) batteries (LSBs) are highly promising for next‐generation energy storage devices, yet their practical application is hindered by severe polysulfide shuttling and sluggish sulfur conversion kinetics. Herein, a novel metal‐containing hydrogen‐bonded organic framework (HOF‐21) is constructed and integrated with carbon nanotubes and sulfur as cathode for Li–S batteries. The synergistic combination of hydrogen‐bonding networks and Cu coordination sites enables strong polysulfide anchoring and accelerates sulfur redox conversion. Experimental characterizations and theoretical calculations reveal that the unique framework structure containing metals and rich abundant hydrogen bonds effectively immobilizes soluble lithium polysulfides, while Cu active centers induce interfacial electronic coupling and optimize the thermodynamic conversion pathway of sulfur species. Benefiting from the adsorption–catalysis synergistic regulation, the HOF‐21/CNT@S cathode exhibits enhanced reaction kinetics, suppressed polysulfide migration, and improved interfacial stability. As a result, the assembled HOF‐21/CNT@S battery delivers excellent long‐term cycling stability with a capacity decay rate of only 0.06% per cycle over 500 cycles at 2 C at room temperature. Moreover, it maintains outstanding low‐temperature adaptability, achieving 76.8% capacity retention after 200 cycles at −10°C and 90.6% retention after 200 cycles at −20°C. This work provides a promising strategy for designing advanced cathode materials toward high‐energy‐density Li–S batteries.",
+        "authors": [
+          "Yong Cao",
+          "Kaiyuan Ge",
+          "Meng Zhang",
+          "Rongzheng Li",
+          "Jiazhu Guan",
+          "Yu Liu",
+          "Yuchen Jiang",
+          "Wenping Liu",
+          "Yajuan Zhou",
+          "Lin Chen",
+          "Zhenfeng Li",
+          "Xiaoyi Li",
+          "Liaoyun Zhang"
+        ],
+        "institutions": [],
+        "published": "2026-11-24",
+        "journal": "Angewandte Chemie",
+        "doi": "10.1002/ange.1182005",
+        "url": "https://doi.org/10.1002/ange.1182005",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie"
+        ],
+        "hits": {
+          "framework": [
+            "hof",
+            "hydrogen bonded organic framework",
+            "hydrogen-bonded organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "coordination",
+            "material",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "一种新型金属-氢键有机框架（M-HOF）正极材料用于高性能锂硫电池",
+        "summary_zh": "该研究构建含金属的氢键有机框架HOF-21并与碳纳米管和硫复合用作锂硫电池正极，氢键网络与Cu配位位点协同锚定多硫化物并加速硫 redox 转化，在2 C下500次循环容量衰减率仅0.06%/圈，并展现优异低温适应性。",
+        "research_details_zh": "研究针对锂硫电池中严重的多硫化物穿梭和缓慢硫转化动力学阻碍实际应用的问题，构建了一种新型含金属氢键有机框架HOF-21，并将其与碳纳米管和硫整合作为锂硫电池正极。氢键网络与Cu配位位点的协同作用实现强多硫化物锚定并加速硫 redox 转化。实验表征与理论计算表明，含金属且富含氢键的独特框架结构有效固定可溶性多硫化锂，Cu活性中心诱导界面电子耦合并优化硫物种的热力学转化路径。得益于吸附-催化协同调控，HOF-21/CNT@S正极表现出增强的反应动力学、抑制的多硫化物迁移和改善的界面稳定性。组装的HOF-21/CNT@S电池在室温2 C下500次循环容量衰减率仅0.06%/圈，并保持优异低温适应性，在-10°C下200次循环容量保持率76.8%，在-20°C下200次循环保持率90.6%。",
+        "methods_zh": "摘要明确涉及HOF-21的构建及其与碳纳米管、硫复合正极的制备，锂硫电池组装与电化学性能测试（2 C室温循环500次、-10°C和-20°C低温循环200次），以及实验表征与理论计算用于研究多硫化物锚定和硫转化路径。摘要未报告具体合成条件、表征技术种类、电解液体系及理论计算细节。",
+        "relevance_zh": "该工作属于氢键有机框架在电化学储能中的应用，核心价值在于将金属配位位点引入HOF并与氢键网络协同，实现多硫化物锚定与催化转化，为框架材料作为锂硫电池正极宿主提供设计思路。对HOF/框架材料组装与电化学应用主线有参考价值，定量循环与低温数据明确。若关注框架材料在电池中的吸附-催化协同机制，值得全文精读；与介孔导电MOF或共轭COF光催化主线关联有限。",
+        "evidence_note_zh": "本解读仅依据题目和摘要，属于摘要级解读。关键细节如HOF-21的合成与结构表征、Cu配位环境、复合正极制备工艺、电解液与电池测试条件、理论计算方法及多硫化物锚定/催化机制的直接证据等仍需全文核查。",
+        "key_findings_zh": [
+          "HOF-21/CNT@S电池在室温2 C下500次循环容量衰减率仅0.06%/圈。",
+          "低温性能方面，-10°C下200次循环容量保持率76.8%，-20°C下200次循环保持率90.6%。",
+          "氢键网络与Cu配位位点协同实现强多硫化物锚定并加速硫 redox 转化。",
+          "实验表征与理论计算表明Cu活性中心诱导界面电子耦合并优化硫物种的热力学转化路径。"
+        ]
+      },
+      {
+        "title": "Nanoscale Flexibility Enables Low-Enthalpy Cooperative Water Sorption",
+        "abstract": "Abstract Passive, sorption-based atmospheric water harvesting technologies (AWHTs) have attracted recent interest as an alternative to energy-intensive condensation-based technologies. Metal–organic frameworks (MOFs) offer wide chemical tunability to design sorbents, but in practice, sorbents must retain moisture during humidity fluctuations, and small adsorption enthalpies are necessary for regeneration of the sorbent material. Here, we report that Cu(1,2,3-triazolate)2 nanoparticles with diameters less than 120 nm exhibit structural flexibility at the Cu2+ centers that enables a “breathing”-type cooperative water sorption. This cooperative structural phase change occurs only for nanoparticles that contain Cu2+, and not for the isomorphic magnesium triazolate. The phase change significantly decreases the onset pressures of adsorption and desorption compared to large particles and opens a practically useful hysteresis window in the isotherms, while maintaining small adsorption enthalpies (48 kJ/mol averaged over the isotherm, approaching the 44 kJ/mol latent heat of water at low RH). Mechanistic analysis indicates that adsorption initiates with weak electrostatic and dispersion interactions between water and triazolate rings brought into close proximity only by the distorted Cu2+ centers of the nanoparticles. Together, these results present a distinct water sorption mechanism and design strategy that leverages size- and metal-dependent lattice flexibility in a wide class of porous materials.",
+        "authors": [
+          "Audrey M. Davenport",
+          "Erik Svensson Grape",
+          "Siquan Zhang",
+          "Sahar Bayat",
+          "Kyriaki Koupepidou",
+          "Nao Horike",
+          "Kentaro Kadota",
+          "Ken-Ichi Otake",
+          "Chad Risko",
+          "Satoshi Horike",
+          "Susumu Kitagawa",
+          "Carl K. Brozek"
+        ],
+        "institutions": [],
+        "published": "2026-11-24",
+        "journal": "Journal of the American\nChemical Society",
+        "doi": "10.1021/jacs.6c20688",
+        "url": "https://doi.org/10.1021/jacs.6c20688",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Journal of the American Chemical Society"
+        ],
+        "hits": {
+          "framework": [
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "material",
+            "materials",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "纳米尺度柔性实现低焓协同水吸附",
+        "summary_zh": "该研究报告直径小于120纳米的Cu(1,2,3-三唑)2纳米颗粒在Cu2+中心呈现结构柔性，从而产生“呼吸”型协同水吸附。该协同结构相变仅出现在含Cu2+的纳米颗粒中，同构镁三唑盐中未观察到。相变显著降低吸附与脱附起始压力，在等温线上打开实用滞后窗口，同时维持较小吸附焓（全等温线平均48 kJ/mol，低相对湿度下接近水44 kJ/mol潜热）。",
+        "research_details_zh": "研究针对被动式吸附大气水收集技术中吸附剂需在湿度波动下保持水分、且需小吸附焓以便再生的实际矛盾，以Cu(1,2,3-三唑)2纳米颗粒为材料体系，考察尺寸与金属种类对水吸附行为的影响。设计策略是利用纳米尺度下Cu2+中心的结构柔性触发“呼吸”型协同水吸附。研究过程比较了直径小于120 nm的纳米颗粒与较大颗粒的吸附/脱附等温线，并以同构镁三唑盐作为对照，确认相变对Cu2+的依赖性；同时结合机理分析，提出吸附始于水与三唑环之间的弱静电和色散相互作用，而三唑环的近距离接近仅由纳米颗粒中畸变的Cu2+中心促成。其意义在于提出一种区别于常规孔道调控的水吸附机制与设计策略，即利用尺寸和金属依赖的晶格柔性来调控多孔材料的水吸附行为。",
+        "methods_zh": "摘要明确报告的研究方法包括：合成直径小于120 nm的Cu(1,2,3-三唑)2纳米颗粒，并以同构镁三唑盐及较大颗粒作为对照；测定水吸附/脱附等温线以评估起始压力、滞后窗口和吸附焓；开展机理分析，识别水与三唑环之间的弱静电和色散相互作用以及畸变Cu2+中心的作用。摘要未报告具体的合成条件、表征手段和测试仪器细节。",
+        "relevance_zh": "该工作与介孔/多孔框架材料的水吸附与结构柔性主线直接相关，提供了利用纳米尺度晶格柔性和金属中心畸变调控吸附热力学与滞后行为的设计思路，对框架材料在吸附分离与水收集中的应用有参考价值。但其对象为致密配位聚合物纳米颗粒而非介孔MOF，且摘要未涉及孔结构、电化学或组装内容，与介孔导电MOF、共轭框架及电化学合成主线关联有限。建议作为柔性吸附机制参考阅读，是否全文精读取决于对水吸附滞后与低焓再生设计的兴趣。",
+        "evidence_note_zh": "本解读仅依据提供的题目和摘要，属摘要级解读。摘要未报告具体合成条件、颗粒尺寸分布、表征方法、等温线测试条件、滞后窗口数值范围及机理分析的具体实验证据，上述关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "直径小于120 nm的Cu(1,2,3-三唑)2纳米颗粒在Cu2+中心呈现结构柔性，产生“呼吸”型协同水吸附；该协同结构相变仅见于含Cu2+的纳米颗粒，同构镁三唑盐中未出现。",
+          "该相变相比大颗粒显著降低吸附和脱附的起始压力，并在等温线上形成有实用价值的滞后窗口。",
+          "吸附焓保持较小，全等温线平均为48 kJ/mol，低相对湿度下接近水的44 kJ/mol潜热。",
+          "机理分析表明吸附始于水与三唑环之间的弱静电和色散相互作用，三唑环的近距离接近仅由纳米颗粒中畸变的Cu2+中心促成。"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-23",
     "search_start": "2026-11-21",
     "generated_at": "2026-11-24T14:47:42Z",
@@ -47088,10 +47838,5 @@
         "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
       }
     ]
-  },
-  {
-    "date": "2026-08-16",
-    "generated_at": "2026-08-17T01:59:18Z",
-    "papers": []
   }
 ]
