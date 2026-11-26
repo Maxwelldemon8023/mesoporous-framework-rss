@@ -58,7 +58,8 @@
     "hits": {
       "framework": [
         "cof",
-        "cofs"
+        "cofs",
+        "covalent organic frameworks"
       ],
       "conductive": [
         "conjugated"
@@ -183,6 +184,7 @@
     ],
     "hits": {
       "framework": [
+        "metal-organic frameworks",
         "mof",
         "mofs"
       ],
@@ -294,6 +296,128 @@
     "excluded_hits": [],
     "reading_depth": "摘要",
     "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Interfacial molecular gateway via supramolecular assembly on metal–organic framework for highly selective CO 2 separation",
+    "abstract": "Abstract Adsorptive CO 2 separation from industrial gas offers an energy‐efficient approach for carbon capture, but is restricted by simultaneously achieving high adsorption capacity and selectivity. Herein, we report an interfacial molecular gateway engineering strategy on metal–organic framework that enhances selective CO 2 transport while preserving intrinsic framework porosity. A supramolecular assembly approach was developed to construct a robust imidazolium polymer shell on mesoporous MIL‐101(Cr) through supramolecular interactions, circumventing pore‐blocking limitations commonly encountered in core–shell architectures. Benefiting from synergy between electrostatic and hydrogen‐bonding attractions in the shell and efficient molecular transport in the core, the heterostructure exhibits IAST selectivities of 1029 for CO 2 /N 2 and 97 for CO 2 /CH 4 , while nearly doubling the CO 2 adsorption capacity of MIL‐101(Cr). This enables direct production of high‐purity CO 2 (&gt;99 vol.%) from simulated flue gas and natural gas. This work establishes a versatile interfacial engineering platform for porous frameworks, providing a promising route toward high‐performance adsorbents for industrial gas purification.",
+    "authors": [
+      "Lijuan Shi",
+      "Tian Tu",
+      "Deyun Sun",
+      "Haonan Wu",
+      "Anzhang Li",
+      "Long Yan",
+      "Denian Li",
+      "Qian Ma",
+      "Qun Yi"
+    ],
+    "institutions": [],
+    "published": "2026-11-25",
+    "journal": "AIChE Journal",
+    "doi": "10.1002/aic.70773",
+    "url": "https://doi.org/10.1002/aic.70773",
+    "sources": [
+      "Crossref"
+    ],
+    "arxiv_id": null,
+    "openalex_id": null,
+    "score": 50,
+    "scores": {
+      "topic": 29,
+      "method": 6,
+      "quality": 0,
+      "novelty": 8,
+      "network": 0,
+      "applied": 4,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "standard",
+    "quality_hits": [],
+    "hits": {
+      "framework": [
+        "metal organic framework",
+        "metal-organic framework"
+      ],
+      "conductive": [],
+      "mesoporous": [
+        "mesoporous"
+      ],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "carbon",
+        "mesoporous",
+        "polymer",
+        "porous",
+        "supramolecular"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Terminal Ligand Engineering of Clover‐Shaped Windows in Ligand‐Driven Local Pore‐Space‐Partitioned MOFs for Stepwise Enhancement of Propylene/Ethylene Separation",
+    "abstract": "ABSTRACT Ethylene (C 2 H 4 ) and propylene (C 3 H 6 ) are core chemical feedstocks, and high‐purity products are critical for downstream polymer production. However, existing adsorbents generally suffer from poor compatibility between pores and target gas molecules. Herein, a ligand‐driven pore space partition strategy was proposed, whereby a cage‐like metal‒organic framework (JLU‐MOF113) was constructed through the self‐assembly of a benzothiadiazole‐functionalized ligand and trinuclear iron cluster. In the framework, the oriented thiadiazole rings on the ligands enable local pore space partition, forming clover‐shaped ultramicroporous windows. Taking JLU‐MOF113 as the parent framework, 1,2,4‐triazole (trz) and tetrazole (taz) were successfully introduced to replace coordinated H 2 O based on terminal ligand engineering. While further blocking the pore windows, the pore environment was optimized, resulting in the preparation of isostructural JLU‐MOF114/115. Through such stepwise regulation, the microenvironment of local pores in MOFs was successfully tailored, enabling a stepwise enhancement in separation selectivity for C 3 H 6 /C 2 H 4 mixtures. Among them, JLU‐MOF115 exhibits excellent selectivity that surpasses many known MOFs and can separate 73.8 L/kg −1 of C 2 H 4 with a purity of 99.95% from equimolar C 3 H 6 /C 2 H 4 mixtures. This work enriches MOFs with locally partitioned pore characteristics and provides a novel design strategy for the improvement of gas separation performance in MOFs.",
+    "authors": [
+      "Zhaohui Shi",
+      "Jianyun Li",
+      "Jiantang Li",
+      "Enlong Wang",
+      "Xin Liu",
+      "Thamraa AlShahrani",
+      "Shengqian Ma",
+      "Yunling Liu"
+    ],
+    "institutions": [],
+    "published": "2026-11-24",
+    "journal": "Angewandte Chemie International Edition",
+    "doi": "10.1002/anie.6066111",
+    "url": "https://doi.org/10.1002/anie.6066111",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 49,
+    "scores": {
+      "topic": 18,
+      "method": 6,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 2,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie International Edition"
+    ],
+    "hits": {
+      "framework": [
+        "metal organic framework",
+        "metal-organic framework",
+        "mofs"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [
+        "assembly",
+        "self assembly",
+        "self-assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "polymer"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
     "title": "Boosting DMF Electrosynthesis Over Bifunctional NiCo Catalysts via Methanol‐Supplemented *CHO Supply",
@@ -443,7 +567,8 @@
     "hits": {
       "framework": [
         "cof",
-        "covalent organic framework"
+        "covalent organic framework",
+        "covalent organic frameworks"
       ],
       "conductive": [
         "conjugated",
@@ -458,6 +583,123 @@
     "excluded_hits": [],
     "reading_depth": "摘要",
     "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Conjugation Relay Beyond Local Coordination Rebalances Oxygen Intermediate Binding at Paired Cobalt Sites",
+    "abstract": "Abstract Correlated adsorption of oxygenated intermediates at single-metal sites limits the independent regulation of elementary steps in the oxygen reduction reaction. Herein, we establish a conjugation relay that tunes a structurally conserved cobalt pair through its molecular framework and carbon interface. We construct a pyrolysis-free series comprising a dicobalt complex and two conjugated coordination polymers grown directly on Ketjen Black, progressively extending the π network while retaining comparable Co2N4O2 pockets and cobalt loadings. Microscopy and X-ray absorption spectroscopy support comparable cobalt pairing and local coordination across the series. Comparisons with unsupported counterparts and a physical mixture help distinguish molecular conjugation, direct interfacial coupling, and conductive contact. Spectroscopy and density functional theory calculations show that molecular π extension redistributes charge around the cobalt pair and that carbon coupling amplifies this response. Within the paired pocket, *OOH spans both cobalt centers, whereas *OH remains bound primarily to one center. These distinct geometries cause their adsorption free energies to respond unequally, decreasing the ΔG*OOH – ΔG*OH offset from the 3.13 eV single-site reference to 2.62 eV for the most conjugated supported model. Potential-dependent infrared spectroscopy detects *OOH at more positive potentials as conjugation increases, supporting facilitated formation under reaction conditions. The most conjugated catalyst delivers an iR-corrected half-wave potential of 1.02 V, with only a 13 mV loss after 30,000 cycles. These findings establish conjugation beyond local coordination as a molecular design strategy for relaxing adsorption-energy correlations at multiatom catalytic sites.",
+    "authors": [
+      "Ran Jin",
+      "Jiaojiao Wu",
+      "Yu Xia",
+      "Yanqun Shi",
+      "Ke Zhang",
+      "Sunyang Tian",
+      "Mingjie Wu",
+      "Xun Cui",
+      "Yingkui Yang"
+    ],
+    "institutions": [],
+    "published": "2026-11-23",
+    "journal": "Journal of the American\nChemical Society",
+    "doi": "10.1021/jacs.6c20759",
+    "url": "https://doi.org/10.1021/jacs.6c20759",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 41,
+    "scores": {
+      "topic": 18,
+      "method": 0,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 0,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Journal of the American Chemical Society"
+    ],
+    "hits": {
+      "framework": [
+        "coordination polymers"
+      ],
+      "conductive": [
+        "conductive",
+        "conjugated"
+      ],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": [
+        "carbon",
+        "coordination"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Synergistic Engineering of Oxygen Vacancy‐Modulated and Pd‐Modified Porous N/C Co‐Doped In 2 O 3 Nanocubes for Ppb‐Level Acetone Sensing",
+    "abstract": "ABSTRACT It remains an extremely tough challenge to rationally design sensing materials with integrated three‐dimensional defect engineering, heteroatom doping, and noble metal functionalization for superior selective detection of target gas at low temperature. Herein, nanocubic In 2 O 3 materials with tunable specific surface area, abundant oxygen vacancies, and unique electronic structures were designed by utilizing nitrogen‐doped mesoporous carbon (N‐CMK) as a self‐sacrificing template combined with an in situ assembly method. Remarkably, the Pd/NC‐In 2 O 3 sensor exhibits a high response of 95.1 to 10 ppm acetone with outstanding selectivity and an actual detection limit of 40 ppb at 100°C. The enhanced acetone sensing properties of the sensor are due to a synergistic mechanism including a unique heterogeneous N‐Pd‐O electron bridge, oxygen vacancy modulation, and specialized surface adsorption‐desorption characteristics, as well as heterojunction‐driven modulation. Besides, a wireless gas sensor based on Pd/NC‐In 2 O 3 material has been designed for effective and rapid acetone detection. This work presents an innovative strategy for rationally designing sensing materials capable of achieving highly sensitive and selective acetone detection and demonstrates considerable potential for the development of wireless real‐time gas sensors suitable for complex environmental monitoring in various fields.",
+    "authors": [
+      "Xiangdong Cao",
+      "Cong Xiao",
+      "Xinyue Liu",
+      "Suwan Li",
+      "Tianwen Dong",
+      "Wen Zheng",
+      "Jinping Jiang",
+      "Qiuyun Fu"
+    ],
+    "institutions": [],
+    "published": "2026-11-23",
+    "journal": "Advanced Functional Materials",
+    "doi": "10.1002/adfm.79885",
+    "url": "https://doi.org/10.1002/adfm.79885",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 41,
+    "scores": {
+      "topic": 12,
+      "method": 6,
+      "quality": 8,
+      "novelty": 8,
+      "network": 0,
+      "applied": 4,
+      "archive": 3,
+      "penalty": 0
+    },
+    "quality_tier": "strong",
+    "quality_hits": [
+      "Advanced Functional Materials"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [
+        "mesoporous"
+      ],
+      "assembly": [
+        "assembly"
+      ],
+      "electrochemical": [],
+      "materials": [
+        "carbon",
+        "material",
+        "materials",
+        "mesoporous",
+        "porous"
+      ]
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
     "title": "Programmable Stepped Homojunction COF Membranes for High‑Efficiency Light‑Driven Ion Pumping via Photo‐Conformational Coupling",
@@ -525,6 +767,58 @@
     "excluded_hits": [],
     "reading_depth": "摘要",
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
+  },
+  {
+    "title": "Revealing Oxidation‐State‐Dependent Selectivity in Urea Electrosynthesis Over Stabilized Co/CoO x Surfaces",
+    "abstract": "ABSTRACT Electrocatalytic upgrading of CO 2 and nitrogen wastes offers a sustainable route for urea synthesis, yet its selectivity is limited by competing parallel reactions and operando catalyst reconstruction. Here, using cobalt‐based model catalysts, we demonstrate that product partitioning among competing pathways can be selectively directed by metallic and oxidized cobalt phases. By introducing oxophilic Cr 3+ to retard cathodic over‐reduction of cobalt oxides, we stabilize a non‐equilibrium Co/CoO x surface under working conditions. The optimized Co@CoO x ‐Cr 1 catalyst achieves a urea Faradaic efficiency of 40.1 ± 1.1% and a yield rate of 102.27 ± 3.31 mmol h −1 g cat −1 under pressurized CO 2 at −0.3 V vs. RHE. In situ spectroscopy and theoretical calculations support a proposed oxidation‐state‐dependent relay mechanism in which metallic Co favors CO 2 ‐to‐*CO conversion, stabilized CoO x motifs may promote *NH 2 formation, and their interface is inferred to facilitate *CO─*NH 2 coupling for urea formation. This work identifies the controlled stabilization of coexisting phases with distinct oxidation states as a strategy for steering selectivity in multi‐reactant electrocatalysis.",
+    "authors": [
+      "Leting Zhang",
+      "Yunhang Fan",
+      "Mingyan Wang",
+      "Jinhan Guo",
+      "Xiaolong Liang",
+      "Huimin Gao",
+      "Qing Qin",
+      "Lehui Lu",
+      "Wenhui He"
+    ],
+    "institutions": [],
+    "published": "2026-11-25",
+    "journal": "Angewandte Chemie International Edition",
+    "doi": "10.1002/anie.3924924",
+    "url": "https://doi.org/10.1002/anie.3924924",
+    "sources": [
+      "Crossref journal watch"
+    ],
+    "score": 37,
+    "scores": {
+      "topic": 6,
+      "method": 5,
+      "quality": 15,
+      "novelty": 6,
+      "network": 0,
+      "applied": 3,
+      "archive": 2,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie International Edition"
+    ],
+    "hits": {
+      "framework": [],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [
+        "electrosynthesis"
+      ],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "同时命中电化学合成，建议优先检查其合成路径与孔结构证据。"
   },
   {
     "title": "Supramolecular Iron(II)‐Anchored Porphyrin Glycoassemblies Enable Galectin‐Targeted Photodynamic Therapy",
@@ -1016,21 +1310,25 @@
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Structural basis of RNA-guided DNA integration by type I CAST systems",
-    "abstract": "Abstract CRISPR-associated transposases (CASTs) achieve site-specific DNA integration by combining the RNA-guided targeting action of a nuclease-deficient CRISPR–Cas system with the assembly of a Tn7-like transpososome complex 1,2 . Understanding the detailed mechanisms of this elaborate process is paramount to engineering CAST systems into programmable genetic tools 3–6 . Type I-F Pseudoalteromonas CAST ( Pse CAST) shows the highest activity in mammalian cells so far 7 and has been adapted extensively through directed evolution 8 . However, its continued rational engineering requires addressing critical gaps in our understanding of transpososome assembly and activation 9 . Here we perform structural analyses using cryogenic electron microscopy, validated by DNA transposition assays, to visualize the Pse CAST system in a series of functional states that define the stepwise mechanism of RNA-guided DNA integration. The structures of the Pse CAST targeting and transposase recruitment complexes revealed that conformational changes in the Cascade–TniQ module, induced by R-loop formation, are associated with target-DNA stabilization and TnsC heptamerization. This, in turn, results in the recruitment of the TnsAB transposase by conserved interactions with the carboxy-terminal tail of TnsB. Finally, the structure of the 1.2 MDa Pse CAST transpososome holocomplex revealed allosteric coupling of TnsC–TnsB and TnsB–target-DNA interactions to the conformational remodelling of the TnsB catalytic site, activating donor-DNA integration. Together, these findings establish a unified mechanistic blueprint for RNA-guided DNA integration by type I CASTs and provide a structural framework to guide their engineering for genome-editing applications.",
+    "title": "Transcription from megabase-scale heterochromatin generates neural barcodes",
+    "abstract": "Abstract Heterochromatin typically represses genes 1,2 , yet some genes paradoxically require it for activation 3–7 . How can the same chromatin environment both silence and promote transcription? Here we address this question by interrogating the clustered protocadherin (Pcdh) locus, where subsets of genes are stochastically expressed while most remain silent 8 . In neurons, stochastic and combinatorial expression of Pcdh genes generates unique cell-surface barcodes required for self–non-self discrimination and neural circuit assembly 8 . By combining RNA labelling of Pcdh genes and neurodevelopmental cell types with single-molecule chromatin tracing and stochastic optical reconstruction microscopy, we find that a compact heterochromatin domain containing Pcdh genes forms as these genes become activated during development. Pcdh transcription occurs within the compact domain and reads through downstream genes, and distal enhancers must access the domain to engage target promoters. Genetic perturbations in mice suggest that opposing genome folding forces cooperate to establish Pcdh locus architecture and promote stochastic Pcdh expression. Specifically, while DNA loop extrusion allows enhancers to breach heterochromatin and find target promoters, heterochromatin-driven compartmentalization supports an expanded enhancer–promoter search space. These findings shed light on a process foundational to the development of vertebrate nervous systems and suggest a mechanism for how transcription can occur within seemingly silent chromatin environments.",
     "authors": [
-      "Giada Finocchio",
-      "Seraina Oberli",
-      "George D. Lampe",
-      "Michael Schmitz",
-      "Samuel H. Sternberg",
-      "Martin Jinek"
+      "Alex Buckley",
+      "Carlo Vetralla",
+      "Brendan Rose",
+      "Jash Gada",
+      "Gabrielle Servito",
+      "Antonina Hafner",
+      "Sedona Murphy",
+      "Michael Mui",
+      "Alistair Nicol Boettiger",
+      "Daniele Canzio"
     ],
     "institutions": [],
     "published": "2026-11-25",
     "journal": "Nature",
-    "doi": "10.1038/s41586-026-11196-x",
-    "url": "https://doi.org/10.1038/s41586-026-11196-x",
+    "doi": "10.1038/s41586-026-11311-y",
+    "url": "https://doi.org/10.1038/s41586-026-11311-y",
     "sources": [
       "Crossref journal watch"
     ],
@@ -1065,25 +1363,21 @@
     "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Transcription from megabase-scale heterochromatin generates neural barcodes",
-    "abstract": "Abstract Heterochromatin typically represses genes 1,2 , yet some genes paradoxically require it for activation 3–7 . How can the same chromatin environment both silence and promote transcription? Here we address this question by interrogating the clustered protocadherin (Pcdh) locus, where subsets of genes are stochastically expressed while most remain silent 8 . In neurons, stochastic and combinatorial expression of Pcdh genes generates unique cell-surface barcodes required for self–non-self discrimination and neural circuit assembly 8 . By combining RNA labelling of Pcdh genes and neurodevelopmental cell types with single-molecule chromatin tracing and stochastic optical reconstruction microscopy, we find that a compact heterochromatin domain containing Pcdh genes forms as these genes become activated during development. Pcdh transcription occurs within the compact domain and reads through downstream genes, and distal enhancers must access the domain to engage target promoters. Genetic perturbations in mice suggest that opposing genome folding forces cooperate to establish Pcdh locus architecture and promote stochastic Pcdh expression. Specifically, while DNA loop extrusion allows enhancers to breach heterochromatin and find target promoters, heterochromatin-driven compartmentalization supports an expanded enhancer–promoter search space. These findings shed light on a process foundational to the development of vertebrate nervous systems and suggest a mechanism for how transcription can occur within seemingly silent chromatin environments.",
+    "title": "Structural basis of RNA-guided DNA integration by type I CAST systems",
+    "abstract": "Abstract CRISPR-associated transposases (CASTs) achieve site-specific DNA integration by combining the RNA-guided targeting action of a nuclease-deficient CRISPR–Cas system with the assembly of a Tn7-like transpososome complex 1,2 . Understanding the detailed mechanisms of this elaborate process is paramount to engineering CAST systems into programmable genetic tools 3–6 . Type I-F Pseudoalteromonas CAST ( Pse CAST) shows the highest activity in mammalian cells so far 7 and has been adapted extensively through directed evolution 8 . However, its continued rational engineering requires addressing critical gaps in our understanding of transpososome assembly and activation 9 . Here we perform structural analyses using cryogenic electron microscopy, validated by DNA transposition assays, to visualize the Pse CAST system in a series of functional states that define the stepwise mechanism of RNA-guided DNA integration. The structures of the Pse CAST targeting and transposase recruitment complexes revealed that conformational changes in the Cascade–TniQ module, induced by R-loop formation, are associated with target-DNA stabilization and TnsC heptamerization. This, in turn, results in the recruitment of the TnsAB transposase by conserved interactions with the carboxy-terminal tail of TnsB. Finally, the structure of the 1.2 MDa Pse CAST transpososome holocomplex revealed allosteric coupling of TnsC–TnsB and TnsB–target-DNA interactions to the conformational remodelling of the TnsB catalytic site, activating donor-DNA integration. Together, these findings establish a unified mechanistic blueprint for RNA-guided DNA integration by type I CASTs and provide a structural framework to guide their engineering for genome-editing applications.",
     "authors": [
-      "Alex Buckley",
-      "Carlo Vetralla",
-      "Brendan Rose",
-      "Jash Gada",
-      "Gabrielle Servito",
-      "Antonina Hafner",
-      "Sedona Murphy",
-      "Michael Mui",
-      "Alistair Nicol Boettiger",
-      "Daniele Canzio"
+      "Giada Finocchio",
+      "Seraina Oberli",
+      "George D. Lampe",
+      "Michael Schmitz",
+      "Samuel H. Sternberg",
+      "Martin Jinek"
     ],
     "institutions": [],
     "published": "2026-11-25",
     "journal": "Nature",
-    "doi": "10.1038/s41586-026-11311-y",
-    "url": "https://doi.org/10.1038/s41586-026-11311-y",
+    "doi": "10.1038/s41586-026-11196-x",
+    "url": "https://doi.org/10.1038/s41586-026-11196-x",
     "sources": [
       "Crossref journal watch"
     ],
@@ -1454,7 +1748,8 @@
     ],
     "hits": {
       "framework": [
-        "cofs"
+        "cofs",
+        "covalent organic frameworks"
       ],
       "conductive": [],
       "mesoporous": [],
@@ -1528,63 +1823,6 @@
     "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。"
   },
   {
-    "title": "Thermodynamic–Kinetic Synergy Enables Neon/Helium Separation in an Anion‐Pillared Metal–Organic Framework",
-    "abstract": "ABSTRACT Separating neon (Ne) from helium (He) remains challenging because both gases are chemically inert and weakly interacting, while classical size‐sieving principles predict faster transport for the smaller He atom. Here we address this challenge with the anion‐pillared metal–organic framework (MOF) Ni(4‐DPDS) 2 CrO 4 , whose confined pores combine narrow apertures with electrostatically heterogeneous cavities. This environment provides multiple weak contacts that favor Ne adsorption while producing an inverse diffusional response relative to the expected size trend. At 77 K and 100 kPa, the framework adsorbs 50.63 cm 3 g −1 of Ne but only 0.40 cm 3 g −1 of He in static adsorption, with a kinetic Ne/He selectivity of 113.58. Fixed‐bed experiments afford He with a purity above 99.999%, followed by temperature‐driven recovery of Ne with a purity above 99.7%. The results show that coordinating adsorption thermodynamics with molecular transport offers a route to separating weakly interacting gases beyond equilibrium affinity or classical size sieving alone.",
-    "authors": [
-      "Wenbo Shi",
-      "Fang Zheng",
-      "Chien‐Hsu Chien",
-      "Rundao Chen",
-      "Wei Xia",
-      "Zhijie Zhou",
-      "Qiwei Yang",
-      "Zhiguo Zhang",
-      "Qilong Ren",
-      "Zongbi Bao"
-    ],
-    "institutions": [],
-    "published": "2026-11-24",
-    "journal": "Angewandte Chemie",
-    "doi": "10.1002/ange.1279811",
-    "url": "https://doi.org/10.1002/ange.1279811",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 32,
-    "scores": {
-      "topic": 12,
-      "method": 0,
-      "quality": 15,
-      "novelty": 4,
-      "network": 0,
-      "applied": 0,
-      "archive": 1,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Angewandte Chemie"
-    ],
-    "hits": {
-      "framework": [
-        "metal organic framework",
-        "metal-organic framework",
-        "mof"
-      ],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": []
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。"
-  },
-  {
     "title": "A Novel Metal‐Hydrogen‐Bonded Organic Framework (M‐HOF) Cathode Material for High‐Performance Lithium–Sulfur Batteries",
     "abstract": "ABSTRACT Lithium–sulfur (Li–S) batteries (LSBs) are highly promising for next‐generation energy storage devices, yet their practical application is hindered by severe polysulfide shuttling and sluggish sulfur conversion kinetics. Herein, a novel metal‐containing hydrogen‐bonded organic framework (HOF‐21) is constructed and integrated with carbon nanotubes and sulfur as cathode for Li–S batteries. The synergistic combination of hydrogen‐bonding networks and Cu coordination sites enables strong polysulfide anchoring and accelerates sulfur redox conversion. Experimental characterizations and theoretical calculations reveal that the unique framework structure containing metals and rich abundant hydrogen bonds effectively immobilizes soluble lithium polysulfides, while Cu active centers induce interfacial electronic coupling and optimize the thermodynamic conversion pathway of sulfur species. Benefiting from the adsorption–catalysis synergistic regulation, the HOF‐21/CNT@S cathode exhibits enhanced reaction kinetics, suppressed polysulfide migration, and improved interfacial stability. As a result, the assembled HOF‐21/CNT@S battery delivers excellent long‐term cycling stability with a capacity decay rate of only 0.06% per cycle over 500 cycles at 2 C at room temperature. Moreover, it maintains outstanding low‐temperature adaptability, achieving 76.8% capacity retention after 200 cycles at −10°C and 90.6% retention after 200 cycles at −20°C. This work provides a promising strategy for designing advanced cathode materials toward high‐energy‐density Li–S batteries.",
     "authors": [
@@ -1650,6 +1888,61 @@
     "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。"
   },
   {
+    "title": "Thermodynamic–Kinetic Synergy Enables Neon/Helium Separation in an Anion‐Pillared Metal–Organic Framework",
+    "abstract": "ABSTRACT Separating neon (Ne) from helium (He) remains challenging because both gases are chemically inert and weakly interacting, while classical size‐sieving principles predict faster transport for the smaller He atom. Here we address this challenge with the anion‐pillared metal–organic framework (MOF) Ni(4‐DPDS) 2 CrO 4 , whose confined pores combine narrow apertures with electrostatically heterogeneous cavities. This environment provides multiple weak contacts that favor Ne adsorption while producing an inverse diffusional response relative to the expected size trend. At 77 K and 100 kPa, the framework adsorbs 50.63 cm 3 g −1 of Ne but only 0.40 cm 3 g −1 of He in static adsorption, with a kinetic Ne/He selectivity of 113.58. Fixed‐bed experiments afford He with a purity above 99.999%, followed by temperature‐driven recovery of Ne with a purity above 99.7%. The results show that coordinating adsorption thermodynamics with molecular transport offers a route to separating weakly interacting gases beyond equilibrium affinity or classical size sieving alone.",
+    "authors": [
+      "Wenbo Shi",
+      "Fang Zheng",
+      "Chien‐Hsu Chien",
+      "Rundao Chen",
+      "Wei Xia",
+      "Zhijie Zhou",
+      "Qiwei Yang",
+      "Zhiguo Zhang",
+      "Qilong Ren",
+      "Zongbi Bao"
+    ],
+    "institutions": [],
+    "published": "2026-11-24",
+    "journal": "Angewandte Chemie",
+    "doi": "10.1002/ange.1279811",
+    "url": "https://doi.org/10.1002/ange.1279811",
+    "sources": [
+      "Crossref"
+    ],
+    "score": 32,
+    "scores": {
+      "topic": 12,
+      "method": 0,
+      "quality": 15,
+      "novelty": 4,
+      "network": 0,
+      "applied": 0,
+      "archive": 1,
+      "penalty": 0
+    },
+    "quality_tier": "premium",
+    "quality_hits": [
+      "Angewandte Chemie"
+    ],
+    "hits": {
+      "framework": [
+        "metal organic framework",
+        "metal-organic framework",
+        "mof"
+      ],
+      "conductive": [],
+      "mesoporous": [],
+      "assembly": [],
+      "electrochemical": [],
+      "materials": []
+    },
+    "network_hits": [],
+    "excluded_hits": [],
+    "reading_depth": "摘要",
+    "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。"
+  },
+  {
     "title": "Nanoscale Flexibility Enables Low-Enthalpy Cooperative Water Sorption",
     "abstract": "Abstract Passive, sorption-based atmospheric water harvesting technologies (AWHTs) have attracted recent interest as an alternative to energy-intensive condensation-based technologies. Metal–organic frameworks (MOFs) offer wide chemical tunability to design sorbents, but in practice, sorbents must retain moisture during humidity fluctuations, and small adsorption enthalpies are necessary for regeneration of the sorbent material. Here, we report that Cu(1,2,3-triazolate)2 nanoparticles with diameters less than 120 nm exhibit structural flexibility at the Cu2+ centers that enables a “breathing”-type cooperative water sorption. This cooperative structural phase change occurs only for nanoparticles that contain Cu2+, and not for the isomorphic magnesium triazolate. The phase change significantly decreases the onset pressures of adsorption and desorption compared to large particles and opens a practically useful hysteresis window in the isotherms, while maintaining small adsorption enthalpies (48 kJ/mol averaged over the isotherm, approaching the 44 kJ/mol latent heat of water at low RH). Mechanistic analysis indicates that adsorption initiates with weak electrostatic and dispersion interactions between water and triazolate rings brought into close proximity only by the distorted Cu2+ centers of the nanoparticles. Together, these results present a distinct water sorption mechanism and design strategy that leverages size- and metal-dependent lattice flexibility in a wide class of porous materials.",
     "authors": [
@@ -1691,6 +1984,7 @@
     ],
     "hits": {
       "framework": [
+        "metal-organic frameworks",
         "mofs"
       ],
       "conductive": [],
@@ -1761,7 +2055,8 @@
     "hits": {
       "framework": [
         "cof",
-        "cofs"
+        "cofs",
+        "covalent organic frameworks"
       ],
       "conductive": [],
       "mesoporous": [],
@@ -1817,7 +2112,8 @@
     ],
     "hits": {
       "framework": [
-        "hof"
+        "hof",
+        "hydrogen-bonded organic frameworks"
       ],
       "conductive": [],
       "mesoporous": [],
@@ -1869,7 +2165,8 @@
     ],
     "hits": {
       "framework": [
-        "hof"
+        "hof",
+        "hydrogen-bonded organic frameworks"
       ],
       "conductive": [],
       "mesoporous": [],
@@ -2139,6 +2436,7 @@
     "quality_hits": [],
     "hits": {
       "framework": [
+        "metal-organic frameworks",
         "mof",
         "mofs",
         "reticular chemistry"
@@ -2568,62 +2866,6 @@
     "recommendation": "同时命中介孔化、导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
   },
   {
-    "title": "Conjugation Relay Beyond Local Coordination Rebalances Oxygen Intermediate Binding at Paired Cobalt Sites",
-    "abstract": "Abstract Correlated adsorption of oxygenated intermediates at single-metal sites limits the independent regulation of elementary steps in the oxygen reduction reaction. Herein, we establish a conjugation relay that tunes a structurally conserved cobalt pair through its molecular framework and carbon interface. We construct a pyrolysis-free series comprising a dicobalt complex and two conjugated coordination polymers grown directly on Ketjen Black, progressively extending the π network while retaining comparable Co2N4O2 pockets and cobalt loadings. Microscopy and X-ray absorption spectroscopy support comparable cobalt pairing and local coordination across the series. Comparisons with unsupported counterparts and a physical mixture help distinguish molecular conjugation, direct interfacial coupling, and conductive contact. Spectroscopy and density functional theory calculations show that molecular π extension redistributes charge around the cobalt pair and that carbon coupling amplifies this response. Within the paired pocket, *OOH spans both cobalt centers, whereas *OH remains bound primarily to one center. These distinct geometries cause their adsorption free energies to respond unequally, decreasing the ΔG*OOH – ΔG*OH offset from the 3.13 eV single-site reference to 2.62 eV for the most conjugated supported model. Potential-dependent infrared spectroscopy detects *OOH at more positive potentials as conjugation increases, supporting facilitated formation under reaction conditions. The most conjugated catalyst delivers an iR-corrected half-wave potential of 1.02 V, with only a 13 mV loss after 30,000 cycles. These findings establish conjugation beyond local coordination as a molecular design strategy for relaxing adsorption-energy correlations at multiatom catalytic sites.",
-    "authors": [
-      "Ran Jin",
-      "Jiaojiao Wu",
-      "Yu Xia",
-      "Yanqun Shi",
-      "Ke Zhang",
-      "Sunyang Tian",
-      "Mingjie Wu",
-      "Xun Cui",
-      "Yingkui Yang"
-    ],
-    "institutions": [],
-    "published": "2026-11-23",
-    "journal": "Journal of the American\nChemical Society",
-    "doi": "10.1021/jacs.6c20759",
-    "url": "https://doi.org/10.1021/jacs.6c20759",
-    "sources": [
-      "Crossref journal watch"
-    ],
-    "score": 29,
-    "scores": {
-      "topic": 6,
-      "method": 0,
-      "quality": 15,
-      "novelty": 6,
-      "network": 0,
-      "applied": 0,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "premium",
-    "quality_hits": [
-      "Journal of the American Chemical Society"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [
-        "conductive",
-        "conjugated"
-      ],
-      "mesoporous": [],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": [
-        "carbon",
-        "coordination"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
     "title": "Metal–Backboned Architectures Enable Magneto–Spin–Charge Engineering for High–Performance Li–CO 2 Batteries",
     "abstract": "ABSTRACT Simultaneous CO 2 conversion and high–energy–density energy storage are urgently needed for sustainable energy systems where Li–CO 2 batteries provide an ideal solution, yet their practical implementation is hindered by sluggish CO 2 redox kinetics. Emerging metal–backboned molecules, which contain numerous metal atoms as catalytically active sites, are expected to accelerate CO 2 reduction reaction kinetics due to their unique architectures and properties. Herein, we report a novel mixed–valence cobalt–backboned polymer with effective spin manipulation as an efficient electrocatalyst and conductive scaffold for Li–CO 2 batteries, which enables a low overpotential of 1.06 V and outstanding stable cycling over 2700 h. An external magnetic field drives Co centers from low–spin to high–spin configuration and enhances intermetallic intervalence charge transfer, synergistically strengthening CO 2 adsorption and activation by increasing unpaired electron orbital occupancy and facilitating electron transfer to CO 2 antibonding orbitals. This work establishes metal–backboned architectures as a versatile platform for spin–charge cooperative engineering, opening a new avenue for kinetically accelerated next–generation energy storage systems.",
     "authors": [
@@ -2732,238 +2974,5 @@
     "excluded_hits": [],
     "reading_depth": "摘要",
     "recommendation": "同时命中导电/共轭框架，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Corona-Length Dependence of Equilibrium Fusion and Fragmentation Energy Barriers in Block Copolymer Micelles",
-    "abstract": "Abstract Fusion and fragmentation are intrinsic dynamic pathways in block copolymer micelles, governing both structural transformations and the transport of solubilized molecules. Yet, how the macromolecular architecture controls their energetic barriers remains poorly understood. In particular, while the influence of the core-forming block has been investigated, the contribution of the corona remains less explored, especially for fusion under equilibrium conditions. Here, this contribution is examined by quantifying equilibrium fusion and fragmentation kinetics in aqueous Pluronic PEO–PPO–PEO micelles from the time-resolved intermicellar exchange of an extremely hydrophobic fluorescent probe. A systematic series of copolymers with comparable PPO block lengths and PEO blocks spanning approximately 17–140 EO units was examined in the spherical-micelle regime and combined with previously reported data for copolymers spanning a broader range of PPO block lengths. Increasing the corona length produces only weak changes in both fusion and fragmentation rates, in marked contrast to the much stronger dependence on core length. The apparent activation energies for fusion and fragmentation are remarkably similar in magnitude and exhibit closely related dependences on block architecture. For both processes, this dependence is described by a common scaling form, ΔEapp ∝ NcoreaNcoronab, with a ≈ 1.3–2 and b close to zero. These results demonstrate that the energetic cost of equilibrium fusion and fragmentation is governed predominantly by the micellar core.",
-    "authors": [
-      "Yahya Rharbi",
-      "Gabriel Landázuri-Gómez",
-      "Víctor Vladimir Fernández-Escamilla",
-      "J. Félix Armando Soltero-Martínez"
-    ],
-    "institutions": [],
-    "published": "2026-11-25",
-    "journal": "Macromolecules",
-    "doi": "10.1021/acs.macromol.6c02536",
-    "url": "https://doi.org/10.1021/acs.macromol.6c02536",
-    "sources": [
-      "Crossref"
-    ],
-    "score": 28,
-    "scores": {
-      "topic": 6,
-      "method": 4,
-      "quality": 8,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "strong",
-    "quality_hits": [
-      "Macromolecules"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [],
-      "assembly": [
-        "block copolymer",
-        "micelle"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "copolymer",
-        "micelle"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Antimetastatic Sulfonate-Functionalized Mesoporous Silica Nanoparticles Enhance Irinotecan Stability and Delivery for Colorectal Cancer Treatment",
-    "abstract": "Metastatic colorectal cancer (mCRC) remains a leading cause of cancer-related mortality, with irinotecan (IRI) serving as a backbone chemotherapeutic despite its dose-limiting toxicities, instability of the active lactone form, and lack of intrinsic antimetastatic activity. To overcome these barriers, we developed sulfonate-functionalized mesoporous silica nanoparticles (MSNs), referred to as (SO3–)-MSN-PEG/TA, as a multifunctional nanocarrier for IRI delivery. This nanoformulation markedly enhanced drug loading efficiency and preserved over 90% of IRI in its lactone form for up to six months, enabling sustained release and improved pharmacological stability. In vitro studies demonstrated efficient nanoparticle internalization, while IRI@(SO3–)-MSN-PEG/TA enhanced apoptosis and reduced the IC50 compared with free IRI. Beyond drug delivery, (SO3–)-MSN-PEG/TA exhibited intrinsic antimetastatic activity associated with modulation of focal adhesion kinase/paxillin signaling and impaired tumor cell adhesion and migration. The nanoparticles also exhibited efficient tumor accumulation through the enhanced permeability and retention effect. Pharmacokinetic analysis further revealed that IRI@(SO3–)-MSN-PEG/TA prolonged systemic retention, maintaining approximately threefold higher IRI plasma concentrations than free IRI. IRI@(SO3–)-MSN-PEG/TA significantly inhibited both primary tumor growth and metastatic dissemination in orthotopic and heterotopic colorectal cancer models, while markedly reducing systemic toxicities and preserving bone marrow cellularity relative to free IRI and liposomal IRI (Onivyde). Transcriptomic profiling further revealed attenuation of extracellular matrix/mesenchymal remodeling and hypoxia/vascular-associated programs, providing molecular support for the observed antimetastatic phenotype. Consistently, reduced vascular endothelial growth factor expression and tumor-associated angiogenesis were observed in the chorioallantoic membrane model. Tumor immune-cell profiling was also performed to assess potential changes in major tumor-associated immune-cell populations. This dual-functional nanomedicine therefore provides an innovative therapeutic strategy that not only augments IRI efficacy but also confers metastasis suppression and favorable pharmacokinetics, addressing critical unmet needs in mCRC treatment. These findings highlight the translational potential of IRI@(SO3–)-MSN-PEG/TA as a safer and more effective therapeutic strategy for mCRC.",
-    "authors": [
-      "Zih-An Chen",
-      "Cheng‐Hsun Wu",
-      "Cong-Kai Lin",
-      "Li Xu",
-      "Rong-Lin Zhang",
-      "Ting-Chung Sun",
-      "Dai-Wen Li",
-      "Chung‐Yuan Mou",
-      "Peilin Chen",
-      "Si‐Han Wu",
-      "Yi‐Ping Chen"
-    ],
-    "institutions": [
-      "Taipei Medical University",
-      "Academia Sinica",
-      "Fountain Biopharma (Taiwan)",
-      "Taipei Medical University",
-      "Taipei Medical University",
-      "Fountain Biopharma (Taiwan)",
-      "Fountain Biopharma (Taiwan)",
-      "Fountain Biopharma (Taiwan)",
-      "National Taiwan University",
-      "Fountain Biopharma (Taiwan)",
-      "Taipei Medical University",
-      "Academia Sinica",
-      "Taipei Medical University",
-      "Taipei Medical University"
-    ],
-    "published": "2026-11-24",
-    "journal": "ACS Applied Materials & Interfaces",
-    "doi": "10.1021/acsami.6c19714",
-    "openalex_id": "https://openalex.org/W4416803494",
-    "url": "https://doi.org/10.1021/acsami.6c19714",
-    "sources": [
-      "OpenAlex"
-    ],
-    "score": 28,
-    "scores": {
-      "topic": 6,
-      "method": 4,
-      "quality": 8,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "strong",
-    "quality_hits": [
-      "ACS Applied Materials & Interfaces"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [
-        "mesoporous"
-      ],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": [
-        "membrane",
-        "mesoporous",
-        "nanoparticle",
-        "silica"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Multifunctional Mesoporous Bioactive Glass Nanoparticles Promote Osteogenesis via Immunomodulation",
-    "abstract": "Abstract Mesoporous bioactive glass (MBG) is a promising biomaterial for bone-defect repair. However, MBG lacks an immunomodulatory capability, which is vital for effective bone regeneration, thus limiting its clinical application. Herein, MBG grafted with mannose (MBG-g-Man) was designed to target and interact with macrophages via the recognition of the mannose receptor (CD206) and promote M2 polarization. In vitro experiments demonstrated that MBG-g-Man exhibits excellent biocompatibility, precise macrophage targeting, and efficient cellular uptake while also recruiting and polarizing macrophages toward the M2 phenotype. Furthermore, osteogenic differentiation assays revealed that the ALP activity of MBG-g-Man was 157.89 units/L, which is much higher than that of MBG (127.85 units/L), demonstrating that MBG-g-Man may be an effective bone regeneration material. This research may provide a promising strategy for designing functional biomaterials for bone tissue engineering and regenerative medicine.",
-    "authors": [
-      "Yangqing Chen",
-      "Haiyan Yao",
-      "Yuqing Cao",
-      "Xuan Yan",
-      "Yuan Fan",
-      "Junchao Wei"
-    ],
-    "institutions": [],
-    "published": "2026-11-24",
-    "journal": "Langmuir",
-    "doi": "10.1021/acs.langmuir.6c04991",
-    "url": "https://doi.org/10.1021/acs.langmuir.6c04991",
-    "sources": [
-      "Crossref"
-    ],
-    "arxiv_id": null,
-    "openalex_id": null,
-    "score": 28,
-    "scores": {
-      "topic": 6,
-      "method": 4,
-      "quality": 8,
-      "novelty": 6,
-      "network": 0,
-      "applied": 2,
-      "archive": 2,
-      "penalty": 0
-    },
-    "quality_tier": "strong",
-    "quality_hits": [
-      "Langmuir"
-    ],
-    "hits": {
-      "framework": [],
-      "conductive": [],
-      "mesoporous": [
-        "mesoporous"
-      ],
-      "assembly": [],
-      "electrochemical": [],
-      "materials": [
-        "material",
-        "mesoporous"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。"
-  },
-  {
-    "title": "Matcha-Assisted Synthesis of a NiCo2O4−ZnO-rGO Ternary Nanoarchitecture for Nanomolar Level Electrochemical Dopamine Detection",
-    "abstract": "Abstract Developing cost-effective, environmentally benign and highly sensitive electrocatalysts for neurochemical sensing remains a crucial goal in bioanalytical chemistry. Herein, we report a green, hydrothermal strategy for synthesizing a NiCo2O4−ZnO-reduced graphene oxide (rGO) ternary nanoarchitecture using matcha green tea extract as a multifunctional stabilizing and reducing agent. The bioactive phytochemicals in matcha mediated the simultaneous nucleation of redox-active NiCo2O4, ZnO nanoparticles alongside the partial reduction of graphene oxide, forming an interconnected conductive network without toxic chemical reductants. Structural and morphological characterizations confirmed the successful integration of all three functional phases. Electrochemical assessments via cyclic voltammetry (CV) revealed that the NiCo2O4−ZnO-rGO exhibited the highest oxidation peak current of 6.24 μA, compared with 1.13 μA for bare GCE and around 3−5 μA for individual and binary modified electrodes, displaying a superior electrocatalytic oxidation current for dopamine (DA) driven by synergistic charge transfer between the multi-valence transition metals and the highly conductive rGO framework. Chronoamperometric analysis demonstrated a broad working range of 0.02−300 μM, comprising three linear regions of 0.02−0.10, 0.20−8, and 10−300 μM. The low-concentration region exhibited the highest sensitivity of 8.409 μA cm-2 μM-1 with an LOD of 8.9 nM. CV calibration showed two linear regions of 2−8 and 10−100 μM, with an LOD of 71 nM determined from the low-concentration region. Furthermore, the sensor demonstrates excellent anti-interference capabilities in the simultaneous presence of uric acid, ascorbic acid and glucose, alongside robust reproducibility, repeatability and operational stability. This work establishes a sustainable, facile synthesis route for high-performance non-precious nanomaterials in clinical and neurochemical diagnostic applications.",
-    "authors": [
-      "Kashfia Nawrin",
-      "Lutfia Isna Ardhayanti",
-      "Kanta Miyake",
-      "Shintaro Ida",
-      "Satsuki Tomatsu",
-      "Yoshihiro Sekine",
-      "Shinya Hayami"
-    ],
-    "institutions": [],
-    "published": "2026-11-23",
-    "journal": "ACS Applied Nano Materials",
-    "doi": "10.1021/acsanm.6c04148",
-    "url": "https://doi.org/10.1021/acsanm.6c04148",
-    "sources": [
-      "Crossref"
-    ],
-    "score": 27,
-    "scores": {
-      "topic": 12,
-      "method": 2,
-      "quality": 0,
-      "novelty": 8,
-      "network": 0,
-      "applied": 2,
-      "archive": 3,
-      "penalty": 0
-    },
-    "quality_tier": "standard",
-    "quality_hits": [],
-    "hits": {
-      "framework": [],
-      "conductive": [
-        "conductive"
-      ],
-      "mesoporous": [],
-      "assembly": [
-        "nucleation"
-      ],
-      "electrochemical": [],
-      "materials": [
-        "nanomaterials",
-        "oxide"
-      ]
-    },
-    "network_hits": [],
-    "excluded_hits": [],
-    "reading_depth": "摘要",
-    "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。"
   }
 ]
