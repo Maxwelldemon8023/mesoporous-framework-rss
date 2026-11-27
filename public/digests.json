@@ -1,5 +1,632 @@
 [
   {
+    "date": "2026-11-26",
+    "search_start": "2026-11-24",
+    "generated_at": "2026-11-27T01:00:34Z",
+    "papers": [
+      {
+        "title": "Linker Conjugation Engineering of Covalent Organic Frameworks for Efficient H 2 O 2 Electrosynthesis in Neutral Media",
+        "abstract": "Covalent organic frameworks (COFs) are promising molecularly versatile electrocatalysts for H 2 O 2 production through the two‐electron oxygen reduction reaction (2e − ORR). Most COF‐based catalysts operate in alkaline media, which results in rapid H 2 O 2 decomposition and limits product accumulation. Thus, developing catalytic COFs for efficient neutral H 2 O 2 systems remains highly challenging. Herein, two tetraphenylethylene (TPE)‐based COFs (TPE‐EDA‐COF and TPE‐ADA‐COF) have been constructed to catalyze 2e − ORR in neutral media. The conjugated degree of COFs was modulated by inserting C─C and C≡C bonds in the linkers. By introducing the C≡C bond in the linker, TPE‐ADA‐COF showed enhanced π‐conjugation, narrowed the optical bandgap, and facilitated charge transport. The TPE‐ADA‐COF exhibited an H 2 O 2 selectivity of 86.0% and a mass activity of 26.83 A g −1 at a potential of 0.01 V versus RHE, while TPE‐EDA‐COF showed lower selectivity of 80.9% and mass activity of 25.67 A g −1. At 180 mA cm −2, the flow cell delivered an H 2 O 2 productivity of approximately 4920 mmol g −1 h −1. In a separate stability test conducted at 20 mA cm −2, the flow cell operated continuously for 60 h with an average Faradaic efficiency of approximately 87%. These results establish linker‐conjugation engineering as an effective strategy for neutral H 2 O 2 electrosynthesis using metal‐free COFs.",
+        "authors": [
+          "Shijie Ma",
+          "Junlong Xie",
+          "Yue Wang",
+          "Xiaoyu Xu",
+          "Chengbing Yu",
+          "Zheng Peng",
+          "Qing Xu",
+          "Gaofeng Zeng"
+        ],
+        "institutions": [
+          "Shanghai University",
+          "Chinese Academy of Sciences",
+          "Shanghai Advanced Research Institute",
+          "University of Nottingham Ningbo China",
+          "Chinese Academy of Sciences",
+          "Shanghai Advanced Research Institute",
+          "Chinese Academy of Sciences",
+          "Shanghai Advanced Research Institute",
+          "University of Chinese Academy of Sciences",
+          "Chinese Academy of Sciences",
+          "Shanghai Advanced Research Institute",
+          "Shanghai University",
+          "ShanghaiTech University",
+          "Chinese Academy of Sciences",
+          "Shanghai Advanced Research Institute",
+          "University of Chinese Academy of Sciences",
+          "Chinese Academy of Sciences",
+          "Shanghai Advanced Research Institute",
+          "University of Chinese Academy of Sciences"
+        ],
+        "published": "2026-11-24",
+        "journal": "ChemSusChem",
+        "doi": "10.1002/cssc.71255",
+        "openalex_id": "https://openalex.org/W7239441392",
+        "url": "https://doi.org/10.1002/cssc.71255",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 48,
+        "scores": {
+          "topic": 29,
+          "method": 5,
+          "quality": 0,
+          "novelty": 8,
+          "network": 0,
+          "applied": 3,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "standard",
+        "quality_hits": [],
+        "hits": {
+          "framework": [
+            "cof",
+            "cofs",
+            "covalent organic frameworks"
+          ],
+          "conductive": [
+            "charge transport",
+            "conjugated"
+          ],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [
+            "electrosynthesis"
+          ],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中电化学合成、导电/共轭框架，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": true,
+        "title_zh": "共价有机框架的连接基共轭工程用于中性介质中高效H2O2电合成",
+        "summary_zh": "通过插入C─C与C≡C键调控两种TPE基COF的共轭度，发现含C≡C键的TPE-ADA-COF具有更窄带隙和更好电荷传输，在中性介质2e−ORR中实现86.0%的H2O2选择性和26.83 A g−1的质量活性，流动池产率约4920 mmol g−1 h−1。",
+        "research_details_zh": "研究针对多数COF基电催化剂只能在碱性介质中工作、导致H2O2快速分解和产物积累受限的问题，提出在中性介质中开发高效2e−ORR催化COF。作者构建了两种四苯乙烯（TPE）基COF：TPE-EDA-COF和TPE-ADA-COF，通过在连接基中分别插入C─C键与C≡C键来调控共轭程度。摘要报告，引入C≡C键使TPE-ADA-COF的π共轭增强、光学带隙变窄并促进电荷传输。电化学测试表明，在0.01 V vs RHE下TPE-ADA-COF的H2O2选择性为86.0%、质量活性为26.83 A g−1，而TPE-EDA-COF分别为80.9%和25.67 A g−1。在流动池中，180 mA cm−2下H2O2产率约4920 mmol g−1 h−1；另在20 mA cm−2下连续运行60 h，平均法拉第效率约87%。该工作将连接基共轭工程确立为无金属COF用于中性H2O2电合成的有效策略。",
+        "methods_zh": "摘要明确报告的方法包括：合成两种TPE基COF（TPE-EDA-COF与TPE-ADA-COF），通过连接基中C─C与C≡C键的插入调控共轭度；以光学带隙和电荷传输评价共轭效应；在0.01 V vs RHE下测试2e−ORR的H2O2选择性与质量活性；在流动池中于180 mA cm−2测试H2O2产率，并在20 mA cm−2下进行60 h稳定性测试并计算平均法拉第效率。具体合成条件、表征手段和测试细节摘要未报告。",
+        "relevance_zh": "该工作直接关联共轭COF与电化学合成主线，以连接基共轭工程调控COF电子结构并用于中性2e−ORR，提供了选择性、质量活性、流动池产率和稳定性等定量指标，对框架材料电催化设计有实际参考价值。局限在于摘要未报告合成细节、表征证据和活性位点机制，值得全文精读以核查构效关系与稳定性数据。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级信息。COF的具体合成条件、结构表征（如PXRD、BET、光谱）、活性位点归属、选择性测定方法与误差、流动池构型及稳定性测试细节均需全文核查。",
+        "key_findings_zh": [
+          "在连接基中引入C≡C键使TPE-ADA-COF相比含C─C键的TPE-EDA-COF具有增强的π共轭、更窄的光学带隙和改善的电荷传输。",
+          "在0.01 V vs RHE下，TPE-ADA-COF的H2O2选择性为86.0%、质量活性为26.83 A g−1，优于TPE-EDA-COF的80.9%和25.67 A g−1。",
+          "流动池在180 mA cm−2下H2O2产率约4920 mmol g−1 h−1；在20 mA cm−2下连续运行60 h，平均法拉第效率约87%。"
+        ]
+      },
+      {
+        "title": "Hierarchically Porous Metal–Organic Frameworks as Multifunctional Platforms for Synergistic Chemo-Photo-Biocatalytic Enantioselective Synthesis",
+        "abstract": "Abstract Metal–organic frameworks (MOFs) offer a promising platform for the precise customization of multifunctional composites, enabling the optimization of synergistic effects between catalysts and significantly enhancing both stability and catalytic performance. Despite this potential, this idealized system is still in the exploratory stage. Herein, we integrated a chemical catalyst with a photoenzyme-based enantioselective catalytic platform into a single system, achieving the sequential transformation from C2-alkylation to asymmetric Mannich reaction products. A hierarchically porous (HP) UiO-67 material was constructed as the supporting platform. Through a post-synthetic ligand exchange strategy, Pd(II) and Ru(II) catalysts were simultaneously immobilized, while wheat germ lipase (WGL) was encapsulated within the mesoporous channels, yielding the multifunctional catalyst WGL@HP-UiO-67-Pd/Ru. This catalyst afforded satisfactory yields of 62–94% in the C2-arylation reaction and enantioselectivities of 69–93% in the asymmetric Mannich reaction. In this sequential catalytic transformation, the multifunctional catalyst afforded an overall efficiency of 47.6%, corresponding to a 3.8-fold enhancement over the homogeneous catalyst system. These findings provide deeper insight into the role of multifunctional catalysis in sequential reactions and underscore its considerable promise for the asymmetric synthesis of organic compounds and pharmaceutical agents.",
+        "authors": [
+          "Hao Ren",
+          "Xinyi Yu",
+          "Ke Zhao",
+          "Yuxiang Wang",
+          "Ranfeng Wu",
+          "Yuhang Yang",
+          "Lili Song",
+          "Yinliang Huang",
+          "Yi-Ming Li"
+        ],
+        "institutions": [],
+        "published": "2026-11-26",
+        "journal": "ACS Applied Materials &amp; Interfaces",
+        "doi": "10.1021/acsami.6c17089",
+        "url": "https://doi.org/10.1021/acsami.6c17089",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 44,
+        "scores": {
+          "topic": 18,
+          "method": 8,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "ACS Applied Materials & Interfaces"
+        ],
+        "hits": {
+          "framework": [
+            "metal-organic frameworks",
+            "mofs"
+          ],
+          "conductive": [],
+          "mesoporous": [
+            "hierarchically porous",
+            "mesoporous"
+          ],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "material",
+            "mesoporous",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "分级多孔金属有机框架作为多功能平台用于协同化学-光-生物催化对映选择性合成",
+        "summary_zh": "构建分级多孔HP-UiO-67，通过后合成配体交换同时固定Pd(II)与Ru(II)，并在介孔通道中包封小麦胚芽脂肪酶，得到WGL@HP-UiO-67-Pd/Ru，实现从C2-烷基化到不对称Mannich反应的串联转化，总效率47.6%，为均相体系的3.8倍。",
+        "research_details_zh": "研究旨在将化学催化剂与光酶基对映选择性催化平台整合到单一体系，实现从C2-烷基化到不对称Mannich反应产物的顺序转化。作者构建分级多孔（HP）UiO-67作为支撑平台，通过后合成配体交换策略同时固定Pd(II)和Ru(II)催化剂，并将小麦胚芽脂肪酶（WGL）包封在介孔通道内，制得多功能催化剂WGL@HP-UiO-67-Pd/Ru。摘要报告，该催化剂在C2-芳基化反应中给出62–94%的收率，在不对称Mannich反应中给出69–93%的对映选择性；在该顺序催化转化中，多功能催化剂的总效率为47.6%，相比均相催化剂体系提升3.8倍。作者认为这些结果加深了对多功能催化在顺序反应中作用的理解，并显示其在有机化合物和药物不对称合成中的潜力。",
+        "methods_zh": "摘要明确报告的方法包括：构建分级多孔UiO-67作为支撑平台；采用后合成配体交换策略同时固定Pd(II)与Ru(II)催化剂；将小麦胚芽脂肪酶（WGL）包封于介孔通道中；以C2-芳基化反应和不对称Mannich反应评价顺序催化性能，报告收率、对映选择性和总效率，并与均相催化剂体系比较。具体合成条件、表征手段及测试细节摘要未报告。",
+        "relevance_zh": "该工作关联介孔MOF与框架材料多功能组装主线，展示分级多孔UiO-67同时固定化学催化剂、光催化剂并包封酶，实现顺序化学-光-生物催化，提供了收率、对映选择性和总效率等定量结果。局限在于摘要未报告孔结构表征、负载量与稳定性数据，值得全文精读以评估多功能平台的构效关系与适用范围。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级信息。HP-UiO-67的孔结构表征、Pd/Ru负载量与分布、WGL包封效率与泄漏、各催化步骤的独立评价、循环稳定性及总效率计算方法均需全文核查。",
+        "key_findings_zh": [
+          "WGL@HP-UiO-67-Pd/Ru在C2-芳基化反应中收率为62–94%，在不对称Mannich反应中对映选择性为69–93%。",
+          "该多功能催化剂在顺序催化转化中的总效率为47.6%，相比均相催化剂体系提升3.8倍。",
+          "分级多孔UiO-67可同时负载Pd(II)、Ru(II)并包封WGL，实现化学-光-生物催化功能的集成。"
+        ]
+      },
+      {
+        "title": "Ytterbium Metal‐Organic Framework With DNA Hydrogel Switching for ElectroChemiluminescence Biosensing",
+        "abstract": "ABSTRACT Conventional electrochemiluminescence (ECL) biosensors typically rely on stepwise assembly of recognition probes and signal labels directly on electrode surfaces, which suffers from severe fouling and poor reproducibility when dealing with crude plant extracts. Here, we discover that a pre‐reduction treatment at −3 V boosts the cathodic ECL of an ytterbium metal‐organic framework (Yb‐MOF) by 14‐fold through a radical‐accumulation mechanism. Leveraging this emitter, we construct a spatially decoupled biosensor that physically separates target recognition from signal transduction using a DNA hydrogel. In a test tube, CRISPR‐Cas12a activated by the Candidatus Liberibacter asiaticus outer membrane protein ( C Las Omp) gene cleaves a rolling circle amplification derived DNA hydrogel, releasing encapsulated Fe 3 O 4 nanolabels. After magnetic separation, these labels are simply dropped onto the Yb‐MOF electrode, inducing ECL quenching via resonance energy transfer (RET). The ECL change (ΔECL) exhibits a linear relationship with the target concentration over the range of 10 pM to 100 nM, affording a detection limit of 2 pM. Moreover, the sensor demonstrates single‐base mismatch discrimination. The spatial decoupling strategy provides a robust paradigm for plant pathogen surveillance in complex agricultural matrices.",
+        "authors": [
+          "Jinglan Zhang",
+          "Yanru Gao",
+          "Kejing Ren",
+          "Kun Yang",
+          "Jinyang Hu",
+          "Qiang Xu",
+          "Wenjing Wang"
+        ],
+        "institutions": [],
+        "published": "2026-11-26",
+        "journal": "Small",
+        "doi": "10.1002/smll.76246",
+        "url": "https://doi.org/10.1002/smll.76246",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 38,
+        "scores": {
+          "topic": 18,
+          "method": 2,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Small"
+        ],
+        "hits": {
+          "framework": [
+            "metal organic framework",
+            "metal-organic framework",
+            "mof"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "membrane"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "核心推荐",
+        "late_arrival": false,
+        "title_zh": "镱金属有机框架结合DNA水凝胶开关用于电化学发光生物传感",
+        "summary_zh": "发现−3 V预还原处理通过自由基积累机制使Yb-MOF阴极ECL增强14倍，并构建以DNA水凝胶空间解耦识别与信号转导的生物传感器，对C Las Omp基因在10 pM至100 nM范围线性响应，检测限2 pM，可区分单碱基错配。",
+        "research_details_zh": "研究针对传统ECL生物传感器依赖识别探针和信号标签逐步组装于电极表面、在处理粗植物提取物时易污染且重现性差的问题，发现−3 V预还原处理可通过自由基积累机制使镱金属有机框架（Yb-MOF）的阴极ECL增强14倍。基于该发光体，作者构建了空间解耦的生物传感器，利用DNA水凝胶将靶标识别与信号转导物理分离。在试管中，被Candidatus Liberibacter asiaticus外膜蛋白（C Las Omp）基因激活的CRISPR-Cas12a切割滚环扩增衍生的DNA水凝胶，释放封装的Fe3O4纳米标签；磁分离后将其滴加到Yb-MOF电极上，通过共振能量转移（RET）引起ECL猝灭。ECL变化（ΔECL）与靶标浓度在10 pM至100 nM范围内呈线性关系，检测限为2 pM，并可区分单碱基错配。该空间解耦策略为复杂农业基质中的植物病原监测提供了稳健范式。",
+        "methods_zh": "摘要明确报告的方法包括：对Yb-MOF电极施加−3 V预还原处理以增强阴极ECL；构建CRISPR-Cas12a识别C Las Omp基因并切割滚环扩增衍生DNA水凝胶的体系，释放封装的Fe3O4纳米标签；磁分离后将标签滴加至Yb-MOF电极，通过共振能量转移引起ECL猝灭；以ΔECL对靶标浓度作线性响应评价，检测限为2 pM，并进行单碱基错配区分测试。具体合成、表征与测试条件摘要未报告。",
+        "relevance_zh": "该工作关联MOF框架材料与电化学/组装主线，展示Yb-MOF作为ECL发光体，结合DNA水凝胶与CRISPR-Cas12a实现空间解耦生物传感，提供了ECL增强倍数、线性范围和检测限等定量结果。局限在于摘要未报告MOF结构表征、ECL机制细节及复杂基质验证数据，值得全文精读以评估传感稳健性与框架材料作用。",
+        "evidence_note_zh": "本解读仅基于题目与摘要，属摘要级信息。Yb-MOF的合成与结构表征、预还原增强ECL的自由基证据、DNA水凝胶制备与切割效率、RET机制验证、实际样品检测性能及重现性均需全文核查。",
+        "key_findings_zh": [
+          "−3 V预还原处理通过自由基积累机制使Yb-MOF的阴极ECL增强14倍。",
+          "ΔECL与靶标浓度在10 pM至100 nM范围内呈线性关系，检测限为2 pM。",
+          "传感器可区分单碱基错配，并采用DNA水凝胶实现识别与信号转导的空间解耦。"
+        ]
+      },
+      {
+        "title": "Intermetallic‐Reinforced Yolk–Shell Architecture for Long‐Life, High‐Rate Silicon Anodes",
+        "abstract": "Managing Si expansion without sacrificing charge transport remains a key challenge in high‐energy lithium‐ion batteries. In this study, lepidocrocite‐type titanate and graphene oxide nanosheets are used as reactive, spatially programmed precursors to construct a yolk–shell composite comprising a porous Si/SiO x yolk confined within a Ti 5 Si 3 –reduced graphene oxide (rGO) shell (PSiO@TSG‐YS). Layer‐by‐layer assembly, controlled core etching, and magnesiothermic conversion collectively create an internal expansion reservoir, a mechanically reinforcing Ti 5 Si 3 framework, and an electronically percolating rGO network. Microscopy, diffraction, Ti K‐edge X‐ray absorption spectroscopy, and solid‐state 29 Si magic‐angle‐spinning nuclear magnetic resonance spectroscopy verify Ti 5 Si 3 formation and Ti–Si coordination. The resulting architecture limits electrode swelling to 10.9% after 100 cycles and maintains low polarization and diffusion impedance during prolonged cycling. PSiO@TSG‐YS retains 70.5% of its second‐cycle capacity after 3500 cycles at 0.5 A g −1. An NCM811||PSiO@TSG‐YS full cell retains 86.1% of its initial capacity after 250 cycles at 1 C. Reactive nanosheet‐to‐intermetallic conversion thus integrates geometric buffering, interfacial stabilization, and electronic percolation in high‐capacity alloying electrodes.",
+        "authors": [
+          "Minseop Lee",
+          "Hee‐Jun Park",
+          "Kim Jin‐Sung",
+          "Seung‐Min Paek"
+        ],
+        "institutions": [
+          "Kyungpook National University",
+          "Korea Institute of Materials Science",
+          "Kyungpook National University",
+          "Kyungpook National University",
+          "Kyungpook National University"
+        ],
+        "published": "2026-11-24",
+        "journal": "Advanced Science",
+        "doi": "10.1002/advs.78862",
+        "openalex_id": "https://openalex.org/W7239740885",
+        "url": "https://doi.org/10.1002/advs.78862",
+        "sources": [
+          "OpenAlex"
+        ],
+        "score": 35,
+        "scores": {
+          "topic": 12,
+          "method": 2,
+          "quality": 8,
+          "novelty": 8,
+          "network": 0,
+          "applied": 2,
+          "archive": 3,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "Advanced Science"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [
+            "charge transport"
+          ],
+          "mesoporous": [],
+          "assembly": [
+            "assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "coordination",
+            "nanosheet",
+            "oxide",
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "金属间化合物增强的蛋黄壳结构用于长寿命高倍率硅负极",
+        "summary_zh": "以水合氧化铁型钛酸盐与氧化石墨烯纳米片为反应性前驱体，经层层组装、刻蚀和镁热转化构建多孔Si/SiOx蛋黄限域于Ti5Si3-rGO壳层的蛋黄壳复合材料，实现膨胀缓冲、界面稳定与电子渗流一体化，显著提升硅负极循环与倍率性能。",
+        "research_details_zh": "研究针对高能量锂离子电池中硅负极体积膨胀与电荷传输难以兼顾的问题，提出以水合氧化铁型钛酸盐和氧化石墨烯纳米片作为反应性、空间编程前驱体，构建多孔Si/SiOx蛋黄限域在Ti5Si3-还原氧化石墨烯壳层中的蛋黄壳复合材料PSiO@TSG-YS。设计策略通过层层组装、受控核刻蚀和镁热转化，同时形成内部膨胀储库、力学增强的Ti5Si3骨架和电子渗流的rGO网络。研究采用显微术、衍射、Ti K边X射线吸收谱和固态29Si魔角旋转核磁共振验证Ti5Si3的生成及Ti-Si配位。所得结构在100次循环后电极膨胀限制在10.9%，长循环中保持低极化和低扩散阻抗；0.5 A g-1下3500次循环后保留第二圈容量的70.5%；NCM811||PSiO@TSG-YS全电池1 C下250次循环保留初始容量的86.1%。该工作表明反应性纳米片向金属间化合物的转化可将几何缓冲、界面稳定和电子渗流集成于高容量合金化电极。",
+        "methods_zh": "摘要明确采用水合氧化铁型钛酸盐和氧化石墨烯纳米片作为反应性前驱体，通过层层组装、受控核刻蚀和镁热转化构建蛋黄壳复合材料。表征手段包括显微术、衍射、Ti K边X射线吸收谱和固态29Si魔角旋转核磁共振谱，用于验证Ti5Si3形成与Ti-Si配位。性能测试包括电极循环膨胀测量、长循环电化学测试（0.5 A g-1下3500次）及NCM811全电池测试（1 C下250次循环）。",
+        "relevance_zh": "该工作虽以硅负极为对象，但其层层组装、受控刻蚀与反应性纳米片向金属间化合物转化的策略，对框架材料与介孔材料的自组装、界面工程和导电网络构建具有方法学参考价值。研究展示了空间编程前驱体在构建蛋黄壳结构中的潜力，但材料体系并非MOF/COF/HOF，与介孔导电框架主线关联有限，建议作为组装与转化策略的拓展阅读，不必优先全文精读。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读。前驱体具体配比、层层组装层数、刻蚀与镁热条件、Ti5Si3含量、比表面积与孔结构数据、电化学测试细节及统计重复性等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "100次循环后电极膨胀限制在10.9%，长循环中保持低极化和低扩散阻抗。",
+          "0.5 A g-1下3500次循环后保留第二圈容量的70.5%。",
+          "NCM811||PSiO@TSG-YS全电池1 C下250次循环保留初始容量的86.1%。",
+          "显微术、衍射、Ti K边XAS和固态29Si MAS NMR验证Ti5Si3生成及Ti-Si配位。"
+        ]
+      },
+      {
+        "title": "Chiral Bobbers in the Room‐Temperature Magnet Co 8 Zn 10 Mn 2",
+        "abstract": "ABSTRACT Chiral bobbers are three‐dimensional magnetic solitons that emerge near surfaces of chiral magnets with bulk‐type Dzyaloshinskii–Moriya interaction. They can be regarded as skyrmion strings terminated by a Bloch point inside the material. So far, chiral bobbers have been observed only at cryogenic temperatures. Here, we report the direct observation of chiral bobbers in over a broad temperature range, including room temperature. Using Lorentz transmission electron microscopy combined with micromagnetic simulations, we identify a previously unreported nucleation pathway in which skyrmion strings transform into chiral bobbers under an applied magnetic field. We also demonstrate that chiral bobbers on opposite surfaces can be coupled to form double‐bobber states. These findings establish chiral bobbers as room‐temperature magnetic textures and identify their role in the nucleation pathways of topological magnetic solitons.",
+        "authors": [
+          "Donghai Yang",
+          "Luyan Yang",
+          "Vladyslav M. Kuchkin",
+          "Long Li",
+          "Xiaowen Chen",
+          "Wen Shi",
+          "Olle Eriksson",
+          "Xiaodong Han",
+          "Stefan Blügel",
+          "Rafal E. Dunin‐Borkowski",
+          "Haifeng Du",
+          "Filipp N. Rybakov",
+          "Nikolai S. Kiselev",
+          "Fengshan Zheng"
+        ],
+        "institutions": [],
+        "published": "2026-11-24",
+        "journal": "Advanced Materials",
+        "doi": "10.1002/adma.75833",
+        "url": "https://doi.org/10.1002/adma.75833",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 33,
+        "scores": {
+          "topic": 6,
+          "method": 2,
+          "quality": 15,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Advanced Materials"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "nucleation"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "material"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "室温磁体Co8Zn10Mn2中的手性浮标",
+        "summary_zh": "在手性磁体Co8Zn10Mn2中利用洛伦兹透射电镜结合微磁模拟，首次在包括室温的宽温区直接观测到手性浮标，并揭示 skyrmion 弦在外磁场下转变为手性浮标的成核路径及对表面双浮标态的耦合。",
+        "research_details_zh": "研究关注手性浮标这一三维磁性孤子，其通常出现在具有体型Dzyaloshinskii-Moriya相互作用的手性磁体表面附近，可视为被材料内部Bloch点终止的skyrmion弦，此前仅在低温下被观测到。本工作以室温磁体Co8Zn10Mn2为对象，采用洛伦兹透射电子显微镜结合微磁模拟，在包括室温的宽温度范围内直接观测手性浮标。研究识别出一条此前未报道的成核路径，即skyrmion弦在施加磁场下转变为手性浮标，并证明相反表面的手性浮标可耦合形成双浮标态。该发现将手性浮标确立为室温磁织构，并明确其在拓扑磁性孤子成核路径中的作用。",
+        "methods_zh": "摘要明确采用洛伦兹透射电子显微镜对Co8Zn10Mn2进行直接观测，并结合微磁模拟分析磁织构。观测在包括室温的宽温度范围内进行，并通过施加磁场研究skyrmion弦向手性浮标的转变及双浮标态形成。摘要未报告样品制备、温度区间具体数值、磁场大小及模拟参数等细节。",
+        "relevance_zh": "该研究属于拓扑磁性材料与磁织构物理，与介孔导电MOF、共轭框架材料、介孔材料及框架材料电化学合成等主线无直接关联。其价值主要在于拓展对三维磁性孤子与成核路径的认识，对框架材料组装或电化学合成无方法学贡献，不建议纳入框架材料主线精读。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读。具体温区范围、磁场条件、样品厚度与制备、洛伦兹透射电镜成像参数、微磁模拟所用参数及手性浮标尺寸与密度等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "在包括室温的宽温度范围内直接观测到手性浮标。",
+          "识别出skyrmion弦在施加磁场下转变为手性浮标的未报道成核路径。",
+          "证明相反表面的手性浮标可耦合形成双浮标态。"
+        ]
+      },
+      {
+        "title": "Counter-ion confinement reverses ion selectivity in subnanometer channels",
+        "abstract": "Ion transport in nano- and subnanometer channels is central to processes such as ion separation, energy conversion and storage, and nanofluidics. Conventionally, positively charged nanochannels favor anion transport and vice versa. We report that cationic covalent organic framework membranes with sub–one-nanometer channels exhibit selective cation transport. This reversal in selectivity arises from a counter-ion confinement effect, which inverts the electrostatic environment inside the channel wall and creates a secondary confinement region. The counter-ion confinement mechanism concomitantly suppresses coexisting ion competition in mixed-salt systems, enabling membranes to retain high selectivity under practical separation conditions. Our findings provide a design strategy for creating adaptive and highly selective membranes for precise ion transport and separation.",
+        "authors": [
+          "Fangmeng Sheng",
+          "Liang Ge",
+          "Bin Wu",
+          "Xingya Li",
+          "Tongwen Xu"
+        ],
+        "institutions": [],
+        "published": "2026-11-26",
+        "journal": "Science",
+        "doi": "10.1126/science.aef1323",
+        "url": "https://doi.org/10.1126/science.aef1323",
+        "sources": [
+          "Crossref journal watch"
+        ],
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Science"
+        ],
+        "hits": {
+          "framework": [
+            "covalent organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": []
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": false,
+        "title_zh": "反离子限域逆转亚纳米通道中的离子选择性",
+        "summary_zh": "发现阳离子共价有机框架膜在亚纳米通道中呈现选择性阳离子传输，与常规静电预期相反；反离子限域效应反转通道壁内静电环境并形成二次限域区，同时抑制混合盐体系中的离子竞争，使膜在实际分离条件下保持高选择性。",
+        "research_details_zh": "研究针对纳米与亚纳米通道中离子传输这一离子分离、能量转换与存储及纳流控的核心问题。常规认知是带正电的纳米通道偏好阴离子传输，反之亦然。本工作报道阳离子共价有机框架膜在亚一纳米通道中表现出选择性阳离子传输，即选择性发生逆转。机制上，反离子限域效应反转通道壁内部的静电环境并产生二次限域区域；该反离子限域机制同时抑制混合盐体系中共存离子的竞争，使膜在实际分离条件下仍保持高选择性。研究据此提出一种设计自适应、高选择性膜的策略，用于精确离子传输与分离。该发现挑战了基于通道壁电荷符号预测选择性的常规原则，为亚纳米通道膜设计提供了新思路。",
+        "methods_zh": "摘要明确涉及阳离子共价有机框架膜的构建及其亚一纳米通道中的离子传输与分离测试，包括单一盐和混合盐体系下的选择性评估。摘要未报告具体合成方法、通道尺寸表征手段、膜厚度、测试离子种类与浓度、选择性数值及表征技术等细节。",
+        "relevance_zh": "该工作直接涉及共价有机框架膜与亚纳米通道离子传输，对共轭框架材料的孔道化学、限域传输机制与膜分离应用具有重要参考价值，属于高质量框架推荐。其反离子限域概念可为框架材料孔道内静电环境调控提供设计思路，值得全文精读以核查通道结构、反离子种类与选择性定量数据。",
+        "evidence_note_zh": "本解读仅依据题目与摘要，属摘要级解读。COF具体结构、孔道尺寸、反离子种类与含量、膜制备方法、离子选择性数值、混合盐组成及表征手段等关键细节仍需全文核查。",
+        "key_findings_zh": [
+          "阳离子共价有机框架膜的亚纳米通道表现出选择性阳离子传输，逆转了常规静电预期。",
+          "反离子限域效应反转通道壁内静电环境并形成二次限域区域。",
+          "该机制抑制混合盐体系中的共存离子竞争，使膜在实际分离条件下保持高选择性。"
+        ]
+      },
+      {
+        "title": "A Novel Metal‐Hydrogen‐Bonded Organic Framework (M‐HOF) Cathode Material for High‐Performance Lithium–Sulfur Batteries",
+        "abstract": "ABSTRACT Lithium–sulfur (Li–S) batteries (LSBs) are highly promising for next‐generation energy storage devices, yet their practical application is hindered by severe polysulfide shuttling and sluggish sulfur conversion kinetics. Herein, a novel metal‐containing hydrogen‐bonded organic framework (HOF‐21) is constructed and integrated with carbon nanotubes and sulfur as cathode for Li–S batteries. The synergistic combination of hydrogen‐bonding networks and Cu coordination sites enables strong polysulfide anchoring and accelerates sulfur redox conversion. Experimental characterizations and theoretical calculations reveal that the unique framework structure containing metals and rich abundant hydrogen bonds effectively immobilizes soluble lithium polysulfides, while Cu active centers induce interfacial electronic coupling and optimize the thermodynamic conversion pathway of sulfur species. Benefiting from the adsorption–catalysis synergistic regulation, the HOF‐21/CNT@S cathode exhibits enhanced reaction kinetics, suppressed polysulfide migration, and improved interfacial stability. As a result, the assembled HOF‐21/CNT@S battery delivers excellent long‐term cycling stability with a capacity decay rate of only 0.06% per cycle over 500 cycles at 2 C at room temperature. Moreover, it maintains outstanding low‐temperature adaptability, achieving 76.8% capacity retention after 200 cycles at −10°C and 90.6% retention after 200 cycles at −20°C. This work provides a promising strategy for designing advanced cathode materials toward high‐energy‐density Li–S batteries.",
+        "authors": [
+          "Yong Cao",
+          "Kaiyuan Ge",
+          "Meng Zhang",
+          "Rongzheng Li",
+          "Jiazhu Guan",
+          "Yu Liu",
+          "Yuchen Jiang",
+          "Wenping Liu",
+          "Yajuan Zhou",
+          "Lin Chen",
+          "Zhenfeng Li",
+          "Xiaoyi Li",
+          "Liaoyun Zhang"
+        ],
+        "institutions": [
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences",
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences",
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences",
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences",
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences",
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences",
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences",
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences",
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences",
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences",
+          "University of Alberta",
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences",
+          "Academy of Opto-Electronics",
+          "University of Chinese Academy of Sciences"
+        ],
+        "published": "2026-11-24",
+        "journal": "Angewandte Chemie International Edition",
+        "doi": "10.1002/anie.1182005",
+        "openalex_id": "https://openalex.org/W7239887652",
+        "url": "https://doi.org/10.1002/anie.1182005",
+        "sources": [
+          "Crossref",
+          "Crossref journal watch",
+          "OpenAlex"
+        ],
+        "arxiv_id": null,
+        "score": 32,
+        "scores": {
+          "topic": 12,
+          "method": 0,
+          "quality": 15,
+          "novelty": 4,
+          "network": 0,
+          "applied": 0,
+          "archive": 1,
+          "penalty": 0
+        },
+        "quality_tier": "premium",
+        "quality_hits": [
+          "Angewandte Chemie International Edition"
+        ],
+        "hits": {
+          "framework": [
+            "hof",
+            "hydrogen bonded organic framework",
+            "hydrogen-bonded organic framework"
+          ],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [],
+          "electrochemical": [],
+          "materials": [
+            "carbon",
+            "coordination",
+            "material",
+            "materials"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "与晶态多孔框架主题相关，建议根据摘要判断是否进一步阅读。",
+        "selection_tier": "高质量框架推荐",
+        "late_arrival": true,
+        "title_zh": "一种用于高性能锂硫电池的新型金属氢键有机框架（M-HOF）正极材料",
+        "summary_zh": "构建含Cu配位位点的氢键有机框架HOF-21，与碳纳米管和硫复合用作锂硫电池正极。氢键网络与Cu位点协同锚定多硫化物并加速硫转化，2 C下500圈容量衰减仅0.06%每圈，并展现优异低温适应性。",
+        "research_details_zh": "研究针对锂硫电池中多硫化物穿梭严重和硫转化动力学迟缓的问题，设计并构建了一种含金属的氢键有机框架HOF-21，并将其与碳纳米管和硫整合为复合正极。设计策略在于利用氢键网络与Cu配位位点的协同作用：氢键网络提供多硫化物锚定位点，Cu活性中心诱导界面电子耦合并优化硫物种的热力学转化路径。研究过程包括实验表征与理论计算，用于揭示框架结构对可溶性多硫化锂的固定作用以及Cu中心对硫转化路径的调控。结果表明该吸附—催化协同调控赋予正极增强的反应动力学、抑制的多硫化物迁移和改善的界面稳定性。该工作为面向高能量密度锂硫电池的先进正极材料设计提供了策略，其意义在于将金属配位化学与氢键框架组装相结合，拓展了HOF在电化学储能中的应用。",
+        "methods_zh": "摘要明确提到构建含金属的氢键有机框架HOF-21，并将其与碳纳米管和硫整合制备复合正极；采用实验表征与理论计算相结合的方式研究框架结构对多硫化锂的固定作用及Cu中心对硫转化路径的调控；电化学性能通过组装HOF-21/CNT@S电池进行测试，包括室温2 C下500圈长循环以及−10°C和−20°C下各200圈的低温循环测试。摘要未报告具体的合成条件、表征技术名称和理论计算方法细节。",
+        "relevance_zh": "该工作直接关联共轭/氢键框架材料与框架材料电化学应用主线，展示了金属氢键有机框架作为锂硫电池正极宿主材料的吸附—催化协同设计思路，并提供明确的循环稳定性与低温性能定量数据。局限在于摘要未给出HOF-21的具体结构、合成路线及表征细节，机制证据以概括性描述为主。对关注HOF电化学功能化与框架材料能源应用的研究者值得全文精读。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要内容整理。HOF-21的具体化学结构、合成条件、表征手段、理论计算方法、电解液与电池组装细节、容量数值及低温测试条件等关键信息仍需全文核查。",
+        "key_findings_zh": [
+          "HOF-21/CNT@S电池在室温2 C下循环500圈，容量衰减率仅为每圈0.06%",
+          "在−10°C下循环200圈容量保持率为76.8%，在−20°C下循环200圈保持率为90.6%",
+          "实验表征与理论计算表明，含金属和丰富氢键的框架结构可有效固定可溶性多硫化锂，Cu活性中心诱导界面电子耦合并优化硫物种的热力学转化路径",
+          "吸附—催化协同调控带来增强的反应动力学、抑制的多硫化物迁移和改善的界面稳定性"
+        ]
+      },
+      {
+        "title": "Self-Assembly–Galvanic Replacement Route to Conformal Ag Nanoflower Interfaces for Dendrite-Suppressed Zn Anodes",
+        "abstract": "Abstract Rechargeable aqueous Zn anodes are severely limited by sluggish interfacial kinetics and morphological instability. Herein, we report a simple and vacuum-free self-assembly/galvanic replacement strategy that converts a silver nanoplate dispersion into a conformal Ag nanoflower scaffold on Zn foil (Zn@AgNF). This porous and highly wetting metallic interface provides continuous electron-transport pathways and a favorable interfacial environment for Zn nucleation, thereby promoting more uniform Zn deposition and improved interfacial kinetics. Ex situ morphological observations suggest a progressive deposition evolution toward compact Zn deposits with reduced surface oxidation. Symmetric cells exhibit reduced nucleation and growth overpotentials, narrow voltage hysteresis across a wide current-density range, and stable cycling at 10 mA cm–2. In rechargeable Zn–air full cells, Zn@AgNF decreases round-trip polarization and stabilizes interfacial impedance, while improving the full-cell Coulombic efficiency and cycling endurance under the tested conditions (5 mA cm–2 and 1 mAh cm–2). These advantages are maintained in gel electrolytes, in which the cells tolerate repeated bending up to 180°. This work demonstrates a simple solution-based interfacial engineering strategy for improving Zn deposition stability in aqueous Zn-based energy-storage systems.",
+        "authors": [
+          "Anfu Tan",
+          "Jian Xiong",
+          "Wenfeng Cui",
+          "Seiya Tsujimura",
+          "Hisanori Tanimoto"
+        ],
+        "institutions": [],
+        "published": "2026-11-24",
+        "journal": "ACS Applied Materials &amp; Interfaces",
+        "doi": "10.1021/acsami.6c17100",
+        "url": "https://doi.org/10.1021/acsami.6c17100",
+        "sources": [
+          "Crossref"
+        ],
+        "arxiv_id": null,
+        "openalex_id": null,
+        "score": 32,
+        "scores": {
+          "topic": 6,
+          "method": 8,
+          "quality": 8,
+          "novelty": 6,
+          "network": 0,
+          "applied": 2,
+          "archive": 2,
+          "penalty": 0
+        },
+        "quality_tier": "strong",
+        "quality_hits": [
+          "ACS Applied Materials & Interfaces"
+        ],
+        "hits": {
+          "framework": [],
+          "conductive": [],
+          "mesoporous": [],
+          "assembly": [
+            "assembly",
+            "nucleation",
+            "self assembly",
+            "self-assembly"
+          ],
+          "electrochemical": [],
+          "materials": [
+            "porous"
+          ]
+        },
+        "network_hits": [],
+        "excluded_hits": [],
+        "reading_depth": "摘要",
+        "recommendation": "同时命中组装与结晶，建议优先检查其合成路径与孔结构证据。",
+        "selection_tier": "拓展推荐",
+        "late_arrival": true,
+        "title_zh": "自组装—伽伐尼置换路线构建共形Ag纳米花界面用于抑制枝晶的锌负极",
+        "summary_zh": "提出无需真空的自组装/伽伐尼置换策略，将银纳米片分散液转化为锌箔上的共形Ag纳米花骨架。该多孔高润湿金属界面促进均匀锌沉积并改善界面动力学，对称电池在10 mA cm−2下稳定循环，全电池在凝胶电解质中耐受180°弯曲。",
+        "research_details_zh": "研究针对可充电水系锌负极界面动力学迟缓与形貌不稳定的问题，设计了一种简单的无真空自组装/伽伐尼置换策略，将银纳米片分散液转化为锌箔上的共形Ag纳米花骨架（Zn@AgNF）。该多孔且高度润湿的金属界面提供连续电子传输通路，并为锌成核创造有利界面环境，从而促进更均匀的锌沉积和改善的界面动力学。研究通过非原位形貌观察推测沉积逐步演化为更致密、表面氧化减少的锌沉积。对称电池表现出降低的成核与生长过电位、宽电流密度范围内较窄的电压滞后，并在10 mA cm−2下稳定循环。在可充电锌—空气全电池中，Zn@AgNF降低往返极化并稳定界面阻抗，同时在测试条件（5 mA cm−2和1 mAh cm−2）下改善全电池库仑效率和循环耐久性。这些优势在凝胶电解质中得以保持，电池可耐受反复弯曲至180°。该工作展示了一种简单的溶液法界面工程策略，用于提升水系锌基储能体系的锌沉积稳定性。",
+        "methods_zh": "摘要明确报告的方法包括：无真空的自组装/伽伐尼置换策略，由银纳米片分散液在锌箔上形成共形Ag纳米花骨架；采用非原位形貌观察研究锌沉积演化；通过对称电池测试成核与生长过电位、电压滞后及10 mA cm−2下的循环稳定性；组装可充电锌—空气全电池在5 mA cm−2和1 mAh cm−2下评估往返极化、界面阻抗、库仑效率与循环耐久性；并在凝胶电解质中进行弯曲至180°的测试。摘要未报告具体表征技术名称与电解液配方细节。",
+        "relevance_zh": "该工作属于自组装技术与界面工程交叉方向，展示了溶液法自组装结合伽伐尼置换构建多孔金属纳米结构界面的思路，对框架材料之外的组装策略研究具有方法学参考价值。其与介孔导电MOF、共轭框架材料等核心主线的直接关联较弱，且摘要未涉及框架材料本身。对关注自组装界面工程或锌负极改性的读者可作拓展阅读，全文精读的必要性视具体兴趣而定。",
+        "evidence_note_zh": "本条目为摘要级解读，仅依据题目与摘要内容整理。银纳米片分散液的制备、自组装与伽伐尼置换的具体条件、非原位形貌观察的表征手段、电解质组成、全电池构型及弯曲测试细节等关键信息仍需全文核查。",
+        "key_findings_zh": [
+          "自组装/伽伐尼置换策略将银纳米片分散液转化为锌箔上的共形多孔Ag纳米花骨架，无需真空条件",
+          "对称电池在10 mA cm−2下稳定循环，并表现出降低的成核与生长过电位及宽电流密度范围内的窄电压滞后",
+          "锌—空气全电池在5 mA cm−2和1 mAh cm−2测试条件下改善库仑效率与循环耐久性，并稳定界面阻抗",
+          "在凝胶电解质中电池可耐受反复弯曲至180°"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "search_start": "2026-11-23",
     "generated_at": "2026-11-26T09:06:39Z",
@@ -48273,209 +48900,6 @@
           "10小时内累计U(VI)提取量达28855 mg/g，提取速率为2886 mg/g/h，均为已报道材料中的最高值",
           "与多孔类似物CuTTB-4的对比表明，结构稳健性和界面电荷转移动力学主导电化学铀提取，而非孔隙率"
         ]
-      }
-    ]
-  },
-  {
-    "date": "2026-08-18",
-    "generated_at": "2026-08-19T01:57:24Z",
-    "papers": [
-      {
-        "title": "Crystallization‐Driven Helical Conjugated Polymer Nanowires for Circularly Polarized Light‐Addressable Ferroelectric Physical Unclonable Functions",
-        "abstract": "ABSTRACT Supramolecular helices of conjugated polymers (CPs) offer versatile chiroptical selectivity, yet their responses are often limited to passive optical readouts and lack stability as nonvolatile electrical states. Here, we report crystallization‐driven helical CP nanowires (NWs) that enable circularly polarized light (CPL)–addressable ferroelectric physically unclonable functions (PUFs). The crystallization‐driven self‐assembly of P3HT‐ b ‐PMMA, directed by enantiomeric limonene as a chirality trigger, generates P‐ and M‐helical π – π stacked NWs. These nanotemplates are integrated into a ferroelectric poly(vinylidene fluoride‐co‐trifluoroethylene) (P(VDF‐TrFE)) matrix, forming chiral–ferroelectric hybrid films that preserve both molecular stacking of CP and β ‐phase crystallinity of ferroelectric polymer. We demonstrate that the PMMA corona of the NWs mediates the interfacial interaction with the ferroelectric matrix, transcribing supramolecular helicity into helicity‐dependent remanent polarization, establishing handedness‐selective polarization landscapes under CPL excitation. These stochastic spatial polarization states serve as robust multiscale entropy sources, yielding 256‐bit identifiers with near‐ideal bit uniformity (∼0.5) and inter‐device Hamming distance distributions (∼0.4). By stabilizing supramolecular chirality as remanent polarization within an interpenetrated hybrid network, this work establishes a hybrid optoelectric PUF platform that significantly expands the dimension of secure encoding in soft polymer electronics.",
-        "authors": [
-          "Jung‐Min Ji",
-          "Minju Park",
-          "Junyeon Yoon",
-          "Jun Ho Hwang",
-          "Min Seok Kim",
-          "Ji Young Jo",
-          "Young Min Song",
-          "Eunji Lee"
-        ],
-        "institutions": [],
-        "published": "2026-08-18",
-        "journal": "Small",
-        "doi": "10.1002/smll.75282",
-        "url": "https://doi.org/10.1002/smll.75282",
-        "sources": [
-          "Crossref"
-        ],
-        "score": 37,
-        "scores": {
-          "topic": 12,
-          "method": 4,
-          "quality": 8,
-          "novelty": 8,
-          "network": 0,
-          "applied": 2,
-          "archive": 3,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "Small"
-        ],
-        "hits": {
-          "framework": [],
-          "conductive": [
-            "conjugated"
-          ],
-          "mesoporous": [],
-          "assembly": [
-            "self assembly",
-            "self-assembly"
-          ],
-          "electrochemical": [],
-          "materials": [
-            "polymer",
-            "supramolecular"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Crystallization‐Driven Helical Conjugated Polymer Nanowires for Circularly Polarized Light‐Addressable Ferroelectric Physical Unclonable Functions",
-        "summary_zh": "该文围绕导电与共轭特性、组装与结晶过程展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及导电与共轭特性、组装与结晶过程。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中导电/共轭框架、组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Mesoporous LiMn1–xMxPO4 (M = Ni, Co) Precatalysts by Alcohol-Mediated Self-Assembly: Hydroxide Reconstruction and Suppression of Manganese Degradation for Stable Alkaline Oxygen Evolution",
-        "abstract": "Abstract Manganese is an earth-abundant, low-cost transition metal with considerable potential for sustainable electrocatalysis; however, its poor stability under oxidative alkaline conditions remains a major challenge. Herein, we report the fabrication of Ni(II)- and Co(II)-substituted olivine lithium manganese phosphate electrodes, LiMn1–xMxPO4 (M = Ni, Co; x = 0.05, 0.10, and 0.25), through an alcohol-mediated synthesis approach and investigate the effects of solvent and secondary metal incorporation on their structural evolution and alkaline oxygen evolution reaction (OER) performance. The precursor solutions exhibit markedly different precipitation behaviors depending on the solvent. Rapid precipitation of crystalline MnPO4·H2O occurs in ethanol and 1-butanol, whereas precipitation is slower and less extensive in methanol. Increasing Ni(II) concentration suppresses precipitation more effectively than Co(II), improving the stabilization of Mn(II) in solution. Upon calcination, ethanol- and 1-butanol-derived precursors yield predominantly mesoporous olivine LiMn1–xMxPO4 with minor Mn2P2O7 impurities, whereas methanol-derived solutions and supernatants produce phase-pure olivine LiMn1–xMxPO4. Electrochemical studies in 1 M KOH reveal rapid reconstruction of all phosphate electrodes into mixed-metal hydroxides, identifying these hydroxides as the active OER species. Secondary metal incorporation substantially enhances electrode stability by suppressing manganese degradation and promoting stable mixed (Mn,M)(OH)2 active phases.",
-        "authors": [
-          "Arda Altan",
-          "Irmak Karakaya Durukan",
-          "Ömer Dag"
-        ],
-        "institutions": [],
-        "published": "2026-08-18",
-        "journal": "Inorganic Chemistry",
-        "doi": "10.1021/acs.inorgchem.6c03469",
-        "url": "https://doi.org/10.1021/acs.inorgchem.6c03469",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 35,
-        "scores": {
-          "topic": 12,
-          "method": 8,
-          "quality": 0,
-          "novelty": 8,
-          "network": 0,
-          "applied": 4,
-          "archive": 3,
-          "penalty": 0
-        },
-        "quality_tier": "standard",
-        "quality_hits": [],
-        "hits": {
-          "framework": [],
-          "conductive": [],
-          "mesoporous": [
-            "mesoporous"
-          ],
-          "assembly": [
-            "self assembly",
-            "self-assembly"
-          ],
-          "electrochemical": [],
-          "materials": [
-            "crystalline",
-            "mesoporous"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Mesoporous LiMn1–xMxPO4 (M = Ni, Co) Precatalysts by Alcohol-Mediated Self-Assembly: Hydroxide Reconstruction and Suppression of Manganese Degradation for Stable Alkaline Oxygen Evolution",
-        "summary_zh": "该文围绕介孔或分级孔结构、组装与结晶过程展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及介孔或分级孔结构、组装与结晶过程。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中介孔化、组装与结晶，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
-      },
-      {
-        "title": "Chitosan Microspheres Incorporating Doxorubicin-Loaded Mesoporous Silica Nanoparticles as a Potential Multifunctional Platform for Postoperative Osteosarcoma Management",
-        "abstract": "Abstract Osteosarcoma remains a major clinical challenge owing to its high recurrence rate, metastatic potential, and the frequent need for postoperative bone reconstruction. Here, we report a multifunctional platform consisting of doxorubicin-loaded mesoporous silica nanoparticles (DOX@MSN) embedded within chitosan microspheres (DMCS). The DMCS microspheres, with diameters of 100–200 µm, were fabricated by emulsion crosslinking and achieved a DOX encapsulation efficiency of 71.82% and a drug loading content of 17.95%. The platform exhibited pH-responsive drug release, with markedly enhanced DOX release under mildly acidic conditions relevant to the tumor microenvironment. In vitro, DMCS demonstrated favorable hemostatic and antitumor effects, while DOX@MSN showed preferential uptake by K7M2-WT osteosarcoma cells compared with MC3T3-E1 preosteoblasts. In addition, MCS microspheres, used as the DOX-free analog of DMCS, promoted osteogenic differentiation of MC3T3-E1 cells, as evidenced by increased alkaline phosphatase activity, matrix mineralization, and upregulation of osteogenesis-related genes, including Runx2, Col1A1, OPN, and OCN. In vivo, the platform enabled rapid hemostasis, effective inhibition of residual osteosarcoma after resection, and enhanced bone regeneration. Given that this is, to the best of our knowledge, the first attempt to integrate these three key functions within a single postoperative osteosarcoma-oriented system, the primary objective of this proof-of-concept study was to establish clear evidence for each function individually. This work defines key design principles and a functional validation framework for the development of next-generation integrated platforms for postoperative osteosarcoma management.",
-        "authors": [
-          "Qiuchen Luo",
-          "Shuao Dong",
-          "Jiaxin Wang",
-          "Guoqing Zhong",
-          "Xiongfa Ji",
-          "Dalin Wu",
-          "Tiefeng Cao",
-          "Jing Zhu",
-          "Yingou Zhu",
-          "Lin Xiao"
-        ],
-        "institutions": [],
-        "published": "2026-08-18",
-        "journal": "ACS Applied Materials &amp; Interfaces",
-        "doi": "10.1021/acsami.6c10239",
-        "url": "https://doi.org/10.1021/acsami.6c10239",
-        "sources": [
-          "Crossref"
-        ],
-        "arxiv_id": null,
-        "openalex_id": null,
-        "score": 28,
-        "scores": {
-          "topic": 6,
-          "method": 4,
-          "quality": 8,
-          "novelty": 6,
-          "network": 0,
-          "applied": 2,
-          "archive": 2,
-          "penalty": 0
-        },
-        "quality_tier": "strong",
-        "quality_hits": [
-          "ACS Applied Materials & Interfaces"
-        ],
-        "hits": {
-          "framework": [],
-          "conductive": [],
-          "mesoporous": [
-            "mesoporous"
-          ],
-          "assembly": [],
-          "electrochemical": [],
-          "materials": [
-            "mesoporous",
-            "silica"
-          ]
-        },
-        "network_hits": [],
-        "excluded_hits": [],
-        "reading_depth": "摘要",
-        "recommendation": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-        "selection_tier": "拓展推荐",
-        "title_zh": "Chitosan Microspheres Incorporating Doxorubicin-Loaded Mesoporous Silica Nanoparticles as a Potential Multifunctional Platform for Postoperative Osteosarcoma Management",
-        "summary_zh": "该文围绕介孔或分级孔结构展开，值得结合原文进一步判断其方法和结论。",
-        "research_details_zh": "该研究涉及介孔或分级孔结构。自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。",
-        "key_findings_zh": [
-          "自动化来源未提供足够摘要信息，具体材料体系、实验条件、定量数据和性能结论需查阅全文核实。"
-        ],
-        "methods_zh": "请查看原文的方法与表征部分；自动化流程不在证据不足时补写实验细节。",
-        "relevance_zh": "同时命中介孔化，建议优先检查其合成路径与孔结构证据。",
-        "evidence_note_zh": "摘要级解读；以上内容仅依据题目和可获得的摘要信息。"
       }
     ]
   }
